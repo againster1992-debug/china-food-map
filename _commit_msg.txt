@@ -1,8 +1,0 @@
-Initial commit: 中国美食地图
-
-React + Vite + TypeScript 项目，包含 3950 道美食和 354 家知名餐厅数据，
-基于 Leaflet 地图展示，支持按菜系、省份、食材、做法等多维度筛选。
-
-- 数据：80 个 foods-*.ts 文件 + restaurants.ts，已清理死代码
-- 优化：useStore.ts 模块级常量 + 缓存
-- 部署：GitHub Actions 自动部署到 GitHub Pages
