@@ -1,0 +1,593 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Noto Sans SC", system-ui, -apple-system, sans-serif;
+  font-size: 15px;
+  line-height: 1.55;
+  font-weight: 400;
+  color: #1a1614;
+  background-color: #f5efe0;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* 安全区域 insets（iPhone 刘海/底部 Home 条）*/
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-left: env(safe-area-inset-left, 0px);
+  --safe-right: env(safe-area-inset-right, 0px);
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* 防止移动端过度缩放与横向滚动 */
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  overscroll-behavior: none;
+}
+
+/* 移动端使用 dvh 应对动态视口（iOS Safari 地址栏伸缩）*/
+@supports (height: 100dvh) {
+  html,
+  body,
+  #root {
+    height: 100dvh;
+  }
+}
+
+/* 宣纸纹理背景 */
+body {
+  background-color: #f5efe0;
+  background-image:
+    radial-gradient(circle at 15% 25%, rgba(220, 208, 174, 0.22) 0%, transparent 45%),
+    radial-gradient(circle at 85% 75%, rgba(184, 116, 74, 0.10) 0%, transparent 50%),
+    radial-gradient(circle at 50% 50%, rgba(245, 239, 224, 0.5) 0%, transparent 70%);
+}
+
+/* 滚动条样式 - 更紧凑 */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(160, 98, 58, 0.35);
+  border-radius: 3px;
+  transition: background 0.2s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(160, 98, 58, 0.55);
+}
+
+/* Firefox 滚动条 */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(160, 98, 58, 0.35) transparent;
+}
+
+/* iOS 平滑滚动 */
+.scroll-touch {
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
+}
+
+/* Leaflet 地图样式覆盖 */
+.leaflet-container {
+  font-family: "Noto Sans SC", sans-serif !important;
+  background: #e8e0d0;
+}
+
+.leaflet-control-zoom {
+  border: none !important;
+  box-shadow: 0 2px 12px rgba(26, 22, 20, 0.12) !important;
+  border-radius: 8px !important;
+  overflow: hidden;
+  margin-bottom: 20px !important;
+  margin-right: 20px !important;
+}
+
+.leaflet-control-zoom a {
+  background: rgba(251, 247, 236, 0.95) !important;
+  color: #2a2520 !important;
+  border: none !important;
+  width: 32px !important;
+  height: 32px !important;
+  line-height: 32px !important;
+  font-size: 16px !important;
+  font-weight: 300 !important;
+  transition: all 0.2s ease;
+}
+
+.leaflet-control-zoom a:hover {
+  background: #c8392e !important;
+  color: #fbf7ec !important;
+}
+
+.leaflet-control-zoom a:first-child {
+  border-bottom: 1px solid rgba(160, 98, 58, 0.15) !important;
+}
+
+.leaflet-control-attribution {
+  background: rgba(251, 247, 236, 0.85) !important;
+  color: #4a4239 !important;
+  font-size: 10px !important;
+  padding: 2px 6px !important;
+  border-radius: 6px 0 0 0 !important;
+}
+
+.leaflet-control-attribution a {
+  color: #2c5f7c !important;
+}
+
+/* 自定义标记样式 */
+.food-marker {
+  background: transparent !important;
+  border: none !important;
+}
+
+.food-marker-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.food-marker-inner:hover {
+  transform: scale(1.15);
+  z-index: 1000;
+}
+
+/* 缩略图标记 - 传统美食 */
+.marker-thumb {
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  border: 3px solid #fbf7ec;
+  background: linear-gradient(135deg, #c8392e 0%, #a82d24 100%);
+  box-shadow: 0 2px 8px rgba(26, 22, 20, 0.3);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.marker-thumb img {
+  width: 100%;
+  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  display: block;
+  position: relative;
+  z-index: 1;
+}
+
+/* 图片加载成功后隐藏占位文字 */
+.marker-thumb.img-loaded .marker-thumb-name,
+.marker-province.img-loaded .marker-thumb-name {
+  opacity: 0 !important;
+}
+
+.marker-thumb-name {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Noto Serif SC", serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fbf7ec;
+  opacity: 1;
+  transition: opacity 0.2s;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.marker-thumb-fallback {
+  background: linear-gradient(135deg, #c8392e 0%, #a82d24 100%);
+}
+
+.marker-thumb-fallback img {
+  display: none !important;
+}
+
+.marker-thumb-fallback .marker-thumb-name {
+  opacity: 1;
+}
+
+.marker-thumb-traditional {
+  border-color: #c8392e;
+  box-shadow:
+    0 2px 10px rgba(200, 57, 46, 0.4),
+    0 0 0 1px rgba(200, 57, 46, 0.2);
+}
+
+.marker-thumb-popular {
+  border-color: #2c5f7c;
+  border-radius: 50% 50% 50% 0;
+  transform: rotate(-45deg);
+  box-shadow:
+    0 2px 10px rgba(44, 95, 124, 0.4),
+    0 0 0 1px rgba(44, 95, 124, 0.2);
+}
+
+.marker-thumb-popular img {
+  /* 旋转后需放大足够倍数以完全覆盖水滴形容器，避免出现半图半色块 */
+  transform: rotate(45deg) scale(1.85);
+  transform-origin: center center;
+}
+
+.marker-thumb-popular .marker-thumb-name {
+  transform: rotate(45deg);
+}
+
+.marker-thumb-tradition {
+  border-color: #059669;
+  border-style: dashed;
+  border-width: 3px;
+  box-shadow:
+    0 2px 10px rgba(5, 150, 105, 0.4),
+    0 0 0 1px rgba(5, 150, 105, 0.2);
+}
+
+/* 标记选中态 */
+.marker-selected {
+  z-index: 1000 !important;
+}
+
+.marker-selected.marker-thumb-traditional {
+  box-shadow:
+    0 0 0 4px rgba(200, 57, 46, 0.25),
+    0 4px 16px rgba(200, 57, 46, 0.5);
+}
+
+.marker-selected.marker-thumb-popular {
+  box-shadow:
+    0 0 0 4px rgba(44, 95, 124, 0.25),
+    0 4px 16px rgba(44, 95, 124, 0.45);
+}
+
+.marker-selected.marker-thumb-tradition {
+  box-shadow:
+    0 0 0 4px rgba(5, 150, 105, 0.25),
+    0 4px 16px rgba(5, 150, 105, 0.5);
+}
+
+/* 聚类标记样式 */
+.marker-cluster {
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  border: 3px solid #fbf7ec;
+  background: linear-gradient(135deg, #c8392e 0%, #a82d24 100%);
+  box-shadow: 0 2px 12px rgba(26, 22, 20, 0.4);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.marker-cluster img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  display: block;
+}
+
+.marker-cluster-badge {
+  position: absolute;
+  right: -4px;
+  bottom: -4px;
+  min-width: 18px;
+  height: 18px;
+  border-radius: 9px;
+  background: #c8392e;
+  color: #fbf7ec;
+  font-size: 11px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 4px;
+  border: 2px solid #fbf7ec;
+  font-family: "Noto Sans SC", sans-serif;
+}
+
+/* 美食数量徽章（显示在图标外侧） */
+.marker-count-badge {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  min-width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background: #c8392e;
+  color: #fbf7ec;
+  font-size: 11px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 5px;
+  border: 2px solid #fbf7ec;
+  font-family: "Noto Sans SC", sans-serif;
+  box-shadow: 0 1px 4px rgba(200, 57, 46, 0.4);
+  z-index: 10;
+}
+
+/* 省份代表菜标记样式 */
+.marker-province {
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  border: 3px solid #fbf7ec;
+  background: linear-gradient(135deg, #c8392e 0%, #a82d24 100%);
+  box-shadow: 0 2px 12px rgba(26, 22, 20, 0.4);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  cursor: pointer;
+}
+
+.marker-province:hover {
+  transform: scale(1.1);
+  z-index: 1000;
+}
+
+.marker-province img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  display: block;
+}
+
+.marker-province .marker-thumb-name {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 10px;
+  color: #fbf7ec;
+  background: rgba(26, 22, 20, 0.6);
+  padding: 1px 0;
+  font-family: "Noto Serif SC", serif;
+}
+
+.marker-thumb-fallback .marker-thumb-name {
+  display: block;
+  font-size: 14px;
+  padding: 4px 0;
+}
+
+.province-count-badge {
+  background: #2c5f7c;
+  box-shadow: 0 1px 4px rgba(44, 95, 124, 0.4);
+}
+
+/* 「特」字旗帜标记样式 */
+.feature-flag-marker {
+  pointer-events: auto;
+}
+
+.feature-flag {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  filter: drop-shadow(0 2px 4px rgba(26, 22, 20, 0.35));
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.feature-flag:hover {
+  transform: scale(1.15);
+}
+
+.feature-flag-pole {
+  position: absolute;
+  left: 3px;
+  top: 0;
+  width: 2px;
+  height: 30px;
+  background: linear-gradient(to bottom, #8b6f47, #5a4a33);
+  border-radius: 1px;
+}
+
+.feature-flag-body {
+  position: absolute;
+  left: 5px;
+  top: 1px;
+  width: 22px;
+  height: 18px;
+  background: linear-gradient(135deg, #c8392e 0%, #d4453a 100%);
+  border-radius: 2px 4px 4px 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.feature-flag-body::after {
+  content: "";
+  position: absolute;
+  right: -6px;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-top: 9px solid transparent;
+  border-bottom: 9px solid transparent;
+  border-left: 6px solid #c8392e;
+}
+
+.feature-flag-text {
+  color: #fbf7ec;
+  font-family: "Noto Serif SC", serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+/* Leaflet Popup 样式 */
+.leaflet-popup-content-wrapper {
+  background: #fbf7ec !important;
+  border-radius: 10px !important;
+  box-shadow: 0 8px 30px -10px rgba(26, 22, 20, 0.3) !important;
+  border: 1px solid rgba(160, 98, 58, 0.12) !important;
+}
+
+.leaflet-popup-content {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.leaflet-popup-tip {
+  background: #fbf7ec !important;
+}
+
+/* 印章装饰 */
+.seal-stamp {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #c8392e;
+  color: #fbf7ec;
+  font-family: "Noto Serif SC", serif;
+  font-weight: 700;
+  border-radius: 4px;
+  padding: 2px 6px;
+  font-size: 11px;
+  letter-spacing: 0.05em;
+  box-shadow: 0 1px 3px rgba(200, 57, 46, 0.4);
+}
+
+/* 文字选中色 */
+::selection {
+  background: rgba(200, 57, 46, 0.2);
+  color: #1a1614;
+}
+
+/* ========================================
+   面板字体优化 - 紧凑清晰
+   ======================================== */
+
+/* 右侧面板宽度：桌面端放宽，移动端全屏 */
+aside.fixed.right-0 {
+  max-width: min(34rem, 100vw) !important;
+}
+
+/* 移动端右侧面板全屏并避开安全区 */
+@media (max-width: 640px) {
+  aside.fixed.right-0 {
+    width: 100vw !important;
+    max-width: 100vw !important;
+    padding-left: var(--safe-left);
+    padding-right: var(--safe-right);
+  }
+
+  /* 顶部栏避开刘海 */
+  header {
+    padding-top: var(--safe-top) !important;
+  }
+
+  /* Leaflet 控件避开底部 Home 条 */
+  .leaflet-control-zoom {
+    margin-bottom: calc(20px + var(--safe-bottom)) !important;
+  }
+
+  .leaflet-control-attribution {
+    margin-bottom: var(--safe-bottom) !important;
+  }
+
+  /* 详情面板图片高度更紧凑 */
+  aside.fixed.right-0 .h-56,
+  aside.fixed.right-0 .h-64 {
+    height: 12rem !important;
+  }
+
+  /* 详情面板标题缩小 */
+  aside.fixed.right-0 h2 {
+    font-size: 1.5rem !important;
+  }
+}
+
+/* 右侧面板标题 */
+aside.fixed.right-0 h2 {
+  font-size: 1.35rem !important;
+  letter-spacing: 0.02em;
+}
+
+aside.fixed.right-0 h3 {
+  font-size: 1.05rem !important;
+}
+
+/* 右侧面板正文 */
+aside.fixed.right-0 p {
+  line-height: 1.65 !important;
+}
+
+/* 小标签适度放大 */
+aside.fixed.right-0 .text-\[10px\] {
+  font-size: 11px !important;
+}
+
+aside.fixed.right-0 .text-\[11px\] {
+  font-size: 12px !important;
+}
+
+/* 左侧边栏紧凑 */
+aside.fixed.left-0 .text-\[10px\] {
+  font-size: 10px !important;
+}
+
+aside.fixed.left-0 .text-\[11px\] {
+  font-size: 11px !important;
+}
+
+/* 顶部导航栏紧凑 */
+header nav {
+  font-size: 14px;
+}
+
+/* ========================================
+   移动端触摸优化
+   ======================================== */
+
+/* 防止长按选中文字（移动端原生体验）*/
+button,
+.food-marker-inner,
+.marker-thumb,
+.marker-province {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* 提升按钮触摸区域（44px 最小尺寸）*/
+@media (max-width: 640px) {
+  header button,
+  aside button {
+    min-height: 36px;
+  }
+}
+
+/* 输入框聚焦时禁止 iOS 自动放大（字体≥16px）*/
+@media (max-width: 640px) {
+  input[type="text"],
+  input[type="search"],
+  textarea,
+  select {
+    font-size: 16px !important;
+  }
+}
