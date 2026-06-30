@@ -507,7 +507,7 @@ export const FOODS_TRADITIONS: Food[] = [
   // 重庆火锅文化
   {
     id: "tradition-chongqing-hotpot-culture",
-    name: "火锅文化",
+    name: "重庆火锅文化",
     alias: ["老火锅", "山城火锅"],
     image: "https://img2.baidu.com/it/u=416502283,1919211557&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=736",
     category: "主菜",
@@ -1391,7 +1391,7 @@ export const FOODS_TRADITIONS: Food[] = [
   // 苏州面馆文化
   {
     id: "tradition-suzhou-noodle-house",
-    name: "面馆文化",
+    name: "苏州面馆文化",
     alias: ["苏式汤面", "头汤面"],
     image: "https://img1.baidu.com/it/u=2057682052,3417089680&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500",
     category: "面食",
@@ -1515,7 +1515,7 @@ export const FOODS_TRADITIONS: Food[] = [
   {
     id: "tradition-zhejiang-hangbang-cuisine",
     name: "杭帮菜文化",
-    alias: ["菜文化", "浙菜杭帮传统"],
+    alias: ["杭州菜文化", "浙菜杭帮传统"],
     image: "https://img1.baidu.com/it/u=3611858960,1039758444&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1067",
     category: "主菜",
     taste: "清淡",
@@ -1561,7 +1561,7 @@ export const FOODS_TRADITIONS: Food[] = [
   // ========== 鲁菜补充（四大菜系，原2项）==========
   {
     id: "tradition-shandong-jinan-cuisine",
-    name: "菜文化",
+    name: "济南菜文化",
     alias: ["历下菜", "齐鲁菜文化"],
     image: "https://img1.baidu.com/it/u=1856631200,787677&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500",
     category: "主菜",
@@ -1608,7 +1608,7 @@ export const FOODS_TRADITIONS: Food[] = [
   // ========== 川菜补充（四大菜系，原2项）==========
   {
     id: "tradition-sichuan-chengdu-snacks",
-    name: "小吃文化",
+    name: "成都小吃文化",
     alias: ["蓉城小吃", "川味小吃传统"],
     image: "https://img0.baidu.com/it/u=1856912464,2905606002&fm=253&fmt=auto&app=120&f=JPEG?w=1200&h=800",
     category: "小吃",

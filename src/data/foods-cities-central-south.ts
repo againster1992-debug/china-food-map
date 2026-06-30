@@ -1165,8 +1165,8 @@ export const FOODS_CITIES_CENTRAL_SOUTH: Food[] = [
   },
   {
     "id": "city-central-qufu-1",
-    "name": "孔府诗礼银杏",
-    "alias": ["诗礼银杏"],
+    "name": "诗礼银杏",
+    "alias": ["孔府诗礼银杏"],
     "category": "甜品",
     "taste": "香甜",
     "type": "traditional",

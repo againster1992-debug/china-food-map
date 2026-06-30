@@ -1,28 +1,7 @@
-﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
 
 export const FOODS_BATCH29_FAMOUS100: Food[] = [
-{
-  id: "batch29-famous-002",
-  name: "红肠",
-  alias: ["俄式红肠","黑龙江红肠"],
-  image: "https://img2.baidu.com/it/u=427208049,208926660&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=653",
-  category: "腌腊",
-  taste: "咸鲜",
-  type: "traditional",
-  cuisine: "东北菜",
-  province: "黑龙江",
-  city: "哈尔滨",
-  origin: "黑龙江哈尔滨俄式工艺传入，秋林百年老号",
-  description: "红肠以猪肉加蒜香灌制，果木熏制。外皮枣红微皱、蒜香浓郁肉嫩多汁，是哈尔滨城市符号。秋林里道斯最正宗，从俄侨传入已成东北符号。",
-  ingredients: ["猪肉", "蒜", "盐"],
-  cookingMethod: ["熏","煮"],
-  tags: ["咸鲜", "腌腊", "东北菜", "黑龙江", "哈尔滨", "秋林", "俄式", "符号"],
-  fame: "地方名吃",
-  popularRegions: ["黑龙江","全国"],
-  lat: 45.8038,
-  lng: 126.535,
-  popularity: 9,
-},
+// 「红肠」已合并至「哈尔滨红肠」(foods-cities-north.ts city-north-harbin-1) - 同地同物异名
 {
   id: "batch29-famous-010",
   name: "广东烧鹅",
