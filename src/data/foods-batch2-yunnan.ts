@@ -969,7 +969,7 @@ export const FOODS_BATCH2_YUNNAN: Food[] = [
     ingredients: ["豆腐", "猪肉", "蒜", "酱油", "盐"],
     cookingMethod: ["烧"],
     tags: ["咸鲜", "主菜", "川菜", "豆腐", "白油", "家常"],
-    fame: "热门",
+    fame: "名菜",
     popularRegions: ["四川"],
     lat: 30.5728,
     lng: 104.0668,

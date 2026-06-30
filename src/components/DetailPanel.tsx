@@ -339,13 +339,13 @@ export default function DetailPanel() {
       </div>
 
       <div className="flex-1 overflow-y-auto">
-        {/* 图片 */}
-        <div className="relative h-56 w-full overflow-hidden bg-paper-200 md:h-64">
+        {/* 图片：按原图长宽比显示，最高不超过 420px */}
+        <div className="relative w-full overflow-hidden bg-paper-200">
           <img
             src={food.image}
             alt={food.name}
             referrerPolicy="no-referrer"
-            className="h-full w-full object-cover"
+            className="block max-h-[420px] w-full object-contain"
             onError={(e) => {
               const target = e.target as HTMLImageElement;
               target.style.display = "none";

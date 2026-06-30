@@ -55,7 +55,7 @@ export const FOODS_BATCH15_REGIONAL_TRENDS: Food[] = [
     id: "batch15-qinghai-2",
     name: "酸辣里脊",
     alias: ["青海酸辣里脊", "老八盘里脊"],
-    image: "https://img1.baidu.com/it/u=240696625,398100381&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=889",
+    image: "https://img1.baidu.com/it/u=1164021037,3041794616&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1067",
     category: "主菜",
     taste: "酸辣",
     type: "traditional",

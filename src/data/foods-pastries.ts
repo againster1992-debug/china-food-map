@@ -180,11 +180,11 @@ export const FOODS_PASTRIES: Food[] = [
     ingredients: ["糯米", "糖", "猪肉", "芝麻"],
     cookingMethod: ["拌", "蒸"],
     tags: ["糕点", "贡品", "传统", "酥脆", "甜", "桂菜", "广西"],
-    fame: "热门",
+    fame: "名菜",
     popularRegions: ["广西"],
     lat: 24.3265,
     lng: 109.4286,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "pastry-28",

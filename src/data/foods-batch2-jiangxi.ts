@@ -210,7 +210,7 @@ export const FOODS_BATCH2_JIANGXI: Food[] = [
   },
   {
     id: "jx-b2-10",
-    name: "兴国米粉鱼",
+    name: "米粉鱼",
     alias: ["兴国粉蒸鱼", "米粉蒸鱼"],
     image: "https://img1.baidu.com/it/u=3831431081,80001581&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=667",
     category: "主菜",

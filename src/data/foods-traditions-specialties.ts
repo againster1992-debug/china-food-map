@@ -1,4 +1,4 @@
-import type { Food } from "@/types/food";
+﻿import type { Food } from "@/types/food";
 
 // 饮食传统与地方特色美食
 // 1. 饮食传统：海南老爸茶、广式早茶、广式凉茶、香港茶餐厅等
@@ -146,7 +146,7 @@ export const FOODS_TRADITIONS_SPECIALTIES: Food[] = [
   // 景德镇冷粉（江西景德镇）
   {
     id: "specialty-jingdezhen-lengfen",
-    name: "景德镇冷粉",
+    name: "冷粉",
     alias: ["景德镇拌粉", "冷粉"],
     image: "https://img1.baidu.com/it/u=1467820231,292520224&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=667",
     category: "小吃",

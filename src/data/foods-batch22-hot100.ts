@@ -60,36 +60,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   popularity: 5
 },
 // 「酸辣无骨鸡爪杯」已合并至「柠檬酸辣鸡爪杯」(batch25-hot-008)
-{
-  id: "batch22-hot-6",
-  name: "红糖麻薯烤年糕",
-  image: "https://img0.baidu.com/it/u=2239826817,2928575384&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=653",
-  category: "主食",
-  taste: "香甜",
-  type: "popular",
-  cuisine: "其他",
-  province: "全国",
-  origin: "将日式烤年糕与台式麻薯结合，红糖增香，是秋冬甜品店常客。",
-  description: "红糖麻薯烤年糕以糯米粉、红糖、牛奶、油为主料，烤、蒸而成，香甜饱腹，是受欢迎的便捷主食。",
-  ingredients: [
-    "糯米粉",
-    "红糖",
-    "牛奶",
-    "油"
-  ],
-  cookingMethod: [
-    "烤",
-    "蒸"
-  ],
-  tags: ["香甜", "主食", "其他", "热门", "网红", "早餐", "甜味"],
-  fame: "热门",
-  popularRegions: [
-    "全国"
-  ],
-  lat: 35,
-  lng: 105,
-  popularity: 6
-},
+  // 「红糖麻薯烤年糕」已合并至「红糖麻薯脆皮年糕」(foods-batch28-hot100.ts batch28-hot-028) - 同地同物异名
 {
   id: "batch22-hot-7",
   name: "淀粉肠千层堡",
@@ -1019,36 +990,6 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   popularity: 9
 },
 {
-  id: "batch22-hot-41",
-  name: "瀑布土豆泥拌粉",
-  image: "https://img1.baidu.com/it/u=3321946170,3818784677&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=889",
-  category: "主食",
-  taste: "咸鲜",
-  type: "popular",
-  cuisine: "其他",
-  province: "全国",
-  origin: "土豆泥如瀑布般覆盖米粉，视觉冲击强，社交平台爆款。",
-  description: "瀑布土豆泥拌粉以土豆、米粉、奶酪、辣椒为主料，煮、拌而成，咸鲜饱腹，是受欢迎的便捷主食。",
-  ingredients: [
-    "土豆",
-    "米粉",
-    "奶酪",
-    "辣椒"
-  ],
-  cookingMethod: [
-    "煮",
-    "拌"
-  ],
-  tags: ["咸鲜", "主食", "其他", "热门", "网红", "早餐"],
-  fame: "热门",
-  popularRegions: [
-    "全国"
-  ],
-  lat: 35,
-  lng: 105,
-  popularity: 9
-},
-{
   id: "batch22-hot-42",
   name: "土豆泥拌面",
   image: "https://img1.baidu.com/it/u=2164102252,915677376&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=653",
@@ -1076,33 +1017,6 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
-},
-{
-  id: "batch22-hot-43",
-  name: "黏糊麻辣烫",
-  alias: ["东北黏糊麻辣烫"],
-  image: "https://img2.baidu.com/it/u=3725020842,4105515842&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=889",
-  category: "主菜",
-  taste: "麻辣",
-  type: "popular",
-  cuisine: "东北菜",
-  province: "吉林",
-  city: "吉林",
-  origin: "吉林老式麻辣烫加大量麻酱，汤汁浓稠，近年风靡短视频。",
-  description: "黏糊麻辣烫以蔬菜、鱼丸、粉丝、麻酱等为主料，煮、拌而成，麻辣突出，是餐饮市场的热门选择。",
-  ingredients: ["蔬菜", "鱼蛋", "粉丝", "芝麻酱", "辣椒"],
-  cookingMethod: [
-    "煮",
-    "拌"
-  ],
-  tags: ["麻辣", "主菜", "东北菜", "吉林", "长春", "热门", "网红", "辣味"],
-  fame: "热门",
-  popularRegions: [
-    "全国"
-  ],
-  lat: 43.8171,
-  lng: 125.3235,
   popularity: 9
 },
 {
@@ -1512,7 +1426,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 20.0174,
   lng: 110.3492,
-  popularity: 9,
+  popularity: 8,
   city: "海口"
 },
 {
@@ -1941,7 +1855,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 26.647,
   lng: 106.63,
-  popularity: 9
+  popularity: 8
 },
 
   
@@ -1967,7 +1881,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 23.1291,
   lng: 113.2644,
-  popularity: 9,
+  popularity: 7,
   city: "广州"
 },
 {
@@ -2001,7 +1915,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 24.3265,
   lng: 109.4285,
-  popularity: 9
+  popularity: 8
 },
 // 「柠檬凤爪」已合并至「柠檬酸辣鸡爪杯」(batch25-hot-008)
 {
@@ -2171,93 +2085,8 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   lng: 105,
   popularity: 9
 },
-{
-  id: "batch22-hot-87",
-  name: "舒芙蕾松饼",
-  image: "https://img2.baidu.com/it/u=2938029201,395901307&fm=253&fmt=auto&app=138&f=PNG?w=500&h=611",
-  category: "甜品",
-  taste: "香甜",
-  type: "popular",
-  cuisine: "其他",
-  province: "全国",
-  origin: "日式松饼，以打发蛋白营造空气感。",
-  description: "舒芙蕾松饼选用鸡蛋、牛奶、面粉、糖等制作，煎、打发而成，口感香甜，是甜品界的热门单品。",
-  ingredients: [
-    "鸡蛋",
-    "牛奶",
-    "面粉",
-    "糖"
-  ],
-  cookingMethod: [
-    "煎",
-    "打发"
-  ],
-  tags: ["香甜", "甜品", "其他", "热门", "网红", "甜味"],
-  fame: "热门",
-  popularRegions: [
-    "全国"
-  ],
-  lat: 35,
-  lng: 105,
-  popularity: 9
-},
-{
-  id: "batch22-hot-88",
-  name: "芋泥奶酪球",
-  image: "https://img0.baidu.com/it/u=3774356699,858087467&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=667",
-  category: "甜品",
-  taste: "香甜",
-  type: "popular",
-  cuisine: "其他",
-  province: "全国",
-  origin: "芋泥包裹奶酪馅，软糯爆浆，私房烘焙热门。",
-  description: "芋泥奶酪球选用芋头、奶酪、糖等制作，蒸、揉而成，口感香甜，是甜品界的热门单品。",
-  ingredients: [
-    "芋头",
-    "奶酪",
-    "糖"
-  ],
-  cookingMethod: [
-    "蒸",
-    "揉"
-  ],
-  tags: ["香甜", "甜品", "其他", "热门", "网红", "甜味"],
-  fame: "热门",
-  popularRegions: [
-    "全国"
-  ],
-  lat: 35,
-  lng: 105,
-  popularity: 9
-},
-{
-  id: "batch22-hot-89",
-  name: "血糯米芋泥奶酪砖",
-  image: "https://img0.baidu.com/it/u=3029100689,651810266&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=654",
-  category: "甜品",
-  taste: "香甜",
-  type: "popular",
-  cuisine: "其他",
-  province: "全国",
-  origin: "血糯米、芋泥、奶酪层层叠加，网红盒子甜品。",
-  description: "血糯米芋泥奶酪砖选用芋头、糯米、奶酪、糖等制作，蒸、压而成，口感香甜，是甜品界的热门单品。",
-  ingredients: [
-    "芋头",
-    "糯米",
-    "奶酪",
-    "糖"
-  ],
-  cookingMethod: [
-    "蒸"],
-  tags: ["香甜", "甜品", "其他", "热门", "网红", "甜味"],
-  fame: "热门",
-  popularRegions: [
-    "全国"
-  ],
-  lat: 35,
-  lng: 105,
-  popularity: 9
-},
+  // 「芋泥奶酪球」已合并至「芋泥奶油奶酪球」(foods-batch25-hot100.ts batch25-hot-003) - 同地同物异名
+  // 「血糯米芋泥奶酪砖」已合并至「紫米芋泥奶酪砖」(foods-batch25-hot100.ts batch25-hot-053) - 同地同物异名（血糯米即紫米）
 {
   id: "batch22-hot-90",
   name: "爆浆蛋糕",
@@ -2464,7 +2293,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 29.65,
   lng: 91.1,
-  popularity: 9
+  popularity: 8
 },
 {
   id: "batch22-hot-97",

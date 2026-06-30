@@ -112,11 +112,11 @@ export const FOODS_BATCH_EAST: Food[] = [
     ingredients: ["牛肉", "羊肉", "大麦", "面粉", "鸡蛋"],
     cookingMethod: ["熬", "煮"],
     tags: ["糁汤", "肉汤", "徽菜", "早餐", "暖身", "嫩滑"],
-    fame: "热门",
+    fame: "名菜",
     popularRegions: ["安徽"],
     lat: 33.6461,
     lng: 116.9641,
-    popularity: 8,
+    popularity: 6,
   },
 
   // ========== 福建（闽菜）==========
@@ -234,7 +234,7 @@ export const FOODS_BATCH_EAST: Food[] = [
   // ========== 江西（赣菜）==========
   {
     id: "batch-east-12",
-    name: "鹰潭牛肉粉",
+    name: "牛肉粉",
     alias: ["鹰潭米粉"],
     image: "https://img2.baidu.com/it/u=578167188,2896888221&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=653",
     category: "面食",

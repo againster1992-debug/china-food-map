@@ -1,4 +1,4 @@
-import type { Food } from "@/types/food";
+﻿import type { Food } from "@/types/food";
 
 // 中国各地特色小吃、街头美食、地方名吃（县级/小城市为主）
 export const FOODS_SNACKS: Food[] = [
@@ -241,7 +241,7 @@ export const FOODS_SNACKS: Food[] = [
   },
   {
     id: "snack-20",
-    name: "镇江锅盖面",
+    name: "锅盖面",
     alias: ["伙面", "锅盖面"],
     image: "https://img0.baidu.com/it/u=359772731,404565710&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=1044",
     category: "面食",
@@ -304,7 +304,7 @@ export const FOODS_SNACKS: Food[] = [
     ingredients: ["油条", "葱", "甜面酱"],
     cookingMethod: ["烤", "压"],
     tags: ["小吃", "浙菜", "油条", "葱", "市井", "绵软"],
-    fame: "热门",
+    fame: "名菜",
     popularRegions: ["浙江"],
     lat: 30.2741,
     lng: 120.1551,
@@ -336,7 +336,7 @@ export const FOODS_SNACKS: Food[] = [
   },
   {
     id: "snack-29",
-    name: "芜湖虾籽面",
+    name: "虾籽面",
     alias: ["虾籽面"],
     image: "https://img1.baidu.com/it/u=1330928047,3218865813&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=667",
     category: "面食",
@@ -753,11 +753,11 @@ export const FOODS_SNACKS: Food[] = [
     ingredients: ["豆腐", "辣椒", "折耳根"],
     cookingMethod: ["烤"],
     tags: ["小吃", "建水", "滇菜", "豆腐", "烤", "街头"],
-    fame: "地方名吃",
+    fame: "名菜",
     popularRegions: ["云南"],
     lat: 23.6267,
     lng: 102.8474,
-    popularity: 9,
+    popularity: 8,
   },
   {
     id: "snack-58",
@@ -1187,7 +1187,7 @@ export const FOODS_SNACKS: Food[] = [
   
   {
     id: "snack-93",
-    name: "绍兴茴香豆",
+    name: "茴香豆",
     alias: ["茴香豆"],
     image: "https://img1.baidu.com/it/u=2904041210,3535387633&fm=253&fmt=auto&app=120&f=JPEG?w=750&h=500",
     category: "小吃",
@@ -1233,7 +1233,7 @@ export const FOODS_SNACKS: Food[] = [
   },
   {
     id: "snack-97",
-    name: "宜春扎粉",
+    name: "扎粉",
     alias: ["宜春米粉", "扎粉"],
     image: "https://img1.baidu.com/it/u=4242561979,4168764366&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=667",
     category: "面食",
@@ -1282,7 +1282,7 @@ export const FOODS_SNACKS: Food[] = [
   
   {
     id: "snack-105",
-    name: "徐州烙馍",
+    name: "烙馍",
     alias: ["烙馍卷菜", "单饼"],
     image: "https://img2.baidu.com/it/u=521749269,1128259261&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=857",
     category: "主食",
@@ -1328,7 +1328,7 @@ export const FOODS_SNACKS: Food[] = [
   },
   {
     id: "snack-108",
-    name: "淮安茶馓",
+    name: "茶馓",
     alias: ["馓子", "茶馓"],
     image: "https://img1.baidu.com/it/u=619038655,3767516341&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=591",
     category: "小吃",

@@ -1011,11 +1011,11 @@ export const FOODS_BATCH2_NORTH: Food[] = [
     ingredients: ["豆腐", "黄花菜", "木耳", "淀粉"],
     cookingMethod: ["煮", "卤"],
     tags: ["京菜", "北京名吃", "早点", "小吃", "酥脆"],
-    fame: "热门",
+    fame: "名菜",
     popularRegions: ["北京"],
     lat: 39.9042,
     lng: 116.4074,
-    popularity: 8,
+    popularity: 7,
   },
 
   {
@@ -2028,11 +2028,11 @@ export const FOODS_BATCH2_NORTH: Food[] = [
     ingredients: ["面粉", "牛肉", "咖喱", "葱"],
     cookingMethod: ["煮", "熬"],
     tags: ["津菜", "天津名吃", "拉面", "清真", "嫩滑"],
-    fame: "热门",
+    fame: "名菜",
     popularRegions: ["天津"],
     lat: 39.0842,
     lng: 117.2009,
-    popularity: 8,
+    popularity: 6,
   },
   {
     id: "batch2-north-102",

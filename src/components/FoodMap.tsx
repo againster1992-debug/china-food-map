@@ -202,17 +202,21 @@ const PROVINCE_CENTERS: Record<Province, { lat: number; lng: number }> = {
 
 // 根据缩放级别决定显示哪些美食（优先显示高热度美食，限制总数避免杂乱）
 function getDisplayFoods(foods: Food[], zoom: number): Food[] {
-  // 综合分：热度×50 + fame权重，与 top10 排序保持一致
+  // 综合分：热度×60 + fame权重 + 热度分层加成，与 top10 排序保持一致
   // 大地图优先显示热度较高的美食
-  const fameWeight: Record<string, number> = { 名菜: 100, 热门: 80, 地方名吃: 50, 普通: 20 };
+  const fameWeight: Record<string, number> = { 名菜: 120, 热门: 80, 地方名吃: 40, 普通: 5 };
+  const tierBoost = (pop: number) =>
+    pop >= 10 ? 40 : pop >= 9 ? 25 : pop >= 8 ? 15 : pop >= 7 ? 0 : pop >= 6 ? -10 : -20;
+  const scoreOf = (f: Food) => {
+    const pop = f.popularity || 5;
+    return pop * 60 + (fameWeight[inferFame(f)] || 5) + tierBoost(pop);
+  };
   const sorted = [...foods].sort((a, b) => {
+    const scoreA = scoreOf(a);
+    const scoreB = scoreOf(b);
+    if (scoreA !== scoreB) return scoreB - scoreA;
     const pa = a.popularity || 5;
     const pb = b.popularity || 5;
-    const fa = fameWeight[inferFame(a)] || 20;
-    const fb = fameWeight[inferFame(b)] || 20;
-    const scoreA = pa * 50 + fa;
-    const scoreB = pb * 50 + fb;
-    if (scoreA !== scoreB) return scoreB - scoreA;
     if (pa !== pb) return pb - pa;
     const ta = a.type === "traditional" ? 1 : 0;
     const tb = b.type === "traditional" ? 1 : 0;
@@ -220,6 +224,8 @@ function getDisplayFoods(foods: Food[], zoom: number): Food[] {
   });
 
   // 各缩放级别的显示上限与最低综合分门槛
+  // 新分制：pop8 名菜=615, pop8 热门=575, pop7 名菜=540, pop8 地方名吃=535
+  //         pop7 热门=500, pop6 名菜=470, pop8 普通=500, pop9 热门=645
   let limit: number;
   let minScore: number;
 
@@ -234,23 +240,19 @@ function getDisplayFoods(foods: Food[], zoom: number): Food[] {
     minScore = 0; // 全部，但限制数量
   } else if (zoom >= 6) {
     limit = 120;
-    minScore = 350; // 约 pop>=6 名菜 / pop>=7 热门 / pop>=8 地方名吃
+    minScore = 420; // 约 pop>=7 名菜 / pop>=8 热门
   } else if (zoom >= 5) {
     limit = 100;
-    minScore = 400; // 约 pop>=7 名菜 / pop>=8 热门 / pop>=9 地方名吃
+    minScore = 500; // 约 pop>=8 热门/普通 / pop>=7 名菜
   } else if (zoom >= 4) {
     limit = 80;
-    minScore = 450; // 约 pop>=8 名菜 / pop>=9 热门
+    minScore = 535; // 约 pop>=8 地方名吃 / pop>=9 热门
   } else {
     limit = 60;
-    minScore = 500; // 约 pop>=9 名菜 / pop>=10 热门
+    minScore = 575; // 约 pop>=8 热门 / pop>=9 热门
   }
 
-  const filtered = sorted.filter((f) => {
-    const pa = f.popularity || 5;
-    const fa = fameWeight[inferFame(f)] || 20;
-    return pa * 50 + fa >= minScore;
-  });
+  const filtered = sorted.filter((f) => scoreOf(f) >= minScore);
   return filtered.slice(0, limit);
 }
 
@@ -279,11 +281,13 @@ function clusterFoods(foods: Food[], zoom: number): { food: Food; cluster?: Food
   }
   const result: { food: Food; cluster?: Food[] }[] = [];
   for (const [, group] of map) {
-    // 按综合分（热度×50+fame）降序，取第一个作为代表
-    const fameWeight: Record<string, number> = { 名菜: 100, 热门: 80, 地方名吃: 50, 普通: 20 };
+    // 按综合分（热度×60+fame+热度分层）降序，取第一个作为代表
+    const fameWeight: Record<string, number> = { 名菜: 120, 热门: 80, 地方名吃: 40, 普通: 5 };
+    const tierBoost = (pop: number) =>
+      pop >= 10 ? 40 : pop >= 9 ? 25 : pop >= 8 ? 15 : pop >= 7 ? 0 : pop >= 6 ? -10 : -20;
     group.sort((a, b) => {
-      const sa = (a.popularity || 5) * 50 + (fameWeight[inferFame(a)] || 20);
-      const sb = (b.popularity || 5) * 50 + (fameWeight[inferFame(b)] || 20);
+      const sa = (a.popularity || 5) * 60 + (fameWeight[inferFame(a)] || 5) + tierBoost(a.popularity || 5);
+      const sb = (b.popularity || 5) * 60 + (fameWeight[inferFame(b)] || 5) + tierBoost(b.popularity || 5);
       return sb - sa;
     });
     if (group.length === 1) {

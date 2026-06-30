@@ -378,7 +378,7 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     ingredients: ["杂粮", "鸡蛋", "酱料"],
     cookingMethod: ["煎"],
     tags: ["国民美食", "面食", "杂粮", "全国流行", "劲道", "粘糯"],
-    fame: "热门",
+    fame: "名菜",
     popularRegions: ["全国"],
     lat: 35.1045,
     lng: 118.3564,

@@ -107,7 +107,7 @@ export const FOODS_BATCH10_TRENDING: Food[] = [
     popularRegions: ["海南", "广州"],
     lat: 19.5436,
     lng: 110.7546,
-    popularity: 5,
+    popularity: 9,
   },
 
   // ==================== 四、鲁菜代表名菜（搜索热度最高，原数据库缺失）====================
@@ -154,7 +154,7 @@ export const FOODS_BATCH10_TRENDING: Food[] = [
     ingredients: ["面粉", "叉烧肉", "糖", "酱油"],
     cookingMethod: ["蒸"],
     tags: ["咸甜", "小吃", "粤菜", "早茶", "点心"],
-    fame: "热门",
+    fame: "名菜",
     popularRegions: ["广州", "广东", "香港"],
     lat: 23.1291,
     lng: 113.2644,

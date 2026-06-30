@@ -27,7 +27,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   id: "batch25-hot-002",
   name: "黑芝麻酱麻辣烫",
   alias: [],
-  image: "https://img1.baidu.com/it/u=2106363910,2893585529&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=653",
+  image: "https://img1.baidu.com/it/u=4252415392,565089909&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=667",
   category: "小吃",
   taste: "麻辣",
   type: "popular",
@@ -39,7 +39,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   ingredients: ["牛骨", "芝麻酱", "花生酱", "粉条", "蔬菜", "辣椒"],
   cookingMethod: ["煮", "调"],
   tags: ["麻辣", "小吃", "东北菜", "辽宁", "沈阳", "顶流", "网红", "酱香", "2026爆款"],
-  fame: "热门",
+  fame: "名菜",
   popularRegions: ["辽宁", "东北", "全国"],
   lat: 41.8057,
   lng: 123.4315,
@@ -67,28 +67,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   lng: 105,
   popularity: 8
 },
-{
-  id: "batch25-hot-004",
-  name: "芝士瀑布汉堡",
-  alias: [],
-  image: "https://img0.baidu.com/it/u=3295655560,2285943935&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=667",
-  category: "小吃",
-  taste: "咸鲜",
-  type: "popular",
-  cuisine: "其他",
-  province: "全国",
-  city: "全国",
-  origin: "源自欧美cheese pouring概念，经本土快餐改良后，以视觉冲击力强的芝士瀑布造型在抖音走红，成为出片神器。",
-  description: "芝士瀑布汉堡将厚切牛肉饼配以大量融化的切达芝士浇淋，芝士如瀑布般倾泻而下。肉汁丰盈、芝士拉丝，是西式快餐本土化后的视觉爆款。",
-  ingredients: ["牛肉", "面粉", "奶酪", "黄油", "生菜"],
-  cookingMethod: ["煎", "烤", "浇"],
-  tags: ["咸鲜", "小吃", "其他", "西式", "网红", "拉丝", "芝士", "出片神器"],
-  fame: "热门",
-  popularRegions: ["全国"],
-  lat: 35,
-  lng: 105,
-  popularity: 8
-},
+  // 「芝士瀑布汉堡」已合并至「芝士瀑布双层汉堡」(foods-batch28-hot100.ts batch28-hot-051) - 同地同物异名（图片相同）
 // 「草原奶皮子酸奶」已合并至「内蒙奶皮子酸奶」(foods-batch28-hot100.ts batch28-hot-001) - 同地同物异名
 {
   id: "batch25-hot-006",
@@ -110,7 +89,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["四川", "全国"],
   lat: 30.5728,
   lng: 104.0668,
-  popularity: 9
+  popularity: 8
 },
 {
   id: "batch25-hot-007",
@@ -202,29 +181,6 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularity: 8
 },
 {
-  id: "batch25-hot-012",
-  name: "淀粉肠烤冷面卷",
-  alias: [],
-  image: "https://img2.baidu.com/it/u=2810503599,1270818363&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=647",
-  category: "小吃",
-  taste: "咸鲜",
-  type: "popular",
-  cuisine: "东北菜",
-  province: "黑龙江",
-  city: "哈尔滨",
-  origin: "东北街头将烤冷面与淀粉肠结合卷食，童年味道升级，2026年从东北火到全国成为小吃黑马。",
-  description: "淀粉肠烤冷面卷用烤冷面皮包裹淀粉肠煎至金黄，刷甜辣酱。童年味道的升级版，2026年从东北街头成为全国小吃黑马。",
-  ingredients: ["冷面", "淀粉", "鸡蛋", "甜辣酱", "芝麻"],
-  cookingMethod: ["煎", "卷"],
-  tags: ["咸鲜", "小吃", "东北菜", "黑龙江", "哈尔滨", "童年", "街头", "黑马", "升级"],
-  fame: "热门",
-  popularRegions: ["黑龙江", "东北", "全国"],
-  lat: 45.8038,
-  lng: 126.535,
-  popularity: 8
-},
-
-{
   id: "batch25-hot-016",
   name: "虾滑宽面",
   alias: [],
@@ -240,11 +196,11 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   ingredients: ["虾", "面粉", "鸡蛋", "青菜", "姜"],
   cookingMethod: ["煮"],
   tags: ["鲜香", "面食", "其他", "低脂", "高蛋白", "Q弹", "健身", "清爽"],
-  fame: "热门",
+  fame: "名菜",
   popularRegions: ["全国"],
   lat: 35,
   lng: 105,
-  popularity: 10
+  popularity: 5
 },
 
 {
@@ -334,7 +290,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["广东", "全国"],
   lat: 23.1291,
   lng: 113.2644,
-  popularity: 8
+  popularity: 6
 },
 {
   id: "batch25-hot-023",
@@ -356,7 +312,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["广东", "全国"],
   lat: 23.6568,
   lng: 116.6226,
-  popularity: 8
+  popularity: 6
 },
 {
   id: "batch25-hot-024",
@@ -402,29 +358,6 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   lng: 105,
   popularity: 7
 },
-
-{
-  id: "batch25-hot-027",
-  name: "内蒙奶皮子卷",
-  alias: [],
-  image: "https://img1.baidu.com/it/u=1348423495,2831384865&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=667",
-  category: "小吃",
-  taste: "香甜",
-  type: "popular",
-  cuisine: "蒙餐",
-  province: "内蒙古",
-  city: "呼和浩特",
-  origin: "蒙古族传统奶皮卷成果干坚果后冷藏切片，线上零食增速+445%，从草原牧场火到全国便利店。",
-  description: "内蒙奶皮子卷将厚奶皮卷入果干、坚果，冷藏定型后切片。奶香浓郁、口感绵密，线上零食增速惊人，是2026年从草原火到全国便利店的新零食。",
-  ingredients: ["牛奶", "奶皮子", "果干", "坚果", "糖"],
-  cookingMethod: ["煮", "冷藏", "卷"],
-  tags: ["香甜", "小吃", "蒙餐", "内蒙古", "呼和浩特", "奶香", "网红", "零食", "高增长"],
-  fame: "热门",
-  popularRegions: ["内蒙古", "全国"],
-  lat: 40.8426,
-  lng: 111.7511,
-  popularity: 8
-},
 {
   id: "batch25-hot-028",
   name: "黑松露炒饭",
@@ -445,7 +378,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["云南", "全国"],
   lat: 25.0389,
   lng: 102.7183,
-  popularity: 9
+  popularity: 8
 },
 
 {
@@ -494,29 +427,6 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   lng: 98.4904,
   popularity: 8
 },
-
-{
-  id: "batch25-hot-035",
-  name: "面线糊配油条",
-  alias: [],
-  image: "https://img0.baidu.com/it/u=3630063246,3228900324&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=889",
-  category: "汤羹",
-  taste: "咸鲜",
-  type: "popular",
-  cuisine: "闽菜",
-  province: "福建",
-  city: "泉州",
-  origin: "泉州面线糊是闽南早餐符号，以细面线加配料煮至糊状配油条，滑润暖胃深入人心。",
-  description: "泉州面线糊配油条以细面线煮至糊状，加醋肉、卤蛋、大肠等配料，配现炸油条。面线糊滑润顺口，是闽南早餐的灵魂符号，一碗下肚暖到心底。",
-  ingredients: ["线面", "猪肉", "醋", "鸡蛋", "猪大肠", "油条", "虾"],
-  cookingMethod: ["煮"],
-  tags: ["咸鲜", "汤羹", "闽菜", "福建", "泉州", "早餐", "闽南", "暖胃", "滑润"],
-  fame: "热门",
-  popularRegions: ["福建", "全国"],
-  lat: 24.8741,
-  lng: 118.6759,
-  popularity: 9
-},
 {
   id: "batch25-hot-036",
   name: "安溪湖头米粉",
@@ -563,50 +473,6 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularity: 8
 },
 {
-  id: "batch25-hot-041",
-  name: "捞汁小海鲜桶",
-  alias: [],
-  image: "https://img2.baidu.com/it/u=2632064863,2199024980&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=667",
-  category: "凉菜",
-  taste: "酸辣",
-  type: "popular",
-  cuisine: "鲁菜",
-  province: "山东",
-  city: "青岛",
-  origin: "青岛海鲜与捞汁结合，桶装便携冰镇食用，成为抖音夏季爆款和露营野餐必备的神器。",
-  description: "捞汁小海鲜桶将花蛤、虾、蛏子等海鲜浸泡于柠檬酸辣捞汁中，桶装便携。冰镇后酸辣开胃，是抖音夏季爆款，露营野餐必备的下酒神器。",
-  ingredients: ["花蛤", "虾", "蛏子", "柠檬", "辣椒", "蒜", "香菜"],
-  cookingMethod: ["煮", "泡", "冷藏"],
-  tags: ["酸辣", "凉菜", "鲁菜", "山东", "青岛", "海鲜", "夏季", "露营", "爆款"],
-  fame: "热门",
-  popularRegions: ["山东", "全国"],
-  lat: 36.0671,
-  lng: 120.3826,
-  popularity: 8
-},
-{
-  id: "batch25-hot-042",
-  name: "烤苕皮卷酸萝卜",
-  alias: [],
-  image: "https://img0.baidu.com/it/u=243871625,3391702340&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1039",
-  category: "小吃",
-  taste: "麻辣",
-  type: "popular",
-  cuisine: "川菜",
-  province: "重庆",
-  city: "重庆",
-  origin: "重庆烤苕皮卷酸萝卜，外韧内脆，从重庆火到全国烧烤摊，成为烧烤界新晋顶流。",
-  description: "烤苕皮卷酸萝卜以红薯粉制成的苕皮烤至起泡，卷入酸萝卜、葱花、折耳根。外韧内脆、酸辣开胃，是重庆烧烤界新晋顶流，从重庆火到全国烧烤摊。",
-  ingredients: ["红薯粉", "酸萝卜", "葱", "折耳根", "辣椒"],
-  cookingMethod: ["烤"],
-  tags: ["麻辣", "小吃", "川菜", "重庆", "烧烤", "顶流", "酸辣", "街头", "网红"],
-  fame: "热门",
-  popularRegions: ["重庆", "全国"],
-  lat: 29.563,
-  lng: 106.5516,
-  popularity: 8
-},
-{
   id: "batch25-hot-043",
   name: "炸杏鲍菇条",
   alias: [],
@@ -648,7 +514,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["湖南", "全国"],
   lat: 28.2278,
   lng: 112.9388,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch25-hot-045",
@@ -714,7 +580,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["云南", "全国"],
   lat: 27.826,
   lng: 99.702,
-  popularity: 9
+  popularity: 8
 },
 {
   id: "batch25-hot-048",
@@ -754,28 +620,6 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   ingredients: ["年糕", "奶酪", "辣椒酱", "糖", "洋葱", "鱼饼"],
   cookingMethod: ["炒", "焗"],
   tags: ["香辣", "小吃", "其他", "韩式", "芝士", "拉丝", "网红", "出片"],
-  fame: "热门",
-  popularRegions: ["全国"],
-  lat: 35,
-  lng: 105,
-  popularity: 8
-},
-{
-  id: "batch25-hot-050",
-  name: "炖梨银耳羹",
-  alias: [],
-  image: "https://img1.baidu.com/it/u=3086035755,4263206920&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=1074",
-  category: "汤羹",
-  taste: "甜",
-  type: "popular",
-  cuisine: "其他",
-  province: "全国",
-  city: "全国",
-  origin: "秋冬润肺爆款，整颗雪梨掏空填入银耳红枣炖制，养生与美味兼具，从家庭到甜品店全覆盖。",
-  description: "炖梨银耳羹以整颗雪梨掏空填入银耳、红枣、枸杞、冰糖，隔水炖煮。梨肉入口即化、银耳胶质浓稠，是秋冬润肺的养生爆款，从家庭餐桌到甜品店全覆盖。",
-  ingredients: ["梨", "银耳", "红枣", "枸杞", "冰糖"],
-  cookingMethod: ["炖"],
-  tags: ["甜", "汤羹", "其他", "秋冬", "润肺", "养生", "爆款", "家庭", "甜品"],
   fame: "热门",
   popularRegions: ["全国"],
   lat: 35,
@@ -960,51 +804,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   lng: 116.4074,
   popularity: 9
 },
-{
-  id: "batch25-hot-062",
-  name: "脆皮炸鲜奶糕",
-  alias: [],
-  image: "https://img2.baidu.com/it/u=2541250339,3052892874&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=889",
-  category: "甜品",
-  taste: "甜",
-  type: "popular",
-  cuisine: "粤菜",
-  province: "广东",
-  city: "顺德",
-  origin: "顺德经典甜品炸鲜奶近年翻红，外酥内滑、奶香浓郁，成为茶餐厅和甜品店必点。",
-  description: "脆皮炸鲜奶糕将牛奶与淀粉煮成奶糕，裹面包糠油炸。外酥内滑、奶香浓郁，是顺德经典甜品，近年翻红成为茶餐厅必点，外酥内软一口爆浆。",
-  ingredients: ["牛奶", "淀粉", "面粉", "糖", "面包糠"],
-  cookingMethod: ["炸"],
-  tags: ["甜", "甜品", "粤菜", "广东", "顺德", "经典", "翻红", "酥脆", "奶香", "茶餐厅"],
-  fame: "热门",
-  popularRegions: ["广东", "全国"],
-  lat: 22.8055,
-  lng: 113.2934,
-  popularity: 8
-},
-
-{
-  id: "batch25-hot-064",
-  name: "烤棉花糖夹心饼干",
-  alias: [],
-  image: "https://img2.baidu.com/it/u=2691788158,1735829324&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=632",
-  category: "甜品",
-  taste: "香甜",
-  type: "popular",
-  cuisine: "其他",
-  province: "全国",
-  city: "全国",
-  origin: "露营必备甜品，烤棉花糖夹饼干，焦黄拉丝拍照出圈，是亲子露营的甜蜜仪式。",
-  description: "烤棉花糖夹心饼干将棉花糖烤至焦黄拉丝，夹在两片饼干之间。外脆内绵、拉丝绵长，是露营必备甜品，烤出焦糖色拍照出圈，大人小孩都爱。",
-  ingredients: ["棉花糖", "饼干", "巧克力"],
-  cookingMethod: ["烤"],
-  tags: ["香甜", "甜品", "其他", "露营", "拉丝", "焦糖", "出圈", "亲子", "网红"],
-  fame: "热门",
-  popularRegions: ["全国"],
-  lat: 35,
-  lng: 105,
-  popularity: 8
-},
+// 「脆皮炸鲜奶糕」已合并至「顺德炸鲜牛奶」(batch28-hot-060)
 {
   id: "batch25-hot-065",
   name: "薄荷牛肉",
@@ -1113,7 +913,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["湖北", "全国"],
   lat: 30.364,
   lng: 113.454,
-  popularity: 8
+  popularity: 7
 },
 // 「糟粕醋海鲜火锅」已合并至「糟粕醋火锅」(foods-batch28-hot100.ts batch28-hot-067) - 同地同物异名
 {
@@ -1181,28 +981,6 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   lat: 34.3416,
   lng: 108.9398,
   popularity: 9
-},
-{
-  id: "batch25-hot-076",
-  name: "保定牛肉汤罩饼",
-  alias: [],
-  image: "https://img0.baidu.com/it/u=3426398324,3879407963&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=1044",
-  category: "主食",
-  taste: "咸鲜",
-  type: "popular",
-  cuisine: "冀菜",
-  province: "河北",
-  city: "保定",
-  origin: "冀中名吃，牛肉汤反复浇罩在饼上，饼吸汤软牛肉酥烂，是保定市井早餐的灵魂。",
-  description: "保定牛肉汤罩饼以牛肉汤反复浇罩在饼上，饼吸饱汤汁后铺牛肉片。汤浓饼软、牛肉酥烂，是冀中名吃，保定的市井早餐灵魂，一碗暖到心底。",
-  ingredients: ["牛肉", "面粉", "葱", "香菜", "花椒", "姜"],
-  cookingMethod: ["煮", "浇"],
-  tags: ["咸鲜", "主食", "冀菜", "河北", "保定", "早餐", "汤泡", "暖胃", "市井"],
-  fame: "热门",
-  popularRegions: ["河北", "全国"],
-  lat: 38.8739,
-  lng: 115.4646,
-  popularity: 8
 },
 {
   id: "batch25-hot-077",
@@ -1293,50 +1071,6 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularity: 8
 },
 {
-  id: "batch25-hot-083",
-  name: "厚切炒酸奶卷",
-  alias: [],
-  image: "https://img2.baidu.com/it/u=309099293,3185130138&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=631",
-  category: "甜品",
-  taste: "酸甜",
-  type: "popular",
-  cuisine: "其他",
-  province: "全国",
-  city: "全国",
-  origin: "夏季夜市必备，酸奶在制冷板上快速翻炒凝固，冰凉酸甜、口味百变，是年轻人的消暑甜点。",
-  description: "厚切炒酸奶卷以酸奶倒在制冷板上快速翻炒凝固成卷或块。冰凉酸甜、口感绵密，是夏季夜市必备甜品，加水果、坚果、奥利奥碎，口味百变。",
-  ingredients: ["酸奶", "水果", "坚果", "糖"],
-  cookingMethod: ["炒", "冷藏"],
-  tags: ["酸甜", "甜品", "其他", "夏季", "夜市", "冰品", "绵密", "百变", "网红"],
-  fame: "热门",
-  popularRegions: ["全国"],
-  lat: 35,
-  lng: 105,
-  popularity: 8
-},
-{
-  id: "batch25-hot-084",
-  name: "烤面筋卷饼",
-  alias: [],
-  image: "https://img1.baidu.com/it/u=1819485689,2395602370&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1422",
-  category: "小吃",
-  taste: "香辣",
-  type: "popular",
-  cuisine: "西北菜",
-  province: "陕西",
-  city: "西安",
-  origin: "素烧烤升级吃法，烤面筋刷辣酱卷入薄饼，从西安夜市火到全国，便宜又解馋。",
-  description: "烤面筋卷饼将烤制好的面筋刷辣酱卷入薄饼中。面筋韧劲十足、饼皮柔软，是素烧烤的升级吃法，从西安夜市火到全国，便宜又解馋。",
-  ingredients: ["面筋", "面粉", "辣椒", "孜然", "芝麻酱"],
-  cookingMethod: ["烤", "卷"],
-  tags: ["香辣", "小吃", "西北菜", "陕西", "西安", "素烧烤", "夜市", "便宜", "解馋", "卷饼"],
-  fame: "热门",
-  popularRegions: ["陕西", "全国"],
-  lat: 34.3416,
-  lng: 108.9398,
-  popularity: 8
-},
-{
   id: "batch25-hot-085",
   name: "章鱼小丸子",
   alias: ["章鱼烧", "Takoyaki", "日式章鱼烧丸子"],
@@ -1356,28 +1090,6 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   lat: 35.0,
   lng: 105.0,
   popularity: 8
-},
-{
-  id: "batch25-hot-087",
-  name: "烤冷面加蛋加肠",
-  alias: [],
-  image: "https://img2.baidu.com/it/u=2055173118,1624495224&fm=253&fmt=auto&app=138&f=JPEG?w=686&h=500",
-  category: "小吃",
-  taste: "咸鲜",
-  type: "popular",
-  cuisine: "东北菜",
-  province: "黑龙江",
-  city: "哈尔滨",
-  origin: "东北街头小吃之王，冷面铁板煎烤加蛋加肠刷甜辣酱，是哈尔滨人的街头记忆。",
-  description: "烤冷面加蛋加肠以冷面饼在铁板上煎烤，加鸡蛋、火腿肠、洋葱，刷甜辣酱。东北街头小吃之王，一个蛋一根肠是标配，热乎乎的吃下去才满足。",
-  ingredients: ["冷面", "鸡蛋", "火腿肠", "洋葱", "甜辣酱", "芝麻"],
-  cookingMethod: ["煎", "烤"],
-  tags: ["咸鲜", "小吃", "东北菜", "黑龙江", "哈尔滨", "街头", "国民", "鸡蛋", "标配"],
-  fame: "热门",
-  popularRegions: ["黑龙江", "东北", "全国"],
-  lat: 45.8038,
-  lng: 126.535,
-  popularity: 9
 },
 {
   id: "batch25-hot-088",
@@ -1404,7 +1116,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
 
 {
   id: "batch25-hot-090",
-  name: "广式姜汁撞奶",
+  name: "姜汁撞奶",
   alias: [],
   image: "https://img2.baidu.com/it/u=102379809,246242023&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=653",
   category: "甜品",
@@ -1424,28 +1136,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   lng: 113.384,
   popularity: 8
 },
-{
-  id: "batch25-hot-093",
-  name: "港式仿翅碗仔羹",
-  alias: [],
-  image: "https://img0.baidu.com/it/u=2042634634,1856358689&fm=253&fmt=auto&app=138&f=JPEG?w=914&h=500",
-  category: "汤羹",
-  taste: "咸鲜",
-  type: "popular",
-  cuisine: "粤菜",
-  province: "香港",
-  city: "香港",
-  origin: "港式平民仿翅羹，粉丝鸡肉冬菇木耳煮成糊状，浓稠鲜美，加红醋和胡椒粉才正宗。",
-  description: "港式仿翅碗仔羹以粉丝、鸡肉丝、冬菇丝、木耳丝煮成糊状，模拟鱼翅口感。浓稠鲜美、暖胃饱腹，是港式平民仿翅羹，加红醋和胡椒粉才正宗。",
-  ingredients: ["粉丝", "鸡肉", "香菇", "木耳", "鸡蛋", "淀粉"],
-  cookingMethod: ["煮"],
-  tags: ["咸鲜", "汤羹", "粤菜", "香港", "仿翅", "平民", "港式", "浓稠", "暖胃", "正宗"],
-  fame: "热门",
-  popularRegions: ["香港", "广东", "全国"],
-  lat: 22.3193,
-  lng: 114.1694,
-  popularity: 8
-},
+  // 「港式仿翅碗仔羹」已合并至「碗仔翅」(foods-batch-south.ts batch-south-16) - 同地同物异名
 {
   id: "batch25-hot-094",
   name: "格瓦斯",
@@ -1487,28 +1178,6 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   tags: ["甜", "甜品", "西北菜", "甘肃", "兰州", "发酵", "西北", "甜醅", "消暑", "传统"],
   fame: "热门",
   popularRegions: ["甘肃", "西北", "全国"],
-  lat: 36.0611,
-  lng: 103.8343,
-  popularity: 8
-},
-{
-  id: "batch25-hot-096",
-  name: "灰豆子甜粥",
-  alias: [],
-  image: "https://img2.baidu.com/it/u=1972381409,2265427255&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=1044",
-  category: "甜品",
-  taste: "甜",
-  type: "popular",
-  cuisine: "西北菜",
-  province: "甘肃",
-  city: "兰州",
-  origin: "兰州特色甜品，豌豆加碱面熬煮至豆沙状，与甜胚子并称兰州甜品双绝。",
-  description: "兰州灰豆子甜粥以豌豆加碱面熬煮至豆沙状，口感绵密微甜。是兰州特色甜品，与甜胚子并称兰州甜品双绝，冬天来一碗热灰豆子暖到心底。",
-  ingredients: ["豌豆", "碱水", "糖"],
-  cookingMethod: ["煮"],
-  tags: ["甜", "甜品", "西北菜", "甘肃", "兰州", "特色", "绵密", "双绝", "暖身", "传统"],
-  fame: "热门",
-  popularRegions: ["甘肃", "兰州", "全国"],
   lat: 36.0611,
   lng: 103.8343,
   popularity: 8
@@ -1556,29 +1225,6 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   lat: 45.8038,
   lng: 126.535,
   popularity: 8
-},
-{
-
-  id: "batch25-hot-099",
-  name: "冰火煮羊肉",
-  alias: [],
-  image: "https://img1.baidu.com/it/u=566317550,2856636472&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1200",
-  category: "主菜",
-  taste: "鲜香",
-  type: "popular",
-  cuisine: "蒙餐",
-  province: "内蒙古",
-  city: "呼和浩特",
-  origin: "内蒙古特色火锅，冰块与羊肉同煮，冰火交融锁住鲜嫩，羊肉鲜嫩多汁不膻不柴。",
-  description: "内蒙古冰火煮羊肉以冰块铺底放羊肉块同煮，冰火交融使羊肉纤维收缩更紧致。羊肉鲜嫩多汁、不膻不柴，是内蒙古的特色火锅，冰火同煮锁住鲜嫩。",
-  ingredients: ["羊肉", "冰块", "洋葱", "胡萝卜", "盐", "姜"],
-  cookingMethod: ["煮"],
-  tags: ["鲜香", "主菜", "蒙餐", "内蒙古", "呼和浩特", "冰火", "鲜嫩", "火锅", "特色", "创新"],
-  fame: "热门",
-  popularRegions: ["内蒙古", "全国"],
-  lat: 40.8426,
-  lng: 111.7511,
-  popularity: 9
 },
 {
   id: "batch25-hot-100",

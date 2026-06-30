@@ -1,4 +1,4 @@
-﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
 
 // 补充澳门、甘肃、宁夏、青海、山西、内蒙古、辽宁的缺失美食
 export const FOODS_BATCH8_SUPPLEMENT: Food[] = [
@@ -169,11 +169,11 @@ export const FOODS_BATCH8_SUPPLEMENT: Food[] = [
     ingredients: ["莜麦", "羊肉", "蘑菇", "葱"],
     cookingMethod: ["蒸"],
     tags: ["莜面", "晋北", "面食", "晋菜", "杂粮", "特色", "嫩滑", "劲道"],
-    fame: "地方名吃",
+    fame: "名菜",
     popularRegions: ["山西", "内蒙古", "河北"],
     lat: 39.3312,
     lng: 112.4329,
-    popularity: 4,
+    popularity: 7,
   },
   {
     id: "batch8-sx-4",
@@ -248,7 +248,7 @@ export const FOODS_BATCH8_SUPPLEMENT: Food[] = [
     popularRegions: ["辽宁", "东北"],
     lat: 41.8057,
     lng: 123.4315,
-    popularity: 5,
+    popularity: 7,
   },
 
   // ========== 河北（补充） ==========

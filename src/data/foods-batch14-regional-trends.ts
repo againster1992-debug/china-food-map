@@ -1,4 +1,4 @@
-import type { Food } from "@/types/food";
+﻿import type { Food } from "@/types/food";
 
 // 2026年平台趋势补充美食 - 第二批
 // 数据来源：抖音、淘宝、百度指数、微信指数、Google Trends
@@ -277,7 +277,7 @@ export const FOODS_BATCH14_REGIONAL_TRENDS: Food[] = [
   // ========== 山东补充美食 ==========
   {
     id: "batch14-shandong-1",
-    name: "淄博小饼夹串",
+    name: "小饼夹串",
     alias: ["烧烤", "小饼夹烤串"],
     image: "https://img1.baidu.com/it/u=369666246,468194685&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=727",
     category: "小吃",

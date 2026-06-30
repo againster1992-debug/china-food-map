@@ -3,29 +3,6 @@ import type { Food } from "@/types/food";
 // 2026年菜系热度补充美食 - 根据百度指数、抖音、头条等平台搜索数据
 // 补充菜系：蒙餐、赣菜、黔菜、桂菜、京菜、东北菜
 export const FOODS_BATCH20_CUISINE_TRENDS: Food[] = [
-  // ========== 蒙餐补充美食 ==========/**/,
-  {
-    id: "batch20-meng-3",
-    name: "呼和浩特烧麦",
-    alias: ["绥远烧麦", "呼市烧麦"],
-    image: "https://img0.baidu.com/it/u=2205695643,2059568414&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=640",
-    category: "小吃",
-    taste: "咸鲜",
-    type: "traditional",
-    cuisine: "蒙餐",
-    province: "内蒙古",
-    city: "呼和浩特",
-    origin: "呼和浩特传统早餐，产业链规模超65亿元",
-    description: "呼和浩特烧麦是内蒙古特色餐饮的代表，仅呼和浩特就有约3000家烧麦店，占全市餐饮企业四分之一，年营业额约65亿元。全区烧麦相关门店超5000家，形成从面粉、羊肉加工到终端门店的完整产业链。2026年4月，烧麦产业学院正式揭牌，标志着产业与教育深度融合。",
-    ingredients: ["面粉", "羊肉", "葱", "姜"],
-    cookingMethod: ["蒸"],
-    tags: ["咸鲜", "小吃", "蒙餐", "内蒙古", "呼和浩特", "早餐"],
-    fame: "名菜",
-    popularRegions: ["内蒙古", "呼和浩特"],
-    lat: 40.8426,
-    lng: 111.7510,
-    popularity: 4,
-  },
   {
     id: "batch20-meng-4",
     name: "丛林狼酱骨头",

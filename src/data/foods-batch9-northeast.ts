@@ -43,7 +43,7 @@ export const FOODS_BATCH9_NORTHEAST: Food[] = [
     ingredients: ["猪骨", "酱油", "八角", "桂皮", "糖"],
     cookingMethod: ["酱", "炖"],
     tags: ["咸鲜", "酱制", "猪骨", "东北菜", "下酒菜", "豪迈", "酥烂"],
-    fame: "地方名吃",
+    fame: "名菜",
     popularRegions: ["黑龙江", "吉林", "辽宁"],
     lat: 45.8038,
     lng: 126.535,
@@ -741,7 +741,7 @@ export const FOODS_BATCH9_NORTHEAST: Food[] = [
     popularRegions: ["大连", "辽宁"],
     lat: 38.914,
     lng: 121.6147,
-    popularity: 8,
+    popularity: 7,
   }
   // ==================== 蒙餐（内蒙古） ====================
   ,

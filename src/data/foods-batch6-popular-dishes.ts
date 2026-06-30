@@ -1,4 +1,4 @@
-import type { Food } from "@/types/food";
+﻿import type { Food } from "@/types/food";
 
 export const FOODS_BATCH6_POPULAR_DISHES: Food[] = [
   // ========== 川菜（八大菜系之一，发源四川、重庆）==========
@@ -145,29 +145,7 @@ export const FOODS_BATCH6_POPULAR_DISHES: Food[] = [
     lng: 113.253,
     popularity: 5,
   },
-  {
-    id: "batch6-pop-12",
-    name: "菠萝包",
-    alias: ["菠萝面包"],
-    image: "https://img2.baidu.com/it/u=1242126961,1476338430&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=654",
-    category: "糕点",
-    taste: "香甜",
-    type: "traditional",
-    cuisine: "粤菜",
-    province: "香港",
-    city: "香港",
-    origin: "香港茶餐厅经典点心",
-    description:
-      "菠萝包因顶部酥皮烘烤后金黄开裂形似菠萝而得名，外酥内软奶香浓郁，是港式茶餐厅的灵魂招牌。夹一片厚切黄油即为冰火菠萝油，冰凉黄油遇热面包融化，口感层次丰富。从香港茶餐厅到内地连锁烘焙店，菠萝包经久不衰，是粤港澳最受欢迎的面包之一。",
-    ingredients: ["面粉", "黄油", "糖", "鸡蛋", "奶粉"],
-    cookingMethod: ["烤"],
-    tags: ["粤菜", "面包", "茶餐厅", "烘", "香甜", "糕点", "香港"],
-    fame: "热门",
-    popularRegions: ["全国"],
-    lat: 22.3193,
-    lng: 114.1694,
-    popularity: 9,
-  },
+  // 「菠萝包」已合并至「菠萝油」(foods-hmt-popular.ts hk-3) - 同地同物异名（菠萝包夹黄油即为菠萝油）
   
   {
     id: "batch6-pop-14",
@@ -220,7 +198,7 @@ export const FOODS_BATCH6_POPULAR_DISHES: Food[] = [
   },
   {
     id: "batch6-pop-22",
-    name: "博山豆腐箱",
+    name: "豆腐箱",
     alias: ["博山豆腐", "豆腐箱"],
     image: "https://img1.baidu.com/it/u=4207608382,2564541148&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=640",
     category: "主菜",
@@ -434,7 +412,7 @@ export const FOODS_BATCH6_POPULAR_DISHES: Food[] = [
   },
   {
     id: "batch6-pop-37",
-    name: "温州鸭舌",
+    name: "鸭舌",
     alias: ["酱鸭舌"],
     image: "https://img0.baidu.com/it/u=1903399124,391062863&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1066",
     category: "小吃",

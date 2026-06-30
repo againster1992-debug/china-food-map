@@ -51,7 +51,7 @@ export const FOODS_BATCH5_ZHE_MIN_XIANG_HUI: Food[] = [
   },
   {
     id: "batch5-zhe-3",
-    name: "宁波摇蚶",
+    name: "摇蚶",
     alias: ["摇蚶", "泥蚶"],
     image: "https://img0.baidu.com/it/u=3472516092,3319997656&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=731",
     category: "主菜",
@@ -74,7 +74,7 @@ export const FOODS_BATCH5_ZHE_MIN_XIANG_HUI: Food[] = [
   },
   {
     id: "batch5-zhe-4",
-    name: "宁波烤菜",
+    name: "烤菜",
     alias: ["烤菜", "宁式烤菜"],
     image: "https://img0.baidu.com/it/u=2099814272,2537137164&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=653",
     category: "主菜",
@@ -97,9 +97,9 @@ export const FOODS_BATCH5_ZHE_MIN_XIANG_HUI: Food[] = [
   },
   {
     id: "batch5-zhe-5",
-    name: "绍兴白鲞扣鸡",
+    name: "白鲞扣鸡",
     alias: ["白鲞扣鸡", "鲞扣鸡"],
-    image: "https://img0.baidu.com/it/u=1158615652,18381360&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=889",
+    image: "https://img2.baidu.com/it/u=770544340,36157708&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1422",
     category: "主菜",
     taste: "咸鲜",
     type: "traditional",
@@ -120,7 +120,7 @@ export const FOODS_BATCH5_ZHE_MIN_XIANG_HUI: Food[] = [
   },
   {
     id: "batch5-zhe-6",
-    name: "温州双味蝤蛑",
+    name: "双味蝤蛑",
     alias: ["双味蝤蛑", "蝤蛑双味"],
     image: "https://img1.baidu.com/it/u=4018450076,665206370&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1081",
     category: "主菜",
@@ -144,7 +144,7 @@ export const FOODS_BATCH5_ZHE_MIN_XIANG_HUI: Food[] = [
 
   {
     id: "batch5-zhe-11",
-    name: "绍兴香糕",
+    name: "香糕",
     alias: ["香糕", "绍兴糕"],
     image: "https://img1.baidu.com/it/u=2236560398,659697354&fm=253&fmt=auto?w=800&h=1060",
     category: "糕点",
@@ -191,7 +191,7 @@ export const FOODS_BATCH5_ZHE_MIN_XIANG_HUI: Food[] = [
   },
   {
     id: "batch5-zhe-14",
-    name: "金华鸡子馃",
+    name: "鸡子馃",
     alias: ["鸡子馃", "鸡蛋饼"],
     image: "https://img0.baidu.com/it/u=2777139,2128876378&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=700",
     category: "小吃",
@@ -214,7 +214,7 @@ export const FOODS_BATCH5_ZHE_MIN_XIANG_HUI: Food[] = [
   },
   {
     id: "batch5-zhe-15",
-    name: "丽水黄米果",
+    name: "黄米果",
     alias: ["黄米果", "黄粿"],
     image: "https://img1.baidu.com/it/u=2382679667,548416474&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=500",
     category: "主食",

@@ -1,4 +1,4 @@
-import type { Food } from "@/types/food";
+﻿import type { Food } from "@/types/food";
 
 export const FOODS_BATCH2_EASTCENTRAL: Food[] = [
   // ========== 福建（闽菜）==========
@@ -134,28 +134,7 @@ export const FOODS_BATCH2_EASTCENTRAL: Food[] = [
     lng: 119.2965,
     popularity: 4,
   },
-  {
-    id: "batch2-ec-9",
-    name: "班指干贝",
-    alias: ["干贝班指"],
-    image: "https://img2.baidu.com/it/u=3325092349,2969737788&fm=253&fmt=auto&app=138&f=JPEG?w=515&h=500",
-    category: "主菜",
-    taste: "咸鲜",
-    type: "traditional",
-    cuisine: "闽菜",
-    province: "福建",
-    city: "福州",
-    origin: "福州，闽菜传统名菜",
-    description: "班指干贝以干贝为主料，制成班指形状蒸制。造型别致，干贝鲜香浓郁，口感软糯，是闽菜造型与鲜味兼备的名菜。",
-    ingredients: ["干贝", "蛋清", "火腿", "笋"],
-    cookingMethod: ["蒸"],
-    tags: ["闽菜", "干贝", "造型菜", "嫩滑", "咸鲜", "主菜", "福建"],
-    fame: "名菜",
-    popularRegions: ["福建"],
-    lat: 26.0745,
-    lng: 119.2965,
-    popularity: 6,
-  },
+  // 「班指干贝」已合并至「扳指干贝」(foods-famous.ts) - 同省同物异名
   {
     id: "batch2-ec-10",
     name: "鸡茸鱼唇",

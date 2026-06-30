@@ -1,4 +1,4 @@
-import type { Food } from "@/types/food";
+﻿import type { Food } from "@/types/food";
 
 // 2025-2026年全国最热门美食补充（基于淘宝、抖音、百度指数、微信指数搜索数据）
 export const FOODS_BATCH16_POPULAR: Food[] = [
@@ -27,7 +27,7 @@ export const FOODS_BATCH16_POPULAR: Food[] = [
     ingredients: ["猪肉", "面粉", "葱", "酱料"],
     cookingMethod: ["烤"],
     tags: ["咸鲜", "小吃", "网红", "烧烤", "山东"],
-    fame: "热门",
+    fame: "名菜",
     popularRegions: ["淄博", "山东", "全国"],
     lat: 36.8131,
     lng: 118.0548,
@@ -89,7 +89,7 @@ export const FOODS_BATCH16_POPULAR: Food[] = [
   },
   {
     id: "batch16-popular-19",
-    name: "厦门沙茶面",
+    name: "沙茶面",
     alias: ["沙茶面"],
     image: "https://img0.baidu.com/it/u=495225235,1156659241&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=546",
     category: "面食",
@@ -111,7 +111,7 @@ export const FOODS_BATCH16_POPULAR: Food[] = [
   },
   {
     id: "batch16-popular-20",
-    name: "南平光饼",
+    name: "光饼",
     alias: ["光饼"],
     image: "https://img2.baidu.com/it/u=2452940222,3036090068&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=889",
     category: "糕点",
@@ -125,7 +125,7 @@ export const FOODS_BATCH16_POPULAR: Food[] = [
     ingredients: ["面粉", "盐", "水"],
     cookingMethod: ["烤"],
     tags: ["咸鲜", "糕点", "闽菜", "南平", "传统"],
-    fame: "地方名吃",
+    fame: "名菜",
     popularRegions: ["南平", "福建"],
     lat: 26.6418,
     lng: 118.1777,
@@ -133,7 +133,7 @@ export const FOODS_BATCH16_POPULAR: Food[] = [
   },
   {
     id: "batch16-popular-21",
-    name: "龙岩清汤粉",
+    name: "清汤粉",
     alias: ["清汤粉"],
     image: "https://img0.baidu.com/it/u=2495482484,1640293475&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1422",
     category: "面食",
@@ -147,7 +147,7 @@ export const FOODS_BATCH16_POPULAR: Food[] = [
     ingredients: ["米粉", "猪肉", "猪肝", "青菜"],
     cookingMethod: ["煮"],
     tags: ["鲜香", "面食", "闽菜", "龙岩", "米粉"],
-    fame: "地方名吃",
+    fame: "名菜",
     popularRegions: ["龙岩", "福建"],
     lat: 25.0769,
     lng: 117.0297,
@@ -168,7 +168,7 @@ export const FOODS_BATCH16_POPULAR: Food[] = [
     ingredients: ["面条", "酱油", "猪油", "葱"],
     cookingMethod: ["煮"],
     tags: ["咸鲜", "面食", "闽菜", "三明", "拌面"],
-    fame: "地方名吃",
+    fame: "名菜",
     popularRegions: ["三明", "福建"],
     lat: 26.2654,
     lng: 117.6389,
@@ -189,7 +189,7 @@ export const FOODS_BATCH16_POPULAR: Food[] = [
     ingredients: ["猪肉", "淀粉", "葱", "姜"],
     cookingMethod: ["煮", "炸"],
     tags: ["咸鲜", "小吃", "闽菜", "宁德", "肉丸"],
-    fame: "地方名吃",
+    fame: "名菜",
     popularRegions: ["宁德", "福建"],
     lat: 26.2069,
     lng: 119.5275,
@@ -210,7 +210,7 @@ export const FOODS_BATCH16_POPULAR: Food[] = [
     ingredients: ["鱼肉", "淀粉", "葱", "姜"],
     cookingMethod: ["煮"],
     tags: ["鲜香", "小吃", "闽菜", "连江", "鱼丸"],
-    fame: "地方名吃",
+    fame: "名菜",
     popularRegions: ["连江", "福建"],
     lat: 26.2069,
     lng: 119.5389,
@@ -218,7 +218,7 @@ export const FOODS_BATCH16_POPULAR: Food[] = [
   },
   {
     id: "batch16-popular-25",
-    name: "武夷熏鹅",
+    name: "熏鹅",
     image: "https://img2.baidu.com/it/u=3360760997,2382608553&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=866",
     category: "主菜",
     taste: "咸鲜",

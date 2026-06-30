@@ -1,4 +1,4 @@
-import type { Food } from "@/types/food";
+﻿import type { Food } from "@/types/food";
 
 export const FOODS_BATCH5_LU_SU: Food[] = [
   // ========== 鲁菜（八大菜系之一，发源山东）==========
@@ -305,7 +305,7 @@ export const FOODS_BATCH5_LU_SU: Food[] = [
 
   {
     id: "batch5-lu-23",
-    name: "周村煮锅",
+    name: "煮锅",
     alias: ["煮锅", "周村火锅"],
     image: "https://img2.baidu.com/it/u=3074282107,1387785775&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=653",
     category: "主食",
@@ -343,7 +343,7 @@ export const FOODS_BATCH5_LU_SU: Food[] = [
     ingredients: ["面粉", "猪肉", "木耳", "黄花菜", "鸡蛋"],
     cookingMethod: ["拉", "煮"],
     tags: ["鲁菜", "面食", "地方名吃", "嫩滑", "焦香"],
-    fame: "热门",
+    fame: "名菜",
     popularRegions: ["山东"],
     lat: 37.4876,
     lng: 121.2678,
@@ -351,7 +351,7 @@ export const FOODS_BATCH5_LU_SU: Food[] = [
   },
   {
     id: "batch5-lu-25",
-    name: "黄县肉盒",
+    name: "肉盒",
     alias: ["黄县肉饼", "龙口肉盒"],
     image: "https://img2.baidu.com/it/u=1922171083,521263250&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=653",
     category: "小吃",
@@ -374,7 +374,7 @@ export const FOODS_BATCH5_LU_SU: Food[] = [
   },
   {
     id: "batch5-lu-26",
-    name: "利津水煎包",
+    name: "水煎包",
     alias: ["利津包子"],
     image: "https://img1.baidu.com/it/u=584122004,2931458974&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1200",
     category: "小吃",
@@ -412,7 +412,7 @@ export const FOODS_BATCH5_LU_SU: Food[] = [
     ingredients: ["小米", "玉米", "高粱", "面粉"],
     cookingMethod: ["摊", "烙"],
     tags: ["鲁菜", "煎饼", "杂粮", "主食", "清淡", "山东"],
-    fame: "热门",
+    fame: "名菜",
     popularRegions: ["山东"],
     lat: 36.1944,
     lng: 117.0894,

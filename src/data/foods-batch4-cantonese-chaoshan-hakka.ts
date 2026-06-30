@@ -225,7 +225,7 @@ export const FOODS_BATCH4_CANTONESE_CHAOSHAN_HAKKA: Food[] = [
     ingredients: ["木瓜", "雪蛤", "糖", "牛奶"],
     cookingMethod: ["炖"],
     tags: ["香甜", "粤菜", "甜品", "滋补", "养颜", "粘糯", "劲道"],
-    fame: "地方名吃",
+    fame: "名菜",
     popularRegions: ["广东", "香港"],
     lat: 23.1291,
     lng: 113.2644,

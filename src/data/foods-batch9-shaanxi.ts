@@ -516,7 +516,7 @@ export const FOODS_BATCH9_SHAANXI: Food[] = [
     id: "batch9-sx-47",
     name: "油泼辣子火锅",
     alias: ["陕北辣子火锅"],
-    image: "https://img1.baidu.com/it/u=2467424563,1593694929&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=1422",
+    image: "https://img2.baidu.com/it/u=1986719046,3819884070&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=655",
     category: "汤羹",
     taste: "香辣",
     type: "popular",

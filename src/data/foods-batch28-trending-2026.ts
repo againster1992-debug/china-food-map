@@ -216,30 +216,6 @@ export const FOODS_BATCH28_TRENDING_2026: Food[] = [
   lng: 106.6302,
   popularity: 4
 },
-
-{
-  id: "batch28-013",
-  name: "草原奶皮零食",
-  alias: ["草原奶皮脆片","蒙式奶皮零食","内蒙奶皮脆"],
-  image: "https://img1.baidu.com/it/u=58197986,2667574107&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1422",
-  category: "小吃",
-  taste: "香甜",
-  type: "popular",
-  cuisine: "蒙餐",
-  province: "内蒙古",
-    city: "呼和浩特",
-  origin: "线上增速+445.3%，奶皮子零食化",
-  description: "草原奶皮零食将传统奶皮子做成便携零食，奶香浓郁酥脆可口。2026年线上零食增速达445.3%，从草原走向全国，是蒙古族传统奶食的创新代表。",
-  ingredients: ["牛奶","奶油","糖"],
-  cookingMethod: ["烤", "干制"],
-  tags: ["香甜","小吃","奶皮子","蒙餐","内蒙古","高增长","零食","奶香"],
-  fame: "热门",
-  popularRegions: ["内蒙古","全国"],
-  lat: 40.8426,
-  lng: 111.7511,
-  popularity: 3
-},
-
 {
   id: "batch28-015",
   name: "吴忠白水鸡",

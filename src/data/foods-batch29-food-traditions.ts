@@ -1,4 +1,4 @@
-import type { Food } from "@/types/food";
+﻿import type { Food } from "@/types/food";
 
 // 第29批：中国饮食传统/宴席文化（49项用户提交，经核查去重后新增26项）
 // 已与 existing-food-names.txt 及 foods-traditions.ts / foods-traditions-specialties.ts 比对
@@ -601,7 +601,7 @@ export const FOODS_BATCH29_FOOD_TRADITIONS: Food[] = [
 },
 {
   id: "batch29-new-002",
-  name: "温州粉干",
+  name: "粉干",
   alias: ["温州米粉干", "粉干"],
   image: "https://img2.baidu.com/it/u=3205707369,1337749762&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=652",
   category: "面食",

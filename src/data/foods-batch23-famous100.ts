@@ -1,4 +1,4 @@
-﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
 
 export const FOODS_BATCH23_FAMOUS100: Food[] = [
 {
@@ -524,39 +524,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   lng: 108.9398,
   popularity: 5
 },
-{
-  id: "batch23-famous-16",
-  name: "钟祥蟠龙",
-  image: "https://img0.baidu.com/it/u=3871844275,2327914872&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=653",
-  category: "主菜",
-  taste: "咸鲜",
-  type: "traditional",
-  cuisine: "鄂菜",
-  province: "湖北",
-  city: "钟祥",
-  origin: "湖北钟祥传统名菜，以肉茸、鱼茸盘成龙形蒸制。",
-  description: "钟祥蟠龙选用猪肉、鱼、鸡蛋等为主料，经蒸烹制，咸鲜突出，是钟祥地区的经典代表。",
-  ingredients: ["猪肉", "鱼肉", "鸡蛋"],
-  cookingMethod: [
-    "蒸"
-  ],
-  tags: [
-    "咸鲜",
-    "主菜",
-    "鄂菜",
-    "湖北",
-    "钟祥",
-    "名菜",
-    "传统名菜"
-  ],
-  fame: "名菜",
-  popularRegions: [
-    "湖北"
-  ],
-  lat: 31.1677,
-  lng: 112.5882,
-  popularity: 5
-},
+// 「钟祥蟠龙」已合并至「蟠龙菜」(foods-famous.ts)
 {
   id: "batch23-famous-17",
   name: "煨乌龟汤",
@@ -1217,7 +1185,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
 {
   id: "batch23-famous-37",
   name: "梭子蟹",
-  image: "https://img2.baidu.com/it/u=1990014623,3217690580&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=654",
+  image: "https://img1.baidu.com/it/u=382526826,2250674967&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=667",
   category: "主菜",
   taste: "鲜香",
   type: "traditional",
@@ -1320,7 +1288,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
 {
   id: "batch23-famous-41",
   name: "灌汤虾球",
-  image: "https://img2.baidu.com/it/u=2524483980,2224281785&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=653",
+  image: "https://img1.baidu.com/it/u=1436523509,3720052906&fm=253&fmt=auto&app=138&f=JPEG?w=750&h=500",
   category: "主菜",
   taste: "咸鲜",
   type: "traditional",
@@ -1432,7 +1400,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
 {
   id: "batch23-famous-44",
   name: "炒秃肺",
-  image: "https://img2.baidu.com/it/u=2633356479,2972563767&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=644",
+  image: "https://img2.baidu.com/it/u=1669460737,1002339987&fm=253&fmt=auto&app=138&f=JPEG?w=806&h=500",
   category: "主菜",
   taste: "咸鲜",
   type: "traditional",
@@ -2205,45 +2173,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   lng: 119.2965,
   popularity: 5
 },
-{
-  id: "batch23-famous-70",
-  name: "吉首酸肉",
-  image: "https://img1.baidu.com/it/u=3078816308,566331276&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=666",
-  category: "主菜",
-  taste: "酸辣",
-  type: "traditional",
-  cuisine: "湘菜",
-  province: "湖南",
-  city: "湘西",
-  origin: "湘西苗族传统名菜，以猪肉腌制发酵后炒食。",
-  description: "吉首酸肉选用猪肉、糯米、辣椒等为主料，经腌、炒烹制，酸辣突出，是湘西地区的经典代表。",
-  ingredients: [
-    "猪肉",
-    "糯米",
-    "辣椒"
-  ],
-  cookingMethod: [
-    "腌",
-    "炒"
-  ],
-  tags: [
-    "酸辣",
-    "主菜",
-    "湘菜",
-    "湖南",
-    "湘西",
-    "名菜",
-    "传统名菜",
-    "辣味"
-  ],
-  fame: "名菜",
-  popularRegions: [
-    "湖南"
-  ],
-  lat: 28.3119,
-  lng: 109.7397,
-  popularity: 7
-},
+// 「吉首酸肉」已合并至「湘西酸肉」(foods-cities-south.ts)
 {
   id: "batch23-famous-71",
   name: "牛中三杰",
@@ -2455,44 +2385,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   lng: 116.9972,
   popularity: 6
 },
-{
-  id: "batch23-famous-78",
-  name: "熘黄菜",
-  image: "https://img1.baidu.com/it/u=1764637198,2454254494&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=500",
-  category: "主菜",
-  taste: "酸甜",
-  type: "traditional",
-  cuisine: "鲁菜",
-  province: "山东",
-  city: "济南",
-  origin: "济南传统甜菜，以鸡蛋熘制，酸甜适口。",
-  description: "熘黄菜选用鸡蛋、糖、醋、淀粉等为主料，经熘烹制，酸甜突出，是济南地区的经典代表。",
-  ingredients: [
-    "鸡蛋",
-    "糖",
-    "醋",
-    "淀粉"
-  ],
-  cookingMethod: [
-    "熘"
-  ],
-  tags: [
-    "酸甜",
-    "主菜",
-    "鲁菜",
-    "山东",
-    "济南",
-    "名菜",
-    "传统名菜"
-  ],
-  fame: "名菜",
-  popularRegions: [
-    "山东"
-  ],
-  lat: 36.6512,
-  lng: 116.9972,
-  popularity: 6
-},
+// 「熘黄菜」已合并至「溜黄菜」(foods-batch3-shandong.ts) - 同省同物异名
 {
   id: "batch23-famous-79",
   name: "五柳鱼",
@@ -2897,43 +2790,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   lng: 118.7969,
   popularity: 6
 },
-{
-  id: "batch23-famous-92",
-  name: "炒软兜",
-  image: "https://img1.baidu.com/it/u=2610735164,3472697343&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=736",
-  category: "主菜",
-  taste: "咸鲜",
-  type: "traditional",
-  cuisine: "苏菜",
-  province: "江苏",
-  city: "淮安",
-  origin: "淮安传统名菜，以鳝鱼脊背肉急炒，鲜嫩滑爽。",
-  description: "炒软兜选用鳝鱼、蒜、酱油等为主料，经炒烹制，咸鲜突出，是淮安地区的经典代表。",
-  ingredients: [
-    "鳝鱼",
-    "蒜",
-    "酱油"
-  ],
-  cookingMethod: [
-    "炒"
-  ],
-  tags: [
-    "咸鲜",
-    "主菜",
-    "苏菜",
-    "江苏",
-    "淮安",
-    "名菜",
-    "传统名菜"
-  ],
-  fame: "名菜",
-  popularRegions: [
-    "江苏"
-  ],
-  lat: 33.6104,
-  lng: 119.0153,
-  popularity: 6
-},
+// 「炒软兜」已合并至「软兜长鱼」(foods-famous.ts) - 同省同物异名
 {
   id: "batch23-famous-94",
   name: "清炖狮子头",

@@ -1,4 +1,4 @@
-import type { Food } from "@/types/food";
+﻿import type { Food } from "@/types/food";
 
 export const FOODS_BATCH6_CONDIMENTS_INGREDIENTS: Food[] = [
   {
@@ -27,7 +27,7 @@ export const FOODS_BATCH6_CONDIMENTS_INGREDIENTS: Food[] = [
 
   {
     id: "batch6-cond-3",
-    name: "济南甜面酱",
+    name: "甜面酱",
     alias: ["面酱", "鲁式甜面酱"],
     image: "https://img2.baidu.com/it/u=442948692,964530625&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=667",
     category: "调料",

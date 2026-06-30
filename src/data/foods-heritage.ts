@@ -1,4 +1,4 @@
-﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
 
 // 中国非物质文化遗产饮食项目（国家级非物质文化遗产代表性项目）
 export const FOODS_HERITAGE: Food[] = [
@@ -93,7 +93,7 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["全国"],
     lat: 39.1439,
     lng: 117.2108,
-    popularity: 5,
+    popularity: 8,
   },
   {
     id: "heritage-9",
@@ -116,7 +116,7 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["全国"],
     lat: 39.1039,
     lng: 117.1908,
-    popularity: 3,
+    popularity: 7,
   },
   // ========== 山西 ==========
   {
@@ -356,7 +356,7 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["全国"],
     lat: 28.1946,
     lng: 112.9750,
-    popularity: 7,
+    popularity: 8,
   },
   {
     id: "heritage-25",
@@ -502,7 +502,7 @@ export const FOODS_HERITAGE: Food[] = [
   },
   {
     id: "heritage-35",
-    name: "高邮咸鸭蛋",
+    name: "咸鸭蛋",
     alias: ["双黄蛋", "咸蛋", "端午咸鸭蛋", "腌蛋"],
     image: "https://img2.baidu.com/it/u=2267596291,145577793&fm=253&fmt=auto&app=120&f=JPEG?w=537&h=500",
     category: "腌腊",
@@ -565,7 +565,7 @@ export const FOODS_HERITAGE: Food[] = [
     ingredients: ["面粉", "芝麻", "洋葱"],
     cookingMethod: ["烤"],
     tags: ["非遗", "新疆菜", "主食", "丝绸之路", "馕坑"],
-    fame: "热门",
+    fame: "名菜",
     popularRegions: ["全国"],
     lat: 43.8256,
     lng: 87.6168,

@@ -1,4 +1,4 @@
-import type { Food } from "@/types/food";
+﻿import type { Food } from "@/types/food";
 
 export const FOODS_CITIES_EAST: Food[] = [
   // ========== 广东·深圳 ==========
@@ -230,7 +230,7 @@ export const FOODS_CITIES_EAST: Food[] = [
     ingredients: ["鱼肉", "蚕豆", "姜"],
     cookingMethod: ["涮", "蒸", "炒"],
     tags: ["草鱼", "脆肉", "五桂山", "中山名吃", "地理标志", "嫩滑"],
-    fame: "热门",
+    fame: "名菜",
     popularRegions: ["广东"],
     lat: 22.4502,
     lng: 113.4609,
@@ -262,29 +262,7 @@ export const FOODS_CITIES_EAST: Food[] = [
 
   // ========== 广东·湛江 ==========
   ,
-  {
-    id: "city-zhanjiang-2",
-    name: "湛江炭烤生蚝",
-    alias: ["烤蚝"],
-    image: "https://img1.baidu.com/it/u=175879121,3773323548&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=667",
-    category: "主菜",
-    taste: "鲜辣",
-    type: "popular",
-    cuisine: "粤菜",
-    province: "广东",
-    city: "湛江",
-    origin: "湛江沿海，1990年代兴起",
-    description:
-      "湛江炭烤生蚝以本地大蚝连壳置于炭火上，加蒜蓉辣椒烤制。蚝汁沸腾、蒜香四溢、鲜嫩多汁。湛江生蚝产量居全国前列，炭烤生蚝是夜市招牌，风靡全国。",
-    ingredients: ["生蚝", "蒜", "辣椒"],
-    cookingMethod: ["烤"],
-    tags: ["生蚝", "炭烤", "夜市", "湛江名吃", "海鲜", "嫩滑"],
-    fame: "热门",
-    popularRegions: ["广东"],
-    lat: 21.2706,
-    lng: 110.3594,
-    popularity: 6,
-  },
+  // 「湛江炭烤生蚝」已合并至「烤生蚝」(foods-hmt-popular.ts)
   {
     id: "city-zhanjiang-3",
     name: "湛江海鲜砂锅粥",
@@ -716,7 +694,7 @@ export const FOODS_CITIES_EAST: Food[] = [
   // ========== 江西·九江 ==========
   {
     id: "city-jiujiang-1",
-    name: "九江萝卜饼",
+    name: "萝卜饼",
     alias: ["九江酥饼"],
     image: "https://img1.baidu.com/it/u=2946000018,964159353&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=654",
     category: "糕点",
@@ -813,7 +791,7 @@ export const FOODS_CITIES_EAST: Food[] = [
   },
   {
     id: "city-shangrao-2",
-    name: "铅山烫粉",
+    name: "烫粉",
     alias: ["铅山米粉"],
     image: "https://img0.baidu.com/it/u=924974,683619438&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1067",
     category: "面食",
@@ -1138,17 +1116,17 @@ export const FOODS_CITIES_EAST: Food[] = [
     ingredients: ["芝麻", "核桃", "糯米", "糖"],
     cookingMethod: ["烤"],
     tags: ["核桃", "南通名吃", "苏菜", "茶点"],
-    fame: "热门",
+    fame: "名菜",
     popularRegions: ["江苏"],
     lat: 31.9802,
     lng: 120.8943,
-    popularity: 8,
+    popularity: 5,
   },
 
   // ========== 江苏·常州 ==========
   {
     id: "city-changzhou-1",
-    name: "常州大麻糕",
+    name: "大麻糕",
     // 「麻糕」别名已移除（与嵌桃麻糕 city-nantong-3 区分，保留各自具体名称）
     image: "https://img2.baidu.com/it/u=2736619176,1258904782&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=750",
     category: "糕点",
@@ -1194,7 +1172,7 @@ export const FOODS_CITIES_EAST: Food[] = [
   },
   {
     id: "city-changzhou-3",
-    name: "常州银丝面",
+    name: "银丝面",
     alias: ["银丝面"],
     image: "https://img0.baidu.com/it/u=1974190625,2240061273&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=652",
     category: "面食",
@@ -1339,7 +1317,7 @@ export const FOODS_CITIES_EAST: Food[] = [
   ,
   {
     id: "city-wenzhou-2",
-    name: "温州灯盏糕",
+    name: "灯盏糕",
     alias: ["灯盏糕"],
     image: "https://img1.baidu.com/it/u=774208778,2086217311&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=1046",
     category: "小吃",
@@ -1362,7 +1340,7 @@ export const FOODS_CITIES_EAST: Food[] = [
   },
   {
     id: "city-wenzhou-3",
-    name: "温州瘦肉丸",
+    name: "瘦肉丸",
     alias: ["瘦肉羹"],
     image: "https://img0.baidu.com/it/u=729331946,496010952&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1067",
     category: "汤羹",
@@ -1387,7 +1365,7 @@ export const FOODS_CITIES_EAST: Food[] = [
   // ========== 浙江·嘉兴 ==========
   {
     id: "city-jiaxing-1",
-    name: "乌镇姑嫂饼",
+    name: "姑嫂饼",
     alias: ["姑嫂饼"],
     image: "http://t14.baidu.com/it/u=3329400715,211398120&fm=224&app=112&f=JPEG?w=500&h=500",
     category: "糕点",
@@ -1410,7 +1388,7 @@ export const FOODS_CITIES_EAST: Food[] = [
   },
   {
     id: "city-jiaxing-2",
-    name: "平湖糟蛋",
+    name: "糟蛋",
     alias: ["平湖软壳蛋"],
     image: "https://img1.baidu.com/it/u=894452060,813754789&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=736",
     category: "腌腊",
@@ -1435,7 +1413,7 @@ export const FOODS_CITIES_EAST: Food[] = [
   // ========== 浙江·台州 ==========
   {
     id: "city-taizhou-1",
-    name: "临海麦虾",
+    name: "麦虾",
     alias: ["临海面疙瘩"],
     image: "https://img2.baidu.com/it/u=2558597122,3157264483&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=736",
     category: "面食",
@@ -1552,7 +1530,7 @@ export const FOODS_CITIES_EAST: Food[] = [
   },
   {
     id: "city-huzhou-3",
-    name: "新市茶糕",
+    name: "茶糕",
     alias: ["新市糕"],
     image: "https://img1.baidu.com/it/u=769771660,3705521323&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=731",
     category: "糕点",
@@ -1792,7 +1770,7 @@ export const FOODS_CITIES_EAST: Food[] = [
   // ========== 山东·淄博 ==========
   {
     id: "city-zibo-1",
-    name: "博山酥锅",
+    name: "酥锅",
     alias: ["酥锅"],
     image: "https://img2.baidu.com/it/u=2013022465,1440804321&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=655",
     category: "主菜",
@@ -1856,17 +1834,17 @@ export const FOODS_CITIES_EAST: Food[] = [
     ingredients: ["面粉", "鱼肉"],
     cookingMethod: ["拉", "煮"],
     tags: ["小面", "海鲜面", "蓬莱特产", "烟台名吃", "鲁菜"],
-    fame: "热门",
+    fame: "名菜",
     popularRegions: ["山东"],
     lat: 37.46,
     lng: 121.45,
-    popularity: 8,
+    popularity: 6,
   },
 
   // ========== 山东·潍坊 ==========
   {
     id: "city-weifang-1",
-    name: "潍坊肉火烧",
+    name: "肉火烧",
     alias: ["城隍庙肉火烧"],
     image: "https://img2.baidu.com/it/u=4224285413,1573969529&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=653",
     category: "糕点",
@@ -1889,7 +1867,7 @@ export const FOODS_CITIES_EAST: Food[] = [
   },
   {
     id: "city-weifang-2",
-    name: "潍坊朝天锅",
+    name: "朝天锅",
     alias: ["朝天锅"],
     image: "https://img2.baidu.com/it/u=391793679,1796559488&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=1044",
     category: "主食",
@@ -1912,7 +1890,7 @@ export const FOODS_CITIES_EAST: Food[] = [
   },
   {
     id: "city-weifang-3",
-    name: "潍坊和乐",
+    name: "和乐",
     alias: ["和乐面"],
     image: "https://img1.baidu.com/it/u=324226944,2832015591&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=653",
     category: "面食",
@@ -1958,29 +1936,7 @@ export const FOODS_CITIES_EAST: Food[] = [
     lng: 118.3564,
     popularity: 6,
   },
-  {
-    id: "city-linyi-3",
-    name: "沂蒙煎饼",
-    alias: ["沂蒙大煎饼"],
-    image: "https://img0.baidu.com/it/u=440349674,1895576850&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=1401",
-    category: "主食",
-    taste: "清淡",
-    type: "traditional",
-    cuisine: "鲁菜",
-    province: "山东",
-    city: "临沂",
-    origin: "临沂沂蒙山区，千年传统",
-    description:
-      "沂蒙煎饼以玉米、小米、高粱等杂粮磨糊摊制，薄如纸、大如盘、韧而筋道。可卷大葱、蘸酱、卷菜。是沂蒙山区的千年主食，红军曾以此为粮，是临沂饮食的灵魂。",
-    ingredients: ["玉米", "小米", "高粱"],
-    cookingMethod: ["摊", "烙"],
-    tags: ["煎饼", "杂粮", "沂蒙山", "临沂名吃", "鲁菜", "酥脆"],
-    fame: "地方名吃",
-    popularRegions: ["山东"],
-    lat: 35.1045,
-    lng: 118.3564,
-    popularity: 5,
-  },
+  // 「沂蒙煎饼」已合并至「煎饼」(foods-batch7-national.ts) - 同省同物异名
 
   // ========== 山东·济宁 ==========
   {
@@ -2608,7 +2564,7 @@ export const FOODS_CITIES_EAST: Food[] = [
     "fame": "地方名吃",
     "lat": 30.2741,
     "lng": 120.1551,
-    "popularity": 8
+    "popularity": 5
   },
   {
     "id": "city-east-hangzhou-2",
@@ -2808,7 +2764,7 @@ export const FOODS_CITIES_EAST: Food[] = [
     ],
     "lat": 29.8683,
     "lng": 121.544,
-    "popularity": 4,
+    "popularity": 7,
     "image": "https://img0.baidu.com/it/u=652859320,102364940&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1067"
   },
   {

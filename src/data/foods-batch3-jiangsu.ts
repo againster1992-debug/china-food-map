@@ -1,4 +1,4 @@
-import type { Food } from "@/types/food";
+﻿import type { Food } from "@/types/food";
 
 export const FOODS_BATCH3_JIANGSU: Food[] = [
   // ========== 扬州（淮扬菜发源地之一）==========
@@ -23,7 +23,7 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     popularRegions: ["江苏"],
     lat: 32.3946,
     lng: 119.4128,
-    popularity: 4,
+    popularity: 6,
   },
   {
     id: "batch3-js-2",
@@ -46,7 +46,7 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     popularRegions: ["江苏"],
     lat: 32.3946,
     lng: 119.4128,
-    popularity: 4,
+    popularity: 6,
   },
   {
     id: "batch3-js-3",
@@ -706,7 +706,7 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
   // ========== 无锡（锡帮菜）==========
   {
     id: "batch3-js-35",
-    name: "无锡油面筋",
+    name: "油面筋",
     alias: ["清水油面筋"],
     image: "https://img0.baidu.com/it/u=3696200191,64716443&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=653",
     category: "主菜",

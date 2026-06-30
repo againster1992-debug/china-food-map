@@ -1,4 +1,4 @@
-import type { Food } from "@/types/food";
+﻿import type { Food } from "@/types/food";
 
 // 补充美食数据：物产、调料、小吃、主食、饮品、汤羹等
 export const FOODS_EXTRA: Food[] = [
@@ -97,7 +97,7 @@ export const FOODS_EXTRA: Food[] = [
   },
   {
     id: "extra-10",
-    name: "云南普洱茶",
+    name: "普洱茶",
     alias: ["普洱", "滇青"],
     image: "https://img0.baidu.com/it/u=1171400596,3345221960&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=667",
     category: "物产",
@@ -143,7 +143,7 @@ export const FOODS_EXTRA: Food[] = [
   },
   {
     id: "extra-13",
-    name: "洞庭碧螺春",
+    name: "碧螺春",
     alias: ["碧螺春"],
     image: "https://img2.baidu.com/it/u=3890327812,1072230460&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=654",
     category: "物产",
@@ -300,7 +300,7 @@ export const FOODS_EXTRA: Food[] = [
     ingredients: ["绿豆"],
     cookingMethod: ["发酵", "煮"],
     tags: ["饮品", "发酵", "早点", "非遗"],
-    fame: "热门",
+    fame: "名菜",
     popularRegions: ["北京"],
     lat: 39.9042,
     lng: 116.4074,
@@ -336,7 +336,7 @@ export const FOODS_EXTRA: Food[] = [
   // ========== 腌制类 ==========
   {
     id: "extra-46",
-    name: "金华酥饼",
+    name: "酥饼",
     alias: ["浙江酥饼", "干菜酥饼"],
     image: "https://img0.baidu.com/it/u=3636234598,2153858204&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=639",
     category: "糕点",

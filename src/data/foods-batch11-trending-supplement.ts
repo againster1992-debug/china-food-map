@@ -1,4 +1,4 @@
-import type { Food } from "@/types/food";
+﻿import type { Food } from "@/types/food";
 
 // 搜索趋势核对中发现的新美食补充（2025-2026热门）
 // 数据来源：百度指数、微信指数、Google Trends、抖音/小红书热门话题
@@ -46,7 +46,7 @@ export const FOODS_BATCH11_TRENDING_SUPPLEMENT: Food[] = [
     ingredients: ["牛肉", "萝卜", "腐竹", "八角"],
     cookingMethod: ["炖"],
     tags: ["咸鲜", "主菜", "赣菜", "砂锅", "下饭"],
-    fame: "地方名吃",
+    fame: "名菜",
     popularRegions: ["丰城", "南昌"],
     lat: 28.1944,
     lng: 115.7652,
@@ -54,7 +54,7 @@ export const FOODS_BATCH11_TRENDING_SUPPLEMENT: Food[] = [
   },
   {
     id: "batch11-jx-5",
-    name: "宜春慈化鸡",
+    name: "慈化鸡",
     alias: ["慈化鸡"],
     image: "https://img2.baidu.com/it/u=206506592,386876609&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=667",
     category: "主菜",
@@ -69,7 +69,7 @@ export const FOODS_BATCH11_TRENDING_SUPPLEMENT: Food[] = [
     ingredients: ["鸡肉", "辣椒", "花椒", "姜"],
     cookingMethod: ["炒", "焖"],
     tags: ["鲜辣", "主菜", "赣菜", "麻辣", "名菜"],
-    fame: "地方名吃",
+    fame: "名菜",
     popularRegions: ["宜春", "南昌"],
     lat: 27.7869,
     lng: 114.3886,
@@ -164,7 +164,7 @@ export const FOODS_BATCH11_TRENDING_SUPPLEMENT: Food[] = [
     ingredients: ["鱼翅", "花胶", "高汤", "木耳"],
     cookingMethod: ["炖"],
     tags: ["咸鲜", "小吃", "粤菜", "澳门", "怀旧"],
-    fame: "地方名吃",
+    fame: "名菜",
     popularRegions: ["澳门半岛"],
     lat: 22.1987,
     lng: 113.5439,
@@ -192,7 +192,7 @@ export const FOODS_BATCH11_TRENDING_SUPPLEMENT: Food[] = [
     popularRegions: ["江孜", "拉萨", "上海", "广州"],
     lat: 28.9156,
     lng: 89.6418,
-    popularity: 9,
+    popularity: 8,
   },
   {
     id: "batch11-xz-2",
@@ -215,7 +215,7 @@ export const FOODS_BATCH11_TRENDING_SUPPLEMENT: Food[] = [
     popularRegions: ["拉萨"],
     lat: 29.6516,
     lng: 91.1743,
-    popularity: 8,
+    popularity: 7,
   },
   
 
@@ -236,7 +236,7 @@ export const FOODS_BATCH11_TRENDING_SUPPLEMENT: Food[] = [
     ingredients: ["牦牛奶", "人参果", "糖"],
     cookingMethod: ["发酵"],
     tags: ["酸甜", "甜品", "藏餐", "牦牛酸奶", "人参果", "滋补"],
-    fame: "地方名吃",
+    fame: "名菜",
     popularRegions: ["拉萨", "青海"],
     lat: 29.6516,
     lng: 91.1743,
@@ -264,7 +264,7 @@ export const FOODS_BATCH11_TRENDING_SUPPLEMENT: Food[] = [
     popularRegions: ["西宁", "青海", "青甘大环线"],
     lat: 36.6211,
     lng: 101.7782,
-    popularity: 9,
+    popularity: 8,
   },
   
   {
@@ -284,7 +284,7 @@ export const FOODS_BATCH11_TRENDING_SUPPLEMENT: Food[] = [
     ingredients: ["面粉", "辣椒", "蒜", "醋", "韭菜"],
     cookingMethod: ["蒸"],
     tags: ["酸辣", "小吃", "西北菜", "青海", "街头"],
-    fame: "地方名吃",
+    fame: "名菜",
     popularRegions: ["西宁", "青海"],
     lat: 36.6211,
     lng: 101.7782,
@@ -315,5 +315,5 @@ export const FOODS_BATCH11_TRENDING_SUPPLEMENT: Food[] = [
     popularRegions: ["湖南", "全国"],
     lat: 28.2278,
     lng: 112.9388,
-    popularity: 8,
+    popularity: 7,
   }];

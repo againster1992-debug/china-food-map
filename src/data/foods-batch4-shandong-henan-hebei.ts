@@ -50,7 +50,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
   },
   {
     id: "batch4-sd-3",
-    name: "夏津布袋鸡",
+    name: "布袋鸡",
     alias: ["荷花鸡"],
     image: "https://img2.baidu.com/it/u=2291393925,1453966819&fm=253&fmt=auto&app=138&f=JPEG?w=777&h=500",
     category: "主菜",
@@ -488,7 +488,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
   },
   {
     id: "batch4-sd-27",
-    name: "临沂八宝豆豉",
+    name: "八宝豆豉",
     alias: ["豆豉"],
     image: "https://img2.baidu.com/it/u=833757319,766078209&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500",
     category: "调料",
@@ -511,7 +511,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
   },
   {
     id: "batch4-sd-28",
-    name: "临沂羹糁",
+    name: "羹糁",
     alias: ["糁汤"],
     image: "https://img2.baidu.com/it/u=3846616333,671013126&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=653",
     category: "汤羹",
@@ -1482,7 +1482,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     id: "batch4-hb-3",
     name: "干烧划水",
     alias: ["干烧鱼尾"],
-    image: "https://img2.baidu.com/it/u=3766516996,1458576162&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=631",
+    image: "https://img2.baidu.com/it/u=1570460082,453579215&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=667",
     category: "主菜",
     taste: "鲜香",
     type: "traditional",

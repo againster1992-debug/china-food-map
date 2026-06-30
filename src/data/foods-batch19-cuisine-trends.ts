@@ -20,11 +20,11 @@ export const FOODS_BATCH19_CUISINE_TRENDS: Food[] = [
     ingredients: ["面粉", "猪油", "蒜", "猪肝"],
     cookingMethod: ["煮", "拌"],
     tags: ["咸鲜", "面食", "客家菜", "广东", "梅州", "早餐"],
-    fame: "地方名吃",
+    fame: "名菜",
     popularRegions: ["梅州", "深圳", "香港"],
     lat: 24.2887,
     lng: 116.1175,
-    popularity: 9,
+    popularity: 7,
   },
 
   // ========== 潮汕菜补充美食 ==========/**/,
@@ -48,7 +48,7 @@ export const FOODS_BATCH19_CUISINE_TRENDS: Food[] = [
     popularRegions: ["汕头", "潮州"],
     lat: 23.3535,
     lng: 116.6815,
-    popularity: 9,
+    popularity: 7,
   },// ========== 清真菜补充美食 ==========
   ,
   {
@@ -71,7 +71,7 @@ export const FOODS_BATCH19_CUISINE_TRENDS: Food[] = [
     popularRegions: ["新疆", "全国"],
     lat: 39.4704,
     lng: 75.9891,
-    popularity: 10,
+    popularity: 9,
   },
   /**/
 
@@ -96,7 +96,7 @@ export const FOODS_BATCH19_CUISINE_TRENDS: Food[] = [
     popularRegions: ["海南", "全国"],
     lat: 20.0444,
     lng: 110.1989,
-    popularity: 10,
+    popularity: 9,
   },
   {
     id: "batch19-hainan-3",
@@ -114,7 +114,7 @@ export const FOODS_BATCH19_CUISINE_TRENDS: Food[] = [
     ingredients: ["米粉", "牛肉", "花生", "蔬菜"],
     cookingMethod: ["煮", "拌"],
     tags: ["咸鲜", "面食", "琼菜", "海南", "早餐", "非遗"],
-    fame: "地方名吃",
+    fame: "名菜",
     popularRegions: ["海南"],
     lat: 20.0444,
     lng: 110.1989,
@@ -163,7 +163,7 @@ export const FOODS_BATCH19_CUISINE_TRENDS: Food[] = [
     popularRegions: ["山西", "太原"],
     lat: 37.8706,
     lng: 112.5489,
-    popularity: 9,
+    popularity: 7,
   },
 
   // ========== 冀菜补充美食 ==========
@@ -183,7 +183,7 @@ export const FOODS_BATCH19_CUISINE_TRENDS: Food[] = [
     ingredients: ["驴肉", "面粉", "香料"],
     cookingMethod: ["烤", "卤"],
     tags: ["咸鲜", "小吃", "冀菜", "河北", "保定", "网红"],
-    fame: "地方名吃",
+    fame: "名菜",
     popularRegions: ["河北", "京津冀"],
     lat: 38.874,
     lng: 115.4646,
@@ -209,7 +209,7 @@ export const FOODS_BATCH19_CUISINE_TRENDS: Food[] = [
     popularRegions: ["河北", "石家庄"],
     lat: 38.0428,
     lng: 114.5149,
-    popularity: 9,
+    popularity: 8,
   },
 
   // ========== 津菜补充美食 ==========// ========== 藏餐补充美食 ==========
@@ -233,7 +233,7 @@ export const FOODS_BATCH19_CUISINE_TRENDS: Food[] = [
     popularRegions: ["西藏", "林芝"],
     lat: 29.6487,
     lng: 94.3615,
-    popularity: 10,
+    popularity: 9,
   },
   /**/
   /**/];

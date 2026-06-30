@@ -669,7 +669,7 @@ export const FOODS_BATCH9_GUANGXI_HK: Food[] = [
     ingredients: ["猪蹄", "红豆", "陈皮", "冰糖"],
     cookingMethod: ["炖"],
     tags: ["咸甜", "主菜", "粤菜", "猪手", "红豆", "养生", "家常"],
-    fame: "热门",
+    fame: "名菜",
     popularRegions: ["广东", "香港"],
     lat: 23.1291,
     lng: 113.2644,

@@ -1,4 +1,4 @@
-﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
 
 export const FOODS_FAMOUS: Food[] = [
   // ========== 鲁菜 ==========
@@ -653,7 +653,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["江苏"],
     lat: 32.2044,
     lng: 119.4528,
-    popularity: 10,
+    popularity: 8,
   },
 
   // ========== 浙菜 ==========
@@ -1102,7 +1102,7 @@ export const FOODS_FAMOUS: Food[] = [
   },
   {
     id: "famous-52",
-    name: "黄山炖鸽",
+    name: "炖鸽",
     alias: ["清炖乳鸽"],
     image: "https://img1.baidu.com/it/u=280945169,3276335593&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=667",
     category: "汤羹",
@@ -1192,7 +1192,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["北京"],
     lat: 39.9042,
     lng: 116.4074,
-    popularity: 8,
+    popularity: 6,
   },
   {
     id: "famous-56",
@@ -1215,7 +1215,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["北京"],
     lat: 39.9042,
     lng: 116.4074,
-    popularity: 8,
+    popularity: 6,
   },
   {
     id: "famous-57",
@@ -1238,7 +1238,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["北京"],
     lat: 39.9042,
     lng: 116.4074,
-    popularity: 8,
+    popularity: 6,
   },
   {
     id: "famous-58",
@@ -1261,7 +1261,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["北京"],
     lat: 39.9042,
     lng: 116.4074,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "famous-59",
@@ -1284,7 +1284,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["北京"],
     lat: 39.9042,
     lng: 116.4074,
-    popularity: 8,
+    popularity: 5,
   },
 
   // ========== 津菜 ==========
@@ -1357,7 +1357,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["河北"],
     lat: 38.0428,
     lng: 114.5149,
-    popularity: 9,
+    popularity: 8,
   },
   {
     id: "famous-63",
@@ -1380,7 +1380,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["河北"],
     lat: 38.874,
     lng: 115.4646,
-    popularity: 8,
+    popularity: 7,
   },
 
   // ========== 晋菜 ==========
@@ -1428,7 +1428,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["山西", "黄河流域"],
     lat: 36.0881,
     lng: 111.519,
-    popularity: 8,
+    popularity: 7,
   },
 
   // ========== 蒙餐 ==========
@@ -1524,7 +1524,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["全国"],
     lat: 41.8057,
     lng: 123.4315,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "famous-70",
@@ -1547,7 +1547,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["东北", "全国"],
     lat: 41.8057,
     lng: 123.4315,
-    popularity: 8,
+    popularity: 7,
   },
 
   // ========== 本帮菜 ==========
@@ -1747,7 +1747,7 @@ export const FOODS_FAMOUS: Food[] = [
     id: "famous-79",
     name: "桂林荷叶鸭",
     alias: ["荷叶鸭"],
-    image: "https://img0.baidu.com/it/u=2926128648,3148004279&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=667",
+    image: "https://img1.baidu.com/it/u=3490253996,3772333930&fm=253&fmt=auto&app=138&f=JPEG?w=522&h=500",
     category: "主菜",
     taste: "咸鲜",
     type: "traditional",
@@ -1764,7 +1764,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["广西"],
     lat: 25.2736,
     lng: 110.2907,
-    popularity: 8,
+    popularity: 7,
   },
 
   // ========== 琼菜 ==========
@@ -1812,7 +1812,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["海南"],
     lat: 20.0444,
     lng: 110.1989,
-    popularity: 8,
+    popularity: 7,
   },
 
   // ========== 滇菜 ==========
@@ -2131,7 +2131,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["河北"],
     lat: 40.9515,
     lng: 117.9626,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "famous-99",

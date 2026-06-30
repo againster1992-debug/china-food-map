@@ -1,4 +1,4 @@
-import type { Food } from "@/types/food";
+﻿import type { Food } from "@/types/food";
 
 export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
   // ========== 浙菜（八大菜系之一，发源浙江）==========
@@ -282,7 +282,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
   },
   {
     id: "batch4-zj-16",
-    name: "嘉兴炒蟹粉",
+    name: "炒蟹粉",
     alias: ["炒蟹粉"],
     image: "https://img1.baidu.com/it/u=996629400,3752025727&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=750",
     category: "主菜",
@@ -724,7 +724,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
   },
   {
     id: "batch4-ah-6",
-    name: "三河酥鸭",
+    name: "酥鸭",
     image: "https://img2.baidu.com/it/u=3519780991,2390571935&fm=253&fmt=auto&app=138&f=JPEG?w=432&h=500",
     category: "主菜",
     taste: "咸鲜",
@@ -1788,7 +1788,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
 
   {
     id: "batch4-js-48",
-    name: "常州糟扣肉",
+    name: "糟扣肉",
     alias: ["糟扣肉", "香糟扣肉"],
     image: "https://img2.baidu.com/it/u=1558339259,2596939050&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=889",
     category: "主菜",

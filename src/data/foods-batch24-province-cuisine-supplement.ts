@@ -93,7 +93,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "天津",
     "端午粽",
     "传统小吃"],
-  fame: "地方名吃",
+  fame: "名菜",
   popularRegions: [
     "天津"],
   lat: 39.0842,
@@ -220,7 +220,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "西安",
     "蜂蜜",
     "凉粽"],
-  fame: "地方名吃",
+  fame: "名菜",
   popularRegions: [
     "陕西"],
   lat: 34.3416,
@@ -259,7 +259,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
 },
 {
   id: "batch24-pcs-0009",
-  name: "黄山灰汁粽子",
+  name: "灰汁粽子",
   image: "http://t14.baidu.com/it/u=2420061850,4150079117&fm=224&app=112&f=JPEG?w=500&h=500",
   category: "糕点",
   taste: "咸鲜",
@@ -280,7 +280,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "安徽",
     "黄山",
     "灰汁粽"],
-  fame: "地方名吃",
+  fame: "名菜",
   popularRegions: [
     "安徽"],
   lat: 29.7147,
@@ -316,7 +316,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "海南"],
   lat: 19.5209,
   lng: 109.5808,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch24-pcs-0016",
@@ -348,7 +348,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "湖北"],
   lat: 29.0316,
   lng: 111.6985,
-  popularity: 8
+  popularity: 7
 },
 
   
@@ -450,7 +450,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "香港",
     "街头小吃",
     "茶餐厅"],
-  fame: "地方名吃",
+  fame: "名菜",
   popularRegions: [
     "香港",
     "广东"],
@@ -486,7 +486,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "闻喜",
     "花馍",
     "非遗"],
-  fame: "地方名吃",
+  fame: "名菜",
   popularRegions: [
     "山西"],
   lat: 35.3562,
@@ -532,7 +532,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
 
   {
   id: "batch24-pcs-0042",
-  name: "徐州地锅鸡",
+  name: "地锅鸡",
   image: "https://img0.baidu.com/it/u=2357064360,2969466977&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=889",
   category: "主菜",
   taste: "香辣",
@@ -617,7 +617,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "怀化",
     "芷江鸭",
     "侗族"],
-  fame: "地方名吃",
+  fame: "名菜",
   popularRegions: [
     "湖南"],
   lat: 27.55,
@@ -626,7 +626,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
 },
 {
   id: "batch24-pcs-0048",
-  name: "济南把子肉",
+  name: "把子肉",
   image: "https://img0.baidu.com/it/u=2800199137,2213035266&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=1173",
   category: "主菜",
   taste: "咸鲜",
@@ -661,7 +661,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
 {
   id: "batch24-pcs-0050",
   name: "开洋葱油拌面",
-  image: "https://img0.baidu.com/it/u=3109882972,3089410261&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1422",
+  image: "https://img1.baidu.com/it/u=37376469,95805227&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1067",
   category: "面食",
   taste: "咸鲜",
   type: "traditional",
@@ -686,7 +686,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "葱油拌面",
     "开洋",
     "传统"],
-  fame: "地方名吃",
+  fame: "名菜",
   popularRegions: [
     "上海"],
   lat: 31.2304,
@@ -723,37 +723,6 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
   lat: 25.033,
   lng: 121.5654,
   popularity: 9
-},
-
-{
-  id: "batch24-pcs-0055",
-  name: "独面筋",
-  image: "https://img0.baidu.com/it/u=3987571272,3679358353&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=667",
-  category: "主菜",
-  taste: "咸鲜",
-  type: "traditional",
-  cuisine: "津菜",
-  province: "天津",
-  city: "天津",
-  origin: "天津清真名菜，以独个面筋炒制。",
-  description: "天津独面筋以油面筋撕小块，配黄瓜、木耳、甜面酱快炒。面筋吸汁、酱香浓郁，是天津回民馆子里经典的素菜下饭菜。",
-  ingredients: ["面筋", "黄瓜", "木耳", "甜面酱"],
-  cookingMethod: [
-    "炒"],
-  tags: [
-    "咸鲜",
-    "主菜",
-    "津菜",
-    "天津",
-    "面筋",
-    "清真",
-    "下饭菜"],
-  fame: "地方名吃",
-  popularRegions: [
-    "天津"],
-  lat: 39.0842,
-  lng: 117.201,
-  popularity: 7
 },
 {
   id: "batch24-pcs-0056",
@@ -818,7 +787,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "应县",
     "凉粉",
     "消暑"],
-  fame: "地方名吃",
+  fame: "名菜",
   popularRegions: [
     "山西"],
   lat: 39.5542,
@@ -852,7 +821,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "满族",
     "火锅"
   ],
-  fame: "地方名吃",
+  fame: "名菜",
   popularRegions: [
     "吉林",
     "辽宁",
@@ -884,7 +853,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "哈尔滨",
     "黄米",
     "切糕"],
-  fame: "地方名吃",
+  fame: "名菜",
   popularRegions: [
     "黑龙江",
     "吉林",
@@ -986,7 +955,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "马鞍山",
     "茶干",
     "豆干"],
-  fame: "地方名吃",
+  fame: "名菜",
   popularRegions: [
     "安徽"],
   lat: 31.67,
@@ -1088,7 +1057,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "洛阳",
     "杂粮"
   ],
-  fame: "地方名吃",
+  fame: "名菜",
   popularRegions: [
     "河南"],
   lat: 34.62,
@@ -1179,12 +1148,12 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "黄流",
     "老鸭",
     "白切"],
-  fame: "地方名吃",
+  fame: "名菜",
   popularRegions: [
     "海南"],
   lat: 18.7481,
   lng: 109.1739,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch24-pcs-0074",
@@ -1241,7 +1210,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "汉中",
     "腊肉",
     "烟熏"],
-  fame: "地方名吃",
+  fame: "名菜",
   popularRegions: [
     "陕西"],
   lat: 33.07,
@@ -1411,7 +1380,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "手信",
     "蛋卷"
   ],
-  fame: "地方名吃",
+  fame: "名菜",
   popularRegions: [
     "澳门"],
   lat: 22.1987,
@@ -1482,7 +1451,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "汤圆",
     "老字号"
   ],
-  fame: "地方名吃",
+  fame: "名菜",
   popularRegions: [
     "天津"],
   lat: 39.0842,
@@ -1551,47 +1520,12 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "保定",
     "素面",
     "素食"],
-  fame: "地方名吃",
+  fame: "名菜",
   popularRegions: [
     "河北"],
   lat: 38.8739,
   lng: 115.4646,
   popularity: 7
-},
-{
-  id: "batch24-pcs-0088",
-  name: "运城解州羊肉泡",
-  image: "https://img0.baidu.com/it/u=411736097,1848773599&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=667",
-  category: "主食",
-  taste: "咸鲜",
-  type: "popular",
-  cuisine: "晋菜",
-  province: "山西",
-  city: "运城",
-  origin: "运城解州镇受陕西羊肉泡影响并加入本地羊肉的做法。",
-  description: "山西运城解州羊肉泡以晋南羊肉与羊骨熬汤，泡入掰好的馍块与粉丝。汤鲜肉烂、馍筋入味，是晋南人冬日驱寒的饱腹主食。",
-  ingredients: [
-    "羊肉",
-    "馍",
-    "粉丝",
-    "香菜"],
-  cookingMethod: [
-    "煮",
-    "泡"],
-  tags: [
-    "咸鲜",
-    "主食",
-    "晋菜",
-    "山西",
-    "运城",
-    "羊肉泡",
-    "驱寒"],
-  fame: "热门",
-  popularRegions: [
-    "山西"],
-  lat: 35.0264,
-  lng: 111.007,
-  popularity: 8
 },
 {
   id: "batch24-pcs-0089",
@@ -1621,7 +1555,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "阿拉善",
     "驼掌",
     "宴席"],
-  fame: "地方名吃",
+  fame: "名菜",
   popularRegions: [
     "内蒙古"],
   lat: 38.8476,

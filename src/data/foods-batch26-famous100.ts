@@ -1,9 +1,9 @@
-import type { Food } from "@/types/food";
+﻿import type { Food } from "@/types/food";
 
 export const FOODS_BATCH26_FAMOUS100: Food[] = [
 {
   id: "batch26-famous-002",
-  name: "淮扬蟹粉狮子头",
+  name: "蟹粉狮子头",
   alias: [],
   image: "https://img0.baidu.com/it/u=3841366196,2047989500&fm=253&fmt=auto&app=138&f=JPEG?w=512&h=500",
   category: "主菜",
@@ -25,7 +25,7 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
 },
 {
   id: "batch26-famous-003",
-  name: "淮扬文思豆腐羹",
+  name: "文思豆腐羹",
   alias: [],
   image: "https://img0.baidu.com/it/u=2869449529,1757074624&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=889",
   category: "汤羹",
@@ -249,7 +249,7 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
   popularRegions: ["广西", "柳州", "全国"],
   lat: 24.3264,
   lng: 109.4281,
-  popularity: 9
+  popularity: 10
 }
 ,
 {
@@ -275,28 +275,7 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
   popularity: 10
 },
   
-{
-  id: "batch26-famous-040",
-  name: "七星包心鱼丸",
-  alias: [],
-  image: "https://img0.baidu.com/it/u=1495246468,311753855&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=721",
-  category: "汤羹",
-  taste: "鲜香",
-  type: "traditional",
-  cuisine: "闽菜",
-  province: "福建",
-  city: "福州",
-  origin: "福州鱼丸以包心为特色，七星鱼丸因七颗浮于汤面如北斗七星得名，弹牙爆汁是闽菜小吃灵魂。",
-  description: "福州七星包心鱼丸以鳗鱼肉打制成皮，包裹猪肉馅，煮熟后浮于汤面如七星。鱼丸弹牙爆汁、外皮雪白，是福州鱼丸的极致版本，闽菜小吃的灵魂代表。",
-  ingredients: ["鳗鱼", "猪肉", "淀粉", "葱", "盐"],
-  cookingMethod: ["打", "煮", "包"],
-  tags: ["鲜香", "汤羹", "闽菜", "福建", "福州", "鱼丸", "弹牙", "爆汁", "传统", "地方名吃"],
-  fame: "名菜",
-  popularRegions: ["福建", "全国"],
-  lat: 26.0745,
-  lng: 119.2965,
-  popularity: 9
-},
+// 「七星包心鱼丸」已合并至「七星鱼丸」(foods-batch23-famous100.ts) - 同省同物异名
 // 「西湖莼菜羹」已合并至「西湖莼菜汤」(foods-famous.ts famous-37) - 同地同物异名
 {
   id: "batch26-famous-048",
@@ -358,7 +337,7 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
   ingredients: ["牦牛肉", "牛油", "面粉", "洋葱", "盐", "花椒"],
   cookingMethod: ["蒸"],
   tags: ["咸鲜", "主食", "藏餐", "西藏", "拉萨", "牦牛", "高原", "传统", "多汁", "地方名吃"],
-  fame: "地方名吃",
+  fame: "名菜",
   popularRegions: ["西藏", "全国"],
   lat: 29.65,
   lng: 91.1,
@@ -388,51 +367,6 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
   popularity: 9
 },
 {
-  id: "batch26-famous-056",
-  name: "大盘鸡皮带面",
-  alias: [],
-  image: "https://img2.baidu.com/it/u=142974348,2359716125&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=630",
-  category: "主菜",
-  taste: "麻辣",
-  type: "traditional",
-  cuisine: "新疆菜",
-  province: "新疆",
-  city: "乌鲁木齐",
-  origin: "新疆公路美食之王，鸡块土豆青椒红烧后加皮带面拌汤汁，麻辣鲜香吃出新疆人的豪爽。",
-  description: "乌鲁木齐大盘鸡皮带面以鸡块土豆青椒红烧，吃完加皮带面拌汤汁。鸡块麻辣鲜香、土豆绵软入味，是新疆公路美食之王，一盘鸡加面吃出新疆人的豪爽。",
-  ingredients: ["鸡肉", "土豆", "辣椒", "面粉", "花椒", "八角"],
-  cookingMethod: ["烧", "炖", "煮"],
-  tags: ["麻辣", "主菜", "新疆菜", "新疆", "乌鲁木齐", "大盘鸡", "皮带面", "公路", "豪爽", "地方名吃"],
-  fame: "名菜",
-  popularRegions: ["新疆", "全国"],
-  lat: 43.7928,
-  lng: 87.6271,
-  popularity: 9
-},
-  
-{
-  id: "batch26-famous-058",
-  name: "真不同酱肉",
-  alias: [],
-  image: "https://img0.baidu.com/it/u=732618598,1248755746&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=655",
-  category: "主菜",
-  taste: "咸鲜",
-  type: "traditional",
-  cuisine: "东北菜",
-  province: "吉林",
-  city: "长春",
-  origin: "吉林百年老号真不同的招牌菜，猪五花肉酱制色泽红亮，酱香浓郁肥而不腻，吉菜酱制工艺代表。",
-  description: "长春真不同酱肉以猪五花肉用酱油、糖、香料酱制，色泽红亮。酱香浓郁、肥而不腻，是吉林百年老号真不同的招牌菜，吉菜酱制工艺的代表。",
-  ingredients: ["猪肉", "酱油", "糖", "香料", "葱", "姜"],
-  cookingMethod: ["酱", "卤"],
-  tags: ["咸鲜", "主菜", "东北菜", "吉林", "长春", "百年", "酱制", "老号", "招牌", "地方名吃"],
-  fame: "地方名吃",
-  popularRegions: ["吉林", "东北", "全国"],
-  lat: 43.896,
-  lng: 125.326,
-  popularity: 8
-},
-{
   id: "batch26-famous-061",
   name: "金凤扒鸡",
   alias: [],
@@ -448,7 +382,7 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
   ingredients: ["鸡肉", "蜂蜜", "酱油", "香料", "盐"],
   cookingMethod: ["炸", "卤", "焖"],
   tags: ["咸鲜", "主菜", "冀菜", "河北", "石家庄", "百年", "扒鸡", "脱骨", "中华老字号", "地方名吃"],
-  fame: "地方名吃",
+  fame: "名菜",
   popularRegions: ["河北", "全国"],
   lat: 38.0428,
   lng: 114.5149,
@@ -693,29 +627,7 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
   ingredients: ["面粉", "鸡蛋", "糖", "绿豆", "红豆", "油"],
   cookingMethod: ["烤", "蒸", "炸"],
   tags: ["甜", "糕点", "东北菜", "吉林", "吉林市", "百年", "传统", "萨其马", "槽子糕", "地方名吃"],
-  fame: "地方名吃",
-  popularRegions: ["吉林", "东北", "全国"],
-  lat: 43.8378,
-  lng: 126.5495,
-  popularity: 8
-},
-{
-  id: "batch26-famous-091",
-  name: "清蒸松花江白鱼",
-  alias: [],
-  image: "https://img1.baidu.com/it/u=2431039618,2304591329&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=889",
-  category: "主菜",
-  taste: "鲜香",
-  type: "traditional",
-  cuisine: "东北菜",
-  province: "吉林",
-  city: "吉林市",
-  origin: "吉林松花湖水产极品，松花江白鱼清蒸，鱼肉细嫩如豆腐鲜甜无腥，清蒸是对白鱼最大尊重。",
-  description: "吉林清蒸松花江白鱼以松花江野生白鱼清蒸，仅加葱姜料酒。鱼肉细嫩如豆腐、鲜甜无腥，是吉林松花湖水产的极品，清蒸是对白鱼最大的尊重。",
-  ingredients: ["白鱼", "葱", "姜", "料酒", "盐", "油"],
-  cookingMethod: ["蒸"],
-  tags: ["鲜香", "主菜", "东北菜", "吉林", "吉林市", "松花江", "清蒸", "细嫩", "水产", "地方名吃"],
-  fame: "地方名吃",
+  fame: "名菜",
   popularRegions: ["吉林", "东北", "全国"],
   lat: 43.8378,
   lng: 126.5495,
@@ -781,7 +693,7 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
   ingredients: ["狗肉", "辣椒", "花椒", "八角", "草果", "姜"],
   cookingMethod: ["煮", "炖"],
   tags: ["香辣", "主菜", "黔菜", "贵州", "安顺", "花江", "狗肉", "药膳", "百年", "地方名吃"],
-  fame: "地方名吃",
+  fame: "名菜",
   popularRegions: ["贵州", "全国"],
   lat: 26.253,
   lng: 105.947,
@@ -892,7 +804,7 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
   ingredients: ["黄瓜", "萝卜", "莴笋", "甜面酱", "盐", "香料"],
   cookingMethod: ["腌", "酱"],
   tags: ["咸鲜", "腌腊", "冀菜", "河北", "保定", "酱菜", "百年", "槐茂", "中华老字号", "地方名吃"],
-  fame: "地方名吃",
+  fame: "名菜",
   popularRegions: ["河北", "全国"],
   lat: 38.8739,
   lng: 115.4646,

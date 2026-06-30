@@ -20,7 +20,7 @@ export const FOODS_BATCH21_CUISINE_TRENDS: Food[] = [
     ingredients: ["鸭脖", "辣椒", "花椒", "香料", "酱油"],
     cookingMethod: ["卤"],
     tags: ["麻辣", "小吃", "鄂菜", "湖北", "武汉", "零食"],
-    fame: "热门",
+    fame: "名菜",
     popularRegions: ["湖北", "全国"],
     lat: 30.5928,
     lng: 114.3055,
@@ -42,11 +42,11 @@ export const FOODS_BATCH21_CUISINE_TRENDS: Food[] = [
     ingredients: ["莲藕", "猪肉", "面粉", "鸡蛋"],
     cookingMethod: ["炸"],
     tags: ["鲜香", "小吃", "鄂菜", "湖北", "洪湖", "网红"],
-    fame: "地方名吃",
+    fame: "名菜",
     popularRegions: ["湖北", "全国"],
     lat: 29.8136,
     lng: 113.5768,
-    popularity: 9,
+    popularity: 7,
   },
 
   // ========== 台湾菜补充美食（2025-2026热门）==========
@@ -163,5 +163,5 @@ export const FOODS_BATCH21_CUISINE_TRENDS: Food[] = [
     popularRegions: ["河南", "全国"],
     lat: 34.7466,
     lng: 113.6253,
-    popularity: 9,
+    popularity: 5,
   }];
