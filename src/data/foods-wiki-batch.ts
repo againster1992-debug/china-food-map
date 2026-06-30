@@ -518,7 +518,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     type: "traditional",
     cuisine: "藏餐",
     province: "西藏",
-    city: "西藏",
+    city: "拉萨",
     origin: "西藏藏族传统甜点，藏历新年必备",
     description:
       "藏族酥酪糕以奶渣（干酪）加糖、酥油揉匀，捏成各种形状后油炸或烤制。色泽金黄，奶香浓郁，酥甜可口。是藏族传统甜点，藏历新年和喜庆宴席上必备，体现了藏族丰富的乳制品文化。",
@@ -541,7 +541,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     type: "traditional",
     cuisine: "桂菜",
     province: "广西",
-    city: "广西",
+    city: "南宁",
     origin: "广西壮族聚居区，壮族传统菜肴",
     description:
       "壮族火把肉将猪肉切条穿成串，形似火把，用香料腌制后炭火烤制。外焦里嫩，烟香四溢。是壮族火把节和庆典上的传统美食，因肉串形似火把而得名，体现了壮族热情豪迈的饮食风格。",
@@ -562,9 +562,9 @@ export const FOODS_WIKI_BATCH: Food[] = [
     category: "主食",
     taste: "香甜",
     type: "traditional",
-    cuisine: "其他",
+    cuisine: "琼菜",
     province: "海南",
-    city: "海南",
+    city: "五指山",
     origin: "海南苗族传统美食，三月三节庆食品",
     description:
       "苗族三色饭用植物汁液将糯米染成红、黄、黑三色蒸制。色彩鲜艳，植物清香，软糯可口。是海南苗族「三月三」节庆的传统食品，三色象征吉祥如意，体现了苗族利用天然植物染色的智慧。",
@@ -886,7 +886,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     type: "traditional",
     cuisine: "其他",
     province: "广东",
-    city: "广东",
+    city: "广州",
     origin: "南方各地传统米制糕点，广东、广西盛行",
     description:
       "发糕以大米磨浆发酵后蒸制，成品蓬松如海绵，孔洞均匀，口感松软微甜。因「发」字寓意发财，是南方节庆、祭祀的必备糕点。广东、广西、湖南等地各有特色，是南方米食文化的代表糕点。",
@@ -934,7 +934,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     type: "traditional",
     cuisine: "其他",
     province: "山东",
-    city: "山东",
+    city: "济南",
     origin: "华北、东北地区核心调味酱，历史悠久",
     description:
       "黄豆酱以黄豆为主料，经蒸煮、发酵制成。色泽红褐，酱香浓郁，咸鲜醇厚。是华北、东北地区炖烧蘸抹皆宜的核心调味酱，大酱汤、酱大骨、蘸酱菜都离不开它。东北大酱与山东黄酱各有特色，是北方饮食的味觉基石。",
@@ -980,7 +980,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     type: "popular",
     cuisine: "其他",
     province: "广东",
-    city: "广东",
+    city: "广州",
     origin: "西式调料中国化，粤菜率先使用",
     description:
       "番茄酱以成熟番茄打浆熬制，色泽鲜红，酸甜适口。虽源自西方，但在中国粤菜中被广泛运用，咕噜肉、茄汁虾、番茄炒蛋都离不开它。是中西融合调味的代表，也是中国家庭厨房最普及的酱料之一。",
@@ -1049,7 +1049,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     type: "traditional",
     cuisine: "其他",
     province: "四川",
-    city: "四川",
+    city: "成都",
     origin: "各地均有，四川、湖南、陕西最盛",
     description:
       "辣椒粉以干辣椒研磨而成，色泽红亮，辣味浓烈。是中式烹饪最基础的辣味调料，油泼辣子、烧烤撒料、火锅蘸料都离不开它。四川的二荆条、陕西的线椒、湖南的朝天椒各具风味，是辣味文化的基石。",
@@ -1072,7 +1072,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     type: "traditional",
     cuisine: "川菜",
     province: "四川",
-    city: "四川",
+    city: "成都",
     origin: "西南、西北地区主要食用油",
     description:
       "菜籽油以油菜籽压榨而成，色泽金黄，带有特殊清香。是川菜的灵魂用油，炼熟后炒菜能产生独特「锅气」。四川回锅肉、麻婆豆腐都必须用菜籽油才正宗。是中国产量最大的植物油之一，西南、西北地区日常烹饪必备。",
@@ -1095,7 +1095,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     type: "traditional",
     cuisine: "其他",
     province: "江苏",
-    city: "江苏",
+    city: "南京",
     origin: "中国传统烹饪用油，各地普遍使用",
     description:
       "猪油以猪板油或肥肉熬制，冷却后呈白色固体。香气浓郁，是中式糕点、炒饭、面点的灵魂用油。苏式月饼的酥皮、阳春面的香气、猪油拌饭的满足感都来自猪油。虽然现代健康观念有所争议，但猪油在中式烹饪中的地位不可替代。",
@@ -1143,7 +1143,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     type: "traditional",
     cuisine: "粤菜",
     province: "广东",
-    city: "广东",
+    city: "广州",
     origin: "广东糖水经典，岭南传统甜品",
     description:
       "红豆沙以红豆慢熬至绵烂，加陈皮、红糖调味。色泽深红，豆香浓郁，口感绵密。是广东糖水铺最经典的甜品之一，有清热祛湿、补血养颜之效。冰镇或热食皆宜，体现了广式糖水「药食同源」的理念。",
@@ -1166,7 +1166,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     type: "traditional",
     cuisine: "粤菜",
     province: "广东",
-    city: "广东",
+    city: "广州",
     origin: "广东糖水经典，夏季消暑必备",
     description:
       "绿豆沙以绿豆熬至「起沙」（豆皮分离），加冰糖调味。色泽浅绿，清凉解暑，是夏季最受欢迎的广式糖水。常加海带、臭草同煮，风味更佳。有清热解毒之效，体现了广东人「夏饮绿豆沙」的养生传统。",
@@ -1189,7 +1189,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     type: "traditional",
     cuisine: "粤菜",
     province: "广东",
-    city: "广东",
+    city: "广州",
     origin: "广东、香港传统糖水，街头常见",
     description:
       "芝麻糊以黑芝麻炒熟磨粉，加米浆、冰糖熬制。色泽乌黑发亮，芝麻香气浓郁，口感浓稠滑润。是广式糖水中的经典，有乌发养颜之效。香港街头「芝麻糊、杏仁糊、核桃糊」三糊并称，是冬日暖身的首选甜品。",
@@ -1198,8 +1198,8 @@ export const FOODS_WIKI_BATCH: Food[] = [
     tags: ["黑芝麻", "糖水", "广式甜品", "乌发", "酥脆"],
     fame: "地方名吃",
     popularRegions: ["广东"],
-    lat: 22.3193,
-    lng: 114.1694,
+    lat: 23.1291,
+    lng: 113.2644,
     popularity: 4,
   },
   {
@@ -1212,7 +1212,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     type: "traditional",
     cuisine: "粤菜",
     province: "广东",
-    city: "广东",
+    city: "广州",
     origin: "广东、香港传统糖水",
     description:
       "杏仁糊以南杏（甜杏仁）磨浆，加米浆、冰糖熬制。色泽乳白，杏仁清香，口感细腻顺滑。有润肺止咳之效，是秋冬季节的滋补甜品。与芝麻糊、核桃糊并称「三糊」，是广式糖水铺的常备品种。",
@@ -1221,8 +1221,8 @@ export const FOODS_WIKI_BATCH: Food[] = [
     tags: ["糖水", "广式甜品", "润肺", "香甜", "甜品", "粤菜", "广东"],
     fame: "地方名吃",
     popularRegions: ["广东"],
-    lat: 22.3193,
-    lng: 114.1694,
+    lat: 23.1291,
+    lng: 113.2644,
     popularity: 4,
   },
   {
@@ -1235,7 +1235,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     type: "traditional",
     cuisine: "粤菜",
     province: "广东",
-    city: "广东",
+    city: "广州",
     origin: "广东、香港传统糖水",
     description:
       "核桃糊以核桃仁磨浆，加米浆、冰糖熬制。色泽米褐，核桃醇香，口感浓稠。有补脑益智、润肠通便之效。是广式糖水「三糊」之一，秋冬进补首选，体现了广东糖水注重食补养生的特色。",
@@ -1244,8 +1244,8 @@ export const FOODS_WIKI_BATCH: Food[] = [
     tags: ["糖水", "广式甜品", "补脑", "绵软"],
     fame: "地方名吃",
     popularRegions: ["广东"],
-    lat: 22.3193,
-    lng: 114.1694,
+    lat: 23.1291,
+    lng: 113.2644,
     popularity: 4,
   },
   {
@@ -1258,7 +1258,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     type: "traditional",
     cuisine: "粤菜",
     province: "广东",
-    city: "广东",
+    city: "广州",
     origin: "广东传统糖水，家常甜品",
     description:
       "番薯糖水以红薯切块，加姜片、冰糖煮制。汤色清亮，红薯软糯，姜味暖身。是广东最家常的糖水，材料简单却温暖人心。冬季加老姜驱寒，夏季冰镇消暑，体现了广东糖水「简而不陋」的家常美学。",
@@ -1281,7 +1281,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     type: "traditional",
     cuisine: "粤菜",
     province: "广东",
-    city: "广东",
+    city: "广州",
     origin: "广东传统糖水，广式糖水铺经典",
     description:
       "腐竹糖水以腐竹（豆腐皮）、白果（银杏）、鸡蛋加冰糖煮制。腐竹滑嫩、白果软糯、蛋花飘逸，清甜滋润。是广式糖水的经典品种，有润肺养颜之效。白果腐竹糖水尤其受欢迎，体现了广东糖水食材搭配的精妙。",

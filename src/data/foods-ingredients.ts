@@ -428,7 +428,7 @@ export const FOODS_INGREDIENTS: Food[] = [
   {
     id: "ingredient-26",
     name: "牦牛",
-    alias: ["高原之舟", "牦牛肉"],
+    alias: ["高原之舟"],
     image: "https://img2.baidu.com/it/u=1867825443,760136686&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=651",
     category: "物产",
     taste: "咸鲜",
@@ -950,29 +950,7 @@ export const FOODS_INGREDIENTS: Food[] = [
   },
 
   // ========== 发酵食品 - 其他 ==========
-  {
-    id: "ingredient-66",
-    name: "绍兴霉干菜",
-    alias: ["乌干菜", "梅干菜"],
-    image: "https://img1.baidu.com/it/u=3787612351,3767350476&fm=253&fmt=auto&app=138&f=JPEG?w=515&h=500",
-    category: "腌腊",
-    taste: "咸鲜",
-    type: "traditional",
-    cuisine: "其他",
-    province: "浙江",
-    city: "绍兴",
-    origin: "浙江省绍兴市",
-    description:
-      "绍兴霉干菜以绍兴所产为佳，色泽乌黑，香气浓郁，咸鲜回甘，是绍兴传统名产。绍兴霉干菜以雪里蕻、芥菜为原料，经「晾晒、腌制、发酵、晒干」工艺制成，分「乌干菜」、「梅干菜」两种，以「乌干菜」最知名，色泽乌黑，香气浓郁。绍兴霉干菜已有数百年历史，是浙菜的灵魂食材，霉干菜扣肉、霉干菜炒饭、霉干菜汤是经典。鲁迅笔下「霉干菜」即绍兴风味。是绍兴名片，「绍兴霉干菜」体现江南腌制智慧，是浙菜的重要食材，承载越地百年饮食传统。",
-    ingredients: ["芥菜", "盐"],
-    cookingMethod: ["腌", "发酵", "晒"],
-    tags: ["发酵食品", "腌", "霉干菜", "咸鲜", "腌腊", "浙江"],
-    fame: "名菜",
-    popularRegions: ["浙江", "上海"],
-    lat: 30.0,
-    lng: 120.58,
-    popularity: 6,
-  },
+  // 「绍兴霉干菜」(ingredient-66) 已合并至「绍兴梅干菜」(batch6-cond-41) - 同地同物异名
   {
     id: "ingredient-67",
     name: "客家娘酒",

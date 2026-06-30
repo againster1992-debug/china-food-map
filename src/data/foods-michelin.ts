@@ -304,29 +304,7 @@ export const FOODS_MICHELIN: Food[] = [
   },
 
   // ========== 成都 · 米其林 ==========
-  {
-    id: "michelin-23",
-    name: "许家鸡豆花",
-    alias: ["鸡豆花"],
-    image: "https://img1.baidu.com/it/u=3018153360,2467646644&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=653",
-    category: "汤羹",
-    taste: "清淡",
-    type: "popular",
-    cuisine: "川菜",
-    province: "四川",
-    city: "成都",
-    origin: "许家菜，米其林一星",
-    description:
-      "许家菜鸡豆花是成都米其林一星餐厅许家菜的招牌菜。许家菜由名厨许凡主理，专注高端川菜，以「百菜百味」为理念。鸡豆花是川菜「吃鸡不见鸡」的功夫菜代表，以鸡胸肉斩茸，加蛋清搅打成豆花状，以清汤汆制。成品洁白如雪，口感嫩滑如豆腐，汤清味鲜，鲜味醇厚。许家菜坚持传统川菜工艺，此菜看似清淡，实则考验厨师功力，是川菜「清鲜」一面的极致体现，颠覆了人们对川菜「只有麻辣」的刻板印象。",
-    ingredients: ["鸡肉", "蛋清", "豆苗"],
-    cookingMethod: ["汆", "吊"],
-    tags: [],
-    fame: "热门",
-    popularRegions: ["四川"],
-    lat: 30.5728,
-    lng: 104.0668,
-    popularity: 6,
-  },
+  // 「许家鸡豆花」已合并至「鸡豆花」(gen2-f-2025-7) - 同地同物异名
   {
     id: "michelin-25",
     name: "大刀金丝面",

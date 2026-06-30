@@ -1,4 +1,4 @@
-﻿﻿﻿import type { Food } from "@/types/food";
+﻿﻿import type { Food } from "@/types/food";
 
 export const FOODS_CENTRAL_SOUTH: Food[] = [
   // ========== 河南（豫菜）==========
@@ -104,7 +104,7 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     type: "traditional",
     cuisine: "豫菜",
     province: "河南",
-    city: "河南",
+    city: "郑州",
     origin: "河南民间，中原家常主食",
     description:
       "河南焖饼以烙饼切丝，配豆芽、肉丝、白菜焖制。饼丝吸汁入味，筋道鲜香。是中原家家会做的家常饭，「有菜有饭一锅出」，体现河南饮食的朴实与实在。",
@@ -269,7 +269,7 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     type: "traditional",
     cuisine: "湘菜",
     province: "湖南",
-    city: "湖南",
+    city: "湘西",
     origin: "湖南民间，湘人腊月腌制传统",
     description:
       "腊味合蒸以腊肉、腊鸡、腊鱼等蒸制。烟熏香浓，咸鲜醇厚，肥而不腻。是湖南「无腊不过年」的代表，湘菜「腊味」的灵魂。家家腊月熏制，是湘人最深的年味记忆。",
@@ -822,7 +822,7 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     type: "traditional",
     cuisine: "琼菜",
     province: "海南",
-    city: "海南",
+    city: "海口",
     origin: "海南，相传源于宋代，海南夏日消暑名品",
     description:
       "海南清补凉以椰奶或椰汁为底，加红豆、绿豆、薏米、芋头、西瓜、通心粉等十余种配料。冰凉爽口，清甜解暑。是海南夏夜灵魂，「不吃清补凉，不算到海南」。椰奶版为海南独创。",
@@ -872,7 +872,7 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     city: "琼海",
     origin: "琼海温泉镇，据传清末已有",
     description:
-      "琼海温泉鹅以温泉镇所养白鹅为材，食百草长大，肉质紧实。白切、红烧皆宜，皮脆肉香。是琼海名菜，与加积鸭、温泉鹅并称「琼海双绝」。蘸蒜泥酱油食用，体现琼菜「原味」追求。",
+      "琼海温泉鹅以温泉镇所养白鹅为材，食百草长大，肉质紧实。白切、红烧皆宜，皮脆肉香。是琼海名菜，与嘉积鸭、温泉鹅并称「琼海双绝」。蘸蒜泥酱油食用，体现琼菜「原味」追求。",
     ingredients: ["鹅肉", "蒜", "酱油", "姜", "橘子"],
     cookingMethod: ["煮", "卤"],
     tags: ["琼海", "琼菜", "白鹅", "白切", "原味"],

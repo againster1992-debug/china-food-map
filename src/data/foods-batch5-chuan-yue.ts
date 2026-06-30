@@ -188,29 +188,7 @@ export const FOODS_BATCH5_CHUAN_YUE: Food[] = [
     lng: 104.0668,
     popularity: 7,
   },
-  {
-    id: "batch5-chuan-13",
-    name: "蒜苗回锅",
-    alias: ["蒜苗回锅肉"],
-    image: "https://img0.baidu.com/it/u=2933168203,1431778793&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=1033",
-    category: "主菜",
-    taste: "鲜香",
-    type: "traditional",
-    cuisine: "川菜",
-    province: "四川",
-    city: "成都",
-    origin: "四川成都，川菜回锅肉经典变体",
-    description:
-      "蒜苗回锅以二刀肉煮熟切片，入锅煸至灯盏窝，下郫县豆瓣酱、甜面酱炒红，加蒜苗段翻炒。肉片微卷出油，蒜苗清香断生，酱香浓郁，咸鲜微辣回甜。是回锅肉最经典的配菜版本，川人「家家会做」的家常菜之首，下饭神器。",
-    ingredients: ["猪肉", "蒜", "豆瓣酱", "甜面酱", "酱油"],
-    cookingMethod: ["煮", "煸", "炒"],
-    tags: ["川菜", "回锅肉", "蒜苗", "家常", "鲜香", "主菜", "四川"],
-    fame: "热门",
-    popularRegions: ["四川", "重庆"],
-    lat: 30.5728,
-    lng: 104.0668,
-    popularity: 7,
-  },
+  // 「蒜苗回锅」已合并至「回锅肉」(batch10-chuan-1) - 同地同物异名
   {
     id: "batch5-chuan-14",
     name: "连山回锅肉",
@@ -546,7 +524,7 @@ export const FOODS_BATCH5_CHUAN_YUE: Food[] = [
   {
     id: "batch5-yue-11",
     name: "鲜虾云吞",
-    alias: ["广式云吞", "鲜虾云吞面"],
+    alias: ["鲜虾云吞面"],
     image: "https://img1.baidu.com/it/u=383458615,3180941388&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=1044",
     category: "小吃",
     taste: "咸鲜",
@@ -591,29 +569,7 @@ export const FOODS_BATCH5_CHUAN_YUE: Food[] = [
   },
   // ---------- 粤菜调料/食材 ----------
 
-  {
-    id: "batch5-yue-14",
-    name: "王老吉",
-    alias: ["王老吉凉茶", "吉叔凉茶"],
-    image: "https://img0.baidu.com/it/u=3962855323,1902643223&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=889",
-    category: "饮品",
-    taste: "苦",
-    type: "traditional",
-    cuisine: "粤菜",
-    province: "广东",
-    city: "广州",
-    origin: "广东广州，清道光年间创立的凉茶品牌",
-    description:
-      "王老吉凉茶以岗梅根、五指柑、山芝麻、布渣叶等多味草药熬制，味苦回甘，清热解毒、祛湿生津。由王泽邦于清道光年间创制，是岭南凉茶文化的代表，国家级非物质文化遗产。被誉为「凉茶始祖」，至今仍是广东人祛火消暑的日常饮品。",
-    ingredients: ["岗梅根", "五指柑", "山芝麻", "布渣叶", "甘草"],
-    cookingMethod: ["熬"],
-    tags: ["粤菜", "凉茶", "饮品", "非遗", "名菜", "劲道"],
-    fame: "名菜",
-    popularRegions: ["全国"],
-    lat: 23.1291,
-    lng: 113.2644,
-    popularity: 5,
-  },
+  // 「王老吉」(batch5-yue-14) 已合并至「凉茶」(heritage-31) - 同地同物异名
   {
     id: "batch5-yue-15",
     name: "夏枯草",

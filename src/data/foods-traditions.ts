@@ -106,30 +106,7 @@ export const FOODS_TRADITIONS: Food[] = [
     lng: 111.7511,
     popularity: 3,
   },
-  // 回民盖碗茶
-  {
-    id: "tradition-hui-gaiwan-tea",
-    name: "回民盖碗茶",
-    alias: ["八宝茶", "盖碗茶", "三泡台"],
-    image: "https://img1.baidu.com/it/u=1729859933,1737202323&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=750",
-    category: "饮品",
-    taste: "香甜",
-    type: "traditional",
-    cuisine: "清真菜",
-    province: "宁夏",
-    city: "银川",
-    origin: "宁夏、甘肃回族聚居区，源于西北穆斯林饮茶传统",
-    description:
-      "回民盖碗茶是西北回族独特的茶文化，以盖碗（三泡台）冲泡「八宝茶」：茶叶、红枣、桂圆、枸杞、葡萄干、核桃仁、芝麻、冰糖。盖碗由茶盖、茶碗、茶托三件组成，「一刮、二闻、三品」有讲究。回族「以茶代酒」，盖碗茶是待客、议事、节庆的必备。宁夏银川、甘肃临夏的茶馆遍布，回族人「宁可三日无粮，不可一日无茶」。盖碗茶融合丝路香料与西北物产，是回族「清真」饮食文化的重要组成部分，体现穆斯林「以茶会友」的社交智慧。",
-    ingredients: ["茶叶", "红枣", "龙眼", "枸杞", "糖", "核桃"],
-    cookingMethod: ["冲"],
-    tags: [],
-    fame: "地方名吃",
-    popularRegions: ["甘肃", "青海", "新疆"],
-    lat: 38.4872,
-    lng: 106.2309,
-    popularity: 3,
-  },
+  // 「回民盖碗茶」已合并至「八宝茶」(foods-batch15-regional-trends.ts batch15-ningxia-3) - 同地同物异名
   // 兰州三泡台
   {
     id: "tradition-lanzhou-sanpaotai",
@@ -489,7 +466,7 @@ export const FOODS_TRADITIONS: Food[] = [
     cookingMethod: ["烤", "煮", "焖", "蒸"],
     tags: ["饮食传统", "大巴扎", "维吾尔族", "丝路", "咸鲜", "小吃", "新疆菜", "新疆"],
     fame: "名菜",
-    popularRegions: ["甘肃", "青海"],
+    popularRegions: ["新疆", "全国"],
     lat: 43.7928,
     lng: 87.6271,
     popularity: 5,
@@ -602,30 +579,7 @@ export const FOODS_TRADITIONS: Food[] = [
     lng: 114.1694,
     popularity: 4,
   },
-  // 潮汕夜粥
-  {
-    id: "tradition-chaoshan-ye-zhou",
-    name: "潮汕夜粥",
-    alias: ["夜粥", "潮汕打冷"],
-    image: "https://img2.baidu.com/it/u=1549306246,917692823&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=665",
-    category: "汤羹",
-    taste: "清淡",
-    type: "traditional",
-    cuisine: "潮菜",
-    province: "广东",
-    city: "潮州",
-    origin: "广东潮汕地区，源于潮汕夜宵文化",
-    description:
-      "潮汕夜粥是潮汕独特的夜宵文化，以「夜粥档」为载体。深夜粥铺灯火通明，白粥为底，配卤鹅、鱼饭、生腌海鲜、杂咸（咸菜、菜脯）等百余种「打冷」。鱼饭是潮汕特色，以小鱼盐水煮熟放凉，蘸豆酱食用。生腌膏蟹、虾蛄是「潮汕毒药」，鲜甜上头。潮汕夜粥讲究「粥清、菜鲜、味正」，是潮汕人「夜生活」的灵魂。汕头富苑夜粥、潮州牌坊街夜粥最知名。夜粥文化体现潮汕「精细饮食」与「市井烟火」的融合，是潮菜「鲜、淡、巧」的夜宵演绎，承载潮汕人的味觉乡愁。",
-    ingredients: ["生腌海鲜", "杂咸"],
-    cookingMethod: ["煮", "卤", "腌"],
-    tags: [],
-    fame: "名菜",
-    popularRegions: ["广东", "香港"],
-    lat: 23.6568,
-    lng: 116.6225,
-    popularity: 6,
-  },
+  // 「潮汕夜粥」(tradition-chaoshan-ye-zhou) 已合并至「潮汕打冷」(batch4-cs-6) - 同地同物异名
 
   // ========== 面食文化 ==========
   // 山西面食
@@ -656,7 +610,7 @@ export const FOODS_TRADITIONS: Food[] = [
   {
     id: "tradition-lanzhou-beef-noodle-culture",
     name: "牛肉面文化",
-    alias: ["兰州拉面"],
+    alias: [],
     image: "https://img0.baidu.com/it/u=3378750430,3086898488&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=834",
     category: "面食",
     taste: "咸鲜",
@@ -1488,7 +1442,7 @@ export const FOODS_TRADITIONS: Food[] = [
   {
     id: "tradition-northeast-dumpling",
     name: "东北饺子文化",
-    alias: ["东北饺子", "酸菜饺子", "猪肉炖粉条饺子"],
+    alias: ["东北饺子", "猪肉炖粉条饺子"],
     image: "https://img1.baidu.com/it/u=631133742,1594434247&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=740",
     category: "面食",
     taste: "咸鲜",
@@ -1943,7 +1897,8 @@ export const FOODS_TRADITIONS: Food[] = [
   {
     id: "tradition-hakka-weilong-yan",
     name: "客家围屋宴",
-    alias: ["客家盆菜", "客家围龙屋宴席"],
+    alias: ["客家围龙屋宴席"],
+    // 「客家盆菜」别名已移除（系盆菜 tradition-guangdong-pancai 的别名，客家围屋宴为宴席文化，非菜品本身）
     image: "https://img0.baidu.com/it/u=1135507747,3247315008&fm=253&fmt=auto&app=138&f=JPEG?w=667&h=500",
     category: "主菜",
     taste: "咸鲜",
@@ -1990,7 +1945,7 @@ export const FOODS_TRADITIONS: Food[] = [
   {
     id: "tradition-tianjin-western-food",
     name: "津式西餐",
-    alias: ["津式西餐", "老天津西餐"],
+    alias: ["老天津西餐"],
     image: "https://img1.baidu.com/it/u=513631005,2012703427&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1067",
     category: "主菜",
     taste: "咸鲜",

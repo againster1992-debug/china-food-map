@@ -94,29 +94,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     lng: 113.2644,
     popularity: 7,
   },
-  {
-    id: "batch3-gd-5",
-    name: "龙虎凤",
-    alias: ["龙虎凤大烩", "秋菊宴"],
-    image: "https://img2.baidu.com/it/u=3902695992,2784910199&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500",
-    category: "主菜",
-    taste: "鲜香",
-    type: "traditional",
-    cuisine: "粤菜",
-    province: "广东",
-    city: "广州",
-    origin: "广东传统名菜，源于民间野味烹调",
-    description:
-      "龙虎凤以蛇（龙）、猫（虎）、鸡（凤）同炖，加柠檬叶、菊花丝增香。汤味浓郁鲜美，肉质各异。是粤菜「野味」代表，相传源于清末，因食材猎奇而闻名。现因保护动物，多以养殖替代。",
-    ingredients: ["蛇肉", "鸡肉", "柠檬", "菊花"],
-    cookingMethod: ["炖", "焖"],
-    tags: ["复合", "主菜", "粤菜", "野味", "宴席"],
-    fame: "名菜",
-    popularRegions: ["广东"],
-    lat: 23.1291,
-    lng: 113.2644,
-    popularity: 7,
-  },
+  // 「龙虎凤」(batch3-gd-5) 已合并至「龙虎斗」(famous-22) - 同地同物异名
   {
     id: "batch3-gd-6",
     name: "芙蓉蛋",
@@ -189,7 +167,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
   {
     id: "batch3-gd-11",
     name: "鱼翅",
-    alias: ["鲍参翅肚"],
+    // 「鲍参翅肚」别名已移除（系四大海味合称，非鱼翅单品的别名）
     image: "https://img2.baidu.com/it/u=2350590746,2524334000&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1067",
     category: "汤羹",
     taste: "鲜香",
@@ -839,7 +817,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
   {
     id: "batch3-gd-54",
     name: "云吞",
-    alias: ["馄饨", "广式云吞"],
+    alias: ["馄饨"],
     image: "https://img2.baidu.com/it/u=2551594976,2438948595&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=652",
     category: "面食",
     taste: "咸鲜",
@@ -1023,7 +1001,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
   {
     id: "batch3-gd-64",
     name: "广式年糕",
-    alias: ["广式年糕", "糖年糕"],
+    alias: ["糖年糕"],
     image: "https://img2.baidu.com/it/u=3381322303,1206145707&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=653",
     category: "糕点",
     taste: "香甜",
@@ -1253,7 +1231,8 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
   {
     id: "batch3-gd-74",
     name: "鲍鱼",
-    alias: ["九孔", "鲍参翅肚"],
+    alias: ["九孔"],
+    // 「鲍参翅肚」别名已移除（系四大海味合称，非鲍鱼单品的别名）
     image: "https://img1.baidu.com/it/u=3251973783,3515078244&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1066",
     category: "主菜",
     taste: "鲜香",

@@ -16,7 +16,7 @@ export const FOODS_CITIES_EAST: Food[] = [
     origin: "深圳宝安区沙井街道，宋代已负盛名",
     description:
       "沙井蚝以宝安沙井所产为最，蚝体肥大、色泽乳白。可生食、酥炸、炭烤、做蚝油。沙井地处珠江口咸淡水交汇处，所产鲜蚝肥美爽滑，是深圳最具代表性的地方特产。",
-    ingredients: ["鱼肉", "蒜", "淀粉"],
+    ingredients: ["蚝肉", "蒜", "淀粉"],
     cookingMethod: ["炸", "烤", "蒸"],
     tags: ["生蚝", "海鲜", "沙井特产", "珠江口", "深圳名吃", "嫩滑"],
     fame: "地方名吃",
@@ -86,7 +86,7 @@ export const FOODS_CITIES_EAST: Food[] = [
     origin: "珠海横琴岛，1990年代发展起来的名产",
     description:
       "横琴蚝以横琴岛周边海域所产为佳，蚝体大而肥美，素有「海上牛奶」之称。可炭烤、酥炸、做蚝烙。横琴咸淡水交汇的独特环境造就了蚝的鲜美，是珠海城市名片。",
-    ingredients: ["鱼肉", "蒜", "粉丝"],
+    ingredients: ["蚝肉", "蒜", "粉丝"],
     cookingMethod: ["烤", "炸", "蒸"],
     tags: ["生蚝", "横琴岛", "海鲜", "珠海名吃", "海上牛奶", "嫩滑"],
     fame: "地方名吃",
@@ -246,7 +246,7 @@ export const FOODS_CITIES_EAST: Food[] = [
     type: "traditional",
     cuisine: "粤菜",
     province: "广东",
-    city: "广州",
+    city: "中山",
     origin: "中山沙溪、大涌一带，百年传统",
     description:
       "芦兜粽以芦兜叶包裹，呈长圆柱形，长达一尺。馅有咸蛋黄、五花肉、绿豆。米香、叶香、肉香交融，软糯油润。是中山端午必备，造型独特，别处难见。",
@@ -276,7 +276,7 @@ export const FOODS_CITIES_EAST: Food[] = [
     origin: "湛江沿海，1990年代兴起",
     description:
       "湛江炭烤生蚝以本地大蚝连壳置于炭火上，加蒜蓉辣椒烤制。蚝汁沸腾、蒜香四溢、鲜嫩多汁。湛江生蚝产量居全国前列，炭烤生蚝是夜市招牌，风靡全国。",
-    ingredients: ["鱼肉", "蒜", "辣椒"],
+    ingredients: ["生蚝", "蒜", "辣椒"],
     cookingMethod: ["烤"],
     tags: ["生蚝", "炭烤", "夜市", "湛江名吃", "海鲜", "嫩滑"],
     fame: "热门",
@@ -561,7 +561,7 @@ export const FOODS_CITIES_EAST: Food[] = [
     origin: "衡阳湘江沿岸，传统夜市小吃",
     description:
       "衡阳唆螺以湘江田螺剪尾洗净，加紫苏、辣椒、姜蒜爆炒。吃时用嘴一唆，螺肉入口，麻辣鲜香。是衡阳夜市的灵魂小吃，配啤酒最佳，越唆越过瘾。",
-    ingredients: ["鱼肉", "紫苏", "辣椒", "姜"],
+    ingredients: ["田螺", "紫苏", "辣椒", "姜"],
     cookingMethod: ["炒"],
     tags: ["田螺", "紫苏", "夜市", "衡阳名吃", "湘菜", "爽脆"],
     fame: "地方名吃",
@@ -751,7 +751,7 @@ export const FOODS_CITIES_EAST: Food[] = [
     origin: "九江鄱阳湖畔，传统名菜",
     description:
       "鄱阳湖银鱼羹以鄱阳湖特产银鱼为主料，配蛋花、火腿丝勾芡。汤色乳白、银鱼鲜嫩、入口即化。鄱阳湖银鱼洁白如银、无鳞无骨，是九江宴席上的名汤。",
-    ingredients: ["鱼肉", "鸡蛋", "火腿"],
+    ingredients: ["银鱼", "鸡蛋", "火腿"],
     cookingMethod: ["煮", "勾芡"],
     tags: ["银鱼", "鄱阳湖", "汤羹", "九江名吃", "赣菜"],
     fame: "地方名吃",
@@ -1089,7 +1089,7 @@ export const FOODS_CITIES_EAST: Food[] = [
     origin: "南通沿海，自古有名",
     description:
       "南通文蛤产自南通沿海滩涂，肉嫩汁鲜、味道清甜，被誉为「天下第一鲜」。可爆炒、做汤、铁板。南通文蛤品质甲于天下，是南通最负盛名的海鲜特产。",
-    ingredients: ["鱼肉", "葱", "姜"],
+    ingredients: ["文蛤", "葱", "姜"],
     cookingMethod: ["炒", "煮"],
     tags: ["文蛤", "南通名吃", "苏菜", "海鲜"],
     fame: "地方名吃",
@@ -1124,7 +1124,7 @@ export const FOODS_CITIES_EAST: Food[] = [
   {
     id: "city-nantong-3",
     name: "嵌桃麻糕",
-    alias: ["麻糕"],
+    // 「麻糕」别名已移除（与常州大麻糕 city-changzhou-1 区分，保留各自具体名称）
     image: "https://img0.baidu.com/it/u=1166020691,2272003004&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=653",
     category: "糕点",
     taste: "香甜",
@@ -1149,7 +1149,7 @@ export const FOODS_CITIES_EAST: Food[] = [
   {
     id: "city-changzhou-1",
     name: "常州大麻糕",
-    alias: ["麻糕"],
+    // 「麻糕」别名已移除（与嵌桃麻糕 city-nantong-3 区分，保留各自具体名称）
     image: "https://img2.baidu.com/it/u=2736619176,1258904782&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=750",
     category: "糕点",
     taste: "香甜",
@@ -1314,7 +1314,7 @@ export const FOODS_CITIES_EAST: Food[] = [
   {
     id: "city-lianyungang-2",
     name: "花果山风鹅",
-    alias: ["风鹅"],
+    // 「风鹅」别名已移除（与竹香风鹅 batch3-js-41 区分，保留各自具体名称）
     image: "https://img2.baidu.com/it/u=1501046413,2654434939&fm=253&fmt=auto&app=138&f=JPEG?w=712&h=436",
     category: "主菜",
     taste: "咸鲜",
@@ -1518,7 +1518,7 @@ export const FOODS_CITIES_EAST: Food[] = [
     origin: "湖州，百年传统名点",
     description:
       "湖州大馄饨以皮薄馅大著称，馅用鲜肉、开洋、笋末。个头比一般馄饨大，配清汤、蛋丝、紫菜。是湖州百年名点，周生记、丁莲芳最负盛名，江南馄饨的代表。",
-    ingredients: ["面粉", "猪肉", "鱼肉", "笋"],
+    ingredients: ["面粉", "猪肉", "开洋", "笋"],
     cookingMethod: ["煮"],
     tags: ["大馄饨", "湖州名吃", "浙菜", "名点"],
     fame: "地方名吃",
@@ -1636,7 +1636,7 @@ export const FOODS_CITIES_EAST: Food[] = [
     origin: "泉州，百年传统早餐",
     description:
       "泉州面线糊以极细面线煮成糊状，配大肠、猪血、海蛎、醋肉等浇头。汤糊细腻、料丰味鲜、可甜可咸。是泉州人过早的灵魂，配油条最地道，街头巷尾飘香。",
-    ingredients: ["面条", "猪大肠", "鱼肉"],
+    ingredients: ["面线", "猪大肠", "海蛎"],
     cookingMethod: ["煮"],
     tags: ["早餐", "泉州名吃", "闽菜", "闽南"],
     fame: "地方名吃",
@@ -1685,7 +1685,7 @@ export const FOODS_CITIES_EAST: Food[] = [
     origin: "莆田，百年传统名食",
     description:
       "莆田卤面以手工面条配海蛎、蛏子、肉丝、香菇、笋丝同煮，汤汁浓稠。面筋道、料丰富、汤鲜浓。是莆田宴席和家常的招牌面食，与福州鱼丸齐名，别处难仿其味。",
-    ingredients: ["鱼肉", "香菇"],
+    ingredients: ["海蛎", "香菇"],
     cookingMethod: ["煮", "卤"],
     tags: ["卤面", "海鲜", "莆田名吃", "闽菜", "宴席"],
     fame: "地方名吃",
@@ -1704,11 +1704,11 @@ export const FOODS_CITIES_EAST: Food[] = [
     type: "traditional",
     cuisine: "闽菜",
     province: "福建",
-    city: "漳州",
+    city: "莆田",
     origin: "莆田，传统宴席名菜",
     description:
       "莆田焖豆腐以本地盐卤豆腐为主，配海蛎、蛏干、花生、香菇焖煮。豆腐入味、海鲜鲜香、口感丰富。是莆田宴席的头道大菜，象征「头富」，年节必备。",
-    ingredients: ["豆腐", "鱼肉", "花生"],
+    ingredients: ["豆腐", "海蛎", "花生"],
     cookingMethod: ["焖", "炖"],
     tags: ["宴席", "莆田名吃", "闽菜", "头道菜"],
     fame: "地方名吃",
@@ -1733,7 +1733,7 @@ export const FOODS_CITIES_EAST: Food[] = [
     origin: "漳州芗城区，百年传统",
     description:
       "漳州卤面以碱水面配肉丝、鱿鱼、香菇、笋丝，浇上勾芡卤汤。汤浓料足、面筋道、味鲜香。是漳州人早餐和正餐的主食，配炸肉、卤蛋更佳，别处难仿。",
-    ingredients: ["猪肉", "鱼肉", "香菇"],
+    ingredients: ["猪肉", "鱿鱼", "香菇"],
     cookingMethod: ["煮", "卤"],
     tags: ["卤面", "漳州名吃", "闽菜", "闽南", "早餐"],
     fame: "地方名吃",
@@ -1804,7 +1804,7 @@ export const FOODS_CITIES_EAST: Food[] = [
     origin: "淄博博山区，百年传统",
     description:
       "博山酥锅以白菜、藕、海带、猪肉、带鱼、豆腐层层码放，加醋糖酱油慢炖数小时。酥烂入味、酸甜咸鲜、冷热皆宜。是博山人年节必备大菜，一锅尝尽百味。",
-    ingredients: ["白菜", "莲藕", "海带", "猪肉", "鱼肉"],
+    ingredients: ["白菜", "莲藕", "海带", "猪肉", "带鱼"],
     cookingMethod: ["炖", "焖"],
     tags: ["博山菜", "淄博名吃", "鲁菜", "年货"],
     fame: "地方名吃",
@@ -2422,7 +2422,7 @@ export const FOODS_CITIES_EAST: Food[] = [
     type: "traditional",
     cuisine: "冀菜",
     province: "河北",
-    city: "保定",
+    city: "廊坊",
     origin: "廊坊霸州胜芳镇，百年传统",
     description:
       "胜芳松花蛋以鸭蛋腌制，蛋白呈琥珀色透明胶状，蛋黄墨绿流心。表面有松枝花纹，故名松花。蛋香浓郁、口感独特。是胜芳百年名产，曾为贡品，凉拌最佳。",
@@ -2710,31 +2710,7 @@ export const FOODS_CITIES_EAST: Food[] = [
     "lng": 117.2272,
     "popularity": 4
   },
-  {
-    "id": "city-east-xiamen-1",
-    "name": "炸五香",
-    "alias": [
-      "五香卷"
-    ],
-    "image": "https://img0.baidu.com/it/u=2283414429,630975915&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=638",
-    "category": "小吃",
-    "taste": "咸鲜",
-    "type": "traditional",
-    "cuisine": "闽菜",
-    "province": "福建",
-    "city": "厦门",
-    "origin": "厦门传统闽南小吃，常见于夜市与宴席",
-    "description": "炸五香以五花肉、荸荠、洋葱、五香粉调味，用豆腐皮包卷成条状，油炸至金黄酥脆。外酥内嫩，五香浓郁。是厦门闽南传统小吃，配甜辣酱、芫荽食用。体现闽南小吃对五香粉与油炸技法的钟爱。",
-    "ingredients": ["猪肉", "马蹄", "洋葱", "五香粉", "豆腐"],
-    "cookingMethod": [
-      "炸"
-    ],
-    "tags": ["炸五香", "闽南", "油炸", "闽菜", "夜市", "酥脆"],
-    "fame": "地方名吃",
-    "lat": 24.4798,
-    "lng": 118.0894,
-    "popularity": 4
-  },
+  // 「炸五香」(city-east-xiamen-1) 已合并至「闽南五香卷」(batch26-famous-092) - 同地同物异名
   {
     "id": "city-east-xiamen-2",
     "name": "花生汤",
@@ -2796,7 +2772,7 @@ export const FOODS_CITIES_EAST: Food[] = [
     "city": "青岛",
     "origin": "青岛特色菜，胶东海鲜代表",
     "description": "青岛辣炒蛤蜊以鲜活蛤蜊配干辣椒、蒜末大火爆炒，蛤蜊开口即出锅。蛤肉鲜嫩肥美，辣香四溢，是青岛人最爱的海鲜吃法。吃蛤蜊、喝啤酒、洗海澡，是青岛人夏天的三大享受，也是青岛夜宵摊的标配。",
-    "ingredients": ["鱼肉", "辣椒", "蒜", "姜", "啤酒"],
+    "ingredients": ["蛤蜊", "辣椒", "蒜", "姜", "啤酒"],
     "cookingMethod": [
       "炒"
     ],

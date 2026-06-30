@@ -126,7 +126,7 @@ export const FOODS_BATCH18_PROVINCE_TRENDS: Food[] = [
   {
     id: "batch18-xinjiang-1",
     name: "伊犁清炖手抓肉",
-    alias: ["清水手抓羊肉", "伊犁手抓肉"],
+    alias: ["伊犁手抓肉"],
     image: "https://img1.baidu.com/it/u=773105098,3808395632&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1067",
     category: "主菜",
     taste: "咸鲜",
@@ -149,7 +149,7 @@ export const FOODS_BATCH18_PROVINCE_TRENDS: Food[] = [
   {
     id: "batch18-xinjiang-3",
     name: "过油肉拌面",
-    alias: ["拉条子", "新疆拌面"],
+    alias: [],
     image: "https://img0.baidu.com/it/u=2508906249,46020469&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=654",
     category: "面食",
     taste: "咸鲜",

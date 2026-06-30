@@ -1,4 +1,4 @@
-﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
 
 export const FOODS_FAMOUS: Food[] = [
   // ========== 鲁菜 ==========
@@ -86,7 +86,7 @@ export const FOODS_FAMOUS: Food[] = [
     origin: "济南传统名菜，鲁菜河鲜代表",
     description:
       "黄焖甲鱼以甲鱼为主料，配火腿、香菇黄焖。色泽金黄，肉质酥烂，裙边软糯，汤汁浓醇。甲鱼滋补养生，是鲁菜河鲜代表。讲究火候，慢炖至胶质尽出，是宴席上的珍品。",
-    ingredients: ["鱼肉", "火腿", "香菇", "鸡肉"],
+    ingredients: ["甲鱼", "火腿", "香菇", "鸡肉"],
     cookingMethod: ["焖", "炖"],
     tags: ["甲鱼", "滋补", "鲁菜经典", "宴席珍品", "浓汤", "胶质", "酥脆"],
     fame: "名菜",
@@ -178,7 +178,7 @@ export const FOODS_FAMOUS: Food[] = [
     origin: "青岛沿海一带，鲁菜海鲜爆技代表",
     description:
       "油爆海螺以鲜海螺肉切片，旺火油爆。螺片脆嫩，鲜味十足，色泽洁白。是鲁菜海鲜「爆」技代表，刀工与火候并重。青岛、烟台沿海最盛，体现胶东菜「以鲜为本、以快为魂」的特色。",
-    ingredients: ["鱼肉", "葱", "姜", "蒜"],
+    ingredients: ["海螺", "葱", "姜", "蒜"],
     cookingMethod: ["爆"],
     tags: ["海螺", "海鲜", "鲁菜经典", "胶东菜", "爽脆", "旺火", "酥脆", "粘糯"],
     fame: "名菜",
@@ -295,7 +295,7 @@ export const FOODS_FAMOUS: Food[] = [
     origin: "清宫廷御膳，后由川菜大师黄敬临引入四川",
     description:
       "开水白菜看似清汤寡水，实则以老母鸡、火腿、干贝吊制「开水」清汤，浇白菜心。汤清如水，鲜味醇厚，白菜软嫩。是川菜「百菜百味」中「清鲜」的极致，国宴名菜，大道至简的代表。",
-    ingredients: ["白菜", "鸡肉", "火腿", "鱼肉"],
+    ingredients: ["白菜", "鸡肉", "火腿", "干贝"],
     cookingMethod: ["蒸", "吊"],
     tags: ["白菜", "清汤", "川菜经典", "国宴菜", "熬", "清鲜", "嫩滑"],
     fame: "名菜",
@@ -448,7 +448,7 @@ export const FOODS_FAMOUS: Food[] = [
   {
     id: "famous-22",
     name: "龙虎斗",
-    alias: ["龙虎凤大烩"],
+    alias: ["龙虎凤大烩", "龙虎凤", "菊花龙虎凤"],
     image: "https://img0.baidu.com/it/u=1212099676,2296255554&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=750",
     category: "主菜",
     taste: "清淡",
@@ -553,7 +553,7 @@ export const FOODS_FAMOUS: Food[] = [
     origin: "无锡传统名菜，以太湖鳝鱼为原料",
     description:
       "梁溪脆鳝以鳝鱼切丝炸脆，挂糖醋汁。色泽乌亮，酥脆甜香，入口即化。是无锡名菜，「梁溪」为无锡古称。鳝鱼经两次油炸，外酥里松，是苏菜冷菜代表，佐酒佳品。",
-    ingredients: ["鱼肉", "糖", "醋", "酱油", "香油"],
+    ingredients: ["鳝鱼", "糖", "醋", "酱油", "香油"],
     cookingMethod: ["炸", "浇"],
     tags: ["鳝鱼", "苏菜经典", "无锡名菜", "冷菜", "酥脆", "佐酒"],
     fame: "名菜",
@@ -576,7 +576,7 @@ export const FOODS_FAMOUS: Food[] = [
     origin: "淮安传统名菜，淮扬菜鳝鱼代表",
     description:
       "软兜长鱼以笔杆鳝鱼烫熟取肉，旺火速炒。鳝肉软嫩，形如「软兜」，故名。色泽乌亮，蒜香浓郁，鲜嫩异常。是淮扬菜「炒鳝」代表，讲究「活鱼现烫、旺火快炒」，是淮安宴席的灵魂菜。",
-    ingredients: ["鱼肉", "蒜", "酱油", "料酒", "胡椒"],
+    ingredients: ["鳝鱼", "蒜", "酱油", "料酒", "胡椒"],
     cookingMethod: ["烫", "炒"],
     tags: ["鳝鱼", "苏菜经典", "淮扬菜", "淮安名菜", "旺火", "嫩滑"],
     fame: "名菜",
@@ -775,7 +775,7 @@ export const FOODS_FAMOUS: Food[] = [
   {
     id: "famous-37",
     name: "西湖莼菜汤",
-    alias: ["莼菜汤"],
+    alias: ["莼菜汤", "西湖莼菜羹", "莼菜羹"],
     image: "https://img2.baidu.com/it/u=449144419,2076818859&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=667",
     category: "汤羹",
     taste: "清淡",
@@ -786,14 +786,14 @@ export const FOODS_FAMOUS: Food[] = [
     origin: "杭州西湖，据传晋代张翰因思莼鲈而归",
     description:
       "西湖莼菜汤以西湖莼菜配鸡丝、火腿丝煮汤。莼菜滑嫩如丝，汤清味鲜，入口润滑。是杭帮菜汤羹代表，莼菜为西湖特产，「莼鲈之思」成为思乡典故。清淡雅致，体现江南文人的饮食审美。",
-    ingredients: ["莼菜", "鸡肉"],
+    ingredients: ["莼菜", "鸡肉", "火腿", "鸡汤"],
     cookingMethod: ["煮"],
-    tags: ["莼菜", "浙菜经典", "杭帮菜", "汤羹", "清淡", "西湖特产", "酥脆"],
+    tags: ["莼菜", "浙菜经典", "杭帮菜", "汤羹", "清淡", "西湖特产", "滑嫩", "典故"],
     fame: "名菜",
-    popularRegions: ["浙江"],
+    popularRegions: ["浙江", "杭州", "全国"],
     lat: 30.2592,
     lng: 120.1303,
-    popularity: 8,
+    popularity: 9,
   },
 
   // ========== 闽菜 ==========
@@ -1554,7 +1554,7 @@ export const FOODS_FAMOUS: Food[] = [
   {
     id: "famous-71",
     name: "虾子大乌参",
-    alias: ["虾籽海参"],
+    alias: ["虾籽海参", "虾子大参"],
     image: "https://img2.baidu.com/it/u=1603847024,3038340282&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=891",
     category: "主菜",
     taste: "咸鲜",
@@ -1890,7 +1890,6 @@ export const FOODS_FAMOUS: Food[] = [
   {
     id: "famous-86",
     name: "水城羊肉粉",
-    alias: ["羊肉粉"],
     image: "https://img2.baidu.com/it/u=2419140914,2331543115&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=623",
     category: "面食",
     taste: "麻辣",
@@ -2210,7 +2209,8 @@ export const FOODS_FAMOUS: Food[] = [
     "id": "famous-103",
     "name": "孔府一品锅",
     "alias": [
-      "一品锅"
+      "一品锅",
+      "当朝一品锅"
     ],
     "image": "https://puui.qpic.cn/vpic_cover/n3001yv3aok/n3001yv3aok_hz.jpg/1280",
     "category": "汤羹",
@@ -2218,7 +2218,7 @@ export const FOODS_FAMOUS: Food[] = [
     "type": "traditional",
     "cuisine": "鲁菜",
     "province": "山东",
-    "city": "青岛",
+    "city": "曲阜",
     "origin": "山东曲阜孔府菜代表，源于明清宫廷宴席",
     "description": "孔府一品锅以海参、鱼翅、鲍鱼、鸡肉、猪肉、笋片等分层码入锅中，加高汤慢炖。汤醇味厚，食材丰富，层次分明。因旧时一品官员方能享用而得名。是孔府菜代表，体现鲁菜对高汤与食材搭配的讲究，以及儒家饮食礼仪。",
     "ingredients": ["鱼肉", "鸡肉", "猪肉", "笋"],
@@ -2413,6 +2413,7 @@ export const FOODS_FAMOUS: Food[] = [
   {
     "id": "gen-f-2025-11",
     "name": "豉油鸡",
+    "alias": ["玫瑰豉油鸡"],
     "category": "主菜",
     "taste": "香甜",
     "type": "traditional",
@@ -2631,6 +2632,7 @@ export const FOODS_FAMOUS: Food[] = [
   {
     "id": "gen2-f-2025-7",
     "name": "鸡豆花",
+    "alias": ["许家鸡豆花"],
     "category": "汤羹",
     "taste": "清淡",
     "type": "traditional",
@@ -2954,33 +2956,7 @@ export const FOODS_FAMOUS: Food[] = [
   },
 
   
-  {
-    "id": "gen2-f-2025-40",
-    "name": "腌鲜鳜鱼",
-    "category": "主菜",
-    "taste": "咸鲜",
-    "type": "traditional",
-    "cuisine": "徽菜",
-    "province": "安徽",
-    "city": "徽州",
-    "origin": "徽州传统名菜，又称臭鳜鱼",
-    "description": "腌鲜鳜鱼以鳜鱼腌制发酵后红烧，肉质蒜瓣状，闻臭吃香，鲜味独特，是徽菜最负盛名的代表菜。",
-    "ingredients": ["鱼肉", "猪肉", "笋", "蒜"],
-    "cookingMethod": [
-      "腌",
-      "烧"
-    ],
-    "tags": ["鳜鱼", "腌鲜", "徽菜", "臭鳜鱼", "嫩滑"],
-    "fame": "名菜",
-    "popularRegions": [
-      "安徽",
-      "全国"
-    ],
-    "lat": 29.7147,
-    "lng": 118.3174,
-    "popularity": 9,
-    "image": "https://img2.baidu.com/it/u=837204941,4261996971&fm=253&fmt=auto&app=138&f=JPEG?w=994&h=500"
-  },
+  // 「腌鲜鳜鱼」(gen2-f-2025-40) 已合并至「臭鳜鱼」(famous-102) - 同地同物异名
   
   {
     "id": "gen3-f-2025-13",
@@ -3112,7 +3088,7 @@ export const FOODS_FAMOUS: Food[] = [
   {
     id: "famous-103",
     name: "猪肉炖粉条",
-    alias: ["杀猪菜"],
+    alias: [],
     image: "https://img2.baidu.com/it/u=2667447115,4072268487&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=640",
     category: "主菜",
     taste: "咸鲜",

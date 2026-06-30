@@ -8,7 +8,7 @@ export const FOODS_BATCH10_TRENDING: Food[] = [
   {
     id: "batch10-chuan-1",
     name: "回锅肉",
-    alias: ["蒜苗回锅肉", "川菜回锅肉"],
+    alias: ["蒜苗回锅肉", "川菜回锅肉", "蒜苗回锅"],
     image: "https://img2.baidu.com/it/u=2467689809,2690673344&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1422",
     category: "主菜",
     taste: "咸鲜",
@@ -85,29 +85,7 @@ export const FOODS_BATCH10_TRENDING: Food[] = [
 
   // ==================== 三、粤菜代表名菜（搜索热度最高，原数据库缺失）====================
   ,
-  {
-    id: "batch10-yue-7",
-    name: "广式烧麦",
-    alias: ["烧麦", "干蒸烧卖", "广式烧卖"],
-    image: "https://img2.baidu.com/it/u=699570196,3674976499&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=652",
-    category: "小吃",
-    taste: "咸鲜",
-    type: "traditional",
-    cuisine: "粤菜",
-    province: "广东",
-    city: "广州",
-    origin: "广东广州，广式早茶「四大天王」之一",
-    description:
-      "烧卖是广式早茶「四大天王」之一，以猪肉、虾仁、香菇为馅，黄色面皮包裹，顶部不收口，露出馅料。好的烧卖讲究「皮薄馅靓」，肉粒馅配比三肥七瘦，再以虾仁粒、香菇粒，经师傅每日手锤。每粒烧卖皇不低于37克，新鲜现蒸，粒粒爽口有肉感。是老广饮茶必点，与虾饺、叉烧包、蛋挞并称早茶四大天王。",
-    ingredients: ["猪肉", "虾", "香菇", "面粉"],
-    cookingMethod: ["蒸"],
-    tags: ["咸鲜", "小吃", "粤菜", "烧卖", "早茶", "点心"],
-    fame: "热门",
-    popularRegions: ["广州", "广东", "香港"],
-    lat: 23.1291,
-    lng: 113.2644,
-    popularity: 9,
-  },
+  // 「广式烧麦」(batch10-yue-7) 已合并至「干蒸烧卖」(batch-south-1) - 同地同物异名
   {
     id: "batch10-yue-8",
     name: "文昌鸡",
@@ -306,7 +284,7 @@ export const FOODS_BATCH10_TRENDING: Food[] = [
   {
     id: "batch10-qian-4",
     name: "独山虾酸牛肉",
-    alias: ["虾酸牛肉", "独山三酸牛肉"],
+    alias: ["虾酸牛肉", "独山三酸牛肉", "黔南虾酸", "独山虾酸"],
     image: "https://img2.baidu.com/it/u=2930673218,1120254236&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=653",
     category: "主菜",
     taste: "香辣",

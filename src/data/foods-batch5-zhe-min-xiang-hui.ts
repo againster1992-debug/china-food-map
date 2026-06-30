@@ -63,7 +63,7 @@ export const FOODS_BATCH5_ZHE_MIN_XIANG_HUI: Food[] = [
     origin: "宁波，浙东沿海传统海鲜名菜",
     description:
       "宁波摇蚶将鲜活泥蚶用开水快速烫至壳微张，剥去半壳，蘸酱油、米醋、姜末食用。蚶肉鲜嫩多汁，血水微红，原汁原味，鲜美异常。「摇」指烫蚶时摇动容器使其受热均匀，是宁波人待客的最高规格海鲜，体现浙菜对鲜味的极致追求。",
-    ingredients: ["鱼肉", "酱油", "醋", "姜"],
+    ingredients: ["蚶肉", "酱油", "醋", "姜"],
     cookingMethod: ["烫"],
     tags: ["浙菜", "海鲜", "名菜", "酥脆"],
     fame: "名菜",
@@ -275,7 +275,7 @@ export const FOODS_BATCH5_ZHE_MIN_XIANG_HUI: Food[] = [
     origin: "福州，闽菜红糟海鲜名菜",
     description:
       "煎糟鳗鱼以海鳗切段，裹红糟、黄酒腌制入味，小火慢煎至两面金黄。鳗鱼肉质细嫩丰腴，红糟酒香渗入肌理，外皮焦香，内里鲜甜。是闽菜红糟系列的代表海鲜菜，体现闽菜对海味与糟香融合的精湛技艺，冷食热食皆佳。",
-    ingredients: ["鱼肉", "红糟", "料酒", "酱油", "糖", "姜"],
+    ingredients: ["鳗鱼", "红糟", "料酒", "酱油", "糖", "姜"],
     cookingMethod: ["煎", "腌"],
     tags: ["闽菜", "红糟", "鳗鱼", "海鲜", "名菜", "酥脆"],
     fame: "名菜",
@@ -403,7 +403,7 @@ export const FOODS_BATCH5_ZHE_MIN_XIANG_HUI: Food[] = [
   {
     id: "batch5-min-10",
     name: "妈祖面",
-    alias: ["莆田妈祖面", "线面"],
+    alias: ["莆田妈祖面"],
     image: "https://img2.baidu.com/it/u=2433616617,1229719689&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1422",
     category: "面食",
     taste: "咸鲜",

@@ -89,28 +89,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   lng: 105,
   popularity: 8
 },
-{
-  id: "batch25-hot-005",
-  name: "草原奶皮子酸奶",
-  alias: [],
-  image: "https://img2.baidu.com/it/u=1005339558,2746891130&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=887",
-  category: "饮品",
-  taste: "酸甜",
-  type: "popular",
-  cuisine: "蒙餐",
-  province: "内蒙古",
-  city: "呼和浩特",
-  origin: "内蒙古传统奶皮子与酸奶结合，因线上零食增速+445%成为乳制品赛道黑马，从草原火遍全国便利店。",
-  description: "草原奶皮子酸奶在蒙古族传统酸奶上铺厚厚一层奶皮，奶皮醇厚奶香叠加酸奶酸甜清爽。线上零食增速达445%，成为2026年乳制品赛道黑马。",
-  ingredients: ["牛奶", "酸奶", "奶皮子", "糖"],
-  cookingMethod: ["发酵", "冷藏"],
-  tags: ["酸甜", "饮品", "蒙餐", "内蒙古", "呼和浩特", "网红", "奶香", "黑马", "高增长"],
-  fame: "热门",
-  popularRegions: ["内蒙古", "全国"],
-  lat: 40.8426,
-  lng: 111.7511,
-  popularity: 9
-},
+// 「草原奶皮子酸奶」已合并至「内蒙奶皮子酸奶」(foods-batch28-hot100.ts batch28-hot-001) - 同地同物异名
 {
   id: "batch25-hot-006",
   name: "热卤串串",
@@ -199,28 +178,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   lng: 114.5149,
   popularity: 8
 },
-{
-  id: "batch25-hot-010",
-  name: "肉松海苔麻薯贝",
-  alias: [],
-  image: "https://img2.baidu.com/it/u=2528169382,2072022766&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=652",
-  category: "甜品",
-  taste: "咸甜",
-  type: "popular",
-  cuisine: "本帮菜",
-  province: "上海",
-  city: "上海",
-  origin: "从肉松小贝升级而来，用麻薯替代蛋糕胚，以更软糯的口感和咸甜滋味在上海烘焙界走红。",
-  description: "肉松海苔麻薯贝以软糯麻薯包裹肉松与海苔碎，外层再裹厚厚肉松。比肉松小贝更软糯，咸甜交融，是上海烘焙店排队王。",
-  ingredients: ["糯米粉", "肉松", "海苔", "沙拉酱", "鸡蛋"],
-  cookingMethod: ["蒸", "烤", "揉"],
-  tags: ["咸甜", "甜品", "本帮菜", "上海", "软糯", "网红", "咸甜", "爆款"],
-  fame: "热门",
-  popularRegions: ["上海", "全国"],
-  lat: 31.2304,
-  lng: 121.4737,
-  popularity: 8
-},
+// 「肉松海苔麻薯贝」已合并至「肉松小贝」(foods-popular.ts hot-109) - 同物变体
 {
   id: "batch25-hot-011",
   name: "芝士烤年糕串",
@@ -513,28 +471,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   lng: 116.682,
   popularity: 9
 },
-{
-  id: "batch25-hot-032",
-  name: "闽南沙虫冻",
-  alias: [],
-  image: "https://img0.baidu.com/it/u=1869753434,2420294505&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=1051",
-  category: "凉菜",
-  taste: "清淡",
-  type: "popular",
-  cuisine: "闽菜",
-  province: "福建",
-  city: "厦门",
-  origin: "闽南传统土笋冻以沙虫熬胶冷却，集体商标获核准，是闽南海洋胶原蛋白的经典代表。",
-  description: "闽南沙虫冻以新鲜沙虫熬煮出胶质冷却成冻，蘸酱油醋蒜蓉。晶莹剔透、Q弹爽滑，集体商标已获核准，是闽南人从小吃到大的海洋胶原蛋白。",
-  ingredients: ["沙虫", "醋", "蒜", "酱油"],
-  cookingMethod: ["煮", "冷藏"],
-  tags: ["清淡", "凉菜", "闽菜", "福建", "厦门", "海鲜", "Q弹", "胶原蛋白", "传统"],
-  fame: "热门",
-  popularRegions: ["福建", "全国"],
-  lat: 24.4798,
-  lng: 118.0894,
-  popularity: 8
-},
+// 「闽南沙虫冻」已合并至「闽南土笋冻」(foods-batch28-hot100.ts batch28-hot-002) - 同地同物异名
 {
   id: "batch25-hot-033",
   name: "松花糕",
@@ -602,30 +539,8 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   lng: 118.1868,
   popularity: 8
 },
+// 「拇指生煎包配蘸水」已合并至「拇指生煎包」(foods-batch28-hot100.ts batch28-hot-003) - 同物异名
 {
-  id: "batch25-hot-037",
-  name: "拇指生煎包配蘸水",
-  alias: [],
-  image: "https://img1.baidu.com/it/u=1413360434,2750264538&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=660",
-  category: "小吃",
-  taste: "咸鲜",
-  type: "popular",
-  cuisine: "其他",
-  province: "全国",
-  origin: "生煎包（源于苏州、上海）的迷你版配蘸水，是淘宝夜市小吃半成品热销冠军，方便家庭复刻。",
-  description: "拇指生煎包配蘸水以拇指大小的小生煎包煎至金黄底脆，配特调蘸水。一口一个、底脆皮薄汁多，是淘宝夜市小吃半成品类目热销冠军，在家也能复刻。生煎本身源于苏州与上海，拇指版是其现代电商网红变体。",
-  ingredients: ["面粉", "猪肉", "葱", "姜", "芝麻", "油"],
-  cookingMethod: ["煎", "蒸"],
-  tags: ["咸鲜", "小吃", "拇指", "夜市", "半成品", "热销", "脆底"],
-  fame: "热门",
-  popularRegions: ["全国"],
-  lat: 35.0,
-  lng: 105.0,
-  popularity: 8
-},
-
-{
-
   id: "batch25-hot-039",
   name: "脆皮糯米年糕",
   alias: [],
@@ -1200,28 +1115,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   lng: 113.454,
   popularity: 8
 },
-{
-  id: "batch25-hot-070",
-  name: "糟粕醋海鲜火锅",
-  alias: [],
-  image: "https://img2.baidu.com/it/u=3915346862,1136544501&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=724",
-  category: "主菜",
-  taste: "酸辣",
-  type: "popular",
-  cuisine: "琼菜",
-  province: "海南",
-  city: "海口",
-  origin: "海南特色火锅以糟粕醋为汤底，酸辣开胃，2026年成功出圈从海岛火到大陆。",
-  description: "海南糟粕醋海鲜火锅以酿酒糟粕发酵的酸醋为汤底，涮海鲜、牛肉、蔬菜。酸辣开胃、醋香独特，是海南特色火锅，2026年成功出圈，从海岛火到大陆。",
-  ingredients: ["糟粕醋", "海鲜", "牛肉", "蔬菜", "蒜", "辣椒"],
-  cookingMethod: ["涮", "煮"],
-  tags: ["酸辣", "主菜", "琼菜", "海南", "海口", "火锅", "糟粕醋", "出圈", "海岛", "网红"],
-  fame: "热门",
-  popularRegions: ["海南", "全国"],
-  lat: 20.017,
-  lng: 110.349,
-  popularity: 8
-},
+// 「糟粕醋海鲜火锅」已合并至「糟粕醋火锅」(foods-batch28-hot100.ts batch28-hot-067) - 同地同物异名
 {
   id: "batch25-hot-072",
   name: "豆花烤鱼",

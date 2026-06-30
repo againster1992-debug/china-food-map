@@ -1,4 +1,4 @@
-﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
 
 // 中国少数民族美食与节庆美食
 // 涵盖藏族、维吾尔族、蒙古族、朝鲜族、回族、苗族、侗族、傣族、彝族、壮族、
@@ -664,7 +664,7 @@ export const FOODS_ETHNIC: Food[] = [
   {
     id: "ethnic-35",
     name: "苗家血豆腐",
-    alias: ["苗族血豆腐", "血粑"],
+    alias: ["苗族血豆腐"],
     image: "https://img0.baidu.com/it/u=834521314,372860476&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1422",
     category: "腌腊",
     taste: "咸鲜",
@@ -756,7 +756,7 @@ export const FOODS_ETHNIC: Food[] = [
   {
     id: "ethnic-39",
     name: "苗家腌鱼",
-    alias: ["苗族腌鱼", "酸鱼"],
+    alias: ["苗族腌鱼"],
     image: "https://img0.baidu.com/it/u=3337402551,412643989&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=889",
     category: "腌腊",
     taste: "酸辣",
@@ -781,7 +781,7 @@ export const FOODS_ETHNIC: Food[] = [
   {
     id: "ethnic-40",
     name: "侗家腌鱼",
-    alias: ["侗族腌鱼", "酸鱼"],
+    alias: ["侗族腌鱼"],
     image: "https://img1.baidu.com/it/u=3005880021,3215449770&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=1044",
     category: "腌腊",
     taste: "酸辣",
@@ -801,29 +801,7 @@ export const FOODS_ETHNIC: Food[] = [
     lng: 109.1367,
     popularity: 7,
   },
-  {
-    id: "ethnic-41",
-    name: "侗家牛瘪",
-    alias: ["牛瘪汤", "百草汤"],
-    image: "https://img1.baidu.com/it/u=2774927056,3796538840&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1422",
-    category: "汤羹",
-    taste: "苦",
-    type: "traditional",
-    cuisine: "黔菜",
-    province: "贵州",
-    city: "黔东南",
-    origin: "贵州黔东南黎平，侗族传统",
-    description:
-      "侗家牛瘪以牛胃中未消化的草汁加牛肉、香料煮制。色泽墨绿，味苦回甘，有草药清香。是侗族待客最高规格菜品，「百草汤」是其雅称。牛瘪讲究「现宰现取」，草汁新鲜。初尝苦涩，回味甘甜，是侗族「药食同源」的代表。虽口味独特，却是侗族千年饮食智慧结晶。黎平侗家牛瘪最知名，体现侗族「以牛为尊」的饮食文化，是黔东南侗寨的味觉名片。",
-    ingredients: ["牛肉", "辣椒"],
-    cookingMethod: ["煮"],
-    tags: ["少数民族", "侗族", "牛瘪", "黎平", "黔菜", "粘糯"],
-    fame: "名菜",
-    popularRegions: ["贵州", "广西"],
-    lat: 26.2308,
-    lng: 109.1367,
-    popularity: 7,
-  },
+  // 「侗家牛瘪」已合并至「黔东南牛瘪」(city-south-qiandongnan-2) - 同地同物异名
   {
     id: "ethnic-42",
     name: "侗家烤鱼",
@@ -1347,7 +1325,7 @@ export const FOODS_ETHNIC: Food[] = [
   {
     id: "ethnic-69",
     name: "布依族血豆腐",
-    alias: ["布依血豆腐", "血粑"],
+    alias: ["布依血豆腐"],
     image: "https://img0.baidu.com/it/u=3612997153,4034061646&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1067",
     category: "腌腊",
     taste: "咸鲜",
@@ -1582,29 +1560,7 @@ export const FOODS_ETHNIC: Food[] = [
     lng: 112.5489,
     popularity: 6,
   },
-  {
-    id: "ethnic-80",
-    name: "冬至羊肉汤",
-    alias: ["简阳羊肉汤", "冬至汤"],
-    image: "https://img1.baidu.com/it/u=3549348170,330884046&fm=253&fmt=auto&app=120&f=JPEG?w=579&h=500",
-    category: "汤羹",
-    taste: "鲜香",
-    type: "traditional",
-    cuisine: "川菜",
-    province: "四川",
-    city: "资阳",
-    origin: "四川资阳简阳，冬至传统",
-    description:
-      "冬至羊肉汤以简阳大耳羊加羊骨熬制。汤色乳白，肉烂汤鲜，暖身御寒。是四川冬至传统，「冬至喝羊肉汤，一冬不冷」。与宁夏手抓羊肉不同，简阳羊肉汤以「汤」为主，讲究「汤白如奶」。简阳大耳羊是杂交品种，肉质鲜嫩无膻。配辣椒面、葱花食用，是四川冬至餐桌灵魂。简阳羊肉汤最知名，入选国家级非遗。体现四川「以汤御寒」的节庆文化，是冬至的味觉名片。",
-    ingredients: ["羊肉", "姜", "葱", "辣椒"],
-    cookingMethod: ["熬", "炖"],
-    tags: ["节庆", "冬至", "羊肉汤", "简阳", "川菜", "非遗", "爽脆"],
-    fame: "名菜",
-    popularRegions: ["四川", "重庆"],
-    lat: 30.3906,
-    lng: 104.5468,
-    popularity: 8,
-  },
+  // 「冬至羊肉汤」已合并至「简阳羊肉汤」(city-south-ziyang-2) - 同地同物异名
   {
     id: "ethnic-81",
     name: "八宝饭",
@@ -1700,29 +1656,7 @@ export const FOODS_ETHNIC: Food[] = [
     lng: 120.6993,
     popularity: 5,
   },
-  {
-    id: "ethnic-95",
-    name: "端午咸鸭蛋",
-    alias: ["咸蛋", "腌蛋"],
-    image: "https://img2.baidu.com/it/u=3651248763,1274782169&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=885",
-    category: "腌腊",
-    taste: "咸鲜",
-    type: "traditional",
-    cuisine: "苏菜",
-    province: "江苏",
-    city: "高邮",
-    origin: "江苏高邮，端午节传统",
-    description:
-      "端午咸鸭蛋以鸭蛋加盐水、黄泥腌制，蛋黄流油，是端午节传统食品。古人认为端午吃咸鸭蛋可「祛毒辟邪」。高邮咸鸭蛋最知名，以「双黄蛋」为奇，蛋黄红润流油，蛋白细嫩。汪曾祺《端午的鸭蛋》使其名扬天下。与日常咸蛋不同，端午咸鸭蛋更注重「端午」仪式感，是端午「五黄」（黄鳝、黄鱼、黄瓜、咸蛋黄、雄黄酒）之一。是端午节的味觉名片，承载千年民俗传统。",
-    ingredients: ["鸭蛋", "盐"],
-    cookingMethod: ["腌"],
-    tags: ["节庆", "端午", "咸鸭蛋", "苏菜", "五黄"],
-    fame: "名菜",
-    popularRegions: ["江苏", "全国"],
-    lat: 32.78,
-    lng: 119.46,
-    popularity: 7,
-  },
+  // 「端午咸鸭蛋」(ethnic-95) 已合并至「高邮咸鸭蛋」(heritage-35) - 同地同物异名
   {
     id: "ethnic-96",
     name: "灶糖",
@@ -1819,7 +1753,7 @@ export const FOODS_ETHNIC: Food[] = [
   {
     id: "ethnic-101",
     name: "苗族羊瘪",
-    alias: ["羊瘪汤", "百草汤"],
+    alias: ["羊瘪汤"],
     image: "https://img1.baidu.com/it/u=3848818117,2468741444&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=667",
     category: "汤羹",
     taste: "苦",
@@ -1978,29 +1912,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularity: 6,
   },
   // ========== 新增节庆美食 ==========
-  {
-    id: "ethnic-120",
-    name: "藏历新年卡塞",
-    alias: ["卡塞", "藏族油炸果子"],
-    image: "https://img0.baidu.com/it/u=1124079049,1900935063&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=667",
-    category: "糕点",
-    taste: "香甜",
-    type: "traditional",
-    cuisine: "藏餐",
-    province: "西藏",
-    city: "拉萨",
-    origin: "西藏拉萨，藏历新年传统",
-    description:
-      "藏历新年卡塞以面皮炸成各种形状——耳朵形、蝴蝶形、麻花形，色泽金黄，酥脆香甜。是藏历新年「切玛盒」旁必备食品，寓意五谷丰登、吉祥如意。与汉族炸果子不同，卡塞造型更丰富，有「德嘎」（耳朵形）、「宾朵」（麻花形）等，每种造型寓意不同。拉萨卡塞最知名，讲究「形美色金，酥脆香甜」。是藏历新年待客、供佛必备，体现藏族「以卡塞迎新」的节庆文化，是西藏的味觉名片，承载藏族千年新年传统。",
-    ingredients: ["面粉", "油", "糖", "蜂蜜"],
-    cookingMethod: ["炸"],
-    tags: ["节庆", "藏历新年", "藏餐", "少数民族", "嫩滑"],
-    fame: "地方名吃",
-    popularRegions: ["西藏", "青海"],
-    lat: 29.6519,
-    lng: 91.1721,
-    popularity: 6,
-  },
+  // 「藏历新年卡塞」已合并至「藏式卡塞」(batch28-hot-094) - 同地同物异名
   {
     id: "ethnic-121",
     name: "泼水节毫诺索",
@@ -2145,7 +2057,9 @@ export const FOODS_ETHNIC: Food[] = [
     "name": "哈萨克马奶酒",
     "alias": [
       "马奶酒",
-      "库密斯"
+      "库密斯",
+      "伊犁马奶",
+      "酸马奶"
     ],
     "image": "https://p9-bk.byteimg.com/tos-cn-i-mlhdmxsy5m/4c4957d84c794842914a56c06f81da95~tplv-mlhdmxsy5m-q75:0:0.image",
     "category": "饮品",
@@ -2328,32 +2242,7 @@ export const FOODS_ETHNIC: Food[] = [
     "lng": 100.7978,
     "popularity": 5
   },
-  {
-    "id": "ethnic-148",
-    "name": "羌族洋芋糍粑",
-    "alias": [
-      "羌族土豆糍粑"
-    ],
-    "image": "https://k.sinaimg.cn/n/sinakd20230623s/391/w600h591/20230623/e771-51e0b17411c3298fc9488ed3c6738872.jpg/w700d1q75cms.jpg?by=cms_fixed_width",
-    "category": "主食",
-    "taste": "咸鲜",
-    "type": "traditional",
-    "cuisine": "川菜",
-    "province": "四川",
-    "city": "阿坝",
-    "origin": "四川阿坝茂县，羌族传统主食，汶川大地震后广受关注",
-    "description": "羌族洋芋糍粑是羌族山区最具代表性的主食。高山土豆煮熟后去皮，用木槌在石臼中反复捶打成粘稠糍粑，蘸辣椒、蒜泥、花椒油食用。口感软糯、麦香薯香交融，是羌族「尔玛」人过年、祭祀、待客的重要食品，体现羌族依山而居、粗粮细作的传统。",
-    "ingredients": ["土豆", "辣椒", "蒜", "花椒"],
-    "cookingMethod": ["煮", "捶", "蘸"],
-    "tags": ["民族美食", "羌族", "洋芋糍粑", "主食", "土豆", "焦香"],
-    "fame": "地方名吃",
-    "popularRegions": [
-      "四川"
-    ],
-    "lat": 31.6811,
-    "lng": 103.8535,
-    "popularity": 6
-  },
+  // 「羌族洋芋糍粑」已合并至「阿坝羌族洋芋糍粑」(city-south-abba-1) - 同地同物异名
   {
     "id": "ethnic-149",
     "name": "畲族乌米饭",

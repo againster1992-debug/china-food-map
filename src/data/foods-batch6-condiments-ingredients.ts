@@ -743,7 +743,7 @@ export const FOODS_BATCH6_CONDIMENTS_INGREDIENTS: Food[] = [
   {
     id: "batch6-cond-41",
     name: "绍兴梅干菜",
-    alias: ["乌干菜", "干菜"],
+    alias: ["乌干菜", "干菜", "霉干菜", "绍兴霉干菜"],
     image: "https://img1.baidu.com/it/u=3787612351,3767350476&fm=253&fmt=auto&app=138&f=JPEG?w=515&h=500",
     category: "腌腊",
     taste: "鲜香",

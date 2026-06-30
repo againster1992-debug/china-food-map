@@ -1722,42 +1722,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   lng: 121.4737,
   popularity: 6
 },
-{
-  id: "batch23-famous-53",
-  name: "虾子大参",
-  image: "https://img2.baidu.com/it/u=1603847024,3038340282&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=891",
-  category: "主菜",
-  taste: "咸鲜",
-  type: "traditional",
-  cuisine: "本帮菜",
-  province: "上海",
-  city: "上海",
-  origin: "上海本帮名菜，以大乌参配虾子红烧。",
-  description: "虾子大参选用海参、虾、高汤等为主料，经烧烹制，咸鲜突出，是上海地区的经典代表。",
-  ingredients: [
-    "海参",
-    "虾",
-    "高汤"
-  ],
-  cookingMethod: [
-    "烧"
-  ],
-  tags: [
-    "咸鲜",
-    "主菜",
-    "本帮菜",
-    "上海",
-    "名菜",
-    "传统名菜"
-  ],
-  fame: "名菜",
-  popularRegions: [
-    "上海"
-  ],
-  lat: 31.2304,
-  lng: 121.4737,
-  popularity: 6
-},
+// 「虾子大参」已合并至「虾子大乌参」(foods-famous.ts famous-71) - 同地同物异名
 {
   id: "batch23-famous-54",
   name: "红烧鳝段",
@@ -2564,6 +2529,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
 {
   id: "batch23-famous-80",
   name: "小窝头",
+  alias: ["栗子面小窝头"],
   image: "https://img1.baidu.com/it/u=502796859,3803423867&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=653",
   category: "主食",
   taste: "香甜",

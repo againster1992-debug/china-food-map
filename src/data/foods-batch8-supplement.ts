@@ -1,4 +1,4 @@
-﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
 
 // 补充澳门、甘肃、宁夏、青海、山西、内蒙古、辽宁的缺失美食
 export const FOODS_BATCH8_SUPPLEMENT: Food[] = [
@@ -304,7 +304,7 @@ export const FOODS_BATCH8_SUPPLEMENT: Food[] = [
   {
     id: "batch8-xz-1",
     name: "牦牛肉",
-    alias: ["牦牛肉干", "手抓牦牛肉"],
+    alias: ["手抓牦牛肉"],
     image: "https://img2.baidu.com/it/u=814306453,4175260035&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=750",
     category: "主菜",
     taste: "咸鲜",

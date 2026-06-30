@@ -1,4 +1,4 @@
-﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
 
 // 中国非物质文化遗产饮食项目（国家级非物质文化遗产代表性项目）
 export const FOODS_HERITAGE: Food[] = [
@@ -17,7 +17,7 @@ export const FOODS_HERITAGE: Food[] = [
     origin: "北京都一处，始创于清乾隆三年（1738年）",
     description:
       "都一处烧麦制作技艺为国家级非物质文化遗产代表性项目。都一处始创于1738年，相传乾隆皇帝微服私访曾在此用餐并赐匾「都一处」。烧麦皮薄馅大，捏褶讲究，每只烧麦捏出24褶，形如石榴，上笼蒸制。馅心以猪肉、虾仁、海参等调制，鲜香多汁。都一处烧麦技艺精湛，造型美观，是京味面点的代表。",
-    ingredients: ["面粉", "猪肉", "虾", "鱼肉", "笋"],
+    ingredients: ["面粉", "猪肉", "虾", "海参", "笋"],
     cookingMethod: ["蒸"],
     tags: ["非遗", "京菜", "面点", "嫩滑"],
     fame: "名菜",
@@ -169,29 +169,7 @@ export const FOODS_HERITAGE: Food[] = [
   // ========== 辽宁 ==========
   
   // ========== 浙江 ==========
-  {
-    id: "heritage-14",
-    name: "五芳斋粽子",
-    alias: ["嘉兴粽子", "肉粽"],
-    image: "https://img1.baidu.com/it/u=714080444,4029698046&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1070",
-    category: "糕点",
-    taste: "咸鲜",
-    type: "traditional",
-    cuisine: "浙菜",
-    province: "浙江",
-    city: "嘉兴",
-    origin: "浙江嘉兴，始创于民国十年（1921年）",
-    description:
-      "五芳斋粽子制作技艺为国家级非物质文化遗产代表性项目。五芳斋始创于1921年，粽子选用优质糯米、五花肉、赤豆等原料，以箬叶包裹，传统手工捆扎。肉粽肥瘦相间、糯而不糊、咸甜适中、肉香四溢。五芳斋粽子被誉为「粽子大王」，是嘉兴端午文化的代表，年销量过亿，是中国传统节令食品的典范。",
-    ingredients: ["糯米", "猪肉", "酱油"],
-    cookingMethod: ["包", "煮"],
-    tags: ["非遗", "粽子", "浙菜", "端午", "糕点"],
-    fame: "名菜",
-    popularRegions: ["全国"],
-    lat: 30.7522,
-    lng: 120.7550,
-    popularity: 4,
-  },
+  // 「五芳斋粽子」(heritage-14) 已合并至「嘉兴肉粽」(gen2-f-2025-152) - 同地同物异名
   {
     id: "heritage-15",
     name: "金华火腿",
@@ -407,7 +385,7 @@ export const FOODS_HERITAGE: Food[] = [
   {
     id: "heritage-26",
     name: "沙县小吃",
-    alias: ["沙县扁肉"],
+    // 「沙县扁肉」别名已移除（沙县扁肉 fj-3 是具体菜品，沙县小吃为品类总称）
     image: "https://img2.baidu.com/it/u=695413171,2035144767&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=710",
     category: "小吃",
     taste: "咸鲜",
@@ -477,7 +455,7 @@ export const FOODS_HERITAGE: Food[] = [
   {
     id: "heritage-31",
     name: "凉茶",
-    alias: ["广东凉茶", "王老吉凉茶"],
+    alias: ["广东凉茶", "王老吉凉茶", "王老吉", "吉叔凉茶"],
     image: "https://img0.baidu.com/it/u=3863569402,1898040651&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=889",
     category: "饮品",
     taste: "苦",
@@ -525,7 +503,7 @@ export const FOODS_HERITAGE: Food[] = [
   {
     id: "heritage-35",
     name: "高邮咸鸭蛋",
-    alias: ["双黄蛋", "咸蛋"],
+    alias: ["双黄蛋", "咸蛋", "端午咸鸭蛋", "腌蛋"],
     image: "https://img2.baidu.com/it/u=2267596291,145577793&fm=253&fmt=auto&app=120&f=JPEG?w=537&h=500",
     category: "腌腊",
     taste: "咸鲜",

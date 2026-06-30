@@ -59,28 +59,7 @@ export const FOODS_BATCH16_POPULAR: Food[] = [
   },
   
   
-  {
-    id: "batch16-popular-13",
-    name: "泉州五香卷",
-    alias: ["五香卷"],
-    image: "https://img1.baidu.com/it/u=345602958,391707079&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=641",
-    category: "小吃",
-    taste: "咸鲜",
-    type: "traditional",
-    cuisine: "闽菜",
-    province: "福建",
-    city: "泉州",
-    origin: "福建泉州传统小吃，世界美食之都代表",
-    description: "泉州五香卷是泉州人过年必不可少的炸物美食，将肥瘦相间的五花肉切碎，搭配爽脆的马蹄、红葱头、小葱，撒入五香粉拌匀制成馅料。用豆腐皮将馅料包裹起来，卷成长条油炸，外酥里嫩。品尝时蘸甜辣酱，口感层次丰富，是泉州饮食文化的代表。",
-    ingredients: ["猪肉", "马蹄", "葱", "豆皮", "五香粉"],
-    cookingMethod: ["炸"],
-    tags: ["咸鲜", "小吃", "闽菜", "泉州", "炸物"],
-    fame: "名菜",
-    popularRegions: ["泉州", "福建"],
-    lat: 24.8741,
-    lng: 118.6757,
-    popularity: 8,
-  },
+  // 「泉州五香卷」已合并至「闽南五香卷」(foods-batch26-famous100.ts batch26-famous-092) - 同地同物异名
   
   /**/
   // ========== 福建地方美食补充 ==========

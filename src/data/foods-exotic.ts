@@ -389,7 +389,7 @@ export const FOODS_EXOTIC: Food[] = [
   {
     id: "exotic-34",
     name: "延吉石锅拌饭",
-    alias: ["朝鲜族拌饭", "石锅拌饭"],
+    alias: ["朝鲜族拌饭", "石锅拌饭", "延边石锅饭"],
     image: "https://img2.baidu.com/it/u=4127288317,363556104&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=653",
     category: "主食",
     taste: "复合",

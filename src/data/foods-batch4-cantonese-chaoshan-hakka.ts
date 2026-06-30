@@ -530,29 +530,7 @@ export const FOODS_BATCH4_CANTONESE_CHAOSHAN_HAKKA: Food[] = [
     lng: 113.2644,
     popularity: 7,
   },
-  {
-    id: "batch4-gd-28",
-    name: "玫瑰豉油鸡",
-    alias: ["豉油鸡"],
-    image: "https://img0.baidu.com/it/u=1321278827,111956971&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1067",
-    category: "主菜",
-    taste: "咸鲜",
-    type: "traditional",
-    cuisine: "粤菜",
-    province: "广东",
-    city: "广州",
-    origin: "粤菜烧腊名菜，广式卤水代表",
-    description:
-      "玫瑰豉油鸡以整鸡浸入豉油卤水慢火浸熟。皮色红亮、肉质嫩滑、豉油香浓。是粤菜烧腊代表，加玫瑰露酒增香故名「玫瑰」，讲究卤水调配与浸制火候，是粤菜「卤浸」技法的经典。",
-    ingredients: ["鸡肉", "酱油", "玫瑰", "糖", "八角"],
-    cookingMethod: ["浸", "卤"],
-    tags: ["咸鲜", "粤菜", "烧腊", "卤水", "名菜"],
-    fame: "名菜",
-    popularRegions: ["广东", "香港"],
-    lat: 23.1291,
-    lng: 113.2644,
-    popularity: 7,
-  },
+  // 「玫瑰豉油鸡」(batch4-gd-28) 已合并至「豉油鸡」(gen-f-2025-11) - 同地同物异名
   {
     id: "batch4-gd-29",
     name: "牛三星",
@@ -650,7 +628,7 @@ export const FOODS_BATCH4_CANTONESE_CHAOSHAN_HAKKA: Food[] = [
   {
     id: "batch4-cs-3",
     name: "潮州卤水拼盘",
-    alias: ["卤水拼盘", "潮汕卤水"],
+    alias: ["卤水拼盘", "潮汕卤水", "卤味拼盘", "潮汕卤味"],
     image: "https://img1.baidu.com/it/u=3150118312,2592507657&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=889",
     category: "主菜",
     taste: "咸鲜",
@@ -718,8 +696,8 @@ export const FOODS_BATCH4_CANTONESE_CHAOSHAN_HAKKA: Food[] = [
   },
   {
     id: "batch4-cs-6",
-    name: "潮州打冷",
-    alias: ["潮汕打冷", "夜粥"],
+    name: "潮汕打冷",
+    alias: ["潮州打冷", "夜粥", "潮汕夜粥"],
     image: "https://img0.baidu.com/it/u=3247164391,3617506114&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1422",
     category: "主菜",
     taste: "鲜香",
@@ -1854,7 +1832,8 @@ export const FOODS_BATCH4_CANTONESE_CHAOSHAN_HAKKA: Food[] = [
   {
     id: "batch4-yx-19",
     name: "化州糖水",
-    alias: ["化州甜品", "糖水"],
+    alias: ["化州甜品"],
+    // 「糖水」别名已移除（与广州糖水 tradition-guangzhou-tong-sui 区分，保留各自地域名称）
     image: "https://img0.baidu.com/it/u=619463661,3257522268&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1067",
     category: "饮品",
     taste: "香甜",
@@ -2034,4 +2013,29 @@ export const FOODS_BATCH4_CANTONESE_CHAOSHAN_HAKKA: Food[] = [
     lat: 20.9143,
     lng: 110.0966,
     popularity: 6,
-  }];
+  },
+  {
+    id: "b4ch-add-1",
+    name: "鲎粿",
+    alias: ["潮阳鲎粿"],
+    image: "https://img2.baidu.com/it/u=2065252366,3165336015&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=652",
+    category: "小吃",
+    taste: "咸鲜",
+    type: "traditional",
+    cuisine: "潮菜",
+    province: "广东",
+    city: "汕头",
+    origin: "广东潮汕传统小吃，潮阳名产",
+    description:
+      "鲎粿是潮汕传统小吃，以粳米浆调鲜鲎肉、鲎卵蒸制成粿，再油煎食用，淋沙茶酱、辣椒酱。外皮焦香，内里软糯鲜咸，鲎肉鲜味独特。旧时以鲎入粿得名，现多以虾肉、猪肉替代鲎肉，但鲎粿之名相沿。是潮阳、汕头街头名小吃，承载潮汕以粿为食的米食文化与海洋食俗，节令宴客皆备。",
+    ingredients: ["粳米", "虾", "猪肉", "沙茶酱"],
+    cookingMethod: ["蒸", "煎"],
+    tags: ["潮菜", "鲎粿", "潮汕", "粿", "小吃", "咸鲜", "海洋"],
+    fame: "地方名吃",
+    popularRegions: ["广东"],
+    lat: 23.354,
+    lng: 116.6818,
+    popularity: 6,
+    note: "鲎为国家级保护动物，现多以虾肉替代鲎肉，请勿食用野生鲎。",
+  }
+];

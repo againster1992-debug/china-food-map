@@ -7,7 +7,7 @@ export const FOODS_BATCH21_CUISINE_TRENDS: Food[] = [
   {
     id: "batch21-e-7",
     name: "鸭脖",
-    alias: ["精武鸭脖", "周黑鸭"],
+    alias: ["卤鸭脖"],
     image: "https://img1.baidu.com/it/u=3127845717,2884148433&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=676",
     category: "小吃",
     taste: "麻辣",

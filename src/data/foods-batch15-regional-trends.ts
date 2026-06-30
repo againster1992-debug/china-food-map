@@ -149,7 +149,7 @@ export const FOODS_BATCH15_REGIONAL_TRENDS: Food[] = [
   {
     id: "batch15-ningxia-3",
     name: "八宝茶",
-    alias: ["宁夏八宝茶", "盖碗茶"],
+    alias: ["宁夏八宝茶", "盖碗茶", "八宝盖碗茶", "回民盖碗茶", "回族八宝茶"],
     image: "https://img2.baidu.com/it/u=3296187112,1663269877&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=653",
     category: "饮品",
     taste: "香甜",

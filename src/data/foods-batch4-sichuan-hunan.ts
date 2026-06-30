@@ -934,7 +934,6 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
   {
     id: "batch4-sc-50",
     name: "郑抄手",
-    alias: ["抄手"],
     image: "https://img1.baidu.com/it/u=1822529375,2683577063&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=889",
     category: "面食",
     taste: "鲜香",

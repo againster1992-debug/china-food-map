@@ -490,7 +490,7 @@ export const FOODS_HMT_POPULAR: Food[] = [
     type: "popular",
     cuisine: "西北菜",
     province: "陕西",
-    city: "陕西",
+    city: "西安",
     origin: "陕西，千年传统，全国流行",
     description:
       "凉皮以面粉洗出面筋后蒸制，切条加面筋、黄瓜丝，浇辣椒油、醋、蒜汁。爽滑酸辣，清凉开胃。是陕西「三秦套餐」（凉皮+肉夹馍+冰峰）之一，从西安火遍全国，夏日消暑神器，街边小店与连锁品牌并存。",
@@ -710,7 +710,7 @@ export const FOODS_HMT_POPULAR: Food[] = [
     type: "popular",
     cuisine: "川菜",
     province: "四川",
-    city: "四川",
+    city: "成都",
     origin: "四川，2000年代兴起",
     description:
       "麻辣香锅以自选食材（肉、菜、豆制品）大火干炒，加豆瓣酱、干辣椒、花椒。麻辣干香，无汤更入味。从川渝火遍全国商场美食城，是「自选快餐」代表。与麻辣烫「一湿一干」，是川味「万物皆可麻辣」的体现。",
@@ -754,7 +754,7 @@ export const FOODS_HMT_POPULAR: Food[] = [
     type: "popular",
     cuisine: "豫菜",
     province: "河南",
-    city: "河南",
+    city: "郑州",
     origin: "河南，2000年代兴起",
     description:
       "砂锅土豆粉以土豆粉条在砂锅中煮制，加肉片、蔬菜、豆皮、鹌鹑蛋。粉条筋道Q弹，汤底麻辣鲜香，砂锅保温。从河南火遍全国快餐店，是「平价砂锅」代表。10-15元一份，是学生与打工人的暖胃快餐，冬日尤受欢迎。",

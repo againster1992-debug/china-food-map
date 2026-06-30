@@ -551,29 +551,7 @@ export const FOODS_BATCH6_POPULAR_DISHES: Food[] = [
     popularity: 4,
   },
   
-  {
-    id: "batch6-pop-44",
-    name: "沙茶烤肉",
-    alias: ["厦门沙茶烤肉", "沙茶肉串"],
-    image: "https://img0.baidu.com/it/u=3151015194,1389494521&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=751",
-    category: "小吃",
-    taste: "咸鲜",
-    type: "popular",
-    cuisine: "闽菜",
-    province: "福建",
-    city: "厦门",
-    origin: "福建厦门，沙茶风味街头小吃",
-    description:
-      "沙茶烤肉将猪肉串成串，刷沙茶酱炭火烤制，肉质嫩滑沙茶酱香浓郁，微甜微辣风味独特。是厦门街头特色小吃，沙茶酱是闽南和东南亚风味的融合产物，用于烤肉别具一格。在厦门中山路八市等美食街，沙茶烤肉串是人气小吃，配一杯四果汤消暑解腻，是厦门味道的街头代表。",
-    ingredients: ["猪肉", "沙茶酱", "蜂蜜", "蒜"],
-    cookingMethod: ["烤"],
-    tags: ["闽菜", "烤串", "沙茶", "小吃", "咸鲜", "福建"],
-    fame: "热门",
-    popularRegions: ["福建"],
-    lat: 24.4798,
-    lng: 118.0894,
-    popularity: 4,
-  },
+  // 「沙茶烤肉」(batch6-pop-44) 已合并至「沙茶肉串」(hot-115) - 同地同物异名
 
   // ========== 湘菜（八大菜系之一，发源湖南）==========
 
@@ -745,7 +723,7 @@ export const FOODS_BATCH6_POPULAR_DISHES: Food[] = [
   {
     id: "batch6-pop-57",
     name: "庐州烤鸭",
-    alias: ["合肥烤鸭", "庐州鸭", "徽派烤鸭"],
+    alias: ["合肥烤鸭", "庐州鸭", "徽派烤鸭", "王义兴烤鸭"],
     image: "https://img0.baidu.com/it/u=2125048566,88966392&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=645",
     category: "主菜",
     taste: "咸鲜",

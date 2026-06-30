@@ -136,32 +136,10 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   lng: 102.0154,
   popularity: 6
 },
-{
-  id: "batch27-012",
-  name: "林芝松茸炖鸡",
-  alias: ["石锅松茸鸡", "松茸炖藏鸡"],
-  image: "https://img1.baidu.com/it/u=1354464514,3190618759&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=670",
-  category: "汤羹",
-  taste: "鲜香",
-  type: "traditional",
-  cuisine: "藏餐",
-  province: "西藏",
-  city: "林芝",
-  origin: "西藏林芝石锅炖鸡传统",
-  description: "林芝松茸炖鸡以野生松茸与藏鸡在墨脱石锅中慢炖，松茸的鲜香与鸡肉的醇厚完美融合，汤色金黄，是林芝最具代表性的滋补美食。",
-  ingredients: ["松茸","鸡肉","姜","盐"],
-  cookingMethod: ["炖"],
-  tags: ["鲜香","汤羹","松茸","藏鸡","西藏","林芝","石锅","滋补","名菜"],
-  fame: "名菜",
-  popularRegions: ["西藏"],
-  lat: 29.6487,
-  lng: 94.3615,
-  popularity: 8
-},
+// 「林芝松茸炖鸡」已合并至「鲁朗石锅鸡」(foods-batch19-cuisine-trends.ts batch19-tibet-1) - 同地同物异名（林芝松茸为鲁朗石锅鸡的时令变体）
 {
   id: "batch27-013",
   name: "那曲风干牦牛肉",
-  alias: ["牦牛肉干"],
   image: "https://img2.baidu.com/it/u=3111146870,928106116&fm=253&fmt=auto&app=120&f=JPEG?w=750&h=500",
   category: "小吃",
   taste: "原味",

@@ -3670,8 +3670,8 @@ export const FOODS_CITIES_SOUTH: Food[] = [
   },
   {
     id: "city-south-ziyang-2",
-    name: "资阳简阳羊肉汤",
-    alias: ["简阳羊肉汤", "羊肉汤"],
+    name: "简阳羊肉汤",
+    alias: ["资阳简阳羊肉汤", "羊肉汤", "冬至羊肉汤", "冬至汤"],
     image: "https://img0.baidu.com/it/u=4185823224,360917318&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=640",
     category: "汤羹",
     taste: "咸鲜",
@@ -3769,7 +3769,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
   {
     id: "city-south-abba-1",
     name: "阿坝羌族洋芋糍粑",
-    alias: ["洋芋糍粑", "羌族土豆糍粑"],
+    alias: ["洋芋糍粑", "羌族土豆糍粑", "羌族洋芋糍粑"],
     image: "https://img0.baidu.com/it/u=2265948162,293882375&fm=253&fmt=auto&app=138&f=JPEG?w=521&h=500",
     category: "小吃",
     taste: "咸鲜",
@@ -3844,7 +3844,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
   {
     id: "city-south-anshun-1",
     name: "安顺裹卷",
-    alias: ["安顺春卷", "丝娃娃"],
+    alias: ["安顺春卷"],
     image: "https://img0.baidu.com/it/u=1070255996,3714554023&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=640",
     category: "小吃",
     taste: "酸辣",
@@ -4036,7 +4036,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
   {
     id: "city-south-qiandongnan-2",
     name: "黔东南牛瘪",
-    alias: ["牛瘪火锅", "百草汤"],
+    alias: ["牛瘪火锅", "百草汤", "侗家牛瘪", "牛瘪汤"],
     image: "https://img0.baidu.com/it/u=2157380567,1515705617&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=889",
     category: "主菜",
     taste: "苦",
@@ -4081,29 +4081,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     lng: 107.5418,
     popularity: 3,
   },
-  {
-    id: "city-south-qiannan-2",
-    name: "黔南虾酸",
-    alias: ["独山虾酸", "虾酸牛肉"],
-    image: "https://img2.baidu.com/it/u=3028173132,3762794144&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=1138",
-    category: "腌腊",
-    taste: "酸辣",
-    type: "traditional",
-    cuisine: "黔菜",
-    province: "贵州",
-    city: "黔南",
-    origin: "贵州黔南独山，据说清代已有",
-    description:
-      "黔南虾酸以小河虾发酵制成虾酱，配牛肉炒制。色泽深褐，酸臭开胃，鲜香浓郁。是独山特色调味品，「虾酸牛肉」最知名。与盐酸菜、臭酸并称独山「三酸」。爱的人欲罢不能，是黔南最具个性的美食。",
-    ingredients: ["虾", "牛肉", "辣椒", "盐"],
-    cookingMethod: ["发酵", "炒"],
-    tags: ["虾酸", "独山", "黔菜", "腌", "酸辣"],
-    fame: "地方名吃",
-    popularRegions: ["贵州"],
-    lat: 26.2566,
-    lng: 107.5418,
-    popularity: 3,
-  },
+  // 「黔南虾酸」已合并至「独山虾酸牛肉」(batch10-qian-4) - 同地同物异名
 
   // ========== 云南·曲靖 ==========
   
@@ -4601,29 +4579,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
   
 
   // ========== 西藏·昌都 ==========
-  {
-    id: "city-south-changdu-1",
-    name: "昌都加加面",
-    alias: ["加加面", "芒康加加面"],
-    image: "https://img1.baidu.com/it/u=274879213,168438187&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=668",
-    category: "面食",
-    taste: "鲜香",
-    type: "traditional",
-    cuisine: "藏餐",
-    province: "西藏",
-    city: "昌都",
-    origin: "西藏昌都芒康，据说源于茶马古道",
-    description:
-      "昌都加加面以小碗装面，吃完即加，循环加面。面条筋道，汤鲜味美，趣味十足。是芒康传统名吃，「加加」即不断加面。据说最高纪录吃数十碗。是茶马古道驿站美食，体现藏汉饮食交融，是昌都名片，承载马帮文化。",
-    ingredients: ["葱", "酱油"],
-    cookingMethod: ["煮"],
-    tags: ["芒康", "藏餐", "面食", "咸鲜", "酥脆"],
-    fame: "地方名吃",
-    popularRegions: ["西藏"],
-    lat: 31.1369,
-    lng: 97.1786,
-    popularity: 4,
-  },
+  // 「昌都加加面」已合并至「芒康盐井加加面」(batch14-tibet-1) - 同地同物异名
   {
     id: "city-south-changdu-2",
     name: "昌都荞麦饼",
@@ -4701,7 +4657,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
   {
     id: "city-south-shannan-2",
     name: "山南豌豆糌粑",
-    alias: ["豌豆糌粑", "糌粑"],
+    alias: ["豌豆糌粑"],
     image: "https://img0.baidu.com/it/u=203659379,4090358186&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500",
     category: "主食",
     taste: "咸鲜",
@@ -4742,8 +4698,8 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     tags: ["虫草鸡", "藏餐", "汤羹", "咸鲜", "药膳", "酥脆"],
     fame: "地方名吃",
     popularRegions: ["西藏"],
-    lat: 30.4756,
-    lng: 92.0599,
+    lat: 31.4677,
+    lng: 92.0513,
     popularity: 4,
   },
 
@@ -4751,7 +4707,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
   {
     id: "city-south-ali-1",
     name: "阿里藏香猪",
-    alias: ["藏香猪", "阿里猪"],
+    alias: ["阿里猪"],
     image: "https://img1.baidu.com/it/u=30444321,2203181325&fm=253&fmt=auto&app=138&f=JPEG?w=369&h=500",
     category: "主菜",
     taste: "咸鲜",

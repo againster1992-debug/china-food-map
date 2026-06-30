@@ -1,4 +1,4 @@
-﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
 
 // 中国各地特产美食
 // 涵盖地方特产肉类、水产、果蔬、主食小吃、茶饮、酒类及其他特产
@@ -1265,7 +1265,7 @@ export const FOODS_SPECIALTIES: Food[] = [
   {
     id: "specialty-74",
     name: "若羌红枣",
-    alias: ["若羌灰枣", "红枣"],
+    alias: ["若羌灰枣"],
     image: "https://img1.baidu.com/it/u=2827180500,4236917788&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=667",
     category: "其他",
     taste: "香甜",
@@ -1288,7 +1288,7 @@ export const FOODS_SPECIALTIES: Food[] = [
   {
     id: "specialty-75",
     name: "哈密大枣",
-    alias: ["红枣", "五堡大枣"],
+    alias: ["五堡大枣"],
     image: "https://img0.baidu.com/it/u=3844076655,3076899313&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=889",
     category: "其他",
     taste: "香甜",
@@ -2183,7 +2183,7 @@ export const FOODS_SPECIALTIES: Food[] = [
   {
     "id": "gen2-f-2025-152",
     "name": "嘉兴肉粽",
-    "alias": ["嘉兴鲜肉粽", "嘉兴粽子", "肉粽"],
+    "alias": ["嘉兴鲜肉粽", "嘉兴粽子", "肉粽", "五芳斋粽子"],
     "category": "主食",
     "taste": "咸鲜",
     "type": "popular",

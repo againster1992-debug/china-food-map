@@ -925,8 +925,8 @@ export const FOODS_BATCH9_NORTHWEST_INGREDIENTS: Food[] = [
     type: "traditional",
     cuisine: "其他",
     province: "山西",
-    city: "太原",
-    origin: "中国山西、甘肃，山西潞城为道地产区",
+    city: "长治",
+    origin: "中国山西、甘肃，山西潞城（今长治市潞城区）为道地产区",
     description:
       "党参为桔梗科党参的根，色泽黄白，质柔润，味甜微辛。是补中益气、健脾益肺的常用中药，可煲汤、煮粥、泡酒。山西潞党为道地药材，素有「潞党参」之称，与人参功效相近而力缓，是平补佳品。",
     ingredients: ["党参"],
@@ -934,8 +934,8 @@ export const FOODS_BATCH9_NORTHWEST_INGREDIENTS: Food[] = [
     tags: ["甜", "物产", "药材", "补气", "山西"],
     fame: "地方名吃",
     popularRegions: ["山西", "甘肃", "全国"],
-    lat: 37.8706,
-    lng: 112.5489,
+    lat: 36.1954,
+    lng: 113.1163,
     popularity: 3,
   },
   {

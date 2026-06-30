@@ -1,4 +1,4 @@
-﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
 
 export const FOODS_EAST: Food[] = [
   // ========== 上海（本帮菜）==========
@@ -322,7 +322,7 @@ export const FOODS_EAST: Food[] = [
   {
     id: "fj-3",
     name: "沙县扁肉",
-    alias: ["沙县扁肉", "扁食"],
+    alias: ["扁食"],
     image: "https://img2.baidu.com/it/u=325738627,3945904968&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=624",
     category: "小吃",
     taste: "咸鲜",
@@ -343,17 +343,17 @@ export const FOODS_EAST: Food[] = [
   {
     id: "fj-4",
     name: "海蛎煎",
-    alias: ["蚵仔煎", "蚝仔煎", "闽南蚝烙", "泉州闽南海蛎煎", "闽南海蛎煎蛋"],
+    alias: ["蚵仔煎", "蚝仔煎", "闽南蚝烙"],
     image: "https://img1.baidu.com/it/u=1870624306,111824133&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=667",
     category: "小吃",
     taste: "咸鲜",
     type: "traditional",
     cuisine: "闽菜",
     province: "福建",
-    city: "福建",
+    city: "厦门",
     origin: "闽南一带，据说源自郑成功收复台湾时",
     description: "海蛎煎以新鲜海蛎加地瓜粉、鸡蛋煎制，外酥内嫩，鲜香可口。蘸甜辣酱食用，是闽南、台湾夜市的灵魂小吃。相传郑成功缺粮，以海蛎充饥而创，故名「蚵仔煎」。",
-    ingredients: ["鱼肉", "红薯", "鸡蛋", "蒜"],
+    ingredients: ["海蛎", "地瓜粉", "鸡蛋", "蒜"],
     cookingMethod: ["煎"],
     tags: ["海蛎", "煎", "闽菜", "闽南", "厦门", "小吃", "海鲜"],
     lat: 24.4798,
@@ -488,7 +488,7 @@ export const FOODS_EAST: Food[] = [
     type: "traditional",
     cuisine: "赣菜",
     province: "江西",
-    city: "江西",
+    city: "南昌",
     origin: "江西，民间传统，立夏时节食",
     description: "米粉蒸肉以五花肉裹炒米粉，垫荷叶或芋头蒸制。肉质酥烂，米粉吸油，肥而不腻。是江西立夏「撑夏」习俗必备，「立夏吃粉蒸，一年不疰夏」。体现赣菜「蒸」技特色。",
     ingredients: ["猪肉", "米粉", "荷叶", "芋头"],
@@ -668,7 +668,7 @@ export const FOODS_EAST: Food[] = [
     type: "traditional",
     cuisine: "鲁菜",
     province: "山东",
-    city: "山东",
+    city: "烟台",
     origin: "胶东沿海，民间传统",
     description: "鲅鱼水饺以新鲜鲅鱼肉剁馅，加韭菜、猪油。皮薄馅大，鲜嫩多汁，个头比一般饺子大。是胶东沿海代表，「无鲅鱼不成席」。烟台、青岛家家会包，体现鲁菜「海鲜入饺」的智慧。",
     ingredients: ["鱼肉", "韭菜", "猪肉", "面粉"],

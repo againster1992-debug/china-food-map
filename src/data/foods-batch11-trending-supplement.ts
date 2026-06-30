@@ -304,7 +304,7 @@ export const FOODS_BATCH11_TRENDING_SUPPLEMENT: Food[] = [
     type: "popular",
     cuisine: "湘菜",
     province: "湖南",
-    city: "湖南",
+    city: "长沙",
     origin: "2025年夏季爆火，臭豆腐与火锅结合",
     description:
       "臭豆腐火锅将长沙臭豆腐融入火锅锅底，独特口味、新奇吃法收获一波流量。臭豆腐的臭味与火锅的香辣完美融合，是2025年餐饮热门产品之一，从熟悉的传统小吃演变而来，让消费者快速接受。",

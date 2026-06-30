@@ -478,7 +478,7 @@ export const FOODS_BATCH3_SHANDONG: Food[] = [
     origin: "济南，以大明湖蒲菜入馔",
     description:
       "海米炒蒲菜以济南大明湖蒲菜配海米（干虾仁）旺火快炒。蒲菜脆嫩清鲜，海米提鲜增香，黄绿相映。是济南家常鲁菜，将本地特产蒲菜与海味的鲜味结合，体现鲁菜「以鲜配鲜」的特色。",
-    ingredients: ["茭白", "鱼肉", "葱", "盐"],
+    ingredients: ["茭白", "海米", "葱", "盐"],
     cookingMethod: ["炒"],
     tags: ["鲁菜", "蒲菜", "咸鲜", "主菜", "山东"],
     fame: "地方名吃",
@@ -501,7 +501,7 @@ export const FOODS_BATCH3_SHANDONG: Food[] = [
     origin: "济南传统鲁菜，奶汤杂烩",
     description:
       "奶汤什锦以海参、鱿鱼、笋、香菇、火腿等多种食材配奶汤煮制。汤色乳白，食材丰富，鲜味叠加，醇厚滋补。是济南宴席汤菜，体现鲁菜奶汤技法与「什锦」拼配的讲究，一汤尝百味。",
-    ingredients: ["鱼肉", "笋", "香菇", "火腿"],
+    ingredients: ["海参", "笋", "香菇", "火腿"],
     cookingMethod: ["煮", "熬"],
     tags: ["鲁菜", "奶汤", "什锦", "嫩滑", "鲜香", "汤羹", "山东"],
     fame: "地方名吃",
@@ -743,29 +743,7 @@ export const FOODS_BATCH3_SHANDONG: Food[] = [
     popularity: 5,
   },
   // ========== 孔府菜（曲阜） ==========
-  {
-    id: "batch3-sd-41",
-    name: "当朝一品锅",
-    alias: ["一品锅"],
-    image: "https://img0.baidu.com/it/u=506826984,2855092833&fm=253&fmt=auto&app=138&f=JPEG?w=751&h=500",
-    category: "主菜",
-    taste: "咸鲜",
-    type: "traditional",
-    cuisine: "鲁菜",
-    province: "山东",
-    city: "曲阜",
-    origin: "曲阜孔府菜，衍圣公府宴席大菜",
-    description:
-      "当朝一品锅是孔府菜代表，以鸡、海参、蹄筋、火腿、鱼肚等多种食材分层码入锅中，加高汤慢炖。层次分明，鲜味交融，醇厚丰盛。「一品」寓意官阶，是孔府接待贵客的宴席大菜，体现孔府菜的讲究与排场。",
-    ingredients: ["鸡肉", "鱼肉", "蹄筋", "火腿"],
-    cookingMethod: ["炖", "烧"],
-    tags: ["鲁菜", "孔府菜", "一品锅", "嫩滑", "咸鲜", "主菜", "山东"],
-    fame: "名菜",
-    popularRegions: ["山东"],
-    lat: 35.5807,
-    lng: 116.9863,
-    popularity: 7,
-  },
+  // 「当朝一品锅」(batch3-sd-41) 已合并至「孔府一品锅」(famous-103) - 同地同物异名
   {
     id: "batch3-sd-42",
     name: "燕菜一品锅",
@@ -803,7 +781,7 @@ export const FOODS_BATCH3_SHANDONG: Food[] = [
     origin: "曲阜孔府菜，宴席「四大件」之一",
     description:
       "燕窝四大件是孔府宴席「四大件」（燕窝、海参、鲍鱼、鱼翅）之首，以燕窝为主料精制。孔府宴席讲究「四大件、四中件、四小件」的格局，燕窝四大件是最高规格，体现孔府菜的礼仪与排场，承载儒家饮食文化。",
-    ingredients: ["燕窝", "鱼肉"],
+    ingredients: ["燕窝", "海参"],
     cookingMethod: ["炖", "蒸"],
     tags: ["鲁菜", "孔府菜", "四大件", "爽脆", "清淡", "主菜", "山东"],
     fame: "名菜",
@@ -871,7 +849,7 @@ export const FOODS_BATCH3_SHANDONG: Food[] = [
     origin: "胶东沿海传统鲁菜",
     description:
       "海米珍珠笋以嫩玉米笋（珍珠笋）配海米旺火快炒。笋脆嫩清甜，海米鲜香提味，黄白相映。是胶东鲁菜时令小炒，将玉米笋的清嫩与海米的鲜味结合，体现鲁菜「以鲜配鲜」与时令入馔的特色。",
-    ingredients: ["玉米", "鱼肉", "葱", "盐"],
+    ingredients: ["玉米", "海米", "葱", "盐"],
     cookingMethod: ["炒"],
     tags: ["鲁菜", "胶东", "时令菜", "小炒", "咸鲜", "主菜", "山东"],
     fame: "地方名吃",

@@ -1,10 +1,11 @@
-﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
+﻿﻿﻿﻿import type { Food } from "@/types/food";
 
 export const FOODS_BATCH_SOUTH: Food[] = [
   // ========== 广东（粤菜）==========
   {
     id: "batch-south-1",
     name: "干蒸烧卖",
+    alias: ["烧麦", "广式烧麦", "广式烧卖"],
     image: "https://img1.baidu.com/it/u=2363180685,854420768&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=654",
     category: "小吃",
     taste: "咸鲜",

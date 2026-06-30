@@ -56,7 +56,7 @@ export const FOODS_BATCH12_TRENDING_UPDATE: Food[] = [
   {
     id: "batch12-hainan-1",
     name: "糟粕醋",
-    alias: ["糟粕醋火锅"],
+    alias: [],
     image: "https://img0.baidu.com/it/u=2507313516,2113239013&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=800",
     category: "汤羹",
     taste: "酸辣",

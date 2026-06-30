@@ -1,4 +1,4 @@
-﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
 
 export const FOODS_POPULAR: Food[] = [
   // ========== 网红美食（2020-2025年流行）==========
@@ -1618,29 +1618,7 @@ export const FOODS_POPULAR: Food[] = [
     lng: 113.2644,
     popularity: 8,
   },
-  {
-    id: "hot-85",
-    name: "卤味拼盘",
-    alias: ["卤水拼盘", "潮汕卤味"],
-    image: "https://img1.baidu.com/it/u=2337253093,3922984194&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=986",
-    category: "小吃",
-    taste: "咸鲜",
-    type: "popular",
-    cuisine: "潮菜",
-    province: "广东",
-    city: "广州",
-    origin: "粤式卤水经典，全国流行",
-    description:
-      "卤味拼盘以卤水鹅、鸭、豆腐、鸡蛋等拼盘。色泽红亮，卤香浓郁，咸鲜入味。是「潮汕卤味」代表，从广东火遍全国。下酒下饭皆宜，聚餐首选。连锁餐厅、外卖热销，深受各年龄层喜爱，是「粤式冷盘」代表。",
-    ingredients: ["鹅肉", "鸭肉", "豆腐", "鸡蛋"],
-    cookingMethod: ["卤"],
-    tags: ["卤味", "拼盘", "粤菜", "下酒", "冷盘", "聚餐"],
-    fame: "热门",
-    popularRegions: ["全国", "香港", "上海", "北京", "深圳"],
-    lat: 23.1291,
-    lng: 113.2644,
-    popularity: 7,
-  },
+  // 「卤味拼盘」(hot-85) 已合并至「潮州卤水拼盘」(batch4-cs-3) - 同地同物异名
 
   // ========== 各地流行地方小吃 ==========
   {
@@ -1919,7 +1897,7 @@ export const FOODS_POPULAR: Food[] = [
   {
     id: "hot-101",
     name: "脆皮五花肉",
-    alias: ["网红脆皮五花", "烤五花肉"],
+    alias: ["网红脆皮五花", "烤五花肉", "烤脆皮五花肉", "脆皮烤肉"],
     image: "https://img1.baidu.com/it/u=3600391241,324029321&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1422",
     category: "小吃",
     taste: "咸鲜",
@@ -2053,7 +2031,7 @@ export const FOODS_POPULAR: Food[] = [
   {
     id: "hot-109",
     name: "肉松小贝",
-    alias: ["海苔肉松小贝", "肉松蛋糕"],
+    alias: ["海苔肉松小贝", "肉松蛋糕", "肉松海苔麻薯贝", "肉松海苔巨贝", "海苔肉松贝", "巨贝蛋糕"],
     image: "https://img0.baidu.com/it/u=1353580716,2337431354&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1123",
     category: "糕点",
     taste: "咸鲜",
@@ -2185,7 +2163,9 @@ export const FOODS_POPULAR: Food[] = [
     "id": "hot-115",
     "name": "沙茶肉串",
     "alias": [
-      "沙茶烤肉串"
+      "沙茶烤肉串",
+      "沙茶烤肉",
+      "厦门沙茶烤肉"
     ],
     "image": "https://i2.chuimg.com/a6a9066289b211e6a9a10242ac110002_375w_378h.jpg?imageView2/1/w/280/h/216/interlace/1/q/75",
     "category": "小吃",
@@ -2667,28 +2647,7 @@ export const FOODS_POPULAR: Food[] = [
     "popularity": 8,
     "image": "https://img2.baidu.com/it/u=4142885208,1708037478&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1561"
   },
-  {
-    "id": "gen-f-2025-45",
-    "name": "拇指生煎",
-    "category": "小吃",
-    "taste": "咸鲜",
-    "type": "popular",
-    "cuisine": "其他",
-    "province": "全国",
-    "origin": "生煎（源于苏州、上海）的迷你版，经社交媒体走红全国",
-    "description": "拇指生煎以迷你小包子煎制，底部金黄酥脆，一口一个，是短视频平台热门的街头小吃。生煎本身源于苏州（1911年）与上海（1920年代），拇指版是其现代网红变体。",
-    "ingredients": ["面粉", "猪肉", "芝麻"],
-    "cookingMethod": ["煎"],
-    tags: ["生煎", "迷你", "网红", "小吃", "咸鲜"],
-    "fame": "热门",
-    "popularRegions": [
-      "全国"
-    ],
-    "lat": 35.0,
-    "lng": 105.0,
-    "popularity": 8,
-    "image": "https://img0.baidu.com/it/u=2225438217,1277026198&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=646"
-  },
+  // 「拇指生煎」已合并至「拇指生煎包」(foods-batch28-hot100.ts batch28-hot-003) - 同物异名
   {
     "id": "gen2-f-2025-41",
     "name": "鸡公煲",
@@ -3068,4 +3027,28 @@ export const FOODS_POPULAR: Food[] = [
     "lat": 23.1291,
     "lng": 113.2644,
     "popularity": 7
-  }];
+  },
+  {
+    id: "pop-add-1",
+    name: "青鱼秃肺",
+    alias: ["秃肺", "炒秃肺"],
+    image: "https://img2.baidu.com/it/u=2633356479,2972563767&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=644",
+    category: "主菜",
+    taste: "咸鲜",
+    type: "traditional",
+    cuisine: "本帮菜",
+    province: "上海",
+    city: "上海",
+    origin: "上海本帮菜名菜，老正兴馆招牌",
+    description:
+      "青鱼秃肺是上海本帮菜名菜，以青鱼肝俗称秃肺为主料，配笋片、黄酒、酱油红烧。鱼肝嫩滑如脂，入口即化，咸鲜浓油赤酱，色泽红亮。秃为方言光秃之意，指整块鱼肝无杂。此菜对鱼肝新鲜度要求极高，需现取现烹，量少价昂，是本帮菜浓油赤酱、内脏入馔的极致代表，老正兴馆所制最负盛名。",
+    ingredients: ["青鱼肝", "笋", "黄酒", "酱油", "糖", "葱"],
+    cookingMethod: ["烧", "炒"],
+    tags: ["本帮菜", "青鱼秃肺", "鱼肝", "上海", "浓油赤酱", "名菜", "内脏"],
+    fame: "名菜",
+    popularRegions: ["上海", "江苏", "浙江"],
+    lat: 31.2304,
+    lng: 121.4737,
+    popularity: 7,
+  }
+];

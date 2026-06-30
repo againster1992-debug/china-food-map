@@ -219,7 +219,7 @@ export const FOODS_SNACKS: Food[] = [
   {
     id: "snack-19",
     name: "徐州辣汤",
-    alias: ["饣它汤"],
+    // 「饣它汤」别名已移除（系徐州糁汤 batch-east-2 的别名，与辣汤不同）
     image: "https://img0.baidu.com/it/u=3025358701,2857291439&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=888",
     category: "汤羹",
     taste: "酸辣",
@@ -290,7 +290,7 @@ export const FOODS_SNACKS: Food[] = [
   {
     id: "snack-25",
     name: "葱包桧",
-    alias: ["葱包桧儿"],
+    alias: ["葱包桧儿", "葱包烩"],
     image: "https://img2.baidu.com/it/u=3535422807,2426086977&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=722",
     category: "小吃",
     taste: "咸鲜",
@@ -739,7 +739,7 @@ export const FOODS_SNACKS: Food[] = [
   {
     id: "snack-56",
     name: "建水烧豆腐",
-    alias: ["建水包浆豆腐", "临安豆腐"],
+    alias: ["临安豆腐"],
     image: "https://img1.baidu.com/it/u=3710607870,1714731661&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500",
     category: "小吃",
     taste: "咸鲜",
@@ -1018,29 +1018,7 @@ export const FOODS_SNACKS: Food[] = [
     lng: 89.1895,
     popularity: 6,
   },
-  {
-    id: "snack-74",
-    name: "伊犁马奶",
-    alias: ["马奶酒", "酸马奶"],
-    image: "https://img0.baidu.com/it/u=1343352769,123756586&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=653",
-    category: "饮品",
-    taste: "酸甜",
-    type: "traditional",
-    cuisine: "新疆菜",
-    province: "新疆",
-    city: "伊犁",
-    origin: "伊犁，哈萨克族传统",
-    description:
-      "伊犁马奶以鲜马奶发酵而成。色泽乳白，酸爽微醇，营养丰富，是哈萨克族传统饮品。马奶发酵后产生少量酒精，有「马奶酒」之称。伊犁草原辽阔，马匹众多，马奶文化深厚。是草原待客上品，体现游牧民族的饮食智慧与马背文化。",
-    ingredients: ["马奶"],
-    cookingMethod: ["发酵"],
-    tags: ["小吃", "新疆菜", "马奶", "饮品", "哈萨克族", "劲道"],
-    fame: "地方名吃",
-    popularRegions: ["新疆"],
-    lat: 43.9131,
-    lng: 81.3245,
-    popularity: 3,
-  },
+  // 「伊犁马奶」已合并至「哈萨克马奶酒」(ethnic-140) - 同地同物异名
 
   // ========== 东北（5）==========
   {
@@ -1071,7 +1049,7 @@ export const FOODS_SNACKS: Food[] = [
   {
     id: "snack-85",
     name: "重油烧麦",
-    alias: ["武汉烧麦"],
+    alias: ["武汉烧麦", "烧梅"],
     image: "https://img2.baidu.com/it/u=2005660823,29472015&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=1139",
     category: "面食",
     taste: "咸鲜",
@@ -1885,32 +1863,11 @@ export const FOODS_SNACKS: Food[] = [
   },
   
 
-  {
-    "id": "gen3-f-2025-40",
-    "name": "葱包烩",
-    "category": "小吃",
-    "taste": "咸鲜",
-    "type": "traditional",
-    "cuisine": "浙菜",
-    "province": "浙江",
-    "city": "杭州",
-    "origin": "杭州传统小吃，南宋流传至今",
-    "description": "葱包烩以春饼卷油条和葱段，在铁板上压烤至酥脆，刷上甜面酱或辣酱食用。外酥里软，葱香浓郁，酱香四溢。相传南宋时百姓以油炸秦桧之意创造此小吃，既有美食之趣，又有历史典故，是杭州街头最具文化底蕴的小吃。",
-    "ingredients": ["薄饼", "油条", "葱", "甜面酱", "辣椒"],
-    "cookingMethod": ["烤"],
-    "tags": ["浙菜", "南宋", "小吃", "油条", "酥脆"],
-    "fame": "地方名吃",
-    "popularRegions": [
-      "浙江"
-    ],
-    "lat": 30.2741,
-    "lng": 120.1551,
-    "popularity": 4,
-    "image": "https://img2.baidu.com/it/u=637436231,2862238628&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=656"
-  },
+  // 「葱包烩」已合并至「葱包桧」(snack-25) - 同地同物异名（同音异字）
   {
     "id": "gen3-f-2025-44",
     "name": "烧饵块",
+    "alias": ["饵块", "云南饵块"],
     "category": "小吃",
     "taste": "咸鲜",
     "type": "traditional",

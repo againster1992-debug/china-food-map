@@ -863,7 +863,7 @@ export const FOODS_BATCH9_YUNNAN: Food[] = [
   {
     id: "batch9-yn-43",
     name: "大理夹沙乳扇",
-    alias: ["夹沙乳扇", "乳扇"],
+    alias: ["夹沙乳扇"],
     image: "https://img0.baidu.com/it/u=2280523453,4279568241&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1037",
     category: "小吃",
     taste: "香甜",
@@ -929,29 +929,7 @@ export const FOODS_BATCH9_YUNNAN: Food[] = [
     lng: 103.8343,
     popularity: 7,
   },
-  {
-    id: "batch9-yn-47",
-    name: "靖远羊羔",
-    alias: ["羊羔肉", "靖远羊肉"],
-    image: "https://img1.baidu.com/it/u=3121388096,3547507945&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=653",
-    category: "物产",
-    taste: "原味",
-    type: "traditional",
-    cuisine: "西北菜",
-    province: "甘肃",
-    city: "靖远",
-    origin: "靖远，甘肃名产，国家地理标志产品",
-    description:
-      "靖远羊羔产自白银市靖远县，以滩羊羔羊为佳，肉质细嫩无膻，脂肪分布均匀。是国家地理标志产品，羊羔吃中草药、饮矿泉水长大，肉质上乘。可烤、炖、煮、焖，是西北羊肉上品，靖远羊羔肉名扬全国，体现甘肃畜牧特色。",
-    ingredients: ["羊肉"],
-    cookingMethod: ["煮", "烤", "炖", "焖"],
-    tags: ["原味", "物产", "西北菜", "羊羔", "靖远", "地理标志", "滩羊", "名产"],
-    fame: "名菜",
-    popularRegions: ["靖远", "兰州", "全国"],
-    lat: 36.566,
-    lng: 104.692,
-    popularity: 7,
-  },
+  // 「靖远羊羔」已合并至「靖远羊羔肉」(foods-southwest-northwest.ts gs-4) - 同地同物异名
   // ========== 云南菌类 ==========
   {
     id: "batch9-yn-48",
@@ -1021,4 +999,28 @@ export const FOODS_BATCH9_YUNNAN: Food[] = [
     lat: 25.0389,
     lng: 102.7183,
     popularity: 8,
-  }];
+  },
+  {
+    id: "b9yn-add-1",
+    name: "牛扒烀",
+    alias: ["牛巴烀", "扒烀牛肉"],
+    image: "https://img2.baidu.com/it/u=744596600,2331862370&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=661",
+    category: "主菜",
+    taste: "咸鲜",
+    type: "traditional",
+    cuisine: "滇菜",
+    province: "云南",
+    city: "昆明",
+    origin: "云南昆明传统名菜，回族风味炖牛肉",
+    description:
+      "牛扒烀是云南昆明传统名菜，扒烀为方言炖煮之意，以黄牛腩、牛筋配草果、八角等香料慢火长炖。肉质扒烂酥软，筋络黏糯，汤汁醇厚咸鲜，原汤原味。多见于昆明清真餐馆，是回族传统风味，讲究肉烂汤浓、香料去膻。一锅牛扒烀配米线、米饭皆宜，是昆明人秋冬暖身的家常硬菜，体现滇菜炖煮与民族风味的融合。",
+    ingredients: ["牛肉", "牛筋", "草果", "八角", "姜", "盐"],
+    cookingMethod: ["炖", "煮"],
+    tags: ["滇菜", "牛扒烀", "牛肉", "炖菜", "清真", "昆明", "咸鲜"],
+    fame: "地方名吃",
+    popularRegions: ["云南"],
+    lat: 25.0389,
+    lng: 102.7183,
+    popularity: 6,
+  }
+];

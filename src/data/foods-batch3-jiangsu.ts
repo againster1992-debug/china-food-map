@@ -202,7 +202,7 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     origin: "淮安朱桥镇，淮扬菜传统名菜",
     description:
       "朱桥甲鱼以朱桥所产甲鱼为主料，配火腿、冬笋，用砂锅慢炖。甲鱼肉烂裙边糯，汤浓胶质感强，滋补鲜美。朱桥镇水质优良，所产甲鱼品质上乘，是淮扬菜中「炖」法的代表。",
-    ingredients: ["鱼肉", "火腿", "笋", "香菇", "鸡肉"],
+    ingredients: ["甲鱼", "火腿", "笋", "香菇", "鸡肉"],
     cookingMethod: ["炖"],
     tags: ["苏菜", "甲鱼", "炖", "传统", "酥脆"],
     fame: "地方名吃",
@@ -225,7 +225,7 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     origin: "淮安，淮扬鳝鱼名菜",
     description:
       "炝虎尾取黄鳝尾部肉（形似虎尾），沸水焯熟后浇蒜油、酱油。鳝肉嫩滑，蒜香浓郁，咸鲜适口。是淮安「长鱼宴」名菜之一，淮安人善烹鳝鱼，一鱼多做，炝虎尾为冷盘代表。",
-    ingredients: ["鱼肉", "蒜", "酱油", "香油", "胡椒"],
+    ingredients: ["鳝鱼", "蒜", "酱油", "香油", "胡椒"],
     cookingMethod: ["汆", "拌"],
     tags: ["苏菜", "鳝鱼", "冷菜", "传统", "酥脆", "粘糯"],
     fame: "名菜",
@@ -248,7 +248,7 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     origin: "淮安，淮扬鳝鱼名菜",
     description:
       "煨脐门取黄鳝腹部肉（脐门），用鸡汤小火慢煨。鳝肉软烂入味，汤汁浓稠，鲜醇可口。是淮安「长鱼宴」经典菜，取鳝鱼最嫩的腹部，体现淮扬菜「物尽其用」的精妙。",
-    ingredients: ["鱼肉", "鸡肉", "火腿", "笋", "葱"],
+    ingredients: ["鳝鱼", "鸡肉", "火腿", "笋", "葱"],
     cookingMethod: ["煨"],
     tags: ["苏菜", "鳝鱼", "煨", "传统", "嫩滑"],
     fame: "地方名吃",
@@ -434,7 +434,7 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     origin: "南京，金陵菜传统名菜",
     description:
       "炖生敲将活鳝鱼去骨「生敲」成片，油炸后炖制。鳝肉酥烂入味，汤汁浓稠，鲜香醇厚。「生敲」指活杀去骨的独特刀法，是金陵菜鳝鱼名馔，考验厨师的刀工与火候。",
-    ingredients: ["鱼肉", "蒜", "酱油", "糖", "鸡肉"],
+    ingredients: ["鳝鱼", "蒜", "酱油", "糖", "鸡肉"],
     cookingMethod: ["炸", "炖"],
     tags: ["苏菜", "鳝鱼", "名菜", "传统", "咸鲜", "主菜", "江苏"],
     fame: "名菜",
@@ -551,7 +551,7 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     origin: "徐州沛县，相传樊哙所创，汉高祖刘邦曾食",
     description:
       "沛县鼋汁狗肉以狗肉配甲鱼（鼋）汁卤煮。肉烂味浓，鼋汁鲜香，温补驱寒。相传汉初樊哙卖狗肉，刘邦常食，后成贡品。是徐州名馔，虽有争议，却是彭城饮食文化的重要组成。",
-    ingredients: ["狗肉", "鱼肉", "酱油", "八角", "桂皮"],
+    ingredients: ["狗肉", "甲鱼", "酱油", "八角", "桂皮"],
     cookingMethod: ["卤", "煮"],
     tags: ["苏菜", "狗肉", "传统", "名菜", "咸鲜", "主菜", "江苏"],
     fame: "名菜",
@@ -668,7 +668,7 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     origin: "苏州，苏帮菜传统名菜",
     description:
       "黄焖鳗以河鳗切段，配猪板油、蒜瓣黄焖。鳗肉软糯肥腴，蒜香渗入，汁浓味厚。是苏帮菜「焖」法代表，去腥增鲜，肥而不腻。苏州人视鳗鱼为滋补佳品，黄焖是最经典做法。",
-    ingredients: ["鱼肉", "猪肉", "蒜", "酱油", "糖"],
+    ingredients: ["鳗鱼", "猪肉", "蒜", "酱油", "糖"],
     cookingMethod: ["焖", "烧"],
     tags: ["苏菜", "鳗鱼", "焖", "传统", "咸鲜", "主菜", "江苏"],
     fame: "名菜",
@@ -741,7 +741,7 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     origin: "无锡/苏州，太湖沿岸传统家常菜",
     description:
       "银鱼炒蛋以太湖银鱼配鸡蛋同炒。蛋金黄，鱼洁白，鲜嫩爽滑，营养丰富。银鱼无骨无刺，老少皆宜，是「太湖三白」之一。是太湖沿岸家常美味，简单却鲜美，体现「靠水吃水」的饮食传统。",
-    ingredients: ["鱼肉", "鸡蛋", "葱", "盐", "料酒"],
+    ingredients: ["银鱼", "鸡蛋", "葱", "盐", "料酒"],
     cookingMethod: ["炒"],
     tags: ["苏菜", "银鱼", "太湖三白", "传统", "粘糯"],
     fame: "地方名吃",
@@ -787,7 +787,7 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     origin: "无锡，锡帮传统小吃",
     description:
       "三鲜馄饨以鲜肉、开洋、榨菜为「三鲜」馅，皮薄馅大。配鸡汤、蛋丝、紫菜，汤鲜馅嫩。是无锡名小吃，与王兴记馄饨齐名。个大饱满，一碗管饱，体现无锡小吃的实在与鲜美。",
-    ingredients: ["猪肉", "鱼肉", "榨菜", "鸡肉"],
+    ingredients: ["猪肉", "开洋", "榨菜", "鸡肉"],
     cookingMethod: ["煮"],
     tags: ["苏菜", "馄饨", "面食", "传统", "劲道"],
     fame: "地方名吃",
@@ -847,7 +847,7 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
   {
     id: "batch3-js-41",
     name: "竹香风鹅",
-    alias: ["风鹅"],
+    // 「风鹅」别名已移除（与花果山风鹅 city-lianyungang-2 区分，保留各自具体名称）
     image: "https://img0.baidu.com/it/u=2944868269,1015154953&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=1200",
     category: "主菜",
     taste: "咸鲜",

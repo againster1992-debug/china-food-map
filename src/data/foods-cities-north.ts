@@ -817,7 +817,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
       "呼伦贝尔锅茶以砖茶、牛奶、黄油、盐煮制，加入奶皮子、奶豆腐、炒米、肉干等。咸香醇厚、奶味浓郁、营养丰富。用铜锅煮制，边煮边喝，是蒙古族待客的最高礼遇。呼伦贝尔锅茶保留了最传统的草原风味，是蒙餐文化的灵魂。",
     ingredients: ["牛奶", "黄油", "奶皮子"],
     cookingMethod: ["煮"],
-    tags: ["锅茶", "奶茶", "呼伦贝尔名吃", "蒙餐", "草原饮品", "酥脆"],
+    tags: ["锅茶", "奶茶", "呼伦贝尔名吃", "蒙餐", "草原饮品", "醇厚"],
     fame: "地方名吃",
     popularRegions: ["内蒙古"],
     lat: 49.212,
@@ -1621,29 +1621,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
   },
 
   // ========== 吉林·延边 ==========
-  {
-    id: "city-yanbian-1",
-    name: "延边石锅饭",
-    alias: ["石锅拌饭"],
-    image: "https://img0.baidu.com/it/u=4059549159,2088581857&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500",
-    category: "主食",
-    taste: "鲜香",
-    type: "popular",
-    cuisine: "东北菜",
-    province: "吉林",
-    city: "延边",
-    origin: "延边朝鲜族自治州，朝鲜族传统",
-    description:
-      "延边石锅饭以石锅盛米饭，配黄豆芽、蘑菇、胡萝卜、鸡蛋、辣酱拌食。锅巴焦脆、米饭软糯、配菜丰富、辣酱开胃。是延边朝鲜族传统美食，融合了米饭与拌菜的风味。石锅保温持久，边拌边吃，是延边最具代表性的朝鲜族美食，深受各族群众喜爱。",
-    ingredients: ["大米", "豆芽", "蘑菇", "鸡蛋", "辣椒"],
-    cookingMethod: ["煮", "拌"],
-    tags: ["石锅饭", "拌饭", "延边名吃", "东北菜", "朝鲜族", "嫩滑"],
-    fame: "热门",
-    popularRegions: ["吉林"],
-    lat: 42.891,
-    lng: 129.509,
-    popularity: 5,
-  },
+  // 「延边石锅饭」已合并至「延吉石锅拌饭」(foods-exotic.ts exotic-34) - 同地同物异名
   {
     id: "city-yanbian-2",
     name: "延边米肠",
@@ -1745,7 +1723,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
   {
     id: "city-hegang-1",
     name: "鹤岗小串",
-    alias: ["烤串"],
+    alias: [],
     image: "https://img2.baidu.com/it/u=583775114,3125756749&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=653",
     category: "小吃",
     taste: "麻辣",
@@ -1939,7 +1917,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
   {
     id: "city-heihe-2",
     name: "黑河俄式大串",
-    alias: ["烤串"],
+    alias: [],
     image: "https://img2.baidu.com/it/u=3714321643,2657791938&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=653",
     category: "小吃",
     taste: "咸鲜",
@@ -2371,7 +2349,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
   {
     id: "city-ankang-1",
     name: "安康蒸面",
-    alias: ["面皮"],
+    alias: [],
     image: "https://img1.baidu.com/it/u=1355176221,3125653801&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=588",
     category: "小吃",
     taste: "酸辣",
@@ -3683,29 +3661,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     "lng": 116.4074,
     "popularity": 4
   },
-  {
-    "id": "city-north-beijing-3",
-    "name": "栗子面小窝头",
-    "alias": [
-      "小窝头"
-    ],
-    "image": "https://i2.chuimg.com/761ad17486fb11e6a9a10242ac110002_480w_640h.jpg?imageView2/2/w/660/interlace/1/q/75",
-    "category": "主食",
-    "taste": "香甜",
-    "type": "traditional",
-    "cuisine": "京菜",
-    "province": "北京",
-    "city": "北京",
-    "origin": "北京宫廷点心，相传由慈禧太后嗜食而流传民间",
-    "description": "栗子面小窝头以玉米面、黄豆面加白糖蒸制，底部中空似窝头。色泽金黄，口感细腻香甜，个头玲珑。原是清宫御膳房为慈禧所制，后传入民间。虽名为栗子面，实多以玉米面、黄豆面为主，体现北京宫廷点心平民化的演变。",
-    "ingredients": ["玉米", "黄豆粉", "糖", "栗子"],
-    "cookingMethod": ["蒸"],
-    "tags": ["宫廷点心", "蒸", "香甜", "京菜", "传统", "劲道"],
-    "fame": "地方名吃",
-    "lat": 39.9042,
-    "lng": 116.4074,
-    "popularity": 5
-  },
+  // 「栗子面小窝头」已合并至「小窝头」(foods-batch23-famous100.ts batch23-famous-80) - 同地同物异名
   {
     "id": "city-north-tianjin-1",
     "name": "熟梨糕",
@@ -3808,7 +3764,8 @@ export const FOODS_CITIES_NORTH: Food[] = [
     "id": "city-north-harbin-1",
     "name": "哈尔滨红肠",
     "alias": [
-      "里道斯红肠"
+      "里道斯红肠",
+      "哈尔滨蒜香红肠"
     ],
     "image": "https://pic.nximg.cn/file/20251031/27613958_102749246102_2.jpg",
     "category": "腌腊",
@@ -3825,7 +3782,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     "fame": "名菜",
     "lat": 45.8038,
     "lng": 126.535,
-    "popularity": 8
+    "popularity": 9
   },
   {
     "id": "city-north-handan-1",

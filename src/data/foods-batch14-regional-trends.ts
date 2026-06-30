@@ -121,7 +121,7 @@ export const FOODS_BATCH14_REGIONAL_TRENDS: Food[] = [
   {
     id: "batch14-tibet-1",
     name: "芒康盐井加加面",
-    alias: ["加加面", "盐井加加面"],
+    alias: ["加加面", "盐井加加面", "昌都加加面", "芒康加加面"],
     image: "https://img0.baidu.com/it/u=146532938,443078167&fm=253&fmt=auto&app=138&f=PNG?w=500&h=600",
     category: "面食",
     taste: "咸鲜",
@@ -143,7 +143,7 @@ export const FOODS_BATCH14_REGIONAL_TRENDS: Food[] = [
   {
     id: "batch14-tibet-2",
     name: "烤藏香猪",
-    alias: ["藏香猪", "林芝烤藏香猪"],
+    alias: ["林芝烤藏香猪"],
     image: "https://img2.baidu.com/it/u=539688557,520093381&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1422",
     category: "主菜",
     taste: "咸鲜",
@@ -261,7 +261,7 @@ export const FOODS_BATCH14_REGIONAL_TRENDS: Food[] = [
     type: "traditional",
     cuisine: "赣菜",
     province: "江西",
-    city: "江西",
+    city: "南昌",
     origin: "江西传统小吃，2026年翻红",
     description: "油条包麻糍是江西传统小吃，2026年翻红成为网红美食。现炸的油条外酥里软，中间夹着糯叽叽的麻糍，撒上黑芝麻、肉松或白糖，一口下去，油条的酥脆与麻糍的软糯碰撞，香糯可口，越嚼越香。是碳水脑袋的快乐源泉，在抖音、小红书等平台热度持续攀升。",
     ingredients: ["面粉", "糯米粉", "芝麻", "糖"],
