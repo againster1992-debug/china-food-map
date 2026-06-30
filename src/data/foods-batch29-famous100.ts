@@ -148,7 +148,7 @@ export const FOODS_BATCH29_FAMOUS100: Food[] = [
 {
   id: "batch29-famous-078",
   name: "冀中驴肉火烧",
-  alias: ["驴肉", "河间驴火"],
+  alias: ["驴肉"],
   image: "https://img2.baidu.com/it/u=1155971882,1588284089&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=638",
   category: "小吃",
   taste: "咸鲜",

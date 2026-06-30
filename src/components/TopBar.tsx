@@ -38,10 +38,10 @@ export default function TopBar() {
             <img src={`${import.meta.env.BASE_URL}0001.png`} alt="中华美食地图" className="h-full w-full object-cover" />
           </div>
           <div className="hidden sm:block">
-            <h1 className="font-serif text-lg font-bold leading-tight text-ink-900">
+            <h1 className="font-serif text-lg font-bold leading-tight tracking-wide text-ink-900">
               中华美食地图
             </h1>
-            <p className="font-latin text-[10px] italic leading-tight text-ochre-500">
+            <p className="font-latin text-[10px] italic leading-tight tracking-wider text-ochre-500">
               A Culinary Atlas of China
             </p>
           </div>

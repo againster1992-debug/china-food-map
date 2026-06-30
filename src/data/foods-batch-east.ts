@@ -1,4 +1,4 @@
-﻿﻿﻿import type { Food } from "@/types/food";
+﻿﻿import type { Food } from "@/types/food";
 
 export const FOODS_BATCH_EAST: Food[] = [
   // ========== 上海（本帮菜）==========
@@ -128,7 +128,7 @@ export const FOODS_BATCH_EAST: Food[] = [
     category: "小吃",
     taste: "咸鲜",
     type: "traditional",
-    cuisine: "闽菜",
+    cuisine: "客家菜",
     province: "福建",
     city: "龙岩",
     origin: "龙岩，客家传统小吃",

@@ -22,3 +22,19 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# 历史脚本归档：仅作留档参考，不再参与构建/运行
+# 如需查阅请进入 scripts/archive/
+scripts/archive/**/*.cjs
+scripts/archive/**/*.mjs
+scripts/archive/**/*.js
+scripts/archive/**/*.ps1
+scripts/archive/**/*.json
+scripts/archive/**/*.txt
+
+# 临时数据修复输出（每次运行的中间产物，不入库）
+*.output.txt
+*-output.json
+fix-*.txt
+audit-*.txt
+comprehensive-audit.txt

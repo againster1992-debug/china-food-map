@@ -11,8 +11,8 @@ export const FOODS_PASTRIES: Food[] = [
     taste: "香甜",
     type: "traditional",
     cuisine: "东北菜",
-    province: "黑龙江",
-    city: "哈尔滨",
+    province: "辽宁",
+    city: "沈阳",
     origin: "东北地区满族、汉族传统年节食品",
     description:
       "粘豆包以大黄米或糯米面为皮，包入红豆沙馅，蒸制而成。外皮金黄粘糯，内馅香甜绵软。东北民间有「腊月家家蒸豆包」的习俗，寓意生活甜甜蜜蜜、团团圆圆。冬季可冷冻保存，吃时蒸热或油煎，是东北人记忆深处的年味儿。",
@@ -20,9 +20,9 @@ export const FOODS_PASTRIES: Food[] = [
     cookingMethod: ["揉", "包", "蒸"],
     tags: ["主食", "东北", "年节", "红豆沙", "传统", "粘糯", "绵软"],
     fame: "地方名吃",
-    popularRegions: ["黑龙江"],
-    lat: 45.8038,
-    lng: 126.5349,
+    popularRegions: ["辽宁"],
+    lat: 41.8057,
+    lng: 123.4315,
     popularity: 5,
   },
   {

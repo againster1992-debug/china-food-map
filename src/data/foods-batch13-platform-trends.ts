@@ -251,7 +251,7 @@ export const FOODS_BATCH13_PLATFORM_TRENDS: Food[] = [
     type: "traditional",
     cuisine: "新疆菜",
     province: "新疆",
-    city: "新疆",
+    city: "乌鲁木齐",
     origin: "新疆特色瓜果，2025年新疆水果新晋热门",
     description:
       "老汉瓜是新疆特色瓜果，2025年新疆水果新晋热门，与伽师新梅共同崭露头角。果实硕大，口感清甜，是新疆夏季时令水果。新疆旅游热度大幅攀升，独具特色的奶制品、烧烤、瓜果借助社交平台强势出圈，形成亿级话题声量。",

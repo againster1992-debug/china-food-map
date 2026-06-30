@@ -268,8 +268,8 @@ export const FOODS_BATCH9_NORTHEAST: Food[] = [
     taste: "咸鲜",
     type: "traditional",
     cuisine: "东北菜",
-    province: "吉林",
-    city: "长春",
+    province: "辽宁",
+    city: "沈阳",
     origin: "满族宫廷传统菜，源自祭祀胙肉",
     description:
       "宫廷白肉血肠以猪五花肉清水煮制，切薄片配新鲜血肠、酸菜同食。肉烂而不柴、肥而不腻，血肠嫩滑，酸香开胃。源于满族祭祀「吃胙肉」传统，曾为清宫御膳。讲究「片薄如纸、血肠鲜嫩」，是满族饮食文化的代表。",
@@ -823,8 +823,8 @@ export const FOODS_BATCH9_NORTHEAST: Food[] = [
     taste: "咸鲜",
     type: "traditional",
     cuisine: "东北菜",
-    province: "吉林",
-    city: "长春",
+    province: "辽宁",
+    city: "沈阳",
     origin: "东北家常名菜，干豆腐与尖椒同炒",
     description:
       "尖椒干豆皮是东北家常名菜，以东北干豆腐切条，配青尖椒旺火快炒，加酱油、蒜末调味。干豆腐柔韧吸味，尖椒清辣脆爽，咸鲜下饭。东北干豆腐厚实豆香浓，与南方千张有别，是东北人餐桌的国民家常菜，讲究豆皮不碎、椒香突出，体现东北菜量大味浓、咸鲜下饭的特色。",
@@ -833,8 +833,8 @@ export const FOODS_BATCH9_NORTHEAST: Food[] = [
     tags: ["东北菜", "尖椒", "干豆皮", "干豆腐", "咸鲜", "家常", "下饭"],
     fame: "地方名吃",
     popularRegions: ["辽宁", "吉林", "黑龙江"],
-    lat: 43.8171,
-    lng: 125.3235,
+    lat: 41.8057,
+    lng: 123.4315,
     popularity: 6,
   },
   {
@@ -846,8 +846,8 @@ export const FOODS_BATCH9_NORTHEAST: Food[] = [
     taste: "咸鲜",
     type: "traditional",
     cuisine: "东北菜",
-    province: "黑龙江",
-    city: "哈尔滨",
+    province: "辽宁",
+    city: "沈阳",
     origin: "东北、北方家常菜，形似鸡刨得名",
     description:
       "鸡刨豆腐是北方家常名菜，以老豆腐用手或勺抓碎，配鸡蛋、葱花同炒。豆腐碎如鸡刨，金黄与雪白交织，蛋香豆香交融，咸鲜软嫩。讲究豆腐不抓太碎、保留颗粒感，鸡蛋裹附成块。是最朴素的农家下饭菜，因形似鸡刨得名，体现北方家常菜粗中有细、简而不陋的饮食智慧。",
@@ -856,8 +856,8 @@ export const FOODS_BATCH9_NORTHEAST: Food[] = [
     tags: ["东北菜", "鸡刨豆腐", "豆腐", "鸡蛋", "咸鲜", "家常", "下饭"],
     fame: "地方名吃",
     popularRegions: ["黑龙江", "辽宁", "吉林", "河北"],
-    lat: 45.8038,
-    lng: 126.535,
+    lat: 41.8057,
+    lng: 123.4315,
     popularity: 5,
   }
 ];

@@ -242,7 +242,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     type: "traditional",
     cuisine: "东北菜",
     province: "辽宁",
-    city: "辽宁",
+    city: "沈阳",
     origin: "满族传统粘食，夏季时令点心",
     description:
       "满族苏叶饽饽以黏高粱面或糯米面包裹豆沙馅，外裹紫苏叶蒸制。苏叶清香渗入糕体，口感软糯，甜而不腻。满族人按节气制作各种饽饽，苏叶饽饽是夏季代表，体现了满族粘食文化的精致。",
@@ -265,7 +265,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     type: "traditional",
     cuisine: "东北菜",
     province: "辽宁",
-    city: "辽宁",
+    city: "沈阳",
     origin: "满族传统粘食，春季时令点心",
     description:
       "满族豆面饽饽以黄米面或糯米面包豆沙馅，蒸后滚满炒熟的黄豆面。金黄喷香，软糯香甜，与驴打滚同源。满族人以黄米为主料制作粘食，耐饿便携，适合外出射猎时携带。",
@@ -288,7 +288,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     type: "traditional",
     cuisine: "清真菜",
     province: "新疆",
-    city: "新疆",
+    city: "乌鲁木齐",
     origin: "回族传统宴席菜，新疆、宁夏等地回族聚居区",
     description:
       "回族九碗三行子是回族宴席菜，九只碗摆成每排三碗的正方形，从各方向看都成三行。菜品有丸子、焖子、黄焖肉、夹沙肉和中间水菜汤，全部蒸煮拌不过油，清爽不腻。回族谚语「九碗三行子，吃了跑趟子」形容其扎实丰富。",
@@ -863,7 +863,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     type: "traditional",
     cuisine: "其他",
     province: "河北",
-    city: "河北",
+    city: "石家庄",
     origin: "北方传统糕点，河北、山东等地盛行",
     description:
       "红枣糕以红枣泥、面粉、鸡蛋为主料蒸制或烤制。色泽深红，枣香浓郁，口感松软绵密。富含铁质，有补气养血之效。是北方传统的养生糕点，老少皆宜，也是节庆馈赠的常见礼品。",
@@ -1026,7 +1026,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     type: "traditional",
     cuisine: "其他",
     province: "河北",
-    city: "河北",
+    city: "石家庄",
     origin: "北方传统调料，涮羊肉必备配酱",
     description:
       "韭菜花酱将未开放的韭菜花蕾剁碎，加盐腌制发酵。色泽翠绿，辛香浓烈，是北方涮羊肉的经典蘸料。也用于拌面、夹烧饼，开胃下饭。是北方秋冬季节的时令调料，体现了北方饮食对辛香调料的运用。",
@@ -1420,7 +1420,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     type: "traditional",
     cuisine: "蒙餐",
     province: "内蒙古",
-    city: "内蒙古",
+    city: "呼和浩特",
     origin: "内蒙古、山西、陕西传统小吃",
     description:
       "黄米炸糕以黄米面（黍子面）包裹豆沙馅，油炸至金黄膨松。外皮酥脆，内里软糯，豆沙甜香。黄米是北方古老粮食作物，炸糕是内蒙古、晋北、陕北地区的传统节庆食品，体现了黄米在北方饮食中的重要地位。",

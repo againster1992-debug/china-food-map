@@ -368,7 +368,7 @@ export const FOODS_POPULAR: Food[] = [
     category: "饮品",
     taste: "酸辣",
     type: "popular",
-    cuisine: "粤菜",
+    cuisine: "潮菜",
     province: "广东",
     city: "潮州",
     origin: "2021年由奈雪的茶推出，迅速成为爆款",

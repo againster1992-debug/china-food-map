@@ -1489,8 +1489,8 @@ export const FOODS_FAMOUS: Food[] = [
     taste: "咸鲜",
     type: "traditional",
     cuisine: "东北菜",
-    province: "黑龙江",
-    city: "哈尔滨",
+    province: "辽宁",
+    city: "沈阳",
     origin: "东北民间传统，东北菜素菜代表",
     description:
       "地三鲜以土豆、茄子、青椒三种食材过油后炒制。土豆绵软，茄子入味，青椒清脆，咸鲜下饭。是东北菜素菜代表，「地三鲜」取「地产三鲜」之意。从东北火遍全国，是家常下饭神器，简单却令人回味。",
@@ -3094,8 +3094,8 @@ export const FOODS_FAMOUS: Food[] = [
     taste: "咸鲜",
     type: "traditional",
     cuisine: "东北菜",
-    province: "黑龙江",
-    city: "哈尔滨",
+    province: "辽宁",
+    city: "沈阳",
     origin: "东北三省，传统农家名菜",
     description:
       "猪肉炖粉条是东北菜的灵魂名菜，以五花肉、酸菜、粉条一锅炖煮。五花肉肥瘦相间，酸菜吸油解腻，粉条筋道吸满肉汁，汤浓味厚，是东北人冬日御寒的硬菜。此菜源于东北农村杀年猪后的「杀猪菜」，体现了东北饮食粗犷豪放、量大味浓的特色。猪肉炖粉条与锅包肉、地三鲜并称东北三大名菜，是东北饮食文化的代表。",
@@ -3104,7 +3104,7 @@ export const FOODS_FAMOUS: Food[] = [
     tags: ["猪肉", "粉条", "东北菜", "名菜", "酸菜", "炖", "劲道", "绵软"],
     fame: "名菜",
     popularRegions: ["黑龙江", "吉林", "辽宁", "全国"],
-    lat: 45.8038,
-    lng: 126.5350,
+    lat: 41.8057,
+    lng: 123.4315,
     popularity: 9,
   }];

@@ -1617,9 +1617,9 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     category: "主食",
     taste: "咸鲜",
     type: "popular",
-    cuisine: "粤菜",
+    cuisine: "潮菜",
     province: "广东",
-    city: "广州",
+    city: "揭阳",
     origin: "揭阳榕城，潮汕传统早餐",
     description:
       "揭阳粿汁以粿条切条煮成糊状，配以卤肉、卤蛋、豆腐、猪肠。粿汁浓稠绵滑、卤味香醇、配料丰富。是揭阳人最经典的早餐，一碗粿汁暖胃满足。与粿条不同，粿汁更浓稠，是潮汕独有的风味。",

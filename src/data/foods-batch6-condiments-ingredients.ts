@@ -725,7 +725,7 @@ export const FOODS_BATCH6_CONDIMENTS_INGREDIENTS: Food[] = [
     category: "腌腊",
     taste: "鲜香",
     type: "traditional",
-    cuisine: "粤菜",
+    cuisine: "潮菜",
     province: "广东",
     city: "汕头",
     origin: "广东潮汕地区，潮汕传统腊味",

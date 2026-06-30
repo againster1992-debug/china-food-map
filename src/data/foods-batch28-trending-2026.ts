@@ -227,7 +227,7 @@ export const FOODS_BATCH28_TRENDING_2026: Food[] = [
   type: "popular",
   cuisine: "蒙餐",
   province: "内蒙古",
-    city: "内蒙古",
+    city: "呼和浩特",
   origin: "线上增速+445.3%，奶皮子零食化",
   description: "草原奶皮零食将传统奶皮子做成便携零食，奶香浓郁酥脆可口。2026年线上零食增速达445.3%，从草原走向全国，是蒙古族传统奶食的创新代表。",
   ingredients: ["牛奶","奶油","糖"],

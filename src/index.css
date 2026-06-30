@@ -3,9 +3,10 @@
 @tailwind utilities;
 
 :root {
+  /* 统一字体：正文用 Noto Sans SC，装饰标题用 Noto Serif SC（两者均覆盖中英文与数字）*/
   font-family: "Noto Sans SC", system-ui, -apple-system, sans-serif;
   font-size: 15px;
-  line-height: 1.55;
+  line-height: 1.6;
   font-weight: 400;
   color: #1a1614;
   background-color: #f5efe0;
@@ -14,6 +15,10 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* 数字使用等宽字形，避免跳动；中文标点压缩 */
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1, "palt" 1;
+  font-variant-east-asian: proportional-width;
   /* 安全区域 insets（iPhone 刘海/底部 Home 条）*/
   --safe-top: env(safe-area-inset-top, 0px);
   --safe-bottom: env(safe-area-inset-bottom, 0px);
@@ -43,13 +48,13 @@ body,
   }
 }
 
-/* 宣纸纹理背景 */
+/* 宣纸纹理背景 - 更柔和的层次 */
 body {
   background-color: #f5efe0;
   background-image:
-    radial-gradient(circle at 15% 25%, rgba(220, 208, 174, 0.22) 0%, transparent 45%),
-    radial-gradient(circle at 85% 75%, rgba(184, 116, 74, 0.10) 0%, transparent 50%),
-    radial-gradient(circle at 50% 50%, rgba(245, 239, 224, 0.5) 0%, transparent 70%);
+    radial-gradient(circle at 15% 25%, rgba(220, 208, 174, 0.18) 0%, transparent 45%),
+    radial-gradient(circle at 85% 75%, rgba(184, 116, 74, 0.08) 0%, transparent 50%),
+    radial-gradient(circle at 50% 50%, rgba(245, 239, 224, 0.4) 0%, transparent 70%);
 }
 
 /* 滚动条样式 - 更紧凑 */
@@ -86,8 +91,8 @@ body {
 
 /* Leaflet 地图样式覆盖 */
 .leaflet-container {
-  font-family: "Noto Sans SC", sans-serif !important;
-  background: #e8e0d0;
+  font-family: "Noto Sans SC", system-ui, sans-serif !important;
+  background: #ebe3cc;
 }
 
 .leaflet-control-zoom {
@@ -522,22 +527,24 @@ aside.fixed.right-0 {
   }
 }
 
-/* 右侧面板标题 */
+/* 右侧面板标题 - 使用 Noto Serif SC 装饰字体 */
 aside.fixed.right-0 h2 {
-  font-size: 1.35rem !important;
+  font-size: 1.4rem !important;
   letter-spacing: 0.02em;
+  font-weight: 700;
 }
 
 aside.fixed.right-0 h3 {
   font-size: 1.05rem !important;
+  font-weight: 600;
 }
 
 /* 右侧面板正文 */
 aside.fixed.right-0 p {
-  line-height: 1.65 !important;
+  line-height: 1.7 !important;
 }
 
-/* 小标签适度放大 */
+/* 小标签适度放大，确保可读 */
 aside.fixed.right-0 .text-\[10px\] {
   font-size: 11px !important;
 }
@@ -558,6 +565,22 @@ aside.fixed.left-0 .text-\[11px\] {
 /* 顶部导航栏紧凑 */
 header nav {
   font-size: 14px;
+}
+
+/* 标题统一使用 Noto Serif SC（装饰字体） */
+h1, h2, h3 {
+  font-family: "Noto Serif SC", "Noto Sans SC", serif;
+  letter-spacing: 0.01em;
+}
+
+/* 数字与英文混排优化 - 使用 Noto Sans SC（已覆盖拉丁字符） */
+input, textarea, select, button {
+  font-family: inherit;
+}
+
+/* 链接默认交互 */
+a {
+  transition: color 0.15s ease;
 }
 
 /* ========================================

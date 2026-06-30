@@ -132,7 +132,7 @@ export const FOODS_BATCH8_SUPPLEMENT: Food[] = [
   {
     id: "batch8-sx-1",
     name: "刀削面",
-    alias: ["山西刀削面", "削面", "晋式刀削", "大同大同刀削面"],
+    alias: ["山西刀削面", "削面", "晋式刀削", "大同刀削面"],
     image: "https://img0.baidu.com/it/u=4061284931,1253047776&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=688",
     category: "面食",
     taste: "咸鲜",
