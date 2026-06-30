@@ -6,7 +6,31 @@ import type { SpecialFoodEnclave } from "@/data/specialFoodEnclaves";
 
 // ===== 模块级常量（避免每次调用重建）=====
 
+// fame 权重：提供层次和区分度，但不压过热度主导
+// 热度差2分(100)必定压过fame差(80)，热度差1分(50)可被fame差逆转 → 名菜/热门优先
 const FAME_WEIGHT: Record<string, number> = { 名菜: 100, 热门: 80, 地方名吃: 50, 普通: 20 };
+// 热度系数：每1点热度=50分，使热度成为主导因素，确保 pop>=8 基本能进 top10
+const POPULARITY_WEIGHT = 50;
+// top10 多样性约束：避免过于相似的类型扎堆
+const MAX_PER_METHOD = 3;   // 每种特色做法（干锅/涮/卤等）最多出现次数
+const MAX_PER_CATEGORY = 4; // 每个品类最多出现次数
+const MAX_PER_KEYWORD = 2;  // 同一关键词（干锅/烤冷面/鸡爪/火锅等）最多出现次数
+
+// 名称关键词提取：用于限制过于相似的类型扎堆（如多个干锅菜、多个烤冷面变体）
+const NAME_KEYWORDS = [
+  "干锅", "烤冷面", "鸡爪", "凤爪", "火锅", "牛肉面", "羊肉粉", "螺蛳粉",
+  "烤鱼", "烤鸡", "烤鸭", "烤肉", "烤羊", "卤面", "炒面", "拌面", "汤面",
+  "米粉", "米线", "面条", "饺子", "馄饨", "抄手", "包子", "馒头", "烧饼",
+  "煎饼", "麻花", "酥饼", "月饼", "汤圆", "奶茶", "酸奶", "豆花", "豆腐",
+  "肠粉", "粿条", "烧腊", "卤味", "烧烤", "串串", "冒菜", "麻辣烫",
+];
+
+function extractKeyword(name: string): string | null {
+  for (const kw of NAME_KEYWORDS) {
+    if (name.includes(kw)) return kw;
+  }
+  return null;
+}
 
 const RESTAURANT_NAMES = [
   "全聚德", "便宜坊", "东来顺", "大董", "狗不理", "老正兴",
@@ -18,8 +42,6 @@ const DISTINCTIVE_METHODS = new Set([
   "干锅", "涮", "卤", "焖", "熏", "烤", "爆", "烧", "煎", "炸",
   "炖", "煨", "烩", "扒", "溜", "酿", "糟", "醉", "灼", "焗", "煲",
 ]);
-
-const MAX_PER_METHOD = 3;
 
 const GEO_PREFIXES = [
   "北京","上海","广州","深圳","成都","重庆","武汉","长沙","南京","杭州",
@@ -395,19 +417,29 @@ export const useStore = create<StoreState>((set, get) => ({
     if (cached && cached.foods === s.foods) return cached.result;
 
     const sorted = s.foods
-      .filter((f) => f.province === province && f.type !== "tradition" && !(f.tags || []).includes("饮食传统"))
+      .filter(
+        (f) =>
+          f.province === province &&
+          f.type !== "tradition" &&
+          !(f.tags || []).includes("饮食传统"),
+      )
       .map((f) => {
-        // 附加分（作为同fame+popularity内的微调）
+        // 附加分：在热度×50+fame 的主分基础上做微调
         let bonus = 0;
+        // 优先本地起源的传统名菜（+15），热门美食次之（+8）
+        if (f.type === "traditional") bonus += 15;
+        else if (f.type === "popular") bonus += 8;
         // 优先主菜、面食、小吃等大众品类
-        if (f.category === "主菜" || f.category === "面食" || f.category === "小吃") bonus += 15;
-        if (f.category === "汤羹" || f.category === "主食") bonus += 8;
+        if (f.category === "主菜" || f.category === "面食" || f.category === "小吃") bonus += 10;
+        if (f.category === "汤羹" || f.category === "主食") bonus += 5;
         // 物产/调料/饮品等非"美食"品类降权，避免占据十大榜单
-        if (f.tags.includes("特产食材") || f.tags.includes("调味品") || f.tags.includes("发酵食品")) bonus -= 40;
-        // 餐厅专属菜品降权（提高降权力度）
-        if (f.tags.includes("米其林") || f.tags.includes("黑珍珠") || f.tags.includes("老字号")) bonus -= 15;
+        if (f.tags.includes("特产食材") || f.tags.includes("调味品") || f.tags.includes("发酵食品")) bonus -= 30;
+        // 非菜品品类额外降权：调料/物产/其他品类不适合出现在十大美食榜
+        if (f.category === "调料" || f.category === "物产" || f.category === "其他") bonus -= 80;
+        // 餐厅专属菜品降权
+        if (f.tags.includes("米其林") || f.tags.includes("黑珍珠") || f.tags.includes("老字号")) bonus -= 10;
         // 餐厅代表菜降权（名称包含知名餐厅名称）
-        if (RESTAURANT_NAMES.some((name) => f.name.includes(name))) bonus -= 20;
+        if (RESTAURANT_NAMES.some((name) => f.name.includes(name))) bonus -= 15;
         // 本地普遍性加分：街头小吃、家常菜、传统名菜、特色小吃
         if (
           f.tags.includes("街头小吃") ||
@@ -415,33 +447,36 @@ export const useStore = create<StoreState>((set, get) => ({
           f.tags.includes("传统名菜") ||
           f.tags.includes("特色小吃")
         ) {
-          bonus += 10;
+          bonus += 8;
         }
         return { food: f, bonus };
       })
       .sort((a, b) => {
-        // 综合分：fame权重 + 热度×15
-        // 让高热度食物能与中低热度的名菜竞争，避免pop=5-6的名菜压住pop=9的热门
+        // 综合分：热度×50 + fame权重 + bonus
+        // 热度为主导（每1点=50分），fame提供层次（差值20-100）
+        // → 热度差2分必定压过fame差，确保 pop>=8 基本能进 top10
+        // → 热度差1分可被fame逆转，使名菜/热门在同级热度中优先
         const fa = FAME_WEIGHT[inferFame(a.food)] || 20;
         const fb = FAME_WEIGHT[inferFame(b.food)] || 20;
         const pa = a.food.popularity || 5;
         const pb = b.food.popularity || 5;
-        const scoreA = fa + pa * 15;
-        const scoreB = fb + pb * 15;
+        const scoreA = pa * POPULARITY_WEIGHT + fa + a.bonus;
+        const scoreB = pb * POPULARITY_WEIGHT + fb + b.bonus;
         if (scoreA !== scoreB) return scoreB - scoreA;
-        // 同分时再按 fame、热度、type、bonus 排序
-        if (fa !== fb) return fb - fa;
+        // 同分时优先热度、再fame、再traditional
         if (pa !== pb) return pb - pa;
+        if (fa !== fb) return fb - fa;
         const ta = a.food.type === "traditional" ? 1 : 0;
         const tb = b.food.type === "traditional" ? 1 : 0;
-        if (ta !== tb) return tb - ta;
-        return b.bonus - a.bonus;
+        return tb - ta;
       });
 
-    // 去重：避免名称过于相似的美食同时出现在Top10；做法多样性限制每种特色做法最多 MAX_PER_METHOD 次
+    // 去重：名称相似 + 关键词多样性 + 做法多样性 + 品类多样性
     const deduped: { food: Food; bonus: number }[] = [];
     const selectedCores: string[] = [];
     const methodCount: Record<string, number> = {};
+    const categoryCount: Record<string, number> = {};
+    const keywordCount: Record<string, number> = {};
     for (const item of sorted) {
       const core = normalizeName(item.food.name);
       // 核心名称去重：归一化后相同或互为子串则跳过
@@ -453,12 +488,20 @@ export const useStore = create<StoreState>((set, get) => ({
         );
       });
       if (isSimilar) continue;
-      // 做法多样性检查：特色做法超过上限则跳过
+      // 关键词多样性：同一关键词（干锅/烤冷面/鸡爪等）超过上限则跳过
+      const kw = extractKeyword(item.food.name);
+      if (kw && (keywordCount[kw] || 0) >= MAX_PER_KEYWORD) continue;
+      // 做法多样性：特色做法（干锅/涮/卤等）超过上限则跳过
       const distinctive = (item.food.cookingMethod || []).filter((m) => DISTINCTIVE_METHODS.has(m));
       if (distinctive.some((m) => (methodCount[m] || 0) >= MAX_PER_METHOD)) continue;
+      // 品类多样性：同一品类超过上限则跳过，避免 top10 类型扎堆
+      const cat = item.food.category;
+      if ((categoryCount[cat] || 0) >= MAX_PER_CATEGORY) continue;
       deduped.push(item);
       selectedCores.push(core);
+      if (kw) keywordCount[kw] = (keywordCount[kw] || 0) + 1;
       for (const m of distinctive) methodCount[m] = (methodCount[m] || 0) + 1;
+      categoryCount[cat] = (categoryCount[cat] || 0) + 1;
     }
     const result = deduped.slice(0, limit).map((item) => item.food);
     _topFoodsCache.set(cacheKey, { foods: s.foods, result });

@@ -35,7 +35,7 @@ export default function TopBar() {
 
         <div className="flex items-center gap-2.5">
           <div className="flex h-9 w-9 shrink-0 items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-cinnabar-500 to-cinnabar-700 shadow-seal">
-            <img src="/0001.png" alt="中华美食地图" className="h-full w-full object-cover" />
+            <img src={`${import.meta.env.BASE_URL}0001.png`} alt="中华美食地图" className="h-full w-full object-cover" />
           </div>
           <div className="hidden sm:block">
             <h1 className="font-serif text-lg font-bold leading-tight text-ink-900">

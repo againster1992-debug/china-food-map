@@ -1,4 +1,4 @@
-﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
 
 export const FOODS_POPULAR: Food[] = [
   // ========== 网红美食（2020-2025年流行）==========
@@ -442,7 +442,7 @@ export const FOODS_POPULAR: Food[] = [
       "蜜雪冰城柠檬水以鲜柠檬切片，加冰水与糖浆。清爽解渴，酸甜适中，4元一杯性价比极高。蜜雪冰城全国门店超2万家，柠檬水是招牌爆款。从下沉市场到一线城市，「雪王」IP与柠檬水共同成为现象级。",
     ingredients: ["柠檬", "糖"],
     cookingMethod: ["摇"],
-    tags: ["柠檬水", "平价", "蜜雪冰城", "网红", "茶饮", "解渴", "国民美食"],
+    tags: [],
     fame: "热门",
     popularRegions: ["全国", "北京", "上海", "广州", "成都"],
     lat: 35.0,
@@ -464,7 +464,7 @@ export const FOODS_POPULAR: Food[] = [
       "幽兰拿铁以红茶底配鲜奶，顶覆动物奶油与碧根果碎。茶香、奶香、坚果香交融，层次丰富。茶颜悦色从长沙起家，因「只在长沙开店」的稀缺性引发打卡热潮。是「国风茶饮」代表，带动长沙成为网红美食城市。",
     ingredients: ["茶叶", "牛奶", "淡奶油", "核桃"],
     cookingMethod: ["泡", "打"],
-    tags: ["茶颜悦色", "奶油", "坚果", "网红", "国风", "国民美食"],
+    tags: [],
     fame: "热门",
     popularRegions: ["长沙", "武汉", "重庆", "南京"],
     lat: 35.0,
@@ -486,7 +486,7 @@ export const FOODS_POPULAR: Food[] = [
       "鲜果茶以新鲜水果配茶底，如满杯红柚、芝士草莓、多肉葡萄等。果香浓郁，茶香清幽，颜值极高。喜茶、奈雪的茶等品牌将其推向巅峰，是新式茶饮的核心品类。深受年轻女性喜爱，是「下午茶」文化的标志。",
     ingredients: ["茶叶", "糖"],
     cookingMethod: ["摇"],
-    tags: ["水果茶", "鲜果", "网红", "茶饮", "喜茶", "奈雪", "国民美食"],
+    tags: [],
     fame: "热门",
     popularRegions: ["上海", "北京", "深圳", "杭州"],
     lat: 35.0,
@@ -1925,9 +1925,8 @@ export const FOODS_POPULAR: Food[] = [
     taste: "咸鲜",
     type: "popular",
     cuisine: "其他",
-    province: "上海",
-    city: "上海",
-    origin: "2020年前后从上海及短视频平台走红，迅速风靡全国夜市",
+    province: "全国",
+    origin: "2017年源于西安，经短视频平台走红，迅速风靡全国夜市",
     description:
       "脆皮五花肉以整块五花肉腌制后高温烤制，外皮金黄酥脆如玻璃，内里肥瘦相间、肉汁丰盈。撒上孜然、辣椒面，切成条状食用。从夜市小摊到商场美食街随处可见，是「网红小吃」代表。短视频的推波助澜使其成为现象级美食，排队购买屡见不鲜。体现当代年轻人对「酥脆口感」与「视觉冲击力」的追求，也是夜市经济的爆款单品。",
     ingredients: ["猪肉", "孜然", "辣椒", "盐"],
@@ -1970,9 +1969,8 @@ export const FOODS_POPULAR: Food[] = [
     taste: "香甜",
     type: "popular",
     cuisine: "其他",
-    province: "上海",
-    city: "上海",
-    origin: "2019年前后从新式茶饮品牌兴起，迅速风靡全国",
+    province: "全国",
+    origin: "2018年前后由喜茶（广东）等新式茶饮品牌推出，迅速风靡全国",
     description:
       "芋泥啵啵奶茶以芋头泥挂壁，加奶茶、Q弹啵啵或珍珠，顶部配奶盖。芋香浓郁，口感层次丰富，紫色外观极具辨识度。是新式茶饮「加料文化」的代表，喜茶、奈雪、茶百道等品牌均有出品。从一线城市下沉至县城小镇，成为年轻人日常续命水。体现当代茶饮对口感、颜值、拍照传播的综合追求，是「奶茶经济」的典型爆款。",
     ingredients: ["芋头", "奶茶"],
@@ -1980,8 +1978,8 @@ export const FOODS_POPULAR: Food[] = [
     tags: ["奶茶", "芋泥", "啵啵", "饮品", "网红", "甜品"],
     fame: "热门",
     popularRegions: ["全国"],
-    lat: 31.2304,
-    lng: 121.4737,
+    lat: 35.0,
+    lng: 105.0,
     popularity: 9,
   },
   {
@@ -1993,8 +1991,7 @@ export const FOODS_POPULAR: Food[] = [
     taste: "香辣",
     type: "popular",
     cuisine: "其他",
-    province: "上海",
-    city: "上海",
+    province: "全国",
     origin: "韩国三养火鸡面，2016年后在中国大陆爆红",
     description:
       "火鸡面以超辣甜辣酱拌面，面条粗韧，辣度极高。吃播文化与社交平台挑战使其迅速走红，「能承受几级辣」成为年轻人社交话题。从韩国进口方便面发展到国产模仿款、便利店现煮、餐厅创意菜等多种形态。火鸡面体现了辣味食品在年轻群体中的强大吸引力，也是全球化食品通过网络传播快速流行的典型案例。",
@@ -2003,8 +2000,8 @@ export const FOODS_POPULAR: Food[] = [
     tags: ["方便面", "辣味", "网红", "韩式", "主食", "酥脆"],
     fame: "热门",
     popularRegions: ["全国"],
-    lat: 31.2304,
-    lng: 121.4737,
+    lat: 35.0,
+    lng: 105.0,
     popularity: 8,
   },
   {
@@ -2234,7 +2231,7 @@ export const FOODS_POPULAR: Food[] = [
     "description": "广州早茶以虾饺、烧卖、叉烧包、凤爪、肠粉等点心配功夫茶。一盅两件，慢叹时光，是广府饮食文化的核心，陶陶居、点都德等品牌走向全国。",
     ingredients: ["鸡肉", "虾"],
     "cookingMethod": ["蒸", "煮"],
-    "tags": ["早茶", "粤菜", "点心", "茶楼", "网红", "绵软"],
+    "tags": [],
     "fame": "热门",
     "popularRegions": [
       "广州",
@@ -2311,7 +2308,7 @@ export const FOODS_POPULAR: Food[] = [
     "description": "甘肃手擀粉以土豆淀粉手工擀制，宽厚筋道，搭配麻辣汤底或凉拌，是天水麻辣烫走红的标志性食材。",
     "ingredients": ["淀粉", "辣椒", "花椒", "蒜"],
     "cookingMethod": ["煮", "拌"],
-    "tags": ["手擀粉", "网红", "主食", "麻辣", "嫩滑"],
+    "tags": [],
     "fame": "热门",
     "popularRegions": [
       "甘肃",
@@ -2433,7 +2430,7 @@ export const FOODS_POPULAR: Food[] = [
     "description": "南京大肉面以厚切红烧肉铺于细面之上，汤汁浓郁，肉质酥烂，是南京人喜爱的家常面食。",
     "ingredients": ["猪肉", "青菜", "酱油"],
     "cookingMethod": ["煮", "炖"],
-    tags: ["大肉面", "面食", "红烧", "家常", "咸鲜", "主食", "苏菜", "江苏"],
+    tags: [],
     "fame": "热门",
     "popularRegions": [
       "江苏",
@@ -2530,7 +2527,7 @@ export const FOODS_POPULAR: Food[] = [
     "description": "天津刨冰以大块冰刨碎，浇炼乳、果酱、红豆、水果等，冰凉爽口，是天津人消暑的童年记忆。",
     "ingredients": ["炼乳", "红豆", "果酱"],
     "cookingMethod": ["切", "拌"],
-    "tags": ["刨冰", "冷饮", "甜品", "消暑", "酥脆"],
+    "tags": [],
     "fame": "热门",
     "popularRegions": [
       "天津",
@@ -2676,21 +2673,19 @@ export const FOODS_POPULAR: Food[] = [
     "category": "小吃",
     "taste": "咸鲜",
     "type": "popular",
-    "cuisine": "本帮菜",
-    "province": "上海",
-    "city": "上海",
-    "origin": "上海生煎的迷你版，社交媒体走红",
-    "description": "拇指生煎以迷你小包子煎制，底部金黄酥脆，一口一个，是短视频平台热门的街头小吃。",
+    "cuisine": "其他",
+    "province": "全国",
+    "origin": "生煎（源于苏州、上海）的迷你版，经社交媒体走红全国",
+    "description": "拇指生煎以迷你小包子煎制，底部金黄酥脆，一口一个，是短视频平台热门的街头小吃。生煎本身源于苏州（1911年）与上海（1920年代），拇指版是其现代网红变体。",
     "ingredients": ["面粉", "猪肉", "芝麻"],
     "cookingMethod": ["煎"],
-    tags: ["生煎", "迷你", "网红", "小吃", "咸鲜", "本帮菜", "上海"],
+    tags: ["生煎", "迷你", "网红", "小吃", "咸鲜"],
     "fame": "热门",
     "popularRegions": [
-      "上海",
       "全国"
     ],
-    "lat": 31.2304,
-    "lng": 121.4737,
+    "lat": 35.0,
+    "lng": 105.0,
     "popularity": 8,
     "image": "https://img0.baidu.com/it/u=2225438217,1277026198&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=646"
   },
@@ -2860,7 +2855,7 @@ export const FOODS_POPULAR: Food[] = [
     "description": "广东猪脚饭以卤制入味的猪脚切块，浇上浓郁卤汁搭配米饭，配以酸菜、卤蛋。猪脚软糯Q弹，卤汁咸香浓郁，酸菜解腻开胃。是广东打工人最爱的快餐之一，经济实惠又美味，遍布珠三角街头巷尾。",
     "ingredients": ["猪肉", "大米", "酸菜"],
     "cookingMethod": ["卤", "炖"],
-    "tags": ["猪脚饭", "粤菜", "潮汕", "快餐", "卤味", "打工人", "嫩滑"],
+    "tags": [],
     "fame": "热门",
     "popularRegions": [
       "广东",
@@ -2938,6 +2933,7 @@ export const FOODS_POPULAR: Food[] = [
     "cookingMethod": ["烤"],
     "tags": ["主食", "粤菜", "烧味", "快餐", "嫩滑"],
     "fame": "热门",
+    "popularRegions": ["广东"],
     "lat": 23.1291,
     "lng": 113.2644,
     "popularity": 7
@@ -2958,6 +2954,7 @@ export const FOODS_POPULAR: Food[] = [
     "cookingMethod": ["炸", "炒"],
     "tags": ["主菜", "湘菜", "麻辣", "干锅", "嫩滑"],
     "fame": "热门",
+    "popularRegions": ["湖南"],
     "lat": 28.2282,
     "lng": 112.9388,
     "popularity": 7
@@ -2978,6 +2975,7 @@ export const FOODS_POPULAR: Food[] = [
     "cookingMethod": ["烤"],
     tags: ["主食", "粤菜", "烧味", "茶餐厅", "香甜", "广东"],
     "fame": "热门",
+    "popularRegions": ["广东"],
     "lat": 23.1291,
     "lng": 113.2644,
     "popularity": 8

@@ -2,42 +2,6 @@ import type { Food } from "@/types/food";
 
 export const FOODS_BATCH22_HOT100: Food[] = [
 {
-  id: "batch22-hot-1",
-  name: "芝士火鸡面烤冷面",
-  image: "https://img2.baidu.com/it/u=4188117155,2443599421&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=652",
-  category: "主食",
-  taste: "咸甜",
-  type: "popular",
-  cuisine: "东北菜",
-  province: "黑龙江",
-  origin: "将韩式火鸡面与东北烤冷面创意结合，近年因短视频平台走红，成为街头夜市热门单品。",
-  description: "芝士火鸡面烤冷面以奶酪、方便面、冷面、鸡蛋为主料，煎、烤而成，咸甜饱腹，是受欢迎的便捷主食。",
-  ingredients: ["奶酪", "冷面", "鸡蛋", "辣椒酱"],
-  cookingMethod: [
-    "煎",
-    "烤"
-  ],
-  tags: [
-    "咸甜",
-    "主食",
-    "东北菜",
-    "黑龙江",
-    "哈尔滨",
-    "热门",
-    "网红",
-    "早餐",
-    "甜味"
-  ],
-  fame: "热门",
-  popularRegions: [
-    "全国"
-  ],
-  lat: 45.8038,
-  lng: 126.535,
-  popularity: 10,
-  city: "哈尔滨"
-},
-{
   id: "batch22-hot-2",
   name: "芋泥拉丝麻薯",
   image: "https://img2.baidu.com/it/u=3854469700,696573858&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1200",
@@ -58,21 +22,14 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "蒸",
     "揉"
   ],
-  tags: [
-    "香甜",
-    "甜品",
-    "其他",
-    "热门",
-    "网红",
-    "甜味"
-  ],
+  tags: ["香甜", "甜品", "其他", "热门", "网红", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
   ],
   lat: 35,
   lng: 105,
-  popularity: 10
+  popularity: 6
 },
 {
   id: "batch22-hot-3",
@@ -92,105 +49,17 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "酱料"
   ],
   cookingMethod: [
-    "烤",
-    "卷"
-  ],
-  tags: [
-    "咸鲜",
-    "主食",
-    "其他",
-    "热门",
-    "网红",
-    "早餐"
-  ],
+    "烤"],
+  tags: ["咸鲜", "主食", "其他", "热门", "网红", "早餐"],
   fame: "热门",
   popularRegions: [
     "全国"
   ],
   lat: 35,
   lng: 105,
-  popularity: 10
+  popularity: 5
 },
-{
-  id: "batch22-hot-4",
-  name: "酸辣无骨鸡爪杯",
-  image: "https://img2.baidu.com/it/u=77738245,849185597&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=667",
-  category: "小吃",
-  taste: "酸辣",
-  type: "traditional",
-  cuisine: "川菜",
-  province: "四川",
-  origin: "脱胎于川渝酸辣凤爪，去骨后装入杯中方便食用，因社交平台种草而流行。",
-  description: "酸辣无骨鸡爪杯以鸡爪、柠檬、辣椒、醋为主料，经卤、拌制成，酸辣味美，是街头与社交平台的热门小吃。",
-  ingredients: [
-    "鸡爪",
-    "柠檬",
-    "辣椒",
-    "醋",
-    "蒜"
-  ],
-  cookingMethod: [
-    "卤",
-    "拌"
-  ],
-  tags: [
-    "酸辣",
-    "小吃",
-    "川菜",
-    "四川",
-    "成都",
-    "热门",
-    "网红",
-    "夜宵",
-    "辣味"
-  ],
-  fame: "地方名吃",
-  popularRegions: [
-    "全国"
-  ],
-  lat: 30.5728,
-  lng: 104.0668,
-  popularity: 10,
-  city: "成都"
-},
-{
-  id: "batch22-hot-5",
-  name: "肉松海苔大贝",
-  image: "https://img0.baidu.com/it/u=1016269839,2190067610&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=640",
-  category: "小吃",
-  taste: "咸鲜",
-  type: "popular",
-  cuisine: "其他",
-  province: "全国",
-  origin: "由肉松小贝升级而来，加入更多海苔元素，是烘焙店与私房甜品的热门款。",
-  description: "肉松海苔大贝以面粉、鸡蛋、肉松、海苔为主料，经烤、拌制成，咸鲜味美，是街头与社交平台的热门小吃。",
-  ingredients: [
-    "面粉",
-    "鸡蛋",
-    "肉松",
-    "海苔",
-    "沙拉酱"
-  ],
-  cookingMethod: [
-    "烤",
-    "拌"
-  ],
-  tags: [
-    "咸鲜",
-    "小吃",
-    "其他",
-    "热门",
-    "网红",
-    "夜宵"
-  ],
-  fame: "热门",
-  popularRegions: [
-    "全国"
-  ],
-  lat: 35,
-  lng: 105,
-  popularity: 10
-},
+// 「酸辣无骨鸡爪杯」已合并至「柠檬酸辣鸡爪杯」(batch25-hot-008)
 {
   id: "batch22-hot-6",
   name: "红糖麻薯烤年糕",
@@ -212,27 +81,19 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "烤",
     "蒸"
   ],
-  tags: [
-    "香甜",
-    "主食",
-    "其他",
-    "热门",
-    "网红",
-    "早餐",
-    "甜味"
-  ],
+  tags: ["香甜", "主食", "其他", "热门", "网红", "早餐", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
   ],
   lat: 35,
   lng: 105,
-  popularity: 10
+  popularity: 6
 },
 {
   id: "batch22-hot-7",
   name: "淀粉肠千层堡",
-  alias: ["童年淀粉肠千层堡"],
+  alias: [],
   image: "https://img0.baidu.com/it/u=3169582437,1294064268&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=897",
   category: "主食",
   taste: "咸鲜",
@@ -251,21 +112,14 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "煎",
     "烤"
   ],
-  tags: [
-    "咸鲜",
-    "主食",
-    "其他",
-    "热门",
-    "网红",
-    "早餐"
-  ],
+  tags: ["咸鲜", "主食", "其他", "热门", "网红", "早餐"],
   fame: "热门",
   popularRegions: [
     "全国"
   ],
   lat: 35,
   lng: 105,
-  popularity: 10
+  popularity: 4
 },
 {
   id: "batch22-hot-9",
@@ -288,21 +142,14 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "煎",
     "烤"
   ],
-  tags: [
-    "咸鲜",
-    "主食",
-    "其他",
-    "热门",
-    "网红",
-    "早餐"
-  ],
+  tags: ["咸鲜", "主食", "其他", "热门", "网红", "早餐"],
   fame: "热门",
   popularRegions: [
     "全国"
   ],
   lat: 35,
   lng: 105,
-  popularity: 10
+  popularity: 5
 },
 {
   id: "batch22-hot-10",
@@ -313,7 +160,8 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   type: "popular",
   cuisine: "川菜",
   province: "四川",
-  origin: "川味鸡爪的升级版，以爆辣和去骨 convenience 受到年轻食客追捧。",
+  city: "成都",
+  origin: "川味鸡爪的升级版，以爆辣和去骨便捷性受到年轻食客追捧。",
   description: "爆辣脱骨鸡爪以鸡爪、辣椒、花椒、姜为主料，经卤、拌制成，香辣味美，是街头与社交平台的热门小吃。",
   ingredients: [
     "鸡爪",
@@ -326,25 +174,14 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "卤",
     "拌"
   ],
-  tags: [
-    "香辣",
-    "小吃",
-    "川菜",
-    "四川",
-    "成都",
-    "热门",
-    "网红",
-    "夜宵",
-    "辣味"
-  ],
+  tags: ["香辣", "小吃", "川菜", "四川", "成都", "热门", "网红", "夜宵", "辣味"],
   fame: "热门",
   popularRegions: [
     "全国"
   ],
   lat: 30.5728,
   lng: 104.0668,
-  popularity: 10,
-  city: "成都"
+  popularity: 8
 },
 {
   id: "batch22-hot-11",
@@ -368,20 +205,14 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "炖",
     "焖"
   ],
-  tags: [
-    "酸甜",
-    "主菜",
-    "其他",
-    "热门",
-    "网红"
-  ],
+  tags: ["酸甜", "主菜", "其他", "热门", "网红"],
   fame: "热门",
   popularRegions: [
     "全国"
   ],
   lat: 35,
   lng: 105,
-  popularity: 10
+  popularity: 4
 },
 {
   id: "batch22-hot-12",
@@ -405,24 +236,15 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   cookingMethod: [
     "煮"
   ],
-  tags: [
-    "咸甜",
-    "饮品",
-    "蒙餐",
-    "内蒙古",
-    "呼和浩特",
-    "热门",
-    "网红",
-    "甜味"
-  ],
-  fame: "地方名吃",
+  tags: ["咸甜", "饮品", "蒙餐", "内蒙古", "呼和浩特", "热门", "网红", "甜味"],
+  fame: "热门",
   popularRegions: [
     "内蒙古",
     "全国"
   ],
   lat: 40.8414,
   lng: 111.7519,
-  popularity: 10
+  popularity: 6
 },
 {
   id: "batch22-hot-13",
@@ -446,16 +268,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "煮",
     "调"
   ],
-  tags: [
-    "香甜",
-    "饮品",
-    "潮菜",
-    "广东",
-    "潮州",
-    "热门",
-    "网红",
-    "甜味"
-  ],
+  tags: ["香甜", "饮品", "潮菜", "广东", "潮州", "热门", "网红", "甜味"],
   fame: "热门",
   popularRegions: [
     "广东",
@@ -463,7 +276,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 23.6567,
   lng: 116.6225,
-  popularity: 10
+  popularity: 7
 },
 {
   id: "batch22-hot-14",
@@ -484,24 +297,15 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   cookingMethod: [
     "煮",
-    "冻",
-    "搅打"
-  ],
-  tags: [
-    "香甜",
-    "甜品",
-    "其他",
-    "热门",
-    "网红",
-    "甜味"
-  ],
+    "冻"],
+  tags: ["香甜", "甜品", "其他", "热门", "网红", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
   ],
   lat: 35,
   lng: 105,
-  popularity: 10
+  popularity: 4
 },
 {
   id: "batch22-hot-15",
@@ -523,22 +327,14 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   cookingMethod: [
     "拌"
   ],
-  tags: [
-    "香辣",
-    "小吃",
-    "其他",
-    "热门",
-    "网红",
-    "夜宵",
-    "辣味"
-  ],
+  tags: ["香辣", "小吃", "其他", "热门", "网红", "夜宵", "辣味"],
   fame: "热门",
   popularRegions: [
     "全国"
   ],
   lat: 35,
   lng: 105,
-  popularity: 10
+  popularity: 5
 },
 {
   id: "batch22-hot-16",
@@ -563,16 +359,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "烤",
     "煮"
   ],
-  tags: [
-    "香辣",
-    "主菜",
-    "川菜",
-    "四川",
-    "成都",
-    "热门",
-    "网红",
-    "辣味"
-  ],
+  tags: ["香辣", "主菜", "川菜", "四川", "成都", "热门", "网红", "辣味"],
   fame: "热门",
   popularRegions: [
     "四川",
@@ -580,7 +367,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 30.5728,
   lng: 104.0668,
-  popularity: 10
+  popularity: 8
 },
 {
   id: "batch22-hot-17",
@@ -603,21 +390,14 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "腌",
     "烤"
   ],
-  tags: [
-    "咸甜",
-    "主菜",
-    "其他",
-    "热门",
-    "网红",
-    "甜味"
-  ],
+  tags: ["咸甜", "主菜", "其他", "热门", "网红", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
   ],
   lat: 35,
   lng: 105,
-  popularity: 10
+  popularity: 3
 },
 {
   id: "batch22-hot-18",
@@ -636,21 +416,15 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "水",
     "糖"
   ],
-  cookingMethod: ["泡", "搅打"],
-  tags: [
-    "酸甜",
-    "饮品",
-    "其他",
-    "热门",
-    "网红"
-  ],
+  cookingMethod: ["泡"],
+  tags: ["酸甜", "饮品", "其他", "热门", "网红"],
   fame: "热门",
   popularRegions: [
     "全国"
   ],
   lat: 35,
   lng: 105,
-  popularity: 10
+  popularity: 3
 },
 {
   id: "batch22-hot-19",
@@ -673,14 +447,8 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "煮",
     "泡"
   ],
-  tags: [
-    "清淡",
-    "饮品",
-    "其他",
-    "热门",
-    "网红"
-  ],
-  fame: "热门",
+  tags: ["清淡", "饮品", "其他", "热门", "网红"],
+  fame: "名菜",
   popularRegions: [
     "全国"
   ],
@@ -691,6 +459,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
 {
   id: "batch22-hot-20",
   name: "炒酸奶",
+  alias: ["夜市炒酸奶", "冰酸奶", "街头炒酸奶"],
   image: "https://img2.baidu.com/it/u=2840341769,2957020803&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1067",
   category: "甜品",
   taste: "香甜",
@@ -709,15 +478,8 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "炒",
     "冻"
   ],
-  tags: [
-    "香甜",
-    "甜品",
-    "其他",
-    "热门",
-    "网红",
-    "甜味"
-  ],
-  fame: "热门",
+  tags: ["香甜", "甜品", "其他", "热门", "网红", "甜味"],
+  fame: "名菜",
   popularRegions: [
     "全国"
   ],
@@ -744,17 +506,8 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "糖"
   ],
   cookingMethod: [
-    "烤",
-    "搅打"
-  ],
-  tags: [
-    "香甜",
-    "甜品",
-    "其他",
-    "热门",
-    "网红",
-    "甜味"
-  ],
+    "烤"],
+  tags: ["香甜", "甜品", "其他", "热门", "网红", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -785,14 +538,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "煎",
     "烤"
   ],
-  tags: [
-    "香甜",
-    "甜品",
-    "其他",
-    "热门",
-    "网红",
-    "甜味"
-  ],
+  tags: ["香甜", "甜品", "其他", "热门", "网红", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -819,17 +565,8 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "糖"
   ],
   cookingMethod: [
-    "蒸",
-    "包"
-  ],
-  tags: [
-    "香甜",
-    "甜品",
-    "其他",
-    "热门",
-    "网红",
-    "甜味"
-  ],
+    "蒸"],
+  tags: ["香甜", "甜品", "其他", "热门", "网红", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -860,14 +597,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "煎",
     "冻"
   ],
-  tags: [
-    "香甜",
-    "甜品",
-    "其他",
-    "热门",
-    "网红",
-    "甜味"
-  ],
+  tags: ["香甜", "甜品", "其他", "热门", "网红", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -895,17 +625,8 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "黄油"
   ],
   cookingMethod: [
-    "炒",
-    "切"
-  ],
-  tags: [
-    "香甜",
-    "甜品",
-    "其他",
-    "热门",
-    "网红",
-    "甜味"
-  ],
+    "炒"],
+  tags: ["香甜", "甜品", "其他", "热门", "网红", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -932,17 +653,8 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "黄油"
   ],
   cookingMethod: [
-    "熬",
-    "切"
-  ],
-  tags: [
-    "香甜",
-    "甜品",
-    "其他",
-    "热门",
-    "网红",
-    "甜味"
-  ],
+    "熬"],
+  tags: ["香甜", "甜品", "其他", "热门", "网红", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -969,17 +681,8 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "糖"
   ],
   cookingMethod: [
-    "包",
-    "烤"
-  ],
-  tags: [
-    "香甜",
-    "甜品",
-    "其他",
-    "热门",
-    "网红",
-    "甜味"
-  ],
+    "烤"],
+  tags: ["香甜", "甜品", "其他", "热门", "网红", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -1007,17 +710,8 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "油"
   ],
   cookingMethod: [
-    "烤",
-    "压"
-  ],
-  tags: [
-    "香甜",
-    "甜品",
-    "其他",
-    "热门",
-    "网红",
-    "甜味"
-  ],
+    "烤"],
+  tags: ["香甜", "甜品", "其他", "热门", "网红", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -1046,14 +740,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "蒸",
     "煎"
   ],
-  tags: [
-    "香甜",
-    "甜品",
-    "其他",
-    "热门",
-    "网红",
-    "甜味"
-  ],
+  tags: ["香甜", "甜品", "其他", "热门", "网红", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -1082,14 +769,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "蒸",
     "煎"
   ],
-  tags: [
-    "香甜",
-    "甜品",
-    "其他",
-    "热门",
-    "网红",
-    "甜味"
-  ],
+  tags: ["香甜", "甜品", "其他", "热门", "网红", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -1098,43 +778,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   lng: 105,
   popularity: 9
 },
-{
-  id: "batch22-hot-32",
-  name: "拇指煎包",
-  image: "https://img2.baidu.com/it/u=494535288,2495533037&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=653",
-  category: "小吃",
-  taste: "咸鲜",
-  type: "popular",
-  cuisine: "其他",
-  province: "全国",
-  origin: "迷你版生煎包，一口一个，近年因短视频走红。",
-  description: "拇指煎包以猪肉、面粉、葱、姜为主料，经包、煎制成，咸鲜味美，是街头与社交平台的热门小吃。",
-  ingredients: [
-    "猪肉",
-    "面粉",
-    "葱",
-    "姜"
-  ],
-  cookingMethod: [
-    "包",
-    "煎"
-  ],
-  tags: [
-    "咸鲜",
-    "小吃",
-    "其他",
-    "热门",
-    "网红",
-    "夜宵"
-  ],
-  fame: "热门",
-  popularRegions: [
-    "全国"
-  ],
-  lat: 35,
-  lng: 105,
-  popularity: 9
-},
+// 「拇指煎包」已合并至「拇指生煎包」(batch28-hot-003)
 {
   id: "batch22-hot-33",
   name: "抱蛋煎饺",
@@ -1155,14 +799,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   cookingMethod: [
     "煎"
   ],
-  tags: [
-    "咸鲜",
-    "小吃",
-    "其他",
-    "热门",
-    "网红",
-    "夜宵"
-  ],
+  tags: ["咸鲜", "小吃", "其他", "热门", "网红", "夜宵"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -1174,6 +811,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
 {
   id: "batch22-hot-34",
   name: "芝士玉米",
+  alias: ["烤芝士玉米"],
   image: "https://img2.baidu.com/it/u=2145480183,2886611433&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1422",
   category: "小吃",
   taste: "咸甜",
@@ -1192,15 +830,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "烤",
     "拌"
   ],
-  tags: [
-    "咸甜",
-    "小吃",
-    "其他",
-    "热门",
-    "网红",
-    "夜宵",
-    "甜味"
-  ],
+  tags: ["咸甜", "小吃", "其他", "热门", "网红", "夜宵", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -1229,15 +859,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "炸",
     "裹"
   ],
-  tags: [
-    "咸甜",
-    "小吃",
-    "其他",
-    "热门",
-    "网红",
-    "夜宵",
-    "甜味"
-  ],
+  tags: ["咸甜", "小吃", "其他", "热门", "网红", "夜宵", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -1266,15 +888,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   cookingMethod: [
     "烤"
   ],
-  tags: [
-    "咸甜",
-    "小吃",
-    "其他",
-    "热门",
-    "网红",
-    "夜宵",
-    "甜味"
-  ],
+  tags: ["咸甜", "小吃", "其他", "热门", "网红", "夜宵", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -1304,14 +918,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "煎",
     "炸"
   ],
-  tags: [
-    "咸鲜",
-    "小吃",
-    "其他",
-    "热门",
-    "网红",
-    "夜宵"
-  ],
+  tags: ["咸鲜", "小吃", "其他", "热门", "网红", "夜宵"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -1341,24 +948,14 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "炸",
     "拌"
   ],
-  tags: [
-    "香辣",
-    "小吃",
-    "川菜",
-    "四川",
-    "成都",
-    "热门",
-    "网红",
-    "夜宵",
-    "辣味"
-  ],
+  tags: ["香辣", "小吃", "川菜", "四川", "成都", "热门", "网红", "夜宵", "辣味"],
   fame: "热门",
   popularRegions: [
     "全国"
   ],
   lat: 30.5728,
   lng: 104.0668,
-  popularity: 9,
+  popularity: 7,
   city: "成都"
 },
 {
@@ -1374,6 +971,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   description: "黄金小土豆以土豆、盐、孜然为主料，经炸、拌制成，香辣味美，是街头与社交平台的热门小吃。",
   ingredients: [
     "土豆",
+    "辣椒",
     "盐",
     "孜然"
   ],
@@ -1381,15 +979,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "炸",
     "拌"
   ],
-  tags: [
-    "香辣",
-    "小吃",
-    "其他",
-    "热门",
-    "网红",
-    "夜宵",
-    "辣味"
-  ],
+  tags: ["香辣", "小吃", "其他", "热门", "网红", "夜宵", "辣味"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -1419,14 +1009,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "煮",
     "拌"
   ],
-  tags: [
-    "咸鲜",
-    "主食",
-    "其他",
-    "热门",
-    "网红",
-    "早餐"
-  ],
+  tags: ["咸鲜", "主食", "其他", "热门", "网红", "早餐"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -1456,14 +1039,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "煮",
     "拌"
   ],
-  tags: [
-    "咸鲜",
-    "主食",
-    "其他",
-    "热门",
-    "网红",
-    "早餐"
-  ],
+  tags: ["咸鲜", "主食", "其他", "热门", "网红", "早餐"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -1493,14 +1069,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "煮",
     "拌"
   ],
-  tags: [
-    "咸鲜",
-    "主食",
-    "其他",
-    "热门",
-    "网红",
-    "早餐"
-  ],
+  tags: ["咸鲜", "主食", "其他", "热门", "网红", "早餐"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -1519,6 +1088,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   type: "popular",
   cuisine: "东北菜",
   province: "吉林",
+  city: "吉林",
   origin: "吉林老式麻辣烫加大量麻酱，汤汁浓稠，近年风靡短视频。",
   description: "黏糊麻辣烫以蔬菜、鱼丸、粉丝、麻酱等为主料，煮、拌而成，麻辣突出，是餐饮市场的热门选择。",
   ingredients: ["蔬菜", "鱼蛋", "粉丝", "芝麻酱", "辣椒"],
@@ -1526,24 +1096,14 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "煮",
     "拌"
   ],
-  tags: [
-    "麻辣",
-    "主菜",
-    "东北菜",
-    "吉林",
-    "长春",
-    "热门",
-    "网红",
-    "辣味"
-  ],
+  tags: ["麻辣", "主菜", "东北菜", "吉林", "长春", "热门", "网红", "辣味"],
   fame: "热门",
   popularRegions: [
     "全国"
   ],
   lat: 43.8171,
   lng: 125.3235,
-  popularity: 9,
-  city: "长春"
+  popularity: 9
 },
 {
   id: "batch22-hot-44",
@@ -1561,16 +1121,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   cookingMethod: [
     "煮"
   ],
-  tags: [
-    "麻辣",
-    "主菜",
-    "东北菜",
-    "吉林",
-    "长春",
-    "热门",
-    "网红",
-    "辣味"
-  ],
+  tags: ["麻辣", "主菜", "东北菜", "吉林", "长春", "热门", "网红", "辣味"],
   fame: "热门",
   popularRegions: [
     "吉林",
@@ -1601,14 +1152,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   cookingMethod: [
     "烤"
   ],
-  tags: [
-    "咸鲜",
-    "小吃",
-    "其他",
-    "热门",
-    "网红",
-    "夜宵"
-  ],
+  tags: ["咸鲜", "小吃", "其他", "热门", "网红", "夜宵"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -1626,29 +1170,21 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   type: "popular",
   cuisine: "滇菜",
   province: "云南",
+  city: "昆明",
   origin: "源自云南火塘烤茶，近年演变为新中式社交茶饮方式。",
   description: "围炉煮茶以茶叶、红枣、桂圆、花生等为原料，煮而成，清淡适口，是近年饮品市场的人气选择。",
   ingredients: ["茶叶", "红枣", "龙眼", "花生"],
   cookingMethod: [
     "煮"
   ],
-  tags: [
-    "清淡",
-    "饮品",
-    "滇菜",
-    "云南",
-    "昆明",
-    "热门",
-    "网红"
-  ],
+  tags: ["清淡", "饮品", "滇菜", "云南", "昆明", "热门", "网红"],
   fame: "热门",
   popularRegions: [
     "全国"
   ],
   lat: 24.8801,
   lng: 102.8329,
-  popularity: 9,
-  city: "昆明"
+  popularity: 6
 },
 {
   id: "batch22-hot-47",
@@ -1659,6 +1195,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   type: "popular",
   cuisine: "滇菜",
   province: "云南",
+  city: "昆明",
   origin: "云南特色烤奶茶，以陶罐烘烤茶叶与牛奶，香气浓郁。",
   description: "罐罐烤奶以牛奶、茶叶、糖、玫瑰等为原料，烤、煮而成，香甜适口，是近年饮品市场的人气选择。",
   ingredients: [
@@ -1671,24 +1208,14 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "烤",
     "煮"
   ],
-  tags: [
-    "香甜",
-    "饮品",
-    "滇菜",
-    "云南",
-    "昆明",
-    "热门",
-    "网红",
-    "甜味"
-  ],
+  tags: ["香甜", "饮品", "滇菜", "云南", "昆明", "热门", "网红", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
   ],
   lat: 24.8801,
   lng: 102.8329,
-  popularity: 9,
-  city: "昆明"
+  popularity: 6
 },
 {
   id: "batch22-hot-48",
@@ -1710,14 +1237,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   cookingMethod: [
     "烤"
   ],
-  tags: [
-    "香甜",
-    "甜品",
-    "其他",
-    "热门",
-    "网红",
-    "甜味"
-  ],
+  tags: ["香甜", "甜品", "其他", "热门", "网红", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -1746,14 +1266,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   cookingMethod: [
     "烤"
   ],
-  tags: [
-    "香甜",
-    "甜品",
-    "其他",
-    "热门",
-    "网红",
-    "甜味"
-  ],
+  tags: ["香甜", "甜品", "其他", "热门", "网红", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -1778,14 +1291,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "泡",
     "调"
   ],
-  tags: [
-    "香甜",
-    "饮品",
-    "其他",
-    "热门",
-    "网红",
-    "甜味"
-  ],
+  tags: ["香甜", "饮品", "其他", "热门", "网红", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -1816,23 +1322,14 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "泡",
     "调"
   ],
-  tags: [
-    "香甜",
-    "饮品",
-    "滇菜",
-    "云南",
-    "昆明",
-    "热门",
-    "网红",
-    "甜味"
-  ],
+  tags: ["香甜", "饮品", "滇菜", "云南", "昆明", "热门", "网红", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
   ],
   lat: 24.8801,
   lng: 102.8329,
-  popularity: 9,
+  popularity: 5,
   city: "昆明"
 },
 {
@@ -1851,13 +1348,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "泡",
     "调"
   ],
-  tags: [
-    "清淡",
-    "饮品",
-    "其他",
-    "热门",
-    "网红"
-  ],
+  tags: ["清淡", "饮品", "其他", "热门", "网红"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -1887,14 +1378,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "煮",
     "调"
   ],
-  tags: [
-    "香甜",
-    "饮品",
-    "其他",
-    "热门",
-    "网红",
-    "甜味"
-  ],
+  tags: ["香甜", "饮品", "其他", "热门", "网红", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -1921,13 +1405,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "水"
   ],
   cookingMethod: ["捶", "调"],
-  tags: [
-    "酸甜",
-    "饮品",
-    "其他",
-    "热门",
-    "网红"
-  ],
+  tags: ["酸甜", "饮品", "其他", "热门", "网红"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -1952,13 +1430,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "摇",
     "调"
   ],
-  tags: [
-    "酸甜",
-    "饮品",
-    "其他",
-    "热门",
-    "网红"
-  ],
+  tags: ["酸甜", "饮品", "其他", "热门", "网红"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -1983,14 +1455,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "摇",
     "调"
   ],
-  tags: [
-    "香甜",
-    "饮品",
-    "其他",
-    "热门",
-    "网红",
-    "甜味"
-  ],
+  tags: ["香甜", "饮品", "其他", "热门", "网红", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -2015,14 +1480,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "摇",
     "调"
   ],
-  tags: [
-    "香甜",
-    "饮品",
-    "其他",
-    "热门",
-    "网红",
-    "甜味"
-  ],
+  tags: ["香甜", "饮品", "其他", "热门", "网红", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -2047,16 +1505,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "摇",
     "调"
   ],
-  tags: [
-    "香甜",
-    "饮品",
-    "琼菜",
-    "海南",
-    "海口",
-    "热门",
-    "网红",
-    "甜味"
-  ],
+  tags: ["香甜", "饮品", "琼菜", "海南", "海口", "热门", "网红", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -2083,17 +1532,8 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "糖"
   ],
   cookingMethod: [
-    "煮",
-    "搅打"
-  ],
-  tags: [
-    "香甜",
-    "饮品",
-    "其他",
-    "热门",
-    "网红",
-    "甜味"
-  ],
+    "煮"],
+  tags: ["香甜", "饮品", "其他", "热门", "网红", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -2119,17 +1559,8 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "糖"
   ],
   cookingMethod: [
-    "煮",
-    "搅打"
-  ],
-  tags: [
-    "香甜",
-    "饮品",
-    "其他",
-    "热门",
-    "网红",
-    "甜味"
-  ],
+    "煮"],
+  tags: ["香甜", "饮品", "其他", "热门", "网红", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -2147,6 +1578,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   type: "popular",
   cuisine: "京菜",
   province: "北京",
+  city: "北京",
   origin: "北京传统甜汤，以雪梨、银耳、冰糖慢炖，润燥止咳。",
   description: "小吊梨汤以梨、银耳、冰糖、枸杞等为原料，煮、炖而成，香甜适口，是近年饮品市场的人气选择。",
   ingredients: [
@@ -2159,24 +1591,14 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "煮",
     "炖"
   ],
-  tags: [
-    "香甜",
-    "汤羹",
-    "京菜",
-    "北京",
-    "热门",
-    "网红",
-    "饮品",
-    "甜味"
-  ],
+  tags: ["香甜", "汤羹", "京菜", "北京", "热门", "网红", "饮品", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
   ],
   lat: 39.9042,
   lng: 116.4074,
-  popularity: 9,
-  city: "北京"
+  popularity: 9
 },
 {
   id: "batch22-hot-64",
@@ -2197,15 +1619,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   cookingMethod: [
     "炖"
   ],
-  tags: [
-    "香甜",
-    "汤羹",
-    "其他",
-    "热门",
-    "网红",
-    "饮品",
-    "甜味"
-  ],
+  tags: ["香甜", "汤羹", "其他", "热门", "网红", "饮品", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -2235,15 +1649,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "煮",
     "炖"
   ],
-  tags: [
-    "香甜",
-    "汤羹",
-    "其他",
-    "热门",
-    "网红",
-    "饮品",
-    "甜味"
-  ],
+  tags: ["香甜", "汤羹", "其他", "热门", "网红", "饮品", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -2255,7 +1661,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
 {
   id: "batch22-hot-66",
   name: "桃胶炖奶",
-  image: "https://img2.baidu.com/it/u=2209377638,321599419&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=653",
+  image: "https://i2.chuimg.com/14e353a04e2b47aabbe347ac05cf2b85_750w_750h.jpg",
   category: "甜品",
   taste: "香甜",
   type: "popular",
@@ -2271,14 +1677,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   cookingMethod: [
     "炖"
   ],
-  tags: [
-    "香甜",
-    "甜品",
-    "其他",
-    "热门",
-    "网红",
-    "甜味"
-  ],
+  tags: ["香甜", "甜品", "其他", "热门", "网红", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -2306,14 +1705,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   cookingMethod: [
     "煮"
   ],
-  tags: [
-    "香甜",
-    "饮品",
-    "其他",
-    "热门",
-    "网红",
-    "甜味"
-  ],
+  tags: ["香甜", "饮品", "其他", "热门", "网红", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -2337,14 +1729,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   cookingMethod: [
     "煮"
   ],
-  tags: [
-    "香甜",
-    "饮品",
-    "其他",
-    "热门",
-    "网红",
-    "甜味"
-  ],
+  tags: ["香甜", "饮品", "其他", "热门", "网红", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -2372,13 +1757,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   cookingMethod: [
     "泡"
   ],
-  tags: [
-    "清淡",
-    "饮品",
-    "其他",
-    "热门",
-    "网红"
-  ],
+  tags: ["清淡", "饮品", "其他", "热门", "网红"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -2403,13 +1782,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "煮",
     "泡"
   ],
-  tags: [
-    "清淡",
-    "饮品",
-    "其他",
-    "热门",
-    "网红"
-  ],
+  tags: ["清淡", "饮品", "其他", "热门", "网红"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -2440,15 +1813,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "煎",
     "炒"
   ],
-  tags: [
-    "咸鲜",
-    "小吃",
-    "东北菜",
-    "吉林",
-    "热门",
-    "网红",
-    "夜宵"
-  ],
+  tags: ["咸鲜", "小吃", "东北菜", "吉林", "热门", "网红", "夜宵"],
   fame: "热门",
   popularRegions: [
     "吉林",
@@ -2480,14 +1845,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "发酵",
     "拌"
   ],
-  tags: [
-    "香甜",
-    "甜品",
-    "其他",
-    "热门",
-    "网红",
-    "甜味"
-  ],
+  tags: ["香甜", "甜品", "其他", "热门", "网红", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -2513,17 +1871,9 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "水果"
   ],
   cookingMethod: [
-    "发酵",
-    "装罐"
+    "发酵"
   ],
-  tags: [
-    "香甜",
-    "甜品",
-    "其他",
-    "热门",
-    "网红",
-    "甜味"
-  ],
+  tags: ["香甜", "甜品", "其他", "热门", "网红", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -2550,17 +1900,9 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "水果"
   ],
   cookingMethod: [
-    "发酵",
-    "过滤"
+    "发酵"
   ],
-  tags: [
-    "香甜",
-    "甜品",
-    "其他",
-    "热门",
-    "网红",
-    "甜味"
-  ],
+  tags: ["香甜", "甜品", "其他", "热门", "网红", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -2591,16 +1933,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "煮",
     "涮"
   ],
-  tags: [
-    "酸辣",
-    "主菜",
-    "黔菜",
-    "贵州",
-    "贵阳",
-    "热门",
-    "网红",
-    "辣味"
-  ],
+  tags: ["酸辣", "主菜", "黔菜", "贵州", "贵阳", "热门", "网红", "辣味"],
   fame: "热门",
   popularRegions: [
     "贵州",
@@ -2627,17 +1960,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   cookingMethod: [
     "煮"
   ],
-  tags: [
-    "酸辣",
-    "主食",
-    "粤菜",
-    "广东",
-    "广州",
-    "热门",
-    "网红",
-    "早餐",
-    "辣味"
-  ],
+  tags: ["酸辣", "主食", "粤菜", "广东", "广州", "热门", "网红", "早餐", "辣味"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -2670,17 +1993,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "煮",
     "炸"
   ],
-  tags: [
-    "酸辣",
-    "主食",
-    "桂菜",
-    "广西",
-    "柳州",
-    "热门",
-    "网红",
-    "早餐",
-    "辣味"
-  ],
+  tags: ["酸辣", "主食", "桂菜", "广西", "柳州", "热门", "网红", "早餐", "辣味"],
   fame: "热门",
   popularRegions: [
     "广西",
@@ -2690,48 +2003,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   lng: 109.4285,
   popularity: 9
 },
-{
-  id: "batch22-hot-80",
-  name: "柠檬凤爪",
-  image: "https://img0.baidu.com/it/u=4293580121,2597528834&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1044",
-  category: "小吃",
-  taste: "酸辣",
-  type: "popular",
-  cuisine: "川菜",
-  province: "四川",
-  city: "成都",
-  origin: "川渝与泰式风味结合的泡爪，酸辣清爽。",
-  description: "柠檬凤爪以鸡爪、柠檬、辣椒、醋为主料，经腌、拌制成，酸辣味美，是街头与社交平台的热门小吃。",
-  ingredients: [
-    "鸡爪",
-    "柠檬",
-    "辣椒",
-    "醋"
-  ],
-  cookingMethod: [
-    "腌",
-    "拌"
-  ],
-  tags: [
-    "酸辣",
-    "小吃",
-    "川菜",
-    "四川",
-    "成都",
-    "热门",
-    "网红",
-    "夜宵",
-    "辣味"
-  ],
-  fame: "热门",
-  popularRegions: [
-    "四川",
-    "全国"
-  ],
-  lat: 30.5728,
-  lng: 104.0668,
-  popularity: 9
-},
+// 「柠檬凤爪」已合并至「柠檬酸辣鸡爪杯」(batch25-hot-008)
 {
   id: "batch22-hot-81",
   name: "藤椒鸡腿",
@@ -2749,17 +2021,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "腌",
     "炸"
   ],
-  tags: [
-    "香辣",
-    "小吃",
-    "川菜",
-    "四川",
-    "成都",
-    "热门",
-    "网红",
-    "夜宵",
-    "辣味"
-  ],
+  tags: ["香辣", "小吃", "川菜", "四川", "成都", "热门", "网红", "夜宵", "辣味"],
   fame: "热门",
   popularRegions: [
     "四川",
@@ -2767,7 +2029,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 30.5728,
   lng: 104.0668,
-  popularity: 9
+  popularity: 6
 },
 {
   id: "batch22-hot-82",
@@ -2790,14 +2052,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "腌",
     "炸"
   ],
-  tags: [
-    "咸鲜",
-    "小吃",
-    "其他",
-    "热门",
-    "网红",
-    "夜宵"
-  ],
+  tags: ["咸鲜", "小吃", "其他", "热门", "网红", "夜宵"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -2823,15 +2078,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "炸",
     "裹"
   ],
-  tags: [
-    "咸甜",
-    "小吃",
-    "其他",
-    "热门",
-    "网红",
-    "夜宵",
-    "甜味"
-  ],
+  tags: ["咸甜", "小吃", "其他", "热门", "网红", "夜宵", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -2856,15 +2103,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "炸",
     "拌"
   ],
-  tags: [
-    "咸甜",
-    "小吃",
-    "其他",
-    "热门",
-    "网红",
-    "夜宵",
-    "甜味"
-  ],
+  tags: ["咸甜", "小吃", "其他", "热门", "网红", "夜宵", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -2893,14 +2132,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   cookingMethod: [
     "烤"
   ],
-  tags: [
-    "香甜",
-    "甜品",
-    "其他",
-    "热门",
-    "网红",
-    "甜味"
-  ],
+  tags: ["香甜", "甜品", "其他", "热门", "网红", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -2930,14 +2162,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "烤",
     "熬"
   ],
-  tags: [
-    "香甜",
-    "甜品",
-    "其他",
-    "热门",
-    "网红",
-    "甜味"
-  ],
+  tags: ["香甜", "甜品", "其他", "热门", "网红", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -2967,14 +2192,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "煎",
     "打发"
   ],
-  tags: [
-    "香甜",
-    "甜品",
-    "其他",
-    "热门",
-    "网红",
-    "甜味"
-  ],
+  tags: ["香甜", "甜品", "其他", "热门", "网红", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -3003,14 +2221,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "蒸",
     "揉"
   ],
-  tags: [
-    "香甜",
-    "甜品",
-    "其他",
-    "热门",
-    "网红",
-    "甜味"
-  ],
+  tags: ["香甜", "甜品", "其他", "热门", "网红", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -3037,17 +2248,8 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "糖"
   ],
   cookingMethod: [
-    "蒸",
-    "压"
-  ],
-  tags: [
-    "香甜",
-    "甜品",
-    "其他",
-    "热门",
-    "网红",
-    "甜味"
-  ],
+    "蒸"],
+  tags: ["香甜", "甜品", "其他", "热门", "网红", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -3077,14 +2279,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "烤",
     "淋"
   ],
-  tags: [
-    "香甜",
-    "甜品",
-    "其他",
-    "热门",
-    "网红",
-    "甜味"
-  ],
+  tags: ["香甜", "甜品", "其他", "热门", "网红", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -3114,14 +2309,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "烤",
     "淋"
   ],
-  tags: [
-    "香甜",
-    "甜品",
-    "其他",
-    "热门",
-    "网红",
-    "甜味"
-  ],
+  tags: ["香甜", "甜品", "其他", "热门", "网红", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -3148,17 +2336,8 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "水果"
   ],
   cookingMethod: [
-    "煎",
-    "卷"
-  ],
-  tags: [
-    "香甜",
-    "甜品",
-    "其他",
-    "热门",
-    "网红",
-    "甜味"
-  ],
+    "煎"],
+  tags: ["香甜", "甜品", "其他", "热门", "网红", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -3187,14 +2366,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   cookingMethod: [
     "煎"
   ],
-  tags: [
-    "香甜",
-    "甜品",
-    "其他",
-    "热门",
-    "网红",
-    "甜味"
-  ],
+  tags: ["香甜", "甜品", "其他", "热门", "网红", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -3223,14 +2395,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   cookingMethod: [
     "烤"
   ],
-  tags: [
-    "香甜",
-    "甜品",
-    "其他",
-    "热门",
-    "网红",
-    "甜味"
-  ],
+  tags: ["香甜", "甜品", "其他", "热门", "网红", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -3261,15 +2426,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "炖",
     "蒸"
   ],
-  tags: [
-    "咸鲜",
-    "主菜",
-    "东北菜",
-    "吉林",
-    "长春",
-    "热门",
-    "网红"
-  ],
+  tags: ["咸鲜", "主菜", "东北菜", "吉林", "长春", "热门", "网红"],
   fame: "热门",
   popularRegions: [
     "吉林",
@@ -3299,16 +2456,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   cookingMethod: [
     "煮"
   ],
-  tags: [
-    "香甜",
-    "饮品",
-    "藏餐",
-    "西藏",
-    "拉萨",
-    "热门",
-    "网红",
-    "甜味"
-  ],
+  tags: ["香甜", "饮品", "藏餐", "西藏", "拉萨", "热门", "网红", "甜味"],
   fame: "热门",
   popularRegions: [
     "西藏",
@@ -3339,17 +2487,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "炒",
     "拌"
   ],
-  tags: [
-    "香甜",
-    "主食",
-    "藏餐",
-    "西藏",
-    "拉萨",
-    "热门",
-    "网红",
-    "早餐",
-    "甜味"
-  ],
+  tags: ["香甜", "主食", "藏餐", "西藏", "拉萨", "热门", "网红", "早餐", "甜味"],
   fame: "热门",
   popularRegions: [
     "西藏",
@@ -3363,13 +2501,13 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   id: "batch22-hot-98",
   name: "芝士焗红薯",
   image: "https://img1.baidu.com/it/u=2530666313,919754861&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=667",
-  category: "饮品",
+  category: "甜品",
   taste: "香甜",
   type: "popular",
   cuisine: "其他",
   province: "全国",
   origin: "红薯与芝士焗烤，香甜拉丝，秋冬热门。",
-  description: "芝士焗红薯以红薯、奶酪、黄油、糖等为原料，烤、焗而成，香甜适口，是近年饮品市场的人气选择。",
+  description: "芝士焗红薯以红薯、奶酪、黄油、糖等为原料，烤、焗而成，香甜适口，是近年甜品市场的人气选择。",
   ingredients: [
     "红薯",
     "奶酪",
@@ -3380,14 +2518,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "烤",
     "焗"
   ],
-  tags: [
-    "香甜",
-    "饮品",
-    "其他",
-    "热门",
-    "网红",
-    "甜味"
-  ],
+  tags: ["香甜", "甜品", "其他", "热门", "网红", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -3411,14 +2542,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   cookingMethod: [
     "煮"
   ],
-  tags: [
-    "香甜",
-    "饮品",
-    "其他",
-    "热门",
-    "网红",
-    "甜味"
-  ],
+  tags: ["香甜", "饮品", "其他", "热门", "网红", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"
@@ -3445,17 +2569,8 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "奶油"
   ],
   cookingMethod: [
-    "煮",
-    "搅打"
-  ],
-  tags: [
-    "香甜",
-    "饮品",
-    "其他",
-    "热门",
-    "网红",
-    "甜味"
-  ],
+    "煮"],
+  tags: ["香甜", "饮品", "其他", "热门", "网红", "甜味"],
   fame: "热门",
   popularRegions: [
     "全国"

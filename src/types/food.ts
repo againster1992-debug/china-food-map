@@ -12,6 +12,7 @@ export type FoodCategory =
   | "腌腊"
   | "调料"
   | "物产"
+  | "火锅"
   | "其他";
 
 // 美食类型
@@ -33,7 +34,8 @@ export type Taste =
   | "甜"
   | "酸"
   | "鲜香"
-  | "原味";
+  | "原味"
+  | "辣";
 
 // 菜系（不限于八大菜系，根据公认分类）
 export type Cuisine =
@@ -132,6 +134,7 @@ export interface Food {
   lat: number;
   lng: number;
   popularity?: number;
+  note?: string;           // 备注/警示信息（如保护动物提示）
 }
 
 // 筛选状态

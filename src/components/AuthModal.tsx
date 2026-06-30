@@ -68,7 +68,7 @@ export default function AuthModal() {
         <div className="relative flex items-center justify-between border-b border-ochre-500/15 bg-gradient-to-r from-cinnabar-500/10 to-gold-500/10 px-5 py-4">
           <div className="flex items-center gap-2.5">
             <div className="flex h-9 w-9 items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-cinnabar-500 to-cinnabar-700 shadow-seal">
-              <img src="/0001.png" alt="logo" className="h-full w-full object-cover" />
+              <img src={`${import.meta.env.BASE_URL}0001.png`} alt="logo" className="h-full w-full object-cover" />
             </div>
             <div>
               <h2 className="font-serif text-base font-bold text-ink-900">

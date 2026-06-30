@@ -4,29 +4,6 @@ export const FOODS_BATCH3_SHANDONG: Food[] = [
   // ========== 济南帮鲁菜 ==========
 
   {
-    id: "batch3-sd-2",
-    name: "糖醋脊丝",
-    alias: ["糖醋里脊丝"],
-    image: "https://img1.baidu.com/it/u=240696625,398100381&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=889",
-    category: "主菜",
-    taste: "酸甜",
-    type: "traditional",
-    cuisine: "鲁菜",
-    province: "山东",
-    city: "济南",
-    origin: "济南传统鲁菜，糖醋味型代表",
-    description:
-      "糖醋脊丝将猪里脊切丝挂糊炸脆，浇糖醋汁翻炒。色泽红亮，外酥里嫩，酸甜开胃。与糖醋里脊形似而刀工不同，切丝更易入味，是济南家常鲁菜，体现鲁菜对糖醋味型的精妙把握。",
-    ingredients: ["猪肉", "糖", "醋", "淀粉", "葱"],
-    cookingMethod: ["炸", "溜"],
-    tags: ["鲁菜", "糖醋味", "酥脆", "酸甜", "主菜", "山东"],
-    fame: "地方名吃",
-    popularRegions: ["山东"],
-    lat: 36.6512,
-    lng: 117.1201,
-    popularity: 6,
-  },
-  {
     id: "batch3-sd-3",
     name: "蜜汁梨球",
     alias: ["蜜汁梨丸子"],

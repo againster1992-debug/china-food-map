@@ -77,6 +77,7 @@ import { FOODS_BATCH28_HOT100 } from "./foods-batch28-hot100";
 import { FOODS_BATCH29_FAMOUS100 } from "./foods-batch29-famous100";
 import { FOODS_BATCH29_FOOD_TRADITIONS } from "./foods-batch29-food-traditions";
 import { FOODS_NATIONAL } from "./foods-national";
+import { FOODS_RESTORED_COMPLIANCE } from "./foods-restored-compliance";
 
 export const EXISTING_FOODS: Food[] = [
   ...FOODS_BATCH_SOUTH,
@@ -107,6 +108,7 @@ export const EXISTING_FOODS: Food[] = [
     lat: 23.1291,
     lng: 113.2644,
     fame: "热门",
+    popularRegions: ["广东"],
     popularity: 5,
   },
 
@@ -137,6 +139,7 @@ export const EXISTING_FOODS: Food[] = [
     lat: 28.2278,
     lng: 112.9388,
     fame: "热门",
+    popularRegions: ["湖南"],
     popularity: 9,
   },
 
@@ -168,6 +171,7 @@ export const EXISTING_FOODS: Food[] = [
     cookingMethod: ["煮","卤"],
     tags: ["麻辣", "面食", "冀菜", "街头小吃", "特色小吃"],
     fame: "热门",
+    popularRegions: ["河北"],
     lat: 38.0428,
     lng: 114.5149,
     popularity: 4,
@@ -194,6 +198,7 @@ export const EXISTING_FOODS: Food[] = [
     cookingMethod: ["蒸"],
     tags: ["咸鲜", "小吃", "蒙餐", "特色小吃", "传统名菜", "酥脆"],
     fame: "热门",
+    popularRegions: ["内蒙古"],
     lat: 40.8426,
     lng: 111.7511,
     popularity: 3,
@@ -218,6 +223,7 @@ export const EXISTING_FOODS: Food[] = [
     cookingMethod: ["煎"],
     tags: ["咸鲜", "小吃", "东北菜", "特色小吃", "街头小吃"],
     fame: "地方名吃",
+    popularRegions: ["辽宁"],
     lat: 38.914,
     lng: 121.6147,
     popularity: 4,
@@ -242,6 +248,7 @@ export const EXISTING_FOODS: Food[] = [
     cookingMethod: ["炸","熘"],
     tags: ["酸甜", "主菜", "东北菜", "传统名菜", "劲道"],
     fame: "名菜",
+    popularRegions: ["全国"],
     lat: 45.8038,
     lng: 126.535,
     popularity: 9,
@@ -279,6 +286,7 @@ export const EXISTING_FOODS: Food[] = [
     lat: 23.1291,
     lng: 113.2644,
     fame: "热门",
+    popularRegions: ["广东"],
     popularity: 9,
   },
 
@@ -315,6 +323,7 @@ export const EXISTING_FOODS: Food[] = [
     lat: 34.3416,
     lng: 108.9398,
     fame: "名菜",
+    popularRegions: ["全国"],
     popularity: 9,
   },
 
@@ -344,6 +353,7 @@ export const EXISTING_FOODS: Food[] = [
     cookingMethod: ["烧","炖"],
     tags: ["麻辣", "主菜", "新疆菜", "传统名菜", "特色小吃", "嫩滑"],
     fame: "名菜",
+    popularRegions: ["全国"],
     lat: 44.3271,
     lng: 84.8516,
     popularity: 10,
@@ -367,6 +377,7 @@ export const EXISTING_FOODS: Food[] = [
     cookingMethod: ["焖"],
     tags: ["咸鲜", "主食", "新疆菜", "特色小吃", "传统名菜", "嫩滑", "劲道"],
     fame: "地方名吃",
+    popularRegions: ["新疆"],
     lat: 43.7928,
     lng: 87.6271,
     popularity: 4,
@@ -392,6 +403,7 @@ export const EXISTING_FOODS: Food[] = [
     lat: 22.3193,
     lng: 114.1694,
     fame: "热门",
+    popularRegions: ["香港"],
     popularity: 3,
   },
   
@@ -415,6 +427,7 @@ export const EXISTING_FOODS: Food[] = [
     cookingMethod: ["煎","烤"],
     tags: ["咸鲜", "小吃", "粤菜", "特色小吃", "街头小吃"],
     fame: "热门",
+    popularRegions: ["澳门"],
     lat: 22.1987,
     lng: 113.5439,
     popularity: 4,
@@ -441,6 +454,7 @@ export const EXISTING_FOODS: Food[] = [
     lat: 24.1477,
     lng: 120.6736,
     fame: "热门",
+    popularRegions: ["台湾"],
     popularity: 9,
   },
 
@@ -477,6 +491,7 @@ export const EXISTING_FOODS: Food[] = [
     cookingMethod: ["炸"],
     tags: ["咸鲜", "小吃", "东北菜", "街头小吃", "特色小吃", "网红"],
     fame: "热门",
+    popularRegions: ["辽宁"],
     lat: 41.8057,
     lng: 123.4315,
     popularity: 8,
@@ -501,6 +516,7 @@ export const EXISTING_FOODS: Food[] = [
     lat: 23.1291,
     lng: 113.2644,
     fame: "热门",
+    popularRegions: ["广东"],
     popularity: 4,
   },
   {
@@ -643,7 +659,8 @@ export const FOODS: Food[] = [
   ...FOODS_BATCH18_PROVINCE_TRENDS,
   ...FOODS_BATCH19_CUISINE_TRENDS,
   ...FOODS_BATCH20_CUISINE_TRENDS,
-  ...FOODS_BATCH21_CUISINE_TRENDS].filter((f): f is Food => !!f); // 过滤掉注释块导致的 undefined 元素
+  ...FOODS_BATCH21_CUISINE_TRENDS,
+  ...FOODS_RESTORED_COMPLIANCE].filter((f): f is Food => !!f); // 过滤掉注释块导致的 undefined 元素
 
 // 按菜系统计
 export const CUISINE_STATS: Record<string, number> = FOODS.reduce((acc, food) => {

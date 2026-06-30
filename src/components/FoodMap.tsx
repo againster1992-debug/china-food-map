@@ -200,50 +200,57 @@ const PROVINCE_CENTERS: Record<Province, { lat: number; lng: number }> = {
   台湾: { lat: 25.03, lng: 121.57 },
 };
 
-// 根据缩放级别决定显示哪些美食（优先显示名菜和热门菜，限制总数避免杂乱）
+// 根据缩放级别决定显示哪些美食（优先显示高热度美食，限制总数避免杂乱）
 function getDisplayFoods(foods: Food[], zoom: number): Food[] {
-  // 排序优先级：1.名菜 2.热度 3.本地传统
+  // 综合分：热度×50 + fame权重，与 top10 排序保持一致
+  // 大地图优先显示热度较高的美食
   const fameWeight: Record<string, number> = { 名菜: 100, 热门: 80, 地方名吃: 50, 普通: 20 };
   const sorted = [...foods].sort((a, b) => {
-    const wa = fameWeight[inferFame(a)] || 20;
-    const wb = fameWeight[inferFame(b)] || 20;
-    if (wa !== wb) return wb - wa;
     const pa = a.popularity || 5;
     const pb = b.popularity || 5;
+    const fa = fameWeight[inferFame(a)] || 20;
+    const fb = fameWeight[inferFame(b)] || 20;
+    const scoreA = pa * 50 + fa;
+    const scoreB = pb * 50 + fb;
+    if (scoreA !== scoreB) return scoreB - scoreA;
     if (pa !== pb) return pb - pa;
     const ta = a.type === "traditional" ? 1 : 0;
     const tb = b.type === "traditional" ? 1 : 0;
     return tb - ta;
   });
 
-  // 各缩放级别的显示上限
+  // 各缩放级别的显示上限与最低综合分门槛
   let limit: number;
-  let minFame: number;
+  let minScore: number;
 
   if (zoom >= 10) {
     // 高缩放：显示全部
     return foods;
   } else if (zoom >= 8) {
     limit = 500;
-    minFame = 20; // 全部
+    minScore = 0; // 全部
   } else if (zoom >= 7) {
     limit = 200;
-    minFame = 20; // 全部，但限制数量
+    minScore = 0; // 全部，但限制数量
   } else if (zoom >= 6) {
-    limit = 100;
-    minFame = 50; // 地方名吃及以上
+    limit = 120;
+    minScore = 350; // 约 pop>=6 名菜 / pop>=7 热门 / pop>=8 地方名吃
   } else if (zoom >= 5) {
     limit = 100;
-    minFame = 50; // 地方名吃及以上（聚类显示）
+    minScore = 400; // 约 pop>=7 名菜 / pop>=8 热门 / pop>=9 地方名吃
   } else if (zoom >= 4) {
     limit = 80;
-    minFame = 50; // 地方名吃及以上（聚类显示）
+    minScore = 450; // 约 pop>=8 名菜 / pop>=9 热门
   } else {
     limit = 60;
-    minFame = 50; // 地方名吃及以上（省份级聚类显示）
+    minScore = 500; // 约 pop>=9 名菜 / pop>=10 热门
   }
 
-  const filtered = sorted.filter((f) => (fameWeight[inferFame(f)] || 20) >= minFame);
+  const filtered = sorted.filter((f) => {
+    const pa = f.popularity || 5;
+    const fa = fameWeight[inferFame(f)] || 20;
+    return pa * 50 + fa >= minScore;
+  });
   return filtered.slice(0, limit);
 }
 
@@ -272,8 +279,13 @@ function clusterFoods(foods: Food[], zoom: number): { food: Food; cluster?: Food
   }
   const result: { food: Food; cluster?: Food[] }[] = [];
   for (const [, group] of map) {
-    // 按 popularity 降序排列，取第一个作为代表
-    group.sort((a, b) => (b.popularity || 0) - (a.popularity || 0));
+    // 按综合分（热度×50+fame）降序，取第一个作为代表
+    const fameWeight: Record<string, number> = { 名菜: 100, 热门: 80, 地方名吃: 50, 普通: 20 };
+    group.sort((a, b) => {
+      const sa = (a.popularity || 5) * 50 + (fameWeight[inferFame(a)] || 20);
+      const sb = (b.popularity || 5) * 50 + (fameWeight[inferFame(b)] || 20);
+      return sb - sa;
+    });
     if (group.length === 1) {
       result.push({ food: group[0] });
     } else {
@@ -328,22 +340,10 @@ export default function FoodMap() {
       // 获取该省份在当前筛选条件下的美食
       const provinceFoods = mapFoods.filter((f) => f.province === pf.province);
       if (provinceFoods.length === 0) continue;
-      // 优先选择该省份中传统美食（type === "traditional"）且 popularity >= 7 且非餐厅代表菜
-      const traditionalFood = provinceFoods.find(
-        (f) =>
-          f.type === "traditional" &&
-          (f.popularity || 0) >= 7 &&
-          !isRestaurantDish(f.name),
-      );
-      let topFood: Food;
-      if (traditionalFood) {
-        topFood = traditionalFood;
-      } else {
-        // 回退到 getProvinceTopFoods，但排除餐厅代表菜
-        const topFoods = getProvinceTopFoods(pf.province, 5);
-        const nonRestaurant = topFoods.find((f) => !isRestaurantDish(f.name));
-        topFood = nonRestaurant || topFoods[0] || provinceFoods[0];
-      }
+      // 使用 getProvinceTopFoods 获取综合分最高的美食，排除餐厅代表菜
+      const topFoods = getProvinceTopFoods(pf.province, 5);
+      const nonRestaurant = topFoods.find((f) => !isRestaurantDish(f.name));
+      const topFood = nonRestaurant || topFoods[0] || provinceFoods[0];
       result.push({ province: pf.province, food: topFood, count: provinceFoods.length });
     }
     return result;

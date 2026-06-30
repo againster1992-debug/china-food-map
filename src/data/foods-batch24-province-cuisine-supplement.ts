@@ -849,9 +849,9 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "主菜",
     "东北菜",
     "吉林",
-    "乌拉火锅",
     "满族",
-    "火锅"],
+    "火锅"
+  ],
   fame: "地方名吃",
   popularRegions: [
     "吉林",
@@ -989,8 +989,8 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
   fame: "地方名吃",
   popularRegions: [
     "安徽"],
-  lat: 0,
-  lng: 0,
+  lat: 31.67,
+  lng: 118.51,
   popularity: 7
 },
 
@@ -1051,13 +1051,13 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "鲁菜",
     "山东",
     "青岛",
-    "脂渣",
-    "猪油"],
+    "猪油"
+  ],
   fame: "热门",
   popularRegions: [
     "山东"],
-  lat: 0,
-  lng: 0,
+  lat: 36.07,
+  lng: 120.38,
   popularity: 7
 },
 {
@@ -1086,13 +1086,13 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "豫菜",
     "河南",
     "洛阳",
-    "糊涂面",
-    "杂粮"],
+    "杂粮"
+  ],
   fame: "地方名吃",
   popularRegions: [
     "河南"],
-  lat: 0,
-  lng: 0,
+  lat: 34.62,
+  lng: 112.45,
   popularity: 7
 },
 {
@@ -1116,8 +1116,8 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "鄂菜",
     "湖北",
     "武汉",
-    "蛋酒",
-    "早餐"],
+    "早餐"
+  ],
   fame: "热门",
   popularRegions: [
     "湖北"],
@@ -1147,8 +1147,8 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "桂菜",
     "广西",
     "南宁",
-    "卷筒粉",
-    "早餐"],
+    "早餐"
+  ],
   fame: "热门",
   popularRegions: [
     "广西"],
@@ -1213,8 +1213,8 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
   fame: "热门",
   popularRegions: [
     "云南"],
-  lat: 0,
-  lng: 0,
+  lat: 24.44,
+  lng: 98.58,
   popularity: 8
 },
 {
@@ -1244,8 +1244,8 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
   fame: "地方名吃",
   popularRegions: [
     "陕西"],
-  lat: 0,
-  lng: 0,
+  lat: 33.07,
+  lng: 107.03,
   popularity: 7
 },
 {
@@ -1338,8 +1338,8 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "新疆菜",
     "新疆",
     "喀什",
-    "架子肉",
-    "馕坑烤"],
+    "馕坑烤"
+  ],
   fame: "热门",
   popularRegions: [
     "新疆"],
@@ -1372,9 +1372,9 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "面食",
     "粤菜",
     "香港",
-    "牛腩面",
     "茶餐厅",
-    "炖"],
+    "炖"
+  ],
   fame: "热门",
   popularRegions: [
     "香港",
@@ -1408,9 +1408,9 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "糕点",
     "粤菜",
     "澳门",
-    "凤凰卷",
     "手信",
-    "蛋卷"],
+    "蛋卷"
+  ],
   fame: "地方名吃",
   popularRegions: [
     "澳门"],
@@ -1444,8 +1444,8 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "台湾菜",
     "台湾",
     "台北",
-    "车轮饼",
-    "夜市"],
+    "夜市"
+  ],
   fame: "热门",
   popularRegions: [
     "台湾"],
@@ -1479,9 +1479,9 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "甜品",
     "津菜",
     "天津",
-    "钙奶汤圆",
     "汤圆",
-    "老字号"],
+    "老字号"
+  ],
   fame: "地方名吃",
   popularRegions: [
     "天津"],

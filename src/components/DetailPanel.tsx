@@ -265,7 +265,7 @@ export default function DetailPanel() {
 
           {/* 做法 */}
           <section className="mb-4">
-            <label className="mb-1.5 block font-serif text-xs font-semibold text-ink-900">烹饪做法</label>
+            <label className="mb-1.5 block font-serif text-xs font-semibold text-ink-900">烹饪方式</label>
             <div className="mb-2 flex flex-wrap gap-1.5">
               {editData.cookingMethod.map((m) => (
                 <span key={m} className="flex items-center gap-1 rounded-md border border-indigo2-500/20 bg-indigo2-50/40 px-2 py-0.5 font-serif text-[11px] text-indigo2-700">
@@ -451,7 +451,7 @@ export default function DetailPanel() {
             <div className="rounded-lg border border-ochre-500/15 bg-paper-100/40 p-3">
               <h4 className="mb-1.5 flex items-center gap-1 font-serif text-xs font-semibold text-ink-900">
                 <Sparkles size={11} className="text-ochre-500" />
-                烹饪做法
+                烹饪方式
               </h4>
               <p className="font-serif text-xs leading-relaxed text-ink-700">
                 {food.cookingMethod.join("、")}
