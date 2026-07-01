@@ -70,7 +70,7 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
   {
     id: "cq-7",
     name: "豆花饭",
-    alias: ["豆花", "河水豆花"],
+    alias: ["河水豆花"],
     image: "https://img2.baidu.com/it/u=1782997389,3781881854&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=597",
     category: "主食",
     taste: "咸鲜",
@@ -86,7 +86,7 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["重庆"],
     lat: 29.563,
     lng: 106.5516,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "cq-8",
@@ -191,7 +191,7 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["重庆"],
     lat: 29.563,
     lng: 106.5516,
-    popularity: 6,
+    popularity: 7,
   },
 
   // ========== 四川（川菜大本营）==========
@@ -410,7 +410,7 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     lng: 106.6302,
     fame: "名菜",
     popularRegions: ["全国"],
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "gz-7",
@@ -432,7 +432,7 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     lng: 106.6302,
     fame: "名菜",
     popularRegions: ["贵州"],
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "gz-8",
@@ -474,7 +474,7 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["贵州"],
     lat: 27.2825,
     lng: 105.2847,
-    popularity: 5,
+    popularity: 6,
   },
   {
     id: "gz-10",
@@ -495,7 +495,7 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["贵州"],
     lat: 26.647,
     lng: 106.6302,
-    popularity: 5,
+    popularity: 6,
   },
   {
     id: "gz-11",
@@ -560,7 +560,7 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["贵州", "毕节"],
     lat: 27.0253,
     lng: 105.6092,
-    popularity: 4,
+    popularity: 6,
   },
   {
     id: "southwest-guizhou-ditan-huoguo",
@@ -720,7 +720,7 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["全国"],
     lat: 29.6519,
     lng: 91.1721,
-    popularity: 8,
+    popularity: 6,
   },
   {
     id: "xz-7",
@@ -762,7 +762,7 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["西藏"],
     lat: 29.6519,
     lng: 91.1721,
-    popularity: 5,
+    popularity: 6,
   },
   {
     id: "xz-9",
@@ -797,7 +797,7 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     province: "西藏",
     city: "拉萨",
     origin: "西藏，藏族传统",
-    description: "藏式血肠以牦牛血、碎肉、糌粑灌入肠衣，水煮而成。血香浓郁，口感独特。是藏族宰杀牦牛时时的传统食物，「不浪费一头牛」的智慧。切片蘸辣椒食用，是高原牧区的粗犷美味。",
+    description: "藏式血肠以牦牛血、碎肉、糌粑灌入肠衣，水煮而成。血香浓郁，口感独特。是藏族宰杀牦牛时的传统食物，「不浪费一头牛」的智慧。切片蘸辣椒食用，是高原牧区的粗犷美味。",
     ingredients: ["牦牛肉", "猪肉", "糌粑", "肠衣"],
     cookingMethod: ["灌", "煮"],
     tags: ["咸鲜", "牦牛", "腌", "藏族", "牧区"],
@@ -809,7 +809,7 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
   {
     id: "xz-11",
     name: "奶渣",
-    alias: ["奶酪", "奶渣糕"],
+    alias: ["奶渣糕"],
     image: "https://img1.baidu.com/it/u=723622879,2007262149&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1067",
     category: "小吃",
     taste: "酸甜",
@@ -818,7 +818,7 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     province: "西藏",
     city: "拉萨",
     origin: "西藏，藏族传统",
-    description: "奶渣以牛奶奶发酵后提取的酪蛋白，晒干成块。酸甜可口，奶香浓郁。是藏族零食、待客小食，配酥油茶食用。富含蛋白质，是高原游牧民族的能量补给，体现「物尽其用」的智慧。",
+    description: "奶渣以牛奶发酵后提取的酪蛋白，晒干成块。酸甜可口，奶香浓郁。是藏族零食、待客小食，配酥油茶食用。富含蛋白质，是高原游牧民族的能量补给，体现「物尽其用」的智慧。",
     ingredients: ["牛奶", "糖"],
     cookingMethod: ["发酵", "晒"],
     tags: ["酸甜", "小吃", "藏族", "奶制品"],
@@ -892,7 +892,7 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     lng: 108.9398,
     fame: "名菜",
     popularRegions: ["陕西"],
-    popularity: 9,
+    popularity: 8,
   },
   {
     id: "snx-7",
@@ -914,7 +914,7 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     lng: 108.9398,
     fame: "名菜",
     popularRegions: ["陕西"],
-    popularity: 9,
+    popularity: 7,
   },
   {
     id: "snx-8",
@@ -936,7 +936,7 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     lng: 107.6197,
     fame: "名菜",
     popularRegions: ["全国"],
-    popularity: 9,
+    popularity: 8,
   },
   {
     id: "snx-9",
@@ -1084,9 +1084,9 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     cookingMethod: ["发酵", "擀", "煮"],
     tags: ["酸辣", "浆水", "面条", "兰州", "面食", "夏季"],
     popularRegions: ["全国"],
-    lat: 34.58,
-    lng: 105.72,
-    popularity: 8,
+    lat: 36.0611,
+    lng: 103.8343,
+    popularity: 6,
   },
   {
     id: "gs-4",
@@ -1171,7 +1171,7 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["甘肃"],
     lat: 35.5219,
     lng: 105.7326,
-    popularity: 6,
+    popularity: 7,
   },
   {
     id: "gs-9",
@@ -1192,7 +1192,7 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["甘肃"],
     lat: 35.0059,
     lng: 104.6346,
-    popularity: 5,
+    popularity: 6,
   },
   {
     id: "gs-10",
@@ -1213,29 +1213,30 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["甘肃"],
     lat: 36.0611,
     lng: 103.8343,
-    popularity: 5,
-  },
-  {
-    id: "gs-11",
-    name: "甜醅子",
-    alias: ["兰州甜醅", "甜醅"],
-    image: "https://img0.baidu.com/it/u=2666562030,222057813&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=993",
-    category: "甜品",
-    taste: "香甜",
-    type: "traditional",
-    cuisine: "西北菜",
-    province: "甘肃",
-    city: "兰州",
-    origin: "兰州，据说明代已有",
-    description: "甜醅子以莜麦或青稞发酵制成。甜中带酒香，清凉解暑。是兰州夏令甜品，「甜醅子一吃，夏天就来了」。类似醪糟而风味独特，是西北人的夏日记忆。",
-    ingredients: ["莜麦", "糖"],
-    cookingMethod: ["发酵"],
-    tags: ["香甜", "莜麦", "兰州", "甜品", "夏季", "粘糯", "劲道"],
-    popularRegions: ["甘肃"],
-    lat: 36.0611,
-    lng: 103.8343,
     popularity: 6,
   },
+  // 「gs-11」已合并至「batch25-hot-095」- 甜醅子与甜胚子为同物异名。WebSearch 验证：甜醅子（酉字旁）为官方/书面规范写法，甜胚子（月字旁）为民间口语写法
+  //   {
+  //     id: "gs-11",
+  //     name: "甜醅子",
+  //     alias: ["兰州甜醅", "甜醅"],
+  //     image: "https://img0.baidu.com/it/u=2666562030,222057813&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=993",
+  //     category: "甜品",
+  //     taste: "香甜",
+  //     type: "traditional",
+  //     cuisine: "西北菜",
+  //     province: "甘肃",
+  //     city: "兰州",
+  //     origin: "兰州，据说明代已有",
+  //     description: "甜醅子以莜麦或青稞发酵制成。甜中带酒香，清凉解暑。是兰州夏令甜品，「甜醅子一吃，夏天就来了」。类似醪糟而风味独特，是西北人的夏日记忆。",
+  //     ingredients: ["莜麦", "糖"],
+  //     cookingMethod: ["发酵"],
+  //     tags: ["香甜", "莜麦", "兰州", "甜品", "夏季", "粘糯", "劲道"],
+  //     popularRegions: ["甘肃"],
+  //     lat: 36.0611,
+  //     lng: 103.8343,
+  //     popularity: 6,
+  //   },
   {
     id: "gs-12",
     name: "热冬果",
@@ -1429,7 +1430,7 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["宁夏"],
     lat: 38.4872,
     lng: 106.2309,
-    popularity: 6,
+    popularity: 5,
   },
   // 「八宝盖碗茶」已合并至「八宝茶」(foods-batch15-regional-trends.ts batch15-ningxia-3) - 同地同物异名
   {
@@ -1451,7 +1452,7 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["宁夏"],
     lat: 38.4872,
     lng: 106.2309,
-    popularity: 5,
+    popularity: 7,
   },
   {
     id: "nx-8",
@@ -1493,7 +1494,7 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["宁夏"],
     lat: 37.5149,
     lng: 105.1965,
-    popularity: 5,
+    popularity: 6,
   },
   {
     id: "nx-10",
@@ -1537,7 +1538,7 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["全国"],
     lat: 43.8256,
     lng: 87.6168,
-    popularity: 9,
+    popularity: 8,
   },
   {
     id: "xj-7",
@@ -1579,7 +1580,7 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["新疆"],
     lat: 43.8256,
     lng: 87.6168,
-    popularity: 6,
+    popularity: 7,
   },
   {
     id: "xj-9",
@@ -1660,10 +1661,10 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     "ingredients": ["米粉", "羊肉", "辣椒", "香菜"],
     "cookingMethod": ["熬", "煮"],
     "tags": ["羊肉粉", "黔菜", "虾子", "麻辣", "早餐", "劲道"],
-    "fame": "地方名吃",
+    "fame": "名菜",
     "lat": 27.6866,
     "lng": 106.8795,
-    "popularity": 9
+    "popularity": 8
   },
   {
     "id": "yn-14",

@@ -23,7 +23,7 @@ export const FOODS_PASTRIES: Food[] = [
     popularRegions: ["辽宁"],
     lat: 41.8057,
     lng: 123.4315,
-    popularity: 5,
+    popularity: 6,
   },
   {
     id: "pastry-9",
@@ -46,7 +46,7 @@ export const FOODS_PASTRIES: Food[] = [
     popularRegions: ["上海"],
     lat: 31.2304,
     lng: 121.4737,
-    popularity: 3,
+    popularity: 5,
   },
   {
     id: "pastry-11",
@@ -69,7 +69,7 @@ export const FOODS_PASTRIES: Food[] = [
     popularRegions: ["上海"],
     lat: 31.2304,
     lng: 121.4737,
-    popularity: 3,
+    popularity: 4,
   },
   {
     id: "pastry-14",
@@ -161,7 +161,7 @@ export const FOODS_PASTRIES: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 3,
+    popularity: 6,
   },
   {
     id: "pastry-26",
@@ -207,7 +207,7 @@ export const FOODS_PASTRIES: Food[] = [
     popularRegions: ["四川"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 4,
+    popularity: 6,
   },
   {
     id: "pastry-30",
@@ -230,7 +230,7 @@ export const FOODS_PASTRIES: Food[] = [
     popularRegions: ["贵州"],
     lat: 26.2455,
     lng: 105.7683,
-    popularity: 3,
+    popularity: 5,
   },
   {
     id: "pastry-32",
@@ -398,7 +398,7 @@ export const FOODS_PASTRIES: Food[] = [
     ],
     "lat": 22.8379,
     "lng": 113.2932,
-    "popularity": 8
+    "popularity": 6
   },
   {
     "id": "pastry-44",
@@ -632,7 +632,7 @@ export const FOODS_PASTRIES: Food[] = [
     ],
     "lat": 29.8683,
     "lng": 121.544,
-    "popularity": 3,
+    "popularity": 4,
     "image": "https://img2.baidu.com/it/u=411876238,4092129337&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=656"
   },
   {
@@ -656,7 +656,7 @@ export const FOODS_PASTRIES: Food[] = [
     ],
     "lat": 29.8683,
     "lng": 121.544,
-    "popularity": 3,
+    "popularity": 4,
     "image": "https://img1.baidu.com/it/u=1255189995,1237398711&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=774"
   },
   {
@@ -678,14 +678,14 @@ export const FOODS_PASTRIES: Food[] = [
     ],
     "cookingMethod": ["蒸", "切"],
     tags: ["凉糕", "黄米", "消暑", "甜品", "甜", "糕点", "晋菜", "山西"],
-    "fame": "地方名吃",
+    "fame": "普通",
     "popularRegions": [
       "山西",
       "全国"
     ],
     "lat": 37.8706,
     "lng": 112.5489,
-    "popularity": 2,
+    "popularity": 3,
     "image": "https://img0.baidu.com/it/u=3077792337,1205417123&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=717"
   },
   
@@ -711,7 +711,7 @@ export const FOODS_PASTRIES: Food[] = [
     ],
     "lat": 30.5728,
     "lng": 104.0668,
-    "popularity": 4,
+    "popularity": 6,
     "image": "https://img1.baidu.com/it/u=3383974827,4166923055&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=652"
   },
   {
@@ -728,14 +728,14 @@ export const FOODS_PASTRIES: Food[] = [
     "ingredients": ["椰子", "吉利丁", "糖"],
     "cookingMethod": ["冻"],
     tags: ["椰香", "甜品", "热带", "甜", "琼菜", "海南"],
-    "fame": "地方名吃",
+    "fame": "热门",
     "popularRegions": [
       "海南",
       "全国"
     ],
     "lat": 18.2524,
     "lng": 109.5121,
-    "popularity": 2,
+    "popularity": 6,
     "image": "https://img1.baidu.com/it/u=1967112610,4128659786&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=654"
   },
   {
@@ -782,14 +782,14 @@ export const FOODS_PASTRIES: Food[] = [
     "ingredients": ["糯米", "豆沙", "桂花", "糖"],
     "cookingMethod": ["蒸"],
     "tags": ["本帮菜", "糕点", "沈大成", "嫩滑", "劲道"],
-    "fame": "热门",
+    "fame": "地方名吃",
     "popularRegions": [
       "上海",
       "全国"
     ],
     "lat": 31.2304,
     "lng": 121.4737,
-    "popularity": 3,
+    "popularity": 5,
     "image": "https://img0.baidu.com/it/u=1210377598,2648820146&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=644"
   },
 
@@ -855,14 +855,14 @@ export const FOODS_PASTRIES: Food[] = [
     "ingredients": ["牛奶", "糖"],
     "cookingMethod": ["发酵", "凝"],
     "tags": ["蒙餐", "奶制品", "蒙古族", "粘糯"],
-    "fame": "热门",
+    "fame": "地方名吃",
     "popularRegions": [
       "内蒙古",
       "全国"
     ],
     "lat": 40.8426,
     "lng": 111.7511,
-    "popularity": 2,
+    "popularity": 4,
     "image": "https://img1.baidu.com/it/u=2596409627,782179433&fm=253&fmt=auto&app=120&f=JPEG?w=889&h=800"
   },
   {
@@ -905,14 +905,14 @@ export const FOODS_PASTRIES: Food[] = [
     "ingredients": ["糯米", "猪肉", "芽菜"],
     "cookingMethod": ["蒸"],
     tags: ["叶儿粑", "川菜", "糕点", "时令", "咸鲜", "四川"],
-    "fame": "热门",
+    "fame": "地方名吃",
     "popularRegions": [
       "四川",
       "全国"
     ],
     "lat": 30.5728,
     "lng": 104.0668,
-    "popularity": 3,
+    "popularity": 6,
     "image": "https://img2.baidu.com/it/u=2281416223,3757515012&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1067"
   },
   {
@@ -960,7 +960,7 @@ export const FOODS_PASTRIES: Food[] = [
     ],
     "lat": 30.1995,
     "lng": 115.0388,
-    "popularity": 3,
+    "popularity": 5,
     "image": "https://img2.baidu.com/it/u=2895309274,1183205410&fm=253&fmt=auto&app=138&f=JPEG?w=563&h=500"
   },
   {
@@ -1030,7 +1030,7 @@ export const FOODS_PASTRIES: Food[] = [
     ],
     "lat": 29.8683,
     "lng": 121.544,
-    "popularity": 3,
+    "popularity": 4,
     "image": "https://img1.baidu.com/it/u=3237329474,1647878717&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1200"
   },
   {
@@ -1047,14 +1047,14 @@ export const FOODS_PASTRIES: Food[] = [
     "ingredients": ["面粉", "糖", "食用油", "鸡蛋", "核桃"],
     "cookingMethod": ["烤"],
     "tags": ["糕点", "酥脆", "赣菜", "传统", "伴手礼", "绵软"],
-    "fame": "地方名吃",
+    "fame": "热门",
     "popularRegions": [
       "江西",
       "全国"
     ],
     "lat": 28.6822,
     "lng": 115.8582,
-    "popularity": 2,
+    "popularity": 5,
     "image": "https://img1.baidu.com/it/u=936028867,167806892&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=638"
   },
   {
@@ -1096,14 +1096,14 @@ export const FOODS_PASTRIES: Food[] = [
     "ingredients": ["猪肉", "面粉", "葱"],
     "cookingMethod": ["烤"],
     "tags": ["月饼", "鲜肉", "苏式", "中秋", "酥皮", "酥脆"],
-    "fame": "地方名吃",
+    "fame": "热门",
     "popularRegions": [
       "江苏",
       "全国"
     ],
     "lat": 31.2989,
     "lng": 120.5853,
-    "popularity": 3,
+    "popularity": 5,
     "image": "https://img0.baidu.com/it/u=1603700952,1334242895&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1067"
   },
 
@@ -1121,14 +1121,14 @@ export const FOODS_PASTRIES: Food[] = [
     "ingredients": ["糯米", "桂花", "糖", "蜂蜜"],
     "cookingMethod": ["蒸"],
     "tags": ["浙菜", "糕点", "秋季", "酥脆"],
-    "fame": "热门",
+    "fame": "地方名吃",
     "popularRegions": [
       "浙江",
       "全国"
     ],
     "lat": 30.2741,
     "lng": 120.1551,
-    "popularity": 3,
+    "popularity": 4,
     "image": "https://img0.baidu.com/it/u=509010212,1883856937&fm=253&fmt=auto&app=138&f=JPEG?w=524&h=500"
   },
   {
@@ -1156,7 +1156,7 @@ export const FOODS_PASTRIES: Food[] = [
     ],
     "lat": 31.2304,
     "lng": 121.4737,
-    "popularity": 8
+    "popularity": 6
   },
   {
     "id": "pastry-27",
@@ -1173,9 +1173,9 @@ export const FOODS_PASTRIES: Food[] = [
     "ingredients": ["椰子", "糯米", "糖"],
     "cookingMethod": ["蒸"],
     "tags": ["糕点", "琼菜", "椰香", "香甜", "酥脆"],
-    "fame": "普通",
+    "fame": "地方名吃",
     "popularRegions": ["海南"],
     "lat": 20.0444,
     "lng": 110.1989,
-    "popularity": 1
+    "popularity": 4
   }];

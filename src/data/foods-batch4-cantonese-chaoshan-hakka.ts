@@ -23,7 +23,7 @@ export const FOODS_BATCH4_CANTONESE_CHAOSHAN_HAKKA: Food[] = [
     popularRegions: ["广东", "香港"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 7,
+    popularity: 5,
   },
   {
     id: "batch4-gd-2",
@@ -131,7 +131,7 @@ export const FOODS_BATCH4_CANTONESE_CHAOSHAN_HAKKA: Food[] = [
     origin: "粤菜高档海味菜式，宴席名菜",
     description:
       "鲍汁扣辽参以辽参水发后用鲍汁慢火扣制。海参软糯弹牙，鲍汁浓郁鲜香，色泽红亮。是粤菜「鲍参翅肚」经典代表，讲究发制功力与扣制火候，入味而不烂，是高档宴席的压轴菜。",
-    ingredients: ["鱼肉", "鸡肉", "火腿"],
+    ingredients: ["海参", "鸡肉", "火腿"],
     cookingMethod: ["炖", "蒸", "焖"],
     tags: ["咸鲜", "粤菜", "海参", "宴席", "名菜", "嫩滑"],
     fame: "名菜",
@@ -830,7 +830,7 @@ export const FOODS_BATCH4_CANTONESE_CHAOSHAN_HAKKA: Food[] = [
     popularRegions: ["广东"],
     lat: 23.6568,
     lng: 116.6226,
-    popularity: 7,
+    popularity: 5,
   },
   {
     id: "batch4-cs-12",
@@ -963,7 +963,7 @@ export const FOODS_BATCH4_CANTONESE_CHAOSHAN_HAKKA: Food[] = [
     origin: "潮州传统名菜，宴席高档菜",
     description:
       "麒麟鲍片以鲍鱼片配火腿、香菇、笋片相间排列蒸制。造型如麒麟鳞片、色彩缤纷、鲍片软糯。是潮菜宴席高档菜代表，讲究刀工与摆盘，形如麒麟故名，体现潮菜「以形取胜」的烹饪美学。",
-    ingredients: ["鱼肉", "火腿", "香菇", "笋"],
+    ingredients: ["鲍鱼", "火腿", "香菇", "笋"],
     cookingMethod: ["蒸"],
     tags: ["咸鲜", "潮菜", "鲍鱼", "宴席", "高档", "名菜"],
     fame: "名菜",
@@ -986,7 +986,7 @@ export const FOODS_BATCH4_CANTONESE_CHAOSHAN_HAKKA: Food[] = [
     origin: "潮汕传统汤品，渔家名汤",
     description:
       "清炖鳗鲡汤以鳗鲡（鳗鱼）切段配排骨、枸杞清炖。汤色清澈、鳗鱼软糯、汤汁鲜甜。是潮汕传统汤品代表，讲究鳗鱼处理与炖制火候，去腥提鲜，是潮菜「以汤为鲜」的经典，滋补养身。",
-    ingredients: ["鱼肉", "排骨", "枸杞", "姜", "盐"],
+    ingredients: ["鳗鱼", "排骨", "枸杞", "姜", "盐"],
     cookingMethod: ["炖"],
     tags: ["咸鲜", "潮菜", "汤品", "滋补", "劲道"],
     fame: "地方名吃",
@@ -1688,7 +1688,7 @@ export const FOODS_BATCH4_CANTONESE_CHAOSHAN_HAKKA: Food[] = [
     popularRegions: ["广东"],
     lat: 21.2706,
     lng: 110.3594,
-    popularity: 6,
+    popularity: 7,
   },
   
   {
@@ -1847,11 +1847,11 @@ export const FOODS_BATCH4_CANTONESE_CHAOSHAN_HAKKA: Food[] = [
     ingredients: ["绿豆", "海带", "红薯", "芋头", "银耳", "糖"],
     cookingMethod: ["熬", "煮"],
     tags: ["香甜", "粤菜", "化州", "甜品", "名吃", "粘糯"],
-    fame: "名菜",
+    fame: "热门",
     popularRegions: ["广东", "全国"],
     lat: 21.6638,
     lng: 110.6201,
-    popularity: 7,
+    popularity: 8,
   },
   {
     id: "batch4-yx-20",

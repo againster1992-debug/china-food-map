@@ -1,4 +1,4 @@
-﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
 
 export const FOODS_POPULAR: Food[] = [
   // ========== 网红美食（2020-2025年流行）==========
@@ -223,7 +223,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["上海", "广州", "成都", "武汉"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 7,
+    popularity: 8,
   },
   {
     id: "hot-11",
@@ -245,7 +245,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["辽宁", "吉林", "北京", "上海"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 7,
+    popularity: 8,
   },
   {
     id: "hot-12",
@@ -267,7 +267,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["北京", "广州", "深圳", "杭州"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 7,
+    popularity: 8,
   },
   {
     id: "hot-13",
@@ -289,7 +289,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["北京", "广州", "深圳", "成都"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 7,
+    popularity: 8,
   },
   {
     id: "hot-14",
@@ -311,7 +311,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["北京", "广州", "成都", "武汉"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 7,
+    popularity: 8,
   },
   {
     id: "hot-15",
@@ -358,7 +358,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["上海", "北京", "成都", "深圳"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 8,
+    popularity: 9,
   },
   {
     id: "hot-17",
@@ -447,7 +447,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["全国", "北京", "上海", "广州", "成都"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 9,
+    popularity: 8,
   },
   {
     id: "hot-22",
@@ -562,7 +562,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["全国", "上海", "广州", "北京", "成都"],
     lat: 25.033,
     lng: 121.5654,
-    popularity: 8,
+    popularity: 9,
   },
   {
     id: "hot-28",
@@ -606,7 +606,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["全国", "北京", "上海", "广州", "成都"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 7,
+    popularity: 8,
   },
   {
     id: "hot-30",
@@ -625,11 +625,11 @@ export const FOODS_POPULAR: Food[] = [
     ingredients: ["酸奶", "面包糠", "淀粉", "糖"],
     cookingMethod: ["炸", "冻"],
     tags: ["酸奶", "油炸", "冰火", "网红", "街头", "创意", "焦香", "劲道"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["重庆", "长沙", "武汉", "西安"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "hot-31",
@@ -652,7 +652,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["重庆", "北京", "上海", "武汉"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "hot-33",
@@ -698,7 +698,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["上海", "北京", "深圳", "成都"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "hot-35",
@@ -809,11 +809,11 @@ export const FOODS_POPULAR: Food[] = [
     ingredients: ["面粉", "鸡蛋", "牛奶", "淡奶油"],
     cookingMethod: ["煎"],
     tags: ["薄饼", "奶油", "法式", "网红", "甜品"],
-    fame: "热门",
+    fame: "普通",
     popularRegions: ["北京", "广州", "深圳", "杭州"],
     lat: 31.2304,
     lng: 121.4737,
-    popularity: 7,
+    popularity: 5,
   },
   {
     id: "hot-41",
@@ -882,7 +882,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["全国", "天津", "上海", "广州", "成都"],
     lat: 39.9042,
     lng: 116.4074,
-    popularity: 7,
+    popularity: 9,
   },
   {
     id: "hot-44",
@@ -1175,7 +1175,7 @@ export const FOODS_POPULAR: Food[] = [
     origin: "粤菜经典，全国流行",
     description:
       "椒盐鱿鱼以鱿鱼裹粉油炸，撒椒盐、蒜蓉。外酥里嫩，鱿鱼鲜香，椒盐提味。是粤菜代表，从广东火遍全国。下酒下饭皆宜，聚餐首选。是「鱿鱼菜品」的核心单品，连锁餐厅与外卖热销，深受各年龄层喜爱。",
-    ingredients: ["鱼肉", "淀粉", "椒盐", "蒜"],
+    ingredients: ["鱿鱼", "淀粉", "椒盐", "蒜"],
     cookingMethod: ["炸", "炒"],
     tags: ["鱿鱼", "椒盐", "粤菜", "酥脆", "下酒", "聚餐", "嫩滑"],
     fame: "热门",
@@ -1194,8 +1194,8 @@ export const FOODS_POPULAR: Food[] = [
     type: "popular",
     cuisine: "苏菜",
     province: "江苏",
-    city: "南京",
-    origin: "江苏传统名菜，全国流行",
+    city: "无锡",
+    origin: "江苏无锡，苏菜经典名菜，流行于江南地区",
     description:
       "糖醋排骨以小排焯水后炸制，浇糖醋汁。色泽红亮，外酥里嫩，酸甜适口。是苏菜代表，从江苏火遍全国。下饭神器，老少皆宜。是「排骨菜品」的核心单品，连锁餐厅、外卖、家庭皆常见，深受各年龄层喜爱。",
     ingredients: ["猪肉", "糖", "醋", "酱油"],
@@ -1203,8 +1203,8 @@ export const FOODS_POPULAR: Food[] = [
     tags: ["排骨", "糖醋", "苏菜", "酸甜", "下饭", "家常"],
     fame: "热门",
     popularRegions: ["全国", "上海", "北京", "广州", "成都"],
-    lat: 32.0603,
-    lng: 118.7969,
+    lat: 31.4912,
+    lng: 120.3119,
     popularity: 9,
   },
   {
@@ -1271,7 +1271,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["全国", "重庆", "北京", "上海", "广州"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 8,
+    popularity: 7,
   },
 
   // ========== 夜市热门美食 ==========
@@ -1457,7 +1457,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["全国", "重庆", "北京", "上海", "广州"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "hot-75",
@@ -1524,8 +1524,8 @@ export const FOODS_POPULAR: Food[] = [
     tags: ["牛肉", "米饭", "日式", "快餐", "外卖", "上班族", "国民美食", "焦香"],
     fame: "热门",
     popularRegions: ["全国", "上海", "广州", "深圳", "杭州"],
-    lat: 35.8617,
-    lng: 104.1954,
+    lat: 35.0,
+    lng: 105.0,
     popularity: 8,
   },
   {
@@ -1546,9 +1546,9 @@ export const FOODS_POPULAR: Food[] = [
     tags: ["咖喱", "米饭", "日式", "快餐", "外卖", "治愈", "国民美食", "绵软", "爽脆"],
     fame: "热门",
     popularRegions: ["全国", "北京", "广州", "深圳", "杭州"],
-    lat: 35.8617,
-    lng: 104.1954,
-    popularity: 7,
+    lat: 35.0,
+    lng: 105.0,
+    popularity: 8,
   },
   {
     id: "hot-80",
@@ -1568,8 +1568,8 @@ export const FOODS_POPULAR: Food[] = [
     tags: ["炸鸡", "汉堡", "快餐", "外卖", "平价", "西式", "国民美食"],
     fame: "热门",
     popularRegions: ["全国", "北京", "广州", "深圳", "成都"],
-    lat: 35.8617,
-    lng: 104.1954,
+    lat: 35.0,
+    lng: 105.0,
     popularity: 8,
   },
   {
@@ -1589,11 +1589,11 @@ export const FOODS_POPULAR: Food[] = [
     ingredients: ["鸡肉", "大米", "姜", "油菜"],
     cookingMethod: ["煮", "浇"],
     tags: ["白切鸡", "米饭", "粤菜", "清淡", "外卖", "养生"],
-    fame: "名菜",
+    fame: "热门",
     popularRegions: ["全国", "香港", "上海", "北京", "深圳"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 10,
+    popularity: 8,
   },
   {
     id: "hot-84",
@@ -1687,7 +1687,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["全国", "天津", "上海", "广州", "成都"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 7,
+    popularity: 8,
   },
   {
     id: "hot-89",
@@ -1823,7 +1823,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["全国", "重庆", "北京", "上海", "广州"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 7,
+    popularity: 8,
   },
   {
     id: "hot-97",
@@ -1865,11 +1865,11 @@ export const FOODS_POPULAR: Food[] = [
     ingredients: ["香菇", "青菜", "蒜", "蚝油"],
     cookingMethod: ["炒"],
     tags: ["香菇", "青菜", "本帮菜", "清淡", "养生", "素食"],
-    fame: "热门",
+    fame: "普通",
     popularRegions: ["全国", "北京", "广州", "深圳", "杭州"],
     lat: 31.2304,
     lng: 121.4737,
-    popularity: 7,
+    popularity: 5,
   },
   {
     id: "hot-100",
@@ -2076,7 +2076,7 @@ export const FOODS_POPULAR: Food[] = [
     ],
     "lat": 39.9042,
     "lng": 116.4074,
-    "popularity": 8
+    "popularity": 6
   },
   {
     "id": "hot-111",
@@ -2093,7 +2093,7 @@ export const FOODS_POPULAR: Food[] = [
     "ingredients": ["面粉", "葱", "猪肉", "盐"],
     "cookingMethod": ["煎", "烤"],
     "tags": ["葱油饼", "网红", "街头", "本帮菜", "排队"],
-    "fame": "热门",
+    "fame": "地方名吃",
     "popularRegions": [
       "上海",
       "北京",
@@ -2101,7 +2101,7 @@ export const FOODS_POPULAR: Food[] = [
     ],
     "lat": 31.2304,
     "lng": 121.4737,
-    "popularity": 8
+    "popularity": 6
   },
   {
     "id": "hot-112",
@@ -2116,7 +2116,7 @@ export const FOODS_POPULAR: Food[] = [
     "cuisine": "台湾菜",
     "province": "台湾",
     "city": "台北",
-    "origin": "2018年前后从台湾传入，在杭州、上海等地成为网红",
+    "origin": "台湾台北，2018年前后在杭州、上海等地成为网红",
     "description": "古早味蛋糕以蛋黄、牛奶、面粉、色拉油制成，隔水慢烤。蛋糕体蓬松柔软，晃动时如抖臀般弹性十足。芝士、蛋黄、巧克力等多种口味。从台湾传入后在江浙沪烘焙店排队热卖，是「怀旧甜品」与社交媒体传播结合的代表。",
     "ingredients": ["鸡蛋", "牛奶", "面粉", "食用油", "奶酪"],
     "cookingMethod": ["烤"],
@@ -2192,7 +2192,7 @@ export const FOODS_POPULAR: Food[] = [
     ],
     "lat": 24.4798,
     "lng": 118.0894,
-    "popularity": 7
+    "popularity": 6
   },
   {
     "id": "hot-114",
@@ -2212,7 +2212,7 @@ export const FOODS_POPULAR: Food[] = [
     ingredients: ["鸡肉", "虾"],
     "cookingMethod": ["蒸", "煮"],
     "tags": [],
-    "fame": "热门",
+    "fame": "名菜",
     "popularRegions": [
       "广州",
       "深圳",
@@ -2265,13 +2265,13 @@ export const FOODS_POPULAR: Food[] = [
     "ingredients": ["米粉", "花生", "豇豆"],
     "cookingMethod": ["煮", "拌"],
     "tags": ["桂菜", "卤水", "主食", "小吃", "焦香"],
-    "fame": "地方名吃",
+    "fame": "名菜",
     "popularRegions": [
       "全国"
     ],
     "lat": 25.274,
     "lng": 110.2993,
-    "popularity": 10
+    "popularity": 9
   }
   
   ,
@@ -2373,30 +2373,31 @@ export const FOODS_POPULAR: Food[] = [
     "popularity": 8,
     "image": "https://img2.baidu.com/it/u=458883174,1040299675&fm=253&fmt=auto&app=120&f=JPEG?w=1017&h=645"
   },
-  {
-    "id": "gen-f-2025-31",
-    "name": "油饼包烧麦",
-    "category": "小吃",
-    "taste": "鲜香",
-    "type": "popular",
-    "cuisine": "鄂菜",
-    "province": "湖北",
-    "city": "武汉",
-    "origin": "武汉特色早餐，油饼包裹重油烧麦",
-    "description": "武汉油饼包烧麦以酥脆油饼包裹糯米烧麦，外酥里糯，油润鲜香，是武汉“过早”文化的创新代表。",
-    "ingredients": ["薄饼", "糯米", "香菇", "猪肉"],
-    "cookingMethod": ["炸", "蒸"],
-    tags: ["烧麦", "油饼", "早餐", "过早", "鲜香", "小吃", "鄂菜", "湖北"],
-    "fame": "热门",
-    "popularRegions": [
-      "湖北",
-      "全国"
-    ],
-    "lat": 30.5928,
-    "lng": 114.3055,
-    "popularity": 8,
-    "image": "https://img2.baidu.com/it/u=2522022613,2940427896&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1067"
-  },
+  // 「gen-f-2025-31」已合并至「batch13-wuhan-2」- 油饼包烧麦与油饼包烧梅为同地同物异名（烧麦/烧梅为同一食物不同写法），均为武汉特色早餐，合并至[batch13-wuha
+  //   {
+  //     "id": "gen-f-2025-31",
+  //     "name": "油饼包烧麦",
+  //     "category": "小吃",
+  //     "taste": "鲜香",
+  //     "type": "popular",
+  //     "cuisine": "鄂菜",
+  //     "province": "湖北",
+  //     "city": "武汉",
+  //     "origin": "武汉特色早餐，油饼包裹重油烧麦",
+  //     "description": "武汉油饼包烧麦以酥脆油饼包裹糯米烧麦，外酥里糯，油润鲜香，是武汉“过早”文化的创新代表。",
+  //     "ingredients": ["薄饼", "糯米", "香菇", "猪肉"],
+  //     "cookingMethod": ["炸", "蒸"],
+  //     tags: ["烧麦", "油饼", "早餐", "过早", "鲜香", "小吃", "鄂菜", "湖北"],
+  //     "fame": "热门",
+  //     "popularRegions": [
+  //       "湖北",
+  //       "全国"
+  //     ],
+  //     "lat": 30.5928,
+  //     "lng": 114.3055,
+  //     "popularity": 8,
+  //     "image": "https://img2.baidu.com/it/u=2522022613,2940427896&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1067"
+  //   },
   {
     "id": "gen-f-2025-32",
     "name": "大肉面",
@@ -2418,7 +2419,7 @@ export const FOODS_POPULAR: Food[] = [
     ],
     "lat": 32.0603,
     "lng": 118.7969,
-    "popularity": 8,
+    "popularity": 7,
     "image": "https://img2.baidu.com/it/u=1781220478,385652287&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=596"
   },
   {
@@ -2442,7 +2443,7 @@ export const FOODS_POPULAR: Food[] = [
     ],
     "lat": 30.2741,
     "lng": 120.1551,
-    "popularity": 8,
+    "popularity": 7,
     "image": "https://img0.baidu.com/it/u=1218870967,1256526020&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=655"
   },
   {
@@ -2515,7 +2516,7 @@ export const FOODS_POPULAR: Food[] = [
     ],
     "lat": 39.0842,
     "lng": 117.201,
-    "popularity": 7,
+    "popularity": 6,
     "image": "https://img1.baidu.com/it/u=2073553774,1159251030&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=659"
   },
   {
@@ -2620,7 +2621,7 @@ export const FOODS_POPULAR: Food[] = [
     ],
     "lat": 23.1291,
     "lng": 113.2644,
-    "popularity": 8,
+    "popularity": 9,
     "image": "https://img0.baidu.com/it/u=4107112691,2169859806&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=751"
   },
   {
@@ -2631,8 +2632,8 @@ export const FOODS_POPULAR: Food[] = [
     "type": "popular",
     "cuisine": "其他",
     "province": "广东",
-    "city": "广州",
-    "origin": "深圳新兴国风茶饮品牌代表产品",
+    "city": "深圳",
+    "origin": "广东深圳，新兴国风茶饮品牌代表产品",
     "description": "茉莉奶白以茉莉花茶为茶底，搭配鲜奶，花香清雅，奶味醇厚，是国风奶茶的热门单品。",
     "ingredients": ["茶叶", "牛奶", "糖"],
     "cookingMethod": ["调"],
@@ -2698,30 +2699,31 @@ export const FOODS_POPULAR: Food[] = [
     "popularity": 8,
     "image": "https://img1.baidu.com/it/u=2178411161,2178762214&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=653"
   },
-  {
-    "id": "gen2-f-2025-51",
-    "name": "广州叉烧包",
-    "category": "面食",
-    "taste": "香甜",
-    "type": "popular",
-    "cuisine": "粤菜",
-    "province": "广东",
-    "city": "广州",
-    "origin": "广州传统点心，粤式早茶代表",
-    "description": "叉烧包以发酵面皮包裹蜜汁叉烧馅，蒸熟后顶部自然开裂，皮松馅甜，是粤式早茶的经典点心。",
-    "ingredients": ["面粉", "猪肉", "蚝油", "糖"],
-    "cookingMethod": ["蒸"],
-    "tags": ["叉烧包", "粤菜", "早茶", "点心", "酥脆"],
-    "fame": "热门",
-    "popularRegions": [
-      "广东",
-      "全国"
-    ],
-    "lat": 23.1291,
-    "lng": 113.2644,
-    "popularity": 8,
-    "image": "https://img0.baidu.com/it/u=2644274962,4168533111&fm=253&fmt=auto&app=120&f=JPEG?w=608&h=898"
-  },
+  // 「广州叉烧包」(gen2-f-2025-51) 已合并至「叉烧包」(batch10-yue-6-active, foods-batch10-trending.ts) - 同地同物异名，名称含冗余城市前缀，合并至主条目
+  // {
+  //   "id": "gen2-f-2025-51",
+  //   "name": "广州叉烧包",
+  //   "category": "面食",
+  //   "taste": "香甜",
+  //   "type": "popular",
+  //   "cuisine": "粤菜",
+  //   "province": "广东",
+  //   "city": "广州",
+  //   "origin": "广州传统点心，粤式早茶代表",
+  //   "description": "叉烧包以发酵面皮包裹蜜汁叉烧馅，蒸熟后顶部自然开裂，皮松馅甜，是粤式早茶的经典点心。",
+  //   "ingredients": ["面粉", "猪肉", "蚝油", "糖"],
+  //   "cookingMethod": ["蒸"],
+  //   "tags": ["叉烧包", "粤菜", "早茶", "点心", "酥脆"],
+  //   "fame": "热门",
+  //   "popularRegions": [
+  //     "广东",
+  //     "全国"
+  //   ],
+  //   "lat": 23.1291,
+  //   "lng": 113.2644,
+  //   "popularity": 8,
+  //   "image": "https://img0.baidu.com/it/u=2644274962,4168533111&fm=253&fmt=auto&app=120&f=JPEG?w=608&h=898"
+  // },
   {
     "id": "gen2-f-2025-132",
     "name": "福建肉燕",
@@ -2736,19 +2738,19 @@ export const FOODS_POPULAR: Food[] = [
     "ingredients": ["猪肉", "淀粉", "葱", "马蹄"],
     "cookingMethod": ["捶", "包", "煮"],
     "tags": ["肉燕", "闽菜", "燕皮", "小吃", "焦香"],
-    "fame": "热门",
+    "fame": "地方名吃",
     "popularRegions": [
       "福建",
       "全国"
     ],
     "lat": 26.0745,
     "lng": 119.2965,
-    "popularity": 8,
+    "popularity": 7,
     "image": "https://img0.baidu.com/it/u=3799014991,2953008150&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=653"
   },
   {
     "id": "gen2-f-2025-133",
-    "name": "广西阳朔啤酒鱼",
+    "name": "阳朔啤酒鱼",
     "category": "主菜",
     "taste": "鲜辣",
     "type": "popular",
@@ -2822,7 +2824,7 @@ export const FOODS_POPULAR: Food[] = [
     ],
     "lat": 23.3541,
     "lng": 116.682,
-    "popularity": 8,
+    "popularity": 9,
     "image": "https://img2.baidu.com/it/u=490044725,2482361372&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=667"
   },
   {
@@ -3045,10 +3047,10 @@ export const FOODS_POPULAR: Food[] = [
     ingredients: ["青鱼肝", "笋", "黄酒", "酱油", "糖", "葱"],
     cookingMethod: ["烧", "炒"],
     tags: ["本帮菜", "青鱼秃肺", "鱼肝", "上海", "浓油赤酱", "名菜", "内脏"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["上海", "江苏", "浙江"],
     lat: 31.2304,
     lng: 121.4737,
-    popularity: 7,
+    popularity: 5,
   }
 ];

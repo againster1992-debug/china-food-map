@@ -57,7 +57,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["河南"],
     lat: 35.3015,
     lng: 113.9342,
-    popularity: 4,
+    popularity: 5,
   },
 
   // ========== 河南·焦作 ==========
@@ -136,7 +136,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["河南"],
     lat: 34.5176,
     lng: 110.8544,
-    popularity: 3,
+    popularity: 5,
   },
   {
     id: "city-south-sanmenxia-2",
@@ -184,7 +184,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["河南"],
     lat: 32.5197,
     lng: 112.3622,
-    popularity: 4,
+    popularity: 5,
   },
   {
     id: "city-south-nanyang-2",
@@ -234,7 +234,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["河南"],
     lat: 32.1689,
     lng: 115.6836,
-    popularity: 4,
+    popularity: 6,
   },
   {
     id: "city-south-xinyang-2",
@@ -455,7 +455,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["湖北"],
     lat: 30.3904,
     lng: 114.8949,
-    popularity: 5,
+    popularity: 6,
   },
 
   // ========== 湖北·荆门 ==========
@@ -580,11 +580,11 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     ingredients: ["大米", "绿豆", "鸡蛋", "葱"],
     cookingMethod: ["煎"],
     tags: ["豆皮", "恩施名吃", "土家族", "早餐", "鄂菜", "酥脆"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["湖北"],
     lat: 30.272,
     lng: 109.488,
-    popularity: 4,
+    popularity: 6,
   },
 
   // ========== 湖南·株洲 ==========
@@ -708,7 +708,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["湖南"],
     lat: 27.2416,
     lng: 111.4726,
-    popularity: 4,
+    popularity: 5,
   },
   {
     id: "city-south-shaoyang-2",
@@ -806,7 +806,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["湖南"],
     lat: 29.117,
     lng: 110.4793,
-    popularity: 6,
+    popularity: 7,
   },
   {
     id: "city-south-zhangjiajie-2",
@@ -854,7 +854,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["湖南"],
     lat: 28.553,
     lng: 112.3553,
-    popularity: 4,
+    popularity: 5,
   },
 
   // ========== 湖南·郴州 ==========
@@ -898,11 +898,11 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     ingredients: ["鱼肉", "米粉", "茶油", "辣椒", "豆膏"],
     cookingMethod: ["熬", "煮"],
     tags: ["鱼粉", "栖凤渡", "郴州名吃", "早餐", "湘菜"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["湖南"],
     lat: 25.7956,
     lng: 113.0147,
-    popularity: 6,
+    popularity: 7,
   },
 
   // ========== 湖南·永州 ==========
@@ -1048,7 +1048,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["湖南"],
     lat: 28.3119,
     lng: 109.7391,
-    popularity: 4,
+    popularity: 5,
   },
   {
     id: "city-south-xiangxi-2",
@@ -1071,7 +1071,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["湖南"],
     lat: 27.9481,
     lng: 109.5994,
-    popularity: 3,
+    popularity: 5,
   },
 
   // ========== 广东·韶关 ==========
@@ -1165,7 +1165,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     ingredients: ["银耳", "香菇", "竹荪", "蘑菇"],
     cookingMethod: ["蒸", "炖"],
     tags: ["素斋", "鼎湖山", "肇庆名吃", "粤菜", "酥脆"],
-    fame: "地方名吃",
+    fame: "名菜",
     popularRegions: ["广东"],
     lat: 23.1789,
     lng: 112.4549,
@@ -1272,7 +1272,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
   {
     id: "city-south-huizhou-2",
     name: "八宝窝全鸭",
-    alias: ["八宝鸭"],
+    alias: [],
     image: "https://img0.baidu.com/it/u=615617761,1523684683&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=618",
     category: "主菜",
     taste: "咸鲜",
@@ -1315,7 +1315,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["广东"],
     lat: 24.2884,
     lng: 116.1228,
-    popularity: 5,
+    popularity: 7,
   },
   // ========== 广东·汕尾 ==========
   {
@@ -1435,7 +1435,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["广东"],
     lat: 21.858,
     lng: 111.9821,
-    popularity: 4,
+    popularity: 5,
   },
   {
     id: "city-south-yangjiang-2",
@@ -1454,11 +1454,11 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     ingredients: ["豆芽", "牛肉", "芝麻"],
     cookingMethod: ["蒸", "卷"],
     tags: ["猪肠碌", "阳江名吃", "小吃", "肠粉", "粤菜"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["广东"],
     lat: 21.8595,
     lng: 111.9848,
-    popularity: 5,
+    popularity: 6,
   }
 
   // ========== 广东·清远 ==========
@@ -1534,7 +1534,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["广东"],
     lat: 22.5198,
     lng: 113.3885,
-    popularity: 3,
+    popularity: 6,
   },
 
   // ========== 广东·潮州 ==========
@@ -1559,7 +1559,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["广东"],
     lat: 23.6568,
     lng: 116.6226,
-    popularity: 6,
+    popularity: 7,
   },
   {
     id: "city-south-chaozhou-2",
@@ -1711,7 +1711,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["广西"],
     lat: 23.4767,
     lng: 111.2791,
-    popularity: 3,
+    popularity: 5,
   },
   {
     id: "city-south-wuzhou-2",
@@ -1755,11 +1755,11 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     ingredients: ["大米", "虾", "盐"],
     cookingMethod: ["炸"],
     tags: ["虾饼", "北海名吃", "小吃", "海鲜", "桂菜"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["广西"],
     lat: 21.4812,
     lng: 109.1197,
-    popularity: 3,
+    popularity: 5,
   },
   {
     id: "city-south-beihai-2",
@@ -2074,8 +2074,50 @@ export const FOODS_CITIES_SOUTH: Food[] = [
   },
 
   // ========== 广西·河池 ==========
-  // 「环江香牛」已合并至「环江香牛扣」(batch9-gx-25)
-  // 「巴马香猪」已合并至「烤巴马香猪」(batch9-gx-24)
+  {
+    id: "city-south-hechi-1",
+    name: "环江香牛",
+    alias: ["毛南香牛", "环江菜牛", "下南菜牛"],
+    image: "https://img2.baidu.com/it/u=2401346967,3732636239&fm=253&fmt=auto&app=138&f=JPEG?w=711&h=500",
+    category: "物产",
+    taste: "鲜香",
+    type: "traditional",
+    cuisine: "桂菜",
+    province: "广西",
+    city: "河池",
+    origin: "广西河池市环江毛南族自治县",
+    description: "环江香牛是广西环江毛南族自治县特产，国家地理标志产品。2008年环江县被授予「中国菜牛之乡」称号。环江香牛以毛南族传统饲养方法育肥，肉质细嫩，三隔肉相间，脂肪沉积丰富，味道鲜美，是毛南族传统宴席上的珍品。",
+    ingredients: ["牛肉"],
+    cookingMethod: [],
+    tags: ["地理标志", "特产", "物产", "毛南族"],
+    fame: "地方名吃",
+    popularRegions: ["广西"],
+    lat: 24.83,
+    lng: 108.26,
+    popularity: 5,
+  },
+  {
+    id: "city-south-hechi-2",
+    name: "巴马香猪",
+    alias: ["冬瓜猪", "芭蕉猪", "两头乌"],
+    image: "https://img1.baidu.com/it/u=533181029,363058933&fm=253&fmt=auto&app=120&f=JPEG?w=753&h=500",
+    category: "物产",
+    taste: "鲜香",
+    type: "traditional",
+    cuisine: "桂菜",
+    province: "广西",
+    city: "河池",
+    origin: "广西河池市巴马瑶族自治县",
+    description: "巴马香猪是广西巴马瑶族自治县特产，国家地理标志产品。1982年正式命名为「巴马香猪」，1995年巴马县被授予「中国香猪之乡」称号。巴马香猪历史悠久，曾为宋朝皇室贡品，以体型矮小、肉质鲜嫩、骨细皮薄、清香甘醇著称，是制作烤香猪、腊香猪等美食的上乘原料。",
+    ingredients: ["猪肉"],
+    cookingMethod: [],
+    tags: ["地理标志", "特产", "物产", "贡品"],
+    fame: "热门",
+    popularRegions: ["广西"],
+    lat: 24.14,
+    lng: 107.253,
+    popularity: 7,
+  },
 
   // ========== 广西·来宾 ==========
   {
@@ -2339,7 +2381,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["海南"],
     lat: 19.7782,
     lng: 110.6721,
-    popularity: 3,
+    popularity: 5,
   },
 
   // ========== 海南·琼海 ==========
@@ -2394,7 +2436,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
   {
     id: "city-south-wanning-1",
     name: "大洲岛燕窝",
-    alias: ["燕窝"],
+    alias: [],
     image: "https://img1.baidu.com/it/u=1792136336,1361506524&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1063",
     category: "甜品",
     taste: "甜",
@@ -2460,7 +2502,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["海南"],
     lat: 18.7781,
     lng: 109.5189,
-    popularity: 4,
+    popularity: 5,
   },
 
   // ========== 海南·东方 ==========
@@ -2485,7 +2527,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["海南"],
     lat: 19.0951,
     lng: 108.6537,
-    popularity: 4,
+    popularity: 5,
   },
   {
     id: "city-south-dongfang-2",
@@ -2554,11 +2596,11 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     ingredients: ["糯米", "糖", "猪肉", "核桃"],
     cookingMethod: ["炸", "压"],
     tags: ["糕点", "川菜", "伴手礼", "香甜"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["重庆"],
     lat: 29.2902,
     lng: 106.2573,
-    popularity: 3,
+    popularity: 4,
   },
   {
     id: "city-south-jiangjin-2",
@@ -2602,11 +2644,11 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     ingredients: ["糯米", "核桃", "糖", "猪肉"],
     cookingMethod: ["蒸", "切"],
     tags: ["桃片", "糕点", "川菜", "香甜", "名产"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["重庆"],
     lat: 29.9722,
     lng: 106.2761,
-    popularity: 3,
+    popularity: 4,
   },
   {
     id: "city-south-hechuan-2",
@@ -2629,7 +2671,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["重庆"],
     lat: 29.9722,
     lng: 106.2761,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 重庆·永川 ==========
@@ -2702,7 +2744,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["重庆"],
     lat: 29.7068,
     lng: 105.7173,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 重庆·璧山 ==========
@@ -2796,16 +2838,16 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     ingredients: ["笋", "辣椒", "蒜"],
     cookingMethod: ["炒"],
     tags: ["方竹笋", "金佛山", "川菜", "山珍", "咸鲜", "嫩滑"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["重庆"],
     lat: 29.1566,
     lng: 107.0984,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "city-south-nanchuan-2",
     name: "南川糯米鸭",
-    alias: ["八宝鸭"],
+    alias: [],
     image: "https://img2.baidu.com/it/u=217620460,921729809&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=666",
     category: "主菜",
     taste: "咸鲜",
@@ -2823,7 +2865,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["重庆"],
     lat: 29.1566,
     lng: 107.0984,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 重庆·綦江 ==========
@@ -2871,7 +2913,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["重庆"],
     lat: 29.0291,
     lng: 106.6514,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 重庆·铜梁 ==========
@@ -2901,7 +2943,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
   {
     id: "city-south-tongliang-2",
     name: "铜梁泡凤爪",
-    alias: ["凤爪"],
+    alias: [],
     image: "https://img0.baidu.com/it/u=1197289078,2974145196&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1067",
     category: "小吃",
     taste: "酸辣",
@@ -2940,11 +2982,11 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     ingredients: ["兔肉", "辣椒", "花椒", "姜"],
     cookingMethod: ["炒", "收汁"],
     tags: ["川菜", "麻辣", "小吃", "兔肉", "嫩滑"],
-    fame: "地方名吃",
+    fame: "名菜",
     popularRegions: ["四川"],
     lat: 29.3392,
     lng: 104.7784,
-    popularity: 5,
+    popularity: 7,
   },
   
 
@@ -2966,11 +3008,11 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     ingredients: ["米粉", "羊肉", "香菜", "辣椒"],
     cookingMethod: ["炖", "煮"],
     tags: ["羊肉米线", "川菜", "面食", "早餐", "咸鲜", "酥脆"],
-    fame: "地方名吃",
+    fame: "名菜",
     popularRegions: ["四川"],
     lat: 26.5824,
     lng: 101.7188,
-    popularity: 6,
+    popularity: 7,
   },
 
   // ========== 四川·泸州 ==========
@@ -2995,7 +3037,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["四川"],
     lat: 28.8707,
     lng: 105.4425,
-    popularity: 4,
+    popularity: 5,
   },
   {
     id: "city-south-luzhou-2",
@@ -3018,7 +3060,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["四川"],
     lat: 28.8707,
     lng: 105.4425,
-    popularity: 4,
+    popularity: 5,
   },
 
   // ========== 四川·德阳 ==========
@@ -3043,7 +3085,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["四川"],
     lat: 31.1278,
     lng: 104.3981,
-    popularity: 5,
+    popularity: 6,
   },
   {
     id: "city-south-deyang-2",
@@ -3088,11 +3130,11 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     ingredients: ["莲藕", "土豆", "豆腐"],
     cookingMethod: ["煮", "拌"],
     tags: ["川菜", "小吃", "麻辣", "粘糯"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["四川"],
     lat: 31.468,
     lng: 104.6796,
-    popularity: 5,
+    popularity: 6,
   },
 
   // ========== 四川·广元 ==========
@@ -3209,11 +3251,11 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     ingredients: ["牛肉", "红油", "香菜", "芽菜"],
     cookingMethod: ["炖", "煮", "拌"],
     tags: ["牛肉面", "川菜", "面食", "麻辣", "早餐", "嫩滑", "劲道"],
-    fame: "地方名吃",
+    fame: "名菜",
     popularRegions: ["四川"],
     lat: 29.5802,
     lng: 105.0586,
-    popularity: 6,
+    popularity: 7,
   },
   {
     id: "city-south-neijiang-2",
@@ -3257,11 +3299,11 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     ingredients: ["鸭肉", "糖"],
     cookingMethod: ["卤", "刷"],
     tags: ["川菜", "香甜", "名菜", "伴手礼", "劲道"],
-    fame: "地方名吃",
+    fame: "名菜",
     popularRegions: ["四川"],
     lat: 29.5527,
     lng: 103.8364,
-    popularity: 6,
+    popularity: 7,
   },
 
   // ========== 四川·南充 ==========
@@ -3286,7 +3328,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["四川"],
     lat: 30.8373,
     lng: 106.1105,
-    popularity: 5,
+    popularity: 6,
   },
   {
     id: "city-south-nanchong-2",
@@ -3305,11 +3347,11 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     ingredients: ["豌豆", "红油", "豆豉", "蒜"],
     cookingMethod: ["熬", "切", "拌"],
     tags: ["川菜", "小吃", "麻辣", "名产", "嫩滑", "劲道"],
-    fame: "地方名吃",
+    fame: "名菜",
     popularRegions: ["四川"],
     lat: 30.8373,
     lng: 106.1105,
-    popularity: 5,
+    popularity: 7,
   },
 
   // ========== 四川·眉山 ==========
@@ -3330,11 +3372,11 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     ingredients: ["猪肉", "糖", "酱油"],
     cookingMethod: ["炖", "卤"],
     tags: ["川菜", "咸鲜", "名菜", "苏东坡"],
-    fame: "地方名吃",
+    fame: "名菜",
     popularRegions: ["四川"],
     lat: 30.0491,
     lng: 103.8313,
-    popularity: 6,
+    popularity: 7,
   },
   {
     id: "city-south-meishan-2",
@@ -3378,11 +3420,11 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     ingredients: ["红油", "芽菜", "花生", "芝麻"],
     cookingMethod: ["煮", "拌"],
     tags: ["川菜", "面食", "麻辣", "名产", "酥脆", "嫩滑"],
-    fame: "地方名吃",
+    fame: "名菜",
     popularRegions: ["四川"],
     lat: 28.7513,
     lng: 104.6308,
-    popularity: 6,
+    popularity: 8,
   },
   {
     id: "city-south-yibin-2",
@@ -3501,7 +3543,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["四川"],
     lat: 31.209,
     lng: 107.4682,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 四川·雅安 ==========
@@ -3522,11 +3564,11 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     ingredients: ["鱼肉", "豆腐", "香菇", "姜"],
     cookingMethod: ["炖"],
     tags: ["川菜", "咸鲜", "砂锅", "名菜", "劲道"],
-    fame: "地方名吃",
+    fame: "名菜",
     popularRegions: ["四川"],
     lat: 29.9773,
     lng: 102.9706,
-    popularity: 6,
+    popularity: 7,
   },
   {
     id: "city-south-yaan-2",
@@ -3622,7 +3664,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["四川"],
     lat: 30.1222,
     lng: 104.6279,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "city-south-ziyang-2",
@@ -3641,11 +3683,11 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     ingredients: ["羊肉", "姜", "胡椒"],
     cookingMethod: ["炖"],
     tags: ["简阳", "川菜", "汤羹", "咸鲜", "嫩滑"],
-    fame: "地方名吃",
+    fame: "名菜",
     popularRegions: ["四川"],
     lat: 30.1222,
     lng: 104.6279,
-    popularity: 6,
+    popularity: 8,
   },
 
   // ========== 四川·凉山 ==========
@@ -3670,7 +3712,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["四川"],
     lat: 27.8869,
     lng: 102.2645,
-    popularity: 6,
+    popularity: 7,
   },
 
   // ========== 四川·甘孜 ==========
@@ -3695,7 +3737,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["四川"],
     lat: 30.0486,
     lng: 101.9625,
-    popularity: 4,
+    popularity: 5,
   },
   {
     id: "city-south-ganzi-2",
@@ -3718,7 +3760,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["四川"],
     lat: 30.0486,
     lng: 101.9625,
-    popularity: 3,
+    popularity: 5,
   },
 
   // ========== 四川·阿坝 ==========
@@ -3768,7 +3810,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["贵州"],
     lat: 26.5931,
     lng: 104.8333,
-    popularity: 4,
+    popularity: 5,
   },
 
   // ========== 贵州·遵义 ==========
@@ -3793,7 +3835,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["贵州"],
     lat: 27.6866,
     lng: 106.8702,
-    popularity: 2,
+    popularity: 5,
   },
 
   // ========== 贵州·安顺 ==========
@@ -3818,7 +3860,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["贵州"],
     lat: 26.2459,
     lng: 105.9462,
-    popularity: 4,
+    popularity: 6,
   },
   {
     id: "city-south-anshun-2",
@@ -3841,7 +3883,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["贵州"],
     lat: 26.2459,
     lng: 105.9462,
-    popularity: 4,
+    popularity: 6,
   },
 
   // ========== 贵州·毕节 ==========
@@ -3862,11 +3904,11 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     ingredients: ["荞麦", "猪肉", "糖", "芝麻"],
     cookingMethod: ["烤"],
     tags: ["荞酥", "威宁", "黔菜", "糕点", "香甜"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["贵州"],
     lat: 27.2825,
     lng: 105.2847,
-    popularity: 2,
+    popularity: 4,
   },
   {
     id: "city-south-bijie-2",
@@ -3889,7 +3931,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["贵州"],
     lat: 27.2825,
     lng: 105.2847,
-    popularity: 3,
+    popularity: 5,
   },
 
   // ========== 贵州·铜仁 ==========
@@ -3914,7 +3956,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["贵州"],
     lat: 27.7183,
     lng: 109.1896,
-    popularity: 4,
+    popularity: 5,
   },
   {
     id: "city-south-tongren-2",
@@ -3933,11 +3975,11 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     ingredients: ["豆腐", "五香粉", "酱油", "盐"],
     cookingMethod: ["压", "卤"],
     tags: ["豆腐干", "江口", "黔菜", "腌", "咸鲜"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["贵州"],
     lat: 27.7183,
     lng: 109.1896,
-    popularity: 3,
+    popularity: 4,
   },
 
   // ========== 贵州·黔西南 ==========
@@ -3962,7 +4004,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["贵州"],
     lat: 25.0882,
     lng: 104.9063,
-    popularity: 4,
+    popularity: 5,
   },
   {
     id: "city-south-qianxinan-2",
@@ -3985,7 +4027,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["贵州"],
     lat: 25.0882,
     lng: 104.9063,
-    popularity: 4,
+    popularity: 5,
   },
 
   // ========== 贵州·黔东南 ==========
@@ -4010,7 +4052,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["贵州"],
     lat: 26.5835,
     lng: 107.9829,
-    popularity: 4,
+    popularity: 5,
   },
 
   // ========== 贵州·黔南 ==========
@@ -4031,11 +4073,11 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     ingredients: ["青菜", "蒜", "辣椒", "盐"],
     cookingMethod: ["腌", "发酵"],
     tags: ["盐酸菜", "独山", "黔菜", "腌", "酸辣", "劲道"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["贵州"],
     lat: 26.2566,
     lng: 107.5418,
-    popularity: 3,
+    popularity: 4,
   },
   // 「黔南虾酸」已合并至「独山虾酸牛肉」(batch10-qian-4) - 同地同物异名
 
@@ -4069,29 +4111,30 @@ export const FOODS_CITIES_SOUTH: Food[] = [
   },
 
   // ========== 云南·保山 ==========
-  {
-    id: "city-south-baoshan-1",
-    name: "保山大救驾",
-    alias: ["大救驾", "腾冲炒饵块"],
-    image: "https://img0.baidu.com/it/u=588862617,3163135822&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=653",
-    category: "主食",
-    taste: "鲜香",
-    type: "traditional",
-    cuisine: "滇菜",
-    province: "云南",
-    city: "保山",
-    origin: "云南保山腾冲，据说源于南明",
-    description:
-      "保山大救驾以饵块切片配火腿、鸡蛋、番茄、青菜炒制。饵块软糯，配料丰富，咸鲜微酸。相传永历帝逃难至此，食后赞「真乃大救驾也」故名。是腾冲名菜，与饵块、稀豆粉并称「腾冲三宝」。承载南明历史记忆。",
-    ingredients: ["饵块", "火腿", "鸡蛋", "番茄", "青菜"],
-    cookingMethod: ["炒"],
-    tags: ["腾冲", "滇菜", "主食", "咸鲜"],
-    fame: "地方名吃",
-    popularRegions: ["云南"],
-    lat: 25.112,
-    lng: 99.1617,
-    popularity: 4,
-  },
+  // 「city-south-baoshan-1」已合并至「famous-84」- 保山大救驾与腾冲大救驾实为同一道菜。WebSearch 验证：大救驾发源于保山市腾冲市（腾冲为保山下辖市），传为南明永历
+  //   {
+  //     id: "city-south-baoshan-1",
+  //     name: "保山大救驾",
+  //     alias: ["大救驾", "腾冲炒饵块"],
+  //     image: "https://img0.baidu.com/it/u=588862617,3163135822&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=653",
+  //     category: "主食",
+  //     taste: "鲜香",
+  //     type: "traditional",
+  //     cuisine: "滇菜",
+  //     province: "云南",
+  //     city: "保山",
+  //     origin: "云南保山腾冲，据说源于南明",
+  //     description:
+  //       "保山大救驾以饵块切片配火腿、鸡蛋、番茄、青菜炒制。饵块软糯，配料丰富，咸鲜微酸。相传永历帝逃难至此，食后赞「真乃大救驾也」故名。是腾冲名菜，与饵块、稀豆粉并称「腾冲三宝」。承载南明历史记忆。",
+  //     ingredients: ["饵块", "火腿", "鸡蛋", "番茄", "青菜"],
+  //     cookingMethod: ["炒"],
+  //     tags: ["腾冲", "滇菜", "主食", "咸鲜"],
+  //     fame: "地方名吃",
+  //     popularRegions: ["云南"],
+  //     lat: 25.112,
+  //     lng: 99.1617,
+  //     popularity: 4,
+  //   },
   {
     id: "city-south-baoshan-2",
     name: "保山火烧肉",
@@ -4160,11 +4203,11 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     ingredients: ["猪肉", "盐", "花椒"],
     cookingMethod: ["腌", "干制", "炖"],
     tags: ["腊排骨", "滇菜", "腌", "咸鲜", "纳西族", "粘糯"],
-    fame: "地方名吃",
+    fame: "名菜",
     popularRegions: ["云南"],
     lat: 26.8721,
     lng: 100.2257,
-    popularity: 3,
+    popularity: 7,
   },
   {
     id: "city-south-lijiang-2",
@@ -4238,7 +4281,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["云南"],
     lat: 23.877,
     lng: 100.0899,
-    popularity: 4,
+    popularity: 6,
   },
   
 
@@ -4342,7 +4385,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
   {
     id: "city-south-dali-1",
     name: "大理乳扇",
-    alias: ["乳扇", "奶酪"],
+    alias: ["乳扇"],
     image: "https://img2.baidu.com/it/u=550586865,2078851971&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=632",
     category: "小吃",
     taste: "酸甜",
@@ -4356,11 +4399,11 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     ingredients: ["牛奶", "玫瑰"],
     cookingMethod: ["发酵", "压", "晾"],
     tags: ["滇菜", "小吃", "酸甜", "白族", "酥脆"],
-    fame: "地方名吃",
+    fame: "名菜",
     popularRegions: ["云南"],
     lat: 25.6065,
     lng: 100.2679,
-    popularity: 4,
+    popularity: 7,
   },
   {
     id: "city-south-dali-2",
@@ -4427,11 +4470,11 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     ingredients: ["椰子", "面包糠", "西米"],
     cookingMethod: ["泡", "冰"],
     tags: ["滇菜", "甜品", "香甜", "东南亚", "粘糯"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["云南"],
     lat: 24.4364,
     lng: 98.5854,
-    popularity: 3,
+    popularity: 6,
   },
 
   // ========== 云南·怒江 ==========
@@ -4688,7 +4731,8 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     "id": "city-south-zhengzhou-1",
     "name": "烩面",
     "alias": [
-      "河南烩面"
+      "河南烩面",
+      "合记烩面"
     ],
     "image": "https://pic.nximg.cn/file/20250720/9253934_110632427102_2.jpg",
     "category": "面食",
@@ -4702,10 +4746,10 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     "ingredients": ["面粉", "羊肉", "木耳", "粉丝"],
     "cookingMethod": ["扯", "炖", "煮"],
     "tags": ["烩面", "豫菜", "羊肉汤", "宽面", "主食", "酥脆"],
-    "fame": "地方名吃",
+    "fame": "名菜",
     "lat": 34.7466,
     "lng": 113.6253,
-    "popularity": 8
+    "popularity": 7
   },
   {
     "id": "city-south-guangzhou-1",
@@ -4725,10 +4769,10 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     "ingredients": ["面粉", "虾", "猪肉", "鱼肉", "韭黄"],
     "cookingMethod": ["包", "煮"],
     "tags": ["云吞面", "粤菜", "虾饺", "汤面", "清淡"],
-    "fame": "地方名吃",
+    "fame": "名菜",
     "lat": 23.1291,
     "lng": 113.2644,
-    "popularity": 5
+    "popularity": 7
   },
   {
     "id": "city-south-shenzhen-1",
@@ -4746,10 +4790,10 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     "ingredients": ["鸡肉", "盐", "姜", "荔枝"],
     "cookingMethod": ["腌", "烤"],
     "tags": ["窑鸡", "粤菜", "客家菜", "土鸡", "炭烤"],
-    "fame": "地方名吃",
+    "fame": "热门",
     "lat": 22.5431,
     "lng": 114.0579,
-    "popularity": 6
+    "popularity": 7
   },
 
   {
@@ -4766,10 +4810,10 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     "ingredients": ["芥菜", "盐", "醪糟", "糖"],
     "cookingMethod": ["腌", "发酵"],
     "tags": ["腌菜", "镇远", "咸鲜", "发酵", "贡品"],
-    "fame": "地方名吃",
+    "fame": "普通",
     "lat": 27.0531,
     "lng": 108.4262,
-    "popularity": 3,
+    "popularity": 4,
     "image": "https://img0.baidu.com/it/u=2407344407,3247769090&fm=253&fmt=auto&app=138&f=JPEG?w=750&h=500"
   },
   {

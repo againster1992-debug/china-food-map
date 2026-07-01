@@ -1,4 +1,4 @@
-﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
 
 // 中国各地特产食材、发酵食品、调味品
 export const FOODS_INGREDIENTS: Food[] = [
@@ -94,7 +94,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["贵州", "四川", "云南"],
     lat: 26.66,
     lng: 105.77,
-    popularity: 6,
+    popularity: 7,
   },
   {
     id: "ingredient-7",
@@ -113,11 +113,11 @@ export const FOODS_INGREDIENTS: Food[] = [
     ingredients: ["银耳", "木耳", "莲子", "糖"],
     cookingMethod: ["炖", "蒸", "煮"],
     tags: ["特产食材", "菌菇", "银耳", "古田", "滋补", "爽脆"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["福建", "全国"],
     lat: 26.58,
     lng: 118.74,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "ingredient-8",
@@ -182,11 +182,11 @@ export const FOODS_INGREDIENTS: Food[] = [
     ingredients: ["香菇"],
     cookingMethod: ["炖", "炒", "蒸"],
     tags: ["特产食材", "菌菇", "香菇", "庆元", "粘糯", "嫩滑"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["浙江", "全国"],
     lat: 27.45,
     lng: 119.06,
-    popularity: 7,
+    popularity: 6,
   },
 
   // ========== 水产类 ==========
@@ -236,29 +236,30 @@ export const FOODS_INGREDIENTS: Food[] = [
     lng: 116.32,
     popularity: 5,
   },
-  {
-    id: "ingredient-13",
-    name: "洪泽湖小龙虾",
-    alias: ["盱眙小龙虾", "克氏原螯虾"],
-    image: "https://img0.baidu.com/it/u=504658461,3416826562&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=662",
-    category: "主菜",
-    taste: "麻辣",
-    type: "traditional",
-    cuisine: "其他",
-    province: "江苏",
-    city: "淮安",
-    origin: "江苏省淮安市盱眙县洪泽湖",
-    description:
-      "洪泽湖小龙虾以盱眙所产为佳，个大体肥，肉质紧实，是国家地理标志产品。盱眙地处洪泽湖畔，水质清澈，水草丰茂，所产小龙虾「腹白壳红，肉质鲜甜」。盱眙龙虾节每年举办，吸引全国食客。十三香龙虾是盱眙独创，以十三味中药材烹制，麻辣鲜香，回味悠长。是江苏名片，「盱眙龙虾」象征中国小龙虾产业，体现洪泽湖生态与水产养殖智慧，是夏日宵夜的味觉代表，承载盱眙龙虾文化。",
-    ingredients: ["鱼肉", "虾"],
-    cookingMethod: ["烧", "煮", "炒"],
-    tags: ["特产食材", "水产", "小龙虾", "盱眙", "麻辣", "主菜", "江苏"],
-    fame: "名菜",
-    popularRegions: ["江苏", "全国"],
-    lat: 33.0,
-    lng: 118.49,
-    popularity: 8,
-  },
+  // 「ingredient-13」已合并至「gen-f-2025-112」- 洪泽湖小龙虾与盱眙龙虾为同物异名，盱眙龙虾为国家地理标志产品且名称更通用，ingredient-13别称已含"盱眙小龙虾
+  //   {
+  //     id: "ingredient-13",
+  //     name: "洪泽湖小龙虾",
+  //     alias: ["盱眙小龙虾", "克氏原螯虾"],
+  //     image: "https://img0.baidu.com/it/u=504658461,3416826562&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=662",
+  //     category: "主菜",
+  //     taste: "麻辣",
+  //     type: "traditional",
+  //     cuisine: "其他",
+  //     province: "江苏",
+  //     city: "淮安",
+  //     origin: "江苏省淮安市盱眙县洪泽湖",
+  //     description:
+  //       "洪泽湖小龙虾以盱眙所产为佳，个大体肥，肉质紧实，是国家地理标志产品。盱眙地处洪泽湖畔，水质清澈，水草丰茂，所产小龙虾「腹白壳红，肉质鲜甜」。盱眙龙虾节每年举办，吸引全国食客。十三香龙虾是盱眙独创，以十三味中药材烹制，麻辣鲜香，回味悠长。是江苏名片，「盱眙龙虾」象征中国小龙虾产业，体现洪泽湖生态与水产养殖智慧，是夏日宵夜的味觉代表，承载盱眙龙虾文化。",
+  //     ingredients: ["鱼肉", "虾"],
+  //     cookingMethod: ["烧", "煮", "炒"],
+  //     tags: ["特产食材", "水产", "小龙虾", "盱眙", "麻辣", "主菜", "江苏"],
+  //     fame: "热门",
+  //     popularRegions: ["江苏", "全国"],
+  //     lat: 33.0,
+  //     lng: 118.49,
+  //     popularity: 8,
+  //   },
   
   {
     id: "ingredient-15",
@@ -327,11 +328,11 @@ export const FOODS_INGREDIENTS: Food[] = [
     ingredients: ["猪肉", "火腿"],
     cookingMethod: ["腌", "炖", "炒"],
     tags: ["特产食材", "畜禽", "猪种", "嫩滑", "劲道"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["浙江", "全国"],
     lat: 29.08,
     lng: 119.65,
-    popularity: 7,
+    popularity: 5,
   },
   {
     id: "ingredient-20",
@@ -373,15 +374,15 @@ export const FOODS_INGREDIENTS: Food[] = [
     ingredients: ["猪肉"],
     cookingMethod: ["炒", "炖", "烧"],
     tags: ["特产食材", "畜禽", "猪种", "荣昌", "嫩滑"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["重庆", "四川"],
     lat: 29.4,
     lng: 105.59,
-    popularity: 5,
+    popularity: 4,
   },
   {
     id: "ingredient-22",
-    name: "油鸡",
+    name: "北京油鸡",
     alias: ["中华宫廷黄鸡"],
     image: "https://img1.baidu.com/it/u=325584011,1558172310&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1422",
     category: "其他",
@@ -396,7 +397,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     ingredients: ["鸡肉"],
     cookingMethod: ["炖", "蒸", "烧"],
     tags: ["特产食材", "畜禽", "鸡种", "嫩滑", "咸鲜", "其他", "北京"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["北京", "全国"],
     lat: 39.9,
     lng: 116.41,
@@ -419,11 +420,11 @@ export const FOODS_INGREDIENTS: Food[] = [
     ingredients: ["鸡肉", "枸杞"],
     cookingMethod: ["炖", "蒸", "煮"],
     tags: ["特产食材", "畜禽", "泰和", "滋补", "嫩滑"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["江西", "全国"],
     lat: 26.79,
     lng: 114.91,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "ingredient-26",
@@ -467,7 +468,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     ingredients: ["姜", "糖"],
     cookingMethod: ["腌", "煮"],
     tags: ["特产食材", "蔬菜", "生姜", "嫩滑", "咸鲜", "其他", "山东"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["山东", "全国"],
     lat: 36.21,
     lng: 117.66,
@@ -513,11 +514,11 @@ export const FOODS_INGREDIENTS: Food[] = [
     ingredients: ["蒜"],
     cookingMethod: ["腌"],
     tags: ["特产食材", "蔬菜", "大蒜", "金乡", "鲜香", "其他", "山东"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["山东", "全国"],
     lat: 35.07,
     lng: 116.31,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "ingredient-30",
@@ -585,11 +586,11 @@ export const FOODS_INGREDIENTS: Food[] = [
     ingredients: ["黄豆", "豆腐", "豆芽", "酱油"],
     cookingMethod: ["煮", "磨", "发酵"],
     tags: ["特产食材", "豆类", "大豆", "东北", "嫩滑"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["黑龙江", "吉林", "辽宁"],
     lat: 45.8,
     lng: 126.53,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "ingredient-34",
@@ -660,7 +661,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["浙江", "全国"],
     lat: 30.24,
     lng: 120.13,
-    popularity: 8,
+    popularity: 9,
   },
   {
     id: "ingredient-42",
@@ -683,7 +684,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["安徽", "全国"],
     lat: 30.13,
     lng: 118.16,
-    popularity: 7,
+    popularity: 8,
   },
 
   // ========== 发酵食品 - 酱类 ==========
@@ -829,29 +830,30 @@ export const FOODS_INGREDIENTS: Food[] = [
     lng: 119.41,
     popularity: 6,
   },
-  {
-    id: "ingredient-58",
-    name: "朝鲜族泡菜",
-    alias: ["泡菜", "辣白菜"],
-    image: "https://img2.baidu.com/it/u=3795691402,712763851&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=889",
-    category: "腌腊",
-    taste: "酸辣",
-    type: "traditional",
-    cuisine: "其他",
-    province: "吉林",
-    city: "延边",
-    origin: "吉林省延边朝鲜族自治州",
-    description:
-      "朝鲜族泡菜以延边所产为佳，色泽红亮，脆嫩爽口，酸辣开胃，是国家地理标志产品。朝鲜族泡菜以白菜、萝卜为原料，加辣椒粉、蒜、姜、鱼露、虾酱等腌制发酵而成，分「辣白菜、萝卜块、桔梗、苏子叶」等数十种。朝鲜族泡菜是朝鲜族主食的灵魂伴侣，配冷面、拌饭、烤肉皆宜。延边朝鲜族泡菜技艺入选非遗，是「辣白菜之乡」的味觉名片。是吉林名片，体现朝鲜族腌制智慧，是东北菜的重要调味，承载延边百年饮食传统。",
-    ingredients: ["白菜", "辣椒", "蒜", "鱼露"],
-    cookingMethod: ["腌", "发酵"],
-    tags: ["发酵食品", "腌", "朝鲜族", "酸辣", "腌腊", "吉林"],
-    fame: "名菜",
-    popularRegions: ["吉林", "辽宁", "黑龙江"],
-    lat: 42.89,
-    lng: 129.47,
-    popularity: 7,
-  },
+  // 「ingredient-58」已合并至「jl-11」- 泡菜/辣白菜重复：ingredient-58「朝鲜族泡菜」(延边) 与 jl-11「延边辣白菜」(延边) 主题高度重复。
+  //   {
+  //     id: "ingredient-58",
+  //     name: "朝鲜族泡菜",
+  //     alias: ["泡菜", "辣白菜"],
+  //     image: "https://img2.baidu.com/it/u=3795691402,712763851&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=889",
+  //     category: "腌腊",
+  //     taste: "酸辣",
+  //     type: "traditional",
+  //     cuisine: "其他",
+  //     province: "吉林",
+  //     city: "延边",
+  //     origin: "吉林省延边朝鲜族自治州",
+  //     description:
+  //       "朝鲜族泡菜以延边所产为佳，色泽红亮，脆嫩爽口，酸辣开胃，是国家地理标志产品。朝鲜族泡菜以白菜、萝卜为原料，加辣椒粉、蒜、姜、鱼露、虾酱等腌制发酵而成，分「辣白菜、萝卜块、桔梗、苏子叶」等数十种。朝鲜族泡菜是朝鲜族主食的灵魂伴侣，配冷面、拌饭、烤肉皆宜。延边朝鲜族泡菜技艺入选非遗，是「辣白菜之乡」的味觉名片。是吉林名片，体现朝鲜族腌制智慧，是东北菜的重要调味，承载延边百年饮食传统。",
+  //     ingredients: ["白菜", "辣椒", "蒜", "鱼露"],
+  //     cookingMethod: ["腌", "发酵"],
+  //     tags: ["发酵食品", "腌", "朝鲜族", "酸辣", "腌腊", "吉林"],
+  //     fame: "名菜",
+  //     popularRegions: ["吉林", "辽宁", "黑龙江"],
+  //     lat: 42.89,
+  //     lng: 129.47,
+  //     popularity: 7,
+  //   },
 
   // ========== 发酵食品 - 醋类 ==========
 
@@ -900,7 +902,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["广西", "全国"],
     lat: 25.27,
     lng: 110.29,
-    popularity: 6,
+    popularity: 7,
   },
   {
     id: "ingredient-64",
@@ -942,7 +944,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     ingredients: ["黍子", "大麦"],
     cookingMethod: ["发酵"],
     tags: ["发酵食品", "酒酿", "黄酒", "香甜", "饮品", "山东"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["山东", "全国"],
     lat: 36.39,
     lng: 120.45,
@@ -954,7 +956,7 @@ export const FOODS_INGREDIENTS: Food[] = [
   {
     id: "ingredient-67",
     name: "客家娘酒",
-    alias: ["客家黄酒", "老酒"],
+    alias: ["客家黄酒"],
     image: "https://img1.baidu.com/it/u=4225019645,1150360892&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=889",
     category: "饮品",
     taste: "香甜",
@@ -1112,11 +1114,11 @@ export const FOODS_INGREDIENTS: Food[] = [
     ingredients: ["花生", "蒜", "辣椒", "虾"],
     cookingMethod: ["熬"],
     tags: ["调味品", "闽南", "香辣", "调料", "福建"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["福建", "台湾"],
     lat: 24.48,
     lng: 118.09,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "ingredient-79",
@@ -1162,7 +1164,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["贵州", "云南"],
     lat: 26.65,
     lng: 106.71,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ingredient-82",
@@ -1185,7 +1187,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["四川", "重庆", "全国"],
     lat: 30.57,
     lng: 104.07,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "ingredient-83",
@@ -1391,11 +1393,11 @@ export const FOODS_INGREDIENTS: Food[] = [
     ingredients: ["糯米", "辣椒", "豆瓣酱", "盐"],
     cookingMethod: ["发酵"],
     tags: ["发酵食品", "酱类", "朝鲜族", "复合", "调料", "吉林"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["吉林", "辽宁", "黑龙江"],
     lat: 42.89,
     lng: 129.51,
-    popularity: 7,
+    popularity: 6,
   },
   
   {
@@ -1415,11 +1417,11 @@ export const FOODS_INGREDIENTS: Food[] = [
     ingredients: ["糯米", "枸杞", "糖"],
     cookingMethod: ["发酵", "蒸"],
     tags: ["发酵食品", "酒类", "香甜", "调料", "四川"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["四川", "江苏", "浙江", "全国"],
     lat: 30.67,
     lng: 104.07,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "ingredient-96",
@@ -1531,11 +1533,11 @@ export const FOODS_INGREDIENTS: Food[] = [
     ingredients: ["花椒", "食用油"],
     cookingMethod: ["熬"],
     tags: ["调味品", "油类", "川菜", "麻辣", "调料", "四川"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["四川", "重庆", "陕西", "全国"],
     lat: 30.67,
     lng: 104.07,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "ingredient-104",
@@ -1600,11 +1602,11 @@ export const FOODS_INGREDIENTS: Food[] = [
     ingredients: ["折耳根", "辣椒", "盐", "蒜"],
     cookingMethod: ["腌", "发酵"],
     tags: ["调味品", "酱类", "折耳根", "黔菜", "复合", "调料", "贵州"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["贵州", "云南", "四川"],
     lat: 26.65,
     lng: 106.71,
-    popularity: 5,
+    popularity: 4,
   },
   {
     id: "ingredient-107",
@@ -1831,7 +1833,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     ],
     "lat": 25.454,
     "lng": 119.0077,
-    "popularity": 7
+    "popularity": 5
   },
   {
     "id": "ingredient-120",
@@ -1964,7 +1966,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     ],
     "lat": 23.4005,
     "lng": 104.1944,
-    "popularity": 7
+    "popularity": 5
   },
   {
     "id": "gen2-f-2025-117",
@@ -1987,33 +1989,34 @@ export const FOODS_INGREDIENTS: Food[] = [
     ],
     "lat": 23.0218,
     "lng": 113.1219,
-    "popularity": 9,
+    "popularity": 10,
     "image": "https://img2.baidu.com/it/u=2417200420,824769534&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=666"
   },
-  {
-    "id": "gen2-f-2025-118",
-    "name": "李锦记蚝油",
-    "category": "调料",
-    "taste": "咸鲜",
-    "type": "popular",
-    "cuisine": "粤菜",
-    "province": "广东",
-    "city": "江门",
-    "origin": "江门新会传统调料，李锦记发明",
-    "description": "李锦记蚝油以鲜蚝熬煮浓缩而成，色泽棕褐，鲜味浓郁，是粤菜提鲜必备调料，李锦记由蚝油起家。",
-    "ingredients": ["鱼肉", "盐"],
-    "cookingMethod": ["煮"],
-    tags: ["蚝油", "粤菜", "调料", "咸鲜", "广东"],
-    "fame": "热门",
-    "popularRegions": [
-      "广东",
-      "全国"
-    ],
-    "lat": 22.4576,
-    "lng": 113.0334,
-    "popularity": 9,
-    "image": "https://img0.baidu.com/it/u=471152653,1429689997&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1422"
-  },
+  // 【已合并】李锦记蚝油已合并至「蚝油」(gen4-f-2025-65, foods-ingredients.ts) - 品牌前缀简化，李锦记蚝油即蚝油，已将"李锦记蚝油"添加为蚝油条目的alias
+  // {
+  //   "id": "gen2-f-2025-118",
+  //   "name": "李锦记蚝油",
+  //   "category": "调料",
+  //   "taste": "咸鲜",
+  //   "type": "popular",
+  //   "cuisine": "粤菜",
+  //   "province": "广东",
+  //   "city": "江门",
+  //   "origin": "江门新会传统调料，李锦记发明",
+  //   "description": "李锦记蚝油以鲜蚝熬煮浓缩而成，色泽棕褐，鲜味浓郁，是粤菜提鲜必备调料，李锦记由蚝油起家。",
+  //   "ingredients": ["蚝", "盐"],
+  //   "cookingMethod": ["煮"],
+  //   tags: ["蚝油", "粤菜", "调料", "咸鲜", "广东"],
+  //   "fame": "热门",
+  //   "popularRegions": [
+  //     "广东",
+  //     "全国"
+  //   ],
+  //   "lat": 22.4576,
+  //   "lng": 113.0334,
+  //   "popularity": 9,
+  //   "image": "https://img0.baidu.com/it/u=471152653,1429689997&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1422"
+  // },
   {
     "id": "gen2-f-2025-120",
     "name": "王守义十三香",
@@ -2040,7 +2043,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     ],
     "lat": 32.9808,
     "lng": 114.0494,
-    "popularity": 8,
+    "popularity": 9,
     "image": "https://img2.baidu.com/it/u=2995819916,870945674&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=607"
   },
   {
@@ -2222,7 +2225,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     ],
     "lat": 29.9822,
     "lng": 102.6522,
-    "popularity": 9,
+    "popularity": 8,
     "image": "https://img0.baidu.com/it/u=1432139433,1753852447&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1067"
   },
   
@@ -2240,7 +2243,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     ingredients: ["辣椒", "辣椒酱"],
     "cookingMethod": ["晒"],
     "tags": ["辣椒", "辣味", "黔菜", "特产", "调料"],
-    "fame": "地方名吃",
+    "fame": "名菜",
     "popularRegions": [
       "贵州",
       "四川",
@@ -2248,12 +2251,13 @@ export const FOODS_INGREDIENTS: Food[] = [
     ],
     "lat": 27.7222,
     "lng": 106.9272,
-    "popularity": 8,
+    "popularity": 7,
     "image": "https://img0.baidu.com/it/u=1461484520,2965481302&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=667"
   },
   {
     "id": "gen4-f-2025-65",
     "name": "蚝油",
+    "alias": ["李锦记蚝油"],
     "category": "调料",
     "taste": "咸鲜",
     "type": "traditional",
@@ -2262,10 +2266,10 @@ export const FOODS_INGREDIENTS: Food[] = [
     "city": "珠海",
     "origin": "广东传统调味品，粤菜提鲜神器",
     "description": "蚝油是广东传统调味品，以蚝（牡蛎）熬制浓缩而成。色泽深褐，质地浓稠，鲜味浓郁，是粤菜中炒菜、焖菜、拌菜提鲜的必备调料。蚝油生菜、蚝油牛肉等是展现蚝油风味的经典菜品。",
-    "ingredients": ["鱼肉", "盐", "糖", "淀粉"],
+    "ingredients": ["蚝", "盐", "糖", "淀粉"],
     "cookingMethod": ["熬", "收汁"],
     tags: ["鲜味", "粤菜", "特产", "调料", "咸鲜", "广东"],
-    "fame": "地方名吃",
+    "fame": "名菜",
     "popularRegions": [
       "广东",
       "全国",
@@ -2273,7 +2277,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     ],
     "lat": 22.2722,
     "lng": 113.5722,
-    "popularity": 9,
+    "popularity": 8,
     "image": "https://img2.baidu.com/it/u=3598651540,2688826668&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=774"
   },
   {
@@ -2297,5 +2301,5 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["四川", "重庆", "贵州"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 6,
+    popularity: 5,
   }];

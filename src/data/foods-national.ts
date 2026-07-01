@@ -23,7 +23,7 @@ export const FOODS_NATIONAL: Food[] = [    {
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 4,
+    popularity: 8,
   },
   {
     id: "national-4",
@@ -45,7 +45,7 @@ export const FOODS_NATIONAL: Food[] = [    {
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 5,
+    popularity: 8,
   },
   {
     id: "national-5",
@@ -67,7 +67,7 @@ export const FOODS_NATIONAL: Food[] = [    {
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 6,
+    popularity: 8,
   },
   {
     id: "national-6",
@@ -85,11 +85,11 @@ export const FOODS_NATIONAL: Food[] = [    {
     ingredients: ["番茄", "鸡蛋", "葱", "盐"],
     cookingMethod: ["炒", "煮"],
     tags: ["国民美食", "家常", "面食", "番茄", "鸡蛋", "全国流行", "爽脆"],
-    fame: "地方名吃",
+    fame: "名菜",
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 5,
+    popularity: 8,
   },  {
     id: "national-8",
     name: "紫菜蛋花汤",
@@ -110,7 +110,7 @@ export const FOODS_NATIONAL: Food[] = [    {
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 4,
+    popularity: 8,
   },
   {
     id: "national-9",
@@ -132,7 +132,7 @@ export const FOODS_NATIONAL: Food[] = [    {
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 5,
+    popularity: 8,
   },
   {
     id: "national-10",
@@ -177,7 +177,7 @@ export const FOODS_NATIONAL: Food[] = [    {
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 5,
+    popularity: 8,
   },
   {
     id: "national-festival-2",
@@ -199,7 +199,7 @@ export const FOODS_NATIONAL: Food[] = [    {
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 3,
+    popularity: 8,
   },
   {
     id: "national-festival-3",
@@ -221,7 +221,7 @@ export const FOODS_NATIONAL: Food[] = [    {
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 3,
+    popularity: 8,
   },
   {
     id: "national-festival-4",
@@ -243,7 +243,7 @@ export const FOODS_NATIONAL: Food[] = [    {
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 5,
+    popularity: 8,
   },  {
     id: "national-festival-6",
     name: "腊八粥",
@@ -260,11 +260,11 @@ export const FOODS_NATIONAL: Food[] = [    {
     ingredients: ["糯米", "红豆", "花生", "红枣", "莲子", "龙眼", "薏米", "核桃"],
     cookingMethod: ["熬", "煮"],
     tags: ["节庆美食", "腊八节", "全国流行", "养生", "粘糯"],
-    fame: "名菜",
+    fame: "热门",
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 4,
+    popularity: 8,
   },
   {
     id: "national-festival-7",
@@ -286,7 +286,7 @@ export const FOODS_NATIONAL: Food[] = [    {
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 3,
+    popularity: 8,
   },
   {
     id: "national-festival-8",
@@ -304,9 +304,9 @@ export const FOODS_NATIONAL: Food[] = [    {
     ingredients: ["面粉", "羊肉", "胡萝卜", "白菜", "猪肉"],
     cookingMethod: ["包", "煮"],
     tags: ["节庆美食", "冬至", "饺子", "节气", "全国流行", "养生"],
-    fame: "地方名吃",
+    fame: "名菜",
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 5,
+    popularity: 8,
   }          ];

@@ -1,41 +1,42 @@
 import type { Food } from "@/types/food";
 
 export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
-{
-  id: "batch24-pcs-0001",
-  name: "喀什天山酸奶粽",
-  image: "https://img0.baidu.com/it/u=440903093,4137613510&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=667",
-  category: "糕点",
-  taste: "酸甜",
-  type: "popular",
-  cuisine: "新疆菜",
-  province: "新疆",
-  city: "喀什",
-  origin: "喀什端午时节流行的酸奶粽子，受维吾尔族冷饮习惯影响。",
-  description: "天山酸奶粽将白粽煮好后压扁，浇上浓稠酸奶与蜂蜜，撒葡萄干。冰凉爽口、酸甜解腻，是喀什夏季巴扎里最受欢迎的消暑甜粽。",
-  ingredients: [
-    "糯米",
-    "酸奶",
-    "蜂蜜",
-    "葡萄干"],
-  cookingMethod: [
-    "煮",
-    "冷藏"],
-  tags: [
-    "酸甜",
-    "糕点",
-    "新疆菜",
-    "新疆",
-    "喀什",
-    "端午粽",
-    "网红"],
-  fame: "热门",
-  popularRegions: [
-    "新疆"],
-  lat: 39.4704,
-  lng: 75.9897,
-  popularity: 8
-},
+  // 「batch24-pcs-0001」已合并至「ethnic-13」- 喀什天山酸奶粽与酸奶粽子为同物异名且带地域前缀+修饰词。两条均描述糯米粽压扁浇酸奶蜂蜜的新疆夏季甜品。batch24-p
+  // {
+  //   id: "batch24-pcs-0001",
+  //   name: "喀什天山酸奶粽",
+  //   image: "https://img0.baidu.com/it/u=440903093,4137613510&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=667",
+  //   category: "糕点",
+  //   taste: "酸甜",
+  //   type: "popular",
+  //   cuisine: "新疆菜",
+  //   province: "新疆",
+  //   city: "喀什",
+  //   origin: "喀什端午时节流行的酸奶粽子，受维吾尔族冷饮习惯影响。",
+  //   description: "天山酸奶粽将白粽煮好后压扁，浇上浓稠酸奶与蜂蜜，撒葡萄干。冰凉爽口、酸甜解腻，是喀什夏季巴扎里最受欢迎的消暑甜粽。",
+  //   ingredients: [
+  //     "糯米",
+  //     "酸奶",
+  //     "蜂蜜",
+  //     "葡萄干"],
+  //   cookingMethod: [
+  //     "煮",
+  //     "冷藏"],
+  //   tags: [
+  //     "酸甜",
+  //     "糕点",
+  //     "新疆菜",
+  //     "新疆",
+  //     "喀什",
+  //     "端午粽",
+  //     "网红"],
+  //   fame: "热门",
+  //   popularRegions: [
+  //     "新疆"],
+  //   lat: 39.4704,
+  //   lng: 75.9897,
+  //   popularity: 8
+  // },
 {
   id: "batch24-pcs-0002",
   name: "腊肠咸粽",
@@ -63,13 +64,13 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "重庆",
     "端午粽",
     "腊肠"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: [
     "重庆",
     "四川"],
   lat: 29.563,
   lng: 106.5516,
-  popularity: 8
+  popularity: 6
 },
 {
   id: "batch24-pcs-0003",
@@ -151,14 +152,14 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "辽宁",
     "沈阳",
     "端午粽"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: [
     "辽宁",
     "吉林",
     "黑龙江"],
   lat: 41.8057,
   lng: 123.4315,
-  popularity: 7
+  popularity: 5
 },
 {
   id: "batch24-pcs-0006",
@@ -280,12 +281,12 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "安徽",
     "黄山",
     "灰汁粽"],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "安徽"],
   lat: 29.7147,
   lng: 118.3375,
-  popularity: 7
+  popularity: 5
 },
 {
   id: "batch24-pcs-0010",
@@ -419,7 +420,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "重庆"],
   lat: 30.5728,
   lng: 104.0668,
-  popularity: 8
+  popularity: 7
 },
 
   {
@@ -456,7 +457,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "广东"],
   lat: 22.3193,
   lng: 114.1694,
-  popularity: 9
+  popularity: 7
 },
 
 {
@@ -540,7 +541,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
   cuisine: "苏菜",
   province: "江苏",
   city: "徐州",
-  origin: "徐州农家以大铁锅炖鸡、贴面饼的吃法。",
+  origin: "徐州",
   description: "江苏徐州地锅鸡以整鸡与土豆、辣椒在铁锅中炖煮，锅边贴一圈薄饼。饼借菜香、菜借饼味，是苏北最具烟火气的农家硬菜。",
   ingredients: ["鸡肉", "土豆", "辣椒", "面粉"],
   cookingMethod: [
@@ -560,7 +561,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "山东"],
   lat: 34.261,
   lng: 117.1848,
-  popularity: 9
+  popularity: 8
 },
 {
   id: "batch24-pcs-0043",
@@ -591,7 +592,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "江苏"],
   lat: 31.2989,
   lng: 120.5853,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch24-pcs-0045",
@@ -617,12 +618,12 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "怀化",
     "芷江鸭",
     "侗族"],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "湖南"],
   lat: 27.55,
   lng: 109.9592,
-  popularity: 8
+  popularity: 6
 },
 {
   id: "batch24-pcs-0048",
@@ -658,41 +659,9 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
   lng: 117.1201,
   popularity: 9
 },
-{
-  id: "batch24-pcs-0050",
-  name: "开洋葱油拌面",
-  image: "https://img1.baidu.com/it/u=37376469,95805227&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1067",
-  category: "面食",
-  taste: "咸鲜",
-  type: "traditional",
-  cuisine: "本帮菜",
-  province: "上海",
-  city: "上海",
-  origin: "上海本帮面食，以虾米熬葱油拌面。",
-  description: "开洋葱油拌面以细面煮熟后拌入炸香的葱油与开洋。葱香四溢、虾鲜提味，是上海弄堂面馆与家宴中简单却经典的碳水满足。",
-  ingredients: [
-    "细面",
-    "开洋",
-    "葱油",
-    "酱油"],
-  cookingMethod: [
-    "煮",
-    "拌"],
-  tags: [
-    "咸鲜",
-    "面食",
-    "本帮菜",
-    "上海",
-    "葱油拌面",
-    "开洋",
-    "传统"],
-  fame: "名菜",
-  popularRegions: [
-    "上海"],
-  lat: 31.2304,
-  lng: 121.4737,
-  popularity: 8
-},
+// 【已合并】开洋葱油拌面已合并至「葱油拌面」(sh-8, foods-east.ts) - 同地同物异名
+// 原条目 batch24-pcs-0050 (开洋葱油拌面) 已删除合并
+,
 {
   id: "batch24-pcs-0051",
   name: "台湾盐酥鸡",
@@ -722,7 +691,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "福建"],
   lat: 25.033,
   lng: 121.5654,
-  popularity: 9
+  popularity: 8
 },
 {
   id: "batch24-pcs-0056",
@@ -752,12 +721,12 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "秀山",
     "绿豆粉",
     "土家"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: [
     "重庆"],
   lat: 29.563,
   lng: 106.5516,
-  popularity: 7
+  popularity: 5
 },
 {
   id: "batch24-pcs-0058",
@@ -803,7 +772,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
   type: "traditional",
   cuisine: "东北菜",
   province: "吉林",
-  city: "吉林",
+  city: "吉林市",
   origin: "吉林乌拉街满族传统铜火锅。",
   description: "吉林乌拉火锅以铜锅炭火慢煮，配酸菜、白肉、血肠与海鲜。汤底醇厚、食材丰富，是满族冬令宴饮与祭祀的传统美食。",
   ingredients: [
@@ -821,14 +790,14 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "满族",
     "火锅"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "吉林",
     "辽宁",
     "黑龙江"],
-  lat: 43.8534,
-  lng: 126.5483,
-  popularity: 7
+  lat: 43.8378,
+  lng: 126.5496,
+  popularity: 6
 },
 {
   id: "batch24-pcs-0060",
@@ -853,14 +822,14 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "哈尔滨",
     "黄米",
     "切糕"],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "黑龙江",
     "吉林",
     "辽宁"],
   lat: 45.8038,
   lng: 126.535,
-  popularity: 7
+  popularity: 5
 },
 {
   id: "batch24-pcs-0061",
@@ -955,12 +924,12 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "马鞍山",
     "茶干",
     "豆干"],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "安徽"],
   lat: 31.67,
   lng: 118.51,
-  popularity: 7
+  popularity: 6
 },
 
 {
@@ -995,7 +964,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "江西"],
   lat: 27.1138,
   lng: 114.9928,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch24-pcs-0066",
@@ -1027,7 +996,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "山东"],
   lat: 36.07,
   lng: 120.38,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch24-pcs-0067",
@@ -1087,12 +1056,12 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "武汉",
     "早餐"
   ],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: [
     "湖北"],
   lat: 30.5928,
   lng: 114.3055,
-  popularity: 7
+  popularity: 6
 },
 
 {
@@ -1148,12 +1117,12 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "黄流",
     "老鸭",
     "白切"],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "海南"],
   lat: 18.7481,
   lng: 109.1739,
-  popularity: 7
+  popularity: 5
 },
 {
   id: "batch24-pcs-0074",
@@ -1184,7 +1153,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "云南"],
   lat: 24.44,
   lng: 98.58,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch24-pcs-0075",
@@ -1210,12 +1179,12 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "汉中",
     "腊肉",
     "烟熏"],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "陕西"],
   lat: 33.07,
   lng: 107.03,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch24-pcs-0077",
@@ -1467,7 +1436,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
   type: "popular",
   cuisine: "东北菜",
   province: "辽宁",
-  city: "岫岩",
+  city: "鞍山",
   origin: "岫岩满族族自治县以山羊熬汤的传统早餐。",
   description: "辽宁岫岩羊汤以本地山羊骨与肉长时间炖煮，汤色乳白、膻味轻。配烧饼食用，暖身驱寒，是辽东山区秋冬季节的硬核早餐。",
   ingredients: [
@@ -1486,12 +1455,12 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "岫岩",
     "羊汤",
     "早餐"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: [
     "辽宁"],
   lat: 40.29,
-  lng: 123.28,
-  popularity: 7
+  lng: 123.52,
+  popularity: 5
 },
 {
   id: "batch24-pcs-0087",
@@ -1572,7 +1541,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
   type: "popular",
   cuisine: "东北菜",
   province: "黑龙江",
-  city: "得莫利",
+  city: "哈尔滨",
   origin: "方正县得莫利村以活鱼炖豆腐粉条的公路美食。",
   description: "黑龙江得莫利炖鱼以松花江活鲤鱼与豆腐、粉条、白菜同炖。汤浓鱼鲜、粉条入味，是哈同公路上司机们最惦念的东北铁锅菜。",
   ingredients: [
@@ -1590,10 +1559,10 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "得莫利",
     "炖鱼",
     "公路美食"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: [
     "黑龙江"],
-  lat: 45.8398,
+  lat: 45.8038,
   lng: 128.8292,
-  popularity: 8
+  popularity: 7
 }];

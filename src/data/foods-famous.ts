@@ -1,4 +1,4 @@
-﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
 
 export const FOODS_FAMOUS: Food[] = [
   // ========== 鲁菜 ==========
@@ -23,7 +23,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["全国"],
     lat: 36.6512,
     lng: 117.12,
-    popularity: 9,
+    popularity: 10,
   },
   {
     id: "famous-2",
@@ -46,7 +46,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["全国"],
     lat: 36.6512,
     lng: 117.12,
-    popularity: 9,
+    popularity: 10,
   },
   {
     id: "famous-3",
@@ -325,7 +325,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["四川", "全国"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "famous-16",
@@ -348,7 +348,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["四川", "全国"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "famous-17",
@@ -443,7 +443,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["广东"],
     lat: 23.0218,
     lng: 113.1219,
-    popularity: 8,
+    popularity: 6,
   },
   {
     id: "famous-22",
@@ -466,7 +466,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 8,
+    popularity: 5,
   },
   {
     id: "famous-23",
@@ -583,7 +583,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["江苏"],
     lat: 33.5097,
     lng: 119.0218,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "famous-28",
@@ -606,7 +606,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["江苏"],
     lat: 32.3946,
     lng: 119.4137,
-    popularity: 8,
+    popularity: 6,
   },
   
   {
@@ -630,7 +630,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["江苏"],
     lat: 33.5097,
     lng: 119.0218,
-    popularity: 8,
+    popularity: 6,
   },
   {
     id: "famous-31",
@@ -653,7 +653,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["江苏"],
     lat: 32.2044,
     lng: 119.4528,
-    popularity: 8,
+    popularity: 6,
   },
 
   // ========== 浙菜 ==========
@@ -678,7 +678,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["浙江"],
     lat: 30.2592,
     lng: 120.1303,
-    popularity: 9,
+    popularity: 7,
   },
   {
     id: "famous-33",
@@ -701,7 +701,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["浙江"],
     lat: 29.0784,
     lng: 119.6472,
-    popularity: 8,
+    popularity: 6,
   },
   {
     id: "famous-34",
@@ -724,7 +724,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["浙江", "江南"],
     lat: 30.2592,
     lng: 120.1303,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "famous-35",
@@ -747,7 +747,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["浙江"],
     lat: 30.0303,
     lng: 120.5848,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "famous-36",
@@ -770,7 +770,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["浙江沿海"],
     lat: 29.8683,
     lng: 121.544,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "famous-37",
@@ -793,7 +793,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["浙江", "杭州", "全国"],
     lat: 30.2592,
     lng: 120.1303,
-    popularity: 9,
+    popularity: 7,
   },
 
   // ========== 闽菜 ==========
@@ -818,7 +818,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["福建"],
     lat: 26.0745,
     lng: 119.2965,
-    popularity: 8,
+    popularity: 6,
   },
   {
     id: "famous-39",
@@ -841,7 +841,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["福建"],
     lat: 26.0745,
     lng: 119.2965,
-    popularity: 8,
+    popularity: 6,
   },
   {
     id: "famous-40",
@@ -864,7 +864,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["福建"],
     lat: 26.0745,
     lng: 119.2965,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "famous-41",
@@ -887,7 +887,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["福建"],
     lat: 26.0745,
     lng: 119.2965,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "famous-42",
@@ -910,7 +910,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["福建"],
     lat: 26.0745,
     lng: 119.2965,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "famous-43",
@@ -954,11 +954,11 @@ export const FOODS_FAMOUS: Food[] = [
     ingredients: ["湘莲", "糖", "龙眼", "樱桃", "银耳"],
     cookingMethod: ["蒸", "煮"],
     tags: ["湘莲", "湘菜经典", "湘潭名菜", "甜品", "养生", "宴席菜"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["湖南"],
     lat: 27.8292,
     lng: 113.0446,
-    popularity: 8,
+    popularity: 6,
   },
   {
     id: "famous-45",
@@ -977,11 +977,11 @@ export const FOODS_FAMOUS: Food[] = [
     ingredients: ["鱼肉", "鸡肉", "猪肉", "火腿", "料酒"],
     cookingMethod: ["煨"],
     tags: ["鱼翅", "湘菜经典", "长沙名菜", "官府菜", "宴席菜", "煨"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["湖南"],
     lat: 28.2278,
     lng: 112.9388,
-    popularity: 8,
+    popularity: 5,
   },
   {
     id: "famous-46",
@@ -1023,11 +1023,11 @@ export const FOODS_FAMOUS: Food[] = [
     ingredients: ["鸡蛋", "蘑菇", "鸡肉", "火腿"],
     cookingMethod: ["蒸", "烧"],
     tags: ["鸡蛋", "湘菜经典", "长沙名菜", "功夫菜", "宴席菜", "清淡"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["湖南"],
     lat: 28.2278,
     lng: 112.9388,
-    popularity: 8,
+    popularity: 5,
   },
   {
     id: "famous-49",
@@ -1075,7 +1075,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["安徽"],
     lat: 29.715,
     lng: 118.3386,
-    popularity: 8,
+    popularity: 6,
   },
   {
     id: "famous-51",
@@ -1098,7 +1098,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["安徽"],
     lat: 29.715,
     lng: 118.3386,
-    popularity: 8,
+    popularity: 6,
   },
   {
     id: "famous-52",
@@ -1121,7 +1121,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["安徽"],
     lat: 29.715,
     lng: 118.3386,
-    popularity: 9,
+    popularity: 6,
   },
   {
     id: "famous-53",
@@ -1140,11 +1140,11 @@ export const FOODS_FAMOUS: Food[] = [
     ingredients: ["豆腐", "虾", "香菇", "笋", "鸡肉"],
     cookingMethod: ["煮"],
     tags: ["豆腐", "徽菜经典", "祁门名菜", "汤羹", "清淡", "宴席菜", "酥脆"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["安徽"],
     lat: 29.715,
     lng: 118.3386,
-    popularity: 8,
+    popularity: 5,
   },
   {
     id: "famous-54",
@@ -1163,11 +1163,11 @@ export const FOODS_FAMOUS: Food[] = [
     ingredients: ["鸡肉", "芥菜", "笋", "酱油", "料酒"],
     cookingMethod: ["烧"],
     tags: ["山鸡", "徽菜经典", "徽州名菜", "山珍", "时令菜", "红烧"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["安徽"],
     lat: 29.715,
     lng: 118.3386,
-    popularity: 8,
+    popularity: 5,
   },
 
   // ========== 京菜 ==========
@@ -1188,7 +1188,7 @@ export const FOODS_FAMOUS: Food[] = [
     ingredients: ["羊肉", "甜面酱", "糖", "醋", "淀粉"],
     cookingMethod: ["炒"],
     tags: ["羊肉", "京菜经典", "宫廷菜", "甜香", "慈禧", "宴席菜"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["北京"],
     lat: 39.9042,
     lng: 116.4074,
@@ -1211,7 +1211,7 @@ export const FOODS_FAMOUS: Food[] = [
     ingredients: ["蛋黄", "绿豆", "糖", "猪肉"],
     cookingMethod: ["炒"],
     tags: ["蛋黄", "京菜经典", "宫廷菜", "甜品", "绝技", "宴席菜", "酥脆", "粘糯"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["北京"],
     lat: 39.9042,
     lng: 116.4074,
@@ -1234,7 +1234,7 @@ export const FOODS_FAMOUS: Food[] = [
     ingredients: ["鱼肉", "淀粉", "糖", "醋", "酱油"],
     cookingMethod: ["炸", "炒"],
     tags: ["鱼肉", "京菜经典", "宫廷菜", "抓炒", "酸甜", "宴席菜", "嫩滑"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["北京"],
     lat: 39.9042,
     lng: 116.4074,
@@ -1280,7 +1280,7 @@ export const FOODS_FAMOUS: Food[] = [
     ingredients: ["虾", "鸡蛋", "火腿", "鸡肉"],
     cookingMethod: ["蒸", "烧"],
     tags: ["虾仁", "京菜经典", "宫廷菜", "造型菜", "慈禧", "宴席菜", "嫩滑"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["北京"],
     lat: 39.9042,
     lng: 116.4074,
@@ -1476,7 +1476,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["内蒙古"],
     lat: 40.8426,
     lng: 111.7511,
-    popularity: 9,
+    popularity: 7,
   },
 
   // ========== 东北菜 ==========
@@ -1499,8 +1499,8 @@ export const FOODS_FAMOUS: Food[] = [
     tags: ["素菜", "东北菜经典", "下饭", "家常菜", "全国流行", "咸鲜", "绵软"],
     fame: "名菜",
     popularRegions: ["全国"],
-    lat: 45.8038,
-    lng: 126.5349,
+    lat: 41.8057,
+    lng: 123.4315,
     popularity: 9,
   },
   {
@@ -1524,7 +1524,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["全国"],
     lat: 41.8057,
     lng: 123.4315,
-    popularity: 7,
+    popularity: 8,
   },
   {
     id: "famous-70",
@@ -1547,7 +1547,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["东北", "全国"],
     lat: 41.8057,
     lng: 123.4315,
-    popularity: 7,
+    popularity: 8,
   },
 
   // ========== 本帮菜 ==========
@@ -1572,7 +1572,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["上海"],
     lat: 31.2304,
     lng: 121.4737,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "famous-72",
@@ -1595,7 +1595,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["上海", "江南"],
     lat: 31.2304,
     lng: 121.4737,
-    popularity: 8,
+    popularity: 7,
   },
 
   // ========== 赣菜 ==========
@@ -1620,7 +1620,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["江西"],
     lat: 27.6229,
     lng: 113.8544,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "famous-74",
@@ -1639,11 +1639,11 @@ export const FOODS_FAMOUS: Food[] = [
     ingredients: ["豆腐", "猪肉", "香菇", "葱", "酱油"],
     cookingMethod: ["烧"],
     tags: ["豆腐", "赣菜经典", "吉安名菜", "家常菜", "嫩滑", "下饭", "酥脆"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["江西"],
     lat: 27.1133,
     lng: 114.9863,
-    popularity: 8,
+    popularity: 5,
   },
 
   // ========== 豫菜 ==========
@@ -1712,11 +1712,11 @@ export const FOODS_FAMOUS: Food[] = [
     ingredients: ["鱼肉", "猪肉", "鸡蛋", "淀粉", "葱"],
     cookingMethod: ["蒸"],
     tags: ["鱼肉", "鄂菜经典", "荆门名菜", "造型菜", "宫廷菜", "宴席菜", "嫩滑"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["湖北"],
     lat: 31.0354,
     lng: 112.2046,
-    popularity: 8,
+    popularity: 6,
   },
   {
     id: "famous-78",
@@ -1789,7 +1789,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["东南亚", "全国"],
     lat: 19.5435,
     lng: 110.7541,
-    popularity: 9,
+    popularity: 8,
   },
   {
     id: "famous-82",
@@ -1808,11 +1808,11 @@ export const FOODS_FAMOUS: Food[] = [
     ingredients: ["椰子", "鸡肉", "枸杞", "莲子", "糖"],
     cookingMethod: ["炖"],
     tags: ["椰子", "琼菜经典", "海口名菜", "炖汤", "滋补", "热带", "酥脆", "粘糯"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["海南"],
     lat: 20.0444,
     lng: 110.1989,
-    popularity: 7,
+    popularity: 6,
   },
 
   // ========== 滇菜 ==========
@@ -1833,11 +1833,11 @@ export const FOODS_FAMOUS: Food[] = [
     ingredients: ["面粉", "火腿", "糖", "猪肉", "芝麻"],
     cookingMethod: ["煎", "烤"],
     tags: ["粑粑", "滇菜经典", "丽江名食", "纳西族", "茶马古道", "伴手礼", "酥脆"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["云南"],
     lat: 26.8721,
     lng: 100.2299,
-    popularity: 8,
+    popularity: 6,
   },
   {
     id: "famous-84",
@@ -1850,7 +1850,7 @@ export const FOODS_FAMOUS: Food[] = [
     cuisine: "滇菜",
     province: "云南",
     city: "保山",
-    origin: "腾冲，据传南明永历帝逃难时所食",
+    origin: "云南保山腾冲，据传南明永历帝逃难时所食",
     description:
       "腾冲大救驾以饵块切片配火腿、鸡蛋、青菜炒制。色泽缤纷，饵块软糯，鲜香可口。据传南明永历帝逃难至腾冲，以此菜充饥，赞曰「真乃大救驾也」，故名。是腾冲名菜，云南炒饵块代表，体现滇菜「以米为食」的特色。",
     ingredients: ["饵块", "火腿", "鸡蛋", "青菜", "番茄"],
@@ -1860,7 +1860,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["云南"],
     lat: 25.112,
     lng: 99.1671,
-    popularity: 8,
+    popularity: 7,
   },
 
   // ========== 黔菜 ==========
@@ -1980,7 +1980,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["新疆"],
     lat: 43.7928,
     lng: 87.6271,
-    popularity: 9,
+    popularity: 7,
   },
 
   // ========== 清真菜 ==========
@@ -2029,7 +2029,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["广东", "全国"],
     lat: 23.1116,
     lng: 114.4163,
-    popularity: 10,
+    popularity: 8,
   },
 
   // ========== 重庆 ==========
@@ -2106,7 +2106,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["台湾", "全国"],
     lat: 24.1477,
     lng: 120.6736,
-    popularity: 8,
+    popularity: 7,
   },
 
   // ========== 其他名菜 ==========
@@ -2177,7 +2177,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["江苏"],
     lat: 34.2654,
     lng: 117.1849,
-    popularity: 8,
+    popularity: 6,
   },
   {
     "id": "famous-102",
@@ -2263,7 +2263,7 @@ export const FOODS_FAMOUS: Food[] = [
     ],
     "lat": 29.8683,
     "lng": 121.544,
-    "popularity": 8
+    "popularity": 7
   },
   {
     "id": "famous-107",
@@ -2347,10 +2347,10 @@ export const FOODS_FAMOUS: Food[] = [
       "煮"
     ],
     "tags": ["黔菜", "鱼", "豆腐", "麻辣", "粘糯"],
-    "fame": "地方名吃",
+    "fame": "名菜",
     "lat": 26.647,
     "lng": 106.6302,
-    "popularity": 8
+    "popularity": 7
   },
 
   {
@@ -2545,35 +2545,12 @@ export const FOODS_FAMOUS: Food[] = [
     ],
     "lat": 30.8943,
     "lng": 120.0868,
-    "popularity": 8,
+    "popularity": 6,
     "image": "https://img2.baidu.com/it/u=4039132326,2388710589&fm=253&fmt=auto&app=138&f=JPEG?w=556&h=500"
   },
-  {
-    "id": "gen-f-2025-17",
-    "name": "油焖春笋",
-    "category": "主菜",
-    "taste": "咸鲜",
-    "type": "traditional",
-    "cuisine": "浙菜",
-    "province": "浙江",
-    "city": "杭州",
-    "origin": "杭州传统时令名菜，春季必食",
-    "description": "油焖春笋以清明前后嫩春笋切段，重油酱油焖烧，色泽红亮，鲜嫩爽口，是浙菜“不时不食”的代表。",
-    "ingredients": ["笋", "酱油", "糖", "料酒"],
-    "cookingMethod": [
-      "焖"
-    ],
-    "tags": ["春笋", "时令", "浙菜", "清淡", "酥脆"],
-    "fame": "名菜",
-    "popularRegions": [
-      "浙江",
-      "全国"
-    ],
-    "lat": 30.2741,
-    "lng": 120.1551,
-    "popularity": 8,
-    "image": "https://img0.baidu.com/it/u=3702323244,392554382&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=1054"
-  },
+  // 【已合并】油焖春笋已合并至「油焖笋」(batch4-zj-48b, foods-batch4-zhejiang-anhui-jiangsu.ts) - 同地同物异名
+  // 原条目 gen-f-2025-17 (油焖春笋) 已删除合并
+  ,
   {
     "id": "gen-f-2025-18",
     "name": "红糟鱼",
@@ -2598,7 +2575,7 @@ export const FOODS_FAMOUS: Food[] = [
     ],
     "lat": 26.0745,
     "lng": 119.2965,
-    "popularity": 8,
+    "popularity": 6,
     "image": "http://t15.baidu.com/it/u=2245220806,3409194053&fm=224&app=112&f=JPEG?w=500&h=500"
   },
   {
@@ -2680,7 +2657,7 @@ export const FOODS_FAMOUS: Food[] = [
     ],
     "lat": 30.5728,
     "lng": 104.0668,
-    "popularity": 8,
+    "popularity": 7,
     "image": "https://img0.baidu.com/it/u=4065804509,3771188910&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=921"
   },
   {
@@ -2707,7 +2684,7 @@ export const FOODS_FAMOUS: Food[] = [
     ],
     "lat": 30.5728,
     "lng": 104.0668,
-    "popularity": 8,
+    "popularity": 7,
     "image": "https://img0.baidu.com/it/u=815982876,617616396&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=653"
   },
   {
@@ -2734,7 +2711,7 @@ export const FOODS_FAMOUS: Food[] = [
     ],
     "lat": 23.1291,
     "lng": 113.2644,
-    "popularity": 10,
+    "popularity": 9,
     "image": "https://img0.baidu.com/it/u=2395334784,1628536484&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=611"
   },
   {
@@ -2845,7 +2822,7 @@ export const FOODS_FAMOUS: Food[] = [
     ],
     "lat": 31.9802,
     "lng": 120.8943,
-    "popularity": 8,
+    "popularity": 7,
     "image": "https://img2.baidu.com/it/u=1257661104,2983487192&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=653"
   },
   {
@@ -2923,7 +2900,7 @@ export const FOODS_FAMOUS: Food[] = [
     ],
     "lat": 28.2282,
     "lng": 112.9388,
-    "popularity": 9,
+    "popularity": 8,
     "image": "https://img2.baidu.com/it/u=3662165745,1454243257&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=889"
   },
   {
@@ -2951,7 +2928,7 @@ export const FOODS_FAMOUS: Food[] = [
     ],
     "lat": 28.3119,
     "lng": 109.7391,
-    "popularity": 8,
+    "popularity": 7,
     "image": "https://img1.baidu.com/it/u=567631466,3739116204&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1565"
   },
 
@@ -3081,30 +3058,32 @@ export const FOODS_FAMOUS: Food[] = [
     tags: ["徽菜", "名菜", "发酵", "鳜鱼", "嫩滑"],
     fame: "名菜",
     popularRegions: ["安徽", "全国"],
-    lat: 29.7147,
-    lng: 117.8432,
+    lat: 29.715,
+    lng: 118.3386,
     popularity: 9,
   },
-  {
-    id: "famous-103",
-    name: "猪肉炖粉条",
-    alias: [],
-    image: "https://img2.baidu.com/it/u=2667447115,4072268487&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=640",
-    category: "主菜",
-    taste: "咸鲜",
-    type: "traditional",
-    cuisine: "东北菜",
-    province: "辽宁",
-    city: "沈阳",
-    origin: "东北三省，传统农家名菜",
-    description:
-      "猪肉炖粉条是东北菜的灵魂名菜，以五花肉、酸菜、粉条一锅炖煮。五花肉肥瘦相间，酸菜吸油解腻，粉条筋道吸满肉汁，汤浓味厚，是东北人冬日御寒的硬菜。此菜源于东北农村杀年猪后的「杀猪菜」，体现了东北饮食粗犷豪放、量大味浓的特色。猪肉炖粉条与锅包肉、地三鲜并称东北三大名菜，是东北饮食文化的代表。",
-    ingredients: ["猪肉", "粉条", "酸菜", "葱", "姜"],
-    cookingMethod: ["炖", "煮"],
-    tags: ["猪肉", "粉条", "东北菜", "名菜", "酸菜", "炖", "劲道", "绵软"],
-    fame: "名菜",
-    popularRegions: ["黑龙江", "吉林", "辽宁", "全国"],
-    lat: 41.8057,
-    lng: 123.4315,
-    popularity: 9,
-  }];
+  // 「famous-103」已合并至「hlj-11」- 同地同物异名：famous-103「猪肉炖粉条」(辽宁沈阳) 与 hlj-11「东北酸菜炖粉条」(黑龙江) 主题重复，hlj-11 别名已含「猪肉炖酸菜粉条」，二者均为猪肉酸菜粉条炖菜，故合并至 hlj-11（位于 foods-north.ts）。
+  //   {
+  //     id: "famous-103",
+  //     name: "猪肉炖粉条",
+  //     alias: [],
+  //     image: "https://img2.baidu.com/it/u=2667447115,4072268487&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=640",
+  //     category: "主菜",
+  //     taste: "咸鲜",
+  //     type: "traditional",
+  //     cuisine: "东北菜",
+  //     province: "辽宁",
+  //     city: "沈阳",
+  //     origin: "东北三省，传统农家名菜",
+  //     description:
+  //       "猪肉炖粉条是东北菜的灵魂名菜，以五花肉、酸菜、粉条一锅炖煮。五花肉肥瘦相间，酸菜吸油解腻，粉条筋道吸满肉汁，汤浓味厚，是东北人冬日御寒的硬菜。此菜源于东北农村杀年猪后的「杀猪菜」，体现了东北饮食粗犷豪放、量大味浓的特色。猪肉炖粉条与锅包肉、地三鲜并称东北三大名菜，是东北饮食文化的代表。",
+  //     ingredients: ["猪肉", "粉条", "酸菜", "葱", "姜"],
+  //     cookingMethod: ["炖", "煮"],
+  //     tags: ["猪肉", "粉条", "东北菜", "名菜", "酸菜", "炖", "劲道", "绵软"],
+  //     fame: "名菜",
+  //     popularRegions: ["黑龙江", "吉林", "辽宁", "全国"],
+  //     lat: 41.8057,
+  //     lng: 123.4315,
+  //     popularity: 9,
+  //   },
+];

@@ -1,4 +1,4 @@
-﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
 
 // 中国非物质文化遗产饮食项目（国家级非物质文化遗产代表性项目）
 export const FOODS_HERITAGE: Food[] = [
@@ -43,7 +43,7 @@ export const FOODS_HERITAGE: Food[] = [
     ingredients: ["牛肉", "羊肉"],
     cookingMethod: ["酱", "卤"],
     tags: ["非遗", "酱肉", "月盛斋", "清真菜", "百年老字号", "嫩滑"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["北京", "华北"],
     lat: 39.8959,
     lng: 116.4068,
@@ -116,7 +116,7 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["全国"],
     lat: 39.1039,
     lng: 117.1908,
-    popularity: 7,
+    popularity: 8,
   },
   // ========== 山西 ==========
   {
@@ -136,11 +136,11 @@ export const FOODS_HERITAGE: Food[] = [
     ingredients: ["高粱", "大麦", "豌豆", "麸皮"],
     cookingMethod: ["酿", "腌"],
     tags: ["非遗", "醋", "晋菜", "调料", "四大名醋", "酥脆"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["全国"],
     lat: 37.6066,
     lng: 112.3539,
-    popularity: 2,
+    popularity: 5,
   },
   {
     id: "heritage-11",
@@ -163,7 +163,7 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["全国"],
     lat: 37.3220,
     lng: 111.9219,
-    popularity: 3,
+    popularity: 6,
   },
   
   // ========== 辽宁 ==========
@@ -191,7 +191,7 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["全国"],
     lat: 29.0784,
     lng: 119.6473,
-    popularity: 8,
+    popularity: 9,
   },
   {
     id: "heritage-17",
@@ -238,7 +238,7 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["全国"],
     lat: 31.2304,
     lng: 121.4737,
-    popularity: 7,
+    popularity: 6,
   },
   // ========== 四川 ==========
   {
@@ -262,7 +262,7 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["全国", "海外"],
     lat: 28.7513,
     lng: 104.6308,
-    popularity: 5,
+    popularity: 8,
   },
   {
     id: "heritage-20",
@@ -285,7 +285,7 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["全国"],
     lat: 28.8707,
     lng: 105.4425,
-    popularity: 5,
+    popularity: 7,
   },
   {
     id: "heritage-21",
@@ -308,7 +308,7 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["全国", "海外"],
     lat: 30.7990,
     lng: 103.8950,
-    popularity: 3,
+    popularity: 7,
   },
   {
     id: "heritage-22",
@@ -331,7 +331,7 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["西南", "全国"],
     lat: 31.5583,
     lng: 105.971,
-    popularity: 2,
+    popularity: 5,
   },
   // ========== 贵州 ==========
   // ========== 湖南 ==========
@@ -352,11 +352,11 @@ export const FOODS_HERITAGE: Food[] = [
     ingredients: ["黄豆", "辣椒", "蒜", "香菜"],
     cookingMethod: ["炸", "卤"],
     tags: ["非遗", "臭豆腐", "火宫殿", "湘菜", "小吃"],
-    fame: "名菜",
+    fame: "热门",
     popularRegions: ["全国"],
     lat: 28.1946,
     lng: 112.9750,
-    popularity: 8,
+    popularity: 9,
   },
   {
     id: "heritage-25",
@@ -375,11 +375,11 @@ export const FOODS_HERITAGE: Food[] = [
     ingredients: ["茶叶", "蘑菇"],
     cookingMethod: ["发酵", "烤"],
     tags: ["非遗", "茶", "黑茶", "湘菜", "万里茶道"],
-    fame: "地方名吃",
+    fame: "名菜",
     popularRegions: ["全国", "西北", "海外"],
     lat: 28.3736,
     lng: 111.2168,
-    popularity: 4,
+    popularity: 7,
   },
   // ========== 福建 ==========
   {
@@ -427,7 +427,7 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["全国", "海外"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 5,
+    popularity: 9,
   },
   {
     id: "heritage-30",
@@ -450,7 +450,7 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["全国", "海外"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 5,
+    popularity: 6,
   },
   {
     id: "heritage-31",
@@ -545,7 +545,7 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["全国"],
     lat: 26.2260,
     lng: 104.1040,
-    popularity: 8,
+    popularity: 7,
   },
   // ========== 新疆 ==========
   {
@@ -593,7 +593,7 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["全国", "海外"],
     lat: 36.0611,
     lng: 103.8343,
-    popularity: 10,
+    popularity: 9,
   },
   // ========== 新增国家级非遗美食（第二批~第五批） ==========
   {
@@ -617,7 +617,7 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["贵州", "西南", "全国"],
     lat: 26.5835,
     lng: 107.9829,
-    popularity: 6,
+    popularity: 8,
   },
   {
     id: "heritage-41",
@@ -686,7 +686,7 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["全国", "海外"],
     lat: 29.7036,
     lng: 107.5902,
-    popularity: 6,
+    popularity: 7,
   },
   {
     id: "heritage-44",
@@ -705,11 +705,11 @@ export const FOODS_HERITAGE: Food[] = [
     ingredients: ["绿豆", "豌豆"],
     cookingMethod: ["滤", "晒"],
     tags: ["非遗", "鲁菜", "绿豆", "山东特产", "清淡", "主食", "山东"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["全国", "海外"],
     lat: 37.3646,
     lng: 120.4347,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "heritage-46",
@@ -728,7 +728,7 @@ export const FOODS_HERITAGE: Food[] = [
     ingredients: ["小米", "醋"],
     cookingMethod: ["酿", "熏", "腌"],
     tags: ["非遗", "晋菜", "调料", "嫩滑", "酸", "山西"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["山西", "华北"],
     lat: 35.8761,
     lng: 111.4419,
@@ -778,7 +778,7 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["全国", "海外"],
     lat: 39.9042,
     lng: 116.4074,
-    popularity: 4,
+    popularity: 7,
   },
   {
     id: "heritage-49",
@@ -797,7 +797,7 @@ export const FOODS_HERITAGE: Food[] = [
     ingredients: ["高粱", "黄米"],
     cookingMethod: ["酿", "熏", "腌"],
     tags: ["非遗", "津菜", "调料", "三大名醋", "酸", "天津"],
-    fame: "名菜",
+    fame: "普通",
     popularRegions: ["天津", "华北"],
     lat: 38.8733,
     lng: 116.9256,
@@ -820,11 +820,11 @@ export const FOODS_HERITAGE: Food[] = [
     ingredients: ["高粱", "糖"],
     cookingMethod: ["发酵", "蒸馏"],
     tags: ["非遗", "白酒", "冀菜", "复合", "饮品", "河北"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["全国"],
     lat: 37.7339,
     lng: 115.6705,
-    popularity: 3,
+    popularity: 5,
   },
   {
     id: "heritage-51",
@@ -870,12 +870,12 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["北京", "华北"],
     lat: 39.8908,
     lng: 116.3974,
-    popularity: 5,
+    popularity: 6,
   },
   {
     id: "heritage-53",
     name: "王致和腐乳",
-    alias: ["王致和", "臭豆腐", "腐乳"],
+    alias: ["王致和", "腐乳"],
     image: "https://img1.baidu.com/it/u=830188280,979382316&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=711",
     category: "调料",
     taste: "咸鲜",
@@ -889,7 +889,7 @@ export const FOODS_HERITAGE: Food[] = [
     ingredients: ["黄豆", "盐", "料酒", "红曲"],
     cookingMethod: ["发酵", "腌"],
     tags: ["非遗", "京菜", "调料", "百年老字号"],
-    fame: "名菜",
+    fame: "普通",
     popularRegions: ["全国"],
     lat: 39.8908,
     lng: 116.3974,
@@ -898,7 +898,7 @@ export const FOODS_HERITAGE: Food[] = [
   {
     id: "heritage-54",
     name: "绍兴黄酒",
-    alias: ["绍兴酒", "老酒", "黄酒"],
+    alias: ["绍兴酒", "黄酒"],
     image: "https://img0.baidu.com/it/u=2372088269,2994159159&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=647",
     category: "饮品",
     taste: "复合",
@@ -916,7 +916,7 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["全国", "海外"],
     lat: 30.0028,
     lng: 120.5802,
-    popularity: 5,
+    popularity: 7,
   },
   {
     id: "heritage-55",
@@ -939,7 +939,7 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["全国", "海外"],
     lat: 27.7974,
     lng: 106.4104,
-    popularity: 4,
+    popularity: 8,
   },
   
   {
@@ -965,7 +965,7 @@ export const FOODS_HERITAGE: Food[] = [
     ],
     "lat": 31.2896,
     "lng": 121.3231,
-    "popularity": 6
+    "popularity": 8
   },
   {
     "id": "heritage-64",
@@ -994,7 +994,7 @@ export const FOODS_HERITAGE: Food[] = [
     ],
     "lat": 31.2989,
     "lng": 120.5853,
-    "popularity": 4
+    "popularity": 6
   },
   
   {
@@ -1043,12 +1043,12 @@ export const FOODS_HERITAGE: Food[] = [
     "ingredients": ["面粉", "猪肉"],
     "cookingMethod": ["揉", "烤", "卤"],
     "tags": ["非遗", "肉夹馍", "西北菜", "潼关", "面食", "腊汁肉", "酥脆"],
-    "fame": "地方名吃",
+    "fame": "名菜",
     "popularRegions": [
       "陕西",
       "河南"
     ],
     "lat": 34.5517,
     "lng": 110.2465,
-    "popularity": 4
+    "popularity": 9
   }];

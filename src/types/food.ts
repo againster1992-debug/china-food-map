@@ -70,6 +70,8 @@ export type Cuisine =
   | "客家菜"
   | "潮菜"
   | "台湾菜"
+  | "澳门土生菜"
+  | "国民美食"
   | "其他";
 
 // 省份
@@ -195,6 +197,8 @@ export const CUISINES: Cuisine[] = [
   "客家菜",
   "潮菜",
   "台湾菜",
+  "澳门土生菜",
+  "国民美食",
   "其他",
 ];
 
@@ -278,5 +282,7 @@ export const CUISINE_PROVINCES: Record<Cuisine, Province[]> = {
   客家菜: [],
   潮菜: ["广东"],
   台湾菜: ["台湾"],
+  澳门土生菜: ["澳门"],
+  国民美食: ["全国"],
   其他: [],
 };

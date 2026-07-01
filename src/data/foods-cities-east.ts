@@ -1,4 +1,4 @@
-﻿import type { Food } from "@/types/food";
+import type { Food } from "@/types/food";
 
 export const FOODS_CITIES_EAST: Food[] = [
   // ========== 广东·深圳 ==========
@@ -46,7 +46,7 @@ export const FOODS_CITIES_EAST: Food[] = [
     popularRegions: ["广东"],
     lat: 22.7499,
     lng: 113.9321,
-    popularity: 6,
+    popularity: 7,
   },
   {
     id: "city-shenzhen-3",
@@ -187,7 +187,7 @@ export const FOODS_CITIES_EAST: Food[] = [
     popularRegions: ["广东"],
     lat: 23.0965,
     lng: 113.6583,
-    popularity: 3,
+    popularity: 5,
   },
   // ========== 广东·中山 ==========
   {
@@ -207,11 +207,11 @@ export const FOODS_CITIES_EAST: Food[] = [
     ingredients: ["乳鸽"],
     cookingMethod: ["卤", "炸"],
     tags: ["乳鸽", "酥脆", "中山名吃", "粤菜", "焦香"],
-    fame: "地方名吃",
+    fame: "名菜",
     popularRegions: ["广东"],
     lat: 22.5176,
     lng: 113.3927,
-    popularity: 6,
+    popularity: 7,
   },
   {
     id: "city-zhongshan-2",
@@ -284,7 +284,7 @@ export const FOODS_CITIES_EAST: Food[] = [
     popularRegions: ["广东"],
     lat: 21.2706,
     lng: 110.3594,
-    popularity: 5,
+    popularity: 6,
   },
 
   // ========== 湖北·武汉 ==========
@@ -309,7 +309,7 @@ export const FOODS_CITIES_EAST: Food[] = [
     popularRegions: ["湖北"],
     lat: 30.5928,
     lng: 114.3055,
-    popularity: 4,
+    popularity: 6,
   },
   {
     id: "city-wuhan-2",
@@ -332,7 +332,7 @@ export const FOODS_CITIES_EAST: Food[] = [
     popularRegions: ["湖北"],
     lat: 30.5928,
     lng: 114.3055,
-    popularity: 3,
+    popularity: 5,
   },
 
   // ========== 湖北·宜昌 ==========
@@ -357,7 +357,7 @@ export const FOODS_CITIES_EAST: Food[] = [
     popularRegions: ["湖北"],
     lat: 30.6918,
     lng: 111.2864,
-    popularity: 3,
+    popularity: 5,
   },
   {
     id: "city-yichang-2",
@@ -404,7 +404,7 @@ export const FOODS_CITIES_EAST: Food[] = [
     popularRegions: ["湖北"],
     lat: 32.009,
     lng: 112.1227,
-    popularity: 4,
+    popularity: 7,
   },
   {
     id: "city-xiangyang-2",
@@ -647,7 +647,7 @@ export const FOODS_CITIES_EAST: Food[] = [
   {
     id: "city-changde-1",
     name: "常德酱板鸭",
-    alias: ["板鸭"],
+    alias: [],
     image: "https://img1.baidu.com/it/u=322980110,4147762571&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1067",
     category: "主菜",
     taste: "香辣",
@@ -665,7 +665,7 @@ export const FOODS_CITIES_EAST: Food[] = [
     popularRegions: ["湖南"],
     lat: 29.0316,
     lng: 111.6986,
-    popularity: 6,
+    popularity: 7,
   },
   {
     id: "city-changde-2",
@@ -688,7 +688,7 @@ export const FOODS_CITIES_EAST: Food[] = [
     popularRegions: ["湖南"],
     lat: 29.0316,
     lng: 111.6986,
-    popularity: 6,
+    popularity: 7,
   },
 
   // ========== 江西·九江 ==========
@@ -787,7 +787,7 @@ export const FOODS_CITIES_EAST: Food[] = [
     popularRegions: ["江西"],
     lat: 28.4553,
     lng: 117.9434,
-    popularity: 4,
+    popularity: 5,
   },
   {
     id: "city-shangrao-2",
@@ -833,7 +833,7 @@ export const FOODS_CITIES_EAST: Food[] = [
     popularRegions: ["江西"],
     lat: 28.4553,
     lng: 117.9434,
-    popularity: 4,
+    popularity: 5,
   }
 
   // ========== 安徽·芜湖 ==========
@@ -884,7 +884,7 @@ export const FOODS_CITIES_EAST: Food[] = [
     popularRegions: ["安徽"],
     lat: 32.8908,
     lng: 115.8142,
-    popularity: 4,
+    popularity: 5,
   },
   {
     id: "city-fuyang-2",
@@ -926,11 +926,11 @@ export const FOODS_CITIES_EAST: Food[] = [
     ingredients: ["面粉", "羊肉", "辣椒", "青菜"],
     cookingMethod: ["摔", "煮"],
     tags: ["板面", "羊肉", "太和特产", "阜阳名吃", "徽菜"],
-    fame: "地方名吃",
+    fame: "热门",
     popularRegions: ["安徽"],
     lat: 33.1696,
     lng: 115.6218,
-    popularity: 4,
+    popularity: 7,
   },
 
   // ========== 安徽·蚌埠 ==========
@@ -955,7 +955,7 @@ export const FOODS_CITIES_EAST: Food[] = [
     popularRegions: ["安徽"],
     lat: 32.9168,
     lng: 117.3893,
-    popularity: 4,
+    popularity: 5,
   },
   {
     id: "city-bengbu-2",
@@ -1097,7 +1097,7 @@ export const FOODS_CITIES_EAST: Food[] = [
     popularRegions: ["江苏"],
     lat: 32.0666,
     lng: 121.0748,
-    popularity: 3,
+    popularity: 4,
   },
   {
     id: "city-nantong-3",
@@ -1145,7 +1145,7 @@ export const FOODS_CITIES_EAST: Food[] = [
     popularRegions: ["江苏"],
     lat: 31.7727,
     lng: 119.9469,
-    popularity: 3,
+    popularity: 4,
   },
   {
     id: "city-changzhou-2",
@@ -1173,7 +1173,7 @@ export const FOODS_CITIES_EAST: Food[] = [
   {
     id: "city-changzhou-3",
     name: "银丝面",
-    alias: ["银丝面"],
+    alias: [],
     image: "https://img0.baidu.com/it/u=1974190625,2240061273&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=652",
     category: "面食",
     taste: "咸鲜",
@@ -1239,7 +1239,7 @@ export const FOODS_CITIES_EAST: Food[] = [
     popularRegions: ["江苏"],
     lat: 33.7787,
     lng: 119.8025,
-    popularity: 3,
+    popularity: 4,
   },
   {
     id: "city-yancheng-3",
@@ -1262,7 +1262,7 @@ export const FOODS_CITIES_EAST: Food[] = [
     popularRegions: ["江苏"],
     lat: 33.3496,
     lng: 120.1633,
-    popularity: 5,
+    popularity: 6,
   },
 
   // ========== 江苏·连云港 ==========
@@ -1287,7 +1287,7 @@ export const FOODS_CITIES_EAST: Food[] = [
     popularRegions: ["江苏"],
     lat: 34.3113,
     lng: 119.2389,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "city-lianyungang-2",
@@ -1359,14 +1359,14 @@ export const FOODS_CITIES_EAST: Food[] = [
     popularRegions: ["浙江"],
     lat: 27.9938,
     lng: 120.6993,
-    popularity: 4,
+    popularity: 5,
   },
 
   // ========== 浙江·嘉兴 ==========
   {
     id: "city-jiaxing-1",
     name: "姑嫂饼",
-    alias: ["姑嫂饼"],
+    alias: [],
     image: "http://t14.baidu.com/it/u=3329400715,211398120&fm=224&app=112&f=JPEG?w=500&h=500",
     category: "糕点",
     taste: "香甜",
@@ -1478,7 +1478,7 @@ export const FOODS_CITIES_EAST: Food[] = [
     popularRegions: ["浙江"],
     lat: 28.6562,
     lng: 121.1449,
-    popularity: 3,
+    popularity: 4,
   },
 
   // ========== 浙江·湖州 ==========
@@ -1617,11 +1617,11 @@ export const FOODS_CITIES_EAST: Food[] = [
     ingredients: ["面线", "猪大肠", "海蛎"],
     cookingMethod: ["煮"],
     tags: ["早餐", "泉州名吃", "闽菜", "闽南"],
-    fame: "地方名吃",
+    fame: "热门",
     popularRegions: ["福建"],
     lat: 24.8741,
     lng: 118.6757,
-    popularity: 5,
+    popularity: 6,
   },
   {
     id: "city-quanzhou-2",
@@ -1741,7 +1741,7 @@ export const FOODS_CITIES_EAST: Food[] = [
     popularRegions: ["福建"],
     lat: 24.5131,
     lng: 117.6471,
-    popularity: 3,
+    popularity: 5,
   },
   {
     id: "city-zhangzhou-3",
@@ -1771,7 +1771,7 @@ export const FOODS_CITIES_EAST: Food[] = [
   {
     id: "city-zibo-1",
     name: "酥锅",
-    alias: ["酥锅"],
+    alias: [],
     image: "https://img2.baidu.com/it/u=2013022465,1440804321&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=655",
     category: "主菜",
     taste: "鲜香",
@@ -1834,7 +1834,7 @@ export const FOODS_CITIES_EAST: Food[] = [
     ingredients: ["面粉", "鱼肉"],
     cookingMethod: ["拉", "煮"],
     tags: ["小面", "海鲜面", "蓬莱特产", "烟台名吃", "鲁菜"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["山东"],
     lat: 37.46,
     lng: 121.45,
@@ -1859,16 +1859,16 @@ export const FOODS_CITIES_EAST: Food[] = [
     ingredients: ["面粉", "猪肉", "葱"],
     cookingMethod: ["煎", "烤"],
     tags: ["肉火烧", "城隍庙", "潍坊名吃", "鲁菜", "早餐", "酥脆"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["山东"],
     lat: 36.7068,
     lng: 119.1619,
-    popularity: 3,
+    popularity: 4,
   },
   {
     id: "city-weifang-2",
     name: "朝天锅",
-    alias: ["朝天锅"],
+    alias: [],
     image: "https://img2.baidu.com/it/u=391793679,1796559488&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=1044",
     category: "主食",
     taste: "咸鲜",
@@ -1934,7 +1934,7 @@ export const FOODS_CITIES_EAST: Food[] = [
     popularRegions: ["山东"],
     lat: 35.1045,
     lng: 118.3564,
-    popularity: 6,
+    popularity: 7,
   },
   // 「沂蒙煎饼」已合并至「煎饼」(foods-batch7-national.ts) - 同省同物异名
 
@@ -2031,7 +2031,7 @@ export const FOODS_CITIES_EAST: Food[] = [
     popularRegions: ["河南"],
     lat: 32.9906,
     lng: 112.5283,
-    popularity: 3,
+    popularity: 5,
   },
   {
     id: "city-nanyang-2",
@@ -2054,7 +2054,7 @@ export const FOODS_CITIES_EAST: Food[] = [
     popularRegions: ["河南"],
     lat: 33.2544,
     lng: 113.0125,
-    popularity: 4,
+    popularity: 6,
   },
   {
     id: "city-nanyang-3",
@@ -2125,7 +2125,7 @@ export const FOODS_CITIES_EAST: Food[] = [
     popularRegions: ["河南"],
     lat: 32.2032,
     lng: 114.5314,
-    popularity: 3,
+    popularity: 5,
   },
 
   // ========== 河南·商丘 ==========
@@ -2245,7 +2245,7 @@ export const FOODS_CITIES_EAST: Food[] = [
     popularRegions: ["河南"],
     lat: 36.0998,
     lng: 114.3924,
-    popularity: 4,
+    popularity: 5,
   },
 
   // ========== 河北·唐山 ==========
@@ -2266,7 +2266,7 @@ export const FOODS_CITIES_EAST: Food[] = [
     ingredients: ["面粉", "猪肉", "芝麻"],
     cookingMethod: ["烤"],
     tags: ["芝麻", "丰润特产", "唐山名吃", "冀菜"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["河北"],
     lat: 39.6306,
     lng: 118.1804,
@@ -2462,36 +2462,14 @@ export const FOODS_CITIES_EAST: Food[] = [
       "煎"
     ],
     "tags": ["锅贴", "牛肉", "煎", "苏菜", "秦淮小吃", "酥脆"],
-    "fame": "地方名吃",
+    "fame": "热门",
     "lat": 32.0603,
     "lng": 118.7969,
-    "popularity": 5
+    "popularity": 6
   },
-  {
-    "id": "city-east-nanjing-2",
-    "name": "糖芋苗",
-    "alias": [
-      "桂花糖芋苗"
-    ],
-    "image": "http://k.sinaimg.cn/n/sinacn10113/573/w1269h904/20190829/d80a-icxmqsv0777364.bmp/w700d1q75cms.jpg",
-    "category": "甜品",
-    "taste": "香甜",
-    "type": "traditional",
-    "cuisine": "苏菜",
-    "province": "江苏",
-    "city": "南京",
-    "origin": "南京传统甜品，秦淮小吃代表",
-    "description": "糖芋苗以芋艿去皮切块，加红糖、桂花、藕粉熬成浓稠甜羹。芋苗软糯，汤色酱红，桂香扑鼻。是南京人秋冬暖心甜品，与赤豆元宵、酒酿圆子并称南京三大甜品。体现金陵小吃对藕粉与桂花的善用。",
-    "ingredients": ["芋头", "糖", "桂花", "莲藕"],
-    "cookingMethod": [
-      "煮"
-    ],
-    "tags": ["甜品", "桂花", "芋艿", "苏菜", "传统", "酥脆", "嫩滑"],
-    "fame": "地方名吃",
-    "lat": 32.0603,
-    "lng": 118.7969,
-    "popularity": 4
-  },
+  // 【已合并】糖芋苗已合并至「桂花糖芋苗」(b4zj-add-4, foods-batch4-zhejiang-anhui-jiangsu.ts) - 同地同物异名
+  // 原条目 city-east-nanjing-2 (糖芋苗) 已删除合并
+  ,
   {
     "id": "city-east-suzhou-1",
     "name": "藏书羊肉",
@@ -2515,7 +2493,7 @@ export const FOODS_CITIES_EAST: Food[] = [
     "fame": "地方名吃",
     "lat": 31.2989,
     "lng": 120.5853,
-    "popularity": 6
+    "popularity": 7
   },
   {
     "id": "city-east-suzhou-2",
@@ -2711,10 +2689,10 @@ export const FOODS_CITIES_EAST: Food[] = [
       "酿"
     ],
     "tags": ["豆腐", "泰山", "清淡", "宴席", "道教", "酥脆"],
-    "fame": "名菜",
+    "fame": "地方名吃",
     "lat": 36.2001,
     "lng": 117.0873,
-    "popularity": 7,
+    "popularity": 6,
     "image": "https://img0.baidu.com/it/u=2941791508,3699300143&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=667"
   },
   {
@@ -2743,30 +2721,31 @@ export const FOODS_CITIES_EAST: Food[] = [
     "popularity": 6,
     "image": "https://img0.baidu.com/it/u=1901263820,854826135&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=644"
   },
-  {
-    "id": "gen3-f-2025-125",
-    "name": "宁波红膏呛蟹",
-    "category": "腌腊",
-    "taste": "咸鲜",
-    "type": "traditional",
-    "cuisine": "浙菜",
-    "province": "浙江",
-    "city": "宁波",
-    "origin": "宁波传统美食，浙东海鲜代表",
-    "description": "宁波红膏呛蟹以带红膏的梭子蟹用盐水腌制生食，蟹膏红艳如玛瑙，蟹肉晶莹剔透，鲜咸嫩滑。是宁波人过年必备的冷菜，也是宁波最具代表性的海鲜美食。体现了浙东沿海人民对海鲜的极致追求。",
-    "ingredients": ["蟹", "盐", "料酒", "姜"],
-    "cookingMethod": ["腌"],
-    "tags": ["呛蟹", "浙菜", "红膏", "生腌", "海鲜", "粘糯", "酥脆"],
-    "fame": "名菜",
-    "popularRegions": [
-      "浙江",
-      "全国"
-    ],
-    "lat": 29.8683,
-    "lng": 121.544,
-    "popularity": 7,
-    "image": "https://img0.baidu.com/it/u=652859320,102364940&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1067"
-  },
+  // 「gen3-f-2025-125」已合并至「famous-106」- 宁波红膏呛蟹与宁波红膏炝蟹为同物异名（"呛"与"炝"为异体字），famous-106发源地更详细且为famous系列，合
+  //   {
+  //     "id": "gen3-f-2025-125",
+  //     "name": "宁波红膏呛蟹",
+  //     "category": "腌腊",
+  //     "taste": "咸鲜",
+  //     "type": "traditional",
+  //     "cuisine": "浙菜",
+  //     "province": "浙江",
+  //     "city": "宁波",
+  //     "origin": "宁波传统美食，浙东海鲜代表",
+  //     "description": "宁波红膏呛蟹以带红膏的梭子蟹用盐水腌制生食，蟹膏红艳如玛瑙，蟹肉晶莹剔透，鲜咸嫩滑。是宁波人过年必备的冷菜，也是宁波最具代表性的海鲜美食。体现了浙东沿海人民对海鲜的极致追求。",
+  //     "ingredients": ["蟹", "盐", "料酒", "姜"],
+  //     "cookingMethod": ["腌"],
+  //     "tags": ["呛蟹", "浙菜", "红膏", "生腌", "海鲜", "粘糯", "酥脆"],
+  //     "fame": "名菜",
+  //     "popularRegions": [
+  //       "浙江",
+  //       "全国"
+  //     ],
+  //     "lat": 29.8683,
+  //     "lng": 121.544,
+  //     "popularity": 7,
+  //     "image": "https://img0.baidu.com/it/u=652859320,102364940&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1067"
+  //   },
   {
     "id": "gen3-f-2025-126",
     "name": "黄山石耳炖鸡",

@@ -27,7 +27,7 @@ export const FOODS_TRADITIONS_SPECIALTIES: Food[] = [
     popularRegions: ["广东", "广西"],
     lat: 20.0444,
     lng: 110.1989,
-    popularity: 3,
+    popularity: 6,
   },
   // 广式早茶
   // 广式凉茶
@@ -77,7 +77,7 @@ export const FOODS_TRADITIONS_SPECIALTIES: Food[] = [
     popularRegions: ["重庆"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 5,
+    popularity: 6,
   },
   // 潮汕工夫茶
 
@@ -201,11 +201,11 @@ export const FOODS_TRADITIONS_SPECIALTIES: Food[] = [
     ingredients: ["豆芽", "折耳根"],
     cookingMethod: ["切", "包", "蘸"],
     tags: ["地方特色", "黔菜", "素食", "酸辣"],
-    fame: "地方名吃",
+    fame: "名菜",
     popularRegions: ["贵州", "云南"],
     lat: 26.6477,
     lng: 106.6302,
-    popularity: 4,
+    popularity: 7,
   },
   // 水城烙锅
   // 兴义羊肉粉
@@ -230,5 +230,5 @@ export const FOODS_TRADITIONS_SPECIALTIES: Food[] = [
     popularRegions: ["贵州", "云南"],
     lat: 25.0926,
     lng: 104.8949,
-    popularity: 4,
+    popularity: 6,
   }];

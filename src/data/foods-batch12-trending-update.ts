@@ -25,7 +25,7 @@ export const FOODS_BATCH12_TRENDING_UPDATE: Food[] = [
     popularRegions: ["武汉", "湖北", "全国"],
     lat: 30.5928,
     lng: 114.3055,
-    popularity: 4,
+    popularity: 7,
   },
   {
     id: "batch12-hubei-2",
@@ -44,11 +44,11 @@ export const FOODS_BATCH12_TRENDING_UPDATE: Food[] = [
     ingredients: ["鱼肉", "猪肉", "鸡蛋", "淀粉"],
     cookingMethod: ["汆", "蒸"],
     tags: ["咸鲜", "主菜", "鄂菜", "湖北", "三鲜", "年夜饭"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["武汉", "湖北"],
     lat: 30.5928,
     lng: 114.3055,
-    popularity: 5,
+    popularity: 6,
   },/*
 */
   
@@ -70,11 +70,11 @@ export const FOODS_BATCH12_TRENDING_UPDATE: Food[] = [
     ingredients: ["大米", "辣椒", "姜", "蒜"],
     cookingMethod: ["发酵", "煮"],
     tags: ["酸辣", "汤羹", "琼菜", "海南", "网红", "火锅"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["文昌", "海南", "全国"],
     lat: 19.6146,
     lng: 110.7214,
-    popularity: 4,
+    popularity: 6,
   },
   {
     id: "batch12-hainan-3",
@@ -147,7 +147,7 @@ export const FOODS_BATCH12_TRENDING_UPDATE: Food[] = [
     popularRegions: ["梅州", "广东"],
     lat: 24.2314,
     lng: 116.1126,
-    popularity: 4,
+    popularity: 6,
   },/**/
   // ==================== 四、云南菌菇火锅热门（佤味鸡爪增长1366%）====================
   {
@@ -200,7 +200,7 @@ export const FOODS_BATCH12_TRENDING_UPDATE: Food[] = [
     popularRegions: ["喀什", "新疆"],
     lat: 39.4754,
     lng: 75.9777,
-    popularity: 4,
+    popularity: 7,
   },
   // ==================== 七、2026邪修美食热门（茶啤抖音103.5亿播放）====================
   {
@@ -223,5 +223,5 @@ export const FOODS_BATCH12_TRENDING_UPDATE: Food[] = [
     popularRegions: ["全国"],
     lat: 35.8617,
     lng: 104.1954,
-    popularity: 3,
+    popularity: 8,
   }];

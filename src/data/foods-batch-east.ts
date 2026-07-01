@@ -1,11 +1,11 @@
-﻿﻿import type { Food } from "@/types/food";
+﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
 
 export const FOODS_BATCH_EAST: Food[] = [
   // ========== 上海（本帮菜）==========
   {
     id: "batch-east-1",
     name: "小绍兴鸡粥",
-    alias: ["小绍兴白斩鸡粥","三黄鸡粥"],
+    alias: ["白斩鸡粥","三黄鸡粥"],
     image: "https://img0.baidu.com/it/u=3144025758,2891717258&fm=253&fmt=auto&app=120&f=JPEG?w=760&h=1140",
     category: "主食",
     taste: "鲜香",
@@ -88,11 +88,11 @@ export const FOODS_BATCH_EAST: Food[] = [
     ingredients: ["鱼肉", "淀粉", "火腿", "鸡肉", "香菇"],
     cookingMethod: ["煮"],
     tags: ["汤羹", "浙菜", "海鲜", "刀工", "嫩滑"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["浙江"],
     lat: 27.9938,
     lng: 120.6993,
-    popularity: 5,
+    popularity: 4,
   },
 
   // ========== 安徽（徽菜）==========
@@ -252,7 +252,7 @@ export const FOODS_BATCH_EAST: Food[] = [
     popularRegions: ["江西"],
     lat: 28.2602,
     lng: 117.0693,
-    popularity: 4,
+    popularity: 5,
   },
   {
     id: "batch-east-13",
@@ -360,7 +360,7 @@ export const FOODS_BATCH_EAST: Food[] = [
     ingredients: ["面粉", "芝麻", "油", "盐"],
     cookingMethod: ["烤"],
     tags: ["烧饼", "吊炉", "莱芜", "鲁菜", "面食", "传统", "酥脆"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["山东"],
     lat: 36.2143,
     lng: 117.6767,

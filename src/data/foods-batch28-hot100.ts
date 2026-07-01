@@ -21,7 +21,7 @@ export const FOODS_BATCH28_HOT100: Food[] = [
   popularRegions: ["福建","闽南"],
   lat: 24.4798,
   lng: 118.0894,
-  popularity: 8,
+  popularity: 7,
 },
 {
   id: "batch28-hot-003",
@@ -42,7 +42,7 @@ export const FOODS_BATCH28_HOT100: Food[] = [
   popularRegions: ["全国"],
   lat: 35.0,
   lng: 105.0,
-  popularity: 6,
+  popularity: 8,
 },
 {
   id: "batch28-hot-004",
@@ -64,7 +64,7 @@ export const FOODS_BATCH28_HOT100: Food[] = [
   popularRegions: ["山东","全国"],
   lat: 36.0671,
   lng: 120.3826,
-  popularity: 9,
+  popularity: 7,
 },
 {
   id: "batch28-hot-005",
@@ -174,7 +174,7 @@ export const FOODS_BATCH28_HOT100: Food[] = [
   popularRegions: ["内蒙古","西北"],
   lat: 38.8441,
   lng: 105.7289,
-  popularity: 7,
+  popularity: 6,
 },
 {
   id: "batch28-hot-013",
@@ -240,7 +240,7 @@ export const FOODS_BATCH28_HOT100: Food[] = [
   popularRegions: ["内蒙古"],
   lat: 43.9335,
   lng: 116.05,
-  popularity: 7,
+  popularity: 6,
 },
 
 {
@@ -328,7 +328,7 @@ export const FOODS_BATCH28_HOT100: Food[] = [
   popularRegions: ["云南","全国"],
   lat: 24.8801,
   lng: 102.8323,
-  popularity: 8,
+  popularity: 7,
 },
 {
   id: "batch28-hot-023",
@@ -372,7 +372,7 @@ export const FOODS_BATCH28_HOT100: Food[] = [
   popularRegions: ["四川","全国"],
   lat: 30.5728,
   lng: 104.0668,
-  popularity: 9,
+  popularity: 8,
 },
 // 「肉松海苔巨贝」已合并至「肉松小贝」(foods-popular.ts hot-109) - 同物变体
 {
@@ -417,7 +417,7 @@ export const FOODS_BATCH28_HOT100: Food[] = [
   popularRegions: ["四川","全国"],
   lat: 30.5728,
   lng: 104.0668,
-  popularity: 9,
+  popularity: 8,
 },
 
 {
@@ -531,7 +531,7 @@ export const FOODS_BATCH28_HOT100: Food[] = [
   popularRegions: ["重庆","全国"],
   lat: 29.563,
   lng: 106.5516,
-  popularity: 8,
+  popularity: 7,
 },
 
 {
@@ -626,7 +626,7 @@ export const FOODS_BATCH28_HOT100: Food[] = [
   {
   id: "batch28-hot-090",
   name: "阿勒泰奶疙瘩",
-  alias: ["奶豆腐","阿勒泰奶疙瘩"],
+  alias: ["阿勒泰奶疙瘩"],
   image: "https://img2.baidu.com/it/u=2868845124,3648470856&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1067",
   category: "小吃",
   taste: "酸甜",
@@ -635,7 +635,7 @@ export const FOODS_BATCH28_HOT100: Food[] = [
   province: "新疆",
   city: "阿勒泰",
   origin: "新疆阿勒泰牧民传统零食",
-  description: "奶疙瘩以牛奶或羊奶发酵凝固晒干，酸甜美奶香浓郁。硬如石头嚼劲十足，是哈萨克牧民传统零食，草原上的「奶酪糖」。",
+  description: "奶疙瘩以牛奶或羊奶发酵凝固晒干，酸甜，奶香浓郁。硬如石头嚼劲十足，是哈萨克牧民传统零食，草原上的「奶酪糖」。",
   ingredients: ["牛奶","糖","盐"],
   cookingMethod: ["发酵", "晒"],
   tags: ["酸甜","小吃","其他","新疆","阿勒泰","奶疙瘩","牧民","传统","零食"],
@@ -656,7 +656,7 @@ export const FOODS_BATCH28_HOT100: Food[] = [
   cuisine: "藏餐",
   province: "西藏",
   city: "拉萨",
-  origin: "西藏拉萨拉萨早餐标配",
+  origin: "西藏拉萨早餐标配",
   description: "藏式早餐面以碱面煮制浇牦牛肉汤，加辣椒酱。面条劲道汤鲜肉烂，是拉萨早餐标配，一碗藏面配甜茶是拉萨人的清晨仪式。",
   ingredients: ["面粉","牦牛肉","辣椒","葱","盐"],
   cookingMethod: ["煮"],

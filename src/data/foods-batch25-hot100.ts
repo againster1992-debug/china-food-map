@@ -21,30 +21,31 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["福建", "全国"],
   lat: 26.0745,
   lng: 119.2965,
-  popularity: 9
+  popularity: 7
 },
-{
-  id: "batch25-hot-002",
-  name: "黑芝麻酱麻辣烫",
-  alias: [],
-  image: "https://img1.baidu.com/it/u=4252415392,565089909&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=667",
-  category: "小吃",
-  taste: "麻辣",
-  type: "popular",
-  cuisine: "东北菜",
-  province: "辽宁",
-  city: "沈阳",
-  origin: "2026年初沈阳街头出现黑芝麻酱麻辣烫，因独特外观和浓香口感迅速走红，成为年度开年顶流。",
-  description: "黑芝麻酱麻辣烫以牛骨汤打底，浇入黑芝麻酱与花生酱，色泽灰黑。黏稠浓郁、麻辣醇厚，是2026年开年从沈阳火遍全国的顶流麻辣烫新品类。",
-  ingredients: ["牛骨", "芝麻酱", "花生酱", "粉条", "蔬菜", "辣椒"],
-  cookingMethod: ["煮", "调"],
-  tags: ["麻辣", "小吃", "东北菜", "辽宁", "沈阳", "顶流", "网红", "酱香", "2026爆款"],
-  fame: "名菜",
-  popularRegions: ["辽宁", "东北", "全国"],
-  lat: 41.8057,
-  lng: 123.4315,
-  popularity: 10
-},
+// 「batch25-hot-002」已删除 - 低质量网红变体：batch25-hot-002「黑芝麻酱麻辣烫」(辽宁沈阳) 描述为占位符「（建议保留但补充说明为网红新品）」，标签含「网红」「2026爆款」「顶流」，属低质量网红变体，依据去重规则4予以删除。
+// {
+//   id: "batch25-hot-002",
+//   name: "黑芝麻酱麻辣烫",
+//   alias: [],
+//   image: "https://img1.baidu.com/it/u=4252415392,565089909&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=667",
+//   category: "小吃",
+//   taste: "麻辣",
+//   type: "popular",
+//   cuisine: "东北菜",
+//   province: "辽宁",
+//   city: "沈阳",
+//   origin: "2026年初沈阳街头出现黑芝麻酱麻辣烫，因独特外观和浓香口感迅速走红，成为年度开年顶流。",
+//   description: "（建议保留但补充说明为网红新品）",
+//   ingredients: ["牛骨", "芝麻酱", "花生酱", "粉条", "蔬菜", "辣椒"],
+//   cookingMethod: ["煮", "调"],
+//   tags: ["麻辣", "小吃", "东北菜", "辽宁", "沈阳", "顶流", "网红", "酱香", "2026爆款"],
+//   fame: "热门",
+//   popularRegions: ["辽宁", "东北", "全国"],
+//   lat: 41.8057,
+//   lng: 123.4315,
+//   popularity: 8
+// },
 {
   id: "batch25-hot-003",
   name: "芋泥奶油奶酪球",
@@ -89,7 +90,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["四川", "全国"],
   lat: 30.5728,
   lng: 104.0668,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch25-hot-007",
@@ -133,7 +134,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["四川", "全国"],
   lat: 30.5728,
   lng: 104.0668,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch25-hot-009",
@@ -155,7 +156,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["河北", "全国"],
   lat: 38.0428,
   lng: 114.5149,
-  popularity: 8
+  popularity: 6
 },
 // 「肉松海苔麻薯贝」已合并至「肉松小贝」(foods-popular.ts hot-109) - 同物变体
 {
@@ -196,11 +197,11 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   ingredients: ["虾", "面粉", "鸡蛋", "青菜", "姜"],
   cookingMethod: ["煮"],
   tags: ["鲜香", "面食", "其他", "低脂", "高蛋白", "Q弹", "健身", "清爽"],
-  fame: "名菜",
+  fame: "热门",
   popularRegions: ["全国"],
   lat: 35,
   lng: 105,
-  popularity: 5
+  popularity: 8
 },
 
 {
@@ -224,7 +225,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["山东", "全国"],
   lat: 37.4765,
   lng: 121.4479,
-  popularity: 9
+  popularity: 7
 },
 {
   id: "batch25-hot-019",
@@ -242,11 +243,11 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   ingredients: ["虾", "鸡蛋", "面粉", "生菜", "沙拉酱"],
   cookingMethod: ["煎", "烤", "卷"],
   tags: ["鲜香", "小吃", "本帮菜", "上海", "颜值", "便携", "早餐", "精致"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: ["上海", "全国"],
   lat: 31.2304,
   lng: 121.4737,
-  popularity: 8
+  popularity: 6
 },
 {
   id: "batch25-hot-020",
@@ -268,7 +269,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["四川", "全国"],
   lat: 30.5728,
   lng: 104.0668,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch25-hot-021",
@@ -356,7 +357,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["全国"],
   lat: 35,
   lng: 105,
-  popularity: 7
+  popularity: 8
 },
 {
   id: "batch25-hot-028",
@@ -374,11 +375,11 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   ingredients: ["米饭", "黑松露", "鸡蛋", "火腿", "葱"],
   cookingMethod: ["炒"],
   tags: ["鲜香", "主食", "滇菜", "云南", "昆明", "黑松露", "高端", "平民化", "高增长"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: ["云南", "全国"],
   lat: 25.0389,
   lng: 102.7183,
-  popularity: 8
+  popularity: 6
 },
 
 {
@@ -421,11 +422,11 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   ingredients: ["松花粉", "糯米粉", "红豆沙", "糖"],
   cookingMethod: ["蒸"],
   tags: ["甜", "糕点", "滇菜", "云南", "腾冲", "松花", "非遗", "传统", "新中式"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: ["云南", "全国"],
   lat: 25.0206,
   lng: 98.4904,
-  popularity: 8
+  popularity: 6
 },
 {
   id: "batch25-hot-036",
@@ -488,11 +489,11 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   ingredients: ["杏鲍菇", "面粉", "淀粉", "椒盐", "鸡蛋"],
   cookingMethod: ["炸"],
   tags: ["咸鲜", "小吃", "东北菜", "辽宁", "沈阳", "素菜", "酥脆", "排队", "素食"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: ["辽宁", "东北", "全国"],
   lat: 41.8057,
   lng: 123.4315,
-  popularity: 8
+  popularity: 6
 },
 {
   id: "batch25-hot-044",
@@ -532,11 +533,11 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   ingredients: ["糯米粉", "杨梅", "冰糖", "冰块"],
   cookingMethod: ["煮", "冷藏", "打浆"],
   tags: ["酸甜", "甜品", "浙菜", "浙江", "宁波", "夏季", "限定", "冰镇", "水果"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: ["浙江", "全国"],
   lat: 29.8683,
   lng: 121.544,
-  popularity: 8
+  popularity: 6
 },
 {
   id: "batch25-hot-046",
@@ -558,7 +559,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["辽宁", "东北", "全国"],
   lat: 41.8808,
   lng: 123.9572,
-  popularity: 9
+  popularity: 8
 },
 {
   id: "batch25-hot-047",
@@ -580,7 +581,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["云南", "全国"],
   lat: 27.826,
   lng: 99.702,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch25-hot-048",
@@ -713,7 +714,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["上海", "全国"],
   lat: 31.2304,
   lng: 121.4737,
-  popularity: 9
+  popularity: 7
 },
 {
   id: "batch25-hot-057",
@@ -758,7 +759,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["云南", "全国"],
   lat: 25.0389,
   lng: 102.7183,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch25-hot-060",
@@ -776,11 +777,11 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   ingredients: ["糯米", "咸鸭蛋", "猪肉", "香菇", "酱油"],
   cookingMethod: ["蒸"],
   tags: ["咸鲜", "小吃", "浙菜", "浙江", "嘉兴", "手工", "网红", "咸蛋", "创意"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: ["浙江", "全国"],
   lat: 30.771,
   lng: 120.755,
-  popularity: 8
+  popularity: 6
 },
 {
   id: "batch25-hot-061",
@@ -825,7 +826,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["云南", "全国"],
   lat: 25.0389,
   lng: 102.7183,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch25-hot-066",
@@ -847,7 +848,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["四川", "全国"],
   lat: 29.5521,
   lng: 103.7656,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch25-hot-067",
@@ -871,28 +872,29 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   lng: 87.6271,
   popularity: 8
 },
-{
-  id: "batch25-hot-068",
-  name: "馕坑烤包子",
-  alias: [],
-  image: "https://img2.baidu.com/it/u=342679651,1082968952&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=642",
-  category: "小吃",
-  taste: "咸鲜",
-  type: "popular",
-  cuisine: "新疆菜",
-  province: "新疆",
-  city: "喀什",
-  origin: "新疆喀什传统美食，羊肉洋葱馅贴在馕坑内壁烤至酥香多汁，是新疆烤包子的正宗做法。",
-  description: "馕坑烤包子以羊肉洋葱为馅，贴在馕坑内壁烤制。外皮酥脆焦香、内馅羊肉多汁，是新疆喀什的传统美食，从馕坑取出那一刻香气扑面而来。",
-  ingredients: ["羊肉", "洋葱", "面粉", "胡椒", "盐"],
-  cookingMethod: ["烤"],
-  tags: ["咸鲜", "小吃", "新疆菜", "新疆", "喀什", "馕坑", "酥香", "多汁", "传统"],
-  fame: "热门",
-  popularRegions: ["新疆", "全国"],
-  lat: 39.4704,
-  lng: 75.9897,
-  popularity: 9
-},
+// 「馕坑烤包子」(batch25-hot-068) 已合并至「烤包子」(batch26-famous-084) - 同地同物重复
+// {
+//   id: "batch25-hot-068",
+//   name: "馕坑烤包子",
+//   alias: [],
+//   image: "https://img2.baidu.com/it/u=342679651,1082968952&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=642",
+//   category: "小吃",
+//   taste: "咸鲜",
+//   type: "popular",
+//   cuisine: "新疆菜",
+//   province: "新疆",
+//   city: "喀什",
+//   origin: "新疆喀什传统美食，羊肉洋葱馅贴在馕坑内壁烤至酥香多汁，是新疆烤包子的正宗做法。",
+//   description: "馕坑烤包子以羊肉洋葱为馅，贴在馕坑内壁烤制。外皮酥脆焦香、内馅羊肉多汁，是新疆喀什的传统美食，从馕坑取出那一刻香气扑面而来。",
+//   ingredients: ["羊肉", "洋葱", "面粉", "胡椒", "盐"],
+//   cookingMethod: ["烤"],
+//   tags: ["咸鲜", "小吃", "新疆菜", "新疆", "喀什", "馕坑", "酥香", "多汁", "传统"],
+//   fame: "热门",
+//   popularRegions: ["新疆", "全国"],
+//   lat: 39.4704,
+//   lng: 75.9897,
+//   popularity: 9
+// },
 {
   id: "batch25-hot-069",
   name: "蒸菜拼盘",
@@ -936,7 +938,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["四川", "全国"],
   lat: 30.5728,
   lng: 104.0668,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch25-hot-073",
@@ -958,7 +960,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["黑龙江", "东北", "全国"],
   lat: 45.8038,
   lng: 126.535,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch25-hot-075",
@@ -1042,11 +1044,11 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   ingredients: ["面粉", "猪肉", "皮冻", "姜", "酱油"],
   cookingMethod: ["蒸"],
   tags: ["咸鲜", "小吃", "豫菜", "河南", "开封", "汤包", "北宋", "灯笼", "烫嘴", "经典"],
-  fame: "热门",
+  fame: "名菜",
   popularRegions: ["河南", "全国"],
   lat: 34.797,
   lng: 114.307,
-  popularity: 9
+  popularity: 8
 },
 {
   id: "batch25-hot-082",
@@ -1107,35 +1109,36 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   ingredients: ["鱿鱼", "辣椒", "孜然", "蒜", "酱油"],
   cookingMethod: ["煎", "烤"],
   tags: ["香辣", "小吃", "东北菜", "辽宁", "大连", "夜市", "铁板", "海鲜", "必点", "焦香"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: ["辽宁", "全国"],
   lat: 38.914,
   lng: 121.6147,
-  popularity: 8
+  popularity: 5
 },
 
-{
-  id: "batch25-hot-090",
-  name: "姜汁撞奶",
-  alias: [],
-  image: "https://img2.baidu.com/it/u=102379809,246242023&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=653",
-  category: "甜品",
-  taste: "甜",
-  type: "popular",
-  cuisine: "粤菜",
-  province: "广东",
-  city: "番禺",
-  origin: "广式糖水经典，热牛奶冲入姜汁中瞬间凝固，现撞现吃，姜的微辣与奶的香甜完美融合。",
-  description: "广式姜汁撞奶以热牛奶冲入姜汁中，姜汁中的蛋白酶使牛奶凝固。现撞现吃、温润醇厚，是广式糖水的经典，姜的微辣与奶的香甜完美融合。",
-  ingredients: ["牛奶", "姜", "糖"],
-  cookingMethod: ["冲", "凝"],
-  tags: ["甜", "甜品", "粤菜", "广东", "番禺", "现撞", "姜汁", "经典", "糖水", "温润"],
-  fame: "热门",
-  popularRegions: ["广东", "全国"],
-  lat: 22.937,
-  lng: 113.384,
-  popularity: 8
-},
+// 「姜汁撞奶」(batch25-hot-090) 已合并至「姜撞奶」(hot-35, foods-popular.ts) - 同地同物异名，姜汁撞奶即姜撞奶，番禺属广州，合并至主条目
+//{
+//   id: "batch25-hot-090",
+//   name: "姜汁撞奶",
+//   alias: [],
+//   image: "https://img2.baidu.com/it/u=102379809,246242023&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=653",
+//   category: "甜品",
+//   taste: "甜",
+//   type: "popular",
+//   cuisine: "粤菜",
+//   province: "广东",
+//   city: "番禺",
+//   origin: "广式糖水经典，热牛奶冲入姜汁中瞬间凝固，现撞现吃，姜的微辣与奶的香甜完美融合。",
+//   description: "广式姜汁撞奶以热牛奶冲入姜汁中，姜汁中的蛋白酶使牛奶凝固。现撞现吃、温润醇厚，是广式糖水的经典，姜的微辣与奶的香甜完美融合。",
+//   ingredients: ["牛奶", "姜", "糖"],
+//   cookingMethod: ["冲", "凝"],
+//   tags: ["甜", "甜品", "粤菜", "广东", "番禺", "现撞", "姜汁", "经典", "糖水", "温润"],
+//   fame: "热门",
+//   popularRegions: ["广东", "全国"],
+//   lat: 22.937,
+//   lng: 113.384,
+//   popularity: 8
+//},
   // 「港式仿翅碗仔羹」已合并至「碗仔翅」(foods-batch-south.ts batch-south-16) - 同地同物异名
 {
   id: "batch25-hot-094",
@@ -1157,12 +1160,12 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["黑龙江", "东北", "全国"],
   lat: 45.8038,
   lng: 126.535,
-  popularity: 8
+  popularity: 7
 },
 
 {
   id: "batch25-hot-095",
-  name: "甜胚子",
+  name: "甜醅子",
   alias: [],
   image: "https://img1.baidu.com/it/u=4264473147,1971897420&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=728",
   category: "甜品",
@@ -1224,7 +1227,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["黑龙江", "东北", "全国"],
   lat: 45.8038,
   lng: 126.535,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch25-hot-100",

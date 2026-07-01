@@ -1,4 +1,4 @@
-﻿import type { Food } from "@/types/food";
+import type { Food } from "@/types/food";
 
 // 2026年平台趋势补充美食 - 第二批
 // 数据来源：抖音、淘宝、百度指数、微信指数、Google Trends
@@ -17,7 +17,7 @@ export const FOODS_BATCH14_REGIONAL_TRENDS: Food[] = [
     cuisine: "东北菜",
     province: "吉林",
     city: "九台",
-    origin: "吉林九台，百年非遗美食",
+    origin: "吉林长春九台，源于19世纪中期闯关东移民，融合满族馇条面与朝鲜族冷面技艺，160余年历史，长春市级非遗",
     description: "九台热面是吉林百年非遗美食，以骨汤搭配细面、卤蛋、海米等。汤底醇厚鲜香，面条清鲜爽滑，味道丰富。与延吉冷面形成冷热搭配，是吉林面食双绝。冬季食用暖身暖胃，是本地人早餐首选。",
     ingredients: ["面粉", "猪骨", "鸡蛋", "虾皮", "青菜"],
     cookingMethod: ["煮"],
@@ -41,14 +41,14 @@ export const FOODS_BATCH14_REGIONAL_TRENDS: Food[] = [
     city: "长春",
     origin: "吉林长春，东北经典街头小吃",
     description: "鸡汤豆腐串是东北经典街头小吃，以鸡汤煮干豆腐串。油亮金黄、烟熏焦香、外软内韧，豆腐吸饱鸡汤鲜味，口感层次丰富。是吉林街头巷尾常见的平价小吃，冬季食用暖身暖胃。",
-    ingredients: ["豆腐", "鸡肉", "鸡汤", " spices"],
+    ingredients: ["豆腐", "鸡肉", "鸡汤", "香料"],
     cookingMethod: ["煮", "卤"],
     tags: ["咸鲜", "小吃", "东北菜", "街头小吃", "长春"],
     fame: "地方名吃",
     popularRegions: ["长春", "吉林"],
     lat: 43.8171,
     lng: 125.3235,
-    popularity: 4,
+    popularity: 5,
   },
   {
     id: "batch14-jilin-4",
@@ -70,7 +70,7 @@ export const FOODS_BATCH14_REGIONAL_TRENDS: Food[] = [
     popularRegions: ["长春", "吉林"],
     lat: 43.8171,
     lng: 125.3235,
-    popularity: 3,
+    popularity: 4,
   },
   {
     id: "batch14-jilin-5",
@@ -88,7 +88,7 @@ export const FOODS_BATCH14_REGIONAL_TRENDS: Food[] = [
     ingredients: ["鲤鱼", "把蒿", "葱", "姜", "酱油"],
     cookingMethod: ["煎", "炖"],
     tags: ["咸鲜", "主菜", "东北菜", "吉林", "传统名菜"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["吉林", "东北"],
     lat: 43.8378,
     lng: 126.5496,
@@ -205,7 +205,7 @@ export const FOODS_BATCH14_REGIONAL_TRENDS: Food[] = [
     popularRegions: ["全国"],
     lat: 35.0000,
     lng: 105.0000,
-    popularity: 5,
+    popularity: 8,
   },
   {
     id: "batch14-trending-2",
@@ -226,7 +226,7 @@ export const FOODS_BATCH14_REGIONAL_TRENDS: Food[] = [
     popularRegions: ["全国"],
     lat: 35.0000,
     lng: 105.0000,
-    popularity: 3,
+    popularity: 8,
   },
   {
     id: "batch14-trending-3",
@@ -247,7 +247,7 @@ export const FOODS_BATCH14_REGIONAL_TRENDS: Food[] = [
     popularRegions: ["全国"],
     lat: 35.0000,
     lng: 105.0000,
-    popularity: 3,
+    popularity: 8,
   },
 
   // ========== 江西补充美食 ==========

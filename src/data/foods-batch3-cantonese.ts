@@ -69,7 +69,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 5,
+    popularity: 6,
   },
   {
     id: "batch3-gd-4",
@@ -255,7 +255,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 5,
+    popularity: 6,
   },
   {
     id: "batch3-gd-20",
@@ -278,7 +278,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 2,
+    popularity: 5,
   },
   {
     id: "batch3-gd-21",
@@ -294,7 +294,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     origin: "广东沿海常见海鲜，粤菜常用食材",
     description:
       "墨鱼在粤菜中可白灼、爆炒、卤制。肉质厚实弹牙，鲜味浓郁。墨鱼丸、墨鱼饼是潮汕与广府共有的名品。讲究刀工与火候，过老则韧，是粤菜海鲜烹饪的常见食材。",
-    ingredients: ["鱼肉", "姜", "葱", "酱油"],
+    ingredients: ["墨鱼", "姜", "葱", "酱油"],
     cookingMethod: ["炒", "汆"],
     tags: ["咸鲜", "主菜", "粤菜", "海鲜", "嫩滑"],
     fame: "普通",
@@ -306,7 +306,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
   {
     id: "batch3-gd-22",
     name: "烧猪",
-    alias: ["烧肉", "脆皮烧肉"],
+    alias: ["脆皮烧肉"],
     image: "https://img1.baidu.com/it/u=2593805669,3007942970&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1070",
     category: "主菜",
     taste: "咸鲜",
@@ -349,7 +349,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 3,
+    popularity: 5,
   },
   {
     id: "batch3-gd-25",
@@ -372,7 +372,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 3,
+    popularity: 5,
   },
   {
     id: "batch3-gd-26",
@@ -418,7 +418,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 3,
+    popularity: 5,
   },
   {
     id: "batch3-gd-29",
@@ -489,7 +489,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 4,
+    popularity: 6,
   },
   {
     id: "batch3-gd-37",
@@ -736,7 +736,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     origin: "粤菜高档食材，传统「海八珍」之一",
     description:
       "海参以干品水发后红烧、葱烧、炖汤。口感软糯，富含胶原蛋白。是粤菜「鲍参翅肚」四大海味之一，宴席上品。讲究「发」功与「烧」功，入味而不烂。葱烧海参、海参花胶汤皆经典。",
-    ingredients: ["鱼肉", "葱", "蚝油"],
+    ingredients: ["海参", "葱", "蚝油"],
     cookingMethod: ["炖", "焖", "烧"],
     tags: ["咸鲜", "主菜", "粤菜", "海味", "宴席", "爽脆"],
     fame: "名菜",
@@ -863,7 +863,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
   {
     id: "batch3-gd-56",
     name: "幼面",
-    alias: ["细面", "银丝面"],
+    alias: ["细面"],
     image: "https://img0.baidu.com/it/u=2487781353,2404678158&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=667",
     category: "面食",
     taste: "咸鲜",
@@ -927,7 +927,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 5,
+    popularity: 6,
   },
   {
     id: "batch3-gd-60",
@@ -973,7 +973,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 3,
+    popularity: 5,
   },
   {
     id: "batch3-gd-63",
@@ -1111,7 +1111,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 3,
+    popularity: 5,
   },
   {
     id: "batch3-gd-69",
@@ -1203,7 +1203,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 3,
+    popularity: 5,
   },
   {
     id: "batch3-gd-73",

@@ -25,7 +25,7 @@ export const FOODS_BATCH13_PLATFORM_TRENDS: Food[] = [
     popularRegions: ["福州", "福建", "全国"],
     lat: 26.0745,
     lng: 119.2965,
-    popularity: 3,
+    popularity: 4,
   },
   {
     id: "batch13-ice-2",
@@ -47,7 +47,7 @@ export const FOODS_BATCH13_PLATFORM_TRENDS: Food[] = [
     popularRegions: ["全国"],
     lat: 35.8617,
     lng: 104.1954,
-    popularity: 3,
+    popularity: 8,
   },
   {
     id: "batch13-ice-3",
@@ -69,7 +69,7 @@ export const FOODS_BATCH13_PLATFORM_TRENDS: Food[] = [
     popularRegions: ["全国"],
     lat: 35.8617,
     lng: 104.1954,
-    popularity: 3,
+    popularity: 8,
   },
   // ==================== 二、2025-2026年网红零食（淘宝/天猫热门）====================
   {
@@ -92,7 +92,7 @@ export const FOODS_BATCH13_PLATFORM_TRENDS: Food[] = [
     popularRegions: ["全国"],
     lat: 35.8617,
     lng: 104.1954,
-    popularity: 3,
+    popularity: 8,
   },
   {
     id: "batch13-snack-2",
@@ -114,7 +114,7 @@ export const FOODS_BATCH13_PLATFORM_TRENDS: Food[] = [
     popularRegions: ["全国"],
     lat: 35.8617,
     lng: 104.1954,
-    popularity: 3,
+    popularity: 8,
   },
   // ==================== 三、2025-2026年网红饮品（抖音/小红书热门）====================
   
@@ -141,7 +141,7 @@ export const FOODS_BATCH13_PLATFORM_TRENDS: Food[] = [
     popularRegions: ["全国"],
     lat: 30.2741,
     lng: 120.1551,
-    popularity: 3,
+    popularity: 4,
   },
   
   
@@ -192,12 +192,12 @@ export const FOODS_BATCH13_PLATFORM_TRENDS: Food[] = [
     popularRegions: ["南宁", "宜州", "广西"],
     lat: 22.8170,
     lng: 108.3665,
-    popularity: 5,
+    popularity: 6,
   },
   {
     id: "batch13-region-3",
     name: "热卤",
-    alias: ["卤味"],
+    alias: [],
     image: "https://img1.baidu.com/it/u=2637186642,697240519&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=738",
     category: "凉菜",
     taste: "咸鲜",
@@ -215,7 +215,7 @@ export const FOODS_BATCH13_PLATFORM_TRENDS: Food[] = [
     popularRegions: ["湖北"],
     lat: 30.5928,
     lng: 114.3055,
-    popularity: 3,
+    popularity: 5,
   },
   // ==================== 六、2025-2026年新疆水果热门（抖音/淘宝热门）====================
   {
@@ -285,7 +285,7 @@ export const FOODS_BATCH13_PLATFORM_TRENDS: Food[] = [
     popularRegions: ["全国"],
     lat: 35.8617,
     lng: 104.1954,
-    popularity: 3,
+    popularity: 8,
   },
   // ==================== 八、武汉特色小吃（抖音烟火榜热门）====================
   // 「烧梅」已合并至「重油烧麦」(snack-85) - 同地同物异名
@@ -300,7 +300,7 @@ export const FOODS_BATCH13_PLATFORM_TRENDS: Food[] = [
     cuisine: "鄂菜",
     province: "湖北",
     city: "武汉",
-    origin: "武汉粮道街赵师傅创制，全国知名",
+    origin: "武汉粮道街创制，全国知名",
     description:
       "油饼包烧梅是武汉粮道街赵师傅创制的全国知名小吃。油饼里包进烧梅，一板车运到码头、车站，谁吃谁精神。1983年赵师傅还是小赵，在武昌保安街向红门点做事，她看早班工人没时间过早，在油饼里包进烧梅。后来赵师傅的儿子在粮道街开咖啡店，买杯美式吃油饼包烧梅不用排队，让新一代的打工人也续上了精气神。",
     ingredients: ["面粉", "糯米", "猪肉", "胡椒"],

@@ -22,7 +22,7 @@ export const FOODS_BATCH28_TRENDING_2026: Food[] = [
   popularRegions: ["全国"],
   lat: 35.8617,
   lng: 104.1954,
-  popularity: 3
+  popularity: 8
 },
 {
   id: "batch28-002",
@@ -43,7 +43,7 @@ export const FOODS_BATCH28_TRENDING_2026: Food[] = [
   popularRegions: ["全国"],
   lat: 35.8617,
   lng: 104.1954,
-  popularity: 3
+  popularity: 8
 },
 {
   id: "batch28-003",
@@ -64,7 +64,7 @@ export const FOODS_BATCH28_TRENDING_2026: Food[] = [
   popularRegions: ["全国"],
   lat: 35.8617,
   lng: 104.1954,
-  popularity: 3
+  popularity: 8
 },
 {
   id: "batch28-004",
@@ -85,7 +85,7 @@ export const FOODS_BATCH28_TRENDING_2026: Food[] = [
   popularRegions: ["全国"],
   lat: 35.8617,
   lng: 104.1954,
-  popularity: 3
+  popularity: 8
 },
 {
   id: "batch28-005",
@@ -106,7 +106,7 @@ export const FOODS_BATCH28_TRENDING_2026: Food[] = [
   popularRegions: ["全国"],
   lat: 35.8617,
   lng: 104.1954,
-  popularity: 4
+  popularity: 8
 },
 {
   id: "batch28-006",
@@ -127,7 +127,7 @@ export const FOODS_BATCH28_TRENDING_2026: Food[] = [
   popularRegions: ["全国"],
   lat: 35.8617,
   lng: 104.1954,
-  popularity: 4
+  popularity: 8
 },
 {
   id: "batch28-007",
@@ -150,28 +150,29 @@ export const FOODS_BATCH28_TRENDING_2026: Food[] = [
   lng: 104.1954,
   popularity: 8
 },
-{
-  id: "batch28-008",
-  name: "现卤现捞鸭脖",
-  alias: ["现卤鸭脖", "现捞鸭脖"],
-  image: "https://img1.baidu.com/it/u=3731144291,3836284544&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1422",
-  category: "小吃",
-  taste: "香辣",
-  type: "popular",
-  cuisine: "鄂菜",
-  province: "湖北",
-  city: "武汉",
-  origin: "2026年夜市复购王，现卤现捞新鲜出锅",
-  description: "现卤现捞鸭脖以鲜鸭脖现卤现捞，热腾出锅即售。区别于预包装卤味，强调新鲜与镬气，香辣入味肉质紧实，是2026年夜市复购王，从武汉火遍全国。",
-  ingredients: ["鸭肉","辣椒","花椒","八角","桂皮"],
-  cookingMethod: ["卤"],
-  tags: ["香辣","小吃","鸭脖","现卤","现捞","夜市","复购王","武汉"],
-  fame: "热门",
-  popularRegions: ["湖北","全国"],
-  lat: 30.5928,
-  lng: 114.3055,
-  popularity: 4
-},
+  // 「batch28-008」已合并至「batch21-e-7」- 现卤现捞鸭脖与鸭脖为同地同物异名（现卤现捞为制作工艺，非独立品类），均为武汉鸭脖，合并至[batch21-e-7]鸭脖
+  // {
+  //   id: "batch28-008",
+  //   name: "现卤现捞鸭脖",
+  //   alias: ["现卤鸭脖", "现捞鸭脖"],
+  //   image: "https://img1.baidu.com/it/u=3731144291,3836284544&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1422",
+  //   category: "小吃",
+  //   taste: "香辣",
+  //   type: "popular",
+  //   cuisine: "鄂菜",
+  //   province: "湖北",
+  //   city: "武汉",
+  //   origin: "2026年夜市复购王，现卤现捞新鲜出锅",
+  //   description: "现卤现捞鸭脖以鲜鸭脖现卤现捞，热腾出锅即售。区别于预包装卤味，强调新鲜与镬气，香辣入味肉质紧实，是2026年夜市复购王，从武汉火遍全国。",
+  //   ingredients: ["鸭肉","辣椒","花椒","八角","桂皮"],
+  //   cookingMethod: ["卤"],
+  //   tags: ["香辣","小吃","鸭脖","现卤","现捞","夜市","复购王","武汉"],
+  //   fame: "热门",
+  //   popularRegions: ["湖北","全国"],
+  //   lat: 30.5928,
+  //   lng: 114.3055,
+  //   popularity: 7
+  // },
 {
   id: "batch28-010",
   name: "糟辣风味火锅",
@@ -188,11 +189,11 @@ export const FOODS_BATCH28_TRENDING_2026: Food[] = [
   ingredients: ["糟辣椒","牛肉","豆芽","豆腐","蒜苗"],
   cookingMethod: ["煮","涮"],
   tags: ["酸辣","主菜","火锅","糟辣","贵州","贵阳","酸汤","开胃"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: ["贵州","全国"],
   lat: 26.647,
   lng: 106.6302,
-  popularity: 4
+  popularity: 6
 },
 {
   id: "batch28-011",
@@ -210,11 +211,11 @@ export const FOODS_BATCH28_TRENDING_2026: Food[] = [
   ingredients: ["豆豉","牛肉","豆腐","青菜","辣椒"],
   cookingMethod: ["煮","涮"],
   tags: ["咸鲜","主菜","火锅","豆豉","贵州","贵阳","醇厚","下饭"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: ["贵州","全国"],
   lat: 26.647,
   lng: 106.6302,
-  popularity: 4
+  popularity: 6
 },
 {
   id: "batch28-015",
@@ -298,11 +299,11 @@ export const FOODS_BATCH28_TRENDING_2026: Food[] = [
   ingredients: ["大米","虾","蟹","猪肉","葱"],
   cookingMethod: ["熬","煮"],
   tags: ["鲜香","汤羹","砂锅","粥","潮汕","广东","海鲜","夜宵","地方名吃"],
-  fame: "地方名吃",
+  fame: "热门",
   popularRegions: ["广东","全国"],
   lat: 23.3691,
   lng: 116.6817,
-  popularity: 4
+  popularity: 7
 },
 
   {
@@ -325,5 +326,5 @@ export const FOODS_BATCH28_TRENDING_2026: Food[] = [
   popularRegions: ["浙江","杭州"],
   lat: 30.2741,
   lng: 120.1551,
-  popularity: 6
+  popularity: 7
 }];

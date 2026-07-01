@@ -20,11 +20,11 @@ export const FOODS_BATCH18_PROVINCE_TRENDS: Food[] = [
     ingredients: ["帝王蟹", "蒜", "姜", "料酒"],
     cookingMethod: ["蒸", "炒"],
     tags: ["鲜香", "主菜", "东北菜", "吉林", "珲春", "海鲜", "边境特色"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["珲春", "延边", "吉林"],
     lat: 42.8624,
     lng: 130.3616,
-    popularity: 5,
+    popularity: 4,
   },
   {
     id: "batch18-jilin-2",
@@ -42,11 +42,11 @@ export const FOODS_BATCH18_PROVINCE_TRENDS: Food[] = [
     ingredients: ["面粉", "猪肉", "蔬菜", "姜"],
     cookingMethod: ["蒸"],
     tags: ["咸鲜", "主食", "东北菜", "吉林", "老字号"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["吉林", "长春"],
-    lat: 43.8380,
-    lng: 126.5497,
-    popularity: 5,
+    lat: 43.8378,
+    lng: 126.5496,
+    popularity: 4,
   },
 
   // ========== 西藏补充美食 ==========
@@ -162,11 +162,11 @@ export const FOODS_BATCH18_PROVINCE_TRENDS: Food[] = [
     ingredients: ["面粉", "羊肉", "蔬菜", "酱油"],
     cookingMethod: ["煮", "炒"],
     tags: ["咸鲜", "面食", "新疆菜", "新疆", "拌面", "家常"],
-    fame: "地方名吃",
+    fame: "名菜",
     popularRegions: ["全疆", "新疆"],
     lat: 43.8256,
     lng: 87.6168,
-    popularity: 5,
+    popularity: 9,
   },
 
   // ========== 甘肃补充美食 ==========
@@ -190,7 +190,7 @@ export const FOODS_BATCH18_PROVINCE_TRENDS: Food[] = [
     popularRegions: ["武威", "甘肃"],
     lat: 37.9282,
     lng: 102.6346,
-    popularity: 5,
+    popularity: 6,
   },
 
   // ========== 内蒙古补充美食 ==========

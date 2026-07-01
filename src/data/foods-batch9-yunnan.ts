@@ -98,7 +98,7 @@ export const FOODS_BATCH9_YUNNAN: Food[] = [
   {
     id: "batch9-yn-5",
     name: "烤香猪",
-    alias: ["烤巴马香猪", "云南烤香猪"],
+    alias: ["云南烤香猪"], // 清理：移除"烤巴马香猪"（广西巴马特产，与云南烤香猪不同地域不同物）
     image: "https://img1.baidu.com/it/u=2026286243,2602798276&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=587",
     category: "主菜",
     taste: "咸鲜",
@@ -273,11 +273,11 @@ export const FOODS_BATCH9_YUNNAN: Food[] = [
     ingredients: ["鸭肉", "料酒", "酱油", "姜", "八角"],
     cookingMethod: ["腌", "炖"],
     tags: ["咸鲜", "主菜", "桂菜", "酒香", "宴席", "软烂"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["南宁", "柳州"],
     lat: 22.817,
     lng: 108.3665,
-    popularity: 7,
+    popularity: 5,
   },
   {
     id: "batch9-yn-13",
@@ -563,7 +563,7 @@ export const FOODS_BATCH9_YUNNAN: Food[] = [
   {
     id: "batch9-yn-29",
     name: "曲靖韭菜花",
-    alias: ["韭菜花酱", "韭菜花"],
+    alias: ["韭菜花"], // 清理：移除"韭菜花酱"（河北等产品，与云南曲靖韭菜花不同地域不同物）
     image: "https://img0.baidu.com/it/u=1365057775,1781622576&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=679",
     category: "调料",
     taste: "咸鲜",
@@ -923,11 +923,11 @@ export const FOODS_BATCH9_YUNNAN: Food[] = [
     ingredients: ["百合", "梨"],
     cookingMethod: ["蒸", "煮", "炒"],
     tags: ["甜", "物产", "西北菜", "兰州", "地理标志", "滋补", "名产"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["兰州", "全国"],
     lat: 36.0611,
     lng: 103.8343,
-    popularity: 7,
+    popularity: 5,
   },
   // 「靖远羊羔」已合并至「靖远羊羔肉」(foods-southwest-northwest.ts gs-4) - 同地同物异名
   // ========== 云南菌类 ==========
@@ -975,7 +975,7 @@ export const FOODS_BATCH9_YUNNAN: Food[] = [
     popularRegions: ["昆明", "玉溪", "楚雄", "全省"],
     lat: 25.0389,
     lng: 102.7183,
-    popularity: 9,
+    popularity: 7,
   },
   {
     id: "batch9-yn-50",
@@ -998,7 +998,7 @@ export const FOODS_BATCH9_YUNNAN: Food[] = [
     popularRegions: ["昆明", "玉溪", "楚雄", "全省"],
     lat: 25.0389,
     lng: 102.7183,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "b9yn-add-1",

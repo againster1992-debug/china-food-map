@@ -123,7 +123,7 @@ export const FOODS_RESTORED_COMPLIANCE: Food[] = [
     popularRegions: ["吉林"],
     lat: 45.14,
     lng: 124.82,
-    popularity: 5,
+    popularity: 4,
     note: "ℹ️ 狗肉为松原朝鲜族地方传统饮食，未被列入国家畜禽遗传资源目录，存在法律与伦理争议，本条目仅作地方饮食文化记录",
   },
 ];

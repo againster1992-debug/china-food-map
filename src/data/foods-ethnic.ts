@@ -1,4 +1,4 @@
-﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
 
 // 中国少数民族美食与节庆美食
 // 涵盖藏族、维吾尔族、蒙古族、朝鲜族、回族、苗族、侗族、傣族、彝族、壮族、
@@ -260,7 +260,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["新疆", "青海"],
     lat: 43.9191,
     lng: 81.3246,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 蒙古族美食 ==========
@@ -379,6 +379,28 @@ export const FOODS_ETHNIC: Food[] = [
     lng: 116.05,
     popularity: 5,
   },
+  {
+    id: "ethnic-22",
+    name: "奶嚼口",
+    alias: ["乌日莫", "朱嘿", "稀奶油"],
+    image: "https://img2.baidu.com/it/u=2428122757,1085489246&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=653",
+    category: "物产",
+    taste: "香甜",
+    type: "traditional",
+    cuisine: "蒙餐",
+    province: "内蒙古",
+    city: "锡林郭勒",
+    origin: "内蒙古锡林郭勒草原",
+    description: "奶嚼口（蒙语「乌日莫」或「朱嘿」）是蒙古族传统奶制品，指鲜奶自然发酵后表面凝结的稀奶油（凝乳）。与奶皮子（煮沸凝结的脂肪层）和奶豆腐（脱脂后凝固的蛋白质）不同，奶嚼口是发酵过程中自然上浮的凝乳层，口感细腻、奶香浓郁、微酸可口。经典吃法是配炒米（炒熟的糜子米）和白糖拌食，是蒙古族招待客人的传统美食。",
+    ingredients: ["鲜奶"],
+    cookingMethod: ["发酵"],
+    tags: ["少数民族", "蒙古族", "奶制品", "蒙餐", "物产", "绵软"],
+    fame: "地方名吃",
+    popularRegions: ["内蒙古"],
+    lat: 43.93,
+    lng: 116.05,
+    popularity: 5,
+  },
 
   // ========== 朝鲜族美食 ==========
   {
@@ -402,7 +424,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["吉林", "辽宁"],
     lat: 42.8947,
     lng: 129.4739,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ethnic-25",
@@ -421,11 +443,11 @@ export const FOODS_ETHNIC: Food[] = [
     ingredients: ["鸡肉", "人参", "糯米", "红枣", "枸杞"],
     cookingMethod: ["炖"],
     tags: ["少数民族", "朝鲜族", "东北菜", "养生", "绵软"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["吉林", "辽宁"],
     lat: 42.8947,
     lng: 129.4739,
-    popularity: 8,
+    popularity: 6,
   },
   {
     id: "ethnic-26",
@@ -448,7 +470,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["吉林", "辽宁"],
     lat: 42.8947,
     lng: 129.4739,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "ethnic-27",
@@ -471,7 +493,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["吉林", "辽宁"],
     lat: 42.8947,
     lng: 129.4739,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "ethnic-28",
@@ -494,7 +516,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["吉林", "辽宁"],
     lat: 42.8947,
     lng: 129.4739,
-    popularity: 5,
+    popularity: 4,
   },
   {
     id: "ethnic-29",
@@ -513,11 +535,11 @@ export const FOODS_ETHNIC: Food[] = [
     ingredients: ["辣椒", "辣椒酱"],
     cookingMethod: ["炒"],
     tags: ["少数民族", "朝鲜族", "东北菜", "粘糯"],
-    fame: "名菜",
+    fame: "热门",
     popularRegions: ["吉林", "辽宁"],
     lat: 42.8947,
     lng: 129.4739,
-    popularity: 7,
+    popularity: 6,
   },
 
   // ========== 回族美食 ==========
@@ -632,11 +654,11 @@ export const FOODS_ETHNIC: Food[] = [
     ingredients: ["猪肉", "盐", "花椒"],
     cookingMethod: ["腌", "熏", "干制"],
     tags: ["少数民族", "苗族", "腊肉", "黔菜", "咸鲜", "腌腊", "贵州"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["贵州", "湖南"],
     lat: 26.5835,
     lng: 107.9829,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "ethnic-35",
@@ -659,7 +681,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["贵州", "湖南"],
     lat: 26.5835,
     lng: 107.9829,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ethnic-36",
@@ -701,11 +723,11 @@ export const FOODS_ETHNIC: Food[] = [
     ingredients: ["鱼肉", "木姜子", "糟辣椒", "花椒"],
     cookingMethod: ["煮", "炖"],
     tags: ["少数民族", "苗族", "黔菜", "宴席", "酸辣", "主菜", "贵州"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["贵州"],
     lat: 26.5835,
     lng: 107.9829,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "ethnic-38",
@@ -728,7 +750,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["贵州", "湖南"],
     lat: 26.5835,
     lng: 107.9829,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ethnic-39",
@@ -751,7 +773,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["贵州", "湖南"],
     lat: 26.5835,
     lng: 107.9829,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 侗族美食 ==========
@@ -772,11 +794,11 @@ export const FOODS_ETHNIC: Food[] = [
     ingredients: ["鱼肉", "糯米", "辣椒", "盐"],
     cookingMethod: ["发酵", "腌"],
     tags: ["少数民族", "侗族", "腌鱼", "黎平", "黔菜"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["贵州", "广西"],
     lat: 26.2308,
     lng: 109.1367,
-    popularity: 7,
+    popularity: 6,
   },
   // 「侗家牛瘪」已合并至「黔东南牛瘪」(city-south-qiandongnan-2) - 同地同物异名
   {
@@ -823,7 +845,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["贵州", "广西"],
     lat: 26.2308,
     lng: 109.1367,
-    popularity: 6,
+    popularity: 5,
   },
 
   {
@@ -987,7 +1009,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["四川", "云南"],
     lat: 27.8868,
     lng: 102.2645,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ethnic-53",
@@ -1006,11 +1028,11 @@ export const FOODS_ETHNIC: Food[] = [
     ingredients: ["鸡肉", "辣椒", "花椒", "木姜子"],
     cookingMethod: ["炒", "炖"],
     tags: ["少数民族", "彝族", "辣子鸡", "川菜", "麻辣", "主菜", "四川"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["四川", "云南"],
     lat: 27.8868,
     lng: 102.2645,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "ethnic-54",
@@ -1127,9 +1149,9 @@ export const FOODS_ETHNIC: Food[] = [
     tags: ["少数民族", "满族", "新宾", "东北菜"],
     fame: "地方名吃",
     popularRegions: ["辽宁", "吉林", "黑龙江"],
-    lat: 41.7339,
-    lng: 125.0399,
-    popularity: 6,
+    lat: 41.8808,
+    lng: 123.9572,
+    popularity: 4,
   },
   {
     id: "ethnic-60",
@@ -1152,7 +1174,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["辽宁", "北京"],
     lat: 41.8057,
     lng: 123.4315,
-    popularity: 6,
+    popularity: 4,
   },
 
   // ========== 白族美食 ==========
@@ -1200,7 +1222,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["云南"],
     lat: 25.6065,
     lng: 100.2679,
-    popularity: 6,
+    popularity: 5,
   },
 
   {
@@ -1245,11 +1267,11 @@ export const FOODS_ETHNIC: Food[] = [
     ingredients: ["猪肉", "鱼肉", "咸肉", "豆腐"],
     cookingMethod: ["煮", "蒸", "炒", "炖"],
     tags: ["少数民族", "哈尼族", "长街宴", "滇菜", "非遗", "节庆"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["云南"],
     lat: 23.364,
     lng: 102.375,
-    popularity: 8,
+    popularity: 6,
   },
   {
     id: "ethnic-67",
@@ -1293,11 +1315,11 @@ export const FOODS_ETHNIC: Food[] = [
     ingredients: ["糯米", "黄饭花", "红曲", "紫蕃藤"],
     cookingMethod: ["染", "蒸"],
     tags: ["少数民族", "布依族", "花米饭", "黔菜", "节庆", "粘糯", "爽脆"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["贵州"],
     lat: 26.2582,
     lng: 107.517,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "ethnic-69",
@@ -1341,11 +1363,11 @@ export const FOODS_ETHNIC: Food[] = [
     ingredients: ["茶叶", "玉米", "黄豆", "花生", "豆腐", "姜"],
     cookingMethod: ["炒", "煮"],
     tags: ["少数民族", "土家族", "鄂菜", "非遗", "嫩滑"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["湖北", "湖南"],
     lat: 30.272,
     lng: 109.488,
-    popularity: 7,
+    popularity: 5,
   },
   {
     id: "ethnic-71",
@@ -1437,11 +1459,11 @@ export const FOODS_ETHNIC: Food[] = [
     ingredients: ["山兰米", "椰子"],
     cookingMethod: ["烤"],
     tags: ["少数民族", "黎族", "琼菜", "酥脆"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["海南"],
     lat: 18.7754,
     lng: 109.5169,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "ethnic-75",
@@ -1559,7 +1581,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["江苏", "浙江", "上海"],
     lat: 31.2989,
     lng: 120.5853,
-    popularity: 8,
+    popularity: 7,
   },
   
   
@@ -1585,7 +1607,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["湖南", "全国"],
     lat: 29.3573,
     lng: 113.1289,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ethnic-91",
@@ -1748,12 +1770,12 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["贵州", "广西"],
     lat: 26.5835,
     lng: 107.9829,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ethnic-102",
     name: "壮族五色糯米饭",
-    alias: ["五色饭", "花米饭", "乌米饭"],
+    alias: ["五色饭", "花米饭"], // 清理：移除"乌米饭"（畲族福建特产，与壮族五色糯米饭不同民族不同物，参见ethnic-149）
     image: "https://img2.baidu.com/it/u=4151029793,3412796787&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=667",
     category: "主食",
     taste: "香甜",
@@ -2167,32 +2189,33 @@ export const FOODS_ETHNIC: Food[] = [
     "lng": 99.9316,
     "popularity": 5
   },
-  {
-    "id": "ethnic-146",
-    "name": "傈僳族漆油鸡",
-    "alias": [
-      "漆油炖鸡"
-    ],
-    "image": "https://k.sinaimg.cn/n/sinakd10102/222/w640h382/20220126/95c9-552bc99c3df344458f968bc356ee6a07.jpg/w700d1q75cms.jpg",
-    "category": "主菜",
-    "taste": "咸鲜",
-    "type": "traditional",
-    "cuisine": "滇菜",
-    "province": "云南",
-    "city": "怒江",
-    "origin": "云南怒江傈僳族自治州，傈僳族传统滋补菜肴",
-    "description": "傈僳族漆油鸡是怒江峡谷的民族滋补名菜。以当地土鸡与漆树籽榨取的漆油一同炖煮，汤色金黄、香气独特、鸡肉鲜嫩。漆油具有驱寒滋补功效，傈僳族在产妇调养、贵客到访时必做此菜。漆油鸡体现了怒江傈僳族利用高山植物资源的饮食智慧。",
-    "ingredients": ["鸡肉", "食用油", "姜", "草果"],
-    "cookingMethod": ["炖", "煮"],
-    tags: ["民族美食", "傈僳族", "漆油鸡", "滋补", "咸鲜", "主菜", "滇菜", "云南"],
-    "fame": "地方名吃",
-    "popularRegions": [
-      "云南"
-    ],
-    "lat": 25.8176,
-    "lng": 98.8566,
-    "popularity": 5
-  },
+  // 「ethnic-146」已合并至「city-south-nujiang-1」- 傈僳族漆油鸡与怒江漆油鸡为同物异名。两条均描述怒江傈僳族以土鸡配漆树油炖煮的同一菜肴，发源地均为云南怒江。保留有完整热度
+  //   {
+  //     "id": "ethnic-146",
+  //     "name": "傈僳族漆油鸡",
+  //     "alias": [
+  //       "漆油炖鸡"
+  //     ],
+  //     "image": "https://k.sinaimg.cn/n/sinakd10102/222/w640h382/20220126/95c9-552bc99c3df344458f968bc356ee6a07.jpg/w700d1q75cms.jpg",
+  //     "category": "主菜",
+  //     "taste": "咸鲜",
+  //     "type": "traditional",
+  //     "cuisine": "滇菜",
+  //     "province": "云南",
+  //     "city": "怒江",
+  //     "origin": "云南怒江傈僳族自治州，傈僳族传统滋补菜肴",
+  //     "description": "傈僳族漆油鸡是怒江峡谷的民族滋补名菜。以当地土鸡与漆树籽榨取的漆油一同炖煮，汤色金黄、香气独特、鸡肉鲜嫩。漆油具有驱寒滋补功效，傈僳族在产妇调养、贵客到访时必做此菜。漆油鸡体现了怒江傈僳族利用高山植物资源的饮食智慧。",
+  //     "ingredients": ["鸡肉", "食用油", "姜", "草果"],
+  //     "cookingMethod": ["炖", "煮"],
+  //     tags: ["民族美食", "傈僳族", "漆油鸡", "滋补", "咸鲜", "主菜", "滇菜", "云南"],
+  //     "fame": "地方名吃",
+  //     "popularRegions": [
+  //       "云南"
+  //     ],
+  //     "lat": 25.8176,
+  //     "lng": 98.8566,
+  //     "popularity": 5
+  //   },
   {
     "id": "ethnic-147",
     "name": "基诺酸茶",
@@ -2300,130 +2323,135 @@ export const FOODS_ETHNIC: Food[] = [
     "lng": 107.613,
     "popularity": 5
   },
-  {
-    "id": "ethnic-bai-1",
-    "name": "白族乳扇",
-    "category": "小吃",
-    "taste": "香甜",
-    "type": "traditional",
-    "cuisine": "滇菜",
-    "province": "云南",
-    "city": "大理",
-    "origin": "云南大理白族传统乳制品",
-    "description": "白族乳扇以牛奶加酸木瓜汁凝结后拉成薄片，晾于竹竿上呈扇形。可生吃、油炸、烤制或煎食，奶香浓郁，微酸回甘。是大理白族独有的乳制品，被誉为「东方奶酪」，体现了洱海 乳制品文化的独特传承。",
-    "ingredients": [
-      "牛奶",
-      "酸木瓜汁"
-    ],
-    "cookingMethod": ["凝", "晾"],
-    "tags": ["白族", "乳扇", "香甜", "奶酪", "粘糯"],
-    "fame": "地方名吃",
-    "lat": 25.6065,
-    "lng": 100.2676,
-    "popularity": 7,
-    "image": "https://img1.baidu.com/it/u=2037664363,1149586486&fm=253&fmt=auto&app=138&f=JPEG?w=677&h=500"
-  },
-  {
-    "id": "ethnic-tujia-1",
-    "name": "土家族合渣",
-    "category": "汤羹",
-    "taste": "清淡",
-    "type": "traditional",
-    "cuisine": "鄂菜",
-    "province": "湖北",
-    "city": "恩施",
-    "origin": "湖北恩施土家族传统豆食",
-    "description": "土家族合渣以黄豆磨浆后不过滤，连渣带浆煮沸，加入青菜、南瓜、腊肉等煮成。豆香浓郁，菜软汤稠，营养丰富。有「辣椒当盐，合渣过年」的民谚，是土家族贫困年代的救命粮，如今成为土家风味代表。",
-    "ingredients": ["黄豆", "青菜", "南瓜"],
-    "cookingMethod": ["磨", "煮"],
-    "tags": ["土家族", "合渣", "清淡", "豆食", "嫩滑"],
-    "fame": "地方名吃",
-    "lat": 30.2722,
-    "lng": 109.4882,
-    "popularity": 5,
-    "image": "https://img2.baidu.com/it/u=4160986292,965388670&fm=253&app=138&f=JPEG?w=691&h=500"
-  },
-  {
-    "id": "gen3-f-2025-141",
-    "name": "白族大理乳扇",
-    "category": "小吃",
-    "taste": "香甜",
-    "type": "traditional",
-    "cuisine": "滇菜",
-    "province": "云南",
-    "city": "大理",
-    "origin": "大理白族传统乳制品，云南十八怪之一",
-    "description": "白族大理乳扇以鲜牛奶加酸水凝乳后拉伸成薄片，晾干而成。可油炸至金黄酥脆撒白糖，也可炭火烤软后抹玫瑰酱。奶香浓郁，口感独特，是云南十八怪之一牛奶做成片片卖的具体体现，也是大理最具代表性的白族美食。",
-    "ingredients": ["牛奶", "糖", "玫瑰"],
-    "cookingMethod": ["凝", "拉", "晒", "炸"],
-    "tags": ["乳扇", "滇菜", "白族", "牛奶", "云南十八怪", "嫩滑"],
-    "fame": "地方名吃",
-    "popularRegions": [
-      "云南",
-      "全国"
-    ],
-    "lat": 25.5923,
-    "lng": 100.2269,
-    "popularity": 8,
-    "image": "https://img2.baidu.com/it/u=2234812036,458018764&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1423"
-  },
+  // 「ethnic-bai-1」已合并至「city-south-dali-1」- 白族乳扇与大理乳扇为同物异名。WebSearch 验证：乳扇是大理白族传统奶制品，主产区洱源县邓川镇，2022 年入选云
+  //   {
+  //     "id": "ethnic-bai-1",
+  //     "name": "白族乳扇",
+  //     "category": "小吃",
+  //     "taste": "香甜",
+  //     "type": "traditional",
+  //     "cuisine": "滇菜",
+  //     "province": "云南",
+  //     "city": "大理",
+  //     "origin": "云南大理白族传统乳制品",
+  //     "description": "白族乳扇以牛奶加酸木瓜汁凝结后拉成薄片，晾于竹竿上呈扇形。可生吃、油炸、烤制或煎食，奶香浓郁，微酸回甘。是大理白族独有的乳制品，被誉为「东方奶酪」，体现了洱海 乳制品文化的独特传承。",
+  //     "ingredients": [
+  //       "牛奶",
+  //       "酸木瓜汁"
+  //     ],
+  //     "cookingMethod": ["凝", "晾"],
+  //     "tags": ["白族", "乳扇", "香甜", "奶酪", "粘糯"],
+  //     "fame": "地方名吃",
+  //     "lat": 25.6065,
+  //     "lng": 100.2676,
+  //     "popularity": 7,
+  //     "image": "https://img1.baidu.com/it/u=2037664363,1149586486&fm=253&fmt=auto&app=138&f=JPEG?w=677&h=500"
+  //   },
+  // 「ethnic-tujia-1」已合并至「city-enshi-1」- 土家族合渣与恩施合渣为同地同物异名，均为恩施土家族传统豆食，合并至[city-enshi-1]恩施合渣
+  //   {
+  //     "id": "ethnic-tujia-1",
+  //     "name": "土家族合渣",
+  //     "category": "汤羹",
+  //     "taste": "清淡",
+  //     "type": "traditional",
+  //     "cuisine": "鄂菜",
+  //     "province": "湖北",
+  //     "city": "恩施",
+  //     "origin": "湖北恩施土家族传统豆食",
+  //     "description": "土家族合渣以黄豆磨浆后不过滤，连渣带浆煮沸，加入青菜、南瓜、腊肉等煮成。豆香浓郁，菜软汤稠，营养丰富。有「辣椒当盐，合渣过年」的民谚，是土家族贫困年代的救命粮，如今成为土家风味代表。",
+  //     "ingredients": ["黄豆", "青菜", "南瓜"],
+  //     "cookingMethod": ["磨", "煮"],
+  //     "tags": ["土家族", "合渣", "清淡", "豆食", "嫩滑"],
+  //     "fame": "地方名吃",
+  //     "lat": 30.2722,
+  //     "lng": 109.4882,
+  //     "popularity": 5,
+  //     "image": "https://img2.baidu.com/it/u=4160986292,965388670&fm=253&app=138&f=JPEG?w=691&h=500"
+  //   },
+  // 「gen3-f-2025-141」已合并至「city-south-dali-1」- 白族大理乳扇与前两条（大理乳扇、白族乳扇）完全重复，均为同一食品。合并至 city-south-dali-1。
+  //   {
+  //     "id": "gen3-f-2025-141",
+  //     "name": "白族大理乳扇",
+  //     "category": "小吃",
+  //     "taste": "香甜",
+  //     "type": "traditional",
+  //     "cuisine": "滇菜",
+  //     "province": "云南",
+  //     "city": "大理",
+  //     "origin": "大理白族传统乳制品，云南十八怪之一",
+  //     "description": "白族大理乳扇以鲜牛奶加酸水凝乳后拉伸成薄片，晾干而成。可油炸至金黄酥脆撒白糖，也可炭火烤软后抹玫瑰酱。奶香浓郁，口感独特，是云南十八怪之一牛奶做成片片卖的具体体现，也是大理最具代表性的白族美食。",
+  //     "ingredients": ["牛奶", "糖", "玫瑰"],
+  //     "cookingMethod": ["凝", "拉", "晒", "炸"],
+  //     "tags": ["乳扇", "滇菜", "白族", "牛奶", "云南十八怪", "嫩滑"],
+  //     "fame": "地方名吃",
+  //     "popularRegions": [
+  //       "云南",
+  //       "全国"
+  //     ],
+  //     "lat": 25.5923,
+  //     "lng": 100.2269,
+  //     "popularity": 8,
+  //     "image": "https://img2.baidu.com/it/u=2234812036,458018764&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1423"
+  //   },
 
-  {
-    "id": "gen3-f-2025-148",
-    "name": "傣族香茅草烤鱼",
-    "category": "主菜",
-    "taste": "咸鲜",
-    "type": "traditional",
-    "cuisine": "滇菜",
-    "province": "云南",
-    "city": "西双版纳",
-    "origin": "西双版纳傣族传统美食，热带香料烹饪",
-    "description": "傣族香茅草烤鱼以罗非鱼或鲫鱼腹内填入香茅草、辣椒、蒜等香料，用香茅草捆绑后炭火烤制。鱼肉鲜嫩，香茅草清香四溢，麻辣鲜香。是西双版纳傣族最具代表性的烧烤美食，体现了傣族对热带香料的巧妙运用。",
-    "ingredients": [
-      "罗非鱼",
-      "香茅草",
-      "辣椒",
-      "蒜",
-      "柠檬",
-      "盐"
-    ],
-    "cookingMethod": ["烤"],
-    "tags": ["烤鱼", "滇菜", "傣族", "香茅草", "烧烤"],
-    "fame": "地方名吃",
-    "popularRegions": [
-      "云南",
-      "全国"
-    ],
-    "lat": 22.0081,
-    "lng": 100.7972,
-    "popularity": 8,
-    "image": "https://img1.baidu.com/it/u=1435782263,2176836864&fm=253&fmt=auto&app=138&f=JPEG?w=750&h=500"
-  },
+  // 「gen3-f-2025-148」已合并至「batch9-yn-40」- 傣族香茅草烤鱼与傣味香茅草烤鱼为同物异名。WebSearch 验证：香茅草烤鱼是西双版纳傣族代表性菜肴，以罗非鱼填香料后
+  //   {
+  //     "id": "gen3-f-2025-148",
+  //     "name": "傣族香茅草烤鱼",
+  //     "category": "主菜",
+  //     "taste": "咸鲜",
+  //     "type": "traditional",
+  //     "cuisine": "滇菜",
+  //     "province": "云南",
+  //     "city": "西双版纳",
+  //     "origin": "西双版纳傣族传统美食，热带香料烹饪",
+  //     "description": "傣族香茅草烤鱼以罗非鱼或鲫鱼腹内填入香茅草、辣椒、蒜等香料，用香茅草捆绑后炭火烤制。鱼肉鲜嫩，香茅草清香四溢，麻辣鲜香。是西双版纳傣族最具代表性的烧烤美食，体现了傣族对热带香料的巧妙运用。",
+  //     "ingredients": [
+  //       "罗非鱼",
+  //       "香茅草",
+  //       "辣椒",
+  //       "蒜",
+  //       "柠檬",
+  //       "盐"
+  //     ],
+  //     "cookingMethod": ["烤"],
+  //     "tags": ["烤鱼", "滇菜", "傣族", "香茅草", "烧烤"],
+  //     "fame": "地方名吃",
+  //     "popularRegions": [
+  //       "云南",
+  //       "全国"
+  //     ],
+  //     "lat": 22.0081,
+  //     "lng": 100.7972,
+  //     "popularity": 8,
+  //     "image": "https://img1.baidu.com/it/u=1435782263,2176836864&fm=253&fmt=auto&app=138&f=JPEG?w=750&h=500"
+  //   },
   
-  {
-    "id": "gen3-f-2025-142",
-    "name": "维吾尔族烤包子",
-    "category": "小吃",
-    "taste": "咸鲜",
-    "type": "traditional",
-    "cuisine": "新疆菜",
-    "province": "新疆",
-    "city": "喀什",
-    "origin": "新疆维吾尔族传统美食，馕坑烤制",
-    "description": "维吾尔族烤包子以羊肉丁和洋葱为馅，用死面皮包成方形，贴在馕坑内壁烤制。外皮酥脆金黄，内馅羊肉鲜嫩，洋葱香甜，汁水丰富。是新疆维吾尔族最具代表性的传统小吃，也是新疆街头最受欢迎的美食之一。",
-    "ingredients": ["羊肉", "洋葱", "面粉", "胡椒", "孜然", "盐"],
-    "cookingMethod": ["烤"],
-    "tags": ["烤包子", "新疆菜", "维吾尔族", "馕坑", "少数民族"],
-    "fame": "地方名吃",
-    "popularRegions": [
-      "新疆",
-      "全国"
-    ],
-    "lat": 39.4707,
-    "lng": 75.9898,
-    "popularity": 9,
-    "image": "https://img0.baidu.com/it/u=1125409947,2864484485&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=622"
-  },
+  // 「维吾尔族烤包子」(gen3-f-2025-142) 已合并至「烤包子」(batch26-famous-084) - 同地同物重复
+  // {
+  //   "id": "gen3-f-2025-142",
+  //   "name": "维吾尔族烤包子",
+  //   "category": "小吃",
+  //   "taste": "咸鲜",
+  //   "type": "traditional",
+  //   "cuisine": "新疆菜",
+  //   "province": "新疆",
+  //   "city": "喀什",
+  //   "origin": "新疆维吾尔族传统美食，馕坑烤制",
+  //   "description": "维吾尔族烤包子以羊肉丁和洋葱为馅，用死面皮包成方形，贴在馕坑内壁烤制。外皮酥脆金黄，内馅羊肉鲜嫩，洋葱香甜，汁水丰富。是新疆维吾尔族最具代表性的传统小吃，也是新疆街头最受欢迎的美食之一。",
+  //   "ingredients": ["羊肉", "洋葱", "面粉", "胡椒", "孜然", "盐"],
+  //   "cookingMethod": ["烤"],
+  //   "tags": ["烤包子", "新疆菜", "维吾尔族", "馕坑", "少数民族"],
+  //   "fame": "地方名吃",
+  //   "popularRegions": [
+  //     "新疆",
+  //     "全国"
+  //   ],
+  //   "lat": 39.4707,
+  //   "lng": 75.9898,
+  //   "popularity": 9,
+  //   "image": "https://img0.baidu.com/it/u=1125409947,2864484485&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=622"
+  // },
   {
     "id": "gen3-f-2025-145",
     "name": "回族油香",
@@ -2449,34 +2477,36 @@ export const FOODS_ETHNIC: Food[] = [
     "popularity": 7,
     "image": "https://img0.baidu.com/it/u=3294077150,1257698374&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=667"
   },
-  {
-    "id": "gen3-f-2025-146",
-    "name": "蒙古族奶豆腐",
-    "category": "小吃",
-    "taste": "酸甜",
-    "type": "traditional",
-    "cuisine": "蒙餐",
-    "province": "内蒙古",
-    "city": "锡林郭勒",
-    "origin": "蒙古族传统奶制品，草原白食",
-    "description": "蒙古族奶豆腐以牛奶自然发酵后凝固，压制成块状，可生食或油炸。口感酸甜，奶香浓郁，营养丰富。是蒙古族传统白食（奶制品）的代表，也是草原牧民日常饮食中不可或缺的食物，体现了游牧民族对牛奶的深度利用。",
-    "ingredients": ["牛奶", "酸奶", "盐"],
-    "cookingMethod": ["发酵"],
-    "tags": [
-      "奶豆腐",
-      "蒙餐",
-      "蒙古族",
-      "草原",
-      "奶制品",
-      "白食"
-    ],
-    "fame": "地方名吃",
-    "popularRegions": [
-      "内蒙古",
-      "全国"
-    ],
-    "lat": 43.9333,
-    "lng": 116.0333,
-    "popularity": 8,
-    "image": "https://img0.baidu.com/it/u=3667742577,2471170280&fm=253&fmt=auto&app=138&f=PNG?w=519&h=500"
-  }];
+  // 「gen3-f-2025-146」已合并至「gen2-f-2025-94」- 蒙古族奶豆腐与奶豆腐为同物异名，保留通用名"奶豆腐"，合并后fame取"名菜"
+  //   {
+  //     "id": "gen3-f-2025-146",
+  //     "name": "蒙古族奶豆腐",
+  //     "category": "小吃",
+  //     "taste": "酸甜",
+  //     "type": "traditional",
+  //     "cuisine": "蒙餐",
+  //     "province": "内蒙古",
+  //     "city": "锡林郭勒",
+  //     "origin": "蒙古族传统奶制品，草原白食",
+  //     "description": "蒙古族奶豆腐以牛奶自然发酵后凝固，压制成块状，可生食或油炸。口感酸甜，奶香浓郁，营养丰富。是蒙古族传统白食（奶制品）的代表，也是草原牧民日常饮食中不可或缺的食物，体现了游牧民族对牛奶的深度利用。",
+  //     "ingredients": ["牛奶", "酸奶", "盐"],
+  //     "cookingMethod": ["发酵"],
+  //     "tags": [
+  //       "奶豆腐",
+  //       "蒙餐",
+  //       "蒙古族",
+  //       "草原",
+  //       "奶制品",
+  //       "白食"
+  //     ],
+  //     "fame": "名菜",
+  //     "popularRegions": [
+  //       "内蒙古",
+  //       "全国"
+  //     ],
+  //     "lat": 43.9333,
+  //     "lng": 116.0333,
+  //     "popularity": 7,
+  //     "image": "https://img0.baidu.com/it/u=3667742577,2471170280&fm=253&fmt=auto&app=138&f=PNG?w=519&h=500"
+  //   },
+];

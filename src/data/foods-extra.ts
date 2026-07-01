@@ -20,11 +20,11 @@ export const FOODS_EXTRA: Food[] = [
     ingredients: ["红枣"],
     cookingMethod: ["晒", "烤"],
     tags: ["物产", "红枣", "干果", "地理标志", "香甜", "新疆菜", "新疆"],
-    fame: "地方名吃",
+    fame: "名菜",
     popularRegions: ["新疆"],
     lat: 37.1124,
     lng: 79.9146,
-    popularity: 3,
+    popularity: 7,
   },
   {
     id: "extra-3",
@@ -70,7 +70,7 @@ export const FOODS_EXTRA: Food[] = [
     popularRegions: ["吉林"],
     lat: 41.9385,
     lng: 126.4276,
-    popularity: 5,
+    popularity: 8,
   },
   {
     id: "extra-5",
@@ -93,7 +93,7 @@ export const FOODS_EXTRA: Food[] = [
     popularRegions: ["黑龙江"],
     lat: 44.9329,
     lng: 127.1549,
-    popularity: 5,
+    popularity: 9,
   },
   {
     id: "extra-10",
@@ -116,7 +116,7 @@ export const FOODS_EXTRA: Food[] = [
     popularRegions: ["云南"],
     lat: 22.8252,
     lng: 100.966,
-    popularity: 5,
+    popularity: 7,
   },
   {
     id: "extra-11",
@@ -135,11 +135,11 @@ export const FOODS_EXTRA: Food[] = [
     ingredients: ["茶叶"],
     cookingMethod: ["烤", "冲"],
     tags: ["物产", "绿茶", "十大名茶", "苦", "豫菜", "河南"],
-    fame: "地方名吃",
+    fame: "名菜",
     popularRegions: ["河南"],
     lat: 32.1475,
     lng: 114.0913,
-    popularity: 4,
+    popularity: 8,
   },
   {
     id: "extra-13",
@@ -162,7 +162,7 @@ export const FOODS_EXTRA: Food[] = [
     popularRegions: ["江苏"],
     lat: 31.2139,
     lng: 120.4139,
-    popularity: 6,
+    popularity: 8,
   },
   {
     id: "extra-14",
@@ -251,11 +251,11 @@ export const FOODS_EXTRA: Food[] = [
     ingredients: ["毛辣果", "米汤", "盐"],
     cookingMethod: ["发酵"],
     tags: ["调料", "苗族", "地理标志", "酸辣", "黔菜", "贵州"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["贵州"],
     lat: 26.5835,
     lng: 107.9829,
-    popularity: 2,
+    popularity: 4,
   },
   {
     id: "extra-21",
@@ -278,7 +278,7 @@ export const FOODS_EXTRA: Food[] = [
     popularRegions: ["海南"],
     lat: 18.2528,
     lng: 109.5119,
-    popularity: 1,
+    popularity: 5,
   },
   // ========== 小吃类 ==========
 
@@ -304,7 +304,7 @@ export const FOODS_EXTRA: Food[] = [
     popularRegions: ["北京"],
     lat: 39.9042,
     lng: 116.4074,
-    popularity: 9,
+    popularity: 7,
   },
   
   
@@ -378,7 +378,7 @@ export const FOODS_EXTRA: Food[] = [
     popularRegions: ["四川"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 5,
+    popularity: 6,
   },
   {
     id: "extra-48",
@@ -397,9 +397,9 @@ export const FOODS_EXTRA: Food[] = [
     ingredients: ["白菜", "盐"],
     cookingMethod: ["发酵", "腌"],
     tags: ["腌", "酸菜", "东北", "发酵", "冬季"],
-    fame: "地方名吃",
+    fame: "名菜",
     popularRegions: ["辽宁"],
     lat: 41.8057,
     lng: 123.4315,
-    popularity: 4,
+    popularity: 7,
   }];

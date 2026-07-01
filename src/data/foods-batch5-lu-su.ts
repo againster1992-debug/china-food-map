@@ -273,7 +273,7 @@ export const FOODS_BATCH5_LU_SU: Food[] = [
     ingredients: ["鱼肉", "醋", "胡椒", "香菜", "葱"],
     cookingMethod: ["煮", "炖"],
     tags: ["鲁菜", "醋椒", "酸辣", "汤羹", "粘糯"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,

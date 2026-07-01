@@ -29,7 +29,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 6
+  popularity: 8
 },
 {
   id: "batch22-hot-3",
@@ -57,7 +57,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 5
+  popularity: 8
 },
 // 「酸辣无骨鸡爪杯」已合并至「柠檬酸辣鸡爪杯」(batch25-hot-008)
   // 「红糖麻薯烤年糕」已合并至「红糖麻薯脆皮年糕」(foods-batch28-hot100.ts batch28-hot-028) - 同地同物异名
@@ -90,7 +90,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 4
+  popularity: 8
 },
 {
   id: "batch22-hot-9",
@@ -120,7 +120,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 5
+  popularity: 8
 },
 {
   id: "batch22-hot-10",
@@ -152,7 +152,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 30.5728,
   lng: 104.0668,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch22-hot-11",
@@ -183,7 +183,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 4
+  popularity: 8
 },
 {
   id: "batch22-hot-12",
@@ -276,7 +276,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 4
+  popularity: 8
 },
 {
   id: "batch22-hot-15",
@@ -305,7 +305,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 5
+  popularity: 8
 },
 {
   id: "batch22-hot-16",
@@ -338,7 +338,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 30.5728,
   lng: 104.0668,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch22-hot-17",
@@ -368,7 +368,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 3
+  popularity: 8
 },
 {
   id: "batch22-hot-18",
@@ -395,7 +395,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 3
+  popularity: 8
 },
 {
   id: "batch22-hot-19",
@@ -632,7 +632,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 8
 },
 {
   id: "batch22-hot-27",
@@ -1043,7 +1043,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 43.8171,
   lng: 125.3235,
-  popularity: 9
+  popularity: 8
 },
 {
   id: "batch22-hot-45",
@@ -1512,7 +1512,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 39.9042,
   lng: 116.4074,
-  popularity: 9
+  popularity: 7
 },
 {
   id: "batch22-hot-64",
@@ -1714,7 +1714,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   type: "popular",
   cuisine: "东北菜",
   province: "吉林",
-  city: "吉林",
+  city: "吉林市",
   origin: "吉林传统小吃，以红薯粉煎制，外焦里嫩。",
   description: "煎粉以红薯粉、蒜、醋、芝麻酱为主料，经煎、炒制成，咸鲜味美，是街头与社交平台的热门小吃。",
   ingredients: [
@@ -1728,14 +1728,14 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "炒"
   ],
   tags: ["咸鲜", "小吃", "东北菜", "吉林", "热门", "网红", "夜宵"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: [
     "吉林",
     "全国"
   ],
-  lat: 43.8171,
-  lng: 125.3235,
-  popularity: 9
+  lat: 43.8378,
+  lng: 126.5496,
+  popularity: 6
 },
 
 {
@@ -1915,7 +1915,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 24.3265,
   lng: 109.4285,
-  popularity: 8
+  popularity: 9
 },
 // 「柠檬凤爪」已合并至「柠檬酸辣鸡爪杯」(batch25-hot-008)
 {
@@ -2256,14 +2256,14 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "蒸"
   ],
   tags: ["咸鲜", "主菜", "东北菜", "吉林", "长春", "热门", "网红"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: [
     "吉林",
     "全国"
   ],
   lat: 43.8171,
   lng: 125.3235,
-  popularity: 9
+  popularity: 6
 },
 {
   id: "batch22-hot-96",
@@ -2286,14 +2286,14 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "煮"
   ],
   tags: ["香甜", "饮品", "藏餐", "西藏", "拉萨", "热门", "网红", "甜味"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: [
     "西藏",
     "全国"
   ],
   lat: 29.65,
   lng: 91.1,
-  popularity: 8
+  popularity: 6
 },
 {
   id: "batch22-hot-97",
@@ -2317,14 +2317,14 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "拌"
   ],
   tags: ["香甜", "主食", "藏餐", "西藏", "拉萨", "热门", "网红", "早餐", "甜味"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: [
     "西藏",
     "全国"
   ],
   lat: 29.65,
   lng: 91.1,
-  popularity: 9
+  popularity: 6
 },
 {
   id: "batch22-hot-98",

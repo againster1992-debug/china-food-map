@@ -52,7 +52,7 @@ export const FOODS_BATCH9_SHAANXI: Food[] = [
   {
     id: "batch9-sx-3",
     name: "桃仁口蘑氽双脆",
-    alias: ["氽双脆"],
+    alias: [],
     image: "https://img1.baidu.com/it/u=43886940,927015381&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=908",
     category: "汤羹",
     taste: "鲜香",

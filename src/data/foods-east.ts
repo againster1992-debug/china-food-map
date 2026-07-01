@@ -1,4 +1,4 @@
-﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
 
 export const FOODS_EAST: Food[] = [
   // ========== 上海（本帮菜）==========
@@ -44,7 +44,7 @@ export const FOODS_EAST: Food[] = [
     lng: 121.4737,
     fame: "名菜",
     popularRegions: ["上海"],
-    popularity: 6,
+    popularity: 7,
   },
   {
     id: "sh-6",
@@ -66,7 +66,7 @@ export const FOODS_EAST: Food[] = [
     lng: 121.4737,
     fame: "地方名吃",
     popularRegions: ["上海"],
-    popularity: 4,
+    popularity: 5,
   },
   {
     id: "sh-7",
@@ -88,12 +88,12 @@ export const FOODS_EAST: Food[] = [
     lng: 121.4737,
     fame: "名菜",
     popularRegions: ["上海"],
-    popularity: 6,
+    popularity: 7,
   },
 {
     id: "sh-8",
     name: "葱油拌面",
-    alias: ["葱油面"],
+    alias: ["葱油面", "开洋葱油拌面"],
     image: "https://img0.baidu.com/it/u=3109882972,3089410261&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1422",
     category: "面食",
     taste: "咸鲜",
@@ -108,9 +108,9 @@ export const FOODS_EAST: Food[] = [
     tags: ["面食", "葱油", "拌面", "本帮", "早餐", "简单"],
     lat: 31.2304,
     lng: 121.4737,
-    fame: "地方名吃",
+    fame: "热门",
     popularRegions: ["上海"],
-    popularity: 5,
+    popularity: 7,
   },
   {
     id: "sh-9",
@@ -131,7 +131,7 @@ export const FOODS_EAST: Food[] = [
     popularRegions: ["上海"],
     lat: 31.2304,
     lng: 121.4737,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "sh-10",
@@ -152,7 +152,7 @@ export const FOODS_EAST: Food[] = [
     popularRegions: ["上海"],
     lat: 31.2304,
     lng: 121.4737,
-    popularity: 6,
+    popularity: 5,
   },
     
 
@@ -175,7 +175,7 @@ export const FOODS_EAST: Food[] = [
     ingredients: ["豆腐", "苋菜", "油", "甜面酱"],
     cookingMethod: ["炸"],
     tags: ["豆腐", "臭味", "油炸", "浙菜", "绍兴", "小吃", "传统", "酥脆"],
-    fame: "名菜",
+    fame: "热门",
     popularRegions: ["浙江", "上海"],
     lat: 30.0028,
     lng: 120.5802,
@@ -203,12 +203,12 @@ export const FOODS_EAST: Food[] = [
     lng: 118.5952,
     fame: "名菜",
     popularRegions: ["安徽"],
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ah-5",
     name: "黄山烧饼",
-    alias: ["蟹壳黄", "救驾烧饼", "徽州烧饼", "徽州饼"],
+    alias: ["救驾烧饼", "徽州烧饼", "徽州饼"],
     image: "https://img1.baidu.com/it/u=440786222,155895645&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1422",
     category: "糕点",
     taste: "咸鲜",
@@ -223,9 +223,9 @@ export const FOODS_EAST: Food[] = [
     tags: ["糕点", "酥皮", "梅干菜", "徽菜", "黄山", "伴手礼", "传统"],
     lat: 29.715,
     lng: 118.3386,
-    fame: "地方名吃",
+    fame: "热门",
     popularRegions: ["安徽"],
-    popularity: 3,
+    popularity: 5,
   },
 {
     id: "ah-6",
@@ -247,7 +247,7 @@ export const FOODS_EAST: Food[] = [
     lng: 116.9641,
     fame: "名菜",
     popularRegions: ["安徽"],
-    popularity: 6,
+    popularity: 7,
   },
     
   
@@ -271,7 +271,7 @@ export const FOODS_EAST: Food[] = [
     lng: 117.9028,
     fame: "名菜",
     popularRegions: ["安徽"],
-    popularity: 8,
+    popularity: 6,
   },
   {
     id: "ah-10",
@@ -291,9 +291,9 @@ export const FOODS_EAST: Food[] = [
     tags: ["牛肉", "汤", "徽菜", "淮南", "早餐", "暖身", "传统"],
     lat: 32.6264,
     lng: 116.9999,
-    fame: "名菜",
+    fame: "热门",
     popularRegions: ["安徽"],
-    popularity: 4,
+    popularity: 7,
   },
   {
     id: "ah-11",
@@ -305,7 +305,7 @@ export const FOODS_EAST: Food[] = [
     type: "traditional",
     cuisine: "徽菜",
     province: "安徽",
-    city: "徽州",
+    city: "黄山",
     origin: "徽州，传统宴席甜菜",
     description: "徽州圆子以糯米粉包豆沙馅，裹芝麻油炸。外皮金黄酥脆，内里软糯香甜。是徽州宴席压轴甜菜，象征「团团圆圆」。配茶解腻，体现徽菜「甜咸兼备」的特色。",
     ingredients: ["糯米", "豆沙", "芝麻", "糖"],
@@ -314,7 +314,7 @@ export const FOODS_EAST: Food[] = [
     popularRegions: ["安徽"],
     lat: 29.715,
     lng: 118.3386,
-    popularity: 1,
+    popularity: 3,
   },
 
   // ========== 福建（闽菜）==========
@@ -338,7 +338,7 @@ export const FOODS_EAST: Food[] = [
     popularRegions: ["福建"],
     lat: 26.3972,
     lng: 117.7917,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "fj-4",
@@ -358,9 +358,9 @@ export const FOODS_EAST: Food[] = [
     tags: ["海蛎", "煎", "闽菜", "闽南", "厦门", "小吃", "海鲜"],
     lat: 24.4798,
     lng: 118.0894,
-    fame: "地方名吃",
+    fame: "热门",
     popularRegions: ["福建"],
-    popularity: 4,
+    popularity: 6,
   },
   {
     id: "fj-5",
@@ -382,7 +382,7 @@ export const FOODS_EAST: Food[] = [
     lng: 119.2965,
     fame: "名菜",
     popularRegions: ["全国"],
-    popularity: 8,
+    popularity: 7,
   },
 {
     id: "fj-6",
@@ -476,7 +476,7 @@ export const FOODS_EAST: Food[] = [
     lng: 116.0147,
     fame: "名菜",
     popularRegions: ["江西"],
-    popularity: 5,
+    popularity: 8,
   },
   {
     id: "jx-7",
@@ -497,7 +497,7 @@ export const FOODS_EAST: Food[] = [
     popularRegions: ["江西"],
     lat: 28.682,
     lng: 115.8579,
-    popularity: 2,
+    popularity: 5,
   },
   {
     id: "jx-8",
@@ -540,7 +540,7 @@ export const FOODS_EAST: Food[] = [
     popularRegions: ["江西"],
     lat: 29.7051,
     lng: 116.0006,
-    popularity: 1,
+    popularity: 3,
   },
   {
     id: "jx-10",
@@ -561,7 +561,7 @@ export const FOODS_EAST: Food[] = [
     popularRegions: ["江西"],
     lat: 28.3001,
     lng: 117.2097,
-    popularity: 1,
+    popularity: 2,
   },
   {
     id: "jx-11",
@@ -583,7 +583,7 @@ export const FOODS_EAST: Food[] = [
     lng: 115.8579,
     fame: "地方名吃",
     popularRegions: ["江西"],
-    popularity: 2,
+    popularity: 3,
   },
 
   // ========== 山东（鲁菜）==========
@@ -591,7 +591,7 @@ export const FOODS_EAST: Food[] = [
   {
     id: "sd-4",
     name: "糖醋鲤鱼",
-    alias: ["黄河鲤鱼"],
+    alias: [],
     image: "https://img0.baidu.com/it/u=3625990709,4123127340&fm=253&fmt=auto&app=138&f=PNG?w=500&h=676",
     category: "主菜",
     taste: "酸甜",
@@ -608,7 +608,7 @@ export const FOODS_EAST: Food[] = [
     lng: 117.12,
     fame: "名菜",
     popularRegions: ["山东", "全国"],
-    popularity: 10,
+    popularity: 9,
   },
     
   {
@@ -677,7 +677,7 @@ export const FOODS_EAST: Food[] = [
     popularRegions: ["山东"],
     lat: 37.4638,
     lng: 121.4479,
-    popularity: 3,
+    popularity: 6,
   },
 
   {
@@ -700,7 +700,7 @@ export const FOODS_EAST: Food[] = [
     "fame": "地方名吃",
     "lat": 31.2304,
     "lng": 121.4737,
-    "popularity": 5
+    "popularity": 6
   },
 {
     "id": "east-5",
@@ -774,10 +774,10 @@ export const FOODS_EAST: Food[] = [
       "烤"
     ],
     "tags": ["缙云", "烧饼", "梅干菜", "浙菜", "街头", "酥脆", "嫩滑"],
-    "fame": "地方名吃",
+    "fame": "热门",
     "lat": 28.6604,
     "lng": 120.0916,
-    "popularity": 5,
+    "popularity": 7,
   },
   {
     "id": "east-10",
@@ -799,8 +799,8 @@ export const FOODS_EAST: Food[] = [
       "卤"
     ],
     "tags": ["贡鹅", "卤味", "禽类", "徽菜", "传统", "嫩滑"],
-    "fame": "名菜",
+    "fame": "地方名吃",
     "lat": 31.8206,
     "lng": 117.2272,
-    "popularity": 6
+    "popularity": 5
   }];

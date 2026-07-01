@@ -71,7 +71,7 @@ export const FOODS_BATCH19_CUISINE_TRENDS: Food[] = [
     popularRegions: ["新疆", "全国"],
     lat: 39.4704,
     lng: 75.9891,
-    popularity: 9,
+    popularity: 8,
   },
   /**/
 
@@ -118,7 +118,7 @@ export const FOODS_BATCH19_CUISINE_TRENDS: Food[] = [
     popularRegions: ["海南"],
     lat: 20.0444,
     lng: 110.1989,
-    popularity: 9,
+    popularity: 7,
   },
   // ========== 晋菜补充美食 ==========
   {
@@ -141,7 +141,7 @@ export const FOODS_BATCH19_CUISINE_TRENDS: Food[] = [
     popularRegions: ["山西", "太原"],
     lat: 37.8706,
     lng: 112.5489,
-    popularity: 10,
+    popularity: 8,
   },
   {
     id: "batch19-shanxi-2",
@@ -187,12 +187,12 @@ export const FOODS_BATCH19_CUISINE_TRENDS: Food[] = [
     popularRegions: ["河北", "京津冀"],
     lat: 38.874,
     lng: 115.4646,
-    popularity: 10,
+    popularity: 8,
   },
   {
     id: "batch19-hebei-2",
     name: "正定八大碗",
-    alias: ["八大碗"],
+    alias: [],
     image: "https://img2.baidu.com/it/u=4243390100,2599396986&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=667",
     category: "主菜",
     taste: "咸鲜",
@@ -233,7 +233,7 @@ export const FOODS_BATCH19_CUISINE_TRENDS: Food[] = [
     popularRegions: ["西藏", "林芝"],
     lat: 29.6487,
     lng: 94.3615,
-    popularity: 9,
+    popularity: 8,
   },
   /**/
   /**/];

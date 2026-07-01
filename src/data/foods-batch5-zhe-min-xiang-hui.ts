@@ -52,7 +52,7 @@ export const FOODS_BATCH5_ZHE_MIN_XIANG_HUI: Food[] = [
   {
     id: "batch5-zhe-3",
     name: "摇蚶",
-    alias: ["摇蚶", "泥蚶"],
+    alias: ["泥蚶"],
     image: "https://img0.baidu.com/it/u=3472516092,3319997656&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=731",
     category: "主菜",
     taste: "咸鲜",
@@ -98,7 +98,7 @@ export const FOODS_BATCH5_ZHE_MIN_XIANG_HUI: Food[] = [
   {
     id: "batch5-zhe-5",
     name: "白鲞扣鸡",
-    alias: ["白鲞扣鸡", "鲞扣鸡"],
+    alias: ["鲞扣鸡"],
     image: "https://img2.baidu.com/it/u=770544340,36157708&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1422",
     category: "主菜",
     taste: "咸鲜",
@@ -145,7 +145,7 @@ export const FOODS_BATCH5_ZHE_MIN_XIANG_HUI: Food[] = [
   {
     id: "batch5-zhe-11",
     name: "香糕",
-    alias: ["香糕", "绍兴糕"],
+    alias: ["绍兴糕"],
     image: "https://img1.baidu.com/it/u=2236560398,659697354&fm=253&fmt=auto?w=800&h=1060",
     category: "糕点",
     taste: "香甜",
@@ -192,7 +192,7 @@ export const FOODS_BATCH5_ZHE_MIN_XIANG_HUI: Food[] = [
   {
     id: "batch5-zhe-14",
     name: "鸡子馃",
-    alias: ["鸡子馃", "鸡蛋饼"],
+    alias: ["鸡蛋饼"],
     image: "https://img0.baidu.com/it/u=2777139,2128876378&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=700",
     category: "小吃",
     taste: "咸鲜",
@@ -426,7 +426,7 @@ export const FOODS_BATCH5_ZHE_MIN_XIANG_HUI: Food[] = [
   {
     id: "batch5-min-11",
     name: "闽清粉干",
-    alias: ["粉干", "闽清米粉"],
+    alias: ["闽清米粉"],
     image: "https://img2.baidu.com/it/u=4062259511,79789128&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=653",
     category: "主食",
     taste: "咸鲜",
@@ -466,11 +466,11 @@ export const FOODS_BATCH5_ZHE_MIN_XIANG_HUI: Food[] = [
     ingredients: ["鸡肉", "鸽肉", "鹌鹑肉", "香菇", "火腿", "料酒"],
     cookingMethod: ["炖"],
     tags: ["湘菜", "汤羹", "宴席", "名菜", "酥脆"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["湖南"],
     lat: 28.2278,
     lng: 112.9388,
-    popularity: 6,
+    popularity: 5,
   },
 
   {

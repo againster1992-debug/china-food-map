@@ -1,4 +1,4 @@
-﻿import type { Food } from "@/types/food";
+﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
 
 export const FOODS_BATCH26_FAMOUS100: Food[] = [
 {
@@ -21,7 +21,7 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
   popularRegions: ["江苏", "全国"],
   lat: 32.3942,
   lng: 119.4129,
-  popularity: 10
+  popularity: 9
 },
 {
   id: "batch26-famous-003",
@@ -43,7 +43,7 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
   popularRegions: ["江苏", "全国"],
   lat: 32.3942,
   lng: 119.4129,
-  popularity: 10
+  popularity: 8
 },
 {
   id: "batch26-famous-004",
@@ -65,7 +65,7 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
   popularRegions: ["江苏", "全国"],
   lat: 32.189,
   lng: 119.425,
-  popularity: 10
+  popularity: 8
 },
 {
   id: "batch26-famous-008",
@@ -154,7 +154,7 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
   popularRegions: ["辽宁", "全国"],
   lat: 38.914,
   lng: 121.6147,
-  popularity: 9
+  popularity: 8
 },
 
 
@@ -202,7 +202,7 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
   popularRegions: ["吉林", "东北", "全国"],
   lat: 42.891,
   lng: 129.508,
-  popularity: 9
+  popularity: 8
 },
 
 
@@ -228,7 +228,7 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
   popularRegions: ["河南", "周口", "全国"],
   lat: 33.626,
   lng: 114.697,
-  popularity: 9
+  popularity: 8
 },  {
   id: "batch26-famous-037",
   name: "螺蛳粉",
@@ -249,31 +249,32 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
   popularRegions: ["广西", "柳州", "全国"],
   lat: 24.3264,
   lng: 109.4281,
-  popularity: 10
+  popularity: 8
 }
 ,
-{
-  id: "batch26-famous-038",
-  name: "牛油火锅",
-  alias: [],
-  image: "https://img0.baidu.com/it/u=1511968834,2327611974&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=800",
-  category: "主菜",
-  taste: "麻辣",
-  type: "traditional",
-  cuisine: "川菜",
-  province: "重庆",
-  city: "重庆",
-  origin: "巴渝热情缩影，牛油麻辣锅底涮毛肚鸭肠，九宫格火锅煮的是江湖，吃的是豪爽。",
-  description: "重庆牛油火锅以牛油麻辣锅底涮毛肚、鸭肠、黄喉等。麻辣鲜香、牛油浓郁，是巴渝热情的缩影，九宫格火锅煮的是江湖，吃的是豪爽。",
-  ingredients: ["牛油", "辣椒", "花椒", "毛肚", "鸭肠", "黄喉"],
-  cookingMethod: ["涮", "煮"],
-  tags: ["麻辣", "主菜", "川菜", "重庆", "火锅", "牛油", "巴渝", "九宫格", "江湖", "地方名吃"],
-  fame: "名菜",
-  popularRegions: ["重庆", "全国"],
-  lat: 29.563,
-  lng: 106.5516,
-  popularity: 10
-},
+// 「牛油火锅」已合并至「重庆火锅」(foods-batch4-sichuan-hunan.ts batch4-cq-2) - 同地同物异名，牛油火锅即重庆火锅，牛油为重庆火锅的特征做法，主条目别名已含"牛油重庆火锅"
+// {
+//   id: "batch26-famous-038",
+//   name: "牛油火锅",
+//   alias: [],
+//   image: "https://img0.baidu.com/it/u=1511968834,2327611974&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=800",
+//   category: "主菜",
+//   taste: "麻辣",
+//   type: "traditional",
+//   cuisine: "川菜",
+//   province: "重庆",
+//   city: "重庆",
+//   origin: "巴渝热情缩影，牛油麻辣锅底涮毛肚鸭肠，九宫格火锅煮的是江湖，吃的是豪爽。",
+//   description: "重庆牛油火锅以牛油麻辣锅底涮毛肚、鸭肠、黄喉等。麻辣鲜香、牛油浓郁，是巴渝热情的缩影，九宫格火锅煮的是江湖，吃的是豪爽。",
+//   ingredients: ["牛油", "辣椒", "花椒", "毛肚", "鸭肠", "黄喉"],
+//   cookingMethod: ["涮", "煮"],
+//   tags: ["麻辣", "主菜", "川菜", "重庆", "火锅", "牛油", "巴渝", "九宫格", "江湖", "地方名吃"],
+//   fame: "名菜",
+//   popularRegions: ["重庆", "全国"],
+//   lat: 29.563,
+//   lng: 106.5516,
+//   popularity: 10
+// },
   
 // 「七星包心鱼丸」已合并至「七星鱼丸」(foods-batch23-famous100.ts) - 同省同物异名
 // 「西湖莼菜羹」已合并至「西湖莼菜汤」(foods-famous.ts famous-37) - 同地同物异名
@@ -390,50 +391,32 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
 },
 
   
-{
-  id: "batch26-famous-068",
-  name: "瓦罐煨排骨汤",
-  alias: [],
-  image: "https://img2.baidu.com/it/u=1419710323,3934827883&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=889",
-  category: "汤羹",
-  taste: "鲜香",
-  type: "traditional",
-  cuisine: "赣菜",
-  province: "江西",
-  city: "南昌",
-  origin: "南昌瓦罐汤文化代表，土质瓦罐慢火煨制排骨和中药材，汤清味浓鲜香醇厚，一罐煨足数小时。",
-  description: "南昌瓦罐煨排骨汤以土质瓦罐为器，慢火煨制排骨和中药材。汤清味浓、鲜香醇厚，是南昌瓦罐汤文化的代表，一罐煨足数小时，暖胃暖心暖人。",
-  ingredients: ["排骨", "红枣", "枸杞", "党参", "姜", "盐"],
-  cookingMethod: ["煨", "炖"],
-  tags: ["鲜香", "汤羹", "赣菜", "江西", "南昌", "瓦罐", "煨制", "醇厚", "传统", "地方名吃"],
-  fame: "名菜",
-  popularRegions: ["江西", "全国"],
-  lat: 28.682,
-  lng: 115.858,
-  popularity: 9
-},
-{
-  id: "batch26-famous-069",
-  name: "合记烩面",
-  alias: [],
-  image: "https://img0.baidu.com/it/u=1683568755,4239204895&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=654",
-  category: "面食",
-  taste: "咸鲜",
-  type: "traditional",
-  cuisine: "豫菜",
-  province: "河南",
-  city: "郑州",
-  origin: "郑州合记百年老号招牌，羊肉汤为底配宽面条粉条豆腐丝，汤白面筋料足味浓，河南烩面代表之作。",
-  description: "郑州合记烩面以羊肉汤为底配宽面条、粉条、豆腐丝、海带。汤白面筋、料足味浓，是郑州合记百年老号的招牌，河南烩面的代表之作。",
-  ingredients: ["面粉", "羊肉", "粉条", "豆腐", "海带", "香菜"],
-  cookingMethod: ["煮", "烩"],
-  tags: ["咸鲜", "面食", "豫菜", "河南", "郑州", "羊肉汤", "百年", "宽面", "料足", "地方名吃"],
-  fame: "名菜",
-  popularRegions: ["河南", "全国"],
-  lat: 34.7466,
-  lng: 113.6253,
-  popularity: 9
-},
+// 【去重合并】「瓦罐煨排骨汤」(batch26-famous-068) 已合并至「瓦罐汤文化」(tradition-jiangxi-waguan-tang-culture, foods-traditions.ts) - 同为南昌赣菜瓦罐汤，瓦罐汤文化条目已涵盖排骨等食材
+//{
+//  id: "batch26-famous-068",
+//  name: "瓦罐煨排骨汤",
+//  alias: [],
+//  image: "https://img2.baidu.com/it/u=1419710323,3934827883&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=889",
+//  category: "汤羹",
+//  taste: "鲜香",
+//  type: "traditional",
+//  cuisine: "赣菜",
+//  province: "江西",
+//  city: "南昌",
+//  origin: "南昌瓦罐汤文化代表，土质瓦罐慢火煨制排骨和中药材，汤清味浓鲜香醇厚，一罐煨足数小时。",
+//  description: "南昌瓦罐煨排骨汤以土质瓦罐为器，慢火煨制排骨和中药材。汤清味浓、鲜香醇厚，是南昌瓦罐汤文化的代表，一罐煨足数小时，暖胃暖心暖人。",
+//  ingredients: ["排骨", "红枣", "枸杞", "党参", "姜", "盐"],
+//  cookingMethod: ["煨", "炖"],
+//  tags: ["鲜香", "汤羹", "赣菜", "江西", "南昌", "瓦罐", "煨制", "醇厚", "传统", "地方名吃"],
+//  fame: "名菜",
+//  popularRegions: ["江西", "全国"],
+//  lat: 28.682,
+//  lng: 115.858,
+//  popularity: 7
+//},
+// 【已合并】合记烩面已合并至「烩面」(city-south-zhengzhou-1, foods-cities-south.ts) - 品牌前缀简化
+// 原条目 batch26-famous-069 (合记烩面) 已删除合并
+,
 {
   id: "batch26-famous-070",
   name: "老通城三鲜豆皮",
@@ -456,50 +439,32 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
   lng: 114.3055,
   popularity: 9
 },
-{
-  id: "batch26-famous-075",
-  name: "老火锅",
-  alias: [],
-  image: "https://img0.baidu.com/it/u=2342628515,1843980156&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=654",
-  category: "主菜",
-  taste: "麻辣",
-  type: "traditional",
-  cuisine: "川菜",
-  province: "重庆",
-  city: "重庆",
-  origin: "重庆桥头老火锅百年传承，牛油麻辣锅底涮毛肚鸭肠黄喉，九宫格火锅煮的是重庆人的江湖豪情。",
-  description: "重庆桥头老火锅以牛油麻辣锅底涮毛肚鸭肠黄喉。麻辣鲜香、牛油浓郁，是重庆桥头老火锅的百年传承，九宫格火锅煮的是重庆人的江湖豪情。",
-  ingredients: ["牛油", "辣椒", "花椒", "毛肚", "鸭肠", "黄喉", "蒜"],
-  cookingMethod: ["涮", "煮"],
-  tags: ["麻辣", "主菜", "川菜", "重庆", "火锅", "桥头", "百年", "牛油", "江湖", "地方名吃"],
-  fame: "名菜",
-  popularRegions: ["重庆", "全国"],
-  lat: 29.563,
-  lng: 106.5516,
-  popularity: 9
-},
-{
-  id: "batch26-famous-076",
-  name: "成都龙抄手",
-  alias: [],
-  image: "https://img2.baidu.com/it/u=2958098199,3795127914&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=667",
-  category: "面食",
-  taste: "鲜香",
-  type: "traditional",
-  cuisine: "川菜",
-  province: "四川",
-  city: "成都",
-  origin: "成都龙抄手百年老号招牌，薄如纸的面皮包猪肉馅，皮薄馅嫩汤鲜味美，成都名小吃中翘楚。",
-  description: "成都有龙抄手以薄如纸的面皮包猪肉馅，配红油或原汤。皮薄馅嫩、汤鲜味美，是成都龙抄手百年老号的招牌，成都名小吃中的翘楚。",
-  ingredients: ["面粉", "猪肉", "鸡蛋", "姜", "盐", "红油"],
-  cookingMethod: ["煮"],
-  tags: ["鲜香", "面食", "川菜", "四川", "成都", "抄手", "百年", "薄皮", "红油", "地方名吃"],
-  fame: "名菜",
-  popularRegions: ["四川", "成都", "全国"],
-  lat: 30.5728,
-  lng: 104.0668,
-  popularity: 9
-},
+// 「老火锅」已合并至「重庆火锅」(foods-batch4-sichuan-hunan.ts batch4-cq-2) - 同地同物异名，老火锅即重庆传统火锅的别称
+// {
+//   id: "batch26-famous-075",
+//   name: "老火锅",
+//   alias: [],
+//   image: "https://img0.baidu.com/it/u=2342628515,1843980156&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=654",
+//   category: "主菜",
+//   taste: "麻辣",
+//   type: "traditional",
+//   cuisine: "川菜",
+//   province: "重庆",
+//   city: "重庆",
+//   origin: "重庆桥头老火锅百年传承，牛油麻辣锅底涮毛肚鸭肠黄喉，九宫格火锅煮的是重庆人的江湖豪情。",
+//   description: "重庆桥头老火锅以牛油麻辣锅底涮毛肚鸭肠黄喉。麻辣鲜香、牛油浓郁，是重庆桥头老火锅的百年传承，九宫格火锅煮的是重庆人的江湖豪情。",
+//   ingredients: ["牛油", "辣椒", "花椒", "毛肚", "鸭肠", "黄喉", "蒜"],
+//   cookingMethod: ["涮", "煮"],
+//   tags: ["麻辣", "主菜", "川菜", "重庆", "火锅", "桥头", "百年", "牛油", "江湖", "地方名吃"],
+//   fame: "名菜",
+//   popularRegions: ["重庆", "全国"],
+//   lat: 29.563,
+//   lng: 106.5516,
+//   popularity: 9
+// },
+// 【已合并】成都龙抄手已合并至「抄手」(batch7-national-15, foods-batch7-national.ts) - 品牌前缀简化
+// 原条目 batch26-famous-076 (成都龙抄手) 已删除合并
+,
 {
   id: "batch26-famous-077",
   name: "贵阳花溪牛肉粉",
@@ -547,8 +512,8 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
   
 {
   id: "batch26-famous-084",
-  name: "米拉吉烤包子",
-  alias: [],
+  name: "烤包子",
+  alias: ["馕坑烤包子", "和田烤包子", "维吾尔族烤包子", "萨木萨"],
   image: "https://img0.baidu.com/it/u=1564674875,1621331628&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=653",
   category: "小吃",
   taste: "咸鲜",
@@ -556,11 +521,11 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
   cuisine: "新疆菜",
   province: "新疆",
   city: "乌鲁木齐",
-  origin: "新疆烤包子高端代表，米拉吉餐厅招牌，羊肉洋葱为馅贴馕坑内壁烤制，外皮酥脆内馅多汁。",
-  description: "乌鲁木齐米拉吉烤包子以羊肉洋葱为馅，贴在馕坑内壁烤制。外皮酥脆焦香、内馅羊肉多汁，是新疆烤包子的高端代表，米拉吉餐厅的招牌美食。",
-  ingredients: ["羊肉", "洋葱", "面粉", "胡椒", "盐"],
+  origin: "新疆维吾尔族传统美食，羊肉洋葱为馅贴馕坑内壁烤制，外皮酥脆内馅多汁。",
+  description: "烤包子以羊肉洋葱为馅，用死面皮包成方形，贴在馕坑内壁烤制。外皮酥脆焦香、内馅羊肉鲜嫩多汁，洋葱香甜去膻。是新疆维吾尔族最具代表性的传统小吃，也是新疆街头最受欢迎的美食之一。",
+  ingredients: ["面粉", "羊肉", "洋葱", "孜然", "胡椒", "盐"],
   cookingMethod: ["烤"],
-  tags: ["咸鲜", "小吃", "新疆菜", "新疆", "乌鲁木齐", "馕坑", "烤包子", "酥香", "多汁", "地方名吃"],
+  tags: ["咸鲜", "小吃", "新疆菜", "新疆", "乌鲁木齐", "馕坑", "烤包子", "酥香", "多汁", "维吾尔族", "少数民族", "地方名吃"],
   fame: "名菜",
   popularRegions: ["新疆", "全国"],
   lat: 43.7928,
@@ -609,7 +574,7 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
   popularRegions: ["辽宁", "东北", "全国"],
   lat: 41.8057,
   lng: 123.4315,
-  popularity: 9
+  popularity: 8
 },
 {
   id: "batch26-famous-090",
@@ -627,11 +592,11 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
   ingredients: ["面粉", "鸡蛋", "糖", "绿豆", "红豆", "油"],
   cookingMethod: ["烤", "蒸", "炸"],
   tags: ["甜", "糕点", "东北菜", "吉林", "吉林市", "百年", "传统", "萨其马", "槽子糕", "地方名吃"],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: ["吉林", "东北", "全国"],
   lat: 43.8378,
-  lng: 126.5495,
-  popularity: 8
+  lng: 126.5496,
+  popularity: 6
 },
 {
   id: "batch26-famous-092",
@@ -649,11 +614,11 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
   ingredients: ["猪肉", "马蹄", "洋葱", "豆皮", "五香粉", "淀粉"],
   cookingMethod: ["炸"],
   tags: ["咸鲜", "小吃", "闽菜", "福建", "泉州", "五香", "闽南", "传统", "年节", "炸物"],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: ["福建", "泉州", "全国"],
   lat: 24.8741,
   lng: 118.6757,
-  popularity: 9
+  popularity: 7
 },
 {
   id: "batch26-famous-093",
@@ -675,7 +640,7 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
   popularRegions: ["海南", "全国"],
   lat: 19.259,
   lng: 110.475,
-  popularity: 9
+  popularity: 6
 },
 {
   id: "batch26-famous-094",
@@ -744,28 +709,29 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
   popularity: 9
 },
   
-{
-  id: "batch26-famous-098",
-  name: "桂林卤菜米粉",
-  alias: [],
-  image: "https://img1.baidu.com/it/u=1992001442,3560926442&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=889",
-  category: "面食",
-  taste: "咸鲜",
-  type: "traditional",
-  cuisine: "桂菜",
-  province: "广西",
-  city: "桂林",
-  origin: "桂林米粉经典吃法，米粉配锅烧卤牛肉卤猪肚，先吃干拌后喝汤，桂林人的早餐灵魂。",
-  description: "广西桂林卤菜米粉以米粉配锅烧、卤牛肉、卤猪肚等卤菜。米粉爽滑、卤菜香浓，是桂林米粉的经典吃法，先吃干拌后喝汤，桂林人的早餐灵魂。",
-  ingredients: ["米粉", "牛肉", "猪肚", "卤料", "花生", "酸豆角"],
-  cookingMethod: ["卤", "煮", "拌"],
-  tags: ["咸鲜", "面食", "桂菜", "广西", "桂林", "卤菜", "米粉", "早餐", "干拌", "地方名吃"],
-  fame: "名菜",
-  popularRegions: ["广西", "全国"],
-  lat: 25.274,
-  lng: 110.29,
-  popularity: 9
-},
+// 「桂林卤菜米粉」(batch26-famous-098) 已合并至「桂林米粉」(hot-119, foods-popular.ts) - 同地同物异名，桂林卤菜米粉为桂林米粉的经典吃法，合并至主条目
+//{
+//  id: "batch26-famous-098",
+//  name: "桂林卤菜米粉",
+//  alias: [],
+//  image: "https://img1.baidu.com/it/u=1992001442,3560926442&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=889",
+//  category: "面食",
+//  taste: "咸鲜",
+//  type: "traditional",
+//  cuisine: "桂菜",
+//  province: "广西",
+//  city: "桂林",
+//  origin: "桂林米粉经典吃法，米粉配锅烧卤牛肉卤猪肚，先吃干拌后喝汤，桂林人的早餐灵魂。",
+//  description: "广西桂林卤菜米粉以米粉配锅烧、卤牛肉、卤猪肚等卤菜。米粉爽滑、卤菜香浓，是桂林米粉的经典吃法，先吃干拌后喝汤，桂林人的早餐灵魂。",
+//  ingredients: ["米粉", "牛肉", "猪肚", "卤料", "花生", "酸豆角"],
+//  cookingMethod: ["卤", "煮", "拌"],
+//  tags: ["咸鲜", "面食", "桂菜", "广西", "桂林", "卤菜", "米粉", "早餐", "干拌", "地方名吃"],
+//  fame: "名菜",
+//  popularRegions: ["广西", "全国"],
+//  lat: 25.274,
+//  lng: 110.29,
+//  popularity: 9
+//},
 {
   id: "batch26-famous-099",
   name: "遵义羊肉粉",

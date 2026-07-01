@@ -1,4 +1,4 @@
-﻿import type { Food } from "@/types/food";
+import type { Food } from "@/types/food";
 
 // 中国各地特色小吃、街头美食、地方名吃（县级/小城市为主）
 export const FOODS_SNACKS: Food[] = [
@@ -68,7 +68,7 @@ export const FOODS_SNACKS: Food[] = [
     ingredients: ["面粉", "糖", "油", "鸡蛋"],
     cookingMethod: ["烤", "炸"],
     tags: ["小吃", "晋菜", "糕点", "甜点", "酥脆"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["山西"],
     lat: 38.4166,
     lng: 112.7342,
@@ -168,7 +168,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["江苏"],
     lat: 32.1889,
     lng: 119.9086,
-    popularity: 5,
+    popularity: 6,
   },
   {
     id: "snack-17",
@@ -256,11 +256,11 @@ export const FOODS_SNACKS: Food[] = [
     ingredients: ["酱油", "猪肉"],
     cookingMethod: ["煮"],
     tags: ["小吃", "苏菜", "面条", "面食", "锅盖", "酥脆"],
-    fame: "地方名吃",
+    fame: "名菜",
     popularRegions: ["江苏"],
     lat: 32.2044,
     lng: 119.4528,
-    popularity: 5,
+    popularity: 7,
   },
 
   // ========== 浙江（5）==========
@@ -285,7 +285,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["浙江"],
     lat: 28.9358,
     lng: 118.8595,
-    popularity: 4,
+    popularity: 5,
   },
   {
     id: "snack-25",
@@ -304,11 +304,11 @@ export const FOODS_SNACKS: Food[] = [
     ingredients: ["油条", "葱", "甜面酱"],
     cookingMethod: ["烤", "压"],
     tags: ["小吃", "浙菜", "油条", "葱", "市井", "绵软"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["浙江"],
     lat: 30.2741,
     lng: 120.1551,
-    popularity: 8,
+    popularity: 7,
   },
 
   // ========== 安徽（5）==========
@@ -425,7 +425,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["福建"],
     lat: 27.3269,
     lng: 120.4491,
-    popularity: 4,
+    popularity: 5,
   },
   {
     id: "snack-35",
@@ -448,7 +448,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["福建"],
     lat: 26.0745,
     lng: 119.2965,
-    popularity: 4,
+    popularity: 5,
   },
 
   // ========== 广东（5）==========
@@ -466,14 +466,14 @@ export const FOODS_SNACKS: Food[] = [
     origin: "潮汕地区，据说始于清代",
     description:
       "潮汕蚝烙以鲜蚝、地瓜粉、鸡蛋煎制。外缘酥脆，内里软嫩，蚝肉鲜甜多汁。蘸鱼露、胡椒粉食用，鲜味倍增。是潮汕夜市招牌，与闽台海蛎煎同源而风味各异。潮汕人「无蚝不成席」，蚝烙体现潮菜对海鲜的精妙驾驭。",
-    ingredients: ["鱼肉", "红薯", "鸡蛋", "鱼露"],
+    ingredients: ["蚝", "红薯", "鸡蛋", "鱼露"],
     cookingMethod: ["煎"],
     tags: ["小吃", "潮汕", "潮菜", "海鲜", "煎"],
     fame: "地方名吃",
     popularRegions: ["广东"],
     lat: 23.3535,
     lng: 116.682,
-    popularity: 4,
+    popularity: 6,
   },
   {
     id: "snack-39",
@@ -544,7 +544,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["广西"],
     lat: 22.817,
     lng: 108.3669,
-    popularity: 3,
+    popularity: 5,
   },
   {
     id: "snack-43",
@@ -567,7 +567,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["广西"],
     lat: 21.9813,
     lng: 108.6543,
-    popularity: 3,
+    popularity: 5,
   },
   {
     id: "snack-44",
@@ -590,7 +590,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["广西"],
     lat: 23.9027,
     lng: 106.6182,
-    popularity: 3,
+    popularity: 6,
   },
   {
     id: "snack-45",
@@ -661,7 +661,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["四川"],
     lat: 27.8945,
     lng: 102.2642,
-    popularity: 5,
+    popularity: 7,
   },
 
   // ========== 贵州（5）==========
@@ -686,7 +686,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["贵州"],
     lat: 25.092,
     lng: 104.8955,
-    popularity: 4,
+    popularity: 6,
   },
   {
     id: "snack-53",
@@ -709,7 +709,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["贵州"],
     lat: 26.2582,
     lng: 107.517,
-    popularity: 3,
+    popularity: 5,
   },
   {
     id: "snack-55",
@@ -732,7 +732,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["贵州"],
     lat: 26.5835,
     lng: 107.9829,
-    popularity: 4,
+    popularity: 6,
   },
 
   // ========== 云南（5）==========
@@ -757,7 +757,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["云南"],
     lat: 23.6267,
     lng: 102.8474,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "snack-58",
@@ -851,7 +851,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["陕西"],
     lat: 36.5853,
     lng: 109.4898,
-    popularity: 4,
+    popularity: 6,
   },
   {
     id: "snack-63",
@@ -1023,7 +1023,7 @@ export const FOODS_SNACKS: Food[] = [
   // ========== 东北（5）==========
   {
     id: "snack-76",
-    name: "老昌蚕蛹",
+    name: "长春蚕蛹",
     alias: ["炒蚕蛹"],
     image: "https://img2.baidu.com/it/u=3103331678,3927527662&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=889",
     category: "小吃",
@@ -1038,11 +1038,11 @@ export const FOODS_SNACKS: Food[] = [
     ingredients: ["蚕蛹", "椒盐", "油"],
     cookingMethod: ["炸", "炒"],
     tags: ["小吃", "东北菜", "蚕蛹", "夜宵", "高蛋白", "劲道"],
-    fame: "热门",
+    fame: "普通",
     popularRegions: ["吉林"],
     lat: 43.8868,
     lng: 125.3245,
-    popularity: 4,
+    popularity: 3,
   },
 
   // ========== 其他地区（25）==========
@@ -1067,7 +1067,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["湖北"],
     lat: 30.5928,
     lng: 114.3055,
-    popularity: 5,
+    popularity: 6,
   },
   {
     id: "snack-86",
@@ -1090,7 +1090,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["湖南"],
     lat: 28.3119,
     lng: 109.7391,
-    popularity: 5,
+    popularity: 6,
   },
   {
     id: "snack-87",
@@ -1136,7 +1136,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["四川"],
     lat: 30.9899,
     lng: 103.9586,
-    popularity: 5,
+    popularity: 6,
   },
   {
     id: "snack-89",
@@ -1159,7 +1159,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["河南"],
     lat: 34.797,
     lng: 114.308,
-    popularity: 4,
+    popularity: 6,
   },
   {
     id: "snack-91",
@@ -1301,7 +1301,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["江苏"],
     lat: 34.261,
     lng: 117.1848,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "snack-107",
@@ -1329,7 +1329,7 @@ export const FOODS_SNACKS: Food[] = [
   {
     id: "snack-108",
     name: "茶馓",
-    alias: ["馓子", "茶馓"],
+    alias: ["茶馓"],
     image: "https://img1.baidu.com/it/u=619038655,3767516341&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=591",
     category: "小吃",
     taste: "香甜",
@@ -1349,33 +1349,34 @@ export const FOODS_SNACKS: Food[] = [
     lng: 119.0192,
     popularity: 5,
   },
-  {
-    "id": "snack-110",
-    "name": "沧州羊肠汤",
-    "alias": [
-      "羊肠子"
-    ],
-    "image": "https://img3.utuku.imgcdc.com/573x0/kjy/20250715/9ab2cd07-6abd-4a5e-93f0-a8c65635920c.jpg",
-    "category": "汤羹",
-    "taste": "咸鲜",
-    "type": "traditional",
-    "cuisine": "冀菜",
-    "province": "河北",
-    "city": "沧州",
-    "origin": "河北沧州，回民传统早食，始于清代",
-    "description": "沧州羊肠汤是冀东南回民街头的特色早餐。新鲜羊肠洗净灌入羊血、淀粉、香料，煮至汤白肠嫩，撒香菜、辣椒油、蒜末。汤鲜而不膻，肠软糯弹牙，配烧饼食用最是过瘾。沧州人清晨一碗羊肠汤，驱寒暖胃，体现河北回族饮食的实在与豪爽。",
-    "ingredients": ["羊肉", "淀粉", "香菜", "辣椒"],
-    "cookingMethod": ["灌", "煮", "调味"],
-    "tags": ["小吃", "冀菜", "羊肠汤", "早餐", "回族", "劲道", "绵软"],
-    "fame": "地方名吃",
-    "popularRegions": [
-      "河北",
-      "天津"
-    ],
-    "lat": 38.3037,
-    "lng": 116.8388,
-    "popularity": 3
-  },
+  // 「snack-110」已合并至「hb-3」- 沧州羊肠汤与沧州羊肠子为同地同物异名（hb-3别名含"羊肠汤"），合并至原条目沧州羊肠子
+  //   {
+  //     "id": "snack-110",
+  //     "name": "沧州羊肠汤",
+  //     "alias": [
+  //       "羊肠子"
+  //     ],
+  //     "image": "https://img3.utuku.imgcdc.com/573x0/kjy/20250715/9ab2cd07-6abd-4a5e-93f0-a8c65635920c.jpg",
+  //     "category": "汤羹",
+  //     "taste": "咸鲜",
+  //     "type": "traditional",
+  //     "cuisine": "冀菜",
+  //     "province": "河北",
+  //     "city": "沧州",
+  //     "origin": "河北沧州，回民传统早食，始于清代",
+  //     "description": "沧州羊肠汤是冀东南回民街头的特色早餐。新鲜羊肠洗净灌入羊血、淀粉、香料，煮至汤白肠嫩，撒香菜、辣椒油、蒜末。汤鲜而不膻，肠软糯弹牙，配烧饼食用最是过瘾。沧州人清晨一碗羊肠汤，驱寒暖胃，体现河北回族饮食的实在与豪爽。",
+  //     "ingredients": ["羊肉", "淀粉", "香菜", "辣椒"],
+  //     "cookingMethod": ["灌", "煮", "调味"],
+  //     "tags": ["小吃", "冀菜", "羊肠汤", "早餐", "回族", "劲道", "绵软"],
+  //     "fame": "地方名吃",
+  //     "popularRegions": [
+  //       "河北",
+  //       "天津"
+  //     ],
+  //     "lat": 38.3037,
+  //     "lng": 116.8388,
+  //     "popularity": 3
+  //   },
   {
     "id": "snack-111",
     "name": "冀州焖饼",
@@ -1485,30 +1486,31 @@ export const FOODS_SNACKS: Food[] = [
     "popularity": 4
   },
   
-  {
-    "id": "gen-f-2025-52",
-    "name": "羊肉烩面",
-    "category": "主食",
-    "taste": "咸鲜",
-    "type": "traditional",
-    "cuisine": "豫菜",
-    "province": "河南",
-    "city": "郑州",
-    "origin": "河南郑州传统面食",
-    "description": "河南羊肉烩面以宽面条配羊肉汤，汤白味浓，面条筋道，是河南最具代表性的主食之一。",
-    "ingredients": ["羊肉", "木耳", "粉丝"],
-    "cookingMethod": ["煮", "烩"],
-    "tags": ["烩面", "羊肉", "面食", "汤面", "嫩滑", "酥脆"],
-    "fame": "地方名吃",
-    "popularRegions": [
-      "河南",
-      "全国"
-    ],
-    "lat": 34.7466,
-    "lng": 113.6253,
-    "popularity": 4,
-    "image": "https://img2.baidu.com/it/u=3083233767,710590111&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=1127"
-  },
+  // 「羊肉烩面」(gen-f-2025-52) 已合并至「烩面」(city-south-zhengzhou-1, foods-cities-south.ts) - 同地同物异名，郑州烩面即羊肉烩面，合并至主条目
+  // {
+  //   "id": "gen-f-2025-52",
+  //   "name": "羊肉烩面",
+  //   "category": "主食",
+  //   "taste": "咸鲜",
+  //   "type": "traditional",
+  //   "cuisine": "豫菜",
+  //   "province": "河南",
+  //   "city": "郑州",
+  //   "origin": "河南郑州传统面食",
+  //   "description": "河南羊肉烩面以宽面条配羊肉汤，汤白味浓，面条筋道，是河南最具代表性的主食之一。",
+  //   "ingredients": ["羊肉", "木耳", "粉丝"],
+  //   "cookingMethod": ["煮", "烩"],
+  //   "tags": ["烩面", "羊肉", "面食", "汤面", "嫩滑", "酥脆"],
+  //   "fame": "名菜",
+  //   "popularRegions": [
+  //     "河南",
+  //     "全国"
+  //   ],
+  //   "lat": 34.7466,
+  //   "lng": 113.6253,
+  //   "popularity": 7,
+  //   "image": "https://img2.baidu.com/it/u=3083233767,710590111&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=1127"
+  // },
 
   {
     "id": "gen-f-2025-54",
@@ -1524,14 +1526,14 @@ export const FOODS_SNACKS: Food[] = [
     "ingredients": ["豌豆", "猪肉", "花椒"],
     "cookingMethod": ["煮", "拌"],
     tags: ["麻辣", "面食", "浇头", "嫩滑", "主食", "川菜", "重庆"],
-    "fame": "地方名吃",
+    "fame": "名菜",
     "popularRegions": [
       "重庆",
       "全国"
     ],
     "lat": 29.563,
     "lng": 106.5516,
-    "popularity": 5,
+    "popularity": 7,
     "image": "https://img2.baidu.com/it/u=1158490985,1907447789&fm=253&fmt=auto&app=120&f=JPEG?w=950&h=800"
   },
   {
@@ -1548,14 +1550,14 @@ export const FOODS_SNACKS: Food[] = [
     "ingredients": ["红薯", "猪大肠", "豆芽", "辣椒"],
     "cookingMethod": ["煮"],
     "tags": ["肥肠粉", "麻辣", "小吃", "酸辣", "劲道"],
-    "fame": "地方名吃",
+    "fame": "名菜",
     "popularRegions": [
       "四川",
       "全国"
     ],
     "lat": 30.5728,
     "lng": 104.0668,
-    "popularity": 5,
+    "popularity": 7,
     "image": "https://img1.baidu.com/it/u=3261673934,1493648733&fm=253&fmt=auto&app=138&f=JPEG?w=1067&h=800"
   },
   
@@ -1649,7 +1651,7 @@ export const FOODS_SNACKS: Food[] = [
     "ingredients": ["糯米", "糖", "油"],
     "cookingMethod": ["炸", "裹"],
     tags: ["糯米", "年节", "甜品", "嫩滑", "香甜", "糕点", "京菜", "北京"],
-    "fame": "地方名吃",
+    "fame": "普通",
     "popularRegions": [
       "北京",
       "全国"
@@ -1704,7 +1706,7 @@ export const FOODS_SNACKS: Food[] = [
     ],
     "lat": 26.647,
     "lng": 106.6302,
-    "popularity": 4,
+    "popularity": 7,
     "image": "https://img2.baidu.com/it/u=2685273904,1141950924&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=656"
   },
   
@@ -1723,14 +1725,14 @@ export const FOODS_SNACKS: Food[] = [
     "ingredients": ["石花菜", "蒜", "醋", "辣椒"],
     "cookingMethod": ["熬", "拌"],
     tags: ["凉粉", "海菜", "鲁菜", "夏季", "酸辣", "小吃", "山东"],
-    "fame": "热门",
+    "fame": "地方名吃",
     "popularRegions": [
       "山东",
       "全国"
     ],
     "lat": 36.0671,
     "lng": 120.3826,
-    "popularity": 4,
+    "popularity": 5,
     "image": "https://img0.baidu.com/it/u=3432851407,3705161735&fm=253&fmt=auto&app=120&f=JPEG?w=913&h=800"
   },
   {
@@ -1747,45 +1749,46 @@ export const FOODS_SNACKS: Food[] = [
     "ingredients": ["糯米", "红豆", "糖", "桂花"],
     "cookingMethod": ["煮"],
     "tags": ["苏菜", "红豆", "甜品", "嫩滑", "劲道"],
-    "fame": "热门",
+    "fame": "地方名吃",
     "popularRegions": [
       "江苏",
       "全国"
     ],
     "lat": 31.2989,
     "lng": 120.5853,
-    "popularity": 3,
+    "popularity": 4,
     "image": "https://img2.baidu.com/it/u=1504675458,2366268482&fm=253&fmt=auto&app=138&f=JPEG?w=750&h=500"
   },
   
-  {
-    "id": "gen2-f-2025-142",
-    "name": "常德牛肉粉",
-    "category": "面食",
-    "taste": "麻辣",
-    "type": "popular",
-    "cuisine": "湘菜",
-    "province": "湖南",
-    "city": "常德",
-    "origin": "常德传统名吃，湖南米粉代表",
-    "description": "常德牛肉粉以圆米粉配红烧牛肉码子，汤浓肉烂，麻辣鲜香，是湖南最具代表性的米粉之一。",
-    "ingredients": ["米粉", "牛肉", "辣椒"],
-    "cookingMethod": ["煮"],
-    tags: ["牛肉粉", "湘菜", "米粉", "麻辣", "面食", "湖南"],
-    "fame": "热门",
-    "popularRegions": [
-      "湖南",
-      "全国"
-    ],
-    "lat": 29.0405,
-    "lng": 111.6913,
-    "popularity": 5,
-    "image": "https://img1.baidu.com/it/u=108465732,2778533015&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=630"
-  },
+  // 「常德牛肉粉」(gen2-f-2025-142) 已合并至「常德牛肉米粉」(hun-12) - 同地同物重复
+  // {
+  //   "id": "gen2-f-2025-142",
+  //   "name": "常德牛肉粉",
+  //   "category": "面食",
+  //   "taste": "麻辣",
+  //   "type": "popular",
+  //   "cuisine": "湘菜",
+  //   "province": "湖南",
+  //   "city": "常德",
+  //   "origin": "常德传统名吃，湖南米粉代表",
+  //   "description": "常德牛肉粉以圆米粉配红烧牛肉码子，汤浓肉烂，麻辣鲜香，是湖南最具代表性的米粉之一。",
+  //   "ingredients": ["米粉", "牛肉", "辣椒"],
+  //   "cookingMethod": ["煮"],
+  //   tags: ["牛肉粉", "湘菜", "米粉", "麻辣", "面食", "湖南"],
+  //   "fame": "热门",
+  //   "popularRegions": [
+  //     "湖南",
+  //     "全国"
+  //   ],
+  //   "lat": 29.0405,
+  //   "lng": 111.6913,
+  //   "popularity": 8,
+  //   "image": "https://img1.baidu.com/it/u=108465732,2778533015&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=630"
+  // },
   
   {
     "id": "gen2-f-2025-146",
-    "name": "广西梧州龟苓膏",
+    "name": "梧州龟苓膏",
     "category": "甜品",
     "taste": "苦",
     "type": "popular",
@@ -1809,7 +1812,7 @@ export const FOODS_SNACKS: Food[] = [
     ],
     "lat": 23.4767,
     "lng": 111.2792,
-    "popularity": 2,
+    "popularity": 6,
     "image": "https://img0.baidu.com/it/u=2821627367,3939823955&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=1110"
   },
   
@@ -1827,14 +1830,14 @@ export const FOODS_SNACKS: Food[] = [
     "ingredients": ["面粉", "芝麻", "糖"],
     "cookingMethod": ["烤"],
     tags: ["鲁菜", "薄饼", "芝麻", "香甜", "糕点", "山东"],
-    "fame": "热门",
+    "fame": "地方名吃",
     "popularRegions": [
       "山东",
       "全国"
     ],
     "lat": 36.8031,
     "lng": 117.9531,
-    "popularity": 4,
+    "popularity": 6,
     "image": "https://img1.baidu.com/it/u=3695989676,624606945&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=1038"
   },
   
@@ -1852,13 +1855,13 @@ export const FOODS_SNACKS: Food[] = [
     "ingredients": ["黍子", "芝麻", "香油", "椒盐"],
     "cookingMethod": ["熬", "浇"],
     "tags": ["面茶", "津菜", "早餐", "芝麻酱", "传统"],
-    "fame": "地方名吃",
+    "fame": "普通",
     "popularRegions": [
       "天津"
     ],
     "lat": 39.1252,
     "lng": 117.1904,
-    "popularity": 3,
+    "popularity": 4,
     "image": "https://img1.baidu.com/it/u=957401286,1261554835&fm=253&fmt=auto&app=138&f=JPEG?w=749&h=500"
   },
   
@@ -1909,6 +1912,6 @@ export const FOODS_SNACKS: Food[] = [
     ],
     "lat": 32.0603,
     "lng": 118.7969,
-    "popularity": 8,
+    "popularity": 6,
     "image": "https://img0.baidu.com/it/u=3239660059,4096125720&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=655"
   }];

@@ -155,11 +155,11 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     ingredients: ["米粉", "牛肉", "花生"],
     cookingMethod: ["拌"],
     tags: ["酸甜", "面食", "琼菜", "酸粉", "四大名粉"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["海南"],
     lat: 18.505,
     lng: 110.0393,
-    popularity: 7,
+    popularity: 6,
   },
 
   {
@@ -876,7 +876,7 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     popularRegions: ["台湾"],
     lat: 25.033,
     lng: 121.5654,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "batch-south-48",

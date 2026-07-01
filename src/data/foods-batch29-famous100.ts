@@ -1,4 +1,4 @@
-﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
 
 export const FOODS_BATCH29_FAMOUS100: Food[] = [
 // 「红肠」已合并至「哈尔滨红肠」(foods-cities-north.ts city-north-harbin-1) - 同地同物异名
@@ -78,28 +78,29 @@ export const FOODS_BATCH29_FAMOUS100: Food[] = [
   lng: 123.4315,
   popularity: 7,
 },
-{
-  id: "batch29-famous-076",
-  name: "猪肉包",
-  alias: ["狗不理猪肉包","天津包子","津式包子"],
-  image: "https://img0.baidu.com/it/u=3028123995,1693208338&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=736",
-  category: "小吃",
-  taste: "咸鲜",
-  type: "traditional",
-  cuisine: "津菜",
-  province: "天津",
-  city: "天津",
-  origin: "天津百年工艺，褶花均匀",
-  description: "狗不理猪肉包以半发面包猪肉馅，每包不少于15个褶花。皮薄馅大汁多鲜香，是天津三绝之首。始于清咸丰，百年老字号，「狗子卖包子不理人」故名。",
-  ingredients: ["面粉","猪肉","葱","姜","酱油"],
-  cookingMethod: ["蒸","包"],
-  tags: ["咸鲜","小吃","津菜","天津","狗不理","包子","百年","褶花","名菜"],
-  fame: "名菜",
-  popularRegions: ["天津","全国"],
-  lat: 39.0842,
-  lng: 117.201,
-  popularity: 8,
-},
+  // 「batch29-famous-076」已合并至「heritage-8」- 猪肉包与狗不理包子均为天津狗不理猪肉包，同地同物异名，合并至通用名"狗不理包子"
+  // {
+  //   id: "batch29-famous-076",
+  //   name: "猪肉包",
+  //   alias: ["狗不理猪肉包","天津包子","津式包子"],
+  //   image: "https://img0.baidu.com/it/u=3028123995,1693208338&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=736",
+  //   category: "小吃",
+  //   taste: "咸鲜",
+  //   type: "traditional",
+  //   cuisine: "津菜",
+  //   province: "天津",
+  //   city: "天津",
+  //   origin: "天津百年工艺，褶花均匀",
+  //   description: "狗不理猪肉包以半发面包猪肉馅，每包不少于15个褶花。皮薄馅大汁多鲜香，是天津三绝之首。始于清咸丰，百年老字号，「狗子卖包子不理人」故名。",
+  //   ingredients: ["面粉","猪肉","葱","姜","酱油"],
+  //   cookingMethod: ["蒸","包"],
+  //   tags: ["咸鲜","小吃","津菜","天津","狗不理","包子","百年","褶花","名菜"],
+  //   fame: "名菜",
+  //   popularRegions: ["天津","全国"],
+  //   lat: 39.0842,
+  //   lng: 117.201,
+  //   popularity: 8,
+  // },
 {
   id: "batch29-famous-080",
   name: "盐水鸭",
@@ -120,7 +121,7 @@ export const FOODS_BATCH29_FAMOUS100: Food[] = [
   popularRegions: ["江苏","全国"],
   lat: 32.0603,
   lng: 118.7969,
-  popularity: 9,
+  popularity: 8,
 },
 {
   id: "batch29-famous-081",
@@ -147,8 +148,8 @@ export const FOODS_BATCH29_FAMOUS100: Food[] = [
 
 {
   id: "batch29-famous-083",
-  name: "福州佛跳墙",
-  alias: ["闽式佛跳墙","坛烧佛跳墙"],
+  name: "佛跳墙",
+  alias: ["闽式佛跳墙","坛烧佛跳墙","福州佛跳墙"],
   image: "https://img1.baidu.com/it/u=3253981310,3285409924&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=653",
   category: "汤羹",
   taste: "复合",
@@ -165,7 +166,7 @@ export const FOODS_BATCH29_FAMOUS100: Food[] = [
   popularRegions: ["福建","全国"],
   lat: 26.0745,
   lng: 119.2965,
-  popularity: 10,
+  popularity: 9,
 },
     
   
@@ -194,17 +195,17 @@ export const FOODS_BATCH29_FAMOUS100: Food[] = [
 },
 {
   id: "batch29-famous-099",
-  name: "猪仔包",
+  name: "猪扒包",
   alias: ["葡式面包夹猪", "澳门猪仔包"],
   image: "https://img2.baidu.com/it/u=216461737,2935707969&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=653",
   category: "小吃",
   taste: "咸鲜",
   type: "traditional",
-  cuisine: "其他",
+  cuisine: "粤菜",
   province: "澳门",
   city: "澳门",
   origin: "澳门澳门街头符号",
-  description: "澳门猪仔包以烤脆的猪仔包（小面包）夹煎炸猪扒。外脆内嫩肉汁丰盈，是澳门街头标志。大利来记最知名每日限量，简单却令人难忘的澳式茶餐厅实在美味。",
+  description: "澳门猪扒包以烤脆的猪仔包（椭圆形短法包）夹煎炸或香煎猪扒。外脆内嫩，肉汁丰盈，是澳门街头标志。大利来记最知名，每日限量。20 世纪 70 年代氹仔建桥时工人便餐演变而来，是中西融合的澳门美食名片。",
   ingredients: ["面粉","猪肉","盐","油"],
   cookingMethod: ["烤","煎"],
   tags: ["咸鲜", "小吃", "其他", "澳门", "猪扒", "街头", "符号"],

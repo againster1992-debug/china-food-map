@@ -24,7 +24,7 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["河南"],
     lat: 34.6197,
     lng: 112.454,
-    popularity: 2,
+    popularity: 6,
   },
   {
     id: "hn-7",
@@ -69,7 +69,7 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["河南"],
     lat: 34.7971,
     lng: 114.308,
-    popularity: 2,
+    popularity: 6,
   },
   
   {
@@ -92,7 +92,7 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["河南"],
     lat: 33.54,
     lng: 114.6,
-    popularity: 1,
+    popularity: 5,
   },
   {
     id: "hn-11",
@@ -114,7 +114,7 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["河南"],
     lat: 34.8,
     lng: 114.3,
-    popularity: 2,
+    popularity: 4,
   },
   {
     id: "hn-12",
@@ -136,7 +136,7 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["河南"],
     lat: 34.55,
     lng: 114.78,
-    popularity: 1,
+    popularity: 4,
   },
 
   // ========== 湖北（鄂菜）==========
@@ -162,7 +162,7 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["湖北"],
     lat: 30.5928,
     lng: 114.3055,
-    popularity: 2,
+    popularity: 6,
   },
   
   
@@ -186,7 +186,7 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["湖北"],
     lat: 31.0354,
     lng: 112.2046,
-    popularity: 1,
+    popularity: 5,
   },
   {
     id: "hub-10",
@@ -208,7 +208,7 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["湖北"],
     lat: 30.9244,
     lng: 113.9268,
-    popularity: 1,
+    popularity: 6,
   },
   
   {
@@ -225,14 +225,14 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     origin: "潜江，2000年代兴起，江汉平原小龙虾之乡",
     description:
       "潜江油焖大虾以小龙虾加啤酒、香料油焖。色泽红亮，麻辣鲜香，肉质Q弹。潜江是「中国小龙虾之乡」，每年举办龙虾节。从江汉平原火遍全国，是夏日夜宵的「红色风暴」。",
-    ingredients: ["鱼肉", "啤酒", "辣椒", "花椒", "蒜"],
+    ingredients: ["小龙虾", "啤酒", "辣椒", "花椒", "蒜"],
     cookingMethod: ["焖"],
     tags: ["小龙虾", "油焖", "潜江", "鄂菜", "夜宵", "麻辣", "龙虾节", "嫩滑", "绵软"],
     lat: 30.4213,
     lng: 112.8963,
     fame: "热门",
     popularRegions: ["湖北"],
-    popularity: 5,
+    popularity: 8,
   },
 
   // ========== 湖南（湘菜，八大菜系之一）==========
@@ -257,7 +257,7 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     lng: 111.6132,
     fame: "名菜",
     popularRegions: ["湖南"],
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "hun-7",
@@ -280,7 +280,7 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     lng: 109.7,
     fame: "名菜",
     popularRegions: ["湖南"],
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "hun-8",
@@ -302,7 +302,7 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["湖南"],
     lat: 28.157,
     lng: 113.643,
-    popularity: 4,
+    popularity: 6,
   },
   {
     id: "hun-9",
@@ -323,9 +323,9 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     tags: ["糯米", "长沙", "湘菜", "甜品", "小吃", "街头", "劲道"],
     lat: 28.2278,
     lng: 112.9388,
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["湖南"],
-    popularity: 9,
+    popularity: 7,
   },
   {
     id: "hun-10",
@@ -347,14 +347,14 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["湖南"],
     lat: 28.2278,
     lng: 112.9388,
-    popularity: 2,
+    popularity: 5,
   },
   
   
   {
     id: "hun-12",
     name: "常德牛肉米粉",
-    alias: ["常德米粉", "津市牛肉粉", "津市米粉"],
+    alias: ["常德米粉", "常德牛肉粉", "津市牛肉粉", "津市米粉"],
     image: "https://img1.baidu.com/it/u=4256915068,1289519876&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1422",
     category: "面食",
     taste: "香辣",
@@ -370,9 +370,9 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     tags: ["米粉", "牛肉", "常德", "湘菜", "早餐", "津市", "回族"],
     lat: 29.0405,
     lng: 111.691,
-    fame: "地方名吃",
+    fame: "热门",
     popularRegions: ["湖南"],
-    popularity: 6,
+    popularity: 8,
   },
   {
     id: "hun-13",
@@ -394,7 +394,7 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["湖南"],
     lat: 26.8935,
     lng: 112.572,
-    popularity: 3,
+    popularity: 6,
   },
 
   // ========== 广东（粤菜，四大菜系之一）==========
@@ -535,7 +535,7 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["广东"],
     lat: 22.805,
     lng: 113.238,
-    popularity: 3,
+    popularity: 6,
   },
   {
     id: "gd-12",
@@ -557,7 +557,7 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["广东"],
     lat: 23.0472,
     lng: 112.4658,
-    popularity: 2,
+    popularity: 5,
   },
 
   // ========== 广西（桂菜）==========
@@ -580,9 +580,9 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     tags: ["酸辣", "南宁", "酸笋", "豆豉", "三大粉", "劲道"],
     lat: 22.817,
     lng: 108.3669,
-    fame: "地方名吃",
+    fame: "热门",
     popularRegions: ["广西"],
-    popularity: 6,
+    popularity: 8,
   },
   {
     id: "gx-4",
@@ -604,7 +604,7 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["广西"],
     lat: 22.6569,
     lng: 110.1547,
-    popularity: 1,
+    popularity: 5,
   },
   
   
@@ -629,7 +629,7 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     lng: 110.83,
     fame: "地方名吃",
     popularRegions: ["广西"],
-    popularity: 3,
+    popularity: 6,
   },
   {
     id: "gx-9",
@@ -651,7 +651,7 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["广西"],
     lat: 22.687,
     lng: 109.266,
-    popularity: 2,
+    popularity: 5,
   },
   {
     id: "gx-10",
@@ -667,13 +667,13 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     origin: "桂林阳朔，民间传统",
     description:
       "桂林田螺酿以田螺肉剁碎，配猪肉、薄荷、辣椒塞回螺壳焖制。螺肉鲜香，肉馅醇厚，薄荷提味。是桂林「酿菜」代表，体现「无菜不酿」的岭南饮食智慧。配啤酒食用，是漓江边的下酒名菜。",
-    ingredients: ["鱼肉", "猪肉", "薄荷", "辣椒", "紫苏"],
+    ingredients: ["田螺", "猪肉", "薄荷", "辣椒", "紫苏"],
     cookingMethod: ["焖"],
     tags: ["酿菜", "桂林", "田螺", "阳朔", "漓江"],
     popularRegions: ["广西"],
     lat: 25.2736,
     lng: 110.2907,
-    popularity: 2,
+    popularity: 5,
   },
   {
     id: "gx-11",
@@ -696,7 +696,7 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     lng: 108.6543,
     fame: "地方名吃",
     popularRegions: ["广西"],
-    popularity: 4,
+    popularity: 6,
   },
   {
     id: "gx-12",
@@ -718,7 +718,7 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["广西"],
     lat: 23.4767,
     lng: 111.2791,
-    popularity: 7,
+    popularity: 6,
   },
 
   // ========== 海南（琼菜）==========
@@ -742,7 +742,7 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["海南"],
     lat: 18.7952,
     lng: 110.3894,
-    popularity: 6,
+    popularity: 7,
   },
   
   {
@@ -765,7 +765,7 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["海南"],
     lat: 18.7952,
     lng: 110.3894,
-    popularity: 6,
+    popularity: 7,
   },
   {
     id: "hi-6",
@@ -786,9 +786,9 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     tags: ["文昌", "琼菜", "米粉", "四大名粉", "早餐"],
     lat: 19.5435,
     lng: 110.7541,
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["海南"],
-    popularity: 8,
+    popularity: 6,
   },
   {
     id: "hi-7",
@@ -810,7 +810,7 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["海南"],
     lat: 18.7952,
     lng: 110.3894,
-    popularity: 2,
+    popularity: 5,
   },
   {
     id: "hi-8",
@@ -831,9 +831,9 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     tags: ["甜品", "琼菜", "椰奶", "消暑", "夏夜"],
     lat: 20.0444,
     lng: 110.1989,
-    fame: "名菜",
+    fame: "热门",
     popularRegions: ["海南"],
-    popularity: 9,
+    popularity: 8,
   },
   
   
@@ -879,7 +879,7 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["海南"],
     lat: 19.2581,
     lng: 110.4747,
-    popularity: 2,
+    popularity: 5,
   },
   {
     "id": "hn-13",
@@ -958,10 +958,10 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
       "炒"
     ],
     "tags": ["藜蒿", "腊肉", "赣菜", "时令", "鄱阳湖", "咸鲜", "粘糯"],
-    "fame": "地方名吃",
+    "fame": "名菜",
     "lat": 28.682,
     "lng": 115.8579,
-    "popularity": 8
+    "popularity": 7
   },
   {
     "id": "hn-15",
@@ -1008,5 +1008,5 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     "fame": "地方名吃",
     "lat": 20.0444,
     "lng": 110.1989,
-    "popularity": 4
+    "popularity": 6
   }];

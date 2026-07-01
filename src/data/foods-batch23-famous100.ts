@@ -1,4 +1,4 @@
-﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
 
 export const FOODS_BATCH23_FAMOUS100: Food[] = [
 {
@@ -11,7 +11,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   cuisine: "苏菜",
   province: "江苏",
   city: "淮安",
-  origin: "江苏淮安钦工镇传统名菜，以铁棒捶打肉糜制成，弹性和鲜嫩兼具。",
+  origin: "江苏淮安钦工镇",
   description: "钦工肉圆选用猪肉、淀粉、葱、姜等为主料，经煮、炸烹制，咸鲜突出，是淮安地区的经典代表。",
   ingredients: [
     "猪肉",
@@ -50,7 +50,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   cuisine: "苏菜",
   province: "江苏",
   city: "淮安",
-  origin: "淮安传统名菜，虾仁裹蛋清滑炒，色泽白亮，口感鲜嫩。",
+  origin: "淮安",
   description: "白袍虾仁选用虾、鸡蛋、淀粉等为主料，经炒烹制，咸鲜突出，是淮安地区的经典代表。",
   ingredients: [
     "虾",
@@ -87,7 +87,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   cuisine: "苏菜",
   province: "江苏",
   city: "扬州",
-  origin: "扬州三头宴之一，以整猪头扒烧入味，肥而不腻。",
+  origin: "扬州",
   description: "扒烧整猪头选用猪肉、葱、姜等为主料，经扒、烧烹制，咸鲜突出，是扬州地区的经典代表。",
   ingredients: [
     "猪肉",
@@ -125,7 +125,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   cuisine: "苏菜",
   province: "江苏",
   city: "苏州",
-  origin: "苏州名菜，因炸后形似松鼠、浇汁作响而得名，酸甜开胃。",
+  origin: "苏州",
   description: "松鼠鳜鱼选用鱼、番茄酱、糖、醋等为主料，经炸、熘烹制，酸甜突出，是苏州地区的经典代表。",
   ingredients: ["鱼肉", "番茄酱", "糖", "醋"],
   cookingMethod: [
@@ -198,7 +198,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   province: "黑龙江",
   city: "哈尔滨",
   origin: "黑龙江传统名菜，以猴头菇扒制，鲜美滋补。",
-  description: "扒猴头选用猴头菇、高汤、葱、姜等为主料，经扒烹制，咸鲜突出，是哈尔滨地区的经典代表。",
+  description: "扒猴头以东北长白山、大兴安岭特产猴头菇为主料，水发后批成薄片，加高汤上笼蒸至入味，再以扒法制成。猴头菇形似猴头，体圆须刺，是东北「山珍」代表，曾被誉为「八珍」之一。成菜汁浓味鲜、口感嫩软、明汁亮芡，为东北菜中珍品。猴头菇现多为人工栽培，富含蛋白质与多糖，兼具食疗价值。",
   ingredients: [
     "猴头菇",
     "高汤",
@@ -217,13 +217,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "黑龙江"
   ],
   lat: 45.8038,
   lng: 126.535,
-  popularity: 5
+  popularity: 4
 },
 {
   id: "batch23-famous-8",
@@ -254,7 +254,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "山东"
   ],
@@ -402,7 +402,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "山东"
   ],
@@ -439,7 +439,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "山东"
   ],
@@ -457,10 +457,10 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   cuisine: "东北菜",
   province: "黑龙江",
   city: "哈尔滨",
-  origin: "东北林区传统野味菜，以山鸡烤制，肉香浓郁。",
-  description: "烤山鸡选用鸡肉、香料、盐、孜然等为主料，经烤烹制，咸鲜突出，是哈尔滨地区的经典代表。",
+  origin: "东北传统野味名菜，以山鸡（雉鸡）烤制，清代为皇家贡品，现多用人工养殖山鸡",
+  description: "烤山鸡以东北山鸡（雉鸡）为主料，整鸡以香料、盐、孜然腌制后烤制。山鸡肉质细嫩鲜美，野味浓郁，蛋白质含量高、脂肪低，曾被誉为「野味之王」。清代乾隆帝赞「名震塞北三千里，味压江南十二楼」。野生山鸡受保护，现多用人工养殖山鸡，是东北传统野味名菜。",
   ingredients: [
-    "鸡肉",
+    "山鸡肉",
     "香料",
     "盐",
     "孜然"
@@ -477,13 +477,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "普通",
   popularRegions: [
     "黑龙江"
   ],
   lat: 45.8038,
   lng: 126.535,
-  popularity: 5
+  popularity: 3
 },
 {
   id: "batch23-famous-15",
@@ -516,13 +516,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "陕西"
   ],
   lat: 34.3416,
   lng: 108.9398,
-  popularity: 5
+  popularity: 6
 },
 // 「钟祥蟠龙」已合并至「蟠龙菜」(foods-famous.ts)
 {
@@ -659,7 +659,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "山东"
   ],
@@ -696,7 +696,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "山东"
   ],
@@ -734,7 +734,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "山东"
   ],
@@ -766,7 +766,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "天津"
   ],
@@ -799,7 +799,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "北京"
   ],
@@ -837,7 +837,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "山东"
   ],
@@ -891,14 +891,14 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   category: "主菜",
   taste: "咸鲜",
   type: "traditional",
-  cuisine: "徽菜",
-  province: "安徽",
-  city: "黄山",
-  origin: "安徽黄山传统名菜，以冬笋与香菇同烧，一南一北食材合烹。",
-  description: "烧南北选用笋、香菇、高汤等为主料，经烧烹制，咸鲜突出，是黄山地区的经典代表。",
+  cuisine: "冀菜",
+  province: "河北",
+  city: "张家口",
+  origin: "河北张家口传统名菜，以塞北口蘑与江南玉兰片同烧，一南一北食材合烹，河北十大经典名菜。",
+  description: "烧南北选用口蘑、玉兰片、高汤等为主料，经烧烹制，咸鲜突出，是张家口地区的经典代表。",
   ingredients: [
+    "口蘑",
     "笋",
-    "香菇",
     "高汤"
   ],
   cookingMethod: [
@@ -907,18 +907,18 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   tags: [
     "咸鲜",
     "主菜",
-    "徽菜",
-    "安徽",
-    "黄山",
+    "冀菜",
+    "河北",
+    "张家口",
     "名菜",
     "传统名菜"
   ],
   fame: "名菜",
   popularRegions: [
-    "安徽"
+    "河北"
   ],
-  lat: 29.7147,
-  lng: 118.3387,
+  lat: 40.7686,
+  lng: 114.8865,
   popularity: 5
 },
 {
@@ -931,7 +931,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   cuisine: "浙菜",
   province: "浙江",
   city: "衢州",
-  origin: "浙江衢州常山传统名菜，以甲鱼炖制，滋补鲜美。",
+  origin: "浙江衢州常山",
   description: "常山甲鱼选用甲鱼、火腿、香菇等为主料，经炖烹制，鲜香突出，是衢州地区的经典代表。",
   ingredients: [
     "甲鱼",
@@ -988,13 +988,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "普通",
   popularRegions: [
     "吉林"
   ],
   lat: 43.8171,
   lng: 125.3235,
-  popularity: 5
+  popularity: 3
 },
 {
   id: "batch23-famous-30",
@@ -1061,7 +1061,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "传统名菜",
     "地方名吃"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "河北"
   ],
@@ -1099,7 +1099,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "传统名菜",
     "地方名吃"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "河北"
   ],
@@ -1137,7 +1137,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "山东"
   ],
@@ -1174,7 +1174,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "山东"
   ],
@@ -1192,7 +1192,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   cuisine: "浙菜",
   province: "浙江",
   city: "宁波",
-  origin: "宁波传统海鲜名菜，以东海梭子蟹清蒸，鲜甜肥美。",
+  origin: "宁波",
   description: "梭子蟹选用蟹、姜、醋等为主料，经蒸烹制，鲜香突出，是宁波地区的经典代表。",
   ingredients: [
     "蟹",
@@ -1231,7 +1231,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   cuisine: "本帮菜",
   province: "上海",
   city: "上海",
-  origin: "上海本帮名菜，浓油赤酱，鱼肉肥嫩。",
+  origin: "上海",
   description: "红烧鮰鱼选用鱼、酱油、糖、料酒等为主料，经烧烹制，咸鲜突出，是上海地区的经典代表。",
   ingredients: ["鱼肉", "酱油", "糖", "料酒"],
   cookingMethod: [
@@ -1263,7 +1263,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   cuisine: "本帮菜",
   province: "上海",
   city: "上海",
-  origin: "上海本帮名菜，以草头急火生煸，酒香扑鼻。",
+  origin: "上海",
   description: "生煸草头选用草头、白酒、糖等为主料，经炒烹制，清淡突出，是上海地区的经典代表。",
   ingredients: ["草头", "料酒", "糖"],
   cookingMethod: [
@@ -1333,7 +1333,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   cuisine: "浙菜",
   province: "浙江",
   city: "宁波",
-  origin: "宁波传统名菜，以猪肉烤制后剥皮，咸甜适口。",
+  origin: "宁波",
   description: "剥皮大烤选用猪肉、酱油、糖等为主料，经烤烹制，咸甜突出，是宁波地区的经典代表。",
   ingredients: [
     "猪肉",
@@ -1371,7 +1371,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   cuisine: "本帮菜",
   province: "上海",
   city: "上海",
-  origin: "上海本帮名菜，以猪大肠炒制，软糯入味。",
+  origin: "上海",
   description: "炒圈子选用猪肉、酱油、糖等为主料，经炒烹制，咸鲜突出，是上海地区的经典代表。",
   ingredients: [
     "猪肉",
@@ -1397,43 +1397,9 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   lng: 121.4737,
   popularity: 6
 },
-{
-  id: "batch23-famous-44",
-  name: "炒秃肺",
-  image: "https://img2.baidu.com/it/u=1669460737,1002339987&fm=253&fmt=auto&app=138&f=JPEG?w=806&h=500",
-  category: "主菜",
-  taste: "咸鲜",
-  type: "traditional",
-  cuisine: "本帮菜",
-  province: "上海",
-  city: "上海",
-  origin: "上海本帮名菜，以青鱼肝炒制，鲜嫩独特。",
-  description: "炒秃肺选用鱼肝、酱油、料酒、糖等为主料，经炒烹制，咸鲜突出，是上海地区的经典代表。",
-  ingredients: [
-    "鱼肝",
-    "酱油",
-    "料酒",
-    "糖"
-  ],
-  cookingMethod: [
-    "炒"
-  ],
-  tags: [
-    "咸鲜",
-    "主菜",
-    "本帮菜",
-    "上海",
-    "名菜",
-    "传统名菜"
-  ],
-  fame: "名菜",
-  popularRegions: [
-    "上海"
-  ],
-  lat: 31.2304,
-  lng: 121.4737,
-  popularity: 6
-},
+// 【已合并】炒秃肺已合并至「青鱼秃肺」(pop-add-1, foods-popular.ts) - 同地同物异名
+// 原条目 batch23-famous-44 (炒秃肺) 已删除合并
+,
 {
   id: "batch23-famous-45",
   name: "烙蜗牛",
@@ -1463,13 +1429,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "广东"
   ],
   lat: 23.1291,
   lng: 113.2644,
-  popularity: 7
+  popularity: 4
 },
 {
   id: "batch23-famous-46",
@@ -1481,7 +1447,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   cuisine: "本帮菜",
   province: "上海",
   city: "上海",
-  origin: "上海本帮名菜，以青鱼尾红烧，形似折扇。",
+  origin: "上海",
   description: "扇形甩水选用鱼、酱油、糖等为主料，经烧烹制，咸鲜突出，是上海地区的经典代表。",
   ingredients: ["鱼肉", "酱油", "糖"],
   cookingMethod: [
@@ -1513,7 +1479,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   cuisine: "本帮菜",
   province: "上海",
   city: "上海",
-  origin: "上海本帮家常菜，以鸡肉碎骨酱烧，咸甜下饭。",
+  origin: "上海",
   description: "鸡骨酱选用鸡肉、酱油、糖、豆瓣酱等为主料，经炒、烧烹制，咸甜突出，是上海地区的经典代表。",
   ingredients: [
     "鸡肉",
@@ -1552,7 +1518,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   cuisine: "本帮菜",
   province: "上海",
   city: "上海",
-  origin: "上海西菜中做代表，以鸡肉、奶油、蘑菇熬制。",
+  origin: "上海",
   description: "金必多浓汤选用鸡肉、奶油、蘑菇、面粉等为主料，经煮烹制，咸鲜突出，是上海地区的经典代表。",
   ingredients: [
     "鸡肉",
@@ -1589,7 +1555,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   cuisine: "本帮菜",
   province: "上海",
   city: "上海",
-  origin: "上海传统甜品，以鸽蛋、糯米制成，清甜软糯。",
+  origin: "上海",
   description: "鸽蛋圆子选用鸽蛋、糯米粉、糖等为主料，经煮、蒸烹制，香甜突出，是上海地区的经典代表。",
   ingredients: [
     "鸽蛋",
@@ -1627,7 +1593,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   cuisine: "本帮菜",
   province: "上海",
   city: "上海",
-  origin: "上海传统小吃，鱿鱼裹糊油炸，外脆里嫩。",
+  origin: "上海",
   description: "油氽鱿鱼选用鱿鱼、淀粉、盐、油等为主料，经炸烹制，咸鲜突出，是上海地区的经典代表。",
   ingredients: [
     "鱿鱼",
@@ -1664,7 +1630,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   cuisine: "本帮菜",
   province: "上海",
   city: "上海",
-  origin: "上海金山枫泾传统名菜，以猪蹄卤制，冷食更佳。",
+  origin: "上海",
   description: "枫泾丁蹄选用猪肉、酱油、糖等为主料，经卤烹制，咸鲜突出，是上海地区的经典代表。",
   ingredients: [
     "猪肉",
@@ -1701,7 +1667,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   cuisine: "本帮菜",
   province: "上海",
   city: "上海",
-  origin: "上海本帮名菜，以黄鳝红烧，浓油赤酱。",
+  origin: "上海",
   description: "红烧鳝段选用鳝鱼、酱油、糖、料酒等为主料，经烧烹制，咸鲜突出，是上海地区的经典代表。",
   ingredients: [
     "鳝鱼",
@@ -1757,7 +1723,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "山东"
   ],
@@ -1795,7 +1761,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "山东"
   ],
@@ -1833,7 +1799,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "山东"
   ],
@@ -1851,7 +1817,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   cuisine: "本帮菜",
   province: "上海",
   city: "上海",
-  origin: "上海本帮名菜，以冬笋配虾子炒制，鲜嫩清爽。",
+  origin: "上海",
   description: "虾子冬笋选用笋、虾、高汤等为主料，经炒烹制，咸鲜突出，是上海地区的经典代表。",
   ingredients: [
     "笋",
@@ -1907,7 +1873,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "传统名菜",
     "甜味"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "山东"
   ],
@@ -1945,7 +1911,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "传统名菜",
     "甜味"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "山东"
   ],
@@ -1983,13 +1949,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "四川"
   ],
   lat: 30.5728,
   lng: 104.0668,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch23-famous-64",
@@ -2092,7 +2058,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "传统名菜",
     "甜味"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "山东"
   ],
@@ -2205,13 +2171,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "传统名菜",
     "辣味"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "湖南"
   ],
   lat: 28.2278,
   lng: 112.9388,
-  popularity: 7
+  popularity: 5
 },
 
 {
@@ -2238,7 +2204,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "北京"
   ],
@@ -2270,7 +2236,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "北京"
   ],
@@ -2307,7 +2273,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "山东"
   ],
@@ -2377,7 +2343,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "山东"
   ],
@@ -2449,7 +2415,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "传统名菜",
     "甜味"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "北京"
   ],
@@ -2486,7 +2452,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "传统名菜",
     "地方名吃"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "北京"
   ],
@@ -2558,7 +2524,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "山东"
   ],
@@ -2594,7 +2560,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "传统名菜",
     "甜味"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "山东"
   ],
@@ -2632,7 +2598,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "山东"
   ],
@@ -2669,7 +2635,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "山东"
   ],
@@ -2706,7 +2672,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "山东"
   ],
@@ -2724,7 +2690,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   cuisine: "苏菜",
   province: "江苏",
   city: "苏州",
-  origin: "苏州传统名菜，以蟹粉、蛋清炒制，鲜嫩鲜香。",
+  origin: "苏州",
   description: "芙蓉蟹粉选用蟹粉、鸡蛋、淀粉等为主料，经炒烹制，鲜香突出，是苏州地区的经典代表。",
   ingredients: [
     "蟹粉",
@@ -2762,7 +2728,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   cuisine: "苏菜",
   province: "江苏",
   city: "南京",
-  origin: "南京传统名菜，以甲鱼生炒，肉质紧实。",
+  origin: "南京",
   description: "生炒甲鱼选用甲鱼、姜、葱、料酒等为主料，经炒烹制，咸鲜突出，是南京地区的经典代表。",
   ingredients: [
     "甲鱼",
@@ -2800,8 +2766,8 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   type: "traditional",
   cuisine: "苏菜",
   province: "江苏",
-  city: "镇江",
-  origin: "扬州传统名菜，历史悠久。",
+  city: "扬州",
+  origin: "扬州",
   description: "清炖狮子头选用猪肉、青菜、高汤等为主料，经炖烹制，咸鲜突出，是扬州地区的经典代表。",
   ingredients: [
     "猪肉",
@@ -2838,7 +2804,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   cuisine: "苏菜",
   province: "江苏",
   city: "苏州",
-  origin: "苏州传统名菜，以莼菜、鲈鱼同羹，清鲜滑嫩。",
+  origin: "苏州",
   description: "莼菜鲈鱼羹选用莼菜、鱼、高汤等为主料，经煮烹制，鲜香突出，是苏州地区的经典代表。",
   ingredients: ["莼菜", "鱼肉", "高汤"],
   cookingMethod: [
@@ -2859,7 +2825,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   ],
   lat: 31.2989,
   lng: 120.5853,
-  popularity: 5
+  popularity: 4
 },
 {
   id: "batch23-famous-97",
@@ -2871,7 +2837,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   cuisine: "苏菜",
   province: "江苏",
   city: "南京",
-  origin: "南京传统汤菜，以菊花脑、鸡蛋煮制，清香去火。",
+  origin: "南京",
   description: "菊叶蛋汤选用菊花脑、鸡蛋、高汤等为主料，经煮烹制，清淡突出，是南京地区的经典代表。",
   ingredients: [
     "菊花脑",
@@ -2890,13 +2856,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "江苏"
   ],
   lat: 32.0603,
   lng: 118.7969,
-  popularity: 5
+  popularity: 4
 },
 {
   id: "batch23-famous-98",
@@ -2908,7 +2874,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   cuisine: "苏菜",
   province: "江苏",
   city: "苏州",
-  origin: "苏州传统甜品，以鸡头米、桂花、糖煮制。",
+  origin: "苏州",
   description: "桂花鸡头米选用芡实、桂花、糖等为主料，经煮烹制，香甜突出，是苏州地区的经典代表。",
   ingredients: [
     "芡实",
@@ -2966,13 +2932,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "传统名菜",
     "辣味"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "四川"
   ],
   lat: 30.5728,
   lng: 104.0668,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch23-famous-100",
@@ -3005,12 +2971,12 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "传统名菜",
     "辣味"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "四川"
   ],
   lat: 30.5728,
   lng: 104.0668,
-  popularity: 7
+  popularity: 6
 }
 ];

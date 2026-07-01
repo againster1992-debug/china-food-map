@@ -90,7 +90,7 @@ export const FOODS_BATCH_CENTRAL: Food[] = [
     popularRegions: ["湖南"],
     lat: 28.3119,
     lng: 109.7391,
-    popularity: 3,
+    popularity: 5,
   },
   {
     id: "batch-central-6",
@@ -127,7 +127,7 @@ export const FOODS_BATCH_CENTRAL: Food[] = [
     origin: "湖南永州传统名吃，湘南夜宵代表",
     description:
       "永州喝螺以田螺剪尾洗净，配辣椒、紫苏、姜蒜爆炒，加汤焖煮入味。吃时嘴对螺口一吸，肉汤同入，鲜辣过瘾。是永州夜宵名吃，湘南饮食的代表，体现湘菜对河鲜的精妙运用。",
-    ingredients: ["鱼肉", "紫苏", "辣椒", "姜", "蒜"],
+    ingredients: ["田螺", "紫苏", "辣椒", "姜", "蒜"],
     cookingMethod: ["炒", "煮"],
     tags: ["喝螺", "田螺", "湘菜", "夜宵", "河鲜", "酥脆", "绵软"],
     fame: "地方名吃",
@@ -200,11 +200,11 @@ export const FOODS_BATCH_CENTRAL: Food[] = [
     ingredients: ["糯米", "折耳根", "酸萝卜", "猪肉", "辣椒", "花生"],
     cookingMethod: ["蒸", "拌"],
     tags: ["黔菜", "早餐", "饭团", "折耳根", "劲道"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["贵州"],
     lat: 26.647,
     lng: 106.6302,
-    popularity: 4,
+    popularity: 6,
   },
   {
     id: "batch-central-12",
@@ -226,7 +226,7 @@ export const FOODS_BATCH_CENTRAL: Food[] = [
     popularRegions: ["贵州"],
     lat: 26.2455,
     lng: 105.9462,
-    popularity: 4,
+    popularity: 5,
   },
   {
     id: "batch-central-13",
@@ -244,11 +244,11 @@ export const FOODS_BATCH_CENTRAL: Food[] = [
     ingredients: ["糯米", "炼乳", "糖"],
     cookingMethod: ["拌"],
     tags: ["黔菜", "冷饮", "夏日", "消暑", "酥脆"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["贵州"],
     lat: 26.647,
     lng: 106.6302,
-    popularity: 3,
+    popularity: 5,
   },
 
   // ========== 云南（滇菜）==========

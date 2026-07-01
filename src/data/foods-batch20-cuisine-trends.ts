@@ -6,7 +6,7 @@ export const FOODS_BATCH20_CUISINE_TRENDS: Food[] = [
   {
     id: "batch20-meng-4",
     name: "丛林狼酱骨头",
-    alias: ["非遗酱骨头", "酱骨头"],
+    alias: ["非遗酱骨头"],
     image: "https://img2.baidu.com/it/u=171576800,527839577&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1422",
     category: "主菜",
     taste: "咸鲜",
@@ -19,7 +19,7 @@ export const FOODS_BATCH20_CUISINE_TRENDS: Food[] = [
     ingredients: ["猪肉", "香料", "酱油"],
     cookingMethod: ["酱", "炖"],
     tags: ["咸鲜", "主菜", "蒙餐", "内蒙古", "非遗", "吉尼斯"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["内蒙古", "呼和浩特"],
     lat: 40.8426,
     lng: 111.7510,
@@ -75,7 +75,7 @@ export const FOODS_BATCH20_CUISINE_TRENDS: Food[] = [
     popularRegions: ["贵州", "全国"],
     lat: 26.6470,
     lng: 106.6302,
-    popularity: 5,
+    popularity: 7,
   },
   
 
@@ -100,7 +100,7 @@ export const FOODS_BATCH20_CUISINE_TRENDS: Food[] = [
     popularRegions: ["广西", "南宁"],
     lat: 22.8170,
     lng: 108.3665,
-    popularity: 5,
+    popularity: 7,
   },
   {
     id: "batch20-gui-2",
@@ -122,7 +122,7 @@ export const FOODS_BATCH20_CUISINE_TRENDS: Food[] = [
     popularRegions: ["广西", "全国"],
     lat: 22.8170,
     lng: 108.3665,
-    popularity: 4,
+    popularity: 6,
   },{
     id: "batch20-gui-4",
     name: "螺蛳鸭脚煲",
@@ -139,11 +139,11 @@ export const FOODS_BATCH20_CUISINE_TRENDS: Food[] = [
     ingredients: ["鸭掌", "螺蛳", "酸笋", "腐竹"],
     cookingMethod: ["煮", "炖"],
     tags: ["酸辣", "主菜", "桂菜", "广西", "柳州", "网红"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["广西", "全国"],
     lat: 24.3264,
     lng: 109.4117,
-    popularity: 5,
+    popularity: 6,
   },
 
   // ========== 京菜补充美食 ==========
@@ -163,7 +163,7 @@ export const FOODS_BATCH20_CUISINE_TRENDS: Food[] = [
     ingredients: ["牛奶", "酸奶", "奶皮子", "糖"],
     cookingMethod: ["发酵"],
     tags: ["甜", "甜品", "京菜", "北京", "网红", "酸奶"],
-    fame: "热门",
+    fame: "普通",
     popularRegions: ["北京", "全国"],
     lat: 39.9042,
     lng: 116.4074,

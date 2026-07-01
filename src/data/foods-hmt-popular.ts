@@ -28,7 +28,7 @@ export const FOODS_HMT_POPULAR: Food[] = [
   {
     id: "hk-5",
     name: "港式干炒牛河",
-    alias: ["干炒牛河", "牛河"],
+    alias: ["牛河"],
     image: "https://img2.baidu.com/it/u=655480153,1229201932&fm=253&fmt=auto&app=138&f=JPEG?w=858&h=500",
     category: "主食",
     taste: "咸鲜",
@@ -65,6 +65,7 @@ export const FOODS_HMT_POPULAR: Food[] = [
     ingredients: ["面包", "鸡蛋", "花生酱", "黄油", "糖"],
     cookingMethod: ["煎"],
     tags: ["面包", "鸡蛋", "花生酱", "茶餐厅", "港式", "甜腻", "煎", "酥脆", "绵软"],
+    fame: "名菜",
     popularRegions: ["香港"],
     lat: 22.3193,
     lng: 114.1694,
@@ -91,7 +92,7 @@ export const FOODS_HMT_POPULAR: Food[] = [
     lng: 114.1694,
     fame: "名菜",
     popularRegions: ["香港"],
-    popularity: 9,
+    popularity: 7,
   },
   {
     id: "hk-8",
@@ -158,7 +159,7 @@ export const FOODS_HMT_POPULAR: Food[] = [
     popularRegions: ["香港"],
     lat: 22.3193,
     lng: 114.1694,
-    popularity: 9,
+    popularity: 7,
   },
   {
     id: "hk-11",
@@ -181,7 +182,7 @@ export const FOODS_HMT_POPULAR: Food[] = [
     lng: 114.1694,
     fame: "名菜",
     popularRegions: ["香港"],
-    popularity: 9,
+    popularity: 7,
   },
 
   // ========== 澳门（mo-3 至 mo-12）==========
@@ -202,6 +203,7 @@ export const FOODS_HMT_POPULAR: Food[] = [
     ingredients: ["蟹", "大米", "姜", "葱"],
     cookingMethod: ["煮"],
     tags: ["螃蟹", "粥", "海鲜", "鲜甜", "嫩滑", "氹仔", "劲道"],
+    fame: "名菜",
     popularRegions: ["澳门"],
     lat: 22.1987,
     lng: 113.5439,
@@ -227,7 +229,7 @@ export const FOODS_HMT_POPULAR: Food[] = [
     popularRegions: ["澳门"],
     lat: 22.1987,
     lng: 113.5439,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "mo-5",
@@ -360,10 +362,10 @@ export const FOODS_HMT_POPULAR: Food[] = [
     lat: 22.1987,
     lng: 113.5439,
     popularity: 5,
-  }
+    fame: "地方名吃",
+  },
 
   // ========== 台湾（tw-4 至 tw-13）==========
-  ,
   {
     id: "tw-5",
     name: "大肠包小肠",
@@ -385,7 +387,7 @@ export const FOODS_HMT_POPULAR: Food[] = [
     lng: 121.5654,
     fame: "名菜",
     popularRegions: ["台湾"],
-    popularity: 9,
+    popularity: 8,
   },
 
   {
@@ -451,6 +453,7 @@ export const FOODS_HMT_POPULAR: Food[] = [
     ingredients: ["黄豆", "糖", "姜", "花生"],
     cookingMethod: ["煮"],
     tags: ["豆腐", "甜品", "嫩滑", "姜汁", "消暑", "闽南", "酥脆"],
+    fame: "名菜",
     popularRegions: ["台湾"],
     lat: 25.033,
     lng: 121.5654,
@@ -523,7 +526,7 @@ export const FOODS_HMT_POPULAR: Food[] = [
     popularRegions: ["重庆"],
     lat: 29.563,
     lng: 106.5516,
-    popularity: 7,
+    popularity: 8,
   },
   {
     id: "pop-22",
@@ -543,9 +546,9 @@ export const FOODS_HMT_POPULAR: Food[] = [
     cookingMethod: ["烙"],
     tags: ["面饼", "鸡蛋", "早餐", "街头", "咸鲜", "快手", "嫩滑"],
     popularRegions: ["河南"],
-    lat: 34.7466,
-    lng: 113.6253,
-    popularity: 7,
+    lat: 32.1264,
+    lng: 114.0913,
+    popularity: 8,
   },
   // 章鱼小丸子已合并至 batch25-hot-085（国民美食）
   {
@@ -589,7 +592,7 @@ export const FOODS_HMT_POPULAR: Food[] = [
     popularRegions: ["广东"],
     lat: 21.2580,
     lng: 110.3550,
-    popularity: 7,
+    popularity: 8,
   },
   {
     id: "pop-26",
@@ -655,7 +658,8 @@ export const FOODS_HMT_POPULAR: Food[] = [
     popularRegions: ["辽宁"],
     lat: 41.8057,
     lng: 123.4315,
-    popularity: 8,
+    popularity: 7,
+    fame: "热门",
   },
   {
     id: "pop-30",
@@ -698,7 +702,7 @@ export const FOODS_HMT_POPULAR: Food[] = [
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 7,
+    popularity: 8,
   },
   {
     id: "pop-34",
@@ -743,6 +747,7 @@ export const FOODS_HMT_POPULAR: Food[] = [
     lat: 41.8057,
     lng: 123.4315,
     popularity: 5,
+    fame: "热门",
   },
   {
     id: "pop-39",
@@ -786,5 +791,6 @@ export const FOODS_HMT_POPULAR: Food[] = [
     popularRegions: ["辽宁"],
     lat: 41.8057,
     lng: 123.4315,
-    popularity: 7,
+    popularity: 6,
+  fame: "热门",
   }];

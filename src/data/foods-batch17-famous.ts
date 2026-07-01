@@ -97,7 +97,7 @@ export const FOODS_BATCH17_FAMOUS: Food[] = [
     popularRegions: ["合肥", "安徽"],
     lat: 31.8206,
     lng: 117.2272,
-    popularity: 8,
+    popularity: 7,
   }
   // ========== 东北名菜补充 ==========
 ];

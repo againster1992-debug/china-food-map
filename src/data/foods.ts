@@ -9,6 +9,7 @@ import { FOODS_FAMOUS } from "./foods-famous";
 import { FOODS_POPULAR } from "./foods-popular";
 import { FOODS_CITIES_EAST } from "./foods-cities-east";
 import { FOODS_CITIES_NORTH } from "./foods-cities-north";
+import { FOODS_CITIES_CENTRAL_SOUTH } from "./foods-cities-central-south";
 import { FOODS_TRADITIONS_SPECIALTIES } from "./foods-traditions-specialties";
 import { FOODS_TRADITIONS } from "./foods-traditions";
 import { FOODS_CITIES_SOUTH } from "./foods-cities-south";
@@ -104,6 +105,7 @@ export const FOODS: Food[] = [
   ...FOODS_POPULAR,
   ...FOODS_CITIES_EAST,
   ...FOODS_CITIES_NORTH,
+  ...FOODS_CITIES_CENTRAL_SOUTH,
   ...FOODS_TRADITIONS_SPECIALTIES,
   ...FOODS_TRADITIONS,
   ...FOODS_CITIES_SOUTH,

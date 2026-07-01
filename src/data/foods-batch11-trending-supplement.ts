@@ -1,4 +1,4 @@
-﻿import type { Food } from "@/types/food";
+﻿﻿﻿﻿import type { Food } from "@/types/food";
 
 // 搜索趋势核对中发现的新美食补充（2025-2026热门）
 // 数据来源：百度指数、微信指数、Google Trends、抖音/小红书热门话题
@@ -7,7 +7,7 @@ export const FOODS_BATCH11_TRENDING_SUPPLEMENT: Food[] = [
   {
     id: "batch11-jx-1",
     name: "余干辣椒炒肉",
-    alias: ["辣椒炒肉", "小炒肉"],
+    alias: [],
     image: "https://img1.baidu.com/it/u=3193177315,535113623&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=667",
     category: "主菜",
     taste: "鲜辣",
@@ -21,11 +21,11 @@ export const FOODS_BATCH11_TRENDING_SUPPLEMENT: Food[] = [
     ingredients: ["猪肉", "辣椒", "蒜"],
     cookingMethod: ["炒"],
     tags: ["鲜辣", "主菜", "赣菜", "江西小炒", "下饭", "锅气", "网红"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["余干", "南昌", "全国"],
     lat: 28.7136,
     lng: 116.6125,
-    popularity: 9,
+    popularity: 6,
   },
 
   
@@ -46,11 +46,11 @@ export const FOODS_BATCH11_TRENDING_SUPPLEMENT: Food[] = [
     ingredients: ["牛肉", "萝卜", "腐竹", "八角"],
     cookingMethod: ["炖"],
     tags: ["咸鲜", "主菜", "赣菜", "砂锅", "下饭"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["丰城", "南昌"],
     lat: 28.1944,
     lng: 115.7652,
-    popularity: 8,
+    popularity: 5,
   },
   {
     id: "batch11-jx-5",
@@ -69,11 +69,11 @@ export const FOODS_BATCH11_TRENDING_SUPPLEMENT: Food[] = [
     ingredients: ["鸡肉", "辣椒", "花椒", "姜"],
     cookingMethod: ["炒", "焖"],
     tags: ["鲜辣", "主菜", "赣菜", "麻辣", "名菜"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["宜春", "南昌"],
     lat: 27.7869,
     lng: 114.3886,
-    popularity: 8,
+    popularity: 5,
   },
   {
     id: "batch11-jx-6",
@@ -92,11 +92,11 @@ export const FOODS_BATCH11_TRENDING_SUPPLEMENT: Food[] = [
     ingredients: ["鸭肉", "酒糟", "辣椒", "姜"],
     cookingMethod: ["焖"],
     tags: ["香辣", "主菜", "赣菜", "酒糟", "网红"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["南昌", "全国"],
     lat: 28.6825,
     lng: 115.8533,
-    popularity: 9,
+    popularity: 5,
   },
   // ==================== 二、澳门土生葡菜（世界美食之都特色）====================
   /**/
@@ -147,29 +147,30 @@ export const FOODS_BATCH11_TRENDING_SUPPLEMENT: Food[] = [
     lng: 113.5768,
     popularity: 9,
   },
-  {
-    id: "batch11-macau-5",
-    name: "添发碗仔翅",
-    alias: ["碗仔翅"],
-    image: "https://img1.baidu.com/it/u=1085011912,649231362&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1422",
-    category: "小吃",
-    taste: "咸鲜",
-    type: "traditional",
-    cuisine: "粤菜",
-    province: "澳门",
-    city: "澳门半岛",
-    origin: "澳门福隆新街添发，老火慢炖汤底",
-    description:
-      "添发碗仔翅用老火慢炖的汤底配上鱼翅、花胶等珍贵食材，80澳门元就能品尝到昔日富贵人家的滋味。福隆新街的怀旧美食代表，是澳门市井美食文化的缩影，深受本地人和游客喜爱。",
-    ingredients: ["鱼翅", "花胶", "高汤", "木耳"],
-    cookingMethod: ["炖"],
-    tags: ["咸鲜", "小吃", "粤菜", "澳门", "怀旧"],
-    fame: "名菜",
-    popularRegions: ["澳门半岛"],
-    lat: 22.1987,
-    lng: 113.5439,
-    popularity: 8,
-  },
+  // 「batch11-macau-5」已合并至「batch-south-16」- 添发碗仔翅与碗仔翅为同物异名且带店名前缀。碗仔翅发源于香港 1950 年代街头，澳门版本系从香港传入。batch11-m
+  //   {
+  //     id: "batch11-macau-5",
+  //     name: "添发碗仔翅",
+  //     alias: ["碗仔翅"],
+  //     image: "https://img1.baidu.com/it/u=1085011912,649231362&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1422",
+  //     category: "小吃",
+  //     taste: "咸鲜",
+  //     type: "traditional",
+  //     cuisine: "粤菜",
+  //     province: "澳门",
+  //     city: "澳门半岛",
+  //     origin: "澳门福隆新街添发，老火慢炖汤底",
+  //     description:
+  //       "添发碗仔翅用老火慢炖的汤底配上鱼翅、花胶等珍贵食材，80澳门元就能品尝到昔日富贵人家的滋味。福隆新街的怀旧美食代表，是澳门市井美食文化的缩影，深受本地人和游客喜爱。",
+  //     ingredients: ["鱼翅", "花胶", "高汤", "木耳"],
+  //     cookingMethod: ["炖"],
+  //     tags: ["咸鲜", "小吃", "粤菜", "澳门", "怀旧"],
+  //     fame: "名菜",
+  //     popularRegions: ["澳门半岛"],
+  //     lat: 22.1987,
+  //     lng: 113.5439,
+  //     popularity: 7,
+  //   },
   // ==================== 三、西藏热门美食（青稞面包获世界冠军）====================
   {
     id: "batch11-xz-1",
@@ -288,7 +289,7 @@ export const FOODS_BATCH11_TRENDING_SUPPLEMENT: Food[] = [
     popularRegions: ["西宁", "青海"],
     lat: 36.6211,
     lng: 101.7782,
-    popularity: 8,
+    popularity: 7,
   }
   // ==================== 五、2025-2026网红美食（抖音爆款）====================
   ,
@@ -297,7 +298,7 @@ export const FOODS_BATCH11_TRENDING_SUPPLEMENT: Food[] = [
   {
     id: "batch11-net-5",
     name: "臭豆腐火锅",
-    alias: ["臭臭锅"],
+    alias: [],
     image: "https://img2.baidu.com/it/u=1796184323,892113283&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=667",
     category: "主菜",
     taste: "香辣",

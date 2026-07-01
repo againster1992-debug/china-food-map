@@ -1,4 +1,4 @@
-﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
 
 // 补充澳门、甘肃、宁夏、青海、山西、内蒙古、辽宁的缺失美食
 export const FOODS_BATCH8_SUPPLEMENT: Food[] = [
@@ -11,7 +11,7 @@ export const FOODS_BATCH8_SUPPLEMENT: Food[] = [
     category: "糕点",
     taste: "甜",
     type: "traditional",
-    cuisine: "其他",
+    cuisine: "澳门土生菜",
     province: "澳门",
     city: "澳门",
     origin: "澳门，1989年安德鲁将葡萄牙贝伦区蛋挞改良创制",
@@ -24,7 +24,7 @@ export const FOODS_BATCH8_SUPPLEMENT: Food[] = [
     popularRegions: ["澳门", "全国"],
     lat: 22.1987,
     lng: 113.5439,
-    popularity: 9,
+    popularity: 8,
   },
   
 
@@ -205,7 +205,7 @@ export const FOODS_BATCH8_SUPPLEMENT: Food[] = [
   {
     id: "batch8-nm-2",
     name: "蒙古包子",
-    alias: ["蒙古馅饼", "布里亚特包子"],
+    alias: ["布里亚特包子"],
     image: "https://img2.baidu.com/it/u=237133337,3999645703&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1422",
     category: "小吃",
     taste: "咸鲜",
@@ -224,6 +224,28 @@ export const FOODS_BATCH8_SUPPLEMENT: Food[] = [
     lat: 40.8426,
     lng: 111.7510,
     popularity: 3,
+  },
+  {
+    id: "batch8-nm-3",
+    name: "蒙古馅饼",
+    alias: ["科尔沁馅饼"],
+    image: "https://img1.baidu.com/it/u=1251498677,2673541464&fm=253&fmt=auto&app=138&f=JPEG?w=693&h=500",
+    category: "主食",
+    taste: "咸鲜",
+    type: "traditional",
+    cuisine: "蒙餐",
+    province: "内蒙古",
+    city: "通辽",
+    origin: "内蒙古通辽市科尔沁左翼后旗",
+    description: "蒙古馅饼是内蒙古通辽科尔沁地区传统特色美食，已有300多年历史。以「三翻两烙」独特技法制作，采用死面（冷水面）擀皮，油煎而成，皮薄如纸、馅大汁多、外焦里嫩，是蒙餐精粹之一。",
+    ingredients: ["面粉", "牛肉", "羊肉", "葱"],
+    cookingMethod: ["煎", "烙"],
+    tags: ["酥脆", "焦香", "传统", "主食", "蒙古族", "蒙餐"],
+    fame: "名菜",
+    popularRegions: ["内蒙古"],
+    lat: 43.0,
+    lng: 122.3,
+    popularity: 7,
   },
 
   // ========== 辽宁 ==========
@@ -248,7 +270,7 @@ export const FOODS_BATCH8_SUPPLEMENT: Food[] = [
     popularRegions: ["辽宁", "东北"],
     lat: 41.8057,
     lng: 123.4315,
-    popularity: 7,
+    popularity: 8,
   },
 
   // ========== 河北（补充） ==========
@@ -273,7 +295,7 @@ export const FOODS_BATCH8_SUPPLEMENT: Food[] = [
     popularRegions: ["河北", "京津冀"],
     lat: 38.3037,
     lng: 116.8386,
-    popularity: 4,
+    popularity: 6,
   },
   // ========== 辽宁（补充） ==========
   {
@@ -322,7 +344,7 @@ export const FOODS_BATCH8_SUPPLEMENT: Food[] = [
     popularRegions: ["西藏", "青海", "四川"],
     lat: 29.65,
     lng: 91.13,
-    popularity: 5,
+    popularity: 7,
   },
 
   // ========== 宁夏（补充） ==========

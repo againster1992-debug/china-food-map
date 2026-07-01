@@ -249,7 +249,7 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   popularRegions: ["重庆"],
   lat: 31.0186,
   lng: 109.4639,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch27-023",
@@ -293,7 +293,7 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   popularRegions: ["重庆"],
   lat: 30.2995,
   lng: 108.0375,
-  popularity: 6
+  popularity: 5
 },
 {
   id: "batch27-025",
@@ -400,11 +400,11 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   ingredients: ["面粉","牦牛肉","葱","姜","花椒"],
   cookingMethod: ["蒸"],
   tags: ["咸鲜","小吃","牦牛肉","包子","甘肃","甘南","藏式","多汁","地方名吃"],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: ["甘肃","青海"],
   lat: 34.9834,
   lng: 102.911,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch27-036",
@@ -449,7 +449,7 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   popularRegions: ["山西"],
   lat: 40.0768,
   lng: 113.3001,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch27-039",
@@ -471,7 +471,7 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   popularRegions: ["山西"],
   lat: 39.9891,
   lng: 112.4669,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch27-040",
@@ -489,11 +489,11 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   ingredients: ["猪肝","花油","蒜","花椒","盐"],
   cookingMethod: ["烤"],
   tags: ["咸鲜", "小吃", "烤制", "山西", "阳城", "外焦里嫩", "肝香", "传统", "地方名吃"],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: ["山西"],
   lat: 35.4861,
   lng: 112.4148,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch27-041",
@@ -533,11 +533,11 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   ingredients: ["台蘑","鸡肉","姜","盐"],
   cookingMethod: ["炖"],
   tags: ["鲜香","汤羹","台蘑","土鸡","山西","五台山","滋补","佛门","名菜"],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: ["山西"],
   lat: 38.95,
   lng: 113.5667,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch27-043",
@@ -555,11 +555,11 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   ingredients: ["鱼肉","酱油","醋","糖","葱","姜","蒜"],
   cookingMethod: ["炖"],
   tags: ["咸鲜","主菜","鱼","熬制","山西","代县","酥烂","传统","名菜"],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: ["山西"],
   lat: 39.0669,
   lng: 112.96,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch27-044",
@@ -599,11 +599,11 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   ingredients: ["面粉","驴肉","葱","甜面酱"],
   cookingMethod: ["烙","卤"],
   tags: ["咸鲜", "小吃", "驴肉", "山西", "长治", "上党", "酥脆", "传统", "地方名吃"],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: ["山西"],
   lat: 36.1953,
   lng: 113.1165,
-  popularity: 7
+  popularity: 6
 },
 
 {
@@ -626,12 +626,12 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   popularRegions: ["内蒙古","全国"],
   lat: 43.6172,
   lng: 122.2437,
-  popularity: 9
+  popularity: 7
 },
 {
   id: "batch27-048",
   name: "巴盟烩酸菜",
-  alias: ["烩酸菜", "巴盟烩菜"],
+  alias: ["烩酸菜", "巴盟烩菜", "猪肉烩酸菜"],
   image: "https://img2.baidu.com/it/u=3778502967,906017073&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=757",
   category: "主菜",
   taste: "咸鲜",
@@ -644,11 +644,11 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   ingredients: ["猪肉","酸菜","土豆","粉条","葱","姜"],
   cookingMethod: ["烩"],
   tags: ["咸鲜","主菜","酸菜","猪肉","内蒙古","巴彦淖尔","河套","暖身","家常","地方名吃"],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: ["内蒙古"],
   lat: 40.7432,
   lng: 107.3877,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch27-051",
@@ -666,11 +666,11 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   ingredients: ["羊肉","孜然","辣椒","盐","蒜"],
   cookingMethod: ["烤"],
   tags: ["香辣","主菜","羊背","烤制","内蒙古","包头","蒙古族","待客","名菜"],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: ["内蒙古"],
   lat: 40.6582,
   lng: 109.8404,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch27-052",
@@ -800,11 +800,11 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   ingredients: ["玉米面","鸡蛋","韭菜","酱油","醋"],
   cookingMethod: ["炒"],
   tags: ["酸甜","小吃","玉米面","发酵","辽宁","丹东","满族","筋道","酸香","地方名吃"],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: ["辽宁"],
   lat: 40.0008,
   lng: 124.3547,
-  popularity: 7
+  popularity: 5
 },
 
 {
@@ -827,7 +827,7 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   popularRegions: ["贵州"],
   lat: 27.3017,
   lng: 105.305,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch27-067",
@@ -849,7 +849,7 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   popularRegions: ["贵州"],
   lat: 26.2531,
   lng: 105.9282,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch27-068",
@@ -871,12 +871,12 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   popularRegions: ["贵州"],
   lat: 25.71,
   lng: 104.4716,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch27-069",
   name: "景德镇碱水粑",
-  alias: ["碱水粑", "米粑"],
+  alias: ["碱水粑"],
   image: "https://img0.baidu.com/it/u=1460612785,1275611891&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=667",
   category: "小吃",
   taste: "咸鲜",
@@ -889,11 +889,11 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   ingredients: ["大米","碱水","蔬菜","鸡蛋","酱油"],
   cookingMethod: ["蒸","炒"],
   tags: ["咸鲜","小吃","大米","碱水","江西","景德镇","Q弹","爽滑","传统","地方名吃"],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: ["江西"],
   lat: 29.2942,
   lng: 117.1784,
-  popularity: 7
+  popularity: 5
 },
 
 {
@@ -985,7 +985,7 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
 },
 {
   id: "batch27-075",
-  name: "伊犁马肠子",
+  name: "熏马肠",
   alias: ["哈萨克马肠"],
   image: "https://img1.baidu.com/it/u=2686964305,1716325311&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1067",
   category: "腌腊",
@@ -994,7 +994,7 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   cuisine: "新疆菜",
   province: "新疆",
   city: "伊犁",
-  origin: "新疆伊犁哈萨克族传统熏马肠",
+  origin: "新疆伊犁哈萨克族传统食品，伊宁为熏马肠最纯正产地",
   description: "伊犁马肠子以马肉灌入马肠衣中经松枝熏制而成，肉质紧实烟熏味浓郁，是新疆伊犁哈萨克族最具代表性的传统美食。",
   ingredients: ["马肉","马肠衣","盐","蒜","香料"],
   cookingMethod: ["灌","熏"],
@@ -1072,25 +1072,26 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   lng: 105.6499,
   popularity: 6
 },
-{
-  id: "batch27-080",
-  name: "十堰三合汤",
-  image: "https://img0.baidu.com/it/u=1238423636,1526881277&fm=253&fmt=auto&app=138&f=JPEG?w=514&h=500",
-  category: "汤羹",
-  taste: "酸辣",
-  type: "traditional",
-  cuisine: "鄂菜",
-  province: "湖北",
-  city: "十堰",
-  origin: "湖北十堰郧阳传统小吃",
-  description: "十堰三合汤以红薯粉条、牛肉和饺子三者合一，配以酸辣汤底，粉条爽滑牛肉酥烂饺子鲜香，是湖北十堰郧阳最具特色的传统小吃。",
-  ingredients: ["红薯粉", "牛肉", "辣椒", "醋", "葱", "姜"],
-  cookingMethod: ["煮"],
-  tags: ["酸辣","汤羹","粉条","牛肉","湖北","十堰","郧阳","三合","传统","地方名吃"],
-  fame: "地方名吃",
-  popularRegions: ["湖北"],
-  lat: 32.6516,
-  lng: 110.798,
-  popularity: 6
-}
+  // 「batch27-080」已合并至「city-shiyan-1」- 十堰三合汤与郧阳三合汤为同地同物异名，均为十堰郧阳传统小吃（牛肉、粉条、饺子三合一），合并至[city-shiyan-1
+  // {
+  //   id: "batch27-080",
+  //   name: "十堰三合汤",
+  //   image: "https://img0.baidu.com/it/u=1238423636,1526881277&fm=253&fmt=auto&app=138&f=JPEG?w=514&h=500",
+  //   category: "汤羹",
+  //   taste: "酸辣",
+  //   type: "traditional",
+  //   cuisine: "鄂菜",
+  //   province: "湖北",
+  //   city: "十堰",
+  //   origin: "湖北十堰郧阳传统小吃",
+  //   description: "十堰三合汤以红薯粉条、牛肉和饺子三者合一，配以酸辣汤底，粉条爽滑牛肉酥烂饺子鲜香，是湖北十堰郧阳最具特色的传统小吃。",
+  //   ingredients: ["红薯粉", "牛肉", "辣椒", "醋", "葱", "姜"],
+  //   cookingMethod: ["煮"],
+  //   tags: ["酸辣","汤羹","粉条","牛肉","湖北","十堰","郧阳","三合","传统","地方名吃"],
+  //   fame: "地方名吃",
+  //   popularRegions: ["湖北"],
+  //   lat: 32.6516,
+  //   lng: 110.798,
+  //   popularity: 5
+  // }
 ];

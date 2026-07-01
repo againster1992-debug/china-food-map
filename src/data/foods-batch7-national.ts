@@ -16,11 +16,11 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     ingredients: ["黄豆", "面粉", "糖", "盐", "食用油"],
     cookingMethod: ["磨", "炸"],
     tags: ["国民美食", "早餐", "豆浆", "油条", "黄金搭档", "全国流行", "酥脆"],
-    fame: "地方名吃",
+    fame: "名菜",
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 5,
+    popularity: 8,
   },
   
   {
@@ -39,11 +39,11 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     ingredients: ["面粉"],
     cookingMethod: ["蒸"],
     tags: ["国民美食", "主食", "蒸", "面食", "全国流行", "酥脆"],
-    fame: "地方名吃",
+    fame: "名菜",
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 5,
+    popularity: 8,
   },
     {
     id: "batch7-national-7",
@@ -61,11 +61,11 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     ingredients: ["玉米", "黄豆粉"],
     cookingMethod: ["蒸"],
     tags: ["国民美食", "主食", "粗粮", "玉米面", "全国流行", "酥脆"],
-    fame: "地方名吃",
+    fame: "名菜",
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 5,
+    popularity: 8,
   },
   {
     id: "batch7-national-8",
@@ -93,7 +93,7 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
   {
     id: "batch7-national-15",
     name: "抄手",
-    alias: ["红油抄手", "清汤抄手"],
+    alias: ["红油抄手", "清汤抄手", "吴抄手", "成都龙抄手", "龙抄手"],
     image: "https://img1.baidu.com/it/u=4294227672,735540218&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1067",
     category: "面食",
     taste: "咸鲜",
@@ -107,11 +107,11 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     ingredients: ["面粉", "猪肉", "辣椒", "花椒", "鸡肉"],
     cookingMethod: ["煮"],
     tags: ["国民美食", "面食", "馄饨", "红油", "全国流行"],
-    fame: "地方名吃",
+    fame: "名菜",
     popularRegions: ["全国"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 6,
+    popularity: 7,
   }
   // ========== 全国流行菜 ==========
 
@@ -160,7 +160,7 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 4,
+    popularity: 8,
   },
   
   {
@@ -183,7 +183,7 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 4,
+    popularity: 8,
   },
   {
     id: "batch7-national-29",
@@ -205,7 +205,7 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 4,
+    popularity: 8,
   },
   {
     id: "batch7-national-30",
@@ -227,7 +227,7 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 4,
+    popularity: 8,
   },
   {
     id: "batch7-national-31",
@@ -249,7 +249,7 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 4,
+    popularity: 8,
   },  {
     id: "batch7-national-33",
     name: "鹌鹑蛋",
@@ -270,7 +270,7 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 4,
+    popularity: 8,
   },
   {
     id: "batch7-national-34",
@@ -292,7 +292,7 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 4,
+    popularity: 8,
   },
   // ========== 全国饮品甜品 ==========
   {
@@ -315,7 +315,7 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 4,
+    popularity: 8,
   },
   {
     id: "batch7-national-40",
@@ -337,11 +337,11 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 4,
+    popularity: 8,
   },  {
     id: "batch7-national-42",
     name: "煎饼果子",
-    alias: ["天津煎饼果子", "煎饼"],
+    alias: ["天津煎饼果子"],
     image: "https://img1.baidu.com/it/u=3777063233,2062861983&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=653",
     category: "面食",
     taste: "咸鲜",
@@ -359,7 +359,7 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     popularRegions: ["全国"],
     lat: 39.0842,
     lng: 117.2009,
-    popularity: 10,
+    popularity: 8,
   },
   {
     id: "batch7-national-43",
@@ -382,7 +382,7 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     popularRegions: ["全国"],
     lat: 35.1045,
     lng: 118.3564,
-    popularity: 9,
+    popularity: 10,
   },
 
   {
@@ -406,5 +406,5 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     popularRegions: ["全国"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 5,
+    popularity: 7,
   }];

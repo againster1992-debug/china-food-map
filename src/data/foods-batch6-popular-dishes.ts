@@ -1,4 +1,4 @@
-﻿import type { Food } from "@/types/food";
+﻿﻿﻿﻿import type { Food } from "@/types/food";
 
 export const FOODS_BATCH6_POPULAR_DISHES: Food[] = [
   // ========== 川菜（八大菜系之一，发源四川、重庆）==========
@@ -71,7 +71,7 @@ export const FOODS_BATCH6_POPULAR_DISHES: Food[] = [
     popularRegions: ["四川", "重庆", "全国"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 5,
+    popularity: 7,
   },
   {
     id: "batch6-pop-8",
@@ -94,7 +94,7 @@ export const FOODS_BATCH6_POPULAR_DISHES: Food[] = [
     popularRegions: ["全国"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 5,
+    popularity: 7,
   },
 
   // ========== 粤菜（八大菜系之一，发源广东、香港、澳门）==========
@@ -120,7 +120,7 @@ export const FOODS_BATCH6_POPULAR_DISHES: Food[] = [
     popularRegions: ["全国"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 7,
+    popularity: 8,
   },
   {
     id: "batch6-pop-10",
@@ -164,11 +164,11 @@ export const FOODS_BATCH6_POPULAR_DISHES: Food[] = [
     ingredients: ["茶叶", "炼乳", "糖"],
     cookingMethod: ["煮", "拌"],
     tags: ["粤菜", "咖啡", "奶茶", "茶餐厅", "嫩滑"],
-    fame: "地方名吃",
+    fame: "名菜",
     popularRegions: ["全国"],
     lat: 22.3193,
     lng: 114.1694,
-    popularity: 3,
+    popularity: 8,
   },
 
   // ========== 鲁菜（八大菜系之一，发源山东）==========
@@ -239,11 +239,11 @@ export const FOODS_BATCH6_POPULAR_DISHES: Food[] = [
     ingredients: ["皮肚", "猪肉", "香肠", "青菜", "木耳"],
     cookingMethod: ["煮"],
     tags: ["苏菜", "面条", "皮肚", "市井", "粘糯"],
-    fame: "地方名吃",
+    fame: "热门",
     popularRegions: ["江苏"],
     lat: 32.0603,
     lng: 118.7969,
-    popularity: 6,
+    popularity: 7,
   },
   {
     id: "batch6-pop-25",
@@ -266,7 +266,7 @@ export const FOODS_BATCH6_POPULAR_DISHES: Food[] = [
     popularRegions: ["全国"],
     lat: 32.0603,
     lng: 118.7969,
-    popularity: 5,
+    popularity: 6,
   },
   {
     id: "batch6-pop-28",
@@ -324,7 +324,7 @@ export const FOODS_BATCH6_POPULAR_DISHES: Food[] = [
     type: "popular",
     cuisine: "苏菜",
     province: "江苏",
-    city: "无锡",
+    city: "南京",
     origin: "江苏南京，传统甜羹",
     description:
       "赤豆元宵以红豆沙为底，下小糯米元宵同煮，撒桂花，红豆绵密元宵软糯，甜润暖身。是南京夫子庙传统甜羹，与糖芋苗梅花糕并称南京三大甜品。一碗赤豆元宵是南京人秋冬的甜蜜记忆，在南京大牌档和各地苏菜馆都能品尝到，深受喜欢甜食的食客追捧。",
@@ -577,7 +577,7 @@ export const FOODS_BATCH6_POPULAR_DISHES: Food[] = [
     popularRegions: ["湖南", "全国"],
     lat: 26.3922,
     lng: 111.1739,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "batch6-pop-50",
@@ -623,7 +623,7 @@ export const FOODS_BATCH6_POPULAR_DISHES: Food[] = [
     popularRegions: ["湖南", "全国"],
     lat: 28.2282,
     lng: 112.9388,
-    popularity: 5,
+    popularity: 6,
   },
 
   // ========== 徽菜（八大菜系之一，发源安徽）==========
@@ -668,11 +668,11 @@ export const FOODS_BATCH6_POPULAR_DISHES: Food[] = [
     ingredients: ["猪肉", "盐", "花椒"],
     cookingMethod: ["腌", "蒸"],
     tags: ["徽菜", "腌肉", "腊肉", "徽州", "酥脆", "粘糯"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["安徽", "全国"],
     lat: 29.7147,
     lng: 118.3374,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "batch6-pop-55",
@@ -715,11 +715,11 @@ export const FOODS_BATCH6_POPULAR_DISHES: Food[] = [
     ingredients: ["鸭肉", "糖", "甜面酱", "葱", "薄饼"],
     cookingMethod: ["烤"],
     tags: ["徽菜", "烤鸭", "鸭", "名菜", "嫩滑"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["安徽"],
     lat: 31.8206,
     lng: 117.2272,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "batch6-pop-58",
