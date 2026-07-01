@@ -25,7 +25,7 @@ export const FOODS_BATCH11_TRENDING_SUPPLEMENT: Food[] = [
     popularRegions: ["余干", "南昌", "全国"],
     lat: 28.7136,
     lng: 116.6125,
-    popularity: 6,
+    popularity: 4,
   },
 
   
@@ -50,7 +50,7 @@ export const FOODS_BATCH11_TRENDING_SUPPLEMENT: Food[] = [
     popularRegions: ["丰城", "南昌"],
     lat: 28.1944,
     lng: 115.7652,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch11-jx-5",
@@ -73,7 +73,7 @@ export const FOODS_BATCH11_TRENDING_SUPPLEMENT: Food[] = [
     popularRegions: ["宜春", "南昌"],
     lat: 27.7869,
     lng: 114.3886,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch11-jx-6",
@@ -96,7 +96,7 @@ export const FOODS_BATCH11_TRENDING_SUPPLEMENT: Food[] = [
     popularRegions: ["南昌", "全国"],
     lat: 28.6825,
     lng: 115.8533,
-    popularity: 5,
+    popularity: 2,
   },
   // ==================== 二、澳门土生葡菜（世界美食之都特色）====================
   /**/
@@ -193,7 +193,7 @@ export const FOODS_BATCH11_TRENDING_SUPPLEMENT: Food[] = [
     popularRegions: ["江孜", "拉萨", "上海", "广州"],
     lat: 28.9156,
     lng: 89.6418,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "batch11-xz-2",
@@ -212,11 +212,11 @@ export const FOODS_BATCH11_TRENDING_SUPPLEMENT: Food[] = [
     ingredients: ["面粉", "奶油", "草莓", "糖"],
     cookingMethod: ["烤"],
     tags: ["香甜", "甜品", "藏餐", "西藏", "网红", "搪瓷盆"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["拉萨"],
     lat: 29.6516,
     lng: 91.1743,
-    popularity: 7,
+    popularity: 6,
   },
   
 
@@ -237,11 +237,11 @@ export const FOODS_BATCH11_TRENDING_SUPPLEMENT: Food[] = [
     ingredients: ["牦牛奶", "人参果", "糖"],
     cookingMethod: ["发酵"],
     tags: ["酸甜", "甜品", "藏餐", "牦牛酸奶", "人参果", "滋补"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["拉萨", "青海"],
     lat: 29.6516,
     lng: 91.1743,
-    popularity: 7,
+    popularity: 6,
   },
   // ==================== 四、青海热门美食（青甘大环线必吃）====================
   {
@@ -265,7 +265,7 @@ export const FOODS_BATCH11_TRENDING_SUPPLEMENT: Food[] = [
     popularRegions: ["西宁", "青海", "青甘大环线"],
     lat: 36.6211,
     lng: 101.7782,
-    popularity: 8,
+    popularity: 9,
   },
   
   {
@@ -289,7 +289,7 @@ export const FOODS_BATCH11_TRENDING_SUPPLEMENT: Food[] = [
     popularRegions: ["西宁", "青海"],
     lat: 36.6211,
     lng: 101.7782,
-    popularity: 7,
+    popularity: 8,
   }
   // ==================== 五、2025-2026网红美食（抖音爆款）====================
   ,
@@ -312,9 +312,9 @@ export const FOODS_BATCH11_TRENDING_SUPPLEMENT: Food[] = [
     ingredients: ["臭豆腐", "辣椒", "花椒", "高汤"],
     cookingMethod: ["煮"],
     tags: ["香辣", "主菜", "湘菜", "网红", "臭豆腐", "火锅"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["湖南", "全国"],
     lat: 28.2278,
     lng: 112.9388,
-    popularity: 7,
+    popularity: 6,
   }];

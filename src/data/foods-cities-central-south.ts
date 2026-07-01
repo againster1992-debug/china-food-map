@@ -46,7 +46,7 @@ export const FOODS_CITIES_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["河南"],
     lat: 34.62,
     lng: 112.45,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "city-luoyang-3",
@@ -68,7 +68,7 @@ export const FOODS_CITIES_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["河南"],
     lat: 34.62,
     lng: 112.45,
-    popularity: 6,
+    popularity: 4,
   },
 
   // ========== 河南·开封 ==========
@@ -116,7 +116,7 @@ export const FOODS_CITIES_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["河南"],
     lat: 34.8,
     lng: 114.31,
-    popularity: 6,
+    popularity: 4,
   },
 
   // ========== 河南·平顶山 ==========
@@ -163,7 +163,7 @@ export const FOODS_CITIES_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["河南"],
     lat: 33.77,
     lng: 113.19,
-    popularity: 6,
+    popularity: 4,
   },
 
   // ========== 河南·鹤壁 ==========
@@ -188,14 +188,14 @@ export const FOODS_CITIES_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["河南"],
     lat: 35.75,
     lng: 114.29,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "city-hebi-2",
     name: "缠丝鸭蛋",
     alias: ["缠丝蛋"],
-    image: "https://img0.baidu.com/it/u=2182984677,78351500&fm=253&fmt=auto&app=138&f=JPEG?w=514&h=500",
-    category: "腌腊",
+    image: "https://img0.baidu.com/it/u=2182984677,78351500&fm=253&fmt=auto&app=514&h=500",
+    category: "物产",
     taste: "咸鲜",
     type: "traditional",
     cuisine: "豫菜",
@@ -211,7 +211,7 @@ export const FOODS_CITIES_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["河南"],
     lat: 35.75,
     lng: 114.29,
-    popularity: 6,
+    popularity: 4,
   },
 
   // ========== 河南·新乡 ==========
@@ -258,7 +258,7 @@ export const FOODS_CITIES_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["河南"],
     lat: 35.3,
     lng: 113.93,
-    popularity: 6,
+    popularity: 4,
   },
 
   // ========== 河南·焦作 ==========
@@ -305,7 +305,7 @@ export const FOODS_CITIES_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["河南"],
     lat: 35.23,
     lng: 113.24,
-    popularity: 6,
+    popularity: 4,
   },
 
   // ========== 河南·濮阳 ==========
@@ -330,7 +330,7 @@ export const FOODS_CITIES_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["河南"],
     lat: 35.77,
     lng: 115.03,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "city-puyang-2",
@@ -349,11 +349,11 @@ export const FOODS_CITIES_CENTRAL_SOUTH: Food[] = [
     ingredients: ["芝麻", "黄瓜", "面筋", "辣椒"],
     cookingMethod: ["蒸", "拌"],
     tags: ["凉皮", "濮阳名吃", "夏季小吃", "豫菜", "酥脆"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["河南"],
     lat: 35.77,
     lng: 115.03,
-    popularity: 7,
+    popularity: 6,
   },
 
   // ========== 河南·许昌 ==========
@@ -400,7 +400,7 @@ export const FOODS_CITIES_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["河南"],
     lat: 34.04,
     lng: 113.85,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 河南·漯河 ==========
@@ -447,7 +447,7 @@ export const FOODS_CITIES_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["河南"],
     lat: 33.58,
     lng: 114.02,
-    popularity: 6,
+    popularity: 4,
   },
 
   // ========== 河南·三门峡 ==========
@@ -490,12 +490,12 @@ export const FOODS_CITIES_CENTRAL_SOUTH: Food[] = [
       "陕州糟蛋以鲜鸭蛋浸入酒糟中发酵数月而成，蛋壳软化、蛋白呈琥珀色胶冻状、蛋黄橘红细腻。入口酒香浓郁、甜咸交织、滋味醇厚独特。陕州糟蛋制作工艺考究，需经选蛋、洗蛋、装坛、糟制等多道工序，历时数月。曾为清代贡品，是三门峡地区独有的传统风味，也是豫西饮食文化的珍贵遗产。",
     ingredients: ["鸭蛋", "糟", "盐"],
     cookingMethod: ["腌"],
-    tags: ["糟蛋", "酒糟", "陕州特产", "三门峡名吃", "贡品"],
+    tags: ["糟蛋", "酒糟", "腌", "陕州特产", "三门峡名吃", "贡品"],
     fame: "地方名吃",
     popularRegions: ["河南"],
     lat: 34.77,
     lng: 111.2,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 河南·周口 ==========
@@ -521,7 +521,7 @@ export const FOODS_CITIES_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["河南"],
     lat: 33.63,
     lng: 114.65,
-    popularity: 6,
+    popularity: 4,
   },
 
   // ========== 河南·驻马店 ==========
@@ -545,7 +545,7 @@ export const FOODS_CITIES_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["河南"],
     lat: 32.9802,
     lng: 114.0228,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "city-zhumadian-2",
@@ -568,7 +568,7 @@ export const FOODS_CITIES_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["河南"],
     lat: 32.98,
     lng: 114.02,
-    popularity: 6,
+    popularity: 4,
   },
 
   // ========== 湖北·黄石 ==========
@@ -592,7 +592,7 @@ export const FOODS_CITIES_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["湖北"],
     lat: 30.2,
     lng: 115.04,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "city-huangshi-2",
@@ -615,7 +615,7 @@ export const FOODS_CITIES_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["湖北"],
     lat: 30.2,
     lng: 115.04,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 湖北·鄂州 ==========
@@ -665,7 +665,7 @@ export const FOODS_CITIES_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["湖北"],
     lat: 31.04,
     lng: 112.2,
-    popularity: 6,
+    popularity: 4,
   },
 
   // ========== 湖北·孝感 ==========
@@ -689,7 +689,7 @@ export const FOODS_CITIES_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["湖北"],
     lat: 30.92,
     lng: 113.92,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "city-xiaogan-2",
@@ -711,7 +711,7 @@ export const FOODS_CITIES_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["湖北"],
     lat: 30.92,
     lng: 113.92,
-    popularity: 6,
+    popularity: 4,
   },
 
   // ========== 湖北·荆州 ==========
@@ -732,11 +732,11 @@ export const FOODS_CITIES_CENTRAL_SOUTH: Food[] = [
     ingredients: ["面粉", "葱", "芝麻"],
     cookingMethod: ["烤"],
     tags: ["锅盔", "烧饼", "公安特产", "荆州名吃", "鄂菜", "酥脆"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["湖北"],
     lat: 30.33,
     lng: 112.24,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "city-jingzhou-2",
@@ -759,7 +759,7 @@ export const FOODS_CITIES_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["湖北"],
     lat: 30.33,
     lng: 112.24,
-    popularity: 6,
+    popularity: 4,
   },
 
   // ========== 湖北·黄冈 ==========
@@ -807,7 +807,7 @@ export const FOODS_CITIES_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["湖北"],
     lat: 30.45,
     lng: 114.87,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 湖北·咸宁 ==========
@@ -854,7 +854,7 @@ export const FOODS_CITIES_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["湖北"],
     lat: 29.84,
     lng: 114.32,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 湖北·随州 ==========
@@ -880,7 +880,7 @@ export const FOODS_CITIES_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["湖北"],
     lat: 31.69,
     lng: 113.38,
-    popularity: 6,
+    popularity: 4,
   },
 
   // ========== 湖北·恩施 ==========
@@ -924,11 +924,11 @@ export const FOODS_CITIES_CENTRAL_SOUTH: Food[] = [
     ingredients: ["土豆", "辣椒", "孜然", "花椒"],
     cookingMethod: ["煮", "煎"],
     tags: ["炕土豆", "洋芋", "土家族", "恩施名吃", "街头小吃", "嫩滑"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["湖北"],
     lat: 30.27,
     lng: 109.49,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "city-enshi-3",
@@ -1266,7 +1266,7 @@ export const FOODS_CITIES_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["湖北"],
     lat: 30.59,
     lng: 114.31,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "gen5-hubei-2",
@@ -1289,7 +1289,7 @@ export const FOODS_CITIES_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["湖北"],
     lat: 30.59,
     lng: 114.31,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "gen5-hubei-3",
@@ -1312,7 +1312,7 @@ export const FOODS_CITIES_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["湖北"],
     lat: 30.65,
     lng: 113.16,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "gen5-hubei-4",
@@ -1334,7 +1334,7 @@ export const FOODS_CITIES_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["湖北"],
     lat: 32.04,
     lng: 112.14,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "gen5-hubei-5",
@@ -1380,7 +1380,7 @@ export const FOODS_CITIES_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["湖北"],
     lat: 30.59,
     lng: 114.31,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "gen5-hubei-7",
@@ -1402,7 +1402,7 @@ export const FOODS_CITIES_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["湖北"],
     lat: 30.59,
     lng: 114.31,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "gen5-hubei-8",
@@ -1424,7 +1424,7 @@ export const FOODS_CITIES_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["湖北"],
     lat: 30.59,
     lng: 114.31,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "gen5-hubei-9",
@@ -1442,7 +1442,7 @@ export const FOODS_CITIES_CENTRAL_SOUTH: Food[] = [
     ingredients: ["熊掌", "鸡肉", "香菇"],
     cookingMethod: ["炖", "蒸"],
     tags: ["熊掌", "神农架", "历史名菜", "鄂菜", "嫩滑"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["湖北"],
     lat: 31.75,
     lng: 110.67,
@@ -1470,7 +1470,7 @@ export const FOODS_CITIES_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["湖北"],
     lat: 32.65,
     lng: 110.8,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "gen5-hubei-11",
@@ -1492,7 +1492,7 @@ export const FOODS_CITIES_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["湖北"],
     lat: 32.65,
     lng: 110.8,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "gen5-hubei-12",
@@ -1514,7 +1514,7 @@ export const FOODS_CITIES_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["湖北"],
     lat: 31.25,
     lng: 113.7,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "gen5-hubei-13",
@@ -1536,7 +1536,7 @@ export const FOODS_CITIES_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["湖北"],
     lat: 30.45,
     lng: 114.87,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "gen5-hubei-14",
@@ -1558,7 +1558,7 @@ export const FOODS_CITIES_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["湖北"],
     lat: 31.04,
     lng: 112.2,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "gen5-hubei-15",
@@ -1580,7 +1580,7 @@ export const FOODS_CITIES_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["湖北"],
     lat: 30.33,
     lng: 112.24,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "gen5-hubei-16",
@@ -1603,7 +1603,7 @@ export const FOODS_CITIES_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["湖北"],
     lat: 29.84,
     lng: 114.32,
-    popularity: 5,
+    popularity: 3,
     note: "石鸡（棘胸蛙）现已有人工养殖，本条目推荐使用养殖石鸡，禁止食用野生个体。",
   },
   {
@@ -1626,6 +1626,6 @@ export const FOODS_CITIES_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["湖北"],
     lat: 31.04,
     lng: 112.2,
-    popularity: 4,
+    popularity: 1,
   },
 ];

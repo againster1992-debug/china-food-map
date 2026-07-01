@@ -46,7 +46,7 @@ export const FOODS_BATCH21_CUISINE_TRENDS: Food[] = [
     popularRegions: ["湖北", "全国"],
     lat: 29.8136,
     lng: 113.5768,
-    popularity: 6,
+    popularity: 4,
   },
 
   // ========== 台湾菜补充美食（2025-2026热门）==========
@@ -110,11 +110,11 @@ export const FOODS_BATCH21_CUISINE_TRENDS: Food[] = [
     ingredients: ["牛肉", "姜", "料酒", "葱"],
     cookingMethod: ["煮", "冲"],
     tags: ["鲜香", "汤羹", "台湾菜", "台湾", "台南", "早餐"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["台湾", "台南"],
     lat: 22.9999,
     lng: 120.2269,
-    popularity: 7,
+    popularity: 6,
   }
 
   // ========== 滇菜补充美食（2025-2026热门）==========
@@ -159,9 +159,9 @@ export const FOODS_BATCH21_CUISINE_TRENDS: Food[] = [
     ingredients: ["菠菜", "蒜", "芝麻酱"],
     cookingMethod: ["拌", "焯"],
     tags: ["鲜香", "凉菜", "豫菜", "河南", "网红"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["河南", "全国"],
     lat: 34.7466,
     lng: 113.6253,
-    popularity: 5,
+    popularity: 3,
   }];

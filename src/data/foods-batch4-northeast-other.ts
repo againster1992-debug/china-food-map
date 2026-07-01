@@ -22,7 +22,7 @@ export const FOODS_BATCH4_NORTHEAST_OTHER: Food[] = [
     popularRegions: ["黑龙江", "吉林", "辽宁"],
     lat: 45.8038,
     lng: 126.5349,
-    popularity: 2,
+    popularity: 1,
   },
   {
     id: "batch4-ne-2",
@@ -44,7 +44,7 @@ export const FOODS_BATCH4_NORTHEAST_OTHER: Food[] = [
     popularRegions: ["黑龙江", "吉林"],
     lat: 45.8038,
     lng: 126.5349,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch4-ne-3",
@@ -66,7 +66,7 @@ export const FOODS_BATCH4_NORTHEAST_OTHER: Food[] = [
     popularRegions: ["黑龙江"],
     lat: 45.8038,
     lng: 126.5349,
-    popularity: 2,
+    popularity: 1,
   },
   {
     id: "batch4-ne-4",
@@ -88,7 +88,7 @@ export const FOODS_BATCH4_NORTHEAST_OTHER: Food[] = [
     popularRegions: ["吉林", "黑龙江"],
     lat: 43.8171,
     lng: 125.3235,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-ne-5",
@@ -110,7 +110,7 @@ export const FOODS_BATCH4_NORTHEAST_OTHER: Food[] = [
     popularRegions: ["辽宁"],
     lat: 41.8057,
     lng: 123.4315,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-ne-6",
@@ -132,7 +132,7 @@ export const FOODS_BATCH4_NORTHEAST_OTHER: Food[] = [
     popularRegions: ["辽宁"],
     lat: 38.914,
     lng: 121.6147,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-ne-7",
@@ -154,7 +154,7 @@ export const FOODS_BATCH4_NORTHEAST_OTHER: Food[] = [
     popularRegions: ["黑龙江", "吉林", "辽宁"],
     lat: 45.8038,
     lng: 126.5349,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-ne-8",
@@ -176,7 +176,7 @@ export const FOODS_BATCH4_NORTHEAST_OTHER: Food[] = [
     popularRegions: ["辽宁"],
     lat: 41.1245,
     lng: 122.0707,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-ne-9",
@@ -198,7 +198,7 @@ export const FOODS_BATCH4_NORTHEAST_OTHER: Food[] = [
     popularRegions: ["黑龙江", "吉林", "辽宁"],
     lat: 45.8038,
     lng: 126.5349,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-ne-10",
@@ -220,7 +220,7 @@ export const FOODS_BATCH4_NORTHEAST_OTHER: Food[] = [
     popularRegions: ["辽宁"],
     lat: 38.914,
     lng: 121.6147,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-ne-11",
@@ -242,7 +242,7 @@ export const FOODS_BATCH4_NORTHEAST_OTHER: Food[] = [
     popularRegions: ["辽宁"],
     lat: 38.914,
     lng: 121.6147,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch4-ne-13",
@@ -263,7 +263,7 @@ export const FOODS_BATCH4_NORTHEAST_OTHER: Food[] = [
     popularRegions: ["黑龙江"],
     lat: 45.8038,
     lng: 126.5349,
-    popularity: 2,
+    popularity: 1,
   },
   {
     id: "batch4-ne-14",
@@ -285,7 +285,7 @@ export const FOODS_BATCH4_NORTHEAST_OTHER: Food[] = [
     popularRegions: ["黑龙江"],
     lat: 45.8038,
     lng: 126.5349,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch4-ne-15",
@@ -307,7 +307,7 @@ export const FOODS_BATCH4_NORTHEAST_OTHER: Food[] = [
     popularRegions: ["黑龙江"],
     lat: 45.8038,
     lng: 126.5349,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch4-ne-16",
@@ -329,7 +329,7 @@ export const FOODS_BATCH4_NORTHEAST_OTHER: Food[] = [
     popularRegions: ["辽宁"],
     lat: 38.914,
     lng: 121.6147,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch4-ne-17",
@@ -351,7 +351,7 @@ export const FOODS_BATCH4_NORTHEAST_OTHER: Food[] = [
     popularRegions: ["黑龙江"],
     lat: 45.8038,
     lng: 126.5349,
-    popularity: 2,
+    popularity: 1,
   },
   {
     id: "batch4-ne-18",
@@ -373,7 +373,7 @@ export const FOODS_BATCH4_NORTHEAST_OTHER: Food[] = [
     popularRegions: ["黑龙江"],
     lat: 45.8038,
     lng: 126.5349,
-    popularity: 2,
+    popularity: 1,
   },
   {
     id: "batch4-ne-19",
@@ -395,7 +395,7 @@ export const FOODS_BATCH4_NORTHEAST_OTHER: Food[] = [
     popularRegions: ["辽宁"],
     lat: 41.8057,
     lng: 123.4315,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch4-ne-20",
@@ -417,7 +417,7 @@ export const FOODS_BATCH4_NORTHEAST_OTHER: Food[] = [
     popularRegions: ["辽宁"],
     lat: 38.914,
     lng: 121.6147,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-ne-21",
@@ -439,7 +439,7 @@ export const FOODS_BATCH4_NORTHEAST_OTHER: Food[] = [
     popularRegions: ["辽宁"],
     lat: 41.8057,
     lng: 123.4315,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch4-ne-22",
@@ -461,7 +461,7 @@ export const FOODS_BATCH4_NORTHEAST_OTHER: Food[] = [
     popularRegions: ["辽宁"],
     lat: 38.914,
     lng: 121.6147,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-ne-23",
@@ -478,11 +478,11 @@ export const FOODS_BATCH4_NORTHEAST_OTHER: Food[] = [
     ingredients: ["鱼肉", "茄子", "酱油", "葱", "蒜"],
     cookingMethod: ["炖"],
     tags: ["鲶鱼", "茄子", "炖菜", "哈尔滨名菜", "东北菜", "家常", "松花江", "粘糯"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["黑龙江", "吉林", "辽宁"],
     lat: 45.8038,
     lng: 126.5349,
-    popularity: 7,
+    popularity: 6,
   },
 
   // ==================== 上海小吃（本帮菜） ====================
@@ -507,7 +507,7 @@ export const FOODS_BATCH4_NORTHEAST_OTHER: Food[] = [
     popularRegions: ["上海"],
     lat: 31.2304,
     lng: 121.4737,
-    popularity: 3,
+    popularity: 1,
   },
   
   {
@@ -530,7 +530,7 @@ export const FOODS_BATCH4_NORTHEAST_OTHER: Food[] = [
     popularRegions: ["上海", "江苏", "浙江"],
     lat: 31.2304,
     lng: 121.4737,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch4-sh-5",
@@ -552,7 +552,7 @@ export const FOODS_BATCH4_NORTHEAST_OTHER: Food[] = [
     popularRegions: ["上海", "江苏", "浙江"],
     lat: 31.2304,
     lng: 121.4737,
-    popularity: 2,
+    popularity: 1,
   },
   {
     id: "batch4-sh-6",
@@ -574,7 +574,7 @@ export const FOODS_BATCH4_NORTHEAST_OTHER: Food[] = [
     popularRegions: ["上海", "江苏", "浙江"],
     lat: 31.2304,
     lng: 121.4737,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-sh-7",
@@ -596,7 +596,7 @@ export const FOODS_BATCH4_NORTHEAST_OTHER: Food[] = [
     popularRegions: ["上海"],
     lat: 31.2304,
     lng: 121.4737,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-sh-8",
@@ -618,7 +618,7 @@ export const FOODS_BATCH4_NORTHEAST_OTHER: Food[] = [
     popularRegions: ["上海"],
     lat: 31.2304,
     lng: 121.4737,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch4-sh-9",
@@ -640,7 +640,7 @@ export const FOODS_BATCH4_NORTHEAST_OTHER: Food[] = [
     popularRegions: ["上海", "江苏", "浙江"],
     lat: 31.2304,
     lng: 121.4737,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch4-sh-10",
@@ -662,7 +662,7 @@ export const FOODS_BATCH4_NORTHEAST_OTHER: Food[] = [
     popularRegions: ["上海", "江苏", "浙江"],
     lat: 31.2304,
     lng: 121.4737,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-sh-11",
@@ -684,7 +684,7 @@ export const FOODS_BATCH4_NORTHEAST_OTHER: Food[] = [
     popularRegions: ["上海", "江苏", "浙江"],
     lat: 31.2304,
     lng: 121.4737,
-    popularity: 5,
+    popularity: 2,
   },
   
   {
@@ -707,7 +707,7 @@ export const FOODS_BATCH4_NORTHEAST_OTHER: Food[] = [
     popularRegions: ["上海"],
     lat: 31.2304,
     lng: 121.4737,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-sh-15",
@@ -729,7 +729,7 @@ export const FOODS_BATCH4_NORTHEAST_OTHER: Food[] = [
     popularRegions: ["上海"],
     lat: 31.2304,
     lng: 121.4737,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-sh-16",
@@ -751,7 +751,7 @@ export const FOODS_BATCH4_NORTHEAST_OTHER: Food[] = [
     popularRegions: ["上海", "浙江", "江苏"],
     lat: 31.2304,
     lng: 121.4737,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-sh-18",
@@ -773,7 +773,7 @@ export const FOODS_BATCH4_NORTHEAST_OTHER: Food[] = [
     popularRegions: ["上海"],
     lat: 31.2304,
     lng: 121.4737,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch4-sh-19",
@@ -795,7 +795,7 @@ export const FOODS_BATCH4_NORTHEAST_OTHER: Food[] = [
     popularRegions: ["上海", "江苏"],
     lat: 31.2304,
     lng: 121.4737,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch4-sh-20",
@@ -817,7 +817,7 @@ export const FOODS_BATCH4_NORTHEAST_OTHER: Food[] = [
     popularRegions: ["上海", "江苏", "浙江"],
     lat: 31.2304,
     lng: 121.4737,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch4-sh-21",
@@ -839,7 +839,7 @@ export const FOODS_BATCH4_NORTHEAST_OTHER: Food[] = [
     popularRegions: ["上海"],
     lat: 31.2304,
     lng: 121.4737,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch4-sh-22",
@@ -861,7 +861,7 @@ export const FOODS_BATCH4_NORTHEAST_OTHER: Food[] = [
     popularRegions: ["上海", "江苏"],
     lat: 31.2304,
     lng: 121.4737,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch4-sh-23",
@@ -883,7 +883,7 @@ export const FOODS_BATCH4_NORTHEAST_OTHER: Food[] = [
     popularRegions: ["上海", "江苏", "浙江"],
     lat: 31.2304,
     lng: 121.4737,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch4-sh-24",
@@ -905,7 +905,7 @@ export const FOODS_BATCH4_NORTHEAST_OTHER: Food[] = [
     popularRegions: ["上海", "江苏", "浙江"],
     lat: 31.2304,
     lng: 121.4737,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch4-sh-25",
@@ -927,7 +927,7 @@ export const FOODS_BATCH4_NORTHEAST_OTHER: Food[] = [
     popularRegions: ["上海", "江苏", "浙江"],
     lat: 31.2304,
     lng: 121.4737,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch4-sh-26",
@@ -949,7 +949,7 @@ export const FOODS_BATCH4_NORTHEAST_OTHER: Food[] = [
     popularRegions: ["上海", "江苏", "浙江"],
     lat: 31.2304,
     lng: 121.4737,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-sh-27",
@@ -971,7 +971,7 @@ export const FOODS_BATCH4_NORTHEAST_OTHER: Food[] = [
     popularRegions: ["上海", "江苏", "浙江"],
     lat: 31.2304,
     lng: 121.4737,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch4-sh-28",
@@ -993,7 +993,7 @@ export const FOODS_BATCH4_NORTHEAST_OTHER: Food[] = [
     popularRegions: ["上海", "江苏"],
     lat: 31.2304,
     lng: 121.4737,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch4-sh-30",
@@ -1015,7 +1015,7 @@ export const FOODS_BATCH4_NORTHEAST_OTHER: Food[] = [
     popularRegions: ["上海"],
     lat: 31.2304,
     lng: 121.4737,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-sh-31",
@@ -1033,9 +1033,9 @@ export const FOODS_BATCH4_NORTHEAST_OTHER: Food[] = [
     ingredients: ["糯米", "大米", "油条", "榨菜", "糖"],
     cookingMethod: ["蒸"],
     tags: ["饭团", "糯米", "油条", "上海主食", "本帮菜", "早餐", "四大金刚", "酥脆", "粘糯", "绵软"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["上海", "江苏", "浙江"],
     lat: 31.2304,
     lng: 121.4737,
-    popularity: 6,
+    popularity: 5,
   }];

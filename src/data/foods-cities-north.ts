@@ -23,7 +23,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["河北"],
     lat: 38.874,
     lng: 115.464,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "city-baoding-2",
@@ -46,7 +46,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["河北"],
     lat: 38.874,
     lng: 115.464,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "city-baoding-3",
@@ -69,7 +69,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["河北"],
     lat: 38.874,
     lng: 115.464,
-    popularity: 3,
+    popularity: 1,
   },
 
   // ========== 河北·秦皇岛 ==========
@@ -94,7 +94,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["河北"],
     lat: 39.935,
     lng: 119.6,
-    popularity: 4,
+    popularity: 1,
   },
   // ========== 河北·邢台 ==========
   {
@@ -118,7 +118,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["河北"],
     lat: 36.975,
     lng: 115.266,
-    popularity: 2,
+    popularity: 1,
   },
   {
     id: "city-xingtai-2",
@@ -141,7 +141,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["河北"],
     lat: 37.439,
     lng: 114.498,
-    popularity: 4,
+    popularity: 1,
   },
 
   // ========== 河北·衡水 ==========
@@ -166,7 +166,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["河北"],
     lat: 37.734,
     lng: 115.67,
-    popularity: 4,
+    popularity: 1,
   },
 
   // ========== 河北·张家口 ==========
@@ -191,7 +191,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["河北"],
     lat: 40.768,
     lng: 114.887,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "city-zhangjiakou-2",
@@ -214,7 +214,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["河北"],
     lat: 39.841,
     lng: 114.589,
-    popularity: 4,
+    popularity: 1,
   },
 
   // ========== 河北·承德 ==========
@@ -239,7 +239,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["河北"],
     lat: 40.951,
     lng: 117.963,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "city-chengde-2",
@@ -262,7 +262,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["河北"],
     lat: 40.951,
     lng: 117.963,
-    popularity: 4,
+    popularity: 1,
   },
 
   // ========== 山西·大同 ==========
@@ -283,11 +283,11 @@ export const FOODS_CITIES_NORTH: Food[] = [
     ingredients: ["黍子", "豆馅", "菜馅", "油"],
     cookingMethod: ["蒸", "炸"],
     tags: ["黄糕", "黍子", "大同名吃", "晋北主食"],
-    fame: "普通",
+    fame: "地方名吃",
     popularRegions: ["山西"],
     lat: 40.076,
     lng: 113.3,
-    popularity: 2,
+    popularity: 1,
   },
   {
     id: "city-datong-2",
@@ -310,7 +310,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["山西"],
     lat: 40.076,
     lng: 113.3,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "city-datong-3",
@@ -358,7 +358,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["山西"],
     lat: 37.857,
     lng: 113.58,
-    popularity: 3,
+    popularity: 1,
   },
 
   // ========== 山西·长治 ==========
@@ -383,7 +383,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["山西"],
     lat: 36.195,
     lng: 111.695,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "city-changzhi-2",
@@ -406,7 +406,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["山西"],
     lat: 36.195,
     lng: 111.695,
-    popularity: 3,
+    popularity: 1,
   },
 
   // ========== 山西·晋城 ==========
@@ -431,7 +431,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["山西"],
     lat: 35.49,
     lng: 112.851,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "city-jincheng-2",
@@ -454,7 +454,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["山西"],
     lat: 35.797,
     lng: 112.923,
-    popularity: 4,
+    popularity: 1,
   },
 
   // ========== 山西·朔州 ==========
@@ -479,7 +479,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["山西"],
     lat: 39.988,
     lng: 112.328,
-    popularity: 4,
+    popularity: 1,
   },
 
   // ========== 山西·晋中 ==========
@@ -504,7 +504,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["山西"],
     lat: 37.687,
     lng: 112.753,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 山西·运城 ==========
@@ -529,7 +529,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["山西"],
     lat: 34.851,
     lng: 110.895,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "city-yuncheng-2",
@@ -552,7 +552,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["山西"],
     lat: 34.693,
     lng: 110.694,
-    popularity: 2,
+    popularity: 1,
   },
 
   // ========== 山西·忻州 ==========
@@ -577,7 +577,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["山西"],
     lat: 39.189,
     lng: 113.266,
-    popularity: 2,
+    popularity: 1,
   },
 
   // ========== 山西·临汾 ==========
@@ -602,7 +602,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["山西"],
     lat: 36.254,
     lng: 111.675,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "city-linfen-2",
@@ -625,7 +625,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["山西"],
     lat: 35.641,
     lng: 111.475,
-    popularity: 3,
+    popularity: 2,
   },
 
   // ========== 山西·吕梁 ==========
@@ -673,7 +673,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["山西"],
     lat: 37.144,
     lng: 111.774,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 内蒙古·包头 ==========
@@ -702,7 +702,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["内蒙古"],
     lat: 42.258,
     lng: 118.889,
-    popularity: 4,
+    popularity: 5,
   },
   {
     id: "city-chifeng-2",
@@ -725,7 +725,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["内蒙古"],
     lat: 42.258,
     lng: 118.889,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 内蒙古·鄂尔多斯 ==========
@@ -750,7 +750,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["内蒙古"],
     lat: 39.609,
     lng: 109.781,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 内蒙古·呼伦贝尔 ==========
@@ -775,7 +775,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["内蒙古"],
     lat: 49.212,
     lng: 119.766,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "city-hulunbeier-2",
@@ -798,7 +798,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["内蒙古"],
     lat: 49.212,
     lng: 119.766,
-    popularity: 3,
+    popularity: 2,
   },
 
   // ========== 内蒙古·通辽 ==========
@@ -818,12 +818,12 @@ export const FOODS_CITIES_NORTH: Food[] = [
       "通辽牛肉干选用科尔沁黄牛后腿肉，切条腌制后风干、烤制。色泽暗红、嚼劲十足、肉香浓郁、咸鲜回甘。是蒙古族传统「风干肉」，便于携带、耐储存，曾是游牧民族的军粮。通辽牛肉干工艺传承百年，是科尔沁草原的金字招牌。",
     ingredients: ["牛肉", "盐"],
     cookingMethod: ["腌", "干制", "烤"],
-    tags: ["牛肉干", "风干肉", "科尔沁", "通辽名吃", "蒙餐", "嫩滑", "劲道"],
+    tags: ["牛肉干", "风干肉", "腌", "科尔沁", "通辽名吃", "蒙餐", "劲道"],
     fame: "地方名吃",
     popularRegions: ["内蒙古"],
     lat: 43.653,
     lng: 122.243,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "city-tongliao-2",
@@ -846,7 +846,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["内蒙古"],
     lat: 43.653,
     lng: 122.243,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 内蒙古·巴彦淖尔 ==========
@@ -871,7 +871,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["内蒙古"],
     lat: 40.743,
     lng: 107.388,
-    popularity: 4,
+    popularity: 2,
   },
   // ========== 内蒙古·乌兰察布 ==========
   {
@@ -891,11 +891,11 @@ export const FOODS_CITIES_NORTH: Food[] = [
     ingredients: ["面粉", "胡麻油", "糖", "芝麻"],
     cookingMethod: ["烤"],
     tags: ["月饼", "胡麻油", "丰镇特产", "乌兰察布名吃", "中秋"],
-    fame: "普通",
+    fame: "地方名吃",
     popularRegions: ["内蒙古"],
     lat: 40.436,
     lng: 113.11,
-    popularity: 3,
+    popularity: 2,
   },
   {
     id: "city-wulanchabu-2",
@@ -918,7 +918,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["内蒙古"],
     lat: 41.034,
     lng: 113.133,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 辽宁·大连 ==========
@@ -939,11 +939,11 @@ export const FOODS_CITIES_NORTH: Food[] = [
     ingredients: ["鱼肉"],
     cookingMethod: ["蒸"],
     tags: ["海鲜", "大连名吃", "东北菜", "鲜食", "劲道", "绵软"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["辽宁"],
     lat: 38.914,
     lng: 121.615,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "city-dalian-2",
@@ -966,7 +966,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["辽宁"],
     lat: 38.914,
     lng: 121.615,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 辽宁·丹东 ==========
@@ -987,11 +987,11 @@ export const FOODS_CITIES_NORTH: Food[] = [
     ingredients: ["鱼肉", "蒜", "辣椒"],
     cookingMethod: ["烤", "炒", "煮"],
     tags: ["黄蚬子", "海鲜", "丹东名吃", "东北菜", "夜市"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["辽宁"],
     lat: 40.0008,
     lng: 124.3547,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "city-dandong-2",
@@ -1010,11 +1010,11 @@ export const FOODS_CITIES_NORTH: Food[] = [
     ingredients: ["牛肉", "猪肉", "辣椒", "生菜"],
     cookingMethod: ["烤"],
     tags: ["烤肉", "韩式", "丹东名吃", "东北菜", "朝鲜族", "嫩滑", "劲道"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["辽宁"],
     lat: 40.0008,
     lng: 124.3547,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 辽宁·营口 ==========
@@ -1039,7 +1039,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["辽宁"],
     lat: 40.667,
     lng: 122.234,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "city-yingkou-2",
@@ -1062,7 +1062,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["辽宁"],
     lat: 40.405,
     lng: 122.349,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 辽宁·阜新 ==========
@@ -1083,11 +1083,11 @@ export const FOODS_CITIES_NORTH: Food[] = [
     ingredients: ["荞麦", "羊肉", "酸菜"],
     cookingMethod: ["煮"],
     tags: ["拨面", "荞麦", "阜新名吃", "东北菜", "蒙古族"],
-    fame: "普通",
+    fame: "地方名吃",
     popularRegions: ["辽宁"],
     lat: 42.021,
     lng: 121.648,
-    popularity: 3,
+    popularity: 2,
   },
   {
     id: "city-fuxin-2",
@@ -1110,7 +1110,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["辽宁"],
     lat: 42.021,
     lng: 121.648,
-    popularity: 2,
+    popularity: 1,
   },
 
   // ========== 辽宁·辽阳 ==========
@@ -1135,7 +1135,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["辽宁"],
     lat: 41.269,
     lng: 123.173,
-    popularity: 2,
+    popularity: 1,
   },
   {
     id: "city-liaoyang-2",
@@ -1154,11 +1154,11 @@ export const FOODS_CITIES_NORTH: Food[] = [
     ingredients: ["面粉", "葱", "酥皮", "芝麻"],
     cookingMethod: ["烤"],
     tags: ["缸炉", "烧饼", "葱花", "辽阳名吃", "东北菜"],
-    fame: "普通",
+    fame: "地方名吃",
     popularRegions: ["辽宁"],
     lat: 41.269,
     lng: 123.173,
-    popularity: 3,
+    popularity: 2,
   },
 
   // ========== 辽宁·盘锦 ==========
@@ -1231,14 +1231,14 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["辽宁"],
     lat: 42.223,
     lng: 123.844,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "city-chaoyang-2",
     name: "喀左陈醋",
     alias: ["喀左老陈醋"],
     image: "https://img0.baidu.com/it/u=1007481727,1053207912&fm=253&fmt=auto&app=120&f=GIF?w=608&h=342",
-    category: "饮品",
+    category: "调料",
     taste: "酸",
     type: "traditional",
     cuisine: "东北菜",
@@ -1249,12 +1249,12 @@ export const FOODS_CITIES_NORTH: Food[] = [
       "喀左陈醋以高粱、麸皮为主料，经蒸、酵、熏、淋、陈五道工序酿制。色泽棕红、酸香醇厚、回味绵长。喀左陈醋工艺传承山西老陈醋，又融合辽西风味，是朝阳传统名产。可凉拌、红烧、蘸食，是辽菜调味的灵魂，也是喀左的金字招牌。",
     ingredients: ["高粱", "麸皮"],
     cookingMethod: ["酿"],
-    tags: ["陈醋", "酿造", "喀左特产", "朝阳名吃", "调味品", "粘糯"],
+    tags: ["陈醋", "酿造", "喀左特产", "朝阳名吃", "调味品", "酸"],
     fame: "地方名吃",
     popularRegions: ["辽宁"],
     lat: 41.128,
     lng: 119.741,
-    popularity: 3,
+    popularity: 1,
   },
 
   // ========== 辽宁·葫芦岛 ==========
@@ -1279,7 +1279,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["辽宁"],
     lat: 40.612,
     lng: 120.841,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "city-huludao-2",
@@ -1302,7 +1302,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["辽宁"],
     lat: 40.824,
     lng: 119.795,
-    popularity: 3,
+    popularity: 1,
   },
 
   // ========== 吉林·吉林市 ==========
@@ -1327,7 +1327,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["吉林"],
     lat: 43.838,
     lng: 126.549,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 吉林·四平 ==========
@@ -1352,7 +1352,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["吉林"],
     lat: 43.166,
     lng: 124.35,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "city-siping-2",
@@ -1371,11 +1371,11 @@ export const FOODS_CITIES_NORTH: Food[] = [
     ingredients: ["猪肉", "血肠", "酸菜", "蒜"],
     cookingMethod: ["煮", "炖"],
     tags: ["白肉", "血肠", "梨树特产", "四平名吃", "东北菜", "嫩滑"],
-    fame: "普通",
+    fame: "地方名吃",
     popularRegions: ["吉林"],
     lat: 43.307,
     lng: 124.336,
-    popularity: 3,
+    popularity: 2,
   },
 
   // ========== 吉林·通化 ==========
@@ -1400,7 +1400,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["吉林"],
     lat: 41.721,
     lng: 125.939,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 吉林·白山 ==========
@@ -1425,7 +1425,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["吉林"],
     lat: 41.938,
     lng: 126.427,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "city-baishan-2",
@@ -1448,7 +1448,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["吉林"],
     lat: 42.392,
     lng: 126.813,
-    popularity: 2,
+    popularity: 1,
   },
 
   // ========== 吉林·松原 ==========
@@ -1492,11 +1492,11 @@ export const FOODS_CITIES_NORTH: Food[] = [
     ingredients: ["鱼肉", "辣椒", "蒜", "姜"],
     cookingMethod: ["蒸"],
     tags: ["鱼头", "剁椒", "查干湖", "松原名吃", "东北菜", "酥脆"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["吉林"],
     lat: 45.141,
     lng: 124.825,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 吉林·白城 ==========
@@ -1521,7 +1521,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["吉林"],
     lat: 44.816,
     lng: 123.088,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "city-baicheng-2",
@@ -1544,7 +1544,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["吉林"],
     lat: 45.62,
     lng: 122.838,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 吉林·延边 ==========
@@ -1570,7 +1570,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["吉林"],
     lat: 42.891,
     lng: 129.509,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 黑龙江·齐齐哈尔 ==========
@@ -1595,7 +1595,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["黑龙江"],
     lat: 47.354,
     lng: 123.918,
-    popularity: 3,
+    popularity: 1,
   },
 
   // ========== 黑龙江·鸡西 ==========
@@ -1620,7 +1620,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["黑龙江"],
     lat: 45.295,
     lng: 130.969,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "city-jixi-2",
@@ -1639,11 +1639,11 @@ export const FOODS_CITIES_NORTH: Food[] = [
     ingredients: ["面粉", "鸡蛋", "生菜", "火腿", "辣椒"],
     cookingMethod: ["摊", "煎"],
     tags: ["鸡蛋饼", "煎饼", "鸡西名吃", "东北菜", "街头小吃", "粘糯", "焦香"],
-    fame: "普通",
+    fame: "地方名吃",
     popularRegions: ["黑龙江"],
     lat: 45.295,
     lng: 130.969,
-    popularity: 3,
+    popularity: 2,
   },
 
   // ========== 黑龙江·鹤岗 ==========
@@ -1668,7 +1668,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["黑龙江"],
     lat: 47.332,
     lng: 130.277,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 黑龙江·大庆 ==========
@@ -1693,7 +1693,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["黑龙江"],
     lat: 46.590,
     lng: 125.103,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "city-daqing-2",
@@ -1716,7 +1716,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["黑龙江"],
     lat: 46.590,
     lng: 125.103,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 黑龙江·伊春 ==========
@@ -1743,7 +1743,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["黑龙江"],
     lat: 46.799,
     lng: 130.318,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "city-jiamusi-2",
@@ -1762,11 +1762,11 @@ export const FOODS_CITIES_NORTH: Food[] = [
     ingredients: ["黄瓜", "豆芽", "芝麻酱"],
     cookingMethod: ["煮", "拌"],
     tags: ["拌面", "凉面", "佳木斯名吃", "东北菜", "夏季", "嫩滑"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["黑龙江"],
     lat: 46.799,
     lng: 130.318,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 黑龙江·牡丹江 ==========
@@ -1791,7 +1791,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["黑龙江"],
     lat: 44.552,
     lng: 129.632,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "city-mudanjiang-2",
@@ -1814,7 +1814,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["黑龙江"],
     lat: 44.552,
     lng: 129.632,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 黑龙江·黑河 ==========
@@ -1839,7 +1839,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["黑龙江"],
     lat: 50.245,
     lng: 127.528,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "city-heihe-2",
@@ -1862,7 +1862,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["黑龙江"],
     lat: 50.245,
     lng: 127.528,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 黑龙江·绥化 ==========
@@ -1887,7 +1887,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["黑龙江"],
     lat: 46.637,
     lng: 126.969,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "city-suihua-2",
@@ -1910,7 +1910,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["黑龙江"],
     lat: 46.069,
     lng: 125.961,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 黑龙江·大兴安岭 ==========
@@ -1935,7 +1935,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["黑龙江"],
     lat: 52.335,
     lng: 124.711,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "city-daxinganling-2",
@@ -1958,7 +1958,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["黑龙江"],
     lat: 52.335,
     lng: 124.711,
-    popularity: 2,
+    popularity: 1,
   },
 
   // ========== 陕西·宝鸡 ==========
@@ -2006,7 +2006,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["陕西"],
     lat: 34.521,
     lng: 107.382,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 陕西·咸阳 ==========
@@ -2027,11 +2027,11 @@ export const FOODS_CITIES_NORTH: Food[] = [
     ingredients: ["辣椒", "葱"],
     cookingMethod: ["煮", "拌"],
     tags: ["汇通面", "手擀面", "咸阳名吃", "西北菜", "夜市"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["陕西"],
     lat: 34.330,
     lng: 108.709,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "city-xianyang-2",
@@ -2077,7 +2077,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["陕西"],
     lat: 34.527,
     lng: 108.239,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 陕西·渭南 ==========
@@ -2102,7 +2102,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["陕西"],
     lat: 34.499,
     lng: 109.509,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "city-weinan-2",
@@ -2125,7 +2125,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["陕西"],
     lat: 34.956,
     lng: 109.590,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 陕西·延安 ==========
@@ -2150,7 +2150,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["陕西"],
     lat: 36.585,
     lng: 109.490,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "city-yanan-2",
@@ -2173,7 +2173,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["陕西"],
     lat: 36.927,
     lng: 108.259,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 陕西·汉中 ==========
@@ -2194,11 +2194,11 @@ export const FOODS_CITIES_NORTH: Food[] = [
     ingredients: ["大米", "辣椒", "醋", "豆芽"],
     cookingMethod: ["蒸", "拌"],
     tags: ["面皮", "汉中名吃", "西北菜", "早餐"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["陕西"],
     lat: 33.067,
     lng: 107.023,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "city-hanzhong-2",
@@ -2216,12 +2216,12 @@ export const FOODS_CITIES_NORTH: Food[] = [
       "汉中菜豆腐以黄豆磨浆点卤，加青菜、米浆同煮。豆腐嫩滑、青菜清香、汤汁清淡、营养丰富。是汉中人家常待客的代表菜，也是早餐配面皮的必备。菜豆腐工艺讲究「点卤适度」，是汉中饮食文化的代表，承载着陕南水乡的饮食记忆。",
     ingredients: ["黄豆", "青菜", "米浆"],
     cookingMethod: ["点", "煮"],
-    tags: ["菜豆腐", "豆腐", "汉中名吃", "西北菜", "家常菜", "嫩滑"],
+    tags: ["菜豆腐", "豆腐", "汉中名吃", "西北菜", "家常菜", "嫩滑", "汤"],
     fame: "地方名吃",
     popularRegions: ["陕西"],
     lat: 33.067,
     lng: 107.023,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 陕西·榆林 ==========
@@ -2246,7 +2246,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["陕西"],
     lat: 38.285,
     lng: 109.735,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "city-yulin-2",
@@ -2269,7 +2269,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["陕西"],
     lat: 38.285,
     lng: 109.735,
-    popularity: 3,
+    popularity: 2,
   },
 
   // ========== 陕西·安康 ==========
@@ -2290,11 +2290,11 @@ export const FOODS_CITIES_NORTH: Food[] = [
     ingredients: ["面粉", "辣椒", "醋", "豆芽"],
     cookingMethod: ["蒸", "拌"],
     tags: ["蒸面", "安康名吃", "西北菜", "早餐", "粘糯"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["陕西"],
     lat: 32.690,
     lng: 109.029,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "city-ankang-2",
@@ -2317,7 +2317,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["陕西"],
     lat: 32.690,
     lng: 109.029,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 陕西·商洛 ==========
@@ -2343,7 +2343,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["陕西"],
     lat: 33.530,
     lng: 109.967,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 甘肃·金昌 ==========
@@ -2368,7 +2368,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["甘肃"],
     lat: 38.516,
     lng: 102.188,
-    popularity: 5,
+    popularity: 3,
   }
 
   // ========== 甘肃·白银 ==========
@@ -2388,14 +2388,14 @@ export const FOODS_CITIES_NORTH: Food[] = [
     origin: "白银会宁县，传统名产",
     description:
       "会宁亚麻籽油以本地亚麻籽为原料，传统压榨工艺制成。色泽金黄、香气浓郁、味道醇厚、营养丰富。会宁是「中国亚麻籽油之乡」，所产油品质上乘。是会宁传统名产，也是陇原饮食文化的调味佳品，富含不饱和脂肪酸，深受健康饮食者喜爱。",
-    ingredients: [],
+    ingredients: ["亚麻籽"],
     cookingMethod: ["榨"],
-    tags: ["亚麻籽油", "胡麻油", "会宁特产", "白银名吃", "调味品", "粘糯"],
+    tags: ["亚麻籽油", "胡麻油", "会宁特产", "白银名吃", "调味品", "地理标志"],
     fame: "地方名吃",
     popularRegions: ["甘肃"],
     lat: 35.692,
     lng: 105.052,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 甘肃·天水 ==========
@@ -2420,7 +2420,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["甘肃"],
     lat: 34.581,
     lng: 105.725,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "city-tianshui-2",
@@ -2443,7 +2443,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["甘肃"],
     lat: 34.581,
     lng: 105.725,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 甘肃·武威 ==========
@@ -2468,7 +2468,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["甘肃"],
     lat: 37.929,
     lng: 102.638,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "city-wuwei-2",
@@ -2491,7 +2491,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["甘肃"],
     lat: 38.104,
     lng: 103.080,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 甘肃·张掖 ==========
@@ -2516,7 +2516,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["甘肃"],
     lat: 38.926,
     lng: 100.449,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 甘肃·平凉 ==========
@@ -2542,7 +2542,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["甘肃"],
     lat: 35.066,
     lng: 107.610,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 甘肃·酒泉 ==========
@@ -2567,7 +2567,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["甘肃"],
     lat: 39.732,
     lng: 98.494,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "city-jiuquan-2",
@@ -2590,7 +2590,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["甘肃"],
     lat: 40.521,
     lng: 95.779,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 甘肃·庆阳 ==========
@@ -2615,7 +2615,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["甘肃"],
     lat: 35.734,
     lng: 107.638,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "city-qingyang-2",
@@ -2638,7 +2638,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["甘肃"],
     lat: 36.568,
     lng: 107.308,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 甘肃·定西 ==========
@@ -2663,7 +2663,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["甘肃"],
     lat: 35.581,
     lng: 104.626,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "city-dingxi-2",
@@ -2686,7 +2686,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["甘肃"],
     lat: 35.581,
     lng: 104.626,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 甘肃·陇南 ==========
@@ -2711,7 +2711,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["甘肃"],
     lat: 33.389,
     lng: 104.922,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "city-longnan-2",
@@ -2734,7 +2734,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["甘肃"],
     lat: 33.751,
     lng: 105.736,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 青海·海东 ==========
@@ -2755,11 +2755,11 @@ export const FOODS_CITIES_NORTH: Food[] = [
     ingredients: ["牛肉", "面粉", "萝卜", "辣椒", "蒜"],
     cookingMethod: ["煮", "拉"],
     tags: ["牛肉面", "拉面", "化隆特产", "海东名吃", "清真菜", "嫩滑", "劲道"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["青海"],
     lat: 36.082,
     lng: 102.103,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "city-haidong-2",
@@ -2782,7 +2782,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["青海"],
     lat: 35.847,
     lng: 102.487,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 青海·海北 ==========
@@ -2807,7 +2807,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["青海"],
     lat: 38.179,
     lng: 100.246,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "city-haibei-2",
@@ -2855,7 +2855,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["青海"],
     lat: 35.516,
     lng: 102.012,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "city-huangnan-2",
@@ -2878,7 +2878,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["青海"],
     lat: 34.735,
     lng: 101.611,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 青海·海南州 ==========
@@ -2887,7 +2887,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     name: "贵德蜂蜜",
     alias: ["贵德高原蜂蜜"],
     image: "https://img0.baidu.com/it/u=1878525980,1358646033&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=932",
-    category: "饮品",
+    category: "物产",
     taste: "香甜",
     type: "traditional",
     cuisine: "其他",
@@ -2898,12 +2898,12 @@ export const FOODS_CITIES_NORTH: Food[] = [
       "贵德蜂蜜以贵德高原油菜花蜜为主，色泽金黄、清香甜润、营养丰富。贵德气候温和、油菜花海广阔，所产蜂蜜品质上乘，是国家地理标志产品。可直接食用、冲水、做糕点，是贵德人馈赠亲友的佳品，也是青海高原特色农产品的代表。",
     ingredients: ["蜂蜜"],
     cookingMethod: ["酿"],
-    tags: ["蜂蜜", "油菜花蜜", "贵德特产", "海南州名吃", "地理标志", "嫩滑"],
+    tags: ["蜂蜜", "油菜花蜜", "贵德特产", "海南州名吃", "地理标志", "香甜"],
     fame: "地方名吃",
     popularRegions: ["青海"],
     lat: 36.046,
     lng: 101.432,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "city-hainan-zhou-2",
@@ -2951,7 +2951,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["青海"],
     lat: 33.429,
     lng: 101.474,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "city-guoluo-2",
@@ -2974,7 +2974,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["青海"],
     lat: 34.479,
     lng: 100.239,
-    popularity: 3,
+    popularity: 1,
   },
 
   // ========== 青海·玉树 ==========
@@ -2999,7 +2999,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["青海"],
     lat: 33.004,
     lng: 97.006,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 青海·海西 ==========
@@ -3024,7 +3024,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["青海"],
     lat: 37.374,
     lng: 97.371,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "city-haixi-2",
@@ -3047,7 +3047,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["青海"],
     lat: 37.374,
     lng: 97.371,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 宁夏·石嘴山 ==========
@@ -3068,11 +3068,11 @@ export const FOODS_CITIES_NORTH: Food[] = [
     ingredients: ["面粉", "面筋", "辣椒", "醋", "蒜"],
     cookingMethod: ["蒸", "拌"],
     tags: ["凉皮", "酿皮", "大武口特产", "石嘴山名吃", "西北菜"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["宁夏"],
     lat: 38.984,
     lng: 106.376,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "city-shizuishan-2",
@@ -3095,7 +3095,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["宁夏"],
     lat: 38.866,
     lng: 106.323,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 宁夏·吴忠 ==========
@@ -3143,7 +3143,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["宁夏"],
     lat: 37.986,
     lng: 106.199,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 宁夏·固原 ==========
@@ -3168,7 +3168,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["宁夏"],
     lat: 35.621,
     lng: 106.124,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "city-guyuan-2",
@@ -3191,7 +3191,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["宁夏"],
     lat: 35.493,
     lng: 106.339,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 宁夏·中卫 ==========
@@ -3216,7 +3216,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["宁夏"],
     lat: 37.515,
     lng: 105.173,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "city-zhongwei-2",
@@ -3239,7 +3239,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["宁夏"],
     lat: 37.515,
     lng: 105.173,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 新疆·克拉玛依 ==========
@@ -3260,11 +3260,11 @@ export const FOODS_CITIES_NORTH: Food[] = [
     ingredients: ["羊肉", "孜然", "辣椒", "盐"],
     cookingMethod: ["烤"],
     tags: ["烤羊肉", "烤肉", "独山子特产", "克拉玛依名吃", "新疆菜"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["新疆"],
     lat: 44.327,
     lng: 84.871,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 新疆·吐鲁番 ==========
@@ -3285,11 +3285,11 @@ export const FOODS_CITIES_NORTH: Food[] = [
     ingredients: ["面粉", "豆角", "羊肉", "番茄", "洋葱"],
     cookingMethod: ["拉", "炒", "拌"],
     tags: ["拌面", "豆角", "吐鲁番名吃", "新疆菜", "面食", "嫩滑"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["新疆"],
     lat: 42.951,
     lng: 89.189,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "city-turpan-2",
@@ -3337,7 +3337,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["新疆"],
     lat: 42.833,
     lng: 93.515,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "city-hami-2",
@@ -3360,7 +3360,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["新疆"],
     lat: 43.598,
     lng: 92.876,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 新疆·阿克苏 ==========
@@ -3385,7 +3385,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["新疆"],
     lat: 41.727,
     lng: 82.962,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 新疆·喀什 ==========
@@ -3411,7 +3411,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["新疆"],
     lat: 39.470,
     lng: 75.989,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 新疆·和田 ==========
@@ -3432,11 +3432,11 @@ export const FOODS_CITIES_NORTH: Food[] = [
     ingredients: ["羊肉", "孜然", "辣椒", "盐"],
     cookingMethod: ["烤"],
     tags: ["烤羊肉", "烤肉", "和田名吃", "新疆菜", "清真菜", "嫩滑"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["新疆"],
     lat: 37.112,
     lng: 79.914,
-    popularity: 5,
+    popularity: 3,
   }
 
   // ========== 新疆·伊犁 ==========
@@ -3463,7 +3463,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["新疆"],
     lat: 43.919,
     lng: 81.324,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 新疆·塔城 ==========
@@ -3488,7 +3488,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["新疆"],
     lat: 46.745,
     lng: 82.987,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "city-tacheng-2",
@@ -3536,7 +3536,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["新疆"],
     lat: 47.848,
     lng: 88.140,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "city-altay-2",
@@ -3559,7 +3559,7 @@ export const FOODS_CITIES_NORTH: Food[] = [
     popularRegions: ["新疆"],
     lat: 47.848,
     lng: 88.140,
-    popularity: 5,
+    popularity: 3,
   }
 
   // ========== 新疆·石河子 ==========

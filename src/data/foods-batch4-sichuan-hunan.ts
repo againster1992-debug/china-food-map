@@ -19,11 +19,11 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     ingredients: ["牛肉", "豆瓣酱", "八角", "桂皮", "姜", "蒜"],
     cookingMethod: ["烧", "炖"],
     tags: ["咸鲜", "主菜", "川菜", "牛肉", "红烧", "酥脆"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["四川", "重庆"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch4-sc-2",
@@ -46,7 +46,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["四川", "全国"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-sc-4",
@@ -69,7 +69,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["四川", "全国"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-sc-5",
@@ -92,7 +92,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["四川"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-sc-7",
@@ -115,7 +115,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["四川"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-sc-8",
@@ -134,11 +134,11 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     ingredients: ["牛肉", "米粉", "豆瓣酱", "花椒", "姜"],
     cookingMethod: ["蒸"],
     tags: ["咸鲜", "主菜", "川菜", "牛肉", "粉蒸", "粘糯", "焦香"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["四川", "重庆"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch4-sc-9",
@@ -161,7 +161,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["四川"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-sc-11",
@@ -184,7 +184,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["四川"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-sc-12",
@@ -207,7 +207,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["四川"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-sc-13",
@@ -226,11 +226,11 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     ingredients: ["鱼肉", "红油", "花椒", "豆芽", "莲藕"],
     cookingMethod: ["烫", "泡"],
     tags: ["麻辣", "主菜", "川菜", "鱼", "新派"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["四川", "全国"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch4-sc-14",
@@ -253,7 +253,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["四川"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-sc-17",
@@ -276,7 +276,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["四川"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-sc-18",
@@ -299,7 +299,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["四川"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-sc-19",
@@ -322,7 +322,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["四川"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-sc-20",
@@ -344,7 +344,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["四川"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-sc-21",
@@ -367,7 +367,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["四川"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-sc-22",
@@ -386,11 +386,11 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     ingredients: ["牛肉", "红油", "香菜", "葱"],
     cookingMethod: ["炖", "煮", "浇"],
     tags: ["麻辣", "面食", "川菜", "牛肉面", "嫩滑"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["四川", "全国"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch4-sc-23",
@@ -413,7 +413,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["四川"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 6,
+    popularity: 4,
   },
   
   {
@@ -437,7 +437,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["四川"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-sc-26",
@@ -460,7 +460,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["四川", "重庆"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-sc-27",
@@ -483,7 +483,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["四川"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-sc-29",
@@ -506,7 +506,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["四川"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-sc-30",
@@ -529,7 +529,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["四川"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-sc-31",
@@ -552,7 +552,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["四川"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-sc-32",
@@ -575,7 +575,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["四川"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-sc-33",
@@ -598,7 +598,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["四川"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 6,
+    popularity: 4,
   },
 
   // ========== 川菜·乐山 ==========
@@ -619,11 +619,11 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     ingredients: ["豆腐", "火腿", "鸡肉", "虾"],
     cookingMethod: ["烧", "烩"],
     tags: ["咸鲜", "主菜", "川菜", "豆腐", "西坝"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["四川"],
     lat: 29.5521,
     lng: 103.5655,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch4-sc-35",
@@ -646,7 +646,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["四川"],
     lat: 29.5521,
     lng: 103.5655,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-sc-36",
@@ -669,7 +669,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["四川"],
     lat: 29.5521,
     lng: 103.5655,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-sc-37",
@@ -692,7 +692,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["四川"],
     lat: 29.5521,
     lng: 103.5655,
-    popularity: 6,
+    popularity: 4,
   },
 
   {
@@ -716,7 +716,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["四川"],
     lat: 30.1222,
     lng: 104.6279,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-sc-40",
@@ -739,7 +739,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["四川"],
     lat: 30.1222,
     lng: 104.6279,
-    popularity: 6,
+    popularity: 4,
   },
 
   // ========== 川菜·德阳 ==========
@@ -764,7 +764,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["四川"],
     lat: 31.127,
     lng: 104.3981,
-    popularity: 6,
+    popularity: 4,
   },
 
   // ========== 川菜·攀枝花 ==========
@@ -789,7 +789,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["四川"],
     lat: 26.5824,
     lng: 101.7188,
-    popularity: 6,
+    popularity: 4,
   },
 
   // ========== 川菜·自贡盐帮菜 ==========
@@ -814,7 +814,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["四川"],
     lat: 29.3393,
     lng: 104.7786,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-sc-45",
@@ -837,7 +837,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["四川"],
     lat: 29.3393,
     lng: 104.7786,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-sc-46",
@@ -860,7 +860,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["四川"],
     lat: 29.3393,
     lng: 104.7786,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-sc-47",
@@ -883,7 +883,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["四川"],
     lat: 29.3393,
     lng: 104.7786,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-sc-48",
@@ -906,7 +906,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["四川"],
     lat: 29.3393,
     lng: 104.7786,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-sc-49",
@@ -929,7 +929,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["四川"],
     lat: 29.3393,
     lng: 104.7786,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-sc-50",
@@ -951,7 +951,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["四川"],
     lat: 29.3393,
     lng: 104.7786,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-sc-51",
@@ -974,7 +974,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["四川"],
     lat: 29.3393,
     lng: 104.7786,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-sc-53",
@@ -997,7 +997,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["四川"],
     lat: 29.3393,
     lng: 104.7786,
-    popularity: 6,
+    popularity: 4,
   },
 
   // ========== 川菜·宜宾 ==========
@@ -1022,7 +1022,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["四川"],
     lat: 28.7513,
     lng: 104.6419,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-sc-55",
@@ -1045,7 +1045,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["四川"],
     lat: 28.7513,
     lng: 104.6419,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-sc-56",
@@ -1068,7 +1068,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["四川"],
     lat: 28.7513,
     lng: 104.6419,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-sc-57",
@@ -1087,11 +1087,11 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     ingredients: ["兔肉", "红油", "花椒", "豆芽", "莲藕"],
     cookingMethod: ["涮", "煮"],
     tags: ["麻辣", "主菜", "川菜", "兔肉", "火锅", "嫩滑"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["四川"],
     lat: 28.7513,
     lng: 104.6419,
-    popularity: 6,
+    popularity: 5,
   }
 
   // ========== 川菜·泸州 ==========
@@ -1117,7 +1117,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["四川"],
     lat: 28.8707,
     lng: 105.4435,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-sc-61",
@@ -1140,7 +1140,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["四川"],
     lat: 28.8707,
     lng: 105.4435,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-sc-62",
@@ -1159,11 +1159,11 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     ingredients: ["鱼肉", "豆芽", "莲藕", "魔芋", "花椒", "辣椒"],
     cookingMethod: ["烤", "炖"],
     tags: ["麻辣", "主菜", "川菜", "合江", "夜宵", "嫩滑"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["四川"],
     lat: 28.8707,
     lng: 105.4435,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "batch4-sc-63",
@@ -1186,7 +1186,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["四川"],
     lat: 28.8707,
     lng: 105.4435,
-    popularity: 6,
+    popularity: 4,
   },
 
   // ========== 川菜·达州 ==========
@@ -1211,7 +1211,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["四川"],
     lat: 31.2089,
     lng: 107.4682,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-sc-65",
@@ -1234,7 +1234,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["四川"],
     lat: 31.2089,
     lng: 107.4682,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-sc-67",
@@ -1257,7 +1257,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["四川"],
     lat: 31.2089,
     lng: 107.4682,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-sc-68",
@@ -1280,7 +1280,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["四川"],
     lat: 31.2089,
     lng: 107.4682,
-    popularity: 6,
+    popularity: 4,
   },
 
   // ========== 川菜·重庆 ==========
@@ -1305,7 +1305,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["重庆", "四川"],
     lat: 29.563,
     lng: 106.5516,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-cq-2",
@@ -1351,7 +1351,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["重庆", "四川"],
     lat: 29.563,
     lng: 106.5516,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-cq-5",
@@ -1370,11 +1370,11 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     ingredients: ["牛蛙", "辣椒", "姜", "蒜", "花椒"],
     cookingMethod: ["炒"],
     tags: ["酸辣", "主菜", "川菜", "泡椒", "江湖菜"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["重庆", "四川", "全国"],
     lat: 29.563,
     lng: 106.5516,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "batch4-cq-6",
@@ -1397,7 +1397,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["重庆", "四川"],
     lat: 29.563,
     lng: 106.5516,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-cq-7",
@@ -1420,7 +1420,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["重庆", "四川"],
     lat: 29.563,
     lng: 106.5516,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-cq-8",
@@ -1443,7 +1443,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["重庆", "四川"],
     lat: 29.563,
     lng: 106.5516,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-cq-9",
@@ -1466,7 +1466,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["重庆"],
     lat: 29.563,
     lng: 106.5516,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch4-cq-11",
@@ -1489,7 +1489,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["重庆", "四川"],
     lat: 29.563,
     lng: 106.5516,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch4-cq-13",
@@ -1512,7 +1512,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["重庆", "四川"],
     lat: 29.563,
     lng: 106.5516,
-    popularity: 5,
+    popularity: 2,
   },
 
   // ========== 湘菜·湖南 ==========
@@ -1537,7 +1537,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["湖南"],
     lat: 28.2278,
     lng: 112.9388,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-hun-2",
@@ -1556,11 +1556,11 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     ingredients: ["猪肉", "豆豉", "酱油", "糖", "姜"],
     cookingMethod: ["炸", "蒸"],
     tags: ["咸鲜", "主菜", "湘菜", "扣肉", "豆豉", "宴席"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["湖南"],
     lat: 28.2278,
     lng: 112.9388,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch4-hun-3",
@@ -1576,14 +1576,14 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     origin: "岳阳洞庭湖，传统名菜",
     description:
       "洞庭金龟以洞庭湖乌龟配火腿、鸡肉、香菇炖制。龟肉软烂，汤鲜味醇，营养丰富。是岳阳洞庭湖名菜，乌龟自古为滋补佳品，体现湘菜对湖鲜的独到处理，是岳阳宴席上品，滋补养生。",
-    ingredients: ["鱼肉", "火腿", "鸡肉", "香菇", "姜"],
+    ingredients: ["龟肉", "火腿", "鸡肉", "香菇", "姜"],
     cookingMethod: ["炖"],
     tags: ["咸鲜", "主菜", "湘菜", "乌龟", "洞庭", "滋补", "嫩滑"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["湖南"],
     lat: 29.3563,
     lng: 113.1284,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch4-hun-4",
@@ -1602,11 +1602,11 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     ingredients: ["鱼肉", "猪肉", "料酒", "姜", "葱"],
     cookingMethod: ["烤"],
     tags: ["咸鲜", "主菜", "湘菜", "桂鱼", "洞庭", "叉烧", "嫩滑", "劲道"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["湖南"],
     lat: 29.3563,
     lng: 113.1284,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch4-hun-5",
@@ -1625,11 +1625,11 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     ingredients: ["鱼肉", "火腿", "香菇", "豆苗"],
     cookingMethod: ["汆"],
     tags: ["咸鲜", "主菜", "湘菜", "鱼", "洞庭", "造型", "酥脆", "粘糯"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["湖南"],
     lat: 29.3563,
     lng: 113.1284,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch4-hun-6",
@@ -1648,11 +1648,11 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     ingredients: ["蘑菇", "猪肉", "酱油", "糖", "姜"],
     cookingMethod: ["烧"],
     tags: ["咸鲜", "主菜", "湘菜", "山珍", "红烧", "粘糯"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["湖南"],
     lat: 28.3119,
     lng: 109.7391,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch4-hun-7",
@@ -1675,7 +1675,7 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     popularRegions: ["湖南"],
     lat: 28.2278,
     lng: 112.9388,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-hun-9",
@@ -1694,9 +1694,9 @@ export const FOODS_BATCH4_SICHUAN_HUNAN: Food[] = [
     ingredients: ["豆腐", "鸡肉", "火腿", "鱼肉"],
     cookingMethod: ["蒸"],
     tags: ["咸鲜", "主菜", "湘菜", "豆腐", "组庵菜", "宴席", "嫩滑", "焦香"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["湖南"],
     lat: 28.2278,
     lng: 112.9388,
-    popularity: 6,
+    popularity: 5,
   }];

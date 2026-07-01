@@ -24,7 +24,7 @@ export const FOODS_BATCH9_NORTHWEST_INGREDIENTS: Food[] = [
     popularRegions: ["西安", "陕西"],
     lat: 34.3416,
     lng: 108.9398,
-    popularity: 9,
+    popularity: 10,
   },
   {
     id: "batch9-nw-2",
@@ -47,7 +47,7 @@ export const FOODS_BATCH9_NORTHWEST_INGREDIENTS: Food[] = [
     popularRegions: ["西安", "陕西"],
     lat: 34.3416,
     lng: 108.9398,
-    popularity: 5,
+    popularity: 7,
   },
   {
     id: "batch9-nw-3",
@@ -93,7 +93,7 @@ export const FOODS_BATCH9_NORTHWEST_INGREDIENTS: Food[] = [
     popularRegions: ["西安", "陕西"],
     lat: 34.3416,
     lng: 108.9398,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch9-nw-5",
@@ -116,7 +116,7 @@ export const FOODS_BATCH9_NORTHWEST_INGREDIENTS: Food[] = [
     popularRegions: ["临夏", "兰州", "甘肃"],
     lat: 35.601,
     lng: 103.211,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch9-nw-6",
@@ -139,7 +139,7 @@ export const FOODS_BATCH9_NORTHWEST_INGREDIENTS: Food[] = [
     popularRegions: ["敦煌", "甘肃"],
     lat: 40.1422,
     lng: 94.6619,
-    popularity: 5,
+    popularity: 7,
   },
   {
     id: "batch9-nw-7",
@@ -185,7 +185,7 @@ export const FOODS_BATCH9_NORTHWEST_INGREDIENTS: Food[] = [
     popularRegions: ["陕西", "甘肃"],
     lat: 34.3416,
     lng: 108.9398,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch9-nw-9",
@@ -208,7 +208,7 @@ export const FOODS_BATCH9_NORTHWEST_INGREDIENTS: Food[] = [
     popularRegions: ["兰州", "西安", "西北"],
     lat: 36.0611,
     lng: 103.8343,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch9-nw-10",
@@ -231,7 +231,7 @@ export const FOODS_BATCH9_NORTHWEST_INGREDIENTS: Food[] = [
     popularRegions: ["兰州", "甘肃"],
     lat: 36.0611,
     lng: 103.8343,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch9-nw-11",
@@ -254,7 +254,7 @@ export const FOODS_BATCH9_NORTHWEST_INGREDIENTS: Food[] = [
     popularRegions: ["兰州", "甘肃", "西北"],
     lat: 36.0611,
     lng: 103.8343,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch9-nw-12",
@@ -277,7 +277,7 @@ export const FOODS_BATCH9_NORTHWEST_INGREDIENTS: Food[] = [
     popularRegions: ["青海", "西藏", "甘肃"],
     lat: 36.617,
     lng: 101.778,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch9-nw-13",
@@ -300,7 +300,7 @@ export const FOODS_BATCH9_NORTHWEST_INGREDIENTS: Food[] = [
     popularRegions: ["甘肃", "西北"],
     lat: 36.0611,
     lng: 103.8343,
-    popularity: 2,
+    popularity: 1,
   },
   {
     id: "batch9-nw-14",
@@ -323,7 +323,7 @@ export const FOODS_BATCH9_NORTHWEST_INGREDIENTS: Food[] = [
     popularRegions: ["兰州", "西北"],
     lat: 36.0611,
     lng: 103.8343,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch9-nw-15",
@@ -346,7 +346,7 @@ export const FOODS_BATCH9_NORTHWEST_INGREDIENTS: Food[] = [
     popularRegions: ["兰州", "西北"],
     lat: 36.0611,
     lng: 103.8343,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch9-nw-16",
@@ -369,7 +369,7 @@ export const FOODS_BATCH9_NORTHWEST_INGREDIENTS: Food[] = [
     popularRegions: ["兰州", "甘肃", "西北"],
     lat: 36.0611,
     lng: 103.8343,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch9-nw-17",
@@ -392,7 +392,7 @@ export const FOODS_BATCH9_NORTHWEST_INGREDIENTS: Food[] = [
     popularRegions: ["兰州", "甘肃", "西北"],
     lat: 36.0611,
     lng: 103.8343,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch9-nw-18",
@@ -415,7 +415,7 @@ export const FOODS_BATCH9_NORTHWEST_INGREDIENTS: Food[] = [
     popularRegions: ["兰州", "西北"],
     lat: 36.0611,
     lng: 103.8343,
-    popularity: 2,
+    popularity: 1,
   },
   
   {
@@ -439,7 +439,7 @@ export const FOODS_BATCH9_NORTHWEST_INGREDIENTS: Food[] = [
     popularRegions: ["兰州", "甘肃"],
     lat: 36.0611,
     lng: 103.8343,
-    popularity: 4,
+    popularity: 7,
   },
   
   
@@ -487,7 +487,7 @@ export const FOODS_BATCH9_NORTHWEST_INGREDIENTS: Food[] = [
     popularRegions: ["兰州", "甘肃", "西北"],
     lat: 36.0611,
     lng: 103.8343,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch9-nw-25",
@@ -510,7 +510,7 @@ export const FOODS_BATCH9_NORTHWEST_INGREDIENTS: Food[] = [
     popularRegions: ["兰州", "甘肃", "西北"],
     lat: 36.0611,
     lng: 103.8343,
-    popularity: 4,
+    popularity: 1,
   },
   // 注：灰豆与已有 foods-southwest-northwest.ts 的"灰豆子"重复，手扒肉与 foods-batch9-shaanxi.ts 的"手抓羊肉"重复，此处不重复收录
   {
@@ -530,11 +530,11 @@ export const FOODS_BATCH9_NORTHWEST_INGREDIENTS: Food[] = [
     ingredients: ["百合", "蜂蜜", "糖", "枸杞"],
     cookingMethod: ["蒸", "蜜汁"],
     tags: ["香甜", "甜品", "百合", "蜂蜜", "兰州", "润肺"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["兰州", "甘肃"],
     lat: 36.0611,
     lng: 103.8343,
-    popularity: 3,
+    popularity: 4,
   },
 
   // ==================== 二、调料类（23个）====================
@@ -913,7 +913,7 @@ export const FOODS_BATCH9_NORTHWEST_INGREDIENTS: Food[] = [
     popularRegions: ["广西", "福建", "广东"],
     lat: 22.817,
     lng: 108.3665,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch9-nw-54",
@@ -936,7 +936,7 @@ export const FOODS_BATCH9_NORTHWEST_INGREDIENTS: Food[] = [
     popularRegions: ["山西", "甘肃", "全国"],
     lat: 36.1954,
     lng: 113.1163,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch9-nw-55",
@@ -959,7 +959,7 @@ export const FOODS_BATCH9_NORTHWEST_INGREDIENTS: Food[] = [
     popularRegions: ["吉林", "陕西", "全国"],
     lat: 43.8171,
     lng: 125.3235,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch9-nw-56",
@@ -982,7 +982,7 @@ export const FOODS_BATCH9_NORTHWEST_INGREDIENTS: Food[] = [
     popularRegions: ["内蒙古", "山西", "全国"],
     lat: 40.8426,
     lng: 111.7511,
-    popularity: 3,
+    popularity: 1,
   },
   
   {
@@ -1006,7 +1006,7 @@ export const FOODS_BATCH9_NORTHWEST_INGREDIENTS: Food[] = [
     popularRegions: ["贵州", "云南", "全国"],
     lat: 26.647,
     lng: 106.6303,
-    popularity: 4,
+    popularity: 1,
   },
   
   {
@@ -1030,7 +1030,7 @@ export const FOODS_BATCH9_NORTHWEST_INGREDIENTS: Food[] = [
     popularRegions: ["四川", "全国"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch9-nw-61",
@@ -1053,7 +1053,7 @@ export const FOODS_BATCH9_NORTHWEST_INGREDIENTS: Food[] = [
     popularRegions: ["云南", "安徽", "全国"],
     lat: 25.0389,
     lng: 102.7183,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch9-nw-62",
@@ -1076,7 +1076,7 @@ export const FOODS_BATCH9_NORTHWEST_INGREDIENTS: Food[] = [
     popularRegions: ["贵州", "福建", "全国"],
     lat: 26.647,
     lng: 106.6303,
-    popularity: 4,
+    popularity: 1,
   },
   
   {
@@ -1100,7 +1100,7 @@ export const FOODS_BATCH9_NORTHWEST_INGREDIENTS: Food[] = [
     popularRegions: ["湖南", "福建", "全国"],
     lat: 28.2282,
     lng: 112.9388,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch9-nw-65",

@@ -25,7 +25,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     popularRegions: ["云南", "全国"],
     lat: 25.78,
     lng: 99.37,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "specialty-2",
@@ -48,7 +48,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     popularRegions: ["四川", "云南"],
     lat: 27.89,
     lng: 102.27,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "specialty-3",
@@ -71,7 +71,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     popularRegions: ["山西", "全国"],
     lat: 36.15,
     lng: 112.25,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "specialty-4",
@@ -94,7 +94,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     popularRegions: ["江苏", "上海"],
     lat: 32.23,
     lng: 120.56,
-    popularity: 4,
+    popularity: 2,
   },
   
   
@@ -115,11 +115,11 @@ export const FOODS_SPECIALTIES: Food[] = [
     ingredients: ["鸭肉", "盐", "花椒", "姜"],
     cookingMethod: ["腌", "干制"],
     tags: ["特产", "腌", "贡品", "咸鲜", "腌腊", "苏菜", "江苏"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["江苏", "安徽"],
     lat: 32.06,
     lng: 118.8,
-    popularity: 5,
+    popularity: 4,
   },
   {
     id: "specialty-9",
@@ -142,7 +142,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     popularRegions: ["江苏", "上海", "全国"],
     lat: 32.04,
     lng: 120.27,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 地方特产水产 ==========
@@ -190,7 +190,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     popularRegions: ["湖北", "湖南"],
     lat: 29.85,
     lng: 113.45,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "specialty-12",
@@ -213,7 +213,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     popularRegions: ["浙江", "上海", "江苏"],
     lat: 30.03,
     lng: 122.11,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "specialty-13",
@@ -236,7 +236,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     popularRegions: ["广西", "广东"],
     lat: 21.48,
     lng: 109.12,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "specialty-14",
@@ -282,7 +282,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     popularRegions: ["上海", "江苏"],
     lat: 31.62,
     lng: 121.4,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "specialty-16",
@@ -305,7 +305,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     popularRegions: ["山东", "江苏"],
     lat: 35.41,
     lng: 116.59,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "specialty-17",
@@ -328,7 +328,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     popularRegions: ["浙江", "上海"],
     lat: 29.61,
     lng: 119.03,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "specialty-18",
@@ -351,7 +351,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     popularRegions: ["山东", "辽宁"],
     lat: 37.46,
     lng: 121.45,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "specialty-19",
@@ -399,7 +399,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     popularRegions: ["新疆", "全国"],
     lat: 41.73,
     lng: 86.18,
-    popularity: 8,
+    popularity: 9,
   },
   {
     id: "specialty-24",
@@ -445,7 +445,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     popularRegions: ["山东", "全国"],
     lat: 36.98,
     lng: 120.71,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "specialty-26",
@@ -468,7 +468,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     popularRegions: ["河北", "全国"],
     lat: 38.31,
     lng: 116.84,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "specialty-28",
@@ -484,7 +484,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     origin: "广东省广州市增城区",
     description:
       "增城荔枝以「挂绿」、「桂味」、「糯米糍」为佳，果皮红艳，果肉晶莹，汁多味甜，是国家地理标志产品。增城地处珠江三角洲，气候温暖湿润，所产荔枝「肉厚汁多，清甜爽口」。增城「挂绿」荔枝曾创下单颗55.5万元天价。是广东名片，「日啖荔枝三百颗，不辞长作岭南人」。体现岭南果业文化，是夏季时令佳品。",
-    ingredients: ["荔枝", "糯米"],
+    ingredients: ["荔枝"],
     cookingMethod: ["鲜食"],
     tags: ["特产", "果蔬", "增城", "挂绿"],
     fame: "名菜",
@@ -514,7 +514,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     popularRegions: ["安徽", "全国"],
     lat: 34.44,
     lng: 116.36,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "specialty-30",
@@ -537,7 +537,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     popularRegions: ["内蒙古", "全国"],
     lat: 40.74,
     lng: 107.39,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "specialty-31",
@@ -560,7 +560,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     popularRegions: ["新疆", "全国"],
     lat: 39.47,
     lng: 75.99,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "specialty-32",
@@ -583,14 +583,14 @@ export const FOODS_SPECIALTIES: Food[] = [
     popularRegions: ["福建", "全国"],
     lat: 24.37,
     lng: 117.3,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "specialty-33",
     name: "椰子",
     alias: ["文昌椰子", "清补椰"],
     image: "https://img0.baidu.com/it/u=2300173365,1310095175&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=653",
-    category: "饮品",
+    category: "物产",
     taste: "香甜",
     type: "traditional",
     cuisine: "琼菜",
@@ -601,8 +601,8 @@ export const FOODS_SPECIALTIES: Food[] = [
       "海南椰子以文昌所产为佳，椰汁清甜，椰肉白嫩，是国家地理标志产品。文昌地处海南东北部，热带季风气候，所产椰子「汁多肉厚，清甜爽口」。海南「文昌椰子半海南，东郊椰林半文昌」。椰汁可饮，椰肉可食，椰奶可做椰子鸡、椰子饭。是海南名片，「海南椰子」象征热带风情。体现海岛热带农业文化，是海南的味觉符号。",
     ingredients: ["椰子"],
     cookingMethod: ["鲜饮", "煮", "炖"],
-    tags: ["特产", "果蔬", "热带", "酥脆"],
-    fame: "地方名吃",
+    tags: ["特产", "果蔬", "热带", "地理标志", "嫩滑"],
+    fame: "名菜",
     popularRegions: ["海南", "全国"],
     lat: 19.54,
     lng: 110.75,
@@ -631,7 +631,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     popularRegions: ["江苏", "上海"],
     lat: 31.3,
     lng: 120.59,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "specialty-35",
@@ -677,7 +677,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     popularRegions: ["山东"],
     lat: 36.07,
     lng: 120.38,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "specialty-37",
@@ -700,7 +700,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     popularRegions: ["北京", "全国"],
     lat: 39.9,
     lng: 116.41,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "specialty-38",
@@ -723,7 +723,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     popularRegions: ["天津", "北京"],
     lat: 39.08,
     lng: 117.2,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "specialty-40",
@@ -746,7 +746,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     popularRegions: ["河南"],
     lat: 34.62,
     lng: 112.45,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "specialty-42",
@@ -769,7 +769,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     popularRegions: ["福建"],
     lat: 26.07,
     lng: 119.3,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 地方特产茶饮 ==========
@@ -810,14 +810,14 @@ export const FOODS_SPECIALTIES: Food[] = [
     origin: "湖南省岳阳市君山岛",
     description:
       "君山银针以君山岛所产黄茶为佳，芽头肥壮，金毫显露，汤色橙黄，香气清高，是中国十大名茶之一，也是黄茶代表。君山岛地处洞庭湖中，云雾缭绕，所产银针「芽头肥壮，金毫满披」。始于唐代，清代曾为贡茶。是国家地理标志产品。冲泡时「三起三落」如群笋出土，极具观赏性。体现洞庭湖茶文化，是湖南名片。",
-    ingredients: ["茶叶", "笋"],
+    ingredients: ["茶叶"],
     cookingMethod: ["烤", "冲"],
     tags: ["特产", "茶饮", "黄茶", "君山", "银针", "酥脆"],
     fame: "名菜",
     popularRegions: ["湖南", "全国"],
     lat: 29.36,
     lng: 113.13,
-    popularity: 8,
+    popularity: 9,
   },
   {
     id: "specialty-47",
@@ -840,7 +840,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     popularRegions: ["贵州", "全国"],
     lat: 26.26,
     lng: 107.52,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "specialty-48",
@@ -863,7 +863,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     popularRegions: ["广东", "全国"],
     lat: 23.66,
     lng: 116.62,
-    popularity: 8,
+    popularity: 9,
   },
   {
     id: "specialty-49",
@@ -905,7 +905,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     ingredients: ["茶叶"],
     cookingMethod: ["炒", "冲"],
     tags: ["特产", "茶饮", "绿茶", "蒙顶", "甘露"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["四川", "全国"],
     lat: 30.07,
     lng: 103.01,
@@ -932,7 +932,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     popularRegions: ["浙江", "全国"],
     lat: 30.42,
     lng: 119.99,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "specialty-52",
@@ -951,7 +951,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     ingredients: ["茶叶", "茉莉花"],
     cookingMethod: ["烤", "冲"],
     tags: ["特产", "茶饮", "茉莉", "苦", "饮品", "闽菜", "福建"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["福建", "全国"],
     lat: 26.07,
     lng: 119.3,
@@ -1026,7 +1026,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     popularRegions: ["山东", "全国"],
     lat: 36.07,
     lng: 120.38,
-    popularity: 7,
+    popularity: 9,
   },
   {
     id: "specialty-60",
@@ -1118,7 +1118,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     popularRegions: ["安徽", "全国"],
     lat: 33.85,
     lng: 115.78,
-    popularity: 8,
+    popularity: 9,
   },
 
   // ========== 其他特产 ==========
@@ -1166,7 +1166,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     popularRegions: ["西藏", "全国"],
     lat: 31.48,
     lng: 92.07,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "specialty-68",
@@ -1189,7 +1189,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     popularRegions: ["安徽", "全国"],
     lat: 31.39,
     lng: 116.33,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "specialty-71",
@@ -1212,7 +1212,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     popularRegions: ["山东", "全国"],
     lat: 36.72,
     lng: 117.53,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "specialty-72",
@@ -1231,7 +1231,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     ingredients: ["小米"],
     cookingMethod: ["煮", "蒸"],
     tags: ["特产", "主食", "小米", "沁州", "贡品"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["山西", "全国"],
     lat: 36.76,
     lng: 112.7,
@@ -1258,7 +1258,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     popularRegions: ["浙江", "全国"],
     lat: 30.04,
     lng: 121.15,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 更多特产 ==========
@@ -1306,7 +1306,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     popularRegions: ["新疆", "全国"],
     lat: 42.83,
     lng: 93.51,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "specialty-76",
@@ -1329,7 +1329,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     popularRegions: ["辽宁", "吉林", "黑龙江"],
     lat: 41.1,
     lng: 121.13,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "specialty-77",
@@ -1352,7 +1352,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     popularRegions: ["湖南", "湖北"],
     lat: 29.36,
     lng: 113.13,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "specialty-79",
@@ -1375,7 +1375,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     popularRegions: ["江苏", "上海"],
     lat: 31.3,
     lng: 120.59,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "specialty-80",
@@ -1398,7 +1398,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     popularRegions: ["浙江", "江苏"],
     lat: 30.42,
     lng: 120.18,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "specialty-87",

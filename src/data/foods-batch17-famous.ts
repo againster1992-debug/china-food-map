@@ -42,11 +42,11 @@ export const FOODS_BATCH17_FAMOUS: Food[] = [
     ingredients: ["鸭肉", "药材", "姜", "葱", "料酒"],
     cookingMethod: ["蒸"],
     tags: ["咸鲜", "主菜", "川菜", "绵阳", "滋补"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["绵阳", "四川"],
     lat: 31.4675,
     lng: 104.6796,
-    popularity: 7,
+    popularity: 6,
   },
   
   // ========== 山东名菜补充 ==========
@@ -93,11 +93,11 @@ export const FOODS_BATCH17_FAMOUS: Food[] = [
     ingredients: ["海参", "鱼翅", "火腿", "鸡肉", "高汤"],
     cookingMethod: ["烩"],
     tags: ["咸鲜", "主菜", "徽菜", "合肥", "杂烩"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["合肥", "安徽"],
     lat: 31.8206,
     lng: 117.2272,
-    popularity: 7,
+    popularity: 6,
   }
   // ========== 东北名菜补充 ==========
 ];

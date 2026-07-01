@@ -24,7 +24,7 @@ export const FOODS_BATCH6_TRADITIONAL_SNACKS: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch6-trad-2",
@@ -46,7 +46,7 @@ export const FOODS_BATCH6_TRADITIONAL_SNACKS: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch6-trad-4",
@@ -69,7 +69,7 @@ export const FOODS_BATCH6_TRADITIONAL_SNACKS: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch6-trad-5",
@@ -92,7 +92,7 @@ export const FOODS_BATCH6_TRADITIONAL_SNACKS: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch6-trad-6",
@@ -115,7 +115,7 @@ export const FOODS_BATCH6_TRADITIONAL_SNACKS: Food[] = [
     popularRegions: ["山东"],
     lat: 36.0671,
     lng: 120.3826,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch6-trad-7",
@@ -138,7 +138,7 @@ export const FOODS_BATCH6_TRADITIONAL_SNACKS: Food[] = [
     popularRegions: ["山东"],
     lat: 36.8031,
     lng: 117.8566,
-    popularity: 3,
+    popularity: 1,
   },
 
   // ========== 川菜（八大菜系之一，发源四川）==========
@@ -164,7 +164,7 @@ export const FOODS_BATCH6_TRADITIONAL_SNACKS: Food[] = [
     popularRegions: ["四川", "重庆"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch6-trad-10",
@@ -186,7 +186,7 @@ export const FOODS_BATCH6_TRADITIONAL_SNACKS: Food[] = [
     popularRegions: ["四川"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch6-trad-11",
@@ -209,7 +209,7 @@ export const FOODS_BATCH6_TRADITIONAL_SNACKS: Food[] = [
     popularRegions: ["四川", "重庆"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch6-trad-12",
@@ -232,7 +232,7 @@ export const FOODS_BATCH6_TRADITIONAL_SNACKS: Food[] = [
     popularRegions: ["四川", "重庆"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch6-trad-13",
@@ -255,7 +255,7 @@ export const FOODS_BATCH6_TRADITIONAL_SNACKS: Food[] = [
     popularRegions: ["四川", "重庆"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 5,
+    popularity: 3,
   },
 
 
@@ -278,11 +278,11 @@ export const FOODS_BATCH6_TRADITIONAL_SNACKS: Food[] = [
     ingredients: ["牛肉", "蚝油", "酱油", "淀粉", "姜", "葱"],
     cookingMethod: ["炒"],
     tags: ["粤菜", "蚝油", "名菜", "酥脆", "嫩滑", "劲道"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["广东", "香港", "澳门"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch6-trad-16",
@@ -301,11 +301,11 @@ export const FOODS_BATCH6_TRADITIONAL_SNACKS: Food[] = [
     ingredients: ["乳鸽", "番茄酱", "酱油", "糖", "料酒"],
     cookingMethod: ["焗", "烤"],
     tags: ["粤菜", "焗", "乳鸽", "名菜", "酥脆"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["广东", "香港", "澳门"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 7,
+    popularity: 6,
   },
   // 「大良炒牛奶」(batch6-trad-17) 已合并至「大良炒鲜奶」(famous-21, foods-famous.ts) - 同地同物异名，炒牛奶即炒鲜奶，合并至主条目
   // {
@@ -404,7 +404,7 @@ export const FOODS_BATCH6_TRADITIONAL_SNACKS: Food[] = [
     popularRegions: ["江苏", "上海"],
     lat: 31.2989,
     lng: 120.5853,
-    popularity: 3,
+    popularity: 1,
   },
 
   {
@@ -450,11 +450,11 @@ export const FOODS_BATCH6_TRADITIONAL_SNACKS: Food[] = [
     ingredients: ["火腿", "蚕豆", "料酒", "糖", "葱"],
     cookingMethod: ["炒"],
     tags: ["浙菜", "时令", "名菜", "酥脆", "咸鲜", "主菜", "浙江"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["浙江"],
     lat: 30.2741,
     lng: 120.1551,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "batch6-trad-31",
@@ -473,11 +473,11 @@ export const FOODS_BATCH6_TRADITIONAL_SNACKS: Food[] = [
     ingredients: ["鱼肉", "豆腐", "笋", "香菇", "姜", "料酒"],
     cookingMethod: ["炖"],
     tags: ["浙菜", "炖汤", "名菜", "咸鲜", "汤羹", "浙江"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["浙江"],
     lat: 30.2741,
     lng: 120.1551,
-    popularity: 5,
+    popularity: 4,
   },
   // 【去重合并】「龙井茶香虾」(batch6-trad-32) 已合并至「龙井虾仁」(b4zj-add-5, foods-batch4-zhejiang-anhui-jiangsu.ts) - 同为杭州浙菜茶馔虾菜，描述自述"受龙井虾仁启发创新而成"，属变体
   //   {
@@ -524,7 +524,7 @@ export const FOODS_BATCH6_TRADITIONAL_SNACKS: Food[] = [
     popularRegions: ["浙江"],
     lat: 30.2741,
     lng: 120.1551,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch6-trad-34",
@@ -547,7 +547,7 @@ export const FOODS_BATCH6_TRADITIONAL_SNACKS: Food[] = [
     popularRegions: ["浙江"],
     lat: 30.2741,
     lng: 120.1551,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch6-trad-35",
@@ -565,11 +565,11 @@ export const FOODS_BATCH6_TRADITIONAL_SNACKS: Food[] = [
     ingredients: ["鸡肉", "鸽蛋", "火腿", "笋", "香菇"],
     cookingMethod: ["蒸", "炖"],
     tags: ["浙菜", "宴席", "名菜", "嫩滑", "咸鲜", "主菜", "浙江"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["浙江"],
     lat: 30.0028,
     lng: 120.5803,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 闽菜（八大菜系之一，发源福建）==========
@@ -615,11 +615,11 @@ export const FOODS_BATCH6_TRADITIONAL_SNACKS: Food[] = [
     ingredients: ["鱼肉", "红糟", "蒜", "姜", "料酒", "糖"],
     cookingMethod: ["炝", "炒"],
     tags: ["闽菜", "红糟", "鳗鱼", "名菜", "鲜香", "主菜", "福建"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["福建"],
     lat: 26.0745,
     lng: 119.2965,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "batch6-trad-39",
@@ -642,7 +642,7 @@ export const FOODS_BATCH6_TRADITIONAL_SNACKS: Food[] = [
     popularRegions: ["福建"],
     lat: 26.0745,
     lng: 119.2965,
-    popularity: 4,
+    popularity: 1,
   },
   // ========== 湘菜（八大菜系之一，发源湖南）==========
 
@@ -710,11 +710,11 @@ export const FOODS_BATCH6_TRADITIONAL_SNACKS: Food[] = [
     ingredients: ["鱼肉", "酸汤", "番茄", "木姜子", "辣椒", "香菜"],
     cookingMethod: ["煮", "炖"],
     tags: ["湘菜", "酸汤", "酸辣", "名菜", "酥脆", "嫩滑"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["湖南"],
     lat: 28.3119,
     lng: 109.7391,
-    popularity: 5,
+    popularity: 4,
   },
   // 「湘西社饭」(batch6-trad-49) 已合并至「土家族社饭」(ethnic-104, foods-ethnic.ts) - 同地同物异名，社饭为湘西土家族传统饭食，合并至主条目
   // {
@@ -765,7 +765,7 @@ export const FOODS_BATCH6_TRADITIONAL_SNACKS: Food[] = [
     popularRegions: ["安徽"],
     lat: 30.0673,
     lng: 118.5953,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch6-trad-52",
@@ -788,7 +788,7 @@ export const FOODS_BATCH6_TRADITIONAL_SNACKS: Food[] = [
     popularRegions: ["安徽"],
     lat: 29.805,
     lng: 118.317,
-    popularity: 4,
+    popularity: 1,
   },
   // 【去重合并】「清炖马蹄鳖」(batch6-trad-54) 已合并至「火腿炖甲鱼」(famous-51, foods-famous.ts) - 同为黄山徽菜甲鱼炖汤，同地同物异名
   //   {
@@ -831,9 +831,9 @@ export const FOODS_BATCH6_TRADITIONAL_SNACKS: Food[] = [
     ingredients: ["鱼肉", "淀粉", "番茄酱", "糖", "醋", "葡萄"],
     cookingMethod: ["炸", "熘"],
     tags: ["徽州", "徽菜", "刀工", "酸甜", "名菜"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["安徽"],
     lat: 29.805,
     lng: 118.317,
-    popularity: 5,
+    popularity: 4,
   }];

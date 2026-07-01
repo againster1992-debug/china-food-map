@@ -24,7 +24,7 @@ export const FOODS_BATCH3_SHANDONG: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch3-sd-4",
@@ -47,7 +47,7 @@ export const FOODS_BATCH3_SHANDONG: Food[] = [
     popularRegions: ["山东"],
     lat: 37.4638,
     lng: 121.4478,
-    popularity: 6,
+    popularity: 4,
   },
   
   {
@@ -71,7 +71,7 @@ export const FOODS_BATCH3_SHANDONG: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch3-sd-7",
@@ -94,7 +94,7 @@ export const FOODS_BATCH3_SHANDONG: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch3-sd-8",
@@ -117,7 +117,7 @@ export const FOODS_BATCH3_SHANDONG: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch3-sd-9",
@@ -140,7 +140,7 @@ export const FOODS_BATCH3_SHANDONG: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch3-sd-10",
@@ -163,7 +163,7 @@ export const FOODS_BATCH3_SHANDONG: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch3-sd-11",
@@ -186,7 +186,7 @@ export const FOODS_BATCH3_SHANDONG: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch3-sd-12",
@@ -209,7 +209,7 @@ export const FOODS_BATCH3_SHANDONG: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch3-sd-14",
@@ -232,7 +232,7 @@ export const FOODS_BATCH3_SHANDONG: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch3-sd-15",
@@ -255,7 +255,7 @@ export const FOODS_BATCH3_SHANDONG: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch3-sd-17",
@@ -278,7 +278,7 @@ export const FOODS_BATCH3_SHANDONG: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch3-sd-18",
@@ -301,7 +301,7 @@ export const FOODS_BATCH3_SHANDONG: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch3-sd-19",
@@ -324,7 +324,7 @@ export const FOODS_BATCH3_SHANDONG: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch3-sd-20",
@@ -347,7 +347,7 @@ export const FOODS_BATCH3_SHANDONG: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch3-sd-21",
@@ -370,7 +370,7 @@ export const FOODS_BATCH3_SHANDONG: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch3-sd-22",
@@ -393,7 +393,7 @@ export const FOODS_BATCH3_SHANDONG: Food[] = [
     popularRegions: ["山东", "全国"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch3-sd-23",
@@ -416,7 +416,7 @@ export const FOODS_BATCH3_SHANDONG: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch3-sd-24",
@@ -439,7 +439,7 @@ export const FOODS_BATCH3_SHANDONG: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch3-sd-25",
@@ -462,7 +462,7 @@ export const FOODS_BATCH3_SHANDONG: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch3-sd-26",
@@ -485,7 +485,7 @@ export const FOODS_BATCH3_SHANDONG: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch3-sd-27",
@@ -508,7 +508,7 @@ export const FOODS_BATCH3_SHANDONG: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch3-sd-28",
@@ -531,7 +531,7 @@ export const FOODS_BATCH3_SHANDONG: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch3-sd-29",
@@ -554,7 +554,7 @@ export const FOODS_BATCH3_SHANDONG: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch3-sd-30",
@@ -577,7 +577,7 @@ export const FOODS_BATCH3_SHANDONG: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch3-sd-31",
@@ -600,7 +600,7 @@ export const FOODS_BATCH3_SHANDONG: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch3-sd-32",
@@ -623,7 +623,7 @@ export const FOODS_BATCH3_SHANDONG: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch3-sd-33",
@@ -642,11 +642,11 @@ export const FOODS_BATCH3_SHANDONG: Food[] = [
     ingredients: ["山药", "糖", "油"],
     cookingMethod: ["炸", "熬"],
     tags: ["鲁菜", "济南名菜", "拔丝", "甜菜", "爽脆"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["山东", "全国"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch3-sd-34",
@@ -669,7 +669,7 @@ export const FOODS_BATCH3_SHANDONG: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 5,
+    popularity: 2,
   },
 
   {
@@ -711,12 +711,12 @@ export const FOODS_BATCH3_SHANDONG: Food[] = [
       "氽双脆以猪肚头、鸡胗剞花刀切薄片，以滚沸清汤氽熟。双脆脆嫩爽口，汤清味鲜，火候是关键——瞬熟则脆，过则老。鲁菜「氽」技以沸汤激熟，此菜是代表，与汤爆肚头异曲同工，体现鲁菜火候绝技。",
     ingredients: ["猪肉", "鸡肉", "葱"],
     cookingMethod: ["汆"],
-    tags: ["鲁菜", "济南名菜", "汆", "火候", "粘糯"],
-    fame: "名菜",
+    tags: ["鲁菜", "济南名菜", "汆", "汤", "火候", "粘糯"],
+    fame: "地方名吃",
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 7,
+    popularity: 6,
   },
 
   {
@@ -740,7 +740,7 @@ export const FOODS_BATCH3_SHANDONG: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 5,
+    popularity: 2,
   },
   // ========== 孔府菜（曲阜） ==========
   // 「当朝一品锅」(batch3-sd-41) 已合并至「孔府一品锅」(famous-103) - 同地同物异名
@@ -765,7 +765,7 @@ export const FOODS_BATCH3_SHANDONG: Food[] = [
     popularRegions: ["山东"],
     lat: 35.5807,
     lng: 116.9863,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch3-sd-43",
@@ -788,7 +788,7 @@ export const FOODS_BATCH3_SHANDONG: Food[] = [
     popularRegions: ["山东"],
     lat: 35.5807,
     lng: 116.9863,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch3-sd-44",
@@ -811,7 +811,7 @@ export const FOODS_BATCH3_SHANDONG: Food[] = [
     popularRegions: ["山东"],
     lat: 35.5807,
     lng: 116.9863,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch3-sd-45",
@@ -833,7 +833,7 @@ export const FOODS_BATCH3_SHANDONG: Food[] = [
     popularRegions: ["山东"],
     lat: 35.5807,
     lng: 116.9863,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch3-sd-46",
@@ -856,7 +856,7 @@ export const FOODS_BATCH3_SHANDONG: Food[] = [
     popularRegions: ["山东"],
     lat: 36.0671,
     lng: 120.3826,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch3-sd-47",
@@ -879,7 +879,7 @@ export const FOODS_BATCH3_SHANDONG: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch3-sd-48",
@@ -902,5 +902,5 @@ export const FOODS_BATCH3_SHANDONG: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 6,
+    popularity: 4,
   }];

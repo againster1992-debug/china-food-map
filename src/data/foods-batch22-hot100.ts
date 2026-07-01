@@ -29,7 +29,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch22-hot-3",
@@ -57,7 +57,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 8
+  popularity: 7
 },
 // 「酸辣无骨鸡爪杯」已合并至「柠檬酸辣鸡爪杯」(batch25-hot-008)
   // 「红糖麻薯烤年糕」已合并至「红糖麻薯脆皮年糕」(foods-batch28-hot100.ts batch28-hot-028) - 同地同物异名
@@ -90,7 +90,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch22-hot-9",
@@ -120,7 +120,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch22-hot-10",
@@ -146,13 +146,13 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "拌"
   ],
   tags: ["香辣", "小吃", "川菜", "四川", "成都", "热门", "网红", "夜宵", "辣味"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: [
     "全国"
   ],
   lat: 30.5728,
   lng: 104.0668,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch22-hot-11",
@@ -183,7 +183,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch22-hot-12",
@@ -208,14 +208,14 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "煮"
   ],
   tags: ["咸甜", "饮品", "蒙餐", "内蒙古", "呼和浩特", "热门", "网红", "甜味"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: [
     "内蒙古",
     "全国"
   ],
   lat: 40.8414,
   lng: 111.7519,
-  popularity: 6
+  popularity: 5
 },
 {
   id: "batch22-hot-13",
@@ -240,14 +240,14 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "调"
   ],
   tags: ["香甜", "饮品", "潮菜", "广东", "潮州", "热门", "网红", "甜味"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: [
     "广东",
     "全国"
   ],
   lat: 23.6567,
   lng: 116.6225,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch22-hot-14",
@@ -276,7 +276,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch22-hot-15",
@@ -305,7 +305,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch22-hot-16",
@@ -331,14 +331,14 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "煮"
   ],
   tags: ["香辣", "主菜", "川菜", "四川", "成都", "热门", "网红", "辣味"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: [
     "四川",
     "全国"
   ],
   lat: 30.5728,
   lng: 104.0668,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch22-hot-17",
@@ -368,7 +368,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch22-hot-18",
@@ -395,7 +395,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch22-hot-19",
@@ -419,13 +419,13 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "泡"
   ],
   tags: ["清淡", "饮品", "其他", "热门", "网红"],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "全国"
   ],
   lat: 35,
   lng: 105,
-  popularity: 10
+  popularity: 6
 },
 {
   id: "batch22-hot-20",
@@ -450,13 +450,13 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "冻"
   ],
   tags: ["香甜", "甜品", "其他", "热门", "网红", "甜味"],
-  fame: "名菜",
+  fame: "热门",
   popularRegions: [
     "全国"
   ],
   lat: 35,
   lng: 105,
-  popularity: 10
+  popularity: 7
 },
 {
   id: "batch22-hot-21",
@@ -479,13 +479,13 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   cookingMethod: [
     "烤"],
   tags: ["香甜", "甜品", "其他", "热门", "网红", "甜味"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: [
     "全国"
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 6
 },
 {
   id: "batch22-hot-22",
@@ -632,7 +632,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch22-hot-27",
@@ -920,13 +920,13 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "拌"
   ],
   tags: ["香辣", "小吃", "川菜", "四川", "成都", "热门", "网红", "夜宵", "辣味"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: [
     "全国"
   ],
   lat: 30.5728,
   lng: 104.0668,
-  popularity: 7,
+  popularity: 6,
   city: "成都"
 },
 {
@@ -1043,7 +1043,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 43.8171,
   lng: 125.3235,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch22-hot-45",
@@ -1092,13 +1092,13 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "煮"
   ],
   tags: ["清淡", "饮品", "滇菜", "云南", "昆明", "热门", "网红"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: [
     "全国"
   ],
   lat: 24.8801,
   lng: 102.8329,
-  popularity: 6
+  popularity: 5
 },
 {
   id: "batch22-hot-47",
@@ -1123,13 +1123,13 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "煮"
   ],
   tags: ["香甜", "饮品", "滇菜", "云南", "昆明", "热门", "网红", "甜味"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: [
     "全国"
   ],
   lat: 24.8801,
   lng: 102.8329,
-  popularity: 6
+  popularity: 5
 },
 {
   id: "batch22-hot-48",
@@ -1237,13 +1237,13 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "调"
   ],
   tags: ["香甜", "饮品", "滇菜", "云南", "昆明", "热门", "网红", "甜味"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: [
     "全国"
   ],
   lat: 24.8801,
   lng: 102.8329,
-  popularity: 5,
+  popularity: 3,
   city: "昆明"
 },
 {
@@ -1426,7 +1426,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 20.0174,
   lng: 110.3492,
-  popularity: 8,
+  popularity: 7,
   city: "海口"
 },
 {
@@ -1506,13 +1506,13 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "炖"
   ],
   tags: ["香甜", "汤羹", "京菜", "北京", "热门", "网红", "饮品", "甜味"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: [
     "全国"
   ],
   lat: 39.9042,
   lng: 116.4074,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch22-hot-64",
@@ -1735,7 +1735,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 43.8378,
   lng: 126.5496,
-  popularity: 6
+  popularity: 4
 },
 
 {
@@ -1855,7 +1855,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 26.647,
   lng: 106.63,
-  popularity: 8
+  popularity: 7
 },
 
   
@@ -1875,13 +1875,13 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "煮"
   ],
   tags: ["酸辣", "主食", "粤菜", "广东", "广州", "热门", "网红", "早餐", "辣味"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: [
     "全国"
   ],
   lat: 23.1291,
   lng: 113.2644,
-  popularity: 7,
+  popularity: 6,
   city: "广州"
 },
 {
@@ -1936,14 +1936,14 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "炸"
   ],
   tags: ["香辣", "小吃", "川菜", "四川", "成都", "热门", "网红", "夜宵", "辣味"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: [
     "四川",
     "全国"
   ],
   lat: 30.5728,
   lng: 104.0668,
-  popularity: 6
+  popularity: 5
 },
 {
   id: "batch22-hot-82",
@@ -2263,7 +2263,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 43.8171,
   lng: 125.3235,
-  popularity: 6
+  popularity: 4
 },
 {
   id: "batch22-hot-96",

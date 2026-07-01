@@ -27,7 +27,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["河南"],
     lat: 33.2941,
     lng: 113.5252,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 河南·安阳 ==========
@@ -57,7 +57,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["河南"],
     lat: 35.3015,
     lng: 113.9342,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 河南·焦作 ==========
@@ -86,7 +86,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["河南"],
     lat: 34.1388,
     lng: 113.4884,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 河南·漯河 ==========
@@ -111,7 +111,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["河南"],
     lat: 33.4493,
     lng: 113.6215,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 河南·三门峡 ==========
@@ -136,7 +136,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["河南"],
     lat: 34.5176,
     lng: 110.8544,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "city-south-sanmenxia-2",
@@ -159,7 +159,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["河南"],
     lat: 34.7805,
     lng: 111.1033,
-    popularity: 2,
+    popularity: 1,
   },
 
   // ========== 河南·南阳 ==========
@@ -184,7 +184,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["河南"],
     lat: 32.5197,
     lng: 112.3622,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "city-south-nanyang-2",
@@ -207,7 +207,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["河南"],
     lat: 32.9908,
     lng: 112.5283,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 河南·商丘 ==========
@@ -234,7 +234,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["河南"],
     lat: 32.1689,
     lng: 115.6836,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "city-south-xinyang-2",
@@ -257,7 +257,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["河南"],
     lat: 32.1264,
     lng: 114.0913,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 河南·周口 ==========
@@ -282,7 +282,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["河南"],
     lat: 33.6259,
     lng: 114.6498,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "city-south-zhoukou-2",
@@ -305,7 +305,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["河南"],
     lat: 33.8576,
     lng: 115.4844,
-    popularity: 2,
+    popularity: 1,
   },
 
   // ========== 河南·驻马店 ==========
@@ -330,7 +330,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["河南"],
     lat: 33.0046,
     lng: 114.3623,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "city-south-zhumadian-2",
@@ -353,7 +353,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["河南"],
     lat: 32.9832,
     lng: 114.0227,
-    popularity: 2,
+    popularity: 1,
   },
 
   // ========== 湖北·黄石 ==========
@@ -378,7 +378,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["湖北"],
     lat: 30.0986,
     lng: 114.9719,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 湖北·十堰 ==========
@@ -403,7 +403,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["湖北"],
     lat: 32.0579,
     lng: 110.7342,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 湖北·宜昌 ==========
@@ -430,7 +430,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["湖北"],
     lat: 32.0113,
     lng: 112.1211,
-    popularity: 3,
+    popularity: 1,
   },
 
   // ========== 湖北·鄂州 ==========
@@ -455,7 +455,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["湖北"],
     lat: 30.3904,
     lng: 114.8949,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 湖北·荆门 ==========
@@ -480,7 +480,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["湖北"],
     lat: 31.1678,
     lng: 112.5893,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "city-south-jingmen-2",
@@ -503,7 +503,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["湖北"],
     lat: 31.0354,
     lng: 112.2046,
-    popularity: 3,
+    popularity: 1,
   },
 
   // ========== 湖北·孝感 ==========
@@ -530,7 +530,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["湖北"],
     lat: 30.3349,
     lng: 112.2397,
-    popularity: 3,
+    popularity: 1,
   },
 
   // ========== 湖北·黄冈 ==========
@@ -559,7 +559,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["湖北"],
     lat: 31.6901,
     lng: 113.3826,
-    popularity: 3,
+    popularity: 1,
   },
 
   // ========== 湖北·恩施 ==========
@@ -584,7 +584,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["湖北"],
     lat: 30.272,
     lng: 109.488,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 湖南·株洲 ==========
@@ -605,11 +605,11 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     ingredients: ["猪肉", "肠衣", "料酒"],
     cookingMethod: ["灌", "熏", "烤"],
     tags: ["香肠", "唐人神", "株洲名吃", "腊味", "湘菜", "粘糯"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["湖南"],
     lat: 27.8274,
     lng: 113.1339,
-    popularity: 4,
+    popularity: 2,
   }
 
   // ========== 湖南·湘潭 ==========
@@ -635,7 +635,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["湖南"],
     lat: 27.7342,
     lng: 112.5262,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 湖南·衡阳 ==========
@@ -660,7 +660,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["湖南"],
     lat: 26.8935,
     lng: 112.3928,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "city-south-hengyang-2",
@@ -683,7 +683,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["湖南"],
     lat: 27.2925,
     lng: 112.7336,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 湖南·邵阳 ==========
@@ -708,7 +708,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["湖南"],
     lat: 27.2416,
     lng: 111.4726,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "city-south-shaoyang-2",
@@ -731,7 +731,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["湖南"],
     lat: 26.7265,
     lng: 110.6322,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 湖南·岳阳 ==========
@@ -756,7 +756,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["湖南"],
     lat: 28.7028,
     lng: 113.5812,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 湖南·常德 ==========
@@ -781,7 +781,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["湖南"],
     lat: 28.9073,
     lng: 111.9709,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 湖南·张家界 ==========
@@ -806,7 +806,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["湖南"],
     lat: 29.117,
     lng: 110.4793,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "city-south-zhangjiajie-2",
@@ -829,7 +829,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["湖南"],
     lat: 29.3996,
     lng: 110.1647,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 湖南·益阳 ==========
@@ -854,7 +854,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["湖南"],
     lat: 28.553,
     lng: 112.3553,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 湖南·郴州 ==========
@@ -875,11 +875,11 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     ingredients: ["鱼肉", "辣椒", "豆豉", "食用油"],
     cookingMethod: ["炸", "拌"],
     tags: ["东江湖", "郴州名吃", "零食", "湘菜", "粘糯", "嫩滑"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["湖南"],
     lat: 25.9357,
     lng: 113.2412,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "city-south-chenzhou-2",
@@ -902,7 +902,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["湖南"],
     lat: 25.7956,
     lng: 113.0147,
-    popularity: 7,
+    popularity: 6,
   },
 
   // ========== 湖南·永州 ==========
@@ -927,7 +927,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["湖南"],
     lat: 26.5798,
     lng: 111.8401,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "city-south-yongzhou-2",
@@ -950,7 +950,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["湖南"],
     lat: 25.2726,
     lng: 111.3442,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 湖南·怀化 ==========
@@ -975,7 +975,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["湖南"],
     lat: 28.4528,
     lng: 110.3939,
-    popularity: 3,
+    popularity: 1,
   },
 
   // ========== 湖南·娄底 ==========
@@ -1000,7 +1000,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["湖南"],
     lat: 27.7331,
     lng: 111.3238,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "city-south-loudi-2",
@@ -1018,12 +1018,12 @@ export const FOODS_CITIES_SOUTH: Food[] = [
       "双峰辣酱以本地灯笼椒为主料，配以小麦、黄豆发酵，日晒夜露数月。色泽酱红、辣中带甜、酱香浓郁。是永丰镇传承数百年的传统调味品，可佐餐可烹饪，名扬三湘，为湘菜注入灵魂。",
     ingredients: ["辣椒", "面粉", "黄豆", "盐"],
     cookingMethod: ["发酵"],
-    tags: ["辣酱", "双峰特产", "娄底名吃", "湘菜"],
+    tags: ["辣酱", "腌", "双峰特产", "娄底名吃", "湘菜"],
     fame: "地方名吃",
     popularRegions: ["湖南"],
     lat: 27.4567,
     lng: 112.1751,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 湖南·湘西 ==========
@@ -1043,12 +1043,12 @@ export const FOODS_CITIES_SOUTH: Food[] = [
       "湘西酸肉以猪肉切块拌入米粉、辣椒粉，入坛密封发酵数月。肉质微酸、肥而不腻、酸辣开胃。是苗族传承数百年的储肉智慧，酸香独特。与湘西腊肉同为苗家待客名菜，尽显大山的饮食哲学。",
     ingredients: ["猪肉", "米粉", "辣椒", "盐"],
     cookingMethod: ["腌", "发酵"],
-    tags: ["酸肉", "苗族", "湘西名吃", "发酵", "湘菜", "酥脆", "粘糯"],
+    tags: ["酸肉", "腌", "苗族", "湘西名吃", "发酵", "湘菜", "酥脆", "粘糯"],
     fame: "地方名吃",
     popularRegions: ["湖南"],
     lat: 28.3119,
     lng: 109.7391,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "city-south-xiangxi-2",
@@ -1071,7 +1071,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["湖南"],
     lat: 27.9481,
     lng: 109.5994,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 广东·韶关 ==========
@@ -1096,7 +1096,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["广东"],
     lat: 24.8107,
     lng: 113.5976,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "city-south-shaoguan-2",
@@ -1119,7 +1119,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["广东"],
     lat: 25.1301,
     lng: 113.3473,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 广东·湛江 ==========
@@ -1144,7 +1144,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["广东"],
     lat: 21.3769,
     lng: 110.2518,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 广东·肇庆 ==========
@@ -1165,7 +1165,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     ingredients: ["银耳", "香菇", "竹荪", "蘑菇"],
     cookingMethod: ["蒸", "炖"],
     tags: ["素斋", "鼎湖山", "肇庆名吃", "粤菜", "酥脆"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["广东"],
     lat: 23.1789,
     lng: 112.4549,
@@ -1192,7 +1192,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1762,
     lng: 112.4483,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 广东·江门 ==========
@@ -1217,7 +1217,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["广东"],
     lat: 22.1832,
     lng: 112.3052,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 广东·茂名 ==========
@@ -1242,7 +1242,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["广东"],
     lat: 21.6639,
     lng: 110.6165,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "city-south-maoming-2",
@@ -1265,7 +1265,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["广东"],
     lat: 21.9182,
     lng: 110.8502,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 广东·惠州 ==========
@@ -1290,7 +1290,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1135,
     lng: 114.4212,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 广东·梅州 ==========
@@ -1339,7 +1339,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["广东"],
     lat: 22.7787,
     lng: 115.3759,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "city-south-shanwei-2",
@@ -1358,11 +1358,11 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     ingredients: ["大米", "蟹", "虾"],
     cookingMethod: ["熬"],
     tags: ["海鲜粥", "砂锅粥", "汕尾名吃", "海鲜", "粤菜", "酥脆", "粘糯"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["广东"],
     lat: 22.7762,
     lng: 115.3782,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 广东·河源 ==========
@@ -1382,12 +1382,12 @@ export const FOODS_CITIES_SOUTH: Food[] = [
       "河源猪脚米丝以米丝（米粉）配卤猪脚。猪脚软糯入味、米丝爽滑、卤汁浓香。河源人早餐好这一碗猪脚米丝，浇上卤汁拌匀，满足感油然而生。是河源最具代表性的客家早餐，朴实却令人回味。",
     ingredients: ["米粉", "猪肉", "葱"],
     cookingMethod: ["卤", "煮"],
-    tags: ["猪脚米丝", "河源名吃", "客家菜", "早餐", "粤菜"],
-    fame: "热门",
+    tags: ["猪脚米丝", "米粉", "河源名吃", "客家菜", "早餐", "粤菜"],
+    fame: "地方名吃",
     popularRegions: ["广东"],
     lat: 23.7462,
     lng: 114.6978,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "city-south-heyuan-2",
@@ -1410,7 +1410,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["广东"],
     lat: 23.7439,
     lng: 114.6955,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 广东·阳江 ==========
@@ -1430,12 +1430,12 @@ export const FOODS_CITIES_SOUTH: Food[] = [
       "阳江豆豉以本地黑豆为原料，经蒸煮、发酵、晾晒等工序制成。颗粒饱满、色泽乌黑、豉香浓郁。是粤菜重要调味品，蒸排骨、炒苦瓜皆宜。阳江豆豉工艺传承数百年，与阳江刀剪、漆器并称「阳江三宝」。",
     ingredients: ["黑豆", "盐"],
     cookingMethod: ["蒸", "发酵", "晒"],
-    tags: ["豆豉", "阳江三宝", "阳江名吃", "调味品", "粤菜"],
+    tags: ["豆豉", "腌", "阳江三宝", "阳江名吃", "调味品", "粤菜"],
     fame: "地方名吃",
     popularRegions: ["广东"],
     lat: 21.858,
     lng: 111.9821,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "city-south-yangjiang-2",
@@ -1458,7 +1458,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["广东"],
     lat: 21.8595,
     lng: 111.9848,
-    popularity: 6,
+    popularity: 5,
   }
 
   // ========== 广东·清远 ==========
@@ -1484,7 +1484,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["广东"],
     lat: 23.6836,
     lng: 113.0588,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 广东·东莞 ==========
@@ -1509,7 +1509,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["广东"],
     lat: 23.0103,
     lng: 113.6559,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 广东·中山 ==========
@@ -1534,7 +1534,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["广东"],
     lat: 22.5198,
     lng: 113.3885,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 广东·潮州 ==========
@@ -1578,11 +1578,11 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     ingredients: ["大米", "牛肉", "豆芽", "沙茶酱"],
     cookingMethod: ["蒸", "炒", "煮"],
     tags: ["粿条", "潮州名吃", "潮菜", "主食", "粤菜", "劲道"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["广东"],
     lat: 23.6542,
     lng: 116.6251,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 广东·揭阳 ==========
@@ -1607,7 +1607,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["广东"],
     lat: 23.5497,
     lng: 116.3729,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "city-south-jieyang-2",
@@ -1626,11 +1626,11 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     ingredients: ["河粉", "豆腐", "猪肉"],
     cookingMethod: ["煮"],
     tags: ["粿汁", "揭阳名吃", "潮菜", "早餐", "粤菜"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["广东"],
     lat: 23.5516,
     lng: 116.3705,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 广东·云浮 ==========
@@ -1656,7 +1656,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["广东"],
     lat: 22.7695,
     lng: 111.5718,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 广西·柳州 ==========
@@ -1682,7 +1682,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["广西"],
     lat: 25.066,
     lng: 109.256,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 广西·桂林 ==========
@@ -1711,7 +1711,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["广西"],
     lat: 23.4767,
     lng: 111.2791,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "city-south-wuzhou-2",
@@ -1734,7 +1734,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["广西"],
     lat: 23.4742,
     lng: 111.2812,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 广西·北海 ==========
@@ -1759,7 +1759,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["广西"],
     lat: 21.4812,
     lng: 109.1197,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "city-south-beihai-2",
@@ -1782,7 +1782,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["广西"],
     lat: 21.4792,
     lng: 109.1215,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 广西·防城港 ==========
@@ -1807,7 +1807,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["广西"],
     lat: 21.6146,
     lng: 108.3545,
-    popularity: 2,
+    popularity: 1,
   },
   {
     id: "city-south-fangchenggang-2",
@@ -1826,11 +1826,11 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     ingredients: ["米粉", "蟹", "虾"],
     cookingMethod: ["煮"],
     tags: ["海鲜粉", "防城港名吃", "早餐", "海鲜", "桂菜", "嫩滑"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["广西"],
     lat: 21.6163,
     lng: 108.3522,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 广西·钦州 ==========
@@ -1855,7 +1855,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["广西"],
     lat: 21.9513,
     lng: 108.6242,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "city-south-qinzhou-2",
@@ -1878,7 +1878,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["广西"],
     lat: 21.9493,
     lng: 108.6261,
-    popularity: 3,
+    popularity: 1,
   },
 
   // ========== 广西·贵港 ==========
@@ -1903,7 +1903,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["广西"],
     lat: 23.0962,
     lng: 109.5982,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "city-south-guigang-2",
@@ -1926,7 +1926,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["广西"],
     lat: 23.3942,
     lng: 110.0792,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 广西·玉林 ==========
@@ -1947,11 +1947,11 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     ingredients: ["米粉", "牛肉", "葱"],
     cookingMethod: ["卤", "煮"],
     tags: ["牛腩粉", "玉林名吃", "早餐", "桂菜", "米粉", "嫩滑"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["广西"],
     lat: 22.6543,
     lng: 110.1546,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "city-south-yulin-2",
@@ -1974,7 +1974,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["广西"],
     lat: 22.6521,
     lng: 110.1572,
-    popularity: 2,
+    popularity: 1,
   },
 
   // ========== 广西·百色 ==========
@@ -1999,7 +1999,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["广西"],
     lat: 23.9027,
     lng: 106.6182,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "city-south-baise-2",
@@ -2022,7 +2022,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["广西"],
     lat: 23.1338,
     lng: 106.4178,
-    popularity: 3,
+    popularity: 1,
   },
 
   // ========== 广西·贺州 ==========
@@ -2047,7 +2047,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["广西"],
     lat: 24.4142,
     lng: 111.5527,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "city-south-hezhou-2",
@@ -2070,7 +2070,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["广西"],
     lat: 24.1198,
     lng: 111.6942,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 广西·河池 ==========
@@ -2094,7 +2094,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["广西"],
     lat: 24.83,
     lng: 108.26,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "city-south-hechi-2",
@@ -2112,11 +2112,11 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     ingredients: ["猪肉"],
     cookingMethod: [],
     tags: ["地理标志", "特产", "物产", "贡品"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["广西"],
     lat: 24.14,
     lng: 107.253,
-    popularity: 7,
+    popularity: 6,
   },
 
   // ========== 广西·来宾 ==========
@@ -2141,7 +2141,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["广西"],
     lat: 23.7337,
     lng: 109.2214,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "city-south-laibin-2",
@@ -2164,7 +2164,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["广西"],
     lat: 23.5942,
     lng: 109.6612,
-    popularity: 2,
+    popularity: 1,
   },
 
   // ========== 广西·崇左 ==========
@@ -2189,7 +2189,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["广西"],
     lat: 22.0985,
     lng: 106.7668,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "city-south-chongzuo-2",
@@ -2212,7 +2212,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["广西"],
     lat: 23.0823,
     lng: 107.1422,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 海南·三亚 ==========
@@ -2237,7 +2237,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["海南"],
     lat: 18.4018,
     lng: 109.7565,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "city-south-sanya-2",
@@ -2260,7 +2260,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["海南"],
     lat: 18.2528,
     lng: 109.5119,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 海南·三沙 ==========
@@ -2285,7 +2285,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["海南"],
     lat: 16.8314,
     lng: 112.3353,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 海南·儋州 ==========
@@ -2310,7 +2310,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["海南"],
     lat: 19.5211,
     lng: 109.5769,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "city-south-danzhou-2",
@@ -2333,7 +2333,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["海南"],
     lat: 19.5189,
     lng: 109.5793,
-    popularity: 3,
+    popularity: 1,
   },
 
   // ========== 海南·文昌 ==========
@@ -2358,7 +2358,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["海南"],
     lat: 19.5432,
     lng: 110.7536,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "city-south-wenchang-2",
@@ -2381,7 +2381,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["海南"],
     lat: 19.7782,
     lng: 110.6721,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 海南·琼海 ==========
@@ -2401,12 +2401,12 @@ export const FOODS_CITIES_SOUTH: Food[] = [
       "塔洋粑沙以米粉配肉丝、虾仁、豆芽等炒制。米粉爽滑、配料丰富、鲜香可口。是琼海塔洋镇传承百年的招牌早餐，炒制工艺独特。一碗粑沙，尽显琼海饮食的丰富与讲究，名扬琼东。",
     ingredients: ["米粉", "虾", "豆芽"],
     cookingMethod: ["炒"],
-    tags: ["粑沙", "塔洋特产", "琼海名吃", "琼菜", "早餐", "嫩滑"],
+    tags: ["粑沙", "米粉", "塔洋特产", "琼海名吃", "琼菜", "早餐", "嫩滑"],
     fame: "地方名吃",
     popularRegions: ["海南"],
     lat: 19.2581,
     lng: 110.4747,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "city-south-qionghai-2",
@@ -2425,7 +2425,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     ingredients: ["大米", "芒果", "椰子", "糖"],
     cookingMethod: ["蒸", "卷"],
     tags: ["琼海名吃", "琼菜", "甜品", "创新", "嫩滑"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["海南"],
     lat: 19.2583,
     lng: 110.4763,
@@ -2454,7 +2454,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["海南"],
     lat: 18.7952,
     lng: 110.3896,
-    popularity: 3,
+    popularity: 1,
   },
 
   // ========== 海南·五指山 ==========
@@ -2479,7 +2479,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["海南"],
     lat: 18.7754,
     lng: 109.5167,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "city-south-wuzhishan-2",
@@ -2502,7 +2502,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["海南"],
     lat: 18.7781,
     lng: 109.5189,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 海南·东方 ==========
@@ -2527,7 +2527,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["海南"],
     lat: 19.0951,
     lng: 108.6537,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "city-south-dongfang-2",
@@ -2550,7 +2550,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["海南"],
     lat: 19.0978,
     lng: 108.6512,
-    popularity: 3,
+    popularity: 1,
   },
 
   // ========== 重庆·涪陵 ==========
@@ -2575,7 +2575,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["重庆"],
     lat: 29.7036,
     lng: 107.565,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 重庆·江津 ==========
@@ -2600,7 +2600,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["重庆"],
     lat: 29.2902,
     lng: 106.2573,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "city-south-jiangjin-2",
@@ -2623,7 +2623,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["重庆"],
     lat: 29.2902,
     lng: 106.2573,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 重庆·合川 ==========
@@ -2648,7 +2648,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["重庆"],
     lat: 29.9722,
     lng: 106.2761,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "city-south-hechuan-2",
@@ -2671,7 +2671,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["重庆"],
     lat: 29.9722,
     lng: 106.2761,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 重庆·永川 ==========
@@ -2696,7 +2696,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["重庆"],
     lat: 29.3563,
     lng: 105.927,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 重庆·大足 ==========
@@ -2721,7 +2721,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["重庆"],
     lat: 29.7068,
     lng: 105.7173,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "city-south-dazu-2",
@@ -2744,7 +2744,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["重庆"],
     lat: 29.7068,
     lng: 105.7173,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 重庆·璧山 ==========
@@ -2769,7 +2769,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["重庆"],
     lat: 29.5919,
     lng: 106.2273,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 重庆·长寿 ==========
@@ -2794,7 +2794,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["重庆"],
     lat: 29.8576,
     lng: 107.0817,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "city-south-changshou-2",
@@ -2817,7 +2817,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["重庆"],
     lat: 29.8576,
     lng: 107.0817,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 重庆·南川 ==========
@@ -2842,7 +2842,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["重庆"],
     lat: 29.1566,
     lng: 107.0984,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "city-south-nanchuan-2",
@@ -2865,7 +2865,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["重庆"],
     lat: 29.1566,
     lng: 107.0984,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 重庆·綦江 ==========
@@ -2890,7 +2890,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["重庆"],
     lat: 29.0291,
     lng: 106.6514,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "city-south-qijiang-2",
@@ -2913,7 +2913,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["重庆"],
     lat: 29.0291,
     lng: 106.6514,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 重庆·铜梁 ==========
@@ -2938,7 +2938,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["重庆"],
     lat: 29.8105,
     lng: 106.0564,
-    popularity: 3,
+    popularity: 2,
   },
   {
     id: "city-south-tongliang-2",
@@ -2961,7 +2961,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["重庆"],
     lat: 29.8105,
     lng: 106.0564,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 四川·自贡 ==========
@@ -3037,7 +3037,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["四川"],
     lat: 28.8707,
     lng: 105.4425,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "city-south-luzhou-2",
@@ -3060,7 +3060,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["四川"],
     lat: 28.8707,
     lng: 105.4425,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 四川·德阳 ==========
@@ -3085,7 +3085,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["四川"],
     lat: 31.1278,
     lng: 104.3981,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "city-south-deyang-2",
@@ -3108,7 +3108,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["四川"],
     lat: 31.1278,
     lng: 104.3981,
-    popularity: 5,
+    popularity: 3,
   }
 
   // ========== 四川·绵阳 ==========
@@ -3134,7 +3134,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["四川"],
     lat: 31.468,
     lng: 104.6796,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 四川·广元 ==========
@@ -3159,7 +3159,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["四川"],
     lat: 32.4353,
     lng: 105.8436,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "city-south-guangyuan-2",
@@ -3182,7 +3182,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["四川"],
     lat: 32.4353,
     lng: 105.8436,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 四川·遂宁 ==========
@@ -3207,7 +3207,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["四川"],
     lat: 30.5328,
     lng: 105.5928,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "city-south-suining-2",
@@ -3230,7 +3230,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["四川"],
     lat: 30.5328,
     lng: 105.5928,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 四川·内江 ==========
@@ -3278,7 +3278,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["四川"],
     lat: 29.5802,
     lng: 105.0586,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 四川·乐山 ==========
@@ -3328,7 +3328,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["四川"],
     lat: 30.8373,
     lng: 106.1105,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "city-south-nanchong-2",
@@ -3399,7 +3399,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["四川"],
     lat: 30.0491,
     lng: 103.8313,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 四川·宜宾 ==========
@@ -3447,7 +3447,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["四川"],
     lat: 28.7513,
     lng: 104.6308,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 四川·广安 ==========
@@ -3472,7 +3472,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["四川"],
     lat: 30.4741,
     lng: 106.6333,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "city-south-guangan-2",
@@ -3495,7 +3495,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["四川"],
     lat: 30.4741,
     lng: 106.6333,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 四川·达州 ==========
@@ -3520,7 +3520,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["四川"],
     lat: 31.209,
     lng: 107.4682,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "city-south-dazhou-2",
@@ -3543,7 +3543,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["四川"],
     lat: 31.209,
     lng: 107.4682,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 四川·雅安 ==========
@@ -3591,7 +3591,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["四川"],
     lat: 29.9773,
     lng: 102.9706,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 四川·巴中 ==========
@@ -3616,7 +3616,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["四川"],
     lat: 31.8691,
     lng: 106.7478,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "city-south-bazhong-2",
@@ -3639,7 +3639,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["四川"],
     lat: 31.8691,
     lng: 106.7478,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 四川·资阳 ==========
@@ -3664,7 +3664,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["四川"],
     lat: 30.1222,
     lng: 104.6279,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "city-south-ziyang-2",
@@ -3708,11 +3708,11 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     ingredients: ["猪肉", "牛肉", "鸡肉", "辣椒", "孜然"],
     cookingMethod: ["烤"],
     tags: ["火盆烧烤", "川菜", "麻辣", "彝族"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["四川"],
     lat: 27.8869,
     lng: 102.2645,
-    popularity: 7,
+    popularity: 6,
   },
 
   // ========== 四川·甘孜 ==========
@@ -3737,7 +3737,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["四川"],
     lat: 30.0486,
     lng: 101.9625,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "city-south-ganzi-2",
@@ -3760,7 +3760,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["四川"],
     lat: 30.0486,
     lng: 101.9625,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 四川·阿坝 ==========
@@ -3785,7 +3785,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["四川"],
     lat: 31.8991,
     lng: 102.2214,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 贵州·六盘水 ==========
@@ -3810,7 +3810,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["贵州"],
     lat: 26.5931,
     lng: 104.8333,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 贵州·遵义 ==========
@@ -3835,7 +3835,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["贵州"],
     lat: 27.6866,
     lng: 106.8702,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 贵州·安顺 ==========
@@ -3860,7 +3860,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["贵州"],
     lat: 26.2459,
     lng: 105.9462,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "city-south-anshun-2",
@@ -3883,7 +3883,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["贵州"],
     lat: 26.2459,
     lng: 105.9462,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 贵州·毕节 ==========
@@ -3908,7 +3908,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["贵州"],
     lat: 27.2825,
     lng: 105.2847,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "city-south-bijie-2",
@@ -3931,7 +3931,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["贵州"],
     lat: 27.2825,
     lng: 105.2847,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 贵州·铜仁 ==========
@@ -3956,7 +3956,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["贵州"],
     lat: 27.7183,
     lng: 109.1896,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "city-south-tongren-2",
@@ -3979,7 +3979,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["贵州"],
     lat: 27.7183,
     lng: 109.1896,
-    popularity: 4,
+    popularity: 1,
   },
 
   // ========== 贵州·黔西南 ==========
@@ -4004,7 +4004,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["贵州"],
     lat: 25.0882,
     lng: 104.9063,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "city-south-qianxinan-2",
@@ -4027,7 +4027,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["贵州"],
     lat: 25.0882,
     lng: 104.9063,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 贵州·黔东南 ==========
@@ -4052,7 +4052,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["贵州"],
     lat: 26.5835,
     lng: 107.9829,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 贵州·黔南 ==========
@@ -4077,7 +4077,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["贵州"],
     lat: 26.2566,
     lng: 107.5418,
-    popularity: 4,
+    popularity: 1,
   },
   // 「黔南虾酸」已合并至「独山虾酸牛肉」(batch10-qian-4) - 同地同物异名
 
@@ -4107,7 +4107,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["云南"],
     lat: 24.3518,
     lng: 102.5462,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 云南·保山 ==========
@@ -4156,7 +4156,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["云南"],
     lat: 25.112,
     lng: 99.1617,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 云南·昭通 ==========
@@ -4182,7 +4182,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["云南"],
     lat: 27.3403,
     lng: 103.7251,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 云南·丽江 ==========
@@ -4230,7 +4230,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["云南"],
     lat: 26.8721,
     lng: 100.2257,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 云南·普洱 ==========
@@ -4255,7 +4255,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["云南"],
     lat: 22.7773,
     lng: 100.9721,
-    popularity: 5,
+    popularity: 3,
   },
   
 
@@ -4281,7 +4281,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["云南"],
     lat: 23.877,
     lng: 100.0899,
-    popularity: 6,
+    popularity: 5,
   },
   
 
@@ -4307,7 +4307,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["云南"],
     lat: 23.364,
     lng: 103.3756,
-    popularity: 3,
+    popularity: 2,
   },
   {
     id: "city-south-honghe-2",
@@ -4330,7 +4330,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["云南"],
     lat: 23.364,
     lng: 103.3756,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 云南·文山 ==========
@@ -4355,7 +4355,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["云南"],
     lat: 23.3694,
     lng: 104.2448,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "city-south-wenshan-2",
@@ -4378,7 +4378,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["云南"],
     lat: 23.3694,
     lng: 104.2448,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 云南·大理 ==========
@@ -4426,7 +4426,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["云南"],
     lat: 25.6065,
     lng: 100.2679,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 云南·德宏 ==========
@@ -4451,7 +4451,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["云南"],
     lat: 24.4364,
     lng: 98.5854,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "city-south-dehong-2",
@@ -4474,7 +4474,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["云南"],
     lat: 24.4364,
     lng: 98.5854,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 云南·怒江 ==========
@@ -4499,7 +4499,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["云南"],
     lat: 25.8509,
     lng: 98.8543,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "city-south-nujiang-2",
@@ -4522,7 +4522,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["云南"],
     lat: 25.8509,
     lng: 98.8543,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 云南·迪庆 ==========
@@ -4547,7 +4547,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["云南"],
     lat: 27.829,
     lng: 99.7063,
-    popularity: 4,
+    popularity: 2,
   },
   
 
@@ -4573,7 +4573,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["西藏"],
     lat: 29.2667,
     lng: 88.8808,
-    popularity: 3,
+    popularity: 2,
   },
   
 
@@ -4600,7 +4600,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["西藏"],
     lat: 31.1369,
     lng: 97.1786,
-    popularity: 2,
+    popularity: 1,
   },
 
   // ========== 西藏·林芝 ==========
@@ -4626,7 +4626,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["西藏"],
     lat: 29.6464,
     lng: 94.3624,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 西藏·山南 ==========
@@ -4651,7 +4651,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["西藏"],
     lat: 29.236,
     lng: 91.7716,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "city-south-shannan-2",
@@ -4674,7 +4674,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["西藏"],
     lat: 29.236,
     lng: 91.7716,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 西藏·那曲 ==========
@@ -4699,7 +4699,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["西藏"],
     lat: 31.4677,
     lng: 92.0513,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 西藏·阿里 ==========
@@ -4724,7 +4724,7 @@ export const FOODS_CITIES_SOUTH: Food[] = [
     popularRegions: ["西藏"],
     lat: 32.5017,
     lng: 80.1055,
-    popularity: 5,
+    popularity: 3,
   },
   
   {

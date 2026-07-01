@@ -23,7 +23,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["云南"],
     lat: 23.3631,
     lng: 102.3819,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "wiki-ethnic-2",
@@ -46,7 +46,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["云南"],
     lat: 22.0074,
     lng: 100.7972,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "wiki-ethnic-3",
@@ -69,7 +69,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["云南"],
     lat: 22.0074,
     lng: 100.7972,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "wiki-ethnic-4",
@@ -92,7 +92,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["云南"],
     lat: 24.4362,
     lng: 98.5846,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "wiki-ethnic-5",
@@ -115,7 +115,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["云南"],
     lat: 27.7289,
     lng: 98.3266,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "wiki-ethnic-6",
@@ -138,7 +138,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["云南"],
     lat: 27.7289,
     lng: 98.3266,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "wiki-ethnic-7",
@@ -161,7 +161,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["云南"],
     lat: 24.4362,
     lng: 98.5846,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "wiki-ethnic-8",
@@ -184,7 +184,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["贵州"],
     lat: 26.2582,
     lng: 107.5176,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "wiki-ethnic-9",
@@ -207,7 +207,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["贵州"],
     lat: 25.9846,
     lng: 104.9064,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "wiki-ethnic-10",
@@ -230,7 +230,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["贵州"],
     lat: 26.2582,
     lng: 107.5176,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "wiki-ethnic-11",
@@ -253,7 +253,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["辽宁"],
     lat: 41.8057,
     lng: 123.4315,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "wiki-ethnic-12",
@@ -276,7 +276,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["辽宁"],
     lat: 41.8057,
     lng: 123.4315,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "wiki-ethnic-13",
@@ -299,7 +299,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["新疆"],
     lat: 43.8256,
     lng: 87.6168,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "wiki-ethnic-14",
@@ -322,7 +322,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["北京"],
     lat: 39.9042,
     lng: 116.4074,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "wiki-ethnic-15",
@@ -345,7 +345,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["河北"],
     lat: 38.8739,
     lng: 115.4646,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "wiki-ethnic-16",
@@ -364,11 +364,11 @@ export const FOODS_WIKI_BATCH: Food[] = [
     ingredients: ["豆瓣酱", "豆腐", "西葫芦", "蘑菇"],
     cookingMethod: ["煮"],
     tags: ["朝鲜族", "大酱", "汤", "东北少数民族", "延边", "粘糯"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["吉林"],
     lat: 42.8917,
     lng: 129.4739,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "wiki-ethnic-17",
@@ -391,7 +391,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["吉林"],
     lat: 42.8917,
     lng: 129.4739,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "wiki-ethnic-18",
@@ -414,7 +414,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["贵州"],
     lat: 26.0833,
     lng: 107.9833,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "wiki-ethnic-19",
@@ -437,7 +437,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["贵州"],
     lat: 26.0833,
     lng: 107.9833,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "wiki-ethnic-20",
@@ -460,7 +460,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["云南"],
     lat: 25.6065,
     lng: 100.2679,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "wiki-ethnic-21",
@@ -483,7 +483,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["云南"],
     lat: 25.0405,
     lng: 101.5289,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "wiki-ethnic-22",
@@ -506,7 +506,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["云南"],
     lat: 27.2667,
     lng: 102.2667,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "wiki-ethnic-23",
@@ -529,7 +529,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["西藏"],
     lat: 29.6519,
     lng: 91.1721,
-    popularity: 2,
+    popularity: 1,
   },
   {
     id: "wiki-ethnic-24",
@@ -552,7 +552,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["广西"],
     lat: 22.8170,
     lng: 108.3669,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "wiki-ethnic-25",
@@ -575,7 +575,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["海南"],
     lat: 19.0281,
     lng: 109.8446,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "wiki-ethnic-26",
@@ -598,7 +598,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["贵州"],
     lat: 25.9846,
     lng: 107.8722,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "wiki-ethnic-27",
@@ -644,7 +644,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["贵州"],
     lat: 26.1989,
     lng: 107.7889,
-    popularity: 3,
+    popularity: 1,
   },
 
   // ========== 传统糕点 ==========
@@ -669,7 +669,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["北京"],
     lat: 39.9042,
     lng: 116.4074,
-    popularity: 6,
+    popularity: 7,
   },
   {
     id: "wiki-pastry-2",
@@ -688,11 +688,11 @@ export const FOODS_WIKI_BATCH: Food[] = [
     ingredients: ["面粉", "猪肉", "枣泥", "糖"],
     cookingMethod: ["烤"],
     tags: ["酥皮", "京八件", "北京糕点", "枣泥", "嫩滑"],
-    fame: "普通",
+    fame: "地方名吃",
     popularRegions: ["北京"],
     lat: 39.9042,
     lng: 116.4074,
-    popularity: 3,
+    popularity: 2,
   },
   {
     id: "wiki-pastry-3",
@@ -711,11 +711,11 @@ export const FOODS_WIKI_BATCH: Food[] = [
     ingredients: ["面粉", "香油", "糖", "核桃"],
     cookingMethod: ["烤"],
     tags: ["京式月饼", "北京糕点", "中秋", "香油", "甜", "糕点", "京菜", "北京"],
-    fame: "普通",
+    fame: "地方名吃",
     popularRegions: ["北京"],
     lat: 39.9042,
     lng: 116.4074,
-    popularity: 3,
+    popularity: 2,
   },
   {
     id: "wiki-pastry-4",
@@ -734,11 +734,11 @@ export const FOODS_WIKI_BATCH: Food[] = [
     ingredients: ["面粉", "芝麻", "糖"],
     cookingMethod: ["烤"],
     tags: ["北京小吃", "清真", "通州", "香甜", "糕点", "京菜", "北京"],
-    fame: "普通",
+    fame: "地方名吃",
     popularRegions: ["北京"],
     lat: 39.9089,
     lng: 116.6566,
-    popularity: 3,
+    popularity: 2,
   },
   {
     id: "wiki-pastry-5",
@@ -760,7 +760,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["上海"],
     lat: 31.2317,
     lng: 121.4922,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "wiki-pastry-6",
@@ -783,7 +783,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["贵州"],
     lat: 27.9425,
     lng: 108.2531,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "wiki-pastry-7",
@@ -828,7 +828,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["浙江"],
     lat: 28.9358,
     lng: 118.8595,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "wiki-pastry-9",
@@ -851,7 +851,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["江苏"],
     lat: 31.4912,
     lng: 120.3119,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "wiki-pastry-10",
@@ -874,7 +874,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["河北"],
     lat: 38.0428,
     lng: 114.5149,
-    popularity: 2,
+    popularity: 1,
   },
   {
     id: "wiki-pastry-11",
@@ -897,7 +897,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "wiki-pastry-12",
@@ -920,7 +920,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["江苏"],
     lat: 31.2989,
     lng: 120.5853,
-    popularity: 3,
+    popularity: 1,
   },
 
   // ========== 调料 ==========
@@ -987,11 +987,11 @@ export const FOODS_WIKI_BATCH: Food[] = [
     ingredients: ["番茄", "糖", "醋", "盐"],
     cookingMethod: ["熬"],
     tags: ["酸甜", "中西融合", "万能调料", "绵软"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "wiki-cond-5",
@@ -1014,7 +1014,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["浙江"],
     lat: 30.0025,
     lng: 120.5804,
-    popularity: 2,
+    popularity: 1,
   },
   {
     id: "wiki-cond-6",
@@ -1060,7 +1060,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["四川"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "wiki-cond-9",
@@ -1083,7 +1083,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["四川"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "wiki-cond-10",
@@ -1106,7 +1106,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["江苏"],
     lat: 32.0617,
     lng: 118.7778,
-    popularity: 2,
+    popularity: 1,
   },
   {
     id: "wiki-cond-11",
@@ -1125,11 +1125,11 @@ export const FOODS_WIKI_BATCH: Food[] = [
     ingredients: ["香菇", "食用油", "辣椒", "豆瓣酱"],
     cookingMethod: ["炒"],
     tags: ["菌菇", "下饭酱", "拌面", "河南特产", "鲜辣", "调料", "河南"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["河南"],
     lat: 33.3022,
     lng: 111.4666,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 甜品 ==========
@@ -1154,7 +1154,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "wiki-dessert-2",
@@ -1177,7 +1177,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "wiki-dessert-3",
@@ -1200,7 +1200,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "wiki-dessert-4",
@@ -1223,7 +1223,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "wiki-dessert-5",
@@ -1246,7 +1246,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "wiki-dessert-6",
@@ -1269,7 +1269,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "wiki-dessert-7",
@@ -1292,7 +1292,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "wiki-dessert-8",
@@ -1315,7 +1315,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["广东"],
     lat: 23.0207,
     lng: 113.7518,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "wiki-dessert-11",
@@ -1334,11 +1334,11 @@ export const FOODS_WIKI_BATCH: Food[] = [
     ingredients: ["红豆", "刨冰", "炼乳", "糖"],
     cookingMethod: ["煮", "冰"],
     tags: ["港式甜品", "冰室", "夏令", "刨冰", "甜", "甜品", "粤菜", "香港"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["香港"],
     lat: 22.3193,
     lng: 114.1694,
-    popularity: 3,
+    popularity: 1,
   },
 
   // ========== 传统名吃/地方小吃 ==========
@@ -1386,7 +1386,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["河北"],
     lat: 40.0066,
     lng: 119.7583,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "wiki-snack-3",
@@ -1408,7 +1408,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["河北"],
     lat: 39.8372,
     lng: 114.5878,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "wiki-snack-4",
@@ -1431,7 +1431,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["内蒙古"],
     lat: 40.8426,
     lng: 111.7511,
-    popularity: 2,
+    popularity: 1,
   },
   {
     id: "wiki-snack-5",
@@ -1450,11 +1450,11 @@ export const FOODS_WIKI_BATCH: Food[] = [
     ingredients: ["面粉", "牛肉"],
     cookingMethod: ["蒸"],
     tags: ["灌汤包", "西安名吃", "回民街", "清真", "咸鲜", "小吃", "西北菜", "陕西"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["陕西"],
     lat: 34.3416,
     lng: 108.9398,
-    popularity: 5,
+    popularity: 4,
   },
   {
     id: "wiki-snack-6",
@@ -1477,7 +1477,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["山西"],
     lat: 37.8706,
     lng: 112.5489,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "wiki-snack-7",
@@ -1495,12 +1495,12 @@ export const FOODS_WIKI_BATCH: Food[] = [
       "亓氏酱香源酱肉以祖传秘方酱制，选用优质猪肉，经腌制、酱制、熏制等多道工序。色泽枣红，肉质紧实，酱香醇厚，回味悠长。是山东老字号名吃，已入选国家级非遗，传承近两百年，体现了鲁菜酱制技艺的深厚功底。",
     ingredients: ["猪肉", "酱油", "糖"],
     cookingMethod: ["腌", "酱", "熏"],
-    tags: ["酱肉", "山东名吃", "非遗", "莱芜", "老字号"],
+    tags: ["酱肉", "山东名吃", "非遗", "莱芜", "老字号", "腌"],
     fame: "地方名吃",
     popularRegions: ["山东"],
     lat: 36.2144,
     lng: 117.6569,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "wiki-snack-8",
@@ -1523,7 +1523,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["贵州"],
     lat: 26.9528,
     lng: 108.6750,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "wiki-snack-9",
@@ -1546,7 +1546,7 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["湖南"],
     lat: 26.5822,
     lng: 110.3528,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "wiki-snack-10",
@@ -1569,5 +1569,5 @@ export const FOODS_WIKI_BATCH: Food[] = [
     popularRegions: ["北京"],
     lat: 39.9042,
     lng: 116.4074,
-    popularity: 6,
+    popularity: 5,
   }];

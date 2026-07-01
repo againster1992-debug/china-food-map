@@ -67,7 +67,7 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "batch-south-5",
@@ -113,7 +113,7 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     popularRegions: ["广西"],
     lat: 22.6851,
     lng: 109.2623,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch-south-9",
@@ -135,7 +135,7 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     popularRegions: ["广西"],
     lat: 23.1342,
     lng: 106.4172,
-    popularity: 5,
+    popularity: 2,
   },
 
   // ========== 海南（琼菜）==========
@@ -159,7 +159,7 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     popularRegions: ["海南"],
     lat: 18.505,
     lng: 110.0393,
-    popularity: 6,
+    popularity: 4,
   },
 
   {
@@ -182,7 +182,7 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     popularRegions: ["海南"],
     lat: 18.2528,
     lng: 109.5119,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch-south-15",
@@ -204,7 +204,7 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     popularRegions: ["海南"],
     lat: 19.6817,
     lng: 110.3464,
-    popularity: 5,
+    popularity: 2,
   },
 
   // ========== 香港 ==========
@@ -224,11 +224,11 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     ingredients: ["粉丝", "木耳", "鸡肉"],
     cookingMethod: ["熬"],
     tags: ["咸鲜", "汤羹", "粤菜", "街头", "仿鱼翅"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["香港"],
     lat: 22.3193,
     lng: 114.1694,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch-south-17",
@@ -246,11 +246,11 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     ingredients: ["面粉", "鸡蛋", "黄油", "糖", "花生酱"],
     cookingMethod: ["烤"],
     tags: ["香甜", "小吃", "粤菜", "街头", "华夫饼"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["香港"],
     lat: 22.3193,
     lng: 114.1694,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "batch-south-18",
@@ -272,7 +272,7 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     popularRegions: ["香港"],
     lat: 22.3193,
     lng: 114.1694,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch-south-19",
@@ -290,11 +290,11 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     ingredients: ["茄子", "辣椒", "豆腐", "鱼肉"],
     cookingMethod: ["煎", "酿"],
     tags: ["咸鲜", "小吃", "粤菜", "街头", "酿菜"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["香港"],
     lat: 22.3193,
     lng: 114.1694,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch-south-20",
@@ -316,7 +316,7 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     popularRegions: ["香港"],
     lat: 22.3193,
     lng: 114.1694,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch-south-21",
@@ -334,11 +334,11 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     ingredients: ["牛奶", "蛋清", "糖"],
     cookingMethod: ["蒸"],
     tags: ["香甜", "甜品", "粤菜", "牛奶", "炖品"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["香港"],
     lat: 22.3193,
     lng: 114.1694,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch-south-22",
@@ -360,7 +360,7 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     popularRegions: ["香港"],
     lat: 22.3193,
     lng: 114.1694,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch-south-23",
@@ -382,7 +382,7 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     popularRegions: ["香港"],
     lat: 22.3193,
     lng: 114.1694,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch-south-24",
@@ -404,7 +404,7 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     popularRegions: ["香港"],
     lat: 22.3193,
     lng: 114.1694,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch-south-25",
@@ -426,7 +426,7 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     popularRegions: ["香港"],
     lat: 22.3193,
     lng: 114.1694,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch-south-26",
@@ -448,7 +448,7 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     popularRegions: ["香港"],
     lat: 22.3193,
     lng: 114.1694,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch-south-27",
@@ -470,7 +470,7 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     popularRegions: ["香港"],
     lat: 22.3193,
     lng: 114.1694,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch-south-28",
@@ -492,7 +492,7 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     popularRegions: ["香港"],
     lat: 22.3193,
     lng: 114.1694,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch-south-29",
@@ -514,7 +514,7 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     popularRegions: ["香港"],
     lat: 22.3193,
     lng: 114.1694,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch-south-30",
@@ -536,7 +536,7 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     popularRegions: ["香港"],
     lat: 22.3193,
     lng: 114.1694,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch-south-31",
@@ -558,7 +558,7 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     popularRegions: ["香港"],
     lat: 22.3193,
     lng: 114.1694,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch-south-32",
@@ -580,7 +580,7 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     popularRegions: ["香港"],
     lat: 22.3193,
     lng: 114.1694,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch-south-33",
@@ -598,11 +598,11 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     ingredients: ["油条", "米浆", "酱油", "芝麻"],
     cookingMethod: ["炸", "蒸"],
     tags: ["咸鲜", "小吃", "粤菜", "早茶", "肠粉", "油条"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["香港"],
     lat: 22.3193,
     lng: 114.1694,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch-south-34",
@@ -624,7 +624,7 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     popularRegions: ["香港"],
     lat: 22.3193,
     lng: 114.1694,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch-south-35",
@@ -646,7 +646,7 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     popularRegions: ["香港"],
     lat: 22.3193,
     lng: 114.1694,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch-south-36",
@@ -668,7 +668,7 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     popularRegions: ["香港"],
     lat: 22.3193,
     lng: 114.1694,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch-south-37",
@@ -690,7 +690,7 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     popularRegions: ["香港"],
     lat: 22.3193,
     lng: 114.1694,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch-south-38",
@@ -712,7 +712,7 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     popularRegions: ["香港"],
     lat: 22.3193,
     lng: 114.1694,
-    popularity: 6,
+    popularity: 4,
   },
 
   // ========== 澳门 ==========
@@ -785,7 +785,7 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     popularRegions: ["台湾"],
     lat: 25.033,
     lng: 121.5654,
-    popularity: 8,
+    popularity: 7,
   }
 ,
   {
@@ -808,7 +808,7 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     popularRegions: ["台湾"],
     lat: 25.033,
     lng: 121.5654,
-    popularity: 8,
+    popularity: 7,
   },
   
   
@@ -828,11 +828,11 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     ingredients: ["鸡肉", "豌豆"],
     cookingMethod: ["炸", "炖"],
     tags: ["咸鲜", "小吃", "台湾菜", "创意", "夜市", "劲道"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["台湾"],
     lat: 22.9908,
     lng: 120.2133,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch-south-46",
@@ -854,7 +854,7 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     popularRegions: ["台湾"],
     lat: 25.1276,
     lng: 121.7392,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch-south-47",
@@ -872,11 +872,11 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     ingredients: ["面条", "鲜蚵", "猪大肠", "鱼肉", "蒜"],
     cookingMethod: ["煮"],
     tags: ["咸鲜", "面食", "台湾菜", "面线", "蚵仔", "酥脆"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["台湾"],
     lat: 25.033,
     lng: 121.5654,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch-south-48",
@@ -898,7 +898,7 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     popularRegions: ["台湾"],
     lat: 25.033,
     lng: 121.5654,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "batch-south-49",
@@ -916,11 +916,11 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     ingredients: ["猪肉", "面条", "酱油", "糖"],
     cookingMethod: ["卤", "煮"],
     tags: ["咸鲜", "面食", "台湾菜", "猪脚", "面线", "习俗", "酥脆"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["台湾"],
     lat: 25.033,
     lng: 121.5654,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch-south-50",
@@ -942,7 +942,7 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     popularRegions: ["台湾"],
     lat: 24.8016,
     lng: 120.9686,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch-south-51",
@@ -964,7 +964,7 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     popularRegions: ["台湾"],
     lat: 22.9908,
     lng: 120.2133,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch-south-52",
@@ -986,7 +986,7 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     popularRegions: ["台湾"],
     lat: 22.9908,
     lng: 120.2133,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch-south-53",
@@ -1008,7 +1008,7 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     popularRegions: ["台湾"],
     lat: 25.033,
     lng: 121.5654,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch-south-54",
@@ -1031,7 +1031,7 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     popularRegions: ["台湾"],
     lat: 25.033,
     lng: 121.5654,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch-south-55",
@@ -1099,7 +1099,7 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     popularRegions: ["台湾"],
     lat: 25.1679,
     lng: 121.4406,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch-south-58",
@@ -1121,7 +1121,7 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     popularRegions: ["台湾"],
     lat: 24.8016,
     lng: 120.9686,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch-south-59",
@@ -1144,7 +1144,7 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     popularRegions: ["台湾"],
     lat: 25.033,
     lng: 121.5654,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch-south-60",
@@ -1162,11 +1162,11 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     ingredients: ["大米", "虱目鱼肚", "姜", "葱"],
     cookingMethod: ["煮", "熬"],
     tags: ["咸鲜", "主食", "台湾菜", "虱目鱼", "粥", "劲道"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["台湾"],
     lat: 22.9908,
     lng: 120.2133,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch-south-61",
@@ -1184,11 +1184,11 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     ingredients: ["猪肉", "当归", "川芎", "熟地", "枸杞"],
     cookingMethod: ["炖", "熬"],
     tags: ["苦", "主菜", "台湾菜", "夜市", "药膳", "排骨", "进补"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["台湾"],
     lat: 25.033,
     lng: 121.5654,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch-south-62",
@@ -1210,7 +1210,7 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     popularRegions: ["台湾"],
     lat: 22.9908,
     lng: 120.2133,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch-south-63",
@@ -1228,11 +1228,11 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     ingredients: ["鸭肉", "花椒", "辣椒"],
     cookingMethod: ["煮", "熬"],
     tags: ["麻辣", "小吃", "台湾菜", "夜市", "鸭血", "粘糯"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["台湾"],
     lat: 25.033,
     lng: 121.5654,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch-south-64",
@@ -1254,7 +1254,7 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     popularRegions: ["台湾"],
     lat: 25.1679,
     lng: 121.4406,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch-south-65",
@@ -1294,11 +1294,11 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     ingredients: ["面粉", "绿豆", "猪肉"],
     cookingMethod: ["烤"],
     tags: ["香甜", "糕点", "台湾菜", "中秋", "酥饼", "酥脆", "焦香"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["台湾"],
     lat: 24.1477,
     lng: 120.6736,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch-south-67",
@@ -1316,11 +1316,11 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     ingredients: ["爱玉子", "柠檬", "糖"],
     cookingMethod: ["冲"],
     tags: ["酸甜", "甜品", "台湾菜", "消暑", "嫩滑"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["台湾"],
     lat: 23.48,
     lng: 120.4491,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch-south-68",
@@ -1342,7 +1342,7 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     popularRegions: ["台湾"],
     lat: 25.033,
     lng: 121.5654,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "batch-south-71",
@@ -1360,11 +1360,11 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     ingredients: ["鱼肉", "酱油", "蒜"],
     cookingMethod: ["烤"],
     tags: ["咸鲜", "小吃", "台湾菜", "夜市", "鱿鱼", "烧烤", "酥脆"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["台湾"],
     lat: 25.033,
     lng: 121.5654,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch-south-72",
@@ -1382,11 +1382,11 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     ingredients: ["鱼肉", "淀粉", "甜辣酱"],
     cookingMethod: ["炸"],
     tags: ["咸鲜", "小吃", "台湾菜", "天妇罗", "夜市", "酥脆"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["台湾"],
     lat: 25.1276,
     lng: 121.7392,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "batch-south-74",
@@ -1408,7 +1408,7 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     popularRegions: ["台湾"],
     lat: 25.033,
     lng: 121.5654,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "batch-south-75",
@@ -1426,11 +1426,11 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     ingredients: ["鸡肉", "料酒", "姜", "枸杞", "红枣"],
     cookingMethod: ["炖", "煮"],
     tags: ["复合", "主菜", "台湾菜", "进补", "米酒", "冬季"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["台湾"],
     lat: 25.033,
     lng: 121.5654,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch-south-76",
@@ -1448,11 +1448,11 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     ingredients: ["猪肉", "酱油", "糖", "八角", "蒜"],
     cookingMethod: ["卤", "炖"],
     tags: ["咸鲜", "主菜", "台湾菜", "万峦", "猪脚", "名产", "焦香", "劲道"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["台湾"],
     lat: 22.5728,
     lng: 120.5336,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch-south-77",
@@ -1474,5 +1474,5 @@ export const FOODS_BATCH_SOUTH: Food[] = [
     popularRegions: ["台湾"],
     lat: 23.9871,
     lng: 121.6016,
-    popularity: 6,
+    popularity: 4,
   }];

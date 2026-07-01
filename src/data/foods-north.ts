@@ -1,4 +1,4 @@
-﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
 
 export const FOODS_NORTH: Food[] = [
   // ========== 北京 ==========
@@ -69,7 +69,8 @@ export const FOODS_NORTH: Food[] = [
     popularRegions: ["北京"],
     lat: 39.9042,
     lng: 116.4074,
-    popularity: 2,
+    fame: "普通",
+    popularity: 1,
   },
   {
     id: "bj-9",
@@ -160,7 +161,8 @@ export const FOODS_NORTH: Food[] = [
     lat: 39.9042,
     lng: 116.4074,
     popularRegions: ["北京"],
-    popularity: 2,
+    fame: "普通",
+    popularity: 1,
   },
   {
     id: "bj-13",
@@ -182,7 +184,8 @@ export const FOODS_NORTH: Food[] = [
     lat: 39.9042,
     lng: 116.4074,
     popularRegions: ["北京"],
-    popularity: 1,
+    fame: "地方名吃",
+    popularity: 2,
   },
 
   // ========== 天津 ==========
@@ -229,8 +232,8 @@ export const FOODS_NORTH: Food[] = [
     popularRegions: ["天津"],
     lat: 39.0842,
     lng: 117.201,
-    fame: "地方名吃",
-    popularity: 5,
+    fame: "名菜",
+    popularity: 7,
   },
   {
     id: "tj-6",
@@ -253,7 +256,7 @@ export const FOODS_NORTH: Food[] = [
     lat: 39.0842,
     lng: 117.201,
     fame: "地方名吃",
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "tj-7",
@@ -275,7 +278,8 @@ export const FOODS_NORTH: Food[] = [
     popularRegions: ["天津"],
     lat: 39.0842,
     lng: 117.201,
-    popularity: 3,
+    fame: "普通",
+    popularity: 1,
   },
   {
     id: "tj-8",
@@ -296,6 +300,7 @@ export const FOODS_NORTH: Food[] = [
     popularRegions: ["天津"],
     lat: 39.0842,
     lng: 117.201,
+    fame: "地方名吃",
     popularity: 3,
   },
   {
@@ -318,7 +323,8 @@ export const FOODS_NORTH: Food[] = [
     popularRegions: ["天津"],
     lat: 39.0842,
     lng: 117.201,
-    popularity: 2,
+    fame: "普通",
+    popularity: 1,
   },
   {
     id: "tj-10",
@@ -340,7 +346,8 @@ export const FOODS_NORTH: Food[] = [
     popularRegions: ["天津"],
     lat: 39.0842,
     lng: 117.201,
-    popularity: 2,
+    fame: "普通",
+    popularity: 1,
   },
   {
     id: "tj-12",
@@ -362,6 +369,7 @@ export const FOODS_NORTH: Food[] = [
     popularRegions: ["天津"],
     lat: 39.0842,
     lng: 117.201,
+    fame: "地方名吃",
     popularity: 2,
   },
 
@@ -386,7 +394,8 @@ export const FOODS_NORTH: Food[] = [
     popularRegions: ["河北"],
     lat: 38.3037,
     lng: 116.8388,
-    popularity: 2,
+    fame: "地方名吃",
+    popularity: 3,
   },
   
   {
@@ -409,7 +418,8 @@ export const FOODS_NORTH: Food[] = [
     popularRegions: ["河北"],
     lat: 40.0,
     lng: 119.7,
-    popularity: 3,
+    fame: "普通",
+    popularity: 1,
   },
   {
     id: "hb-6",
@@ -431,7 +441,8 @@ export const FOODS_NORTH: Food[] = [
     popularRegions: ["河北"],
     lat: 39.6306,
     lng: 118.1804,
-    popularity: 2,
+    fame: "地方名吃",
+    popularity: 3,
   },
   {
     id: "hb-7",
@@ -453,7 +464,8 @@ export const FOODS_NORTH: Food[] = [
     popularRegions: ["河北"],
     lat: 36.6256,
     lng: 114.5391,
-    popularity: 3,
+    fame: "普通",
+    popularity: 1,
   },
   {
     id: "hb-8",
@@ -475,7 +487,8 @@ export const FOODS_NORTH: Food[] = [
     popularRegions: ["河北"],
     lat: 40.9515,
     lng: 117.9632,
-    popularity: 3,
+    fame: "普通",
+    popularity: 1,
   },
   {
     id: "hb-9",
@@ -497,7 +510,8 @@ export const FOODS_NORTH: Food[] = [
     popularRegions: ["河北"],
     lat: 40.7686,
     lng: 114.8869,
-    popularity: 4,
+    fame: "普通",
+    popularity: 1,
   },
   {
     id: "hb-10",
@@ -519,7 +533,8 @@ export const FOODS_NORTH: Food[] = [
     popularRegions: ["河北"],
     lat: 39.7633,
     lng: 117.0,
-    popularity: 6,
+    fame: "地方名吃",
+    popularity: 4,
   },
   {
     id: "hb-11",
@@ -541,7 +556,8 @@ export const FOODS_NORTH: Food[] = [
     popularRegions: ["河北"],
     lat: 38.9,
     lng: 115.9,
-    popularity: 3,
+    fame: "普通",
+    popularity: 1,
   },
   {
     id: "hb-12",
@@ -563,7 +579,8 @@ export const FOODS_NORTH: Food[] = [
     popularRegions: ["河北"],
     lat: 38.3037,
     lng: 116.8388,
-    popularity: 2,
+    fame: "普通",
+    popularity: 1,
   },
 
   // ========== 山西 ==========
@@ -587,7 +604,8 @@ export const FOODS_NORTH: Food[] = [
     popularRegions: ["山西"],
     lat: 37.8706,
     lng: 112.5489,
-    popularity: 4,
+    fame: "普通",
+    popularity: 1,
   },
   {
     id: "sx-5",
@@ -609,7 +627,8 @@ export const FOODS_NORTH: Food[] = [
     popularRegions: ["山西"],
     lat: 37.1892,
     lng: 112.1756,
-    popularity: 4,
+    fame: "地方名吃",
+    popularity: 3,
   },
   {
     id: "sx-6",
@@ -627,11 +646,12 @@ export const FOODS_NORTH: Food[] = [
       "太原头脑以羊肉、黄酒、山药、莲藕、酒糟、煨面、黄芪、良姜八味熬制。汤色乳白，酒香药香交融。是太原冬季滋补名吃，「清和元」最正宗。配腌韭菜、帽盒食用。",
     ingredients: ["羊肉", "黄酒", "山药", "莲藕"],
     cookingMethod: ["炖"],
-    tags: ["羊肉", "药膳", "太原", "山西传统", "冬季", "滋补"],
+    tags: ["羊肉", "药膳", "太原", "山西传统", "冬季", "滋补", "汤"],
     popularRegions: ["山西"],
     lat: 37.8706,
     lng: 112.5489,
-    popularity: 3,
+    fame: "普通",
+    popularity: 1,
   },
   
   {
@@ -653,7 +673,8 @@ export const FOODS_NORTH: Food[] = [
     popularRegions: ["山西"],
     lat: 35.3556,
     lng: 111.2247,
-    popularity: 4,
+    fame: "普通",
+    popularity: 1,
   },
   {
     id: "sx-9",
@@ -675,7 +696,8 @@ export const FOODS_NORTH: Food[] = [
     popularRegions: ["山西"],
     lat: 38.4833,
     lng: 112.9572,
-    popularity: 3,
+    fame: "地方名吃",
+    popularity: 2,
   },
   {
     id: "sx-10",
@@ -697,7 +719,8 @@ export const FOODS_NORTH: Food[] = [
     popularRegions: ["山西"],
     lat: 40.0768,
     lng: 113.3001,
-    popularity: 4,
+    fame: "普通",
+    popularity: 1,
   },
   {
     id: "sx-11",
@@ -768,7 +791,8 @@ export const FOODS_NORTH: Food[] = [
     popularRegions: ["内蒙古"],
     lat: 40.8426,
     lng: 111.7511,
-    popularity: 4,
+    fame: "普通",
+    popularity: 1,
   },
   {
     id: "nm-8",
@@ -790,7 +814,8 @@ export const FOODS_NORTH: Food[] = [
     popularRegions: ["内蒙古"],
     lat: 40.8426,
     lng: 111.7511,
-    popularity: 5,
+    fame: "普通",
+    popularity: 2,
   },
   {
     id: "nm-9",
@@ -812,6 +837,7 @@ export const FOODS_NORTH: Food[] = [
     popularRegions: ["内蒙古"],
     lat: 40.8426,
     lng: 111.7511,
+    fame: "名菜",
     popularity: 7,
   },
   
@@ -836,7 +862,7 @@ export const FOODS_NORTH: Food[] = [
     lat: 40.8426,
     lng: 111.7511,
     fame: "地方名吃",
-    popularity: 4,
+    popularity: 2,
   },
 
   
@@ -862,7 +888,8 @@ export const FOODS_NORTH: Food[] = [
     popularRegions: ["辽宁"],
     lat: 40.8825,
     lng: 122.6847,
-    popularity: 5,
+    fame: "普通",
+    popularity: 2,
   },
   
   
@@ -880,14 +907,14 @@ export const FOODS_NORTH: Food[] = [
     origin: "20世纪80年代锦州，融合新疆、东北烤法",
     description:
       "锦州烧烤以「万物皆可烤」著称，肉类、海鲜、蔬菜、主食皆可上串。讲究炭火、撒料，口味咸香微辣。是锦州名片，被称为「烧烤之都」，夜市文化代表。",
-    ingredients: ["羊肉", "鸡肉"],
+    ingredients: ["羊肉", "牛肉", "鸡肉", "海鲜", "蔬菜"],
     cookingMethod: ["烤"],
     tags: ["烧烤", "夜宵", "锦州", "辽宁流行", "街头小吃", "炭火", "酥脆", "鲜辣"],
     popularRegions: ["辽宁"],
     lat: 41.0954,
     lng: 121.1268,
     popularity: 8,
-    fame: "地方名吃",
+    fame: "热门",
   },
   
   {
@@ -910,7 +937,8 @@ export const FOODS_NORTH: Food[] = [
     popularRegions: ["辽宁"],
     lat: 41.2945,
     lng: 123.7659,
-    popularity: 5,
+    fame: "普通",
+    popularity: 2,
   },
   {
     id: "ln-11",
@@ -932,7 +960,7 @@ export const FOODS_NORTH: Food[] = [
     popularRegions: ["辽宁"],
     lat: 41.8057,
     lng: 123.4315,
-    popularity: 4,
+    popularity: 2,
     fame: "地方名吃",
   },
   {
@@ -955,7 +983,8 @@ export const FOODS_NORTH: Food[] = [
     popularRegions: ["辽宁"],
     lat: 41.1089,
     lng: 122.9942,
-    popularity: 3,
+    fame: "普通",
+    popularity: 1,
   },
 
   // ========== 吉林 ==========
@@ -979,7 +1008,7 @@ export const FOODS_NORTH: Food[] = [
     popularRegions: ["吉林"],
     lat: 43.8868,
     lng: 125.3245,
-    popularity: 4,
+    popularity: 2,
     fame: "地方名吃",
   },
   
@@ -1003,8 +1032,8 @@ export const FOODS_NORTH: Food[] = [
     popularRegions: ["吉林"],
     lat: 42.8947,
     lng: 129.4739,
-    fame: "热门",
-    popularity: 7,
+    fame: "地方名吃",
+    popularity: 6,
   },
   
   {
@@ -1028,7 +1057,7 @@ export const FOODS_NORTH: Food[] = [
     lat: 43.8868,
     lng: 125.3245,
     fame: "地方名吃",
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "jl-9",
@@ -1050,7 +1079,8 @@ export const FOODS_NORTH: Food[] = [
     popularRegions: ["吉林"],
     lat: 41.1226,
     lng: 126.187,
-    popularity: 5,
+    fame: "普通",
+    popularity: 2,
   },
   
   {
@@ -1073,7 +1103,7 @@ export const FOODS_NORTH: Food[] = [
     popularRegions: ["吉林"],
     lat: 42.8947,
     lng: 129.4739,
-    fame: "地方名吃",
+    fame: "名菜",
     popularity: 7,
   },
   {
@@ -1096,7 +1126,8 @@ export const FOODS_NORTH: Food[] = [
     popularRegions: ["吉林"],
     lat: 43.8868,
     lng: 125.3245,
-    popularity: 4,
+    fame: "普通",
+    popularity: 1,
   },
   {
     id: "jl-13",
@@ -1145,7 +1176,7 @@ export const FOODS_NORTH: Food[] = [
     lat: 47.354,
     lng: 123.918,
     fame: "名菜",
-    popularity: 8,
+    popularity: 9,
   },
   {
     id: "hlj-6",
@@ -1167,8 +1198,8 @@ export const FOODS_NORTH: Food[] = [
     popularRegions: ["黑龙江"],
     lat: 45.8038,
     lng: 126.5349,
-    fame: "地方名吃",
-    popularity: 7,
+    fame: "名菜",
+    popularity: 8,
   },
   {
     id: "hlj-7",
@@ -1190,7 +1221,8 @@ export const FOODS_NORTH: Food[] = [
     popularRegions: ["辽宁"],
     lat: 41.8057,
     lng: 123.4315,
-    popularity: 6,
+    fame: "地方名吃",
+    popularity: 4,
   },
   {
     id: "hlj-8",
@@ -1213,7 +1245,7 @@ export const FOODS_NORTH: Food[] = [
     lat: 45.2958,
     lng: 130.9697,
     fame: "地方名吃",
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "hlj-9",
@@ -1235,7 +1267,8 @@ export const FOODS_NORTH: Food[] = [
     popularRegions: ["黑龙江"],
     lat: 46.5907,
     lng: 125.1037,
-    popularity: 4,
+    fame: "普通",
+    popularity: 1,
   },
   {
     id: "hlj-10",
@@ -1279,6 +1312,7 @@ export const FOODS_NORTH: Food[] = [
     popularRegions: ["辽宁"],
     lat: 41.8057,
     lng: 123.4315,
+    fame: "名菜",
     popularity: 7,
   },
   {

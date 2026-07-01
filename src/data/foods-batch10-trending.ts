@@ -184,7 +184,7 @@ export const FOODS_BATCH10_TRENDING: Food[] = [
     popularRegions: ["武汉", "全国"],
     lat: 30.5928,
     lng: 114.3055,
-    popularity: 9,
+    popularity: 10,
   }
 ,
   {
@@ -256,7 +256,7 @@ export const FOODS_BATCH10_TRENDING: Food[] = [
     popularRegions: ["六盘水", "全省"],
     lat: 26.2125,
     lng: 104.8333,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch10-qian-3",
@@ -279,7 +279,7 @@ export const FOODS_BATCH10_TRENDING: Food[] = [
     popularRegions: ["兴义", "全省"],
     lat: 25.0921,
     lng: 104.9043,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch10-qian-4",
@@ -302,7 +302,7 @@ export const FOODS_BATCH10_TRENDING: Food[] = [
     popularRegions: ["独山", "黔南", "全省"],
     lat: 25.8267,
     lng: 107.5419,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch10-qian-5",
@@ -325,7 +325,7 @@ export const FOODS_BATCH10_TRENDING: Food[] = [
     popularRegions: ["毕节", "全省"],
     lat: 27.2833,
     lng: 105.6833,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch10-qian-6",
@@ -348,7 +348,7 @@ export const FOODS_BATCH10_TRENDING: Food[] = [
     popularRegions: ["遵义", "全省"],
     lat: 27.6866,
     lng: 106.8793,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch10-qian-7",
@@ -371,7 +371,7 @@ export const FOODS_BATCH10_TRENDING: Food[] = [
     popularRegions: ["松桃", "铜仁", "全省"],
     lat: 28.1543,
     lng: 109.2003,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch10-qian-8",
@@ -390,11 +390,11 @@ export const FOODS_BATCH10_TRENDING: Food[] = [
     ingredients: ["猪蹄", "八角", "桂皮", "冰糖", "酱油"],
     cookingMethod: ["卤"],
     tags: ["咸甜", "凉菜", "黔菜", "青岩", "名菜"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["贵阳", "青岩", "全省"],
     lat: 26.3392,
     lng: 106.6833,
-    popularity: 7,
+    popularity: 6,
   },
 
   // ==================== 八、新疆经典名菜（2026年官方评选，原数据库缺失）====================
@@ -415,11 +415,11 @@ export const FOODS_BATCH10_TRENDING: Food[] = [
     ingredients: ["鱼肉", "盐", "孜然"],
     cookingMethod: ["烤"],
     tags: ["咸鲜", "主菜", "新疆菜", "红柳枝", "名菜"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["新疆"],
     lat: 43.7928,
     lng: 87.6272,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "batch10-xin-2",
@@ -438,11 +438,11 @@ export const FOODS_BATCH10_TRENDING: Food[] = [
     ingredients: ["马肉", "盐"],
     cookingMethod: ["熏", "煮"],
     tags: ["咸鲜", "腌腊", "新疆菜", "哈萨克", "名菜"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["新疆"],
     lat: 43.7928,
     lng: 87.6272,
-    popularity: 4,
+    popularity: 2,
   },
   // 「batch10-xin-3」已合并至「batch27-075」- 熏马肠与伊犁马肠子为同物异名。WebSearch 验证：熏马肠是新疆伊犁哈萨克族传统食品，用马肉灌马肠衣经松枝熏制，发源
   //   {

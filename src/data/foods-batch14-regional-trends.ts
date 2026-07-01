@@ -26,7 +26,7 @@ export const FOODS_BATCH14_REGIONAL_TRENDS: Food[] = [
     popularRegions: ["九台", "吉林"],
     lat: 44.9488,
     lng: 125.8395,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch14-jilin-3",
@@ -48,7 +48,7 @@ export const FOODS_BATCH14_REGIONAL_TRENDS: Food[] = [
     popularRegions: ["长春", "吉林"],
     lat: 43.8171,
     lng: 125.3235,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch14-jilin-4",
@@ -70,7 +70,7 @@ export const FOODS_BATCH14_REGIONAL_TRENDS: Food[] = [
     popularRegions: ["长春", "吉林"],
     lat: 43.8171,
     lng: 125.3235,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch14-jilin-5",
@@ -92,7 +92,7 @@ export const FOODS_BATCH14_REGIONAL_TRENDS: Food[] = [
     popularRegions: ["吉林", "东北"],
     lat: 43.8378,
     lng: 126.5496,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch14-jilin-6",
@@ -110,11 +110,11 @@ export const FOODS_BATCH14_REGIONAL_TRENDS: Food[] = [
     ingredients: ["冷面", "鸡蛋", "虾滑", "豆芽", "酱料"],
     cookingMethod: ["炒"],
     tags: ["咸鲜", "面食", "东北菜", "网红", "抖音爆款", "2026"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["吉林", "东北", "全国"],
     lat: 43.8171,
     lng: 125.3235,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 西藏补充美食 ==========
@@ -134,11 +134,11 @@ export const FOODS_BATCH14_REGIONAL_TRENDS: Food[] = [
     ingredients: ["面粉", "猪肉", "藏式香料"],
     cookingMethod: ["煮"],
     tags: ["咸鲜", "面食", "藏餐", "非遗", "昌都", "传统"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["昌都", "西藏"],
     lat: 29.6826,
     lng: 98.5924,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch14-tibet-2",
@@ -156,11 +156,11 @@ export const FOODS_BATCH14_REGIONAL_TRENDS: Food[] = [
     ingredients: ["猪肉", "藏式香料", "盐"],
     cookingMethod: ["烤"],
     tags: ["咸鲜", "主菜", "藏餐", "林芝", "高原特色"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["林芝", "西藏"],
     lat: 29.6547,
     lng: 94.3624,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch14-tibet-3",
@@ -178,11 +178,11 @@ export const FOODS_BATCH14_REGIONAL_TRENDS: Food[] = [
     ingredients: ["牦牛肉", "牛骨", "萝卜", "土豆", "粉条"],
     cookingMethod: ["炖", "煮"],
     tags: ["咸鲜", "主菜", "藏餐", "火锅", "冬季", "暖身"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["拉萨", "西藏"],
     lat: 29.6500,
     lng: 91.1000,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 全国网红美食 ==========
@@ -205,7 +205,7 @@ export const FOODS_BATCH14_REGIONAL_TRENDS: Food[] = [
     popularRegions: ["全国"],
     lat: 35.0000,
     lng: 105.0000,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "batch14-trending-2",
@@ -226,7 +226,7 @@ export const FOODS_BATCH14_REGIONAL_TRENDS: Food[] = [
     popularRegions: ["全国"],
     lat: 35.0000,
     lng: 105.0000,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "batch14-trending-3",
@@ -247,7 +247,7 @@ export const FOODS_BATCH14_REGIONAL_TRENDS: Food[] = [
     popularRegions: ["全国"],
     lat: 35.0000,
     lng: 105.0000,
-    popularity: 8,
+    popularity: 7,
   },
 
   // ========== 江西补充美食 ==========
@@ -271,7 +271,7 @@ export const FOODS_BATCH14_REGIONAL_TRENDS: Food[] = [
     popularRegions: ["江西", "全国"],
     lat: 28.6829,
     lng: 115.8581,
-    popularity: 4,
+    popularity: 1,
   },
 
   // ========== 山东补充美食 ==========
@@ -291,9 +291,9 @@ export const FOODS_BATCH14_REGIONAL_TRENDS: Food[] = [
     ingredients: ["面粉", "羊肉", "葱", "蘸料"],
     cookingMethod: ["烤"],
     tags: ["咸鲜", "小吃", "鲁菜", "淄博", "网红"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["淄博", "山东", "全国"],
     lat: 36.8133,
     lng: 118.0543,
-    popularity: 5,
+    popularity: 3,
   }];

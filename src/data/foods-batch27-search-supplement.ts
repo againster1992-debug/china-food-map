@@ -17,11 +17,11 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   ingredients: ["枸杞芽","鸡蛋","盐"],
   cookingMethod: ["炒"],
   tags: ["咸鲜","主菜","枸杞芽","鸡蛋","宁夏","中宁","农家","营养","特色","地方名吃"],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: ["宁夏"],
   lat: 37.4919,
   lng: 105.6852,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch27-002",
@@ -39,11 +39,11 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   ingredients: ["面粉","羊肉","土豆","番茄","葱","姜"],
   cookingMethod: ["煮","揪"],
   tags: ["咸鲜","面食","羊肉","面片","宁夏","固原","回族","暖身","传统","地方名吃"],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: ["宁夏"],
   lat: 36.0158,
   lng: 106.2426,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch27-003",
@@ -111,7 +111,7 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   popularRegions: ["青海","西藏"],
   lat: 33.0052,
   lng: 97.0088,
-  popularity: 7
+  popularity: 8
 },
 
 {
@@ -134,7 +134,7 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   popularRegions: ["青海"],
   lat: 35.5177,
   lng: 102.0154,
-  popularity: 6
+  popularity: 4
 },
 // 「林芝松茸炖鸡」已合并至「鲁朗石锅鸡」(foods-batch19-cuisine-trends.ts batch19-tibet-1) - 同地同物异名（林芝松茸为鲁朗石锅鸡的时令变体）
 {
@@ -153,11 +153,11 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   ingredients: ["牦牛肉","盐"],
   cookingMethod: ["干制"],
   tags: ["原味","小吃","牦牛肉","风干","西藏","那曲","高原","嚼劲","游牧","地方名吃"],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: ["西藏","青海"],
   lat: 31.4767,
   lng: 92.0512,
-  popularity: 7
+  popularity: 6
 },
 
 {
@@ -180,7 +180,7 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   popularRegions: ["西藏"],
   lat: 32.5011,
   lng: 80.1056,
-  popularity: 6
+  popularity: 4
 },
 
 // 「定安黑猪肉粽」已合并至「定安粽子」(foods-batch-south.ts)
@@ -205,7 +205,7 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   popularRegions: ["海南"],
   lat: 20.0174,
   lng: 110.3492,
-  popularity: 6
+  popularity: 4
 },
 {
   id: "batch27-021",
@@ -227,7 +227,7 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   popularRegions: ["海南"],
   lat: 19.2584,
   lng: 110.4746,
-  popularity: 6
+  popularity: 4
 },
 {
   id: "batch27-022",
@@ -245,11 +245,11 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   ingredients: ["鸡肉","腊肉","姜","葱"],
   cookingMethod: ["蒸"],
   tags: ["鲜香","主菜","土鸡","盬子","重庆","奉节","非遗","汽蒸","酥烂","名菜"],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: ["重庆"],
   lat: 31.0186,
   lng: 109.4639,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch27-023",
@@ -267,11 +267,11 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   ingredients: ["羊肉","辣椒","花椒","豆瓣酱","姜"],
   cookingMethod: ["炖"],
   tags: ["麻辣","主菜","羊肉","碗碗","重庆","武隆","红汤","软烂","地方名吃"],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: ["重庆"],
   lat: 29.3254,
   lng: 107.7599,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch27-024",
@@ -293,7 +293,7 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   popularRegions: ["重庆"],
   lat: 30.2995,
   lng: 108.0375,
-  popularity: 5
+  popularity: 2
 },
 {
   id: "batch27-025",
@@ -311,11 +311,11 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   ingredients: ["鱼肉","泡椒","泡姜","花椒","蒜","豆瓣酱"],
   cookingMethod: ["炸","炖"],
   tags: ["麻辣","主菜","鱼","太安","重庆","潼南","江湖菜","外酥内嫩","地方名吃"],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: ["重庆"],
   lat: 30.1904,
   lng: 105.8395,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch27-026",
@@ -333,11 +333,11 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   ingredients: ["鱼肉","辣椒","花椒","豆瓣酱","姜","蒜"],
   cookingMethod: ["煮"],
   tags: ["麻辣","主菜","鱼","江湖菜","重庆","璧山","鼻祖","鲜香","地方名吃"],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: ["重庆"],
   lat: 29.592,
   lng: 106.2274,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch27-027",
@@ -359,7 +359,7 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   popularRegions: ["重庆","全国"],
   lat: 29.5583,
   lng: 106.543,
-  popularity: 8
+  popularity: 7
 },
 
   {
@@ -378,11 +378,11 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   ingredients: ["牛肉", "咖喱", "椰子", "土豆", "洋葱"],
   cookingMethod: ["炖"],
   tags: ["复合","主菜","咖喱","牛腩","澳门","茶餐厅","浓郁","软烂","地方名吃"],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: ["澳门"],
   lat: 22.1987,
   lng: 113.5491,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch27-034",
@@ -404,7 +404,7 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   popularRegions: ["甘肃","青海"],
   lat: 34.9834,
   lng: 102.911,
-  popularity: 6
+  popularity: 4
 },
 {
   id: "batch27-036",
@@ -426,7 +426,7 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   popularRegions: ["甘肃"],
   lat: 36.0611,
   lng: 103.8343,
-  popularity: 6
+  popularity: 4
 },
 
 {
@@ -445,11 +445,11 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   ingredients: ["猪肉","酱油","糖","料酒","葱","姜"],
   cookingMethod: ["煮","炸","蒸"],
   tags: ["咸鲜","主菜","五花肉","扒制","山西","大同","宴席","红亮","肥而不腻","名菜"],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: ["山西"],
   lat: 40.0768,
   lng: 113.3001,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch27-039",
@@ -467,11 +467,11 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   ingredients: ["羊肉","盐","葱","姜"],
   cookingMethod: ["煎","炖"],
   tags: ["原味","主菜","羊肉","盐煎","山西","右玉","古法","原汁","名菜"],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: ["山西"],
   lat: 39.9891,
   lng: 112.4669,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch27-040",
@@ -493,7 +493,7 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   popularRegions: ["山西"],
   lat: 35.4861,
   lng: 112.4148,
-  popularity: 6
+  popularity: 4
 },
 {
   id: "batch27-041",
@@ -515,7 +515,7 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   popularRegions: ["山西"],
   lat: 35.4907,
   lng: 112.8518,
-  popularity: 6
+  popularity: 4
 },
 {
   id: "batch27-042",
@@ -537,7 +537,7 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   popularRegions: ["山西"],
   lat: 38.95,
   lng: 113.5667,
-  popularity: 6
+  popularity: 4
 },
 {
   id: "batch27-043",
@@ -559,7 +559,7 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   popularRegions: ["山西"],
   lat: 39.0669,
   lng: 112.96,
-  popularity: 6
+  popularity: 4
 },
 {
   id: "batch27-044",
@@ -581,7 +581,7 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   popularRegions: ["山西"],
   lat: 36.088,
   lng: 111.5189,
-  popularity: 6
+  popularity: 4
 },
 {
   id: "batch27-045",
@@ -603,7 +603,7 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   popularRegions: ["山西"],
   lat: 36.1953,
   lng: 113.1165,
-  popularity: 6
+  popularity: 4
 },
 
 {
@@ -622,11 +622,11 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   ingredients: ["牛肉","蔬菜","蘸料"],
   cookingMethod: ["涮"],
   tags: ["鲜香","主菜","肥牛","火锅","内蒙古","通辽","科尔沁","花纹","热门"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: ["内蒙古","全国"],
   lat: 43.6172,
   lng: 122.2437,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch27-048",
@@ -648,7 +648,7 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   popularRegions: ["内蒙古"],
   lat: 40.7432,
   lng: 107.3877,
-  popularity: 6
+  popularity: 4
 },
 {
   id: "batch27-051",
@@ -670,7 +670,7 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   popularRegions: ["内蒙古"],
   lat: 40.6582,
   lng: 109.8404,
-  popularity: 6
+  popularity: 4
 },
 {
   id: "batch27-052",
@@ -692,7 +692,7 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   popularRegions: ["内蒙古"],
   lat: 39.6083,
   lng: 109.7809,
-  popularity: 6
+  popularity: 4
 },
 {
   id: "batch27-053",
@@ -714,7 +714,7 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   popularRegions: ["内蒙古"],
   lat: 49.5976,
   lng: 117.3785,
-  popularity: 6
+  popularity: 4
 },
 
   {
@@ -737,7 +737,7 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   popularRegions: ["河北"],
   lat: 37.7389,
   lng: 115.6702,
-  popularity: 6
+  popularity: 4
 },
 
 {
@@ -756,11 +756,11 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   ingredients: ["蟹", "虾", "贝类", "鱼肉", "姜", "醋"],
   cookingMethod: ["蒸","煮"],
   tags: ["鲜香","主菜","海鲜","渤海","河北","秦皇岛","北戴河","清蒸","本味","地方名吃"],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: ["河北","北京"],
   lat: 39.9354,
   lng: 119.5892,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch27-062",
@@ -776,13 +776,13 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   origin: "河北承德特产杏仁饮品",
   description: "承德杏仁露以承德山区野生杏仁为原料研磨而成，口感细腻顺滑，杏仁香浓郁，是河北承德最具代表性的特产饮品。",
   ingredients: ["杏仁","糖","水"],
-  cookingMethod: ["磨"],
+  cookingMethod: ["磨", "煮"],
   tags: ["香甜","饮品","杏仁","承德","河北","细腻","顺滑","特产","地方名吃"],
   fame: "地方名吃",
   popularRegions: ["河北","全国"],
   lat: 40.9516,
   lng: 117.9634,
-  popularity: 6
+  popularity: 4
 },
 {
   id: "batch27-063",
@@ -804,7 +804,7 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   popularRegions: ["辽宁"],
   lat: 40.0008,
   lng: 124.3547,
-  popularity: 5
+  popularity: 2
 },
 
 {
@@ -823,11 +823,11 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   ingredients: ["鸡肉","豆浆","酸汤","辣椒","葱"],
   cookingMethod: ["煮","点"],
   tags: ["鲜香","主菜","骟鸡","豆腐","贵州","毕节","600年","地标","细腻","名菜"],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: ["贵州"],
   lat: 27.3017,
   lng: 105.305,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch27-067",
@@ -845,11 +845,11 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   ingredients: ["米豆腐","酸汤","辣椒","折耳根","花生"],
   cookingMethod: ["拌"],
   tags: ["酸辣", "小吃", "竹签", "贵州", "安顺", "街边", "嫩滑", "热门"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: ["贵州"],
   lat: 26.2531,
   lng: 105.9282,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch27-068",
@@ -867,11 +867,11 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   ingredients: ["猪肉", "土豆", "豆腐", "辣椒", "蔬菜"],
   cookingMethod: ["烙"],
   tags: ["香辣","主菜","烙锅","砂锅","贵州","盘州","烟火","万物皆可烙","热门"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: ["贵州"],
   lat: 25.71,
   lng: 104.4716,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch27-069",
@@ -893,7 +893,7 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   popularRegions: ["江西"],
   lat: 29.2942,
   lng: 117.1784,
-  popularity: 5
+  popularity: 2
 },
 
 {
@@ -912,11 +912,11 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   ingredients: ["鱼头","豆腐","葱","姜","料酒"],
   cookingMethod: ["熬"],
   tags: ["鲜香","汤羹","鱼头","南湾湖","河南","信阳","奶白","胶质","名菜"],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: ["河南"],
   lat: 32.1472,
   lng: 114.0911,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch27-072",
@@ -955,11 +955,11 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   ingredients: ["沙虫","大米","姜","葱","胡椒"],
   cookingMethod: ["熬"],
   tags: ["鲜香","汤羹","沙虫","海鲜","广西","北海","绵滑","鲜美","地方名吃"],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: ["广西"],
   lat: 21.4811,
   lng: 109.1201,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch27-074",
@@ -999,11 +999,11 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   ingredients: ["马肉","马肠衣","盐","蒜","香料"],
   cookingMethod: ["灌","熏"],
   tags: ["咸鲜","腌腊","马肉","熏制","新疆","伊犁","哈萨克","浓郁","传统","地方名吃"],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: ["新疆"],
   lat: 43.9168,
   lng: 81.3241,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch27-076",
@@ -1021,11 +1021,11 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   ingredients: ["猪肉","酸汤","辣椒","番茄","姜","蒜"],
   cookingMethod: ["炖"],
   tags: ["酸辣", "主菜", "酸汤", "湖南", "湘西", "凤凰", "非遗", "软糯", "热门"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: ["湖南","全国"],
   lat: 28.3141,
   lng: 109.5999,
-  popularity: 7
+  popularity: 6
 },
 
 {
@@ -1048,7 +1048,7 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   popularRegions: ["贵州"],
   lat: 25.9319,
   lng: 108.5219,
-  popularity: 6
+  popularity: 4
 },
 {
   id: "batch27-079",
@@ -1070,7 +1070,7 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   popularRegions: ["贵州"],
   lat: 25.3856,
   lng: 105.6499,
-  popularity: 6
+  popularity: 4
 },
   // 「batch27-080」已合并至「city-shiyan-1」- 十堰三合汤与郧阳三合汤为同地同物异名，均为十堰郧阳传统小吃（牛肉、粉条、饺子三合一），合并至[city-shiyan-1
   // {

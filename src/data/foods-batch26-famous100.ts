@@ -249,7 +249,7 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
   popularRegions: ["广西", "柳州", "全国"],
   lat: 24.3264,
   lng: 109.4281,
-  popularity: 8
+  popularity: 10
 }
 ,
 // 「牛油火锅」已合并至「重庆火锅」(foods-batch4-sichuan-hunan.ts batch4-cq-2) - 同地同物异名，牛油火锅即重庆火锅，牛油为重庆火锅的特征做法，主条目别名已含"牛油重庆火锅"
@@ -574,7 +574,7 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
   popularRegions: ["辽宁", "东北", "全国"],
   lat: 41.8057,
   lng: 123.4315,
-  popularity: 8
+  popularity: 9
 },
 {
   id: "batch26-famous-090",
@@ -596,7 +596,7 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
   popularRegions: ["吉林", "东北", "全国"],
   lat: 43.8378,
   lng: 126.5496,
-  popularity: 6
+  popularity: 4
 },
 {
   id: "batch26-famous-092",
@@ -618,7 +618,7 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
   popularRegions: ["福建", "泉州", "全国"],
   lat: 24.8741,
   lng: 118.6757,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch26-famous-093",
@@ -636,11 +636,11 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
   ingredients: ["鸭肉", "姜", "蒜", "酱油", "盐"],
   cookingMethod: ["煮", "浸"],
   tags: ["原味", "主菜", "琼菜", "海南", "琼海", "四大名菜", "嘉积", "番鸭", "细嫩", "地方名吃"],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: ["海南", "全国"],
   lat: 19.259,
   lng: 110.475,
-  popularity: 6
+  popularity: 5
 },
 {
   id: "batch26-famous-094",

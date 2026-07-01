@@ -1,4 +1,4 @@
-﻿import type { Food } from "@/types/food";
+import type { Food } from "@/types/food";
 
 export const FOODS_BATCH5_LU_SU: Food[] = [
   // ========== 鲁菜（八大菜系之一，发源山东）==========
@@ -24,7 +24,7 @@ export const FOODS_BATCH5_LU_SU: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch5-lu-4",
@@ -47,7 +47,7 @@ export const FOODS_BATCH5_LU_SU: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch5-lu-5",
@@ -70,7 +70,7 @@ export const FOODS_BATCH5_LU_SU: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch5-lu-6",
@@ -93,7 +93,7 @@ export const FOODS_BATCH5_LU_SU: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch5-lu-7",
@@ -116,7 +116,7 @@ export const FOODS_BATCH5_LU_SU: Food[] = [
     popularRegions: ["山东"],
     lat: 37.4638,
     lng: 121.4478,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch5-lu-8",
@@ -139,7 +139,7 @@ export const FOODS_BATCH5_LU_SU: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch5-lu-9",
@@ -162,7 +162,7 @@ export const FOODS_BATCH5_LU_SU: Food[] = [
     popularRegions: ["山东"],
     lat: 36.0671,
     lng: 120.3826,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch5-lu-10",
@@ -185,7 +185,7 @@ export const FOODS_BATCH5_LU_SU: Food[] = [
     popularRegions: ["山东"],
     lat: 37.4638,
     lng: 121.4478,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch5-lu-11",
@@ -208,7 +208,7 @@ export const FOODS_BATCH5_LU_SU: Food[] = [
     popularRegions: ["山东"],
     lat: 36.0671,
     lng: 120.3826,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch5-lu-12",
@@ -231,7 +231,7 @@ export const FOODS_BATCH5_LU_SU: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch5-lu-13",
@@ -254,7 +254,7 @@ export const FOODS_BATCH5_LU_SU: Food[] = [
     popularRegions: ["山东"],
     lat: 37.4638,
     lng: 121.4478,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch5-lu-14",
@@ -277,7 +277,7 @@ export const FOODS_BATCH5_LU_SU: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch5-lu-15",
@@ -296,11 +296,11 @@ export const FOODS_BATCH5_LU_SU: Food[] = [
     ingredients: ["鱼肉", "糟", "蛋清", "笋", "木耳"],
     cookingMethod: ["熘"],
     tags: ["鲁菜", "糟熘", "鳜鱼", "名菜", "咸鲜", "主菜", "山东"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 7,
+    popularity: 6,
   },
 
   {
@@ -324,7 +324,7 @@ export const FOODS_BATCH5_LU_SU: Food[] = [
     popularRegions: ["山东"],
     lat: 36.8031,
     lng: 117.8547,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch5-lu-24",
@@ -370,7 +370,7 @@ export const FOODS_BATCH5_LU_SU: Food[] = [
     popularRegions: ["山东"],
     lat: 37.6452,
     lng: 120.5147,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch5-lu-26",
@@ -393,7 +393,7 @@ export const FOODS_BATCH5_LU_SU: Food[] = [
     popularRegions: ["山东"],
     lat: 37.4917,
     lng: 118.2546,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch5-lu-27",
@@ -439,7 +439,7 @@ export const FOODS_BATCH5_LU_SU: Food[] = [
     popularRegions: ["山东"],
     lat: 36.7068,
     lng: 119.1619,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch5-lu-29",
@@ -462,7 +462,7 @@ export const FOODS_BATCH5_LU_SU: Food[] = [
     popularRegions: ["山东"],
     lat: 36.0671,
     lng: 120.3826,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch5-lu-30",
@@ -485,7 +485,7 @@ export const FOODS_BATCH5_LU_SU: Food[] = [
     popularRegions: ["山东"],
     lat: 36.2643,
     lng: 120.0333,
-    popularity: 5,
+    popularity: 2,
   },
   
 
@@ -508,11 +508,11 @@ export const FOODS_BATCH5_LU_SU: Food[] = [
     ingredients: ["鱼肉", "火腿", "香菇", "笋", "料酒"],
     cookingMethod: ["蒸"],
     tags: ["苏菜", "鲥鱼", "长江三鲜", "清蒸", "名菜", "嫩滑"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["江苏"],
     lat: 32.2044,
     lng: 119.4528,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch5-su-2",
@@ -531,11 +531,11 @@ export const FOODS_BATCH5_LU_SU: Food[] = [
     ingredients: ["鱼肉", "葱", "料酒", "火腿", "香菇"],
     cookingMethod: ["蒸"],
     tags: ["苏菜", "刀鱼", "长江三鲜", "清蒸", "名菜"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["江苏"],
     lat: 32.0162,
     lng: 120.8643,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch5-su-3",
@@ -554,11 +554,11 @@ export const FOODS_BATCH5_LU_SU: Food[] = [
     ingredients: ["鱼肉", "猪肉", "蛋清", "火腿", "笋"],
     cookingMethod: ["蒸"],
     tags: ["苏菜", "刀鱼", "刀工", "名菜", "爽脆"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["江苏"],
     lat: 32.3946,
     lng: 119.4127,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch5-su-4",
@@ -581,7 +581,7 @@ export const FOODS_BATCH5_LU_SU: Food[] = [
     popularRegions: ["江苏"],
     lat: 31.2989,
     lng: 120.5853,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch5-su-5",
@@ -600,11 +600,11 @@ export const FOODS_BATCH5_LU_SU: Food[] = [
     ingredients: ["茭白", "开洋", "火腿", "鸡肉", "盐"],
     cookingMethod: ["扒"],
     tags: ["苏菜", "蒲菜", "开洋", "扒", "名菜", "嫩滑"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["江苏"],
     lat: 33.5097,
     lng: 119.0218,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch5-su-6",
@@ -623,11 +623,11 @@ export const FOODS_BATCH5_LU_SU: Food[] = [
     ingredients: ["鱼肉", "酱油", "糖", "料酒", "葱"],
     cookingMethod: ["烤"],
     tags: ["苏菜", "鳜鱼", "叉烤", "名菜", "嫩滑"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["江苏"],
     lat: 31.2989,
     lng: 120.5853,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch5-su-7",
@@ -646,11 +646,11 @@ export const FOODS_BATCH5_LU_SU: Food[] = [
     ingredients: ["猪肉", "酱油", "糖", "料酒", "甜面酱"],
     cookingMethod: ["烤"],
     tags: ["苏菜", "叉烤", "名菜", "嫩滑"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["江苏"],
     lat: 32.0603,
     lng: 118.7969,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch5-su-8",
@@ -669,11 +669,11 @@ export const FOODS_BATCH5_LU_SU: Food[] = [
     ingredients: ["鱼肉", "淀粉", "番茄酱", "糖", "醋"],
     cookingMethod: ["炸", "熘"],
     tags: ["苏菜", "菊花刀", "糖醋", "名菜", "嫩滑"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["江苏"],
     lat: 31.2989,
     lng: 120.5853,
-    popularity: 7,
+    popularity: 6,
   },
 
   {
@@ -697,7 +697,7 @@ export const FOODS_BATCH5_LU_SU: Food[] = [
     popularRegions: ["江苏"],
     lat: 31.2989,
     lng: 120.5853,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch5-su-12",
@@ -720,7 +720,7 @@ export const FOODS_BATCH5_LU_SU: Food[] = [
     popularRegions: ["江苏"],
     lat: 32.0162,
     lng: 120.8643,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch5-su-13",
@@ -743,7 +743,7 @@ export const FOODS_BATCH5_LU_SU: Food[] = [
     popularRegions: ["江苏"],
     lat: 31.4543,
     lng: 121.1301,
-    popularity: 4,
+    popularity: 1,
   },
 
   {
@@ -761,11 +761,11 @@ export const FOODS_BATCH5_LU_SU: Food[] = [
     description:
       "阳羡雪芽产于宜兴（古称阳羡），茶叶纤细如雪芽，色泽翠绿，白毫显露。冲泡后汤色嫩绿明亮，清香幽雅，鲜醇回甘。唐代陆羽《茶经》载阳羡茶为贡品，是江苏历史名茶。阳羡雪芽恢复于现代，是宜兴茶的代表，体现江苏茶文化的深厚底蕴。",
     ingredients: ["茶叶"],
-    cookingMethod: ["炒"],
+    cookingMethod: ["炒", "冲泡"],
     tags: ["宜兴", "苏菜", "绿茶", "名茶", "物产", "酥脆"],
     fame: "地方名吃",
     popularRegions: ["江苏"],
     lat: 31.3614,
     lng: 119.8245,
-    popularity: 4,
+    popularity: 1,
   }];

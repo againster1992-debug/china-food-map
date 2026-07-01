@@ -23,7 +23,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["山东"],
     lat: 34.8105,
     lng: 117.3237,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-sd-2",
@@ -42,11 +42,11 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     ingredients: ["鱼肉", "葱", "料酒", "盐", "猪肉"],
     cookingMethod: ["蒸"],
     tags: ["加吉鱼", "鲁菜", "胶东菜", "清蒸", "海鲜"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["山东"],
     lat: 37.4638,
     lng: 121.4479,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch4-sd-3",
@@ -69,7 +69,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["山东"],
     lat: 36.9485,
     lng: 116.0017,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-sd-4",
@@ -88,11 +88,11 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     ingredients: ["海肠", "韭菜", "大米", "酱油", "葱"],
     cookingMethod: ["爆", "炒"],
     tags: ["海肠", "捞饭", "鲁菜", "海鲜主食", "咸鲜", "主食", "山东"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["山东"],
     lat: 37.4638,
     lng: 121.4479,
-    popularity: 5,
+    popularity: 3,
   },
   // 「诗礼银杏」(batch4-sd-5) 已合并至「孔府诗礼银杏」(city-central-qufu-1) - 同地同物异名
   {
@@ -116,7 +116,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-sd-7",
@@ -139,7 +139,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-sd-8",
@@ -162,7 +162,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-sd-10",
@@ -185,7 +185,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-sd-12",
@@ -208,7 +208,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-sd-13",
@@ -231,7 +231,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-sd-14",
@@ -250,11 +250,11 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     ingredients: ["白菜", "豆腐", "盐", "葱"],
     cookingMethod: ["煮", "炖"],
     tags: ["鲁菜", "清淡", "白菜豆腐", "粘糯", "主菜", "山东"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["山东"],
     lat: 36.2,
     lng: 117.088,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch4-sd-16",
@@ -277,7 +277,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["山东"],
     lat: 37.4638,
     lng: 121.4479,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-sd-17",
@@ -300,7 +300,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["山东"],
     lat: 37.4638,
     lng: 121.4479,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-sd-18",
@@ -323,7 +323,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["山东"],
     lat: 37.4638,
     lng: 121.4479,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-sd-20",
@@ -346,7 +346,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["山东"],
     lat: 37.4638,
     lng: 121.4479,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-sd-21",
@@ -369,7 +369,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["山东"],
     lat: 35.58,
     lng: 116.986,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-sd-22",
@@ -392,7 +392,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["山东"],
     lat: 35.58,
     lng: 116.986,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-sd-23",
@@ -415,7 +415,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["山东"],
     lat: 35.58,
     lng: 116.986,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-sd-24",
@@ -438,7 +438,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["山东"],
     lat: 35.58,
     lng: 116.986,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-sd-25",
@@ -461,7 +461,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["山东"],
     lat: 35.58,
     lng: 116.986,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-sd-26",
@@ -484,7 +484,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-sd-27",
@@ -507,7 +507,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["山东"],
     lat: 35.1045,
     lng: 118.3564,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch4-sd-28",
@@ -530,7 +530,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["山东"],
     lat: 35.1045,
     lng: 118.3564,
-    popularity: 4,
+    popularity: 1,
   },
   // ========== 豫菜（河南）==========
   {
@@ -554,7 +554,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["河南"],
     lat: 34.7971,
     lng: 114.3081,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-hn-3",
@@ -577,7 +577,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["河南"],
     lat: 34.7466,
     lng: 113.6253,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-hn-4",
@@ -600,7 +600,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["河南"],
     lat: 34.7971,
     lng: 114.3081,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-hn-5",
@@ -622,7 +622,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["河南"],
     lat: 34.7971,
     lng: 114.3081,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-hn-6",
@@ -641,11 +641,11 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     ingredients: ["海参", "蛋清", "火腿", "豆苗"],
     cookingMethod: ["蒸"],
     tags: ["豫菜", "海参", "蒸菜", "酥脆", "嫩滑"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["河南"],
     lat: 34.7971,
     lng: 114.3081,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch4-hn-7",
@@ -668,7 +668,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["河南"],
     lat: 34.7466,
     lng: 113.6253,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-hn-9",
@@ -691,7 +691,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["河南"],
     lat: 34.7466,
     lng: 113.6253,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-hn-10",
@@ -714,7 +714,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["河南"],
     lat: 34.7971,
     lng: 114.3081,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-hn-12",
@@ -737,7 +737,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["河南"],
     lat: 34.7971,
     lng: 114.3081,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-hn-13",
@@ -756,11 +756,11 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     ingredients: ["猪肉", "酱油", "糖", "葱"],
     cookingMethod: ["炖", "蒸"],
     tags: ["豫菜", "汤菜", "嫩滑", "劲道"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["河南"],
     lat: 34.7971,
     lng: 114.3081,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch4-hn-14",
@@ -783,7 +783,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["河南"],
     lat: 34.7971,
     lng: 114.3081,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch4-hn-15",
@@ -806,7 +806,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["河南"],
     lat: 34.7466,
     lng: 113.6253,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-hn-16",
@@ -829,7 +829,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["河南"],
     lat: 34.7466,
     lng: 113.6253,
-    popularity: 2,
+    popularity: 1,
   },
   {
     id: "batch4-hn-17",
@@ -852,7 +852,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["河南"],
     lat: 34.7466,
     lng: 113.6253,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch4-hn-18",
@@ -875,7 +875,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["河南"],
     lat: 34.7466,
     lng: 113.6253,
-    popularity: 2,
+    popularity: 1,
   },
   {
     id: "batch4-hn-19",
@@ -898,7 +898,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["河南"],
     lat: 34.6197,
     lng: 112.454,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-hn-20",
@@ -921,7 +921,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["河南"],
     lat: 34.7971,
     lng: 114.3081,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-hn-21",
@@ -944,7 +944,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["河南"],
     lat: 34.7466,
     lng: 113.6253,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-hn-22",
@@ -963,11 +963,11 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     ingredients: ["鱼肉", "羊肉", "葱", "料酒", "盐"],
     cookingMethod: ["炖"],
     tags: ["豫菜", "鱼羊鲜", "炖菜", "粘糯", "嫩滑", "爽脆"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["河南"],
     lat: 34.7466,
     lng: 113.6253,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch4-hn-23",
@@ -986,11 +986,11 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     ingredients: ["鱼肉", "辣椒", "花椒", "豆豉", "葱"],
     cookingMethod: ["烧", "炖"],
     tags: ["豫菜", "麻辣", "鱼菜", "酥脆", "主菜", "河南"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["河南"],
     lat: 34.7466,
     lng: 113.6253,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch4-hn-24",
@@ -1013,7 +1013,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["河南"],
     lat: 34.7971,
     lng: 114.3081,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-hn-25",
@@ -1036,7 +1036,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["河南"],
     lat: 34.7971,
     lng: 114.3081,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-hn-26",
@@ -1059,7 +1059,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["河南"],
     lat: 34.7466,
     lng: 113.6253,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-hn-27",
@@ -1082,7 +1082,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["河南"],
     lat: 34.7466,
     lng: 113.6253,
-    popularity: 2,
+    popularity: 1,
   },
   
   {
@@ -1106,7 +1106,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["河南"],
     lat: 34.7971,
     lng: 114.3081,
-    popularity: 4,
+    popularity: 1,
   },
   
   {
@@ -1130,7 +1130,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["河南"],
     lat: 34.7971,
     lng: 114.3081,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-hn-32",
@@ -1153,7 +1153,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["河南"],
     lat: 34.7971,
     lng: 114.3081,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-hn-33",
@@ -1176,7 +1176,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["河南"],
     lat: 34.7971,
     lng: 114.3081,
-    popularity: 4,
+    popularity: 1,
   },
   
   {
@@ -1200,7 +1200,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["河南"],
     lat: 34.7466,
     lng: 113.6253,
-    popularity: 2,
+    popularity: 1,
   },
   {
     id: "batch4-hn-36",
@@ -1223,7 +1223,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["河南"],
     lat: 34.7971,
     lng: 114.3081,
-    popularity: 2,
+    popularity: 1,
   },
   {
     id: "batch4-hn-37",
@@ -1246,7 +1246,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["河南"],
     lat: 34.7971,
     lng: 114.3081,
-    popularity: 2,
+    popularity: 1,
   },
   {
     id: "batch4-hn-38",
@@ -1269,7 +1269,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["河南"],
     lat: 34.7466,
     lng: 113.6253,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-hn-39",
@@ -1288,11 +1288,11 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     ingredients: ["鸭肉", "鸡肉", "鸽肉", "鹌鹑肉"],
     cookingMethod: ["蒸", "炖"],
     tags: ["豫菜", "套技", "脱骨", "宴席菜", "粘糯", "嫩滑"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["河南"],
     lat: 34.7971,
     lng: 114.3081,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch4-hn-40",
@@ -1314,7 +1314,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["河南"],
     lat: 34.7971,
     lng: 114.3081,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch4-hn-41",
@@ -1337,7 +1337,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["河南"],
     lat: 34.7971,
     lng: 114.3081,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-hn-42",
@@ -1359,7 +1359,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["河南"],
     lat: 34.7971,
     lng: 114.3081,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch4-hn-43",
@@ -1382,7 +1382,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["河南"],
     lat: 34.7971,
     lng: 114.3081,
-    popularity: 2,
+    popularity: 1,
   },
   {
     id: "batch4-hn-44",
@@ -1401,11 +1401,11 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     ingredients: ["鸡肉", "虾", "蛋清", "淀粉", "葱"],
     cookingMethod: ["煎", "酿"],
     tags: ["豫菜", "酿技", "鸡翅", "酥脆", "咸鲜", "主菜", "河南"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["河南"],
     lat: 34.7971,
     lng: 114.3081,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch4-hn-45",
@@ -1428,7 +1428,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["河南"],
     lat: 34.7971,
     lng: 114.3081,
-    popularity: 2,
+    popularity: 1,
   },
   {
     id: "batch4-hn-46",
@@ -1476,7 +1476,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["河北", "安徽"],
     lat: 38.8739,
     lng: 115.4646,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-hb-3",
@@ -1499,7 +1499,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["河北"],
     lat: 38.8739,
     lng: 115.4646,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-hb-4",
@@ -1522,7 +1522,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["河北"],
     lat: 38.8739,
     lng: 115.4646,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-hb-5",
@@ -1545,7 +1545,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["河北"],
     lat: 38.8739,
     lng: 115.4646,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-hb-6",
@@ -1568,7 +1568,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["河北"],
     lat: 38.0428,
     lng: 114.5149,
-    popularity: 2,
+    popularity: 1,
   },
   // 【已合并】平泉羊汤已合并至「承德羊汤」(batch-north-4, foods-batch-north.ts) - 同地同物异名：平泉为承德下辖县，两道羊汤均为冀菜承德羊汤，描述高度相似
   {
@@ -1592,7 +1592,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["河北", "内蒙古"],
     lat: 41.204,
     lng: 116.649,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-hb-11",
@@ -1614,7 +1614,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["河北", "内蒙古"],
     lat: 40.7686,
     lng: 114.8869,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-hb-12",
@@ -1637,7 +1637,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["河北"],
     lat: 39.6306,
     lng: 118.1804,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-hb-13",
@@ -1659,7 +1659,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["河北"],
     lat: 38.0428,
     lng: 114.5149,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "b4sh-add-1",
@@ -1701,11 +1701,11 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     ingredients: ["猪肝", "黄瓜", "木耳", "笋", "酱油", "醋"],
     cookingMethod: ["熘", "炒"],
     tags: ["鲁菜", "熘", "猪肝", "滑嫩", "咸鲜", "家常"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["山东", "全国"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "b4sh-add-3",
@@ -1751,7 +1751,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["山东", "河南", "全国"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "b4sh-add-5",
@@ -1774,7 +1774,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "b4sh-add-6",
@@ -1793,11 +1793,11 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     ingredients: ["猪肉", "鸡蛋", "淀粉", "葱", "姜", "椒盐"],
     cookingMethod: ["炸"],
     tags: ["鲁菜", "干炸", "丸子", "酥脆", "咸鲜", "宴席"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["山东", "全国"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "b4sh-add-7",
@@ -1816,11 +1816,11 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     ingredients: ["面粉", "酵母", "糖", "食用色素"],
     cookingMethod: ["蒸"],
     tags: ["鲁菜", "花饽饽", "面食", "胶东", "非遗", "面塑", "节庆"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["山东"],
     lat: 37.4638,
     lng: 121.4478,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "b4sh-add-8",
@@ -1843,7 +1843,7 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["山东", "河北", "河南"],
     lat: 36.6512,
     lng: 117.1201,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "b4sh-add-9",
@@ -1866,6 +1866,6 @@ export const FOODS_BATCH4_SHANDONG_HENAN_HEBEI: Food[] = [
     popularRegions: ["河北"],
     lat: 38.8739,
     lng: 115.4646,
-    popularity: 5,
+    popularity: 2,
   }
 ];

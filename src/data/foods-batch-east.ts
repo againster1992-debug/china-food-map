@@ -1,4 +1,4 @@
-﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
+﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
 
 export const FOODS_BATCH_EAST: Food[] = [
   // ========== 上海（本帮菜）==========
@@ -22,7 +22,7 @@ export const FOODS_BATCH_EAST: Food[] = [
     popularRegions: ["上海"],
     lat: 31.2304,
     lng: 121.4737,
-    popularity: 5,
+    popularity: 2,
   },
 
   // ========== 江苏（苏菜）==========
@@ -46,7 +46,7 @@ export const FOODS_BATCH_EAST: Food[] = [
     popularRegions: ["江苏"],
     lat: 34.2654,
     lng: 117.1849,
-    popularity: 4,
+    popularity: 1,
   },
 
   // ========== 浙江（浙菜）==========
@@ -70,7 +70,7 @@ export const FOODS_BATCH_EAST: Food[] = [
     popularRegions: ["浙江"],
     lat: 30.2741,
     lng: 120.1551,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch-east-5",
@@ -92,7 +92,7 @@ export const FOODS_BATCH_EAST: Food[] = [
     popularRegions: ["浙江"],
     lat: 27.9938,
     lng: 120.6993,
-    popularity: 4,
+    popularity: 1,
   },
 
   // ========== 安徽（徽菜）==========
@@ -112,11 +112,11 @@ export const FOODS_BATCH_EAST: Food[] = [
     ingredients: ["牛肉", "羊肉", "大麦", "面粉", "鸡蛋"],
     cookingMethod: ["熬", "煮"],
     tags: ["糁汤", "肉汤", "徽菜", "早餐", "暖身", "嫩滑"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["安徽"],
     lat: 33.6461,
     lng: 116.9641,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 福建（闽菜）==========
@@ -140,7 +140,7 @@ export const FOODS_BATCH_EAST: Food[] = [
     popularRegions: ["福建"],
     lat: 25.0755,
     lng: 117.0173,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch-east-8",
@@ -162,7 +162,7 @@ export const FOODS_BATCH_EAST: Food[] = [
     popularRegions: ["福建"],
     lat: 25.5039,
     lng: 119.7906,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch-east-9",
@@ -184,7 +184,7 @@ export const FOODS_BATCH_EAST: Food[] = [
     popularRegions: ["福建"],
     lat: 27.3393,
     lng: 117.4918,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch-east-10",
@@ -206,7 +206,7 @@ export const FOODS_BATCH_EAST: Food[] = [
     popularRegions: ["福建"],
     lat: 24.8856,
     lng: 118.8973,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch-east-11",
@@ -228,7 +228,7 @@ export const FOODS_BATCH_EAST: Food[] = [
     popularRegions: ["福建"],
     lat: 24.5131,
     lng: 117.6471,
-    popularity: 4,
+    popularity: 1,
   },
 
   // ========== 江西（赣菜）==========
@@ -248,11 +248,11 @@ export const FOODS_BATCH_EAST: Food[] = [
     ingredients: ["米粉", "牛肉", "辣椒", "葱", "酱油"],
     cookingMethod: ["炖", "煮"],
     tags: ["牛肉粉", "米粉", "赣菜", "早餐", "麻辣", "劲道"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["江西"],
     lat: 28.2602,
     lng: 117.0693,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch-east-13",
@@ -274,7 +274,7 @@ export const FOODS_BATCH_EAST: Food[] = [
     popularRegions: ["江西"],
     lat: 28.682,
     lng: 115.8579,
-    popularity: 2,
+    popularity: 1,
   },
   {
     id: "batch-east-14",
@@ -291,12 +291,12 @@ export const FOODS_BATCH_EAST: Food[] = [
     description: "兴国鱼丝以草鱼肉剁泥拌薯粉，擀薄切丝晒干。形如粉丝，却以鱼肉为主，煮后鲜滑筋道，鱼香浓郁。是兴国客家特产，谐音「余思」，寓意思念亲人，体现客家饮食文化。",
     ingredients: ["鱼肉", "红薯粉", "盐"],
     cookingMethod: ["煮"],
-    tags: ["兴国", "客家", "赣菜", "特产", "酥脆", "嫩滑", "劲道"],
+    tags: ["兴国", "客家", "赣菜", "特产", "面", "酥脆", "嫩滑", "劲道"],
     fame: "地方名吃",
     popularRegions: ["江西"],
     lat: 26.3378,
     lng: 115.3633,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch-east-15",
@@ -318,7 +318,7 @@ export const FOODS_BATCH_EAST: Food[] = [
     popularRegions: ["江西"],
     lat: 27.8043,
     lng: 114.3875,
-    popularity: 2,
+    popularity: 1,
   },
   {
     id: "batch-east-16",
@@ -340,7 +340,7 @@ export const FOODS_BATCH_EAST: Food[] = [
     popularRegions: ["江西"],
     lat: 28.682,
     lng: 115.8579,
-    popularity: 4,
+    popularity: 1,
   },
 
   // ========== 山东（鲁菜）==========
@@ -364,5 +364,5 @@ export const FOODS_BATCH_EAST: Food[] = [
     popularRegions: ["山东"],
     lat: 36.2143,
     lng: 117.6767,
-    popularity: 3,
+    popularity: 1,
   }];

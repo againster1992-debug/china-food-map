@@ -19,11 +19,11 @@ export const FOODS_BATCH_NORTH: Food[] = [
     ingredients: ["豆腐", "豆芽", "粉丝", "香菜", "豆干"],
     cookingMethod: ["炸"],
     tags: ["豆皮", "早点", "天津传统", "街头小吃", "酥脆"],
-    fame: "普通",
+    fame: "地方名吃",
     popularRegions: ["天津"],
     lat: 39.0842,
     lng: 117.2009,
-    popularity: 3,
+    popularity: 1,
   },
   // ========== 河北 ==========
   {
@@ -47,7 +47,7 @@ export const FOODS_BATCH_NORTH: Food[] = [
     popularRegions: ["石家庄", "河北"],
     lat: 38.0428,
     lng: 114.5149,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch-north-3",
@@ -70,7 +70,7 @@ export const FOODS_BATCH_NORTH: Food[] = [
     popularRegions: ["石家庄", "河北"],
     lat: 38.0428,
     lng: 114.5149,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch-north-4",
@@ -93,7 +93,7 @@ export const FOODS_BATCH_NORTH: Food[] = [
     popularRegions: ["承德", "河北"],
     lat: 40.9515,
     lng: 117.9626,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch-north-5",
@@ -116,7 +116,7 @@ export const FOODS_BATCH_NORTH: Food[] = [
     popularRegions: ["唐山", "河北"],
     lat: 39.6306,
     lng: 118.1804,
-    popularity: 4,
+    popularity: 1,
   },
   // ========== 山西 ==========
   {
@@ -136,11 +136,11 @@ export const FOODS_BATCH_NORTH: Food[] = [
     ingredients: ["黄米", "面粉", "红豆", "枣泥", "食用油"],
     cookingMethod: ["炸"],
     tags: ["油糕", "泡泡", "山西名点", "晋菜", "甜点", "酥脆"],
-    fame: "普通",
+    fame: "地方名吃",
     popularRegions: ["山西", "太原"],
     lat: 37.8706,
     lng: 112.5489,
-    popularity: 2,
+    popularity: 1,
   },
   {
     id: "batch-north-8",
@@ -163,7 +163,7 @@ export const FOODS_BATCH_NORTH: Food[] = [
     popularRegions: ["太原", "山西"],
     lat: 37.8706,
     lng: 112.5489,
-    popularity: 2,
+    popularity: 1,
   },
   {
     id: "batch-north-9",
@@ -186,7 +186,7 @@ export const FOODS_BATCH_NORTH: Food[] = [
     popularRegions: ["吕梁", "山西"],
     lat: 37.5184,
     lng: 111.1448,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch-north-10",
@@ -209,7 +209,7 @@ export const FOODS_BATCH_NORTH: Food[] = [
     popularRegions: ["大同", "山西"],
     lat: 40.0768,
     lng: 113.3001,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch-north-11",
@@ -232,7 +232,7 @@ export const FOODS_BATCH_NORTH: Food[] = [
     popularRegions: ["山西", "临汾"],
     lat: 36.0881,
     lng: 111.5190,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch-north-12",
@@ -255,7 +255,7 @@ export const FOODS_BATCH_NORTH: Food[] = [
     popularRegions: ["大同", "浑源", "山西"],
     lat: 39.6994,
     lng: 113.7186,
-    popularity: 4,
+    popularity: 1,
   },
   // ========== 辽宁 ==========
   {
@@ -279,7 +279,7 @@ export const FOODS_BATCH_NORTH: Food[] = [
     popularRegions: ["沈阳", "辽宁"],
     lat: 41.8057,
     lng: 123.4315,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch-north-15",
@@ -298,11 +298,11 @@ export const FOODS_BATCH_NORTH: Food[] = [
     ingredients: ["荞麦", "牛肉", "辣椒", "梨", "鸡蛋", "黄瓜"],
     cookingMethod: ["煮", "拌"],
     tags: ["西塔", "沈阳名吃", "东北菜", "朝鲜族", "消暑", "酥脆"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["沈阳", "辽宁"],
     lat: 41.8057,
     lng: 123.4315,
-    popularity: 6,
+    popularity: 5,
   },
   // ========== 吉林 ==========
   {
@@ -326,5 +326,5 @@ export const FOODS_BATCH_NORTH: Food[] = [
     popularRegions: ["延吉", "吉林", "东北"],
     lat: 42.8943,
     lng: 129.4570,
-    popularity: 4,
+    popularity: 1,
   }];

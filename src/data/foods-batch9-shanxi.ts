@@ -25,7 +25,7 @@ export const FOODS_BATCH9_SHANXI: Food[] = [
     popularRegions: ["太原"],
     lat: 37.8706,
     lng: 112.5489,
-    popularity: 5,
+    popularity: 3,
   },
   
   {
@@ -49,7 +49,7 @@ export const FOODS_BATCH9_SHANXI: Food[] = [
     popularRegions: ["吕梁", "忻州"],
     lat: 37.144,
     lng: 111.144,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch9-sxi-5",
@@ -72,7 +72,7 @@ export const FOODS_BATCH9_SHANXI: Food[] = [
     popularRegions: ["大同", "朔州"],
     lat: 40.0768,
     lng: 113.3001,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch9-sxi-6",
@@ -95,7 +95,7 @@ export const FOODS_BATCH9_SHANXI: Food[] = [
     popularRegions: ["太原", "晋中"],
     lat: 37.8706,
     lng: 112.5489,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch9-sxi-7",
@@ -118,7 +118,7 @@ export const FOODS_BATCH9_SHANXI: Food[] = [
     popularRegions: ["太原", "晋中"],
     lat: 37.8706,
     lng: 112.5489,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch9-sxi-8",
@@ -141,7 +141,7 @@ export const FOODS_BATCH9_SHANXI: Food[] = [
     popularRegions: ["晋中", "太原"],
     lat: 37.687,
     lng: 112.533,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch9-sxi-10",
@@ -164,7 +164,7 @@ export const FOODS_BATCH9_SHANXI: Food[] = [
     popularRegions: ["太原", "晋中"],
     lat: 37.8706,
     lng: 112.5489,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch9-sxi-11",
@@ -187,7 +187,7 @@ export const FOODS_BATCH9_SHANXI: Food[] = [
     popularRegions: ["太原", "晋中"],
     lat: 37.8706,
     lng: 112.5489,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch9-sxi-12",
@@ -210,7 +210,7 @@ export const FOODS_BATCH9_SHANXI: Food[] = [
     popularRegions: ["太原", "晋中"],
     lat: 37.8706,
     lng: 112.5489,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch9-sxi-13",
@@ -233,7 +233,7 @@ export const FOODS_BATCH9_SHANXI: Food[] = [
     popularRegions: ["太原", "晋中"],
     lat: 37.8706,
     lng: 112.5489,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch9-sxi-14",
@@ -256,7 +256,7 @@ export const FOODS_BATCH9_SHANXI: Food[] = [
     popularRegions: ["太原", "晋中"],
     lat: 37.8706,
     lng: 112.5489,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch9-shanxi-yuanping-guokui",
@@ -279,5 +279,5 @@ export const FOODS_BATCH9_SHANXI: Food[] = [
     popularRegions: ["山西", "忻州"],
     lat: 38.7333,
     lng: 112.7,
-    popularity: 6,
+    popularity: 4,
   }];

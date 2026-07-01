@@ -21,11 +21,11 @@ export const FOODS_BATCH13_PLATFORM_TRENDS: Food[] = [
     ingredients: ["糯米", "西瓜", "芒果", "芭乐", "葡萄", "花生"],
     cookingMethod: ["冰镇"],
     tags: ["香甜", "甜品", "闽菜", "福建", "网红", "夏日", "解暑"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["福州", "福建", "全国"],
     lat: 26.0745,
     lng: 119.2965,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "batch13-ice-2",
@@ -47,7 +47,7 @@ export const FOODS_BATCH13_PLATFORM_TRENDS: Food[] = [
     popularRegions: ["全国"],
     lat: 35.8617,
     lng: 104.1954,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "batch13-ice-3",
@@ -69,7 +69,7 @@ export const FOODS_BATCH13_PLATFORM_TRENDS: Food[] = [
     popularRegions: ["全国"],
     lat: 35.8617,
     lng: 104.1954,
-    popularity: 8,
+    popularity: 7,
   },
   // ==================== 二、2025-2026年网红零食（淘宝/天猫热门）====================
   {
@@ -92,7 +92,7 @@ export const FOODS_BATCH13_PLATFORM_TRENDS: Food[] = [
     popularRegions: ["全国"],
     lat: 35.8617,
     lng: 104.1954,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "batch13-snack-2",
@@ -114,7 +114,7 @@ export const FOODS_BATCH13_PLATFORM_TRENDS: Food[] = [
     popularRegions: ["全国"],
     lat: 35.8617,
     lng: 104.1954,
-    popularity: 8,
+    popularity: 7,
   },
   // ==================== 三、2025-2026年网红饮品（抖音/小红书热门）====================
   
@@ -137,11 +137,11 @@ export const FOODS_BATCH13_PLATFORM_TRENDS: Food[] = [
     ingredients: ["糯米", "榴莲", "冰皮"],
     cookingMethod: ["冷藏"],
     tags: ["香甜", "糕点", "网红", "榴莲", "端午节", "抖音电商"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["全国"],
     lat: 30.2741,
     lng: 120.1551,
-    popularity: 4,
+    popularity: 2,
   },
   
   
@@ -169,7 +169,7 @@ export const FOODS_BATCH13_PLATFORM_TRENDS: Food[] = [
     popularRegions: ["喀什", "新疆"],
     lat: 39.4704,
     lng: 75.9894,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch13-region-2",
@@ -188,11 +188,11 @@ export const FOODS_BATCH13_PLATFORM_TRENDS: Food[] = [
     ingredients: ["果酱", "猪肉", "辣椒"],
     cookingMethod: ["烤"],
     tags: ["香甜", "主菜", "桂菜", "广西", "宝藏小城", "市井"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["南宁", "宜州", "广西"],
     lat: 22.8170,
     lng: 108.3665,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "batch13-region-3",
@@ -211,11 +211,11 @@ export const FOODS_BATCH13_PLATFORM_TRENDS: Food[] = [
     ingredients: ["豆制品", "蔬菜", "卤料"],
     cookingMethod: ["卤"],
     tags: ["咸鲜", "凉菜", "鄂菜", "湖北", "宝藏小城", "市井"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["湖北"],
     lat: 30.5928,
     lng: 114.3055,
-    popularity: 5,
+    popularity: 3,
   },
   // ==================== 六、2025-2026年新疆水果热门（抖音/淘宝热门）====================
   {
@@ -239,7 +239,7 @@ export const FOODS_BATCH13_PLATFORM_TRENDS: Food[] = [
     popularRegions: ["喀什", "新疆", "全国"],
     lat: 39.4704,
     lng: 75.9894,
-    popularity: 3,
+    popularity: 2,
   },
   {
     id: "batch13-fruit-2",
@@ -255,14 +255,14 @@ export const FOODS_BATCH13_PLATFORM_TRENDS: Food[] = [
     origin: "新疆特色瓜果，2025年新疆水果新晋热门",
     description:
       "老汉瓜是新疆特色瓜果，2025年新疆水果新晋热门，与伽师新梅共同崭露头角。果实硕大，口感清甜，是新疆夏季时令水果。新疆旅游热度大幅攀升，独具特色的奶制品、烧烤、瓜果借助社交平台强势出圈，形成亿级话题声量。",
-    ingredients: [],
+    ingredients: ["甜瓜"],
     cookingMethod: ["烤", "烧"],
     tags: ["香甜", "物产", "新疆菜", "新疆", "水果", "网红"],
     fame: "地方名吃",
     popularRegions: ["新疆"],
     lat: 43.8260,
     lng: 87.6168,
-    popularity: 3,
+    popularity: 2,
   },
   // ==================== 七、2025-2026年复合口味热门（线上销售额增速）====================
   {
@@ -285,7 +285,7 @@ export const FOODS_BATCH13_PLATFORM_TRENDS: Food[] = [
     popularRegions: ["全国"],
     lat: 35.8617,
     lng: 104.1954,
-    popularity: 8,
+    popularity: 7,
   },
   // ==================== 八、武汉特色小吃（抖音烟火榜热门）====================
   // 「烧梅」已合并至「重油烧麦」(snack-85) - 同地同物异名
@@ -310,5 +310,5 @@ export const FOODS_BATCH13_PLATFORM_TRENDS: Food[] = [
     popularRegions: ["武汉", "湖北"],
     lat: 30.5928,
     lng: 114.3055,
-    popularity: 4,
+    popularity: 1,
   }];

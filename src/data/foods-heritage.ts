@@ -1,4 +1,4 @@
-﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
 
 // 中国非物质文化遗产饮食项目（国家级非物质文化遗产代表性项目）
 export const FOODS_HERITAGE: Food[] = [
@@ -24,7 +24,7 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["北京", "华北"],
     lat: 39.8959,
     lng: 116.4068,
-    popularity: 6,
+    popularity: 7,
   },
   {
     id: "heritage-4",
@@ -42,12 +42,12 @@ export const FOODS_HERITAGE: Food[] = [
       "月盛斋酱烧牛羊肉制作技艺为国家级非物质文化遗产代表性项目。月盛斋始创于1775年，是北京著名清真老字号。酱牛肉、酱羊肉选用优质牛羊肉，配以二十余味中药材和老汤酱制，肉质酥烂、香味浓郁、咸淡适中。其「老汤」传承两百余年，越陈越香。月盛斋技艺是清真饮食文化与京味文化的结晶。",
     ingredients: ["牛肉", "羊肉"],
     cookingMethod: ["酱", "卤"],
-    tags: ["非遗", "酱肉", "月盛斋", "清真菜", "百年老字号", "嫩滑"],
+    tags: ["非遗", "酱肉", "月盛斋", "清真菜", "百年老字号", "酱", "腌", "嫩滑"],
     fame: "普通",
     popularRegions: ["北京", "华北"],
     lat: 39.8959,
     lng: 116.4068,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "heritage-5",
@@ -70,7 +70,7 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["北京", "华北"],
     lat: 39.9397,
     lng: 116.3672,
-    popularity: 6,
+    popularity: 7,
   },
   // ========== 天津 ==========
   {
@@ -93,7 +93,7 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["全国"],
     lat: 39.1439,
     lng: 117.2108,
-    popularity: 8,
+    popularity: 9,
   },
   {
     id: "heritage-9",
@@ -116,7 +116,7 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["全国"],
     lat: 39.1039,
     lng: 117.1908,
-    popularity: 8,
+    popularity: 9,
   },
   // ========== 山西 ==========
   {
@@ -140,7 +140,7 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["全国"],
     lat: 37.6066,
     lng: 112.3539,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "heritage-11",
@@ -163,7 +163,7 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["全国"],
     lat: 37.3220,
     lng: 111.9219,
-    popularity: 6,
+    popularity: 8,
   },
   
   // ========== 辽宁 ==========
@@ -234,7 +234,7 @@ export const FOODS_HERITAGE: Food[] = [
     ingredients: ["豆腐", "面筋", "蘑菇", "笋"],
     cookingMethod: ["炒", "蒸", "烧", "卤"],
     tags: ["非遗", "素食", "本帮菜", "素菜荤做", "佛教"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["全国"],
     lat: 31.2304,
     lng: 121.4737,
@@ -331,7 +331,7 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["西南", "全国"],
     lat: 31.5583,
     lng: 105.971,
-    popularity: 5,
+    popularity: 3,
   },
   // ========== 贵州 ==========
   // ========== 湖南 ==========
@@ -450,7 +450,7 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["全国", "海外"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "heritage-31",
@@ -491,14 +491,14 @@ export const FOODS_HERITAGE: Food[] = [
     origin: "陕西西安同盛祥，始创于1920年",
     description:
       "同盛祥牛羊肉泡馍制作技艺为国家级非物质文化遗产代表性项目。同盛祥始创于1920年，牛羊肉泡馍以优质牛羊肉、羊骨熬汤，食客将「饦饦馍」手掰成黄豆大小碎块，交由厨师以原汤煮制。讲究「蚕食」、配糖蒜、辣酱。肉烂汤浓、馍筋光滑、肥而不腻、暖胃耐饥。牛羊肉泡馍是陕西饮食文化的代表，北宋苏轼曾赞「秦烹惟羊羹」，同盛祥技艺是其典范。",
-    ingredients: ["牛肉", "羊肉", "面粉", "粉丝", "糖"],
+    ingredients: ["牛肉", "羊肉", "面粉", "粉丝", "糖蒜"],
     cookingMethod: ["炖", "煮"],
     tags: ["非遗", "泡馍", "同盛祥", "西北菜", "清真"],
     fame: "名菜",
     popularRegions: ["全国"],
     lat: 34.2638,
     lng: 108.9398,
-    popularity: 9,
+    popularity: 10,
   },
   {
     id: "heritage-35",
@@ -521,7 +521,7 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["全国"],
     lat: 32.7800,
     lng: 119.4500,
-    popularity: 4,
+    popularity: 2,
   },
   // ========== 云南 ==========
   {
@@ -593,7 +593,7 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["全国", "海外"],
     lat: 36.0611,
     lng: 103.8343,
-    popularity: 9,
+    popularity: 10,
   },
   // ========== 新增国家级非遗美食（第二批~第五批） ==========
   {
@@ -636,7 +636,7 @@ export const FOODS_HERITAGE: Food[] = [
     ingredients: ["鸡肉", "椰子", "咖喱", "虾酱", "橄榄油"],
     cookingMethod: ["烤", "炖", "炒"],
     tags: ["饮食传统", "融合菜", "非遗", "中葡融合"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["澳门", "海外"],
     lat: 22.1987,
     lng: 113.5439,
@@ -709,7 +709,7 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["全国", "海外"],
     lat: 37.3646,
     lng: 120.4347,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "heritage-46",
@@ -751,11 +751,11 @@ export const FOODS_HERITAGE: Food[] = [
     ingredients: ["茶叶"],
     cookingMethod: ["发酵"],
     tags: ["非遗", "金花", "丝绸之路", "爽脆"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["西北", "全国"],
     lat: 34.3333,
     lng: 108.7,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "heritage-48",
@@ -801,7 +801,7 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["天津", "华北"],
     lat: 38.8733,
     lng: 116.9256,
-    popularity: 2,
+    popularity: 1,
   },
   {
     id: "heritage-50",
@@ -824,7 +824,7 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["全国"],
     lat: 37.7339,
     lng: 115.6705,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "heritage-51",
@@ -870,7 +870,7 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["北京", "华北"],
     lat: 39.8908,
     lng: 116.3974,
-    popularity: 6,
+    popularity: 7,
   },
   {
     id: "heritage-53",

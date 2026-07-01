@@ -1,4 +1,4 @@
-﻿import type { Food } from "@/types/food";
+import type { Food } from "@/types/food";
 
 export const FOODS_BATCH3_JIANGSU: Food[] = [
   // ========== 扬州（淮扬菜发源地之一）==========
@@ -19,11 +19,11 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     ingredients: ["面粉", "猪肉", "糖", "桂花"],
     cookingMethod: ["蒸"],
     tags: ["苏菜", "糕点", "早茶", "传统", "绵软"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["江苏"],
     lat: 32.3946,
     lng: 119.4128,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "batch3-js-2",
@@ -42,11 +42,11 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     ingredients: ["青菜", "面粉", "糖", "猪肉"],
     cookingMethod: ["蒸"],
     tags: ["苏菜", "糕点", "早茶", "传统", "绵软"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["江苏"],
     lat: 32.3946,
     lng: 119.4128,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "batch3-js-3",
@@ -65,11 +65,11 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     ingredients: ["鸡蛋", "虾", "火腿", "鸡肉", "淀粉"],
     cookingMethod: ["蒸", "煎"],
     tags: ["苏菜", "蛋皮", "虾仁", "传统", "绵软"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["江苏"],
     lat: 32.3946,
     lng: 119.4128,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch3-js-4",
@@ -92,7 +92,7 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     popularRegions: ["江苏"],
     lat: 32.3946,
     lng: 119.4128,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch3-js-5",
@@ -115,7 +115,7 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     popularRegions: ["江苏"],
     lat: 32.3946,
     lng: 119.4128,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch3-js-6",
@@ -138,7 +138,7 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     popularRegions: ["江苏"],
     lat: 32.3946,
     lng: 119.4128,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch3-js-7",
@@ -161,7 +161,7 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     popularRegions: ["江苏"],
     lat: 32.3946,
     lng: 119.4128,
-    popularity: 2,
+    popularity: 1,
   },
 
   // ========== 淮安（淮扬菜发源地之一）==========
@@ -181,12 +181,12 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
       "平桥豆腐以盐卤豆腐切薄片，配鲫鱼脑、鸡肉丁、香菇，用鸡汤烩制。豆腐嫩如脑，汤浓味鲜，入口即化。相传乾隆南巡途经平桥品尝后大赞，是淮扬菜豆腐名馔，刀工与火候并重。",
     ingredients: ["豆腐", "鱼肉", "鸡肉", "香菇"],
     cookingMethod: ["烧", "炖"],
-    tags: ["苏菜", "豆腐", "名菜", "传统", "酥脆", "嫩滑"],
+    tags: ["苏菜", "豆腐", "汤", "名菜", "传统", "酥脆", "嫩滑"],
     fame: "地方名吃",
     popularRegions: ["江苏"],
     lat: 33.5097,
     lng: 119.0214,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch3-js-9",
@@ -209,7 +209,7 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     popularRegions: ["江苏"],
     lat: 33.5097,
     lng: 119.0214,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch3-js-10",
@@ -228,11 +228,11 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     ingredients: ["鳝鱼", "蒜", "酱油", "香油", "胡椒"],
     cookingMethod: ["汆", "拌"],
     tags: ["苏菜", "鳝鱼", "冷菜", "传统", "酥脆", "粘糯"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["江苏"],
     lat: 33.5097,
     lng: 119.0214,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch3-js-11",
@@ -255,7 +255,7 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     popularRegions: ["江苏"],
     lat: 33.5097,
     lng: 119.0214,
-    popularity: 6,
+    popularity: 4,
   },
 
   // ========== 南京（金陵菜）==========
@@ -280,7 +280,7 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     popularRegions: ["江苏"],
     lat: 32.0603,
     lng: 118.7969,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch3-js-13",
@@ -303,7 +303,7 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     popularRegions: ["江苏"],
     lat: 32.0603,
     lng: 118.7969,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch3-js-14",
@@ -326,7 +326,7 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     popularRegions: ["江苏"],
     lat: 32.0603,
     lng: 118.7969,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch3-js-15",
@@ -349,7 +349,7 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     popularRegions: ["江苏"],
     lat: 32.0603,
     lng: 118.7969,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch3-js-16",
@@ -368,11 +368,11 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     ingredients: ["鸭肉", "鸡肉", "笋", "香菇", "葱"],
     cookingMethod: ["爆", "炒"],
     tags: ["苏菜", "鸭胰", "名菜", "传统", "劲道"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["江苏"],
     lat: 32.0603,
     lng: 118.7969,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch3-js-17",
@@ -391,11 +391,11 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     ingredients: ["虾", "蛋清", "淀粉", "笋", "葱"],
     cookingMethod: ["炒", "爆"],
     tags: ["苏菜", "虾仁", "名菜", "传统", "咸鲜", "主菜", "江苏"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["江苏"],
     lat: 32.0603,
     lng: 118.7969,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch3-js-18",
@@ -418,7 +418,7 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     popularRegions: ["江苏"],
     lat: 32.0603,
     lng: 118.7969,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch3-js-19",
@@ -437,11 +437,11 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     ingredients: ["鳝鱼", "蒜", "酱油", "糖", "鸡肉"],
     cookingMethod: ["炸", "炖"],
     tags: ["苏菜", "鳝鱼", "名菜", "传统", "咸鲜", "主菜", "江苏"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["江苏"],
     lat: 32.0603,
     lng: 118.7969,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch3-js-20",
@@ -460,11 +460,11 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     ingredients: ["鸭肉", "盐", "酱油", "八角", "姜"],
     cookingMethod: ["卤", "烤", "煮", "酱"],
     tags: ["苏菜", "鸭", "传统", "非遗", "嫩滑"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["江苏"],
     lat: 32.0603,
     lng: 118.7969,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch3-js-21",
@@ -483,11 +483,11 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     ingredients: ["鸭肉", "糖", "酱油", "八角", "姜"],
     cookingMethod: ["烤"],
     tags: ["苏菜", "鸭", "烤", "传统", "嫩滑", "劲道"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["江苏"],
     lat: 32.0603,
     lng: 118.7969,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch3-js-22",
@@ -510,7 +510,7 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     popularRegions: ["江苏"],
     lat: 32.0603,
     lng: 118.7969,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch3-js-23",
@@ -529,11 +529,11 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     ingredients: ["鸭肉", "糖", "葱", "姜", "八角"],
     cookingMethod: ["烤"],
     tags: ["苏菜", "鸭", "烤", "传统", "酥脆"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["江苏"],
     lat: 32.0603,
     lng: 118.7969,
-    popularity: 7,
+    popularity: 6,
   },
 
   // ========== 徐州（彭城菜）==========
@@ -554,11 +554,11 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     ingredients: ["狗肉", "甲鱼", "酱油", "八角", "桂皮"],
     cookingMethod: ["卤", "煮"],
     tags: ["苏菜", "狗肉", "传统", "名菜", "咸鲜", "主菜", "江苏"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["江苏"],
     lat: 34.2654,
     lng: 117.1849,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch3-js-25",
@@ -576,11 +576,11 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     ingredients: ["羊肉", "鱼肉", "葱", "姜", "料酒"],
     cookingMethod: ["炖", "焖"],
     tags: ["苏菜", "羊肉", "鱼", "彭祖", "传统", "名菜"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["江苏"],
     lat: 34.2654,
     lng: 117.1849,
-    popularity: 7,
+    popularity: 6,
   },
 
   // ========== 苏州（苏帮菜）==========
@@ -601,11 +601,11 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     ingredients: ["茶叶", "蛋清", "淀粉", "盐"],
     cookingMethod: ["炒", "爆"],
     tags: ["苏菜", "虾仁", "碧螺春", "茶馔", "传统", "绵软", "爽脆"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["江苏"],
     lat: 31.2989,
     lng: 120.5853,
-    popularity: 7,
+    popularity: 6,
   },
 
   {
@@ -629,7 +629,7 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     popularRegions: ["江苏"],
     lat: 31.2989,
     lng: 120.5853,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch3-js-29",
@@ -652,7 +652,7 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     popularRegions: ["江苏"],
     lat: 31.2989,
     lng: 120.5853,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch3-js-30",
@@ -671,11 +671,11 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     ingredients: ["鳗鱼", "猪肉", "蒜", "酱油", "糖"],
     cookingMethod: ["焖", "烧"],
     tags: ["苏菜", "鳗鱼", "焖", "传统", "咸鲜", "主菜", "江苏"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["江苏"],
     lat: 31.2989,
     lng: 120.5853,
-    popularity: 7,
+    popularity: 6,
   },
 
   {
@@ -695,11 +695,11 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     ingredients: ["鸭肉", "酱油", "糖", "料酒", "葱"],
     cookingMethod: ["焖", "烧"],
     tags: ["苏菜", "鸭", "船菜", "传统", "劲道"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["江苏"],
     lat: 31.2989,
     lng: 120.5853,
-    popularity: 7,
+    popularity: 6,
   },
   
 
@@ -725,7 +725,7 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     popularRegions: ["江苏"],
     lat: 31.4912,
     lng: 120.3119,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch3-js-36",
@@ -748,7 +748,7 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     popularRegions: ["江苏"],
     lat: 31.4912,
     lng: 120.3119,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch3-js-37",
@@ -771,7 +771,7 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     popularRegions: ["江苏"],
     lat: 31.4912,
     lng: 120.3119,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch3-js-38",
@@ -794,7 +794,7 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     popularRegions: ["江苏"],
     lat: 31.4912,
     lng: 120.3119,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch3-js-39",
@@ -817,7 +817,7 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     popularRegions: ["江苏"],
     lat: 31.4912,
     lng: 120.3119,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch3-js-40",
@@ -840,7 +840,7 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     popularRegions: ["江苏"],
     lat: 31.4912,
     lng: 120.3119,
-    popularity: 4,
+    popularity: 1,
   },
 
   // ========== 常州（常州菜）==========
@@ -865,7 +865,7 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     popularRegions: ["江苏"],
     lat: 31.7727,
     lng: 119.9469,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch3-js-42",
@@ -888,7 +888,7 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     popularRegions: ["江苏"],
     lat: 31.7727,
     lng: 119.9469,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch3-js-43",
@@ -911,7 +911,7 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     popularRegions: ["江苏"],
     lat: 31.7727,
     lng: 119.9469,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch3-js-44",
@@ -934,7 +934,7 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     popularRegions: ["江苏"],
     lat: 31.7727,
     lng: 119.9469,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch3-js-45",
@@ -953,9 +953,9 @@ export const FOODS_BATCH3_JIANGSU: Food[] = [
     ingredients: ["鱼肉", "姜", "葱", "料酒", "盐"],
     cookingMethod: ["炖", "煮"],
     tags: ["苏菜", "鱼头", "汤", "名菜", "传统"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["江苏"],
     lat: 31.7727,
     lng: 119.9469,
-    popularity: 6,
+    popularity: 5,
   }];

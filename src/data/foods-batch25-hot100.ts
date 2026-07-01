@@ -17,11 +17,11 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   ingredients: ["糯米", "芋头", "水果", "阿达子", "仙草", "冰糖"],
   cookingMethod: ["蒸", "煮", "冷藏"],
   tags: ["酸甜", "小吃", "闽菜", "福建", "福州", "冰镇", "消暑", "抖音爆款", "网红"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: ["福建", "全国"],
   lat: 26.0745,
   lng: 119.2965,
-  popularity: 7
+  popularity: 6
 },
 // 「batch25-hot-002」已删除 - 低质量网红变体：batch25-hot-002「黑芝麻酱麻辣烫」(辽宁沈阳) 描述为占位符「（建议保留但补充说明为网红新品）」，标签含「网红」「2026爆款」「顶流」，属低质量网红变体，依据去重规则4予以删除。
 // {
@@ -66,7 +66,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["全国"],
   lat: 35,
   lng: 105,
-  popularity: 8
+  popularity: 7
 },
   // 「芝士瀑布汉堡」已合并至「芝士瀑布双层汉堡」(foods-batch28-hot100.ts batch28-hot-051) - 同地同物异名（图片相同）
 // 「草原奶皮子酸奶」已合并至「内蒙奶皮子酸奶」(foods-batch28-hot100.ts batch28-hot-001) - 同地同物异名
@@ -86,11 +86,11 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   ingredients: ["猪蹄", "鸡爪", "豆干", "海带", "莲藕", "辣椒", "花椒", "香料"],
   cookingMethod: ["卤", "煮"],
   tags: ["香辣", "小吃", "川菜", "四川", "成都", "卤味", "串串", "夜市", "街头美食"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: ["四川", "全国"],
   lat: 30.5728,
   lng: 104.0668,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch25-hot-007",
@@ -112,7 +112,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["陕西", "全国"],
   lat: 34.3416,
   lng: 108.9398,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch25-hot-008",
@@ -130,11 +130,11 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   ingredients: ["鸡肉", "柠檬", "辣椒", "醋", "蒜", "香菜"],
   cookingMethod: ["煮", "泡", "去骨"],
   tags: ["酸辣", "小吃", "川菜", "四川", "成都", "抖音爆款", "便携", "追剧", "解馋"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: ["四川", "全国"],
   lat: 30.5728,
   lng: 104.0668,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch25-hot-009",
@@ -152,11 +152,11 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   ingredients: ["猪肉", "面粉", "土豆", "黄油", "辣椒"],
   cookingMethod: ["烤", "卷", "蒸"],
   tags: ["香辣", "小吃", "冀菜", "河北", "石家庄", "早餐", "学生", "爆款", "碳水"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: ["河北", "全国"],
   lat: 38.0428,
   lng: 114.5149,
-  popularity: 6
+  popularity: 5
 },
 // 「肉松海苔麻薯贝」已合并至「肉松小贝」(foods-popular.ts hot-109) - 同物变体
 {
@@ -179,7 +179,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["全国"],
   lat: 35,
   lng: 105,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch25-hot-016",
@@ -201,7 +201,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["全国"],
   lat: 35,
   lng: 105,
-  popularity: 8
+  popularity: 7
 },
 
 {
@@ -221,11 +221,11 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   ingredients: ["海肠", "猪肉", "面粉", "韭菜", "姜"],
   cookingMethod: ["煮"],
   tags: ["鲜香", "主食", "鲁菜", "山东", "烟台", "海鲜", "鲜甜", "饺子", "顶流"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: ["山东", "全国"],
   lat: 37.4765,
   lng: 121.4479,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch25-hot-019",
@@ -247,7 +247,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["上海", "全国"],
   lat: 31.2304,
   lng: 121.4737,
-  popularity: 6
+  popularity: 4
 },
 {
   id: "batch25-hot-020",
@@ -265,11 +265,11 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   ingredients: ["鸭掌", "辣椒", "花椒", "芝麻", "红油", "蒜"],
   cookingMethod: ["煮", "泡", "去骨"],
   tags: ["麻辣", "小吃", "川菜", "四川", "成都", "追剧", "解馋", "下酒", "网红"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: ["四川", "全国"],
   lat: 30.5728,
   lng: 104.0668,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch25-hot-021",
@@ -287,11 +287,11 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   ingredients: ["猪肉", "山楂", "冰糖", "酱油", "姜"],
   cookingMethod: ["炖", "焖"],
   tags: ["酸甜", "主菜", "粤菜", "广东", "广州", "家常", "创意", "解腻", "开胃"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: ["广东", "全国"],
   lat: 23.1291,
   lng: 113.2644,
-  popularity: 6
+  popularity: 5
 },
 {
   id: "batch25-hot-023",
@@ -309,11 +309,11 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   ingredients: ["糯米粉", "芭乐", "杨梅", "红糖", "冰块"],
   cookingMethod: ["煮", "冷藏", "打浆"],
   tags: ["酸甜", "甜品", "潮菜", "广东", "潮州", "夏季", "限定", "颜值", "出片"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: ["广东", "全国"],
   lat: 23.6568,
   lng: 116.6226,
-  popularity: 6
+  popularity: 5
 },
 {
   id: "batch25-hot-024",
@@ -335,7 +335,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["台湾", "全国"],
   lat: 25.033,
   lng: 121.5654,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch25-hot-025",
@@ -357,7 +357,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["全国"],
   lat: 35,
   lng: 105,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch25-hot-028",
@@ -379,7 +379,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["云南", "全国"],
   lat: 25.0389,
   lng: 102.7183,
-  popularity: 6
+  popularity: 4
 },
 
 {
@@ -426,7 +426,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["云南", "全国"],
   lat: 25.0206,
   lng: 98.4904,
-  popularity: 6
+  popularity: 4
 },
 {
   id: "batch25-hot-036",
@@ -448,7 +448,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["福建", "全国"],
   lat: 25.056,
   lng: 118.1868,
-  popularity: 8
+  popularity: 7
 },
 // 「拇指生煎包配蘸水」已合并至「拇指生煎包」(foods-batch28-hot100.ts batch28-hot-003) - 同物异名
 {
@@ -471,7 +471,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["全国"],
   lat: 35,
   lng: 105,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch25-hot-043",
@@ -493,7 +493,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["辽宁", "东北", "全国"],
   lat: 41.8057,
   lng: 123.4315,
-  popularity: 6
+  popularity: 4
 },
 {
   id: "batch25-hot-044",
@@ -511,11 +511,11 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   ingredients: ["牛肉", "面粉", "猪油", "花椒", "葱"],
   cookingMethod: ["炸", "卷"],
   tags: ["香辣", "小吃", "湘菜", "湖南", "长沙", "网红", "酥脆", "爆汁", "金丝"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: ["湖南", "全国"],
   lat: 28.2278,
   lng: 112.9388,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch25-hot-045",
@@ -537,7 +537,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["浙江", "全国"],
   lat: 29.8683,
   lng: 121.544,
-  popularity: 6
+  popularity: 4
 },
 {
   id: "batch25-hot-046",
@@ -559,7 +559,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["辽宁", "东北", "全国"],
   lat: 41.8808,
   lng: 123.9572,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch25-hot-047",
@@ -577,11 +577,11 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   ingredients: ["松茸", "黄油", "海盐"],
   cookingMethod: ["煎"],
   tags: ["鲜香", "主菜", "滇菜", "云南", "迪庆", "季节性", "松茸", "高端", "爆款", "黄油"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: ["云南", "全国"],
   lat: 27.826,
   lng: 99.702,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch25-hot-048",
@@ -603,7 +603,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["全国"],
   lat: 35,
   lng: 105,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch25-hot-049",
@@ -625,7 +625,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["全国"],
   lat: 35,
   lng: 105,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch25-hot-051",
@@ -647,7 +647,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["广东", "全国"],
   lat: 21.2707,
   lng: 110.3594,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch25-hot-053",
@@ -669,7 +669,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["全国"],
   lat: 35,
   lng: 105,
-  popularity: 8
+  popularity: 7
 },
 
 {
@@ -692,7 +692,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["全国"],
   lat: 35,
   lng: 105,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch25-hot-056",
@@ -710,11 +710,11 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   ingredients: ["面粉", "虾", "葱", "油", "酱油", "糖"],
   cookingMethod: ["煮", "炸", "拌"],
   tags: ["咸鲜", "面食", "本帮菜", "上海", "葱油", "虾仁", "经典", "升级", "持续走红"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: ["上海", "全国"],
   lat: 31.2304,
   lng: 121.4737,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch25-hot-057",
@@ -755,11 +755,11 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   ingredients: ["猪蹄", "辣椒", "孜然", "花椒", "卤料"],
   cookingMethod: ["卤", "烤"],
   tags: ["香辣", "小吃", "滇菜", "云南", "昆明", "夜市", "烧烤", "胶原蛋白", "爆款"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: ["云南", "全国"],
   lat: 25.0389,
   lng: 102.7183,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch25-hot-060",
@@ -781,7 +781,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["浙江", "全国"],
   lat: 30.771,
   lng: 120.755,
-  popularity: 6
+  popularity: 4
 },
 {
   id: "batch25-hot-061",
@@ -822,11 +822,11 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   ingredients: ["牛肉", "薄荷", "柠檬", "辣椒", "蒜", "鱼露"],
   cookingMethod: ["卤", "拌"],
   tags: ["鲜香", "凉菜", "滇菜", "云南", "昆明", "清凉", "薄荷", "消暑", "特色"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: ["云南", "全国"],
   lat: 25.0389,
   lng: 102.7183,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch25-hot-066",
@@ -844,11 +844,11 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   ingredients: ["鸡肉", "花椒", "辣椒", "盐", "油"],
   cookingMethod: ["煮", "泡"],
   tags: ["麻辣", "凉菜", "川菜", "四川", "乐山", "麻香", "清爽", "夏季", "爆款"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: ["四川", "全国"],
   lat: 29.5521,
   lng: 103.7656,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch25-hot-067",
@@ -870,7 +870,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["新疆", "全国"],
   lat: 43.7928,
   lng: 87.6271,
-  popularity: 8
+  popularity: 7
 },
 // 「馕坑烤包子」(batch25-hot-068) 已合并至「烤包子」(batch26-famous-084) - 同地同物重复
 // {
@@ -911,11 +911,11 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   ingredients: ["鱼肉", "猪肉", "蔬菜", "米粉", "辣椒", "酱油"],
   cookingMethod: ["蒸"],
   tags: ["咸鲜", "主菜", "鄂菜", "湖北", "沔阳", "非遗", "蒸菜", "鲜嫩", "原味"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: ["湖北", "全国"],
   lat: 30.364,
   lng: 113.454,
-  popularity: 7
+  popularity: 6
 },
 // 「糟粕醋海鲜火锅」已合并至「糟粕醋火锅」(foods-batch28-hot100.ts batch28-hot-067) - 同地同物异名
 {
@@ -934,11 +934,11 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   ingredients: ["鱼肉", "豆花", "辣椒", "花椒", "豆瓣酱", "蒜"],
   cookingMethod: ["烤", "煮"],
   tags: ["麻辣", "主菜", "川菜", "四川", "成都", "烤鱼", "豆花", "创新", "人气"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: ["四川", "全国"],
   lat: 30.5728,
   lng: 104.0668,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch25-hot-073",
@@ -956,11 +956,11 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   ingredients: ["鹅肉", "酸菜", "土豆", "粉条", "葱", "姜"],
   cookingMethod: ["炖", "焖"],
   tags: ["酸辣", "主菜", "东北菜", "黑龙江", "哈尔滨", "铁锅炖", "冬季", "暖身", "酸菜"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: ["黑龙江", "东北", "全国"],
   lat: 45.8038,
   lng: 126.535,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch25-hot-075",
@@ -1004,7 +1004,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["甘肃", "全国"],
   lat: 38.9258,
   lng: 100.4498,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch25-hot-078",
@@ -1026,7 +1026,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["宁夏", "西北", "全国"],
   lat: 38.4872,
   lng: 106.2309,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch25-hot-080",
@@ -1070,7 +1070,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["山西", "全国"],
   lat: 37.8706,
   lng: 112.5489,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch25-hot-085",
@@ -1091,7 +1091,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["全国"],
   lat: 35.0,
   lng: 105.0,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch25-hot-088",
@@ -1113,7 +1113,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["辽宁", "全国"],
   lat: 38.914,
   lng: 121.6147,
-  popularity: 5
+  popularity: 2
 },
 
 // 「姜汁撞奶」(batch25-hot-090) 已合并至「姜撞奶」(hot-35, foods-popular.ts) - 同地同物异名，姜汁撞奶即姜撞奶，番禺属广州，合并至主条目
@@ -1156,11 +1156,11 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   ingredients: ["面包", "糖", "酵母", "水"],
   cookingMethod: ["发酵"],
   tags: ["甜", "饮品", "东北菜", "黑龙江", "哈尔滨", "俄式", "发酵", "气泡", "特色", "独特"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: ["黑龙江", "东北", "全国"],
   lat: 45.8038,
   lng: 126.535,
-  popularity: 7
+  popularity: 6
 },
 
 {
@@ -1183,7 +1183,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["甘肃", "西北", "全国"],
   lat: 36.0611,
   lng: 103.8343,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch25-hot-097",
@@ -1205,7 +1205,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["全国"],
   lat: 35,
   lng: 105,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch25-hot-098",
@@ -1249,5 +1249,5 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["内蒙古", "全国"],
   lat: 43.6529,
   lng: 122.2447,
-  popularity: 8
+  popularity: 7
 }];

@@ -24,7 +24,8 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["河南"],
     lat: 34.6197,
     lng: 112.454,
-    popularity: 6,
+    fame: "地方名吃",
+    popularity: 4,
   },
   {
     id: "hn-7",
@@ -69,7 +70,8 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["河南"],
     lat: 34.7971,
     lng: 114.308,
-    popularity: 6,
+    fame: "地方名吃",
+    popularity: 4,
   },
   
   {
@@ -88,11 +90,12 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
       "邓城猪蹄以猪蹄老汤卤制，色泽红润，软烂脱骨，肥而不腻。叶氏家族传承百年，是周口名吃。冷食热食皆宜，佐酒下饭两相宜，体现豫东饮食的实在与醇厚。",
     ingredients: ["猪肉", "八角", "桂皮", "酱油", "糖"],
     cookingMethod: ["卤"],
-    tags: ["猪蹄", "卤味", "邓城", "周口", "豫菜", "叶氏", "下酒菜"],
+    tags: ["猪蹄", "卤味", "卤", "邓城", "周口", "豫菜", "叶氏", "下酒菜", "腌腊"],
     popularRegions: ["河南"],
     lat: 33.54,
     lng: 114.6,
-    popularity: 5,
+    fame: "普通",
+    popularity: 2,
   },
   {
     id: "hn-11",
@@ -114,7 +117,8 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["河南"],
     lat: 34.8,
     lng: 114.3,
-    popularity: 4,
+    fame: "普通",
+    popularity: 1,
   },
   {
     id: "hn-12",
@@ -136,7 +140,8 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["河南"],
     lat: 34.55,
     lng: 114.78,
-    popularity: 4,
+    fame: "普通",
+    popularity: 1,
   },
 
   // ========== 湖北（鄂菜）==========
@@ -162,7 +167,8 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["湖北"],
     lat: 30.5928,
     lng: 114.3055,
-    popularity: 6,
+    fame: "地方名吃",
+    popularity: 4,
   },
   
   
@@ -186,7 +192,8 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["湖北"],
     lat: 31.0354,
     lng: 112.2046,
-    popularity: 5,
+    fame: "普通",
+    popularity: 2,
   },
   {
     id: "hub-10",
@@ -208,7 +215,8 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["湖北"],
     lat: 30.9244,
     lng: 113.9268,
-    popularity: 6,
+    fame: "地方名吃",
+    popularity: 4,
   },
   
   {
@@ -232,7 +240,7 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     lng: 112.8963,
     fame: "热门",
     popularRegions: ["湖北"],
-    popularity: 8,
+    popularity: 7,
   },
 
   // ========== 湖南（湘菜，八大菜系之一）==========
@@ -273,7 +281,7 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     origin: "湖南民间，湘人腊月腌制传统",
     description:
       "腊味合蒸以腊肉、腊鸡、腊鱼等蒸制。烟熏香浓，咸鲜醇厚，肥而不腻。是湖南「无腊不过年」的代表，湘菜「腊味」的灵魂。家家腊月熏制，是湘人最深的年味记忆。",
-    ingredients: ["辣椒", "豆豉"],
+    ingredients: ["腊肉", "腊鱼", "豆豉", "辣椒"],
     cookingMethod: ["蒸"],
     tags: ["合蒸", "湘菜", "烟熏", "年味", "腊肉"],
     lat: 28.3,
@@ -302,7 +310,8 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["湖南"],
     lat: 28.157,
     lng: 113.643,
-    popularity: 6,
+    fame: "地方名吃",
+    popularity: 4,
   },
   {
     id: "hun-9",
@@ -325,7 +334,7 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     lng: 112.9388,
     fame: "地方名吃",
     popularRegions: ["湖南"],
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "hun-10",
@@ -347,7 +356,8 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["湖南"],
     lat: 28.2278,
     lng: 112.9388,
-    popularity: 5,
+    fame: "普通",
+    popularity: 2,
   },
   
   
@@ -394,7 +404,8 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["湖南"],
     lat: 26.8935,
     lng: 112.572,
-    popularity: 6,
+    fame: "地方名吃",
+    popularity: 4,
   },
 
   // ========== 广东（粤菜，四大菜系之一）==========
@@ -535,7 +546,8 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["广东"],
     lat: 22.805,
     lng: 113.238,
-    popularity: 6,
+    fame: "地方名吃",
+    popularity: 4,
   },
   {
     id: "gd-12",
@@ -557,7 +569,8 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["广东"],
     lat: 23.0472,
     lng: 112.4658,
-    popularity: 5,
+    fame: "普通",
+    popularity: 2,
   },
 
   // ========== 广西（桂菜）==========
@@ -604,7 +617,8 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["广西"],
     lat: 22.6569,
     lng: 110.1547,
-    popularity: 5,
+    fame: "普通",
+    popularity: 2,
   },
   
   
@@ -629,7 +643,7 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     lng: 110.83,
     fame: "地方名吃",
     popularRegions: ["广西"],
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "gx-9",
@@ -651,7 +665,8 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["广西"],
     lat: 22.687,
     lng: 109.266,
-    popularity: 5,
+    fame: "普通",
+    popularity: 2,
   },
   {
     id: "gx-10",
@@ -673,7 +688,8 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["广西"],
     lat: 25.2736,
     lng: 110.2907,
-    popularity: 5,
+    fame: "普通",
+    popularity: 2,
   },
   {
     id: "gx-11",
@@ -696,7 +712,7 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     lng: 108.6543,
     fame: "地方名吃",
     popularRegions: ["广西"],
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "gx-12",
@@ -718,7 +734,8 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["广西"],
     lat: 23.4767,
     lng: 111.2791,
-    popularity: 6,
+    fame: "地方名吃",
+    popularity: 4,
   },
 
   // ========== 海南（琼菜）==========
@@ -739,6 +756,7 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     ingredients: ["姜", "料酒", "枸杞", "当归"],
     cookingMethod: ["炖", "焖"],
     tags: ["万宁", "琼菜", "四大名菜", "羊肉", "贡品"],
+    fame: "名菜",
     popularRegions: ["海南"],
     lat: 18.7952,
     lng: 110.3894,
@@ -762,6 +780,7 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     ingredients: ["蟹", "姜", "醋"],
     cookingMethod: ["蒸"],
     tags: ["万宁", "琼菜", "四大名菜", "螃蟹", "海鲜", "嫩滑"],
+    fame: "名菜",
     popularRegions: ["海南"],
     lat: 18.7952,
     lng: 110.3894,
@@ -788,7 +807,7 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     lng: 110.7541,
     fame: "地方名吃",
     popularRegions: ["海南"],
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "hi-7",
@@ -810,7 +829,8 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["海南"],
     lat: 18.7952,
     lng: 110.3894,
-    popularity: 5,
+    fame: "普通",
+    popularity: 2,
   },
   {
     id: "hi-8",
@@ -857,7 +877,8 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["海南"],
     lat: 19.834,
     lng: 109.69,
-    popularity: 6,
+    fame: "地方名吃",
+    popularity: 4,
   },
   {
     id: "hi-12",
@@ -879,7 +900,8 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     popularRegions: ["海南"],
     lat: 19.2581,
     lng: 110.4747,
-    popularity: 5,
+    fame: "普通",
+    popularity: 2,
   },
   {
     "id": "hn-13",

@@ -88,7 +88,7 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     popularRegions: ["全国"],
     lat: 31.4912,
     lng: 120.3119,
-    popularity: 7,
+    popularity: 9,
   }    ,
   {
     id: "batch7-national-15",
@@ -137,7 +137,7 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 8,
+    popularity: 7,
   },
   // ========== 全国小吃零食 ==========
   {
@@ -160,7 +160,7 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 8,
+    popularity: 7,
   },
   
   {
@@ -183,7 +183,7 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "batch7-national-29",
@@ -205,7 +205,7 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "batch7-national-30",
@@ -227,7 +227,7 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "batch7-national-31",
@@ -249,7 +249,7 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 8,
+    popularity: 7,
   },  {
     id: "batch7-national-33",
     name: "鹌鹑蛋",
@@ -270,7 +270,7 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "batch7-national-34",
@@ -292,7 +292,7 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 8,
+    popularity: 7,
   },
   // ========== 全国饮品甜品 ==========
   {
@@ -359,7 +359,7 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     popularRegions: ["全国"],
     lat: 39.0842,
     lng: 117.2009,
-    popularity: 8,
+    popularity: 9,
   },
   {
     id: "batch7-national-43",
@@ -402,9 +402,9 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     ingredients: ["鸡肉", "酱油", "八角", "辣椒", "糖"],
     cookingMethod: ["卤", "炸", "蒸"],
     tags: ["国民美食", "小吃", "卤味", "全国流行", "粘糯"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["全国"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 7,
+    popularity: 6,
   }];

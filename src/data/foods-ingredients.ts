@@ -1,4 +1,4 @@
-﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
 
 // 中国各地特产食材、发酵食品、调味品
 export const FOODS_INGREDIENTS: Food[] = [
@@ -25,7 +25,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["云南", "四川"],
     lat: 25.04,
     lng: 101.55,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ingredient-4",
@@ -117,7 +117,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["福建", "全国"],
     lat: 26.58,
     lng: 118.74,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ingredient-8",
@@ -159,7 +159,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     ingredients: ["蘑菇", "鸡肉", "糖"],
     cookingMethod: ["炖", "蒸", "炒"],
     tags: ["特产食材", "菌菇", "海林", "滋补", "嫩滑", "爽脆"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["黑龙江", "全国"],
     lat: 44.57,
     lng: 129.38,
@@ -186,7 +186,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["浙江", "全国"],
     lat: 27.45,
     lng: 119.06,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 水产类 ==========
@@ -211,7 +211,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["安徽", "江苏"],
     lat: 31.58,
     lng: 117.86,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "ingredient-12",
@@ -234,7 +234,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["江西", "安徽"],
     lat: 29.05,
     lng: 116.32,
-    popularity: 5,
+    popularity: 3,
   },
   // 「ingredient-13」已合并至「gen-f-2025-112」- 洪泽湖小龙虾与盱眙龙虾为同物异名，盱眙龙虾为国家地理标志产品且名称更通用，ingredient-13别称已含"盱眙小龙虾
   //   {
@@ -282,7 +282,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["天津", "河北", "山东"],
     lat: 39.0,
     lng: 117.7,
-    popularity: 5,
+    popularity: 3,
   },
   
   
@@ -302,12 +302,12 @@ export const FOODS_INGREDIENTS: Food[] = [
       "微山湖麻鸭蛋以微山湖放养麻鸭所产为佳，蛋黄红润流油，蛋白细嫩，是国家地理标志产品。微山湖是中国北方最大淡水湖，水草丰茂，鱼虾丰富，麻鸭自由觅食，所产鸭蛋「蛋黄红润，油多味鲜」。腌制后蛋黄如橘红，切开流油，是鲁菜经典食材。微山湖麻鸭蛋可煮食、做菜，是山东伴手礼代表。是济宁名片，「微山湖麻鸭蛋」体现北方湖鲜饮食文化，是鲁菜的灵魂食材，承载微山湖千年渔家传统。",
     ingredients: ["鸭蛋", "盐"],
     cookingMethod: ["腌", "煮"],
-    tags: ["特产食材", "蛋类", "鸭蛋", "微山湖", "劲道", "爽脆"],
+    tags: ["特产食材", "蛋类", "鸭蛋", "微山湖", "咸蛋", "劲道", "爽脆"],
     fame: "地方名吃",
     popularRegions: ["山东", "江苏"],
     lat: 35.41,
     lng: 116.59,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 畜禽类 ==========
@@ -332,7 +332,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["浙江", "全国"],
     lat: 29.08,
     lng: 119.65,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "ingredient-20",
@@ -351,7 +351,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     ingredients: ["猪肉"],
     cookingMethod: ["炒", "炖", "烧"],
     tags: ["特产食材", "畜禽", "猪种", "宁乡", "嫩滑"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["湖南", "全国"],
     lat: 28.27,
     lng: 112.17,
@@ -378,7 +378,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["重庆", "四川"],
     lat: 29.4,
     lng: 105.59,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "ingredient-22",
@@ -401,7 +401,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["北京", "全国"],
     lat: 39.9,
     lng: 116.41,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ingredient-24",
@@ -424,7 +424,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["江西", "全国"],
     lat: 26.79,
     lng: 114.91,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ingredient-26",
@@ -472,7 +472,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["山东", "全国"],
     lat: 36.21,
     lng: 117.66,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ingredient-28",
@@ -495,7 +495,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["山东", "全国"],
     lat: 34.85,
     lng: 118.0,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ingredient-29",
@@ -518,7 +518,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["山东", "全国"],
     lat: 35.07,
     lng: 116.31,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ingredient-30",
@@ -541,7 +541,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["山西", "全国"],
     lat: 39.56,
     lng: 113.19,
-    popularity: 5,
+    popularity: 3,
   },
   
   {
@@ -565,7 +565,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["河北", "北京", "天津"],
     lat: 41.16,
     lng: 114.72,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 豆类 ==========
@@ -590,7 +590,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["黑龙江", "吉林", "辽宁"],
     lat: 45.8,
     lng: 126.53,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ingredient-34",
@@ -613,7 +613,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["云南", "全国"],
     lat: 25.04,
     lng: 101.55,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "ingredient-35",
@@ -636,7 +636,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["河北", "全国"],
     lat: 40.77,
     lng: 114.89,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 茶叶类 ==========
@@ -709,7 +709,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["黑龙江", "吉林", "辽宁"],
     lat: 45.8,
     lng: 126.53,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ingredient-46",
@@ -732,7 +732,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["广东", "香港", "澳门"],
     lat: 23.02,
     lng: 113.12,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ingredient-47",
@@ -755,7 +755,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["广东", "香港"],
     lat: 23.3,
     lng: 116.17,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 发酵食品 - 豆制品 ==========
@@ -780,7 +780,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["浙江", "上海"],
     lat: 30.0,
     lng: 120.58,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 发酵食品 - 腌制类 ==========
@@ -805,7 +805,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["浙江", "全国"],
     lat: 30.04,
     lng: 121.15,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ingredient-56",
@@ -824,7 +824,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     ingredients: ["萝卜", "黄瓜", "姜", "甜面酱"],
     cookingMethod: ["腌", "发酵"],
     tags: ["发酵食品", "腌", "鲜香", "腌腊", "江苏"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["江苏", "全国"],
     lat: 32.39,
     lng: 119.41,
@@ -879,7 +879,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["广东", "香港", "澳门"],
     lat: 23.02,
     lng: 112.99,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "ingredient-63",
@@ -895,7 +895,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     origin: "广西壮族自治区桂林市",
     description:
       "桂林三花酒以桂林所产为佳，色泽清澈，米香浓郁，醇和甘爽，是国家地理标志产品，是桂林「三宝」之一（腐乳、辣椒酱、三花酒）。桂林三花酒以大米为原料，经「三次蒸馏」工艺制成，故名「三花」。始于宋代，已有千年历史，是米香型白酒代表。桂林三花酒以「米香、低度、清爽」著称，是桂菜烹饪的重要调味，亦是桂林人待客的佳酿。是桂林名片，「桂林三花酒」体现岭南酿酒智慧，是桂菜的重要调味，承载桂林千年酿酒传统，是「中国米酒之王」。",
-    ingredients: ["大米", "辣椒", "辣椒酱"],
+    ingredients: ["大米"],
     cookingMethod: ["发酵", "蒸馏"],
     tags: ["发酵食品", "酒酿", "米酒", "三花酒", "爽脆"],
     fame: "名菜",
@@ -925,7 +925,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["福建", "全国"],
     lat: 26.07,
     lng: 119.3,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "ingredient-65",
@@ -948,7 +948,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["山东", "全国"],
     lat: 36.39,
     lng: 120.45,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 发酵食品 - 其他 ==========
@@ -974,7 +974,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["广东", "福建", "江西"],
     lat: 24.3,
     lng: 116.12,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 调味品 ==========
@@ -1045,7 +1045,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["广东", "广西"],
     lat: 21.27,
     lng: 110.36,
-    popularity: 5,
+    popularity: 3,
   },
   
   
@@ -1070,7 +1070,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["天津", "河北"],
     lat: 39.24,
     lng: 117.79,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 特色调料补充 ==========
@@ -1118,7 +1118,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["福建", "台湾"],
     lat: 24.48,
     lng: 118.09,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ingredient-79",
@@ -1141,7 +1141,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["广西"],
     lat: 22.82,
     lng: 108.37,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "ingredient-81",
@@ -1164,7 +1164,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["贵州", "云南"],
     lat: 26.65,
     lng: 106.71,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "ingredient-82",
@@ -1233,7 +1233,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["云南", "贵州"],
     lat: 25.04,
     lng: 102.71,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ingredient-85",
@@ -1279,7 +1279,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["海南"],
     lat: 19.54,
     lng: 110.75,
-    popularity: 5,
+    popularity: 3,
   },
   
   {
@@ -1303,7 +1303,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["江西"],
     lat: 27.32,
     lng: 115.44,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "ingredient-89",
@@ -1349,7 +1349,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["山东", "辽宁"],
     lat: 37.46,
     lng: 121.45,
-    popularity: 5,
+    popularity: 3,
   }
   // ========== 新增中国特色调料 ==========
   ,
@@ -1397,7 +1397,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["吉林", "辽宁", "黑龙江"],
     lat: 42.89,
     lng: 129.51,
-    popularity: 6,
+    popularity: 5,
   },
   
   {
@@ -1421,7 +1421,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["四川", "江苏", "浙江", "全国"],
     lat: 30.67,
     lng: 104.07,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ingredient-96",
@@ -1444,7 +1444,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["浙江", "江苏", "广东", "全国"],
     lat: 30.0,
     lng: 120.58,
-    popularity: 6,
+    popularity: 5,
   },
   
   {
@@ -1468,7 +1468,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["广东", "香港", "澳门"],
     lat: 23.13,
     lng: 113.26,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ingredient-99",
@@ -1491,7 +1491,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["浙江", "江苏", "上海", "全国"],
     lat: 30.27,
     lng: 120.15,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ingredient-100",
@@ -1514,7 +1514,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["云南", "全国"],
     lat: 25.04,
     lng: 102.71,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ingredient-103",
@@ -1537,7 +1537,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["四川", "重庆", "陕西", "全国"],
     lat: 30.67,
     lng: 104.07,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ingredient-104",
@@ -1560,7 +1560,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["四川", "重庆", "全国"],
     lat: 29.98,
     lng: 102.98,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ingredient-105",
@@ -1583,7 +1583,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["贵州", "云南", "湖南"],
     lat: 26.65,
     lng: 106.71,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "ingredient-106",
@@ -1606,7 +1606,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["贵州", "云南", "四川"],
     lat: 26.65,
     lng: 106.71,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "ingredient-107",
@@ -1629,7 +1629,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["广东", "广西", "海南"],
     lat: 23.13,
     lng: 113.26,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ingredient-108",
@@ -1648,7 +1648,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     ingredients: ["八角", "桂皮", "丁香", "花椒", "茴香"],
     cookingMethod: ["烤"],
     tags: ["调味品", "粉末", "北方", "香料", "复合", "调料", "河北"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["全国"],
     lat: 38.04,
     lng: 114.51,
@@ -1698,7 +1698,7 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["广东", "香港", "全国"],
     lat: 23.13,
     lng: 113.26,
-    popularity: 6,
+    popularity: 5,
   },
   {
     "id": "ingredient-114",
@@ -2301,5 +2301,5 @@ export const FOODS_INGREDIENTS: Food[] = [
     popularRegions: ["四川", "重庆", "贵州"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 5,
+    popularity: 3,
   }];

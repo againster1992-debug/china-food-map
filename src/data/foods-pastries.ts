@@ -23,7 +23,7 @@ export const FOODS_PASTRIES: Food[] = [
     popularRegions: ["辽宁"],
     lat: 41.8057,
     lng: 123.4315,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "pastry-9",
@@ -69,7 +69,7 @@ export const FOODS_PASTRIES: Food[] = [
     popularRegions: ["上海"],
     lat: 31.2304,
     lng: 121.4737,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "pastry-14",
@@ -92,7 +92,7 @@ export const FOODS_PASTRIES: Food[] = [
     popularRegions: ["浙江"],
     lat: 30.2741,
     lng: 120.1551,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "pastry-16",
@@ -115,7 +115,7 @@ export const FOODS_PASTRIES: Food[] = [
     popularRegions: ["安徽"],
     lat: 30.5319,
     lng: 117.1151,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "pastry-22",
@@ -138,7 +138,7 @@ export const FOODS_PASTRIES: Food[] = [
     popularRegions: ["湖南"],
     lat: 27.8297,
     lng: 112.9447,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "pastry-23",
@@ -161,7 +161,7 @@ export const FOODS_PASTRIES: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "pastry-26",
@@ -207,7 +207,7 @@ export const FOODS_PASTRIES: Food[] = [
     popularRegions: ["四川"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "pastry-30",
@@ -230,7 +230,7 @@ export const FOODS_PASTRIES: Food[] = [
     popularRegions: ["贵州"],
     lat: 26.2455,
     lng: 105.7683,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "pastry-32",
@@ -253,7 +253,7 @@ export const FOODS_PASTRIES: Food[] = [
     popularRegions: ["云南"],
     lat: 25.009,
     lng: 102.7612,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "pastry-33",
@@ -276,7 +276,7 @@ export const FOODS_PASTRIES: Food[] = [
     popularRegions: ["西藏"],
     lat: 29.65,
     lng: 91.1,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "pastry-35",

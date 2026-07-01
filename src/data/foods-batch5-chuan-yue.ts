@@ -25,7 +25,7 @@ export const FOODS_BATCH5_CHUAN_YUE: Food[] = [
     popularRegions: ["四川"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 6,
+    popularity: 4,
   },
 
   {
@@ -72,7 +72,7 @@ export const FOODS_BATCH5_CHUAN_YUE: Food[] = [
     popularRegions: ["四川"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch5-chuan-8",
@@ -95,7 +95,7 @@ export const FOODS_BATCH5_CHUAN_YUE: Food[] = [
     popularRegions: ["四川"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch5-chuan-9",
@@ -114,11 +114,11 @@ export const FOODS_BATCH5_CHUAN_YUE: Food[] = [
     ingredients: ["鸡肉", "竹荪", "蛋清", "葱"],
     cookingMethod: ["蒸", "炖"],
     tags: ["川菜", "汤羹", "清汤", "名菜", "咸鲜", "四川"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["四川"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "batch5-chuan-11",
@@ -141,7 +141,7 @@ export const FOODS_BATCH5_CHUAN_YUE: Food[] = [
     popularRegions: ["四川", "重庆"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch5-chuan-12",
@@ -160,11 +160,11 @@ export const FOODS_BATCH5_CHUAN_YUE: Food[] = [
     ingredients: ["猪肉", "米粉", "红薯", "豆瓣酱", "花椒"],
     cookingMethod: ["蒸"],
     tags: ["川菜", "粉蒸", "米粉", "名菜", "粘糯"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["四川", "重庆", "全国"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 7,
+    popularity: 6,
   },
   // 「蒜苗回锅」已合并至「回锅肉」(batch10-chuan-1) - 同地同物异名
   {
@@ -184,11 +184,11 @@ export const FOODS_BATCH5_CHUAN_YUE: Food[] = [
     ingredients: ["猪肉", "豆瓣酱", "豆豉", "辣椒", "蒜"],
     cookingMethod: ["煮", "煸", "炒"],
     tags: ["广汉", "川菜", "回锅肉", "大片", "地方名吃", "嫩滑"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["四川"],
     lat: 31.0,
     lng: 104.27,
-    popularity: 7,
+    popularity: 6,
   },
   // ---------- 川菜小吃 ----------
 
@@ -213,7 +213,7 @@ export const FOODS_BATCH5_CHUAN_YUE: Food[] = [
     popularRegions: ["四川", "重庆"],
     lat: 28.7513,
     lng: 104.6419,
-    popularity: 6,
+    popularity: 4,
   },
   // ---------- 川菜调料/食材 ----------
 
@@ -238,7 +238,7 @@ export const FOODS_BATCH5_CHUAN_YUE: Food[] = [
     popularRegions: ["四川"],
     lat: 28.7513,
     lng: 104.6419,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch5-chuan-21",
@@ -261,7 +261,7 @@ export const FOODS_BATCH5_CHUAN_YUE: Food[] = [
     popularRegions: ["四川"],
     lat: 29.3392,
     lng: 104.7789,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch5-chuan-22",
@@ -284,7 +284,7 @@ export const FOODS_BATCH5_CHUAN_YUE: Food[] = [
     popularRegions: ["四川"],
     lat: 29.4,
     lng: 103.8167,
-    popularity: 3,
+    popularity: 1,
   },
 
   // ========== 粤菜（八大菜系之一，发源广东）==========
@@ -307,11 +307,11 @@ export const FOODS_BATCH5_CHUAN_YUE: Food[] = [
     ingredients: ["猪肉", "菠萝", "糖", "淀粉", "辣椒"],
     cookingMethod: ["炸", "炒"],
     tags: ["粤菜", "糖醋", "酸甜", "名菜", "嫩滑"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["全国", "海外"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch5-yue-2",
@@ -330,11 +330,11 @@ export const FOODS_BATCH5_CHUAN_YUE: Food[] = [
     ingredients: ["猪肉", "糖", "醋", "盐", "姜"],
     cookingMethod: ["煮", "泡", "拌"],
     tags: ["粤菜", "猪手", "糖醋", "凉菜", "名菜", "爽脆"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["广东", "全国"],
     lat: 23.1689,
     lng: 113.2989,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch5-yue-3",
@@ -353,11 +353,11 @@ export const FOODS_BATCH5_CHUAN_YUE: Food[] = [
     ingredients: ["猪肉", "豆豉", "蒜", "酱油", "淀粉"],
     cookingMethod: ["蒸", "腌"],
     tags: ["粤菜", "排骨", "豆豉", "早茶", "热门"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["广东", "全国"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch5-yue-5",
@@ -376,11 +376,11 @@ export const FOODS_BATCH5_CHUAN_YUE: Food[] = [
     ingredients: ["鱼肉", "食用油", "酱油", "葱", "姜"],
     cookingMethod: ["浸"],
     tags: ["粤菜", "油浸", "名菜", "酥脆", "嫩滑"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch5-yue-6",
@@ -399,11 +399,11 @@ export const FOODS_BATCH5_CHUAN_YUE: Food[] = [
     ingredients: ["蟹", "姜", "葱", "料酒", "酱油"],
     cookingMethod: ["炒"],
     tags: ["粤菜", "花蟹", "海鲜", "炒", "爽脆"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["广东", "全国"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch5-yue-7",
@@ -426,7 +426,7 @@ export const FOODS_BATCH5_CHUAN_YUE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch5-yue-8",
@@ -449,7 +449,7 @@ export const FOODS_BATCH5_CHUAN_YUE: Food[] = [
     popularRegions: ["广东"],
     lat: 21.2706,
     lng: 110.3594,
-    popularity: 6,
+    popularity: 4,
   },
   // ---------- 粤菜小吃 ----------
 
@@ -497,7 +497,7 @@ export const FOODS_BATCH5_CHUAN_YUE: Food[] = [
     popularRegions: ["广东"],
     lat: 22.5176,
     lng: 113.3927,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch5-yue-11",
@@ -520,7 +520,7 @@ export const FOODS_BATCH5_CHUAN_YUE: Food[] = [
     popularRegions: ["广东", "全国"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch5-yue-13",
@@ -543,7 +543,7 @@ export const FOODS_BATCH5_CHUAN_YUE: Food[] = [
     popularRegions: ["广东", "全国"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 4,
+    popularity: 1,
   },
   // ---------- 粤菜调料/食材 ----------
 
@@ -569,7 +569,7 @@ export const FOODS_BATCH5_CHUAN_YUE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 2,
+    popularity: 1,
   },
   {
     id: "batch5-yue-16",
@@ -592,7 +592,7 @@ export const FOODS_BATCH5_CHUAN_YUE: Food[] = [
     popularRegions: ["广东", "全国"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 2,
+    popularity: 1,
   },
   {
     id: "batch5-yue-18",
@@ -615,5 +615,5 @@ export const FOODS_BATCH5_CHUAN_YUE: Food[] = [
     popularRegions: ["广东", "全国"],
     lat: 23.3264,
     lng: 112.6848,
-    popularity: 6,
+    popularity: 4,
   }];

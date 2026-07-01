@@ -20,11 +20,11 @@ export const FOODS_BATCH5_ZHE_MIN_XIANG_HUI: Food[] = [
     ingredients: ["鸭肉", "料酒", "酱油", "糖", "桂皮", "八角"],
     cookingMethod: ["卤"],
     tags: ["浙菜", "卤味", "鸭肉", "名菜", "酥脆"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["浙江"],
     lat: 30.2741,
     lng: 120.1551,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch5-zhe-2",
@@ -42,12 +42,12 @@ export const FOODS_BATCH5_ZHE_MIN_XIANG_HUI: Food[] = [
       "火踵神仙鸭以金华火踵（火腿蹄膀）与老鸭同炖，文火慢煨数小时。汤色奶白浓醇，鸭肉酥烂脱骨，火踵咸鲜提味，两者相得益彰。相传此菜香气四溢，食者如入仙境，故名「神仙鸭」，是浙菜炖品中的上乘之作。",
     ingredients: ["鸭肉", "笋", "香菇", "料酒", "葱"],
     cookingMethod: ["炖", "煨"],
-    tags: ["浙菜", "炖品", "火腿", "名菜", "酥脆"],
-    fame: "名菜",
+    tags: ["浙菜", "炖品", "火腿", "汤", "名菜", "酥脆"],
+    fame: "地方名吃",
     popularRegions: ["浙江"],
     lat: 29.0784,
     lng: 119.6474,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch5-zhe-3",
@@ -66,11 +66,11 @@ export const FOODS_BATCH5_ZHE_MIN_XIANG_HUI: Food[] = [
     ingredients: ["蚶肉", "酱油", "醋", "姜"],
     cookingMethod: ["烫"],
     tags: ["浙菜", "海鲜", "名菜", "酥脆"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["浙江"],
     lat: 29.8683,
     lng: 121.544,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "batch5-zhe-4",
@@ -93,7 +93,7 @@ export const FOODS_BATCH5_ZHE_MIN_XIANG_HUI: Food[] = [
     popularRegions: ["浙江"],
     lat: 29.8683,
     lng: 121.544,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch5-zhe-5",
@@ -112,11 +112,11 @@ export const FOODS_BATCH5_ZHE_MIN_XIANG_HUI: Food[] = [
     ingredients: ["白鲞", "鸡肉", "料酒", "姜", "葱"],
     cookingMethod: ["蒸"],
     tags: ["浙菜", "蒸菜", "鱼干", "名菜", "酥脆"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["浙江"],
     lat: 30.0303,
     lng: 120.5848,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "batch5-zhe-6",
@@ -135,11 +135,11 @@ export const FOODS_BATCH5_ZHE_MIN_XIANG_HUI: Food[] = [
     ingredients: ["蟹", "姜", "葱", "料酒", "酱油"],
     cookingMethod: ["蒸", "炒"],
     tags: ["浙菜", "海鲜", "青蟹", "名菜", "酥脆"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["浙江"],
     lat: 27.9938,
     lng: 120.6993,
-    popularity: 6,
+    popularity: 5,
   },
 
   {
@@ -163,7 +163,7 @@ export const FOODS_BATCH5_ZHE_MIN_XIANG_HUI: Food[] = [
     popularRegions: ["浙江"],
     lat: 30.0303,
     lng: 120.5848,
-    popularity: 5,
+    popularity: 2,
   },
   
   {
@@ -187,7 +187,7 @@ export const FOODS_BATCH5_ZHE_MIN_XIANG_HUI: Food[] = [
     popularRegions: ["浙江"],
     lat: 30.5094,
     lng: 120.6897,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch5-zhe-14",
@@ -210,7 +210,7 @@ export const FOODS_BATCH5_ZHE_MIN_XIANG_HUI: Food[] = [
     popularRegions: ["浙江"],
     lat: 29.0784,
     lng: 119.6474,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch5-zhe-15",
@@ -233,7 +233,7 @@ export const FOODS_BATCH5_ZHE_MIN_XIANG_HUI: Food[] = [
     popularRegions: ["浙江"],
     lat: 28.4517,
     lng: 119.9229,
-    popularity: 4,
+    popularity: 1,
   },
 
   // ========== 闽菜（八大菜系之一，发源福建）==========
@@ -255,11 +255,11 @@ export const FOODS_BATCH5_ZHE_MIN_XIANG_HUI: Food[] = [
     ingredients: ["猪肉", "红糟", "酱油", "糖", "姜"],
     cookingMethod: ["爆", "炒"],
     tags: ["闽菜", "红糟", "排骨", "名菜", "绵软"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["福建"],
     lat: 26.0745,
     lng: 119.2965,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "batch5-min-2",
@@ -278,11 +278,11 @@ export const FOODS_BATCH5_ZHE_MIN_XIANG_HUI: Food[] = [
     ingredients: ["鳗鱼", "红糟", "料酒", "酱油", "糖", "姜"],
     cookingMethod: ["煎", "腌"],
     tags: ["闽菜", "红糟", "鳗鱼", "海鲜", "名菜", "酥脆"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["福建"],
     lat: 26.0745,
     lng: 119.2965,
-    popularity: 6,
+    popularity: 5,
   },
 
   {
@@ -306,7 +306,7 @@ export const FOODS_BATCH5_ZHE_MIN_XIANG_HUI: Food[] = [
     popularRegions: ["福建"],
     lat: 26.0745,
     lng: 119.2965,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch5-min-6",
@@ -329,7 +329,7 @@ export const FOODS_BATCH5_ZHE_MIN_XIANG_HUI: Food[] = [
     popularRegions: ["福建"],
     lat: 26.6656,
     lng: 119.5479,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch5-min-7",
@@ -352,7 +352,7 @@ export const FOODS_BATCH5_ZHE_MIN_XIANG_HUI: Food[] = [
     popularRegions: ["福建"],
     lat: 26.0745,
     lng: 119.2965,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch5-min-8",
@@ -375,7 +375,7 @@ export const FOODS_BATCH5_ZHE_MIN_XIANG_HUI: Food[] = [
     popularRegions: ["福建"],
     lat: 24.4798,
     lng: 118.0894,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch5-min-9",
@@ -398,7 +398,7 @@ export const FOODS_BATCH5_ZHE_MIN_XIANG_HUI: Food[] = [
     popularRegions: ["福建"],
     lat: 24.8741,
     lng: 118.6757,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch5-min-10",
@@ -421,7 +421,7 @@ export const FOODS_BATCH5_ZHE_MIN_XIANG_HUI: Food[] = [
     popularRegions: ["福建"],
     lat: 25.431,
     lng: 119.0078,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch5-min-11",
@@ -444,7 +444,7 @@ export const FOODS_BATCH5_ZHE_MIN_XIANG_HUI: Food[] = [
     popularRegions: ["福建"],
     lat: 26.2219,
     lng: 118.8689,
-    popularity: 5,
+    popularity: 2,
   },
 
   // ========== 湘菜（八大菜系之一，发源湖南）==========
@@ -470,7 +470,7 @@ export const FOODS_BATCH5_ZHE_MIN_XIANG_HUI: Food[] = [
     popularRegions: ["湖南"],
     lat: 28.2278,
     lng: 112.9388,
-    popularity: 5,
+    popularity: 2,
   },
 
   {
@@ -490,11 +490,11 @@ export const FOODS_BATCH5_ZHE_MIN_XIANG_HUI: Food[] = [
     ingredients: ["蛇肉", "辣椒", "花椒", "八角", "桂皮", "酱油"],
     cookingMethod: ["烧", "炖"],
     tags: ["宁乡", "湘菜", "野味", "香辣", "名菜", "嫩滑", "劲道"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["湖南"],
     lat: 28.253,
     lng: 112.339,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "batch5-xiang-5",
@@ -517,7 +517,7 @@ export const FOODS_BATCH5_ZHE_MIN_XIANG_HUI: Food[] = [
     popularRegions: ["湖南"],
     lat: 28.3119,
     lng: 109.7391,
-    popularity: 5,
+    popularity: 2,
   },
   
   {
@@ -541,7 +541,7 @@ export const FOODS_BATCH5_ZHE_MIN_XIANG_HUI: Food[] = [
     popularRegions: ["湖南"],
     lat: 28.2278,
     lng: 112.9388,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch5-xiang-8",
@@ -564,7 +564,7 @@ export const FOODS_BATCH5_ZHE_MIN_XIANG_HUI: Food[] = [
     popularRegions: ["湖南"],
     lat: 26.7715,
     lng: 113.5395,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch5-xiang-9",
@@ -587,7 +587,7 @@ export const FOODS_BATCH5_ZHE_MIN_XIANG_HUI: Food[] = [
     popularRegions: ["湖南"],
     lat: 29.5311,
     lng: 112.5404,
-    popularity: 4,
+    popularity: 1,
   },
 
   // ========== 徽菜（八大菜系之一，发源安徽）==========
@@ -609,11 +609,11 @@ export const FOODS_BATCH5_ZHE_MIN_XIANG_HUI: Food[] = [
     ingredients: ["火腿", "笋", "姜", "料酒", "葱"],
     cookingMethod: ["炖", "煨"],
     tags: ["徽州", "徽菜", "汤羹", "山珍", "名菜", "嫩滑", "劲道"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["安徽"],
     lat: 29.7147,
     lng: 118.3374,
-    popularity: 6,
+    popularity: 5,
   },
 
   {
@@ -637,7 +637,7 @@ export const FOODS_BATCH5_ZHE_MIN_XIANG_HUI: Food[] = [
     popularRegions: ["安徽"],
     lat: 29.7147,
     lng: 118.3374,
-    popularity: 5,
+    popularity: 2,
   },
 
   {
@@ -661,7 +661,7 @@ export const FOODS_BATCH5_ZHE_MIN_XIANG_HUI: Food[] = [
     popularRegions: ["安徽"],
     lat: 30.0673,
     lng: 118.5953,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch5-hui-6",
@@ -684,7 +684,7 @@ export const FOODS_BATCH5_ZHE_MIN_XIANG_HUI: Food[] = [
     popularRegions: ["安徽"],
     lat: 31.8206,
     lng: 117.2272,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch5-hui-7",
@@ -707,5 +707,5 @@ export const FOODS_BATCH5_ZHE_MIN_XIANG_HUI: Food[] = [
     popularRegions: ["安徽"],
     lat: 30.8907,
     lng: 118.4986,
-    popularity: 4,
+    popularity: 1,
   }];

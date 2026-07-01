@@ -18,11 +18,11 @@ export const FOODS_BATCH2_JIANGXI: Food[] = [
     ingredients: ["鱼肉", "米粉", "芋头", "辣椒"],
     cookingMethod: ["蒸"],
     tags: ["粉蒸", "鱼", "兴国", "客家", "赣菜", "名菜", "红色文化", "嫩滑"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["江西"],
     lat: 26.3378,
     lng: 115.3633,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "jx-b2-2",
@@ -45,7 +45,7 @@ export const FOODS_BATCH2_JIANGXI: Food[] = [
     popularRegions: ["江西"],
     lat: 29.2469,
     lng: 117.8615,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "jx-b2-3",
@@ -63,12 +63,12 @@ export const FOODS_BATCH2_JIANGXI: Food[] = [
       "清炖武山鸡以泰和武山乌骨鸡整只清炖。汤色清亮微黄，鸡肉酥烂，鲜美滋补。武山鸡即泰和乌鸡，被誉为「白凤仙子」，是药食同源佳品。清炖最能体现乌鸡本味，是赣菜汤品代表，体现江西「以汤养生」的饮食智慧。",
     ingredients: ["鸡肉", "枸杞", "红枣", "姜"],
     cookingMethod: ["炖"],
-    tags: ["乌鸡", "清炖", "泰和", "武山鸡", "赣菜", "滋补", "名菜", "嫩滑"],
-    fame: "名菜",
+    tags: ["乌鸡", "清炖", "汤", "泰和", "武山鸡", "赣菜", "滋补", "名菜", "嫩滑"],
+    fame: "地方名吃",
     popularRegions: ["江西"],
     lat: 26.79,
     lng: 114.91,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "jx-b2-4",
@@ -91,7 +91,7 @@ export const FOODS_BATCH2_JIANGXI: Food[] = [
     popularRegions: ["江西"],
     lat: 28.682,
     lng: 115.8579,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "jx-b2-5",
@@ -110,11 +110,11 @@ export const FOODS_BATCH2_JIANGXI: Food[] = [
     ingredients: ["鱼肉", "豆腐", "葱", "姜"],
     cookingMethod: ["炖", "煮"],
     tags: ["泥鳅", "豆腐", "赣菜", "名菜", "巧做", "嫩滑"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["江西"],
     lat: 28.682,
     lng: 115.8579,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "jx-b2-6",
@@ -137,7 +137,7 @@ export const FOODS_BATCH2_JIANGXI: Food[] = [
     popularRegions: ["江西"],
     lat: 29.55,
     lng: 115.99,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "jx-b2-7",
@@ -160,7 +160,7 @@ export const FOODS_BATCH2_JIANGXI: Food[] = [
     popularRegions: ["江西"],
     lat: 29.705,
     lng: 116.0,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "jx-b2-8",
@@ -183,7 +183,7 @@ export const FOODS_BATCH2_JIANGXI: Food[] = [
     popularRegions: ["江西"],
     lat: 28.4,
     lng: 117.43,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "jx-b2-9",
@@ -206,7 +206,7 @@ export const FOODS_BATCH2_JIANGXI: Food[] = [
     popularRegions: ["江西"],
     lat: 27.9538,
     lng: 116.3583,
-    popularity: 4,
+    popularity: 1,
   },
   // 【已合并】米粉鱼已合并至「四星望月」(jx-b2-1, foods-batch2-jiangxi.ts) - 同地同物异名，同为兴国粉蒸鱼
   {
@@ -230,7 +230,7 @@ export const FOODS_BATCH2_JIANGXI: Food[] = [
     popularRegions: ["江西"],
     lat: 29.2782,
     lng: 116.2755,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "jx-b2-12",
@@ -253,7 +253,7 @@ export const FOODS_BATCH2_JIANGXI: Food[] = [
     popularRegions: ["江西"],
     lat: 29.55,
     lng: 115.99,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "jx-b2-13",
@@ -276,7 +276,7 @@ export const FOODS_BATCH2_JIANGXI: Food[] = [
     popularRegions: ["江西"],
     lat: 27.1133,
     lng: 114.9863,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "jx-b2-14",
@@ -295,11 +295,11 @@ export const FOODS_BATCH2_JIANGXI: Food[] = [
     ingredients: ["猪肉", "红曲", "酱油", "糖"],
     cookingMethod: ["炸", "炖"],
     tags: ["猪肉", "红酥", "赣菜", "名菜", "红曲", "嫩滑"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["江西"],
     lat: 28.682,
     lng: 115.8579,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "jx-b2-15",
@@ -322,7 +322,7 @@ export const FOODS_BATCH2_JIANGXI: Food[] = [
     popularRegions: ["江西"],
     lat: 28.682,
     lng: 115.8579,
-    popularity: 4,
+    popularity: 1,
   },
   
   {
@@ -346,7 +346,7 @@ export const FOODS_BATCH2_JIANGXI: Food[] = [
     popularRegions: ["江西"],
     lat: 28.682,
     lng: 115.8579,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "jx-b2-19",
@@ -369,7 +369,7 @@ export const FOODS_BATCH2_JIANGXI: Food[] = [
     popularRegions: ["江西"],
     lat: 25.8314,
     lng: 114.9353,
-    popularity: 4,
+    popularity: 1,
   },
   
   {
@@ -393,7 +393,7 @@ export const FOODS_BATCH2_JIANGXI: Food[] = [
     popularRegions: ["江西"],
     lat: 28.682,
     lng: 115.8579,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "jx-b2-22",
@@ -416,7 +416,7 @@ export const FOODS_BATCH2_JIANGXI: Food[] = [
     popularRegions: ["江西"],
     lat: 25.8314,
     lng: 114.9353,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "jx-b2-23",
@@ -439,7 +439,7 @@ export const FOODS_BATCH2_JIANGXI: Food[] = [
     popularRegions: ["江西"],
     lat: 27.6229,
     lng: 113.8544,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "jx-b2-24",
@@ -462,7 +462,7 @@ export const FOODS_BATCH2_JIANGXI: Food[] = [
     popularRegions: ["江西"],
     lat: 29.2782,
     lng: 116.2755,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "jx-b2-25",
@@ -485,7 +485,7 @@ export const FOODS_BATCH2_JIANGXI: Food[] = [
     popularRegions: ["江西"],
     lat: 29.55,
     lng: 115.99,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "jx-b2-26",
@@ -508,7 +508,7 @@ export const FOODS_BATCH2_JIANGXI: Food[] = [
     popularRegions: ["江西"],
     lat: 25.8314,
     lng: 114.9353,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "jx-b2-27",
@@ -531,7 +531,7 @@ export const FOODS_BATCH2_JIANGXI: Food[] = [
     popularRegions: ["江西"],
     lat: 28.4543,
     lng: 117.9439,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "jx-b2-28",
@@ -554,7 +554,7 @@ export const FOODS_BATCH2_JIANGXI: Food[] = [
     popularRegions: ["江西"],
     lat: 28.682,
     lng: 115.8579,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "jx-b2-29",
@@ -577,7 +577,7 @@ export const FOODS_BATCH2_JIANGXI: Food[] = [
     popularRegions: ["江西"],
     lat: 28.682,
     lng: 115.8579,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "jx-b2-30",
@@ -600,7 +600,7 @@ export const FOODS_BATCH2_JIANGXI: Food[] = [
     popularRegions: ["江西"],
     lat: 25.8314,
     lng: 114.9353,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "jx-b2-31",
@@ -623,7 +623,7 @@ export const FOODS_BATCH2_JIANGXI: Food[] = [
     popularRegions: ["江西"],
     lat: 29.55,
     lng: 115.99,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "jx-b2-32",
@@ -646,7 +646,7 @@ export const FOODS_BATCH2_JIANGXI: Food[] = [
     popularRegions: ["江西"],
     lat: 27.8043,
     lng: 114.4161,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "jx-b2-33",
@@ -664,12 +664,12 @@ export const FOODS_BATCH2_JIANGXI: Food[] = [
       "清炖石鸡以庐山石鸡（棘胸蛙）整只清炖。汤色清亮，肉质细嫩，鲜美滋补，胜于鸡汤。石鸡是庐山山涧特产，被誉为「山中珍味」。是庐山名菜，赣菜清炖代表，体现名山食材的本味之美，是庐山素荤宴的招牌汤。",
     ingredients: ["石鸡", "姜", "葱", "枸杞"],
     cookingMethod: ["炖"],
-    tags: ["石鸡", "清炖", "庐山", "赣菜", "地方名吃", "滋补", "山珍"],
+    tags: ["石鸡", "清炖", "汤", "庐山", "赣菜", "地方名吃", "滋补", "山珍"],
     fame: "地方名吃",
     popularRegions: ["江西"],
     lat: 29.55,
     lng: 115.99,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "jx-b2-34",
@@ -692,7 +692,7 @@ export const FOODS_BATCH2_JIANGXI: Food[] = [
     popularRegions: ["江西"],
     lat: 28.682,
     lng: 115.8579,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "jx-b2-35",
@@ -715,7 +715,7 @@ export const FOODS_BATCH2_JIANGXI: Food[] = [
     popularRegions: ["江西"],
     lat: 27.9538,
     lng: 116.3583,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "jx-b2-36",
@@ -738,7 +738,7 @@ export const FOODS_BATCH2_JIANGXI: Food[] = [
     popularRegions: ["江西"],
     lat: 27.8043,
     lng: 114.4161,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "jx-b2-37",
@@ -761,7 +761,7 @@ export const FOODS_BATCH2_JIANGXI: Food[] = [
     popularRegions: ["江西"],
     lat: 26.3378,
     lng: 115.3633,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "jx-b2-38",
@@ -784,7 +784,7 @@ export const FOODS_BATCH2_JIANGXI: Food[] = [
     popularRegions: ["江西"],
     lat: 28.682,
     lng: 115.8579,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "jx-b2-39",
@@ -807,7 +807,7 @@ export const FOODS_BATCH2_JIANGXI: Food[] = [
     popularRegions: ["江西"],
     lat: 29.2782,
     lng: 116.2755,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "jx-b2-40",
@@ -830,7 +830,7 @@ export const FOODS_BATCH2_JIANGXI: Food[] = [
     popularRegions: ["江西"],
     lat: 27.1133,
     lng: 114.9863,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "jx-b2-41",
@@ -853,7 +853,7 @@ export const FOODS_BATCH2_JIANGXI: Food[] = [
     popularRegions: ["江西"],
     lat: 27.8043,
     lng: 114.4161,
-    popularity: 4,
+    popularity: 1,
   },
   
   {
@@ -877,7 +877,7 @@ export const FOODS_BATCH2_JIANGXI: Food[] = [
     popularRegions: ["江西"],
     lat: 25.8314,
     lng: 114.9353,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "jx-b2-44",
@@ -900,7 +900,7 @@ export const FOODS_BATCH2_JIANGXI: Food[] = [
     popularRegions: ["江西"],
     lat: 29.2782,
     lng: 116.2755,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "jx-b2-45",
@@ -923,7 +923,7 @@ export const FOODS_BATCH2_JIANGXI: Food[] = [
     popularRegions: ["江西"],
     lat: 28.682,
     lng: 115.8579,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "jx-b2-46",
@@ -946,7 +946,7 @@ export const FOODS_BATCH2_JIANGXI: Food[] = [
     popularRegions: ["江西"],
     lat: 29.2782,
     lng: 116.2755,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "jx-b2-47",
@@ -969,7 +969,7 @@ export const FOODS_BATCH2_JIANGXI: Food[] = [
     popularRegions: ["江西"],
     lat: 27.9538,
     lng: 116.3583,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "jx-b2-48",
@@ -992,7 +992,7 @@ export const FOODS_BATCH2_JIANGXI: Food[] = [
     popularRegions: ["江西"],
     lat: 27.1133,
     lng: 114.9863,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "jx-b2-49",
@@ -1015,7 +1015,7 @@ export const FOODS_BATCH2_JIANGXI: Food[] = [
     popularRegions: ["江西"],
     lat: 27.8043,
     lng: 114.4161,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "jx-b2-50",
@@ -1038,5 +1038,5 @@ export const FOODS_BATCH2_JIANGXI: Food[] = [
     popularRegions: ["江西"],
     lat: 29.705,
     lng: 116.0,
-    popularity: 5,
+    popularity: 2,
   }];

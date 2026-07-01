@@ -21,11 +21,11 @@ export const FOODS_BATCH12_TRENDING_UPDATE: Food[] = [
     ingredients: ["莲藕", "排骨", "姜"],
     cookingMethod: ["炖"],
     tags: ["鲜香", "汤羹", "鄂菜", "湖北", "莲藕", "热门", "出圈"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["武汉", "湖北", "全国"],
     lat: 30.5928,
     lng: 114.3055,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch12-hubei-2",
@@ -48,7 +48,7 @@ export const FOODS_BATCH12_TRENDING_UPDATE: Food[] = [
     popularRegions: ["武汉", "湖北"],
     lat: 30.5928,
     lng: 114.3055,
-    popularity: 6,
+    popularity: 4,
   },/*
 */
   
@@ -74,7 +74,7 @@ export const FOODS_BATCH12_TRENDING_UPDATE: Food[] = [
     popularRegions: ["文昌", "海南", "全国"],
     lat: 19.6146,
     lng: 110.7214,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch12-hainan-3",
@@ -97,7 +97,7 @@ export const FOODS_BATCH12_TRENDING_UPDATE: Food[] = [
     popularRegions: ["三亚", "海南"],
     lat: 18.2524,
     lng: 109.5083,
-    popularity: 3,
+    popularity: 1,
   },
   /*
 */
@@ -122,7 +122,7 @@ export const FOODS_BATCH12_TRENDING_UPDATE: Food[] = [
     popularRegions: ["三亚", "海南"],
     lat: 18.2524,
     lng: 109.5083,
-    popularity: 3,
+    popularity: 1,
   },
   // ==================== 三、客家菜经典（盐焗鸡十亿级产业集群）====================
 
@@ -147,7 +147,7 @@ export const FOODS_BATCH12_TRENDING_UPDATE: Food[] = [
     popularRegions: ["梅州", "广东"],
     lat: 24.2314,
     lng: 116.1126,
-    popularity: 6,
+    popularity: 4,
   },/**/
   // ==================== 四、云南菌菇火锅热门（佤味鸡爪增长1366%）====================
   {
@@ -167,11 +167,11 @@ export const FOODS_BATCH12_TRENDING_UPDATE: Food[] = [
     ingredients: ["鸡爪", "辣椒", "花椒", "香草"],
     cookingMethod: ["腌"],
     tags: ["香辣", "小吃", "滇菜", "云南", "佤味", "网红", "增长1366%"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["普洱", "云南", "全国"],
     lat: 22.7911,
     lng: 100.978,
-    popularity: 4,
+    popularity: 2,
   },
   /*
 */
@@ -196,11 +196,11 @@ export const FOODS_BATCH12_TRENDING_UPDATE: Food[] = [
     ingredients: ["羊肉", "胡萝卜", "鹰嘴豆"],
     cookingMethod: ["炖"],
     tags: ["咸鲜", "汤羹", "新疆菜", "新疆", "边疆", "游牧"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["喀什", "新疆"],
     lat: 39.4754,
     lng: 75.9777,
-    popularity: 7,
+    popularity: 6,
   },
   // ==================== 七、2026邪修美食热门（茶啤抖音103.5亿播放）====================
   {
@@ -223,5 +223,5 @@ export const FOODS_BATCH12_TRENDING_UPDATE: Food[] = [
     popularRegions: ["全国"],
     lat: 35.8617,
     lng: 104.1954,
-    popularity: 8,
+    popularity: 7,
   }];

@@ -72,11 +72,11 @@ export const FOODS_BATCH29_FAMOUS100: Food[] = [
   ingredients: ["面粉","酸菜","猪肉","葱","姜"],
   cookingMethod: ["包","煮"],
   tags: ["咸鲜","主食","东北菜","辽宁","沈阳","饺子","酸菜","年节","家常"],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: ["辽宁","东北"],
   lat: 41.8057,
   lng: 123.4315,
-  popularity: 7,
+  popularity: 6,
 },
   // 「batch29-famous-076」已合并至「heritage-8」- 猪肉包与狗不理包子均为天津狗不理猪肉包，同地同物异名，合并至通用名"狗不理包子"
   // {
@@ -121,7 +121,7 @@ export const FOODS_BATCH29_FAMOUS100: Food[] = [
   popularRegions: ["江苏","全国"],
   lat: 32.0603,
   lng: 118.7969,
-  popularity: 8,
+  popularity: 9,
 },
 {
   id: "batch29-famous-081",
@@ -187,11 +187,11 @@ export const FOODS_BATCH29_FAMOUS100: Food[] = [
   ingredients: ["面粉","芝麻","洋葱","盐"],
   cookingMethod: ["烤"],
   tags: ["咸鲜", "糕点", "新疆菜", "新疆", "吐鲁番", "馕坑", "维吾尔", "传统"],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: ["新疆","西北"],
   lat: 42.9513,
   lng: 89.1895,
-  popularity: 7,
+  popularity: 6,
 },
 {
   id: "batch29-famous-099",

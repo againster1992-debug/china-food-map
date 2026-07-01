@@ -20,11 +20,11 @@ export const FOODS_BATCH9_NORTHEAST: Food[] = [
     ingredients: ["牛筋", "牛腩", "土豆", "番茄", "葱"],
     cookingMethod: ["炖"],
     tags: ["咸鲜", "炖菜", "牛肉", "东北菜", "冬日", "御寒", "软糯"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["黑龙江", "吉林", "辽宁"],
     lat: 45.8038,
     lng: 126.535,
-    popularity: 7,
+    popularity: 6,
   },
   // 「batch9-ne-2」已合并至「jl-8」- 酱骨重复：batch9-ne-2「酱骨」(哈尔滨) 与 jl-8「酱骨头」(长春) 主题重复，均为东北酱骨。但两地做法略
   //   {
@@ -73,7 +73,7 @@ export const FOODS_BATCH9_NORTHEAST: Food[] = [
     popularRegions: ["辽宁", "吉林", "黑龙江"],
     lat: 41.8057,
     lng: 123.4315,
-    popularity: 8,
+    popularity: 9,
   },
   
   {
@@ -97,7 +97,7 @@ export const FOODS_BATCH9_NORTHEAST: Food[] = [
     popularRegions: ["黑龙江", "吉林", "辽宁"],
     lat: 45.8038,
     lng: 126.535,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch9-ne-8",
@@ -114,13 +114,13 @@ export const FOODS_BATCH9_NORTHEAST: Food[] = [
     description:
       "粉肠以猪肠衣灌入淀粉、猪肉糜，加五香粉调味煮熟。口感软糯弹牙，咸香适口，切面晶莹。是东北熟食摊的常见冷盘，配蒜泥、酱油食用更佳。讲究「粉肉相间、软糯不散」，是东北人餐桌上的家常美味。",
     ingredients: ["猪肉", "淀粉", "五香粉"],
-    cookingMethod: ["煮"],
+    cookingMethod: ["灌", "煮"],
     tags: ["咸鲜", "猪肉", "东北菜", "熟食", "冷盘", "腌腊", "软糯"],
     fame: "地方名吃",
     popularRegions: ["辽宁", "黑龙江", "吉林"],
     lat: 41.8057,
     lng: 123.4315,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch9-ne-9",
@@ -143,7 +143,7 @@ export const FOODS_BATCH9_NORTHEAST: Food[] = [
     popularRegions: ["黑龙江", "吉林", "辽宁"],
     lat: 45.8038,
     lng: 126.535,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch9-ne-11",
@@ -166,7 +166,7 @@ export const FOODS_BATCH9_NORTHEAST: Food[] = [
     popularRegions: ["鸡西", "黑龙江"],
     lat: 45.3,
     lng: 130.97,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch9-ne-12",
@@ -185,11 +185,11 @@ export const FOODS_BATCH9_NORTHEAST: Food[] = [
     ingredients: ["面条", "鸡蛋", "火腿肠", "洋葱", "香菜"],
     cookingMethod: ["烤"],
     tags: ["复合", "面条", "东北菜", "街头小吃", "网红", "夜市", "铁板"],
-    fame: "热门",
+    fame: "名菜",
     popularRegions: ["黑龙江", "吉林", "辽宁", "全国"],
     lat: 45.2958,
     lng: 130.9697,
-    popularity: 9,
+    popularity: 10,
   },
   {
     id: "batch9-ne-13",
@@ -212,7 +212,7 @@ export const FOODS_BATCH9_NORTHEAST: Food[] = [
     popularRegions: ["同江", "佳木斯"],
     lat: 47.66,
     lng: 132.51,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch9-ne-14",
@@ -235,7 +235,7 @@ export const FOODS_BATCH9_NORTHEAST: Food[] = [
     popularRegions: ["同江", "佳木斯"],
     lat: 47.66,
     lng: 132.51,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch9-ne-15",
@@ -258,7 +258,7 @@ export const FOODS_BATCH9_NORTHEAST: Food[] = [
     popularRegions: ["吉林", "黑龙江", "辽宁"],
     lat: 43.8171,
     lng: 125.3235,
-    popularity: 5,
+    popularity: 3,
   },
   // 「batch9-ne-16」已合并至「batch9-ne-5」- 同地同物异名：batch9-ne-16「宫廷白肉血肠」(辽宁沈阳) 与 batch9-ne-5「杀猪菜」(辽宁沈阳) 主题重复，batch9-ne-5 别名已含「酸菜白肉血肠」「酸菜白肉」，二者均为满族白肉血肠酸菜炖煮传统菜，故合并至杀猪菜。
   //   {
@@ -301,11 +301,11 @@ export const FOODS_BATCH9_NORTHEAST: Food[] = [
     ingredients: ["猪肉", "鸡蛋", "糖", "醋"],
     cookingMethod: ["炸", "熘"],
     tags: ["咸鲜", "猪肉", "满族", "东北菜", "历史名菜", "宫廷菜", "外酥里嫩"],
-    fame: "普通",
+    fame: "地方名吃",
     popularRegions: ["辽宁", "吉林", "黑龙江"],
     lat: 41.8057,
     lng: 123.4315,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch9-ne-18",
@@ -328,7 +328,7 @@ export const FOODS_BATCH9_NORTHEAST: Food[] = [
     popularRegions: ["黑龙江", "吉林", "辽宁"],
     lat: 45.8038,
     lng: 126.535,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch9-ne-19",
@@ -351,7 +351,7 @@ export const FOODS_BATCH9_NORTHEAST: Food[] = [
     popularRegions: ["黑龙江", "吉林"],
     lat: 45.8038,
     lng: 126.535,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch9-ne-20",
@@ -374,7 +374,7 @@ export const FOODS_BATCH9_NORTHEAST: Food[] = [
     popularRegions: ["吉林", "黑龙江"],
     lat: 42.9068,
     lng: 129.5133,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch9-ne-21",
@@ -397,7 +397,7 @@ export const FOODS_BATCH9_NORTHEAST: Food[] = [
     popularRegions: ["黑龙江", "吉林"],
     lat: 45.8038,
     lng: 126.535,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch9-ne-22",
@@ -420,7 +420,7 @@ export const FOODS_BATCH9_NORTHEAST: Food[] = [
     popularRegions: ["黑龙江", "吉林"],
     lat: 45.8038,
     lng: 126.535,
-    popularity: 2,
+    popularity: 1,
   },
   {
     id: "batch9-ne-23",
@@ -443,7 +443,7 @@ export const FOODS_BATCH9_NORTHEAST: Food[] = [
     popularRegions: ["黑龙江", "吉林", "内蒙古"],
     lat: 45.8038,
     lng: 126.535,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch9-ne-24",
@@ -489,7 +489,7 @@ export const FOODS_BATCH9_NORTHEAST: Food[] = [
     popularRegions: ["新疆", "黑龙江"],
     lat: 43.8256,
     lng: 87.6168,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch9-ne-26",
@@ -508,11 +508,11 @@ export const FOODS_BATCH9_NORTHEAST: Food[] = [
     ingredients: ["牛奶", "鸡蛋", "糖"],
     cookingMethod: ["冷藏"],
     tags: ["香甜", "冰棍", "牛奶", "鸡蛋", "新疆菜", "俄式", "冷饮", "夏日", "甜品", "非遗"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["新疆", "塔城"],
     lat: 46.7453,
     lng: 82.9857,
-    popularity: 7,
+    popularity: 6,
   },
   // ==================== 新疆菜 ====================
   {
@@ -536,7 +536,7 @@ export const FOODS_BATCH9_NORTHEAST: Food[] = [
     popularRegions: ["乌鲁木齐", "喀什", "伊宁"],
     lat: 43.8256,
     lng: 87.6168,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch9-xj-2",
@@ -559,7 +559,7 @@ export const FOODS_BATCH9_NORTHEAST: Food[] = [
     popularRegions: ["乌鲁木齐", "喀什", "伊宁"],
     lat: 43.8256,
     lng: 87.6168,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch9-xj-3",
@@ -582,7 +582,7 @@ export const FOODS_BATCH9_NORTHEAST: Food[] = [
     popularRegions: ["新疆"],
     lat: 43.8256,
     lng: 87.6168,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch9-xj-4",
@@ -605,7 +605,7 @@ export const FOODS_BATCH9_NORTHEAST: Food[] = [
     popularRegions: ["乌鲁木齐", "新疆"],
     lat: 43.8256,
     lng: 87.6168,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch9-xj-5",
@@ -628,7 +628,7 @@ export const FOODS_BATCH9_NORTHEAST: Food[] = [
     popularRegions: ["大连", "辽宁"],
     lat: 38.914,
     lng: 121.6147,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch9-xj-6",
@@ -651,7 +651,7 @@ export const FOODS_BATCH9_NORTHEAST: Food[] = [
     popularRegions: ["大连", "辽宁"],
     lat: 38.914,
     lng: 121.6147,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch9-xj-7",
@@ -674,7 +674,7 @@ export const FOODS_BATCH9_NORTHEAST: Food[] = [
     popularRegions: ["大连", "辽宁"],
     lat: 38.914,
     lng: 121.6147,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch9-xj-8",
@@ -697,7 +697,7 @@ export const FOODS_BATCH9_NORTHEAST: Food[] = [
     popularRegions: ["辽宁", "黑龙江", "吉林"],
     lat: 38.914,
     lng: 121.6147,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch9-xj-9",
@@ -720,7 +720,7 @@ export const FOODS_BATCH9_NORTHEAST: Food[] = [
     popularRegions: ["辽宁", "黑龙江", "吉林"],
     lat: 38.914,
     lng: 121.6147,
-    popularity: 5,
+    popularity: 3,
   },
   // 「batch9-xj-10」已合并至「ln-2」- 焖子重复：batch9-xj-10「焖子」(大连) 与 ln-2「大连海鲜焖子」均为大连焖子，前者为基础版描述，后者强调
   //   {
@@ -769,7 +769,7 @@ export const FOODS_BATCH9_NORTHEAST: Food[] = [
     popularRegions: ["呼和浩特", "包头", "鄂尔多斯"],
     lat: 40.8426,
     lng: 111.7511,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "b9ne-add-1",
@@ -815,7 +815,7 @@ export const FOODS_BATCH9_NORTHEAST: Food[] = [
     popularRegions: ["黑龙江", "吉林", "辽宁"],
     lat: 45.8038,
     lng: 126.535,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "b9ne-add-3",
@@ -838,7 +838,7 @@ export const FOODS_BATCH9_NORTHEAST: Food[] = [
     popularRegions: ["辽宁", "吉林", "黑龙江"],
     lat: 41.8057,
     lng: 123.4315,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "b9ne-add-4",
@@ -861,6 +861,6 @@ export const FOODS_BATCH9_NORTHEAST: Food[] = [
     popularRegions: ["黑龙江", "辽宁", "吉林", "河北"],
     lat: 41.8057,
     lng: 123.4315,
-    popularity: 4,
+    popularity: 1,
   }
 ];

@@ -1,4 +1,4 @@
-﻿import type { Food } from "@/types/food";
+import type { Food } from "@/types/food";
 
 // 补充美食数据：物产、调料、小吃、主食、饮品、汤羹等
 export const FOODS_EXTRA: Food[] = [
@@ -43,11 +43,11 @@ export const FOODS_EXTRA: Food[] = [
     ingredients: ["葡萄"],
     cookingMethod: ["晒"],
     tags: ["物产", "干果", "地理标志", "香甜", "新疆菜", "新疆"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["新疆"],
     lat: 42.9513,
     lng: 89.1895,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "extra-4",
@@ -181,11 +181,11 @@ export const FOODS_EXTRA: Food[] = [
     ingredients: ["茶叶"],
     cookingMethod: ["发酵", "烤", "冲"],
     tags: ["物产", "祁门", "十大名茶", "粘糯", "劲道"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["安徽"],
     lat: 29.8543,
     lng: 117.7174,
-    popularity: 5,
+    popularity: 4,
   },
   {
     id: "extra-15",
@@ -208,7 +208,7 @@ export const FOODS_EXTRA: Food[] = [
     popularRegions: ["广东"],
     lat: 21.6639,
     lng: 110.6167,
-    popularity: 6,
+    popularity: 5,
   },
   // ========== 调料类 ==========
   {
@@ -232,7 +232,7 @@ export const FOODS_EXTRA: Food[] = [
     popularRegions: ["福建"],
     lat: 25.3216,
     lng: 118.2987,
-    popularity: 2,
+    popularity: 1,
   },
   {
     id: "extra-20",
@@ -255,7 +255,7 @@ export const FOODS_EXTRA: Food[] = [
     popularRegions: ["贵州"],
     lat: 26.5835,
     lng: 107.9829,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "extra-21",
@@ -278,7 +278,7 @@ export const FOODS_EXTRA: Food[] = [
     popularRegions: ["海南"],
     lat: 18.2528,
     lng: 109.5119,
-    popularity: 5,
+    popularity: 3,
   },
   // ========== 小吃类 ==========
 
@@ -304,7 +304,7 @@ export const FOODS_EXTRA: Food[] = [
     popularRegions: ["北京"],
     lat: 39.9042,
     lng: 116.4074,
-    popularity: 7,
+    popularity: 8,
   },
   
   
@@ -329,7 +329,7 @@ export const FOODS_EXTRA: Food[] = [
     popularRegions: ["广东"],
     lat: 24.2884,
     lng: 116.1227,
-    popularity: 3,
+    popularity: 1,
   },
   // ========== 汤羹类 ==========
   
@@ -378,7 +378,7 @@ export const FOODS_EXTRA: Food[] = [
     popularRegions: ["四川"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "extra-48",

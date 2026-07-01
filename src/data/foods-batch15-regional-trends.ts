@@ -21,11 +21,11 @@ export const FOODS_BATCH15_REGIONAL_TRENDS: Food[] = [
     ingredients: ["鸡肉", "黄皮叶", "姜", "盐"],
     cookingMethod: ["蒸", "炖"],
     tags: ["鲜香", "主菜", "琼菜", "海南", "儋州", "果香"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["儋州", "海南"],
     lat: 19.5200,
     lng: 109.5800,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 青海省补充美食 ==========
@@ -49,7 +49,7 @@ export const FOODS_BATCH15_REGIONAL_TRENDS: Food[] = [
     popularRegions: ["西宁", "青海"],
     lat: 36.6171,
     lng: 101.7782,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch15-qinghai-2",
@@ -67,11 +67,11 @@ export const FOODS_BATCH15_REGIONAL_TRENDS: Food[] = [
     ingredients: ["猪肉", "醋", "辣椒", "淀粉"],
     cookingMethod: ["炸", "浇"],
     tags: ["酸辣", "主菜", "西北菜", "青海", "宴席", "老八盘"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["西宁", "青海"],
     lat: 36.6171,
     lng: 101.7782,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch15-qinghai-3",
@@ -93,7 +93,7 @@ export const FOODS_BATCH15_REGIONAL_TRENDS: Food[] = [
     popularRegions: ["西宁", "青海"],
     lat: 36.6171,
     lng: 101.7782,
-    popularity: 4,
+    popularity: 1,
   },
 
   // ========== 澳门补充美食 ==========
@@ -113,11 +113,11 @@ export const FOODS_BATCH15_REGIONAL_TRENDS: Food[] = [
     ingredients: ["面粉", "虾籽", "猪油", "酱油"],
     cookingMethod: ["煮", "拌"],
     tags: ["鲜香", "面食", "粤菜", "澳门", "虾籽"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["澳门"],
     lat: 22.1987,
     lng: 113.5439,
-    popularity: 6,
+    popularity: 5,
   },
   
 
@@ -142,7 +142,7 @@ export const FOODS_BATCH15_REGIONAL_TRENDS: Food[] = [
     popularRegions: ["吴忠", "银川", "宁夏"],
     lat: 37.9900,
     lng: 106.2000,
-    popularity: 5,
+    popularity: 2,
   },
   
   
@@ -166,7 +166,7 @@ export const FOODS_BATCH15_REGIONAL_TRENDS: Food[] = [
     popularRegions: ["吴忠", "宁夏"],
     lat: 37.9900,
     lng: 106.2000,
-    popularity: 3,
+    popularity: 6,
   },
 
   // ========== 清真菜补充美食 ==========
@@ -207,7 +207,7 @@ export const FOODS_BATCH15_REGIONAL_TRENDS: Food[] = [
     ingredients: ["羊肚", "芝麻酱", "醋", "红油"],
     cookingMethod: ["爆"],
     tags: ["咸鲜", "小吃", "清真菜", "北京", "脆嫩"],
-    fame: "普通",
+    fame: "地方名吃",
     popularRegions: ["北京", "天津"],
     lat: 39.9042,
     lng: 116.4074,

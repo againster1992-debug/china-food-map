@@ -19,11 +19,11 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     ingredients: ["鱼肉", "蟹", "虾", "鸡蛋"],
     cookingMethod: ["煮", "熬"],
     tags: ["咸鲜", "汤羹", "粤菜", "海鲜", "宴席"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch3-gd-2",
@@ -46,7 +46,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch3-gd-3",
@@ -69,7 +69,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch3-gd-4",
@@ -88,11 +88,11 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     ingredients: ["鸡肉", "盐", "姜", "葱", "五香粉"],
     cookingMethod: ["炸"],
     tags: ["咸鲜", "主菜", "粤菜", "宴席", "脆皮"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 7,
+    popularity: 6,
   },
   // 「龙虎凤」(batch3-gd-5) 已合并至「龙虎斗」(famous-22) - 同地同物异名
   {
@@ -116,7 +116,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch3-gd-8",
@@ -139,7 +139,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch3-gd-10",
@@ -162,7 +162,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch3-gd-11",
@@ -181,11 +181,11 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     ingredients: ["鱼肉", "火腿", "鸡肉", "山奈"],
     cookingMethod: ["煮", "熬"],
     tags: ["咸鲜", "汤羹", "粤菜", "宴席", "海味"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch3-gd-12",
@@ -208,7 +208,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 6,
+    popularity: 4,
   },
 
   {
@@ -232,7 +232,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch3-gd-19",
@@ -255,7 +255,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch3-gd-20",
@@ -278,7 +278,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch3-gd-21",
@@ -301,7 +301,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch3-gd-22",
@@ -320,11 +320,11 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     ingredients: ["猪肉", "盐", "五香粉"],
     cookingMethod: ["烤"],
     tags: ["咸鲜", "主菜", "粤菜", "烧腊", "脆皮"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 7,
+    popularity: 6,
   },
   
   
@@ -349,7 +349,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch3-gd-25",
@@ -372,7 +372,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch3-gd-26",
@@ -395,7 +395,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch3-gd-28",
@@ -418,7 +418,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch3-gd-29",
@@ -437,11 +437,11 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     ingredients: ["面粉", "香肠", "糖"],
     cookingMethod: ["烤"],
     tags: ["咸鲜", "小吃", "粤菜", "茶餐厅", "面包", "酥脆"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["香港"],
     lat: 22.3193,
     lng: 114.1694,
-    popularity: 4,
+    popularity: 2,
   }
 
   ,
@@ -466,7 +466,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 2,
+    popularity: 1,
   },
   {
     id: "batch3-gd-36",
@@ -489,7 +489,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch3-gd-37",
@@ -512,7 +512,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 2,
+    popularity: 1,
   },
 
   {
@@ -536,7 +536,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 2,
+    popularity: 1,
   },
   {
     id: "batch3-gd-41",
@@ -559,7 +559,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch3-gd-42",
@@ -582,7 +582,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 2,
+    popularity: 1,
   },
   {
     id: "batch3-gd-43",
@@ -605,7 +605,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 2,
+    popularity: 1,
   },
   {
     id: "batch3-gd-44",
@@ -628,7 +628,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch3-gd-45",
@@ -651,7 +651,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 2,
+    popularity: 1,
   },
   {
     id: "batch3-gd-46",
@@ -674,7 +674,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 2,
+    popularity: 1,
   },
   {
     id: "batch3-gd-47",
@@ -697,7 +697,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch3-gd-49",
@@ -720,7 +720,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch3-gd-50",
@@ -739,11 +739,11 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     ingredients: ["海参", "葱", "蚝油"],
     cookingMethod: ["炖", "焖", "烧"],
     tags: ["咸鲜", "主菜", "粤菜", "海味", "宴席", "爽脆"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch3-gd-51",
@@ -766,7 +766,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch3-gd-52",
@@ -789,7 +789,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch3-gd-53",
@@ -812,7 +812,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 2,
+    popularity: 1,
   },
   {
     id: "batch3-gd-54",
@@ -858,7 +858,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch3-gd-56",
@@ -881,7 +881,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch3-gd-58",
@@ -904,7 +904,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 2,
+    popularity: 1,
   },
   {
     id: "batch3-gd-59",
@@ -927,7 +927,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch3-gd-60",
@@ -950,7 +950,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch3-gd-62",
@@ -973,7 +973,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch3-gd-63",
@@ -992,11 +992,11 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     ingredients: ["面粉", "虾", "猪肉", "韭菜"],
     cookingMethod: ["煮", "蒸"],
     tags: ["咸鲜", "主食", "粤菜", "爽脆", "广东"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["全国"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch3-gd-64",
@@ -1015,11 +1015,11 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     ingredients: ["糯米", "糖", "椰子"],
     cookingMethod: ["蒸", "煎"],
     tags: ["香甜", "糕点", "粤菜", "年宵", "粘糯"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch3-gd-65",
@@ -1042,7 +1042,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch3-gd-66",
@@ -1065,7 +1065,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch3-gd-67",
@@ -1088,7 +1088,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["香港"],
     lat: 22.3193,
     lng: 114.1694,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch3-gd-68",
@@ -1111,7 +1111,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch3-gd-69",
@@ -1134,7 +1134,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch3-gd-70",
@@ -1157,7 +1157,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch3-gd-71",
@@ -1180,7 +1180,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 9,
+    popularity: 8,
   },
   {
     id: "batch3-gd-72",
@@ -1203,7 +1203,7 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch3-gd-73",
@@ -1222,11 +1222,11 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     ingredients: ["燕窝", "糖", "红枣"],
     cookingMethod: ["炖"],
     tags: ["清淡", "甜品", "粤菜", "滋补", "宴席", "酥脆"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "batch3-gd-74",
@@ -1243,14 +1243,14 @@ export const FOODS_BATCH3_CANTONESE: Food[] = [
     origin: "粤菜高档食材，传统「海八珍」之首",
     description:
       "鲍鱼以干品水发后红烧、焖制。口感软糯弹牙，鲜味浓郁。是粤菜「鲍参翅肚」四大海味之首，宴席至尊。讲究「发」功与「烧」功，入味而不烂。阿一鲍鱼、吉品鲍最负盛名，是粤菜海味文化的巅峰。",
-    ingredients: ["鱼肉", "蚝油", "糖"],
+    ingredients: ["鲍鱼", "蚝油", "糖"],
     cookingMethod: ["炖", "焖", "烧"],
     tags: ["咸鲜", "主菜", "粤菜", "海味", "宴席", "酥脆"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch3-cantonese-laohuo-liangtang",

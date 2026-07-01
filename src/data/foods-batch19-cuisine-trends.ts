@@ -20,11 +20,11 @@ export const FOODS_BATCH19_CUISINE_TRENDS: Food[] = [
     ingredients: ["面粉", "猪油", "蒜", "猪肝"],
     cookingMethod: ["煮", "拌"],
     tags: ["咸鲜", "面食", "客家菜", "广东", "梅州", "早餐"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["梅州", "深圳", "香港"],
     lat: 24.2887,
     lng: 116.1175,
-    popularity: 7,
+    popularity: 6,
   },
 
   // ========== 潮汕菜补充美食 ==========/**/,
@@ -44,11 +44,11 @@ export const FOODS_BATCH19_CUISINE_TRENDS: Food[] = [
     ingredients: ["鸡翅", "豆腐乳", "淀粉"],
     cookingMethod: ["炸"],
     tags: ["咸鲜", "小吃", "潮汕菜", "广东", "汕头", "网红"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["汕头", "潮州"],
     lat: 23.3535,
     lng: 116.6815,
-    popularity: 7,
+    popularity: 6,
   },// ========== 清真菜补充美食 ==========
   ,
   {
@@ -114,11 +114,11 @@ export const FOODS_BATCH19_CUISINE_TRENDS: Food[] = [
     ingredients: ["米粉", "牛肉", "花生", "蔬菜"],
     cookingMethod: ["煮", "拌"],
     tags: ["咸鲜", "面食", "琼菜", "海南", "早餐", "非遗"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["海南"],
     lat: 20.0444,
     lng: 110.1989,
-    popularity: 7,
+    popularity: 6,
   },
   // ========== 晋菜补充美食 ==========
   {
@@ -159,11 +159,11 @@ export const FOODS_BATCH19_CUISINE_TRENDS: Food[] = [
     ingredients: ["羊肉", "酸菜", "粉条", "辣椒"],
     cookingMethod: ["炖"],
     tags: ["酸辣", "主菜", "晋菜", "山西", "太原", "网红"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["山西", "太原"],
     lat: 37.8706,
     lng: 112.5489,
-    popularity: 7,
+    popularity: 6,
   },
 
   // ========== 冀菜补充美食 ==========
@@ -187,7 +187,7 @@ export const FOODS_BATCH19_CUISINE_TRENDS: Food[] = [
     popularRegions: ["河北", "京津冀"],
     lat: 38.874,
     lng: 115.4646,
-    popularity: 8,
+    popularity: 9,
   },
   {
     id: "batch19-hebei-2",

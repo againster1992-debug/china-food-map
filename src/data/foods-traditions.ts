@@ -29,7 +29,7 @@ export const FOODS_TRADITIONS: Food[] = [
     popularRegions: ["上海", "浙江"],
     lat: 31.2989,
     lng: 120.5853,
-    popularity: 5,
+    popularity: 3,
   },
   // 扬州早茶
   
@@ -52,11 +52,11 @@ export const FOODS_TRADITIONS: Food[] = [
     ingredients: ["茶叶"],
     cookingMethod: ["冲"],
     tags: ["饮食传统"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["广东", "台湾"],
     lat: 24.8741,
     lng: 118.6757,
-    popularity: 4,
+    popularity: 2,
   },
   // 藏式甜茶馆
   {
@@ -129,7 +129,7 @@ export const FOODS_TRADITIONS: Food[] = [
     popularRegions: ["宁夏", "青海"],
     lat: 36.0611,
     lng: 103.8343,
-    popularity: 3,
+    popularity: 6,
   },
   // 北京大碗茶
   {
@@ -153,7 +153,7 @@ export const FOODS_TRADITIONS: Food[] = [
     popularRegions: ["天津", "河北"],
     lat: 39.9042,
     lng: 116.4074,
-    popularity: 4,
+    popularity: 1,
   },
   // 天津茶馆相声
   {
@@ -177,7 +177,7 @@ export const FOODS_TRADITIONS: Food[] = [
     popularRegions: ["北京", "河北"],
     lat: 39.0842,
     lng: 117.201,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 夜市/小吃街文化 ==========
@@ -203,7 +203,7 @@ export const FOODS_TRADITIONS: Food[] = [
     popularRegions: ["湖北"],
     lat: 30.5928,
     lng: 114.3055,
-    popularity: 8,
+    popularity: 9,
   },
   // 长沙夜宵
   {
@@ -227,7 +227,7 @@ export const FOODS_TRADITIONS: Food[] = [
     popularRegions: ["湖南", "湖北"],
     lat: 28.2278,
     lng: 112.9388,
-    popularity: 8,
+    popularity: 9,
   },
   // 西安回民街
   {
@@ -247,7 +247,7 @@ export const FOODS_TRADITIONS: Food[] = [
     ingredients: ["羊肉"],
     cookingMethod: ["烤", "煮", "蒸", "炖"],
     tags: ["饮食传统"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["陕西", "甘肃"],
     lat: 34.3416,
     lng: 108.9398,
@@ -323,7 +323,7 @@ export const FOODS_TRADITIONS: Food[] = [
     popularRegions: ["江苏", "浙江"],
     lat: 31.2304,
     lng: 121.4737,
-    popularity: 6,
+    popularity: 5,
   },
   // 天津古文化街
   {
@@ -347,7 +347,7 @@ export const FOODS_TRADITIONS: Food[] = [
     popularRegions: ["河北", "北京"],
     lat: 39.0842,
     lng: 117.201,
-    popularity: 5,
+    popularity: 3,
   },
   // 哈尔滨中央大街
   {
@@ -364,14 +364,14 @@ export const FOODS_TRADITIONS: Food[] = [
     origin: "黑龙江哈尔滨，源于20世纪初俄侨文化",
     description:
       "哈尔滨中央大街是「东方莫斯科」的美食名片，百年欧式建筑林立。马迭尔冰棍、哈尔滨红肠、大列巴（俄式面包）、格瓦斯、烤冷面、锅包肉，中俄风味交融。中央大街建于1900年，俄侨带来西式饮食，经百年本土化形成独特「哈埠菜」。马迭尔冷饮厅、华梅西餐厅是百年老字号。冬日零下三十度吃马迭尔冰棍是哈尔滨「反季节」浪漫。中央大街体现哈尔滨「中西合璧」的城市气质，是中东铁路文化带的味觉遗产，承载着「冰城」百年风华。",
-    ingredients: [],
+    ingredients: ["冰棍", "红肠", "大列巴", "格瓦斯", "烤冷面"],
     cookingMethod: ["烤", "熏", "煮", "炸"],
-    tags: ["饮食传统"],
+    tags: ["饮食传统", "中央大街", "俄侨文化", "哈埠菜", "中西合璧"],
     fame: "地方名吃",
     popularRegions: ["黑龙江", "吉林"],
     lat: 45.8038,
     lng: 126.5349,
-    popularity: 6,
+    popularity: 5,
   },
   // 沈阳中街
   {
@@ -395,7 +395,7 @@ export const FOODS_TRADITIONS: Food[] = [
     popularRegions: ["辽宁", "吉林"],
     lat: 41.8057,
     lng: 123.4315,
-    popularity: 5,
+    popularity: 3,
   },
   // 长春桂林路
   {
@@ -412,14 +412,14 @@ export const FOODS_TRADITIONS: Food[] = [
     origin: "吉林长春，近几十年形成的美食街区",
     description:
       "长春桂林路是长春最热闹的美食街区，融合东北与朝鲜族风味。桂林路小吃以烤肉、冷面、打糕、石锅拌饭、烤串为主，朝鲜族风味浓郁。长春是东北朝鲜族聚居城市之一，桂林路汇聚延吉、韩国风味。烤肉以炭火铜锅为主，配冷面、拌饭是「标配」。桂林路夜市从傍晚到深夜，烤串、炸鸡、奶茶摊位林立，是长春年轻人的「夜生活据点」。体现长春作为东北亚中心城市的饮食多元，是「汽车城」之外的市井一面，承载长春人的青春与味觉记忆。",
-    ingredients: [],
+    ingredients: ["烤肉", "冷面", "打糕", "石锅拌饭", "烤串"],
     cookingMethod: ["烤", "煮", "拌"],
-    tags: ["饮食传统"],
+    tags: ["饮食传统", "桂林路", "朝鲜族风味", "夜市", "东北亚"],
     fame: "地方名吃",
     popularRegions: ["吉林", "黑龙江"],
     lat: 43.8868,
     lng: 125.3245,
-    popularity: 5,
+    popularity: 3,
   },
   // 厦门中山路
   {
@@ -443,7 +443,7 @@ export const FOODS_TRADITIONS: Food[] = [
     popularRegions: ["福建", "台湾"],
     lat: 24.4798,
     lng: 118.0894,
-    popularity: 5,
+    popularity: 3,
   },
   // 台北夜市
 
@@ -465,11 +465,11 @@ export const FOODS_TRADITIONS: Food[] = [
     ingredients: ["羊肉", "酸奶"],
     cookingMethod: ["烤", "煮", "焖", "蒸"],
     tags: ["饮食传统", "大巴扎", "维吾尔族", "丝路", "咸鲜", "小吃", "新疆菜", "新疆"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["新疆", "全国"],
     lat: 43.7928,
     lng: 87.6271,
-    popularity: 5,
+    popularity: 4,
   },
 
   // ========== 火锅/涮锅文化 ==========
@@ -527,7 +527,7 @@ export const FOODS_TRADITIONS: Food[] = [
     popularRegions: ["四川", "全国"],
     lat: 29.563,
     lng: 106.5516,
-    popularity: 8,
+    popularity: 9,
   },
 
   // ========== 粤式糖水/宵夜 ==========
@@ -549,11 +549,11 @@ export const FOODS_TRADITIONS: Food[] = [
     ingredients: ["红豆", "绿豆", "芝麻", "杏仁", "牛奶"],
     cookingMethod: ["煮", "炖", "熬"],
     tags: ["饮食传统"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["香港", "澳门", "广西"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 7,
+    popularity: 6,
   },
   // 顺德鱼生
   // 港式糖水
@@ -574,11 +574,11 @@ export const FOODS_TRADITIONS: Food[] = [
     ingredients: ["芒果", "西米", "柚子", "牛奶", "芝麻"],
     cookingMethod: ["煮", "炖"],
     tags: ["饮食传统"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["广东", "澳门"],
     lat: 22.3193,
     lng: 114.1694,
-    popularity: 4,
+    popularity: 2,
   },
   // 「潮汕夜粥」(tradition-chaoshan-ye-zhou) 已合并至「潮汕打冷」(batch4-cs-6) - 同地同物异名
 
@@ -605,7 +605,7 @@ export const FOODS_TRADITIONS: Food[] = [
     popularRegions: ["河北", "内蒙古", "陕西"],
     lat: 37.8706,
     lng: 112.5489,
-    popularity: 6,
+    popularity: 9,
   },
   // 兰州牛肉面文化
   {
@@ -658,7 +658,7 @@ export const FOODS_TRADITIONS: Food[] = [
     popularRegions: ["河北", "河南", "江苏"],
     lat: 36.6512,
     lng: 117.12,
-    popularity: 6,
+    popularity: 5,
   },
   // 闽南博饼宴
   {
@@ -682,7 +682,7 @@ export const FOODS_TRADITIONS: Food[] = [
     popularRegions: ["福建", "台湾"],
     lat: 24.4798,
     lng: 118.0894,
-    popularity: 5,
+    popularity: 3,
   },
   // 广东盆菜
   {
@@ -728,11 +728,11 @@ export const FOODS_TRADITIONS: Food[] = [
     ingredients: ["猪肉", "鱼肉", "面粉"],
     cookingMethod: ["烤", "煎", "炸", "煮"],
     tags: ["饮食传统"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["香港", "广东"],
     lat: 22.1987,
     lng: 113.5439,
-    popularity: 4,
+    popularity: 2,
   },
   // 台湾泡沫红茶
   {
@@ -752,11 +752,11 @@ export const FOODS_TRADITIONS: Food[] = [
     ingredients: ["茶叶", "糖"],
     cookingMethod: ["摇", "泡"],
     tags: ["饮食传统"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["全国", "香港", "澳门"],
     lat: 25.033,
     lng: 121.5654,
-    popularity: 4,
+    popularity: 2,
   },
   // 大连海鲜大排档
   {
@@ -780,7 +780,7 @@ export const FOODS_TRADITIONS: Food[] = [
     popularRegions: ["辽宁", "山东"],
     lat: 38.914,
     lng: 121.6147,
-    popularity: 6,
+    popularity: 5,
   },
   // 苏州碧螺春
   // 云南普洱茶
@@ -831,7 +831,7 @@ export const FOODS_TRADITIONS: Food[] = [
     popularRegions: ["辽宁", "吉林", "河北"],
     lat: 41.8057,
     lng: 123.4315,
-    popularity: 8,
+    popularity: 9,
   },
   // 广西米粉文化
   {
@@ -880,7 +880,7 @@ export const FOODS_TRADITIONS: Food[] = [
     popularRegions: ["江西", "湖南"],
     lat: 28.682,
     lng: 115.8579,
-    popularity: 4,
+    popularity: 2,
   },
   // 沙县小吃文化
   // 山东煎饼文化
@@ -906,7 +906,7 @@ export const FOODS_TRADITIONS: Food[] = [
     popularRegions: ["湖北"],
     lat: 30.5928,
     lng: 114.3055,
-    popularity: 4,
+    popularity: 2,
   },
   // 长沙坡子街
   {
@@ -956,7 +956,7 @@ export const FOODS_TRADITIONS: Food[] = [
     popularRegions: ["辽宁", "吉林", "全国"],
     lat: 41.0951,
     lng: 121.1270,
-    popularity: 8,
+    popularity: 10,
   },
   // 新疆馕文化
   // 青海高原饮食
@@ -981,7 +981,7 @@ export const FOODS_TRADITIONS: Food[] = [
     popularRegions: ["西藏", "甘肃"],
     lat: 36.6171,
     lng: 101.7782,
-    popularity: 5,
+    popularity: 3,
   },
   // 二十四节气食俗
   {
@@ -1029,7 +1029,7 @@ export const FOODS_TRADITIONS: Food[] = [
     popularRegions: ["全国", "海外华人区"],
     lat: 39.9042,
     lng: 116.4074,
-    popularity: 8,
+    popularity: 9,
   },
   // 冬至吃饺子
   // 中秋赏月吃月饼
@@ -1050,7 +1050,7 @@ export const FOODS_TRADITIONS: Food[] = [
     ingredients: ["面粉", "莲蓉", "蛋黄", "豆沙", "火腿"],
     cookingMethod: ["包", "烤"],
     tags: ["饮食传统", "中秋", "月饼", "赏月", "团圆", "节庆"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["全国", "海外华人区"],
     lat: 30.0,
     lng: 120.0,
@@ -1115,7 +1115,7 @@ export const FOODS_TRADITIONS: Food[] = [
     popularRegions: ["山东", "北京"],
     lat: 35.5809,
     lng: 116.8485,
-    popularity: 8,
+    popularity: 9,
   },
   // 谭家菜
   {
@@ -1334,7 +1334,7 @@ export const FOODS_TRADITIONS: Food[] = [
     ingredients: ["猪肉", "番茄", "土豆", "牛肉", "奶油", "辣椒"],
     cookingMethod: ["炸", "炖", "煮", "焗"],
     tags: ["饮食传统", "融合菜", "中西合璧", "租界文化", "嫩滑"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["上海", "江苏", "浙江"],
     lat: 31.2304,
     lng: 121.4737,
@@ -1403,14 +1403,14 @@ export const FOODS_TRADITIONS: Food[] = [
     origin: "广东深圳，改革开放后国际化都市饮食传统",
     description:
       "深圳外国菜是深圳作为移民城市和国际化都市的独特饮食传统。改革开放以来，深圳吸引了来自世界各地的人才，带来了各自的家乡味道。从福田到南山，日料、韩餐、法餐、意餐、东南亚菜、墨西哥菜、中东菜应有尽有。蛇口、海上世界一带外国餐厅林立，由外籍人士经营，原汁原味。与香港外国菜类似，深圳外国菜体现深圳「来了就是深圳人」的包容精神，是中国改革开放饮食文化多元化的见证。",
-    ingredients: [],
+    ingredients: ["多元食材"],
     cookingMethod: ["烤", "煮", "炒", "炸"],
     tags: ["饮食传统", "异域风味", "多国料理", "国际化", "移民城市"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["广州", "香港"],
     lat: 22.5431,
     lng: 114.0579,
-    popularity: 7,
+    popularity: 6,
   },
 
   // ========== 名菜饮食文化 ==========
@@ -1487,7 +1487,7 @@ export const FOODS_TRADITIONS: Food[] = [
     popularRegions: ["广东", "香港", "澳门"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 9,
+    popularity: 10,
   },
   // 武汉热干面文化
 
@@ -1538,7 +1538,7 @@ export const FOODS_TRADITIONS: Food[] = [
     popularRegions: ["广东", "全国"],
     lat: 23.354,
     lng: 116.6818,
-    popularity: 8,
+    popularity: 9,
   },
   // 安徽徽菜文化
   {
@@ -1700,7 +1700,7 @@ export const FOODS_TRADITIONS: Food[] = [
     ingredients: ["猪肉", "鸡肉", "鱼肉", "豆腐", "笋"],
     cookingMethod: ["炖", "烧", "蒸", "焖"],
     tags: ["饮食传统", "徽菜", "徽州宴席", "八大菜系", "徽商", "嫩滑"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["安徽", "江苏", "浙江"],
     lat: 30.0673,
     lng: 118.5955,
@@ -1724,11 +1724,11 @@ export const FOODS_TRADITIONS: Food[] = [
     ingredients: ["青稞", "酥油", "牛肉", "人参果", "奶渣"],
     cookingMethod: ["煮", "炸", "干制"],
     tags: ["饮食传统", "藏餐", "藏历新年", "洛萨", "切玛", "嫩滑"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["西藏", "青海", "四川"],
     lat: 29.65,
     lng: 91.13,
-    popularity: 5,
+    popularity: 4,
   },
   // ========== 清真菜补充（原1项）==========
   {
@@ -1748,7 +1748,7 @@ export const FOODS_TRADITIONS: Food[] = [
     ingredients: ["羊肉", "牛肉", "面粉", "芝麻"],
     cookingMethod: ["烧", "烤", "蒸", "煮"],
     tags: ["饮食传统", "清真菜", "回族", "伊斯兰", "哈拉勒"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["宁夏", "甘肃", "新疆", "青海"],
     lat: 38.4872,
     lng: 106.2309,
@@ -1776,7 +1776,7 @@ export const FOODS_TRADITIONS: Food[] = [
     popularRegions: ["河南", "陕西"],
     lat: 34.6197,
     lng: 112.454,
-    popularity: 8,
+    popularity: 9,
   },
   // ========== 本帮菜补充（原1项）==========
   {
@@ -1820,7 +1820,7 @@ export const FOODS_TRADITIONS: Food[] = [
     ingredients: ["面粉", "莜麦", "牛肉", "醋", "高粱"],
     cookingMethod: ["蒸", "煮", "卤", "炒"],
     tags: ["饮食传统", "晋菜", "晋商", "面食", "陈醋"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["山西", "内蒙古", "北京"],
     lat: 37.1892,
     lng: 112.1756,
@@ -1844,11 +1844,11 @@ export const FOODS_TRADITIONS: Food[] = [
     ingredients: ["糯米", "柠檬", "鱼肉", "鸭肉", "酸笋"],
     cookingMethod: ["蒸", "煮", "腌", "炒"],
     tags: ["饮食传统", "桂菜", "壮族", "酸嘢", "五色糯米饭"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["广西", "云南", "贵州"],
     lat: 22.817,
     lng: 108.3669,
-    popularity: 5,
+    popularity: 4,
   },
   // ========== 赣菜补充（原1项）==========
   {
@@ -1872,7 +1872,7 @@ export const FOODS_TRADITIONS: Food[] = [
     popularRegions: ["江西", "广东", "福建"],
     lat: 25.8294,
     lng: 114.9353,
-    popularity: 5,
+    popularity: 3,
   },
   // ========== 冀菜补充（原1项）==========
   {
@@ -1892,7 +1892,7 @@ export const FOODS_TRADITIONS: Food[] = [
     ingredients: ["驴肉", "鱼肉", "猪肉", "面粉", "白菜"],
     cookingMethod: ["烧", "炖", "焖", "烙"],
     tags: ["饮食传统", "冀菜", "驴肉火烧", "直隶", "咸鲜", "主菜", "河北"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["河北", "北京", "天津"],
     lat: 38.8739,
     lng: 115.4646,
@@ -2016,7 +2016,7 @@ export const FOODS_TRADITIONS: Food[] = [
     popularRegions: ["天津", "北京"],
     lat: 39.1255,
     lng: 117.1901,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "tradition-hongkong-soy-sauce-western",
@@ -2062,7 +2062,7 @@ export const FOODS_TRADITIONS: Food[] = [
     popularRegions: ["台湾"],
     lat: 25.033,
     lng: 121.5654,
-    popularity: 5,
+    popularity: 3,
   },
   // 香港外国菜（合并原港式日料、港式东南亚菜、港式印度菜）
   {
@@ -2082,9 +2082,9 @@ export const FOODS_TRADITIONS: Food[] = [
     ingredients: ["鱼肉", "咖喱", "香茅草", "河粉", "椰子", "鸡肉", "大米", "酸奶"],
     cookingMethod: ["煮", "烤", "炖", "炒", "炸", "蒸"],
     tags: ["饮食传统", "异域风味", "多国料理", "中西融合", "日式", "东南亚", "印度", "特色餐饮", "殖民文化", "复合", "主菜", "粤菜", "香港"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["香港", "广东", "澳门"],
     lat: 22.3193,
     lng: 114.1694,
-    popularity: 7,
+    popularity: 6,
   }];

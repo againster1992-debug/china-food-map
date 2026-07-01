@@ -18,11 +18,11 @@ export const FOODS_BATCH3_SICHUAN: Food[] = [
     ingredients: ["鱼肉", "豆瓣酱", "辣椒", "姜", "蒜", "葱", "料酒"],
     cookingMethod: ["烧"],
     tags: ["麻辣", "主菜", "川菜", "鱼", "干烧", "嫩滑"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["四川"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch3-sc-4",
@@ -45,7 +45,7 @@ export const FOODS_BATCH3_SICHUAN: Food[] = [
     popularRegions: ["四川"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 6,
+    popularity: 4,
   },
 
   {
@@ -69,7 +69,7 @@ export const FOODS_BATCH3_SICHUAN: Food[] = [
     popularRegions: ["重庆"],
     lat: 29.29,
     lng: 106.259,
-    popularity: 6,
+    popularity: 4,
   },
 
   {
@@ -93,7 +93,7 @@ export const FOODS_BATCH3_SICHUAN: Food[] = [
     popularRegions: ["四川"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch3-sc-10",
@@ -116,7 +116,7 @@ export const FOODS_BATCH3_SICHUAN: Food[] = [
     popularRegions: ["四川"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch3-sc-11",
@@ -135,11 +135,11 @@ export const FOODS_BATCH3_SICHUAN: Food[] = [
     ingredients: ["鱼肉", "火腿", "豆苗", "盐"],
     cookingMethod: ["汆"],
     tags: ["清淡", "汤羹", "川菜", "鱿鱼", "宴席", "酥脆"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["四川"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch3-sc-12",
@@ -162,7 +162,7 @@ export const FOODS_BATCH3_SICHUAN: Food[] = [
     popularRegions: ["四川"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch3-sc-14",
@@ -185,7 +185,7 @@ export const FOODS_BATCH3_SICHUAN: Food[] = [
     popularRegions: ["四川"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch3-sc-15",
@@ -208,7 +208,7 @@ export const FOODS_BATCH3_SICHUAN: Food[] = [
     popularRegions: ["四川"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch3-sc-16",
@@ -227,11 +227,11 @@ export const FOODS_BATCH3_SICHUAN: Food[] = [
     ingredients: ["猪肉", "蛋清", "火腿", "豆苗"],
     cookingMethod: ["蒸"],
     tags: ["清淡", "汤羹", "川菜", "猪肝", "宴席", "嫩滑"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["四川"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch3-sc-17",
@@ -254,7 +254,7 @@ export const FOODS_BATCH3_SICHUAN: Food[] = [
     popularRegions: ["四川"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch3-sc-19",
@@ -273,11 +273,11 @@ export const FOODS_BATCH3_SICHUAN: Food[] = [
     ingredients: ["猪肉", "芸豆", "姜", "葱", "辣椒"],
     cookingMethod: ["炖"],
     tags: ["咸鲜", "汤羹", "川菜", "夜宵", "粘糯"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["四川"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch3-sc-20",
@@ -300,7 +300,7 @@ export const FOODS_BATCH3_SICHUAN: Food[] = [
     popularRegions: ["四川"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch3-sc-22",
@@ -323,7 +323,7 @@ export const FOODS_BATCH3_SICHUAN: Food[] = [
     popularRegions: ["四川"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch3-sc-24",
@@ -342,11 +342,11 @@ export const FOODS_BATCH3_SICHUAN: Food[] = [
     ingredients: ["醋", "红油", "榨菜", "花生", "葱"],
     cookingMethod: ["煮"],
     tags: ["酸辣", "面食", "川菜", "面条", "嫩滑"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["四川"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "batch3-sc-25",
@@ -369,7 +369,7 @@ export const FOODS_BATCH3_SICHUAN: Food[] = [
     popularRegions: ["四川"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch3-sc-26",
@@ -392,7 +392,7 @@ export const FOODS_BATCH3_SICHUAN: Food[] = [
     popularRegions: ["四川"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 5,
+    popularity: 2,
   },
   // 【已合并】吴抄手已合并至「抄手」(batch7-national-15, foods-batch7-national.ts) - 品牌前缀简化
   // 原条目 batch3-sc-28 (吴抄手) 已删除合并

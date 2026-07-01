@@ -24,7 +24,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["河北"],
     lat: 36.6256,
     lng: 114.5391,
-    popularity: 3,
+    popularity: 2,
   },
   {
     id: "snack-5",
@@ -47,7 +47,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["河北"],
     lat: 38.7056,
     lng: 116.6536,
-    popularity: 3,
+    popularity: 2,
   },
 
   // ========== 山西（5）==========
@@ -72,7 +72,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["山西"],
     lat: 38.4166,
     lng: 112.7342,
-    popularity: 2,
+    popularity: 1,
   },
 
   // ========== 山东（5）==========
@@ -97,7 +97,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["山东"],
     lat: 36.6512,
     lng: 117.12,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "snack-14",
@@ -120,7 +120,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["山东"],
     lat: 36.4559,
     lng: 115.9855,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "snack-15",
@@ -143,7 +143,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["山东"],
     lat: 36.1144,
     lng: 115.7926,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 江苏（5）==========
@@ -168,7 +168,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["江苏"],
     lat: 32.1889,
     lng: 119.9086,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "snack-17",
@@ -191,7 +191,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["江苏"],
     lat: 32.3946,
     lng: 119.4137,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "snack-18",
@@ -214,7 +214,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["江苏"],
     lat: 32.4554,
     lng: 119.9229,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "snack-19",
@@ -237,7 +237,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["江苏"],
     lat: 34.2654,
     lng: 117.1849,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "snack-20",
@@ -285,7 +285,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["浙江"],
     lat: 28.9358,
     lng: 118.8595,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "snack-25",
@@ -308,7 +308,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["浙江"],
     lat: 30.2741,
     lng: 120.1551,
-    popularity: 7,
+    popularity: 6,
   },
 
   // ========== 安徽（5）==========
@@ -332,7 +332,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["安徽"],
     lat: 32.479,
     lng: 117.3814,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "snack-29",
@@ -355,7 +355,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["安徽"],
     lat: 31.3525,
     lng: 118.4328,
-    popularity: 4,
+    popularity: 3,
   },
   {
     id: "snack-30",
@@ -378,7 +378,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["安徽"],
     lat: 32.3018,
     lng: 118.3169,
-    popularity: 3,
+    popularity: 1,
   },
 
   // ========== 福建（5）==========
@@ -402,7 +402,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["福建"],
     lat: 26.3972,
     lng: 117.7917,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "snack-33",
@@ -425,7 +425,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["福建"],
     lat: 27.3269,
     lng: 120.4491,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "snack-35",
@@ -448,7 +448,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["福建"],
     lat: 26.0745,
     lng: 119.2965,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 广东（5）==========
@@ -473,7 +473,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["广东"],
     lat: 23.3535,
     lng: 116.682,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "snack-39",
@@ -496,7 +496,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["广东"],
     lat: 23.3054,
     lng: 116.1657,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "snack-40",
@@ -519,7 +519,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["广东"],
     lat: 23.6568,
     lng: 116.6226,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 广西（5）==========
@@ -544,7 +544,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["广西"],
     lat: 22.817,
     lng: 108.3669,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "snack-43",
@@ -567,7 +567,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["广西"],
     lat: 21.9813,
     lng: 108.6543,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "snack-44",
@@ -590,7 +590,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["广西"],
     lat: 23.9027,
     lng: 106.6182,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "snack-45",
@@ -613,7 +613,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["广西"],
     lat: 24.8282,
     lng: 108.2591,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 四川（5）==========
@@ -638,7 +638,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["四川"],
     lat: 29.9805,
     lng: 102.9663,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "snack-50",
@@ -657,11 +657,11 @@ export const FOODS_SNACKS: Food[] = [
     ingredients: ["猪肉", "小肠", "土豆", "辣椒"],
     cookingMethod: ["烤"],
     tags: ["小吃", "西昌", "川菜", "烧烤", "彝族", "民族风味", "嫩滑"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["四川"],
     lat: 27.8945,
     lng: 102.2642,
-    popularity: 7,
+    popularity: 6,
   },
 
   // ========== 贵州（5）==========
@@ -686,7 +686,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["贵州"],
     lat: 25.092,
     lng: 104.8955,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "snack-53",
@@ -709,7 +709,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["贵州"],
     lat: 26.2582,
     lng: 107.517,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "snack-55",
@@ -732,7 +732,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["贵州"],
     lat: 26.5835,
     lng: 107.9829,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 云南（5）==========
@@ -780,7 +780,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["云南"],
     lat: 24.1133,
     lng: 102.76,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "snack-59",
@@ -803,7 +803,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["云南"],
     lat: 27.34,
     lng: 103.725,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 陕西（5）==========
@@ -824,11 +824,11 @@ export const FOODS_SNACKS: Food[] = [
     ingredients: ["土豆", "胡萝卜", "胡椒", "辣椒"],
     cookingMethod: ["煮", "勾芡"],
     tags: ["小吃", "西北菜", "胡辣汤", "早餐", "麻辣", "绵软"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["陕西"],
     lat: 34.3416,
     lng: 108.9398,
-    popularity: 5,
+    popularity: 4,
   },
   {
     id: "snack-62",
@@ -851,7 +851,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["陕西"],
     lat: 36.5853,
     lng: 109.4898,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "snack-63",
@@ -874,7 +874,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["陕西"],
     lat: 34.9563,
     lng: 109.5902,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "snack-64",
@@ -897,7 +897,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["陕西"],
     lat: 34.4436,
     lng: 107.6281,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "snack-65",
@@ -920,7 +920,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["陕西"],
     lat: 33.0674,
     lng: 107.0238,
-    popularity: 3,
+    popularity: 2,
   },
 
   // ========== 甘肃（5）==========
@@ -940,12 +940,12 @@ export const FOODS_SNACKS: Food[] = [
       "陇南甜浆以黄豆磨浆煮沸，配油条、麻花、馍块食用。豆浆浓稠，香甜暖胃，是陇南早餐代表。与北方豆浆不同，陇南甜浆讲究「浓、热、香」，配油炸面食更显丰富。体现陇南饮食的南北交融特色，是「陇上江南」的味道记忆。",
     ingredients: ["黄豆", "油条"],
     cookingMethod: ["磨", "煮"],
-    tags: ["小吃", "西北菜", "豆浆", "早餐", "香甜", "劲道"],
+    tags: ["小吃", "西北菜", "豆浆", "早餐", "香甜", "劲道", "汤"],
     fame: "地方名吃",
     popularRegions: ["甘肃"],
     lat: 33.3886,
     lng: 104.9217,
-    popularity: 4,
+    popularity: 2,
   },
   
   
@@ -970,7 +970,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["甘肃"],
     lat: 35.7341,
     lng: 107.638,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "snack-69",
@@ -1016,7 +1016,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["新疆"],
     lat: 42.9513,
     lng: 89.1895,
-    popularity: 6,
+    popularity: 5,
   },
   // 「伊犁马奶」已合并至「哈萨克马奶酒」(ethnic-140) - 同地同物异名
 
@@ -1038,11 +1038,11 @@ export const FOODS_SNACKS: Food[] = [
     ingredients: ["蚕蛹", "椒盐", "油"],
     cookingMethod: ["炸", "炒"],
     tags: ["小吃", "东北菜", "蚕蛹", "夜宵", "高蛋白", "劲道"],
-    fame: "普通",
+    fame: "地方名吃",
     popularRegions: ["吉林"],
     lat: 43.8868,
     lng: 125.3245,
-    popularity: 3,
+    popularity: 2,
   },
 
   // ========== 其他地区（25）==========
@@ -1067,7 +1067,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["湖北"],
     lat: 30.5928,
     lng: 114.3055,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "snack-86",
@@ -1090,7 +1090,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["湖南"],
     lat: 28.3119,
     lng: 109.7391,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "snack-87",
@@ -1113,7 +1113,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["四川"],
     lat: 29.58,
     lng: 105.0586,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "snack-88",
@@ -1136,7 +1136,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["四川"],
     lat: 30.9899,
     lng: 103.9586,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "snack-89",
@@ -1159,7 +1159,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["河南"],
     lat: 34.797,
     lng: 114.308,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "snack-91",
@@ -1182,7 +1182,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["山东"],
     lat: 36.0671,
     lng: 120.3826,
-    popularity: 6,
+    popularity: 5,
   },
   
   {
@@ -1206,7 +1206,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["浙江"],
     lat: 30.0303,
     lng: 120.5848,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "snack-96",
@@ -1225,11 +1225,11 @@ export const FOODS_SNACKS: Food[] = [
     ingredients: ["辣椒", "面粉"],
     cookingMethod: ["蘸", "煮"],
     tags: ["小吃", "清真菜", "麻辣", "街头"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["宁夏"],
     lat: 38.4872,
     lng: 106.2309,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "snack-97",
@@ -1252,7 +1252,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["江西"],
     lat: 27.8043,
     lng: 114.4161,
-    popularity: 4,
+    popularity: 2,
   },
   
   {
@@ -1276,7 +1276,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["湖南"],
     lat: 27.7269,
     lng: 111.3068,
-    popularity: 5,
+    popularity: 3,
   },
   
   
@@ -1301,7 +1301,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["江苏"],
     lat: 34.261,
     lng: 117.1848,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "snack-107",
@@ -1324,7 +1324,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["江苏"],
     lat: 34.597,
     lng: 119.2223,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "snack-108",
@@ -1347,7 +1347,7 @@ export const FOODS_SNACKS: Food[] = [
     popularRegions: ["江苏"],
     lat: 33.5893,
     lng: 119.0192,
-    popularity: 5,
+    popularity: 3,
   },
   // 「snack-110」已合并至「hb-3」- 沧州羊肠汤与沧州羊肠子为同地同物异名（hb-3别名含"羊肠汤"），合并至原条目沧州羊肠子
   //   {

@@ -70,7 +70,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "四川"],
   lat: 29.563,
   lng: 106.5516,
-  popularity: 6
+  popularity: 4
 },
 {
   id: "batch24-pcs-0003",
@@ -94,12 +94,12 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "天津",
     "端午粽",
     "传统小吃"],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "天津"],
   lat: 39.0842,
   lng: 117.201,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch24-pcs-0004",
@@ -123,12 +123,12 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "内蒙古",
     "呼和浩特",
     "奶食"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: [
     "内蒙古"],
   lat: 40.8414,
   lng: 111.7519,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch24-pcs-0005",
@@ -159,7 +159,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "黑龙江"],
   lat: 41.8057,
   lng: 123.4315,
-  popularity: 5
+  popularity: 2
 },
 {
   id: "batch24-pcs-0006",
@@ -187,12 +187,12 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "宁夏",
     "银川",
     "枸杞"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: [
     "宁夏"],
   lat: 38.4872,
   lng: 106.2309,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch24-pcs-0007",
@@ -251,12 +251,12 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "兰州",
     "百合",
     "玫瑰"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: [
     "甘肃"],
   lat: 36.0611,
   lng: 103.8343,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch24-pcs-0009",
@@ -286,7 +286,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "安徽"],
   lat: 29.7147,
   lng: 118.3375,
-  popularity: 5
+  popularity: 2
 },
 {
   id: "batch24-pcs-0010",
@@ -312,12 +312,12 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "儋州",
     "黑猪",
     "端午粽"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: [
     "海南"],
   lat: 19.5209,
   lng: 109.5808,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch24-pcs-0016",
@@ -343,13 +343,13 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "常德",
     "石锅",
     "网红"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: [
     "湖南",
     "湖北"],
   lat: 29.0316,
   lng: 111.6985,
-  popularity: 7
+  popularity: 6
 },
 
   
@@ -380,12 +380,12 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "厦门",
     "婚俗",
     "茶点"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: [
     "福建"],
   lat: 24.4798,
   lng: 118.0894,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch24-pcs-0020",
@@ -414,13 +414,13 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "成都",
     "蒸菜",
     "传统名菜"],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "四川",
     "重庆"],
   lat: 30.5728,
   lng: 104.0668,
-  popularity: 7
+  popularity: 6
 },
 
   {
@@ -451,13 +451,13 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "香港",
     "街头小吃",
     "茶餐厅"],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "香港",
     "广东"],
   lat: 22.3193,
   lng: 114.1694,
-  popularity: 7
+  popularity: 6
 },
 
 {
@@ -487,12 +487,12 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "闻喜",
     "花馍",
     "非遗"],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "山西"],
   lat: 35.3562,
   lng: 111.2196,
-  popularity: 7
+  popularity: 6
 },
 
   {
@@ -528,7 +528,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "宁夏"],
   lat: 38.4872,
   lng: 106.2309,
-  popularity: 8
+  popularity: 7
 },
 
   {
@@ -561,7 +561,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "山东"],
   lat: 34.261,
   lng: 117.1848,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch24-pcs-0043",
@@ -587,12 +587,12 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "苏州",
     "鳝鱼",
     "传统名菜"],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "江苏"],
   lat: 31.2989,
   lng: 120.5853,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch24-pcs-0045",
@@ -623,7 +623,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "湖南"],
   lat: 27.55,
   lng: 109.9592,
-  popularity: 6
+  popularity: 4
 },
 {
   id: "batch24-pcs-0048",
@@ -691,7 +691,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "福建"],
   lat: 25.033,
   lng: 121.5654,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch24-pcs-0056",
@@ -726,7 +726,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "重庆"],
   lat: 29.563,
   lng: 106.5516,
-  popularity: 5
+  popularity: 2
 },
 {
   id: "batch24-pcs-0058",
@@ -756,12 +756,12 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "应县",
     "凉粉",
     "消暑"],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "山西"],
   lat: 39.5542,
   lng: 113.19,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch24-pcs-0059",
@@ -797,7 +797,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "黑龙江"],
   lat: 43.8378,
   lng: 126.5496,
-  popularity: 6
+  popularity: 4
 },
 {
   id: "batch24-pcs-0060",
@@ -829,7 +829,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "辽宁"],
   lat: 45.8038,
   lng: 126.535,
-  popularity: 5
+  popularity: 2
 },
 {
   id: "batch24-pcs-0061",
@@ -854,12 +854,12 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "邳州",
     "小鱼",
     "湖鲜"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: [
     "江苏"],
   lat: 34.3352,
   lng: 117.9501,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch24-pcs-0062",
@@ -894,7 +894,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "浙江"],
   lat: 30.016,
   lng: 122.116,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch24-pcs-0063",
@@ -929,7 +929,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "安徽"],
   lat: 31.67,
   lng: 118.51,
-  popularity: 6
+  popularity: 4
 },
 
 {
@@ -959,12 +959,12 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "吉安",
     "炒粉",
     "锅气"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: [
     "江西"],
   lat: 27.1138,
   lng: 114.9928,
-  popularity: 6
+  popularity: 5
 },
 {
   id: "batch24-pcs-0066",
@@ -991,12 +991,12 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "青岛",
     "猪油"
   ],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: [
     "山东"],
   lat: 36.07,
   lng: 120.38,
-  popularity: 6
+  popularity: 5
 },
 {
   id: "batch24-pcs-0067",
@@ -1026,12 +1026,12 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "洛阳",
     "杂粮"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "河南"],
   lat: 34.62,
   lng: 112.45,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch24-pcs-0068",
@@ -1061,7 +1061,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "湖北"],
   lat: 30.5928,
   lng: 114.3055,
-  popularity: 6
+  popularity: 4
 },
 
 {
@@ -1087,12 +1087,12 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "南宁",
     "早餐"
   ],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: [
     "广西"],
   lat: 22.817,
   lng: 108.3665,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch24-pcs-0072",
@@ -1122,7 +1122,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "海南"],
   lat: 18.7481,
   lng: 109.1739,
-  popularity: 5
+  popularity: 2
 },
 {
   id: "batch24-pcs-0074",
@@ -1148,12 +1148,12 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "德宏",
     "鬼鸡",
     "傣族"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: [
     "云南"],
   lat: 24.44,
   lng: 98.58,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch24-pcs-0075",
@@ -1184,7 +1184,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "陕西"],
   lat: 33.07,
   lng: 107.03,
-  popularity: 6
+  popularity: 4
 },
 {
   id: "batch24-pcs-0077",
@@ -1218,7 +1218,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "青海"],
   lat: 36.6171,
   lng: 101.7782,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch24-pcs-0078",
@@ -1248,7 +1248,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "宁夏"],
   lat: 38.9164,
   lng: 106.5234,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch24-pcs-0079",
@@ -1283,7 +1283,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "新疆"],
   lat: 39.4704,
   lng: 75.9897,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch24-pcs-0080",
@@ -1319,7 +1319,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "广东"],
   lat: 22.3193,
   lng: 114.1694,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch24-pcs-0081",
@@ -1349,12 +1349,12 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "手信",
     "蛋卷"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "澳门"],
   lat: 22.1987,
   lng: 113.5439,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch24-pcs-0082",
@@ -1389,7 +1389,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "台湾"],
   lat: 25.033,
   lng: 121.5654,
-  popularity: 8
+  popularity: 7
 },
 
   
@@ -1420,12 +1420,12 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "汤圆",
     "老字号"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "天津"],
   lat: 39.0842,
   lng: 117.201,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch24-pcs-0086",
@@ -1460,7 +1460,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "辽宁"],
   lat: 40.29,
   lng: 123.52,
-  popularity: 5
+  popularity: 2
 },
 {
   id: "batch24-pcs-0087",
@@ -1489,12 +1489,12 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "保定",
     "素面",
     "素食"],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "河北"],
   lat: 38.8739,
   lng: 115.4646,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch24-pcs-0089",
@@ -1524,12 +1524,12 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "阿拉善",
     "驼掌",
     "宴席"],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "内蒙古"],
   lat: 38.8476,
   lng: 105.7284,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch24-pcs-0090",
@@ -1559,10 +1559,10 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "得莫利",
     "炖鱼",
     "公路美食"],
-  fame: "地方名吃",
+  fame: "名菜",
   popularRegions: [
     "黑龙江"],
   lat: 45.8038,
   lng: 128.8292,
-  popularity: 7
+  popularity: 8
 }];

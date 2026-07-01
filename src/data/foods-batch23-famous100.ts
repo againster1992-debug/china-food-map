@@ -1,4 +1,4 @@
-﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
 
 export const FOODS_BATCH23_FAMOUS100: Food[] = [
 {
@@ -32,13 +32,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "江苏"
   ],
   lat: 33.6104,
   lng: 119.0153,
-  popularity: 6
+  popularity: 5
 },
 {
   id: "batch23-famous-3",
@@ -69,13 +69,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "江苏"
   ],
   lat: 33.6104,
   lng: 119.0153,
-  popularity: 6
+  popularity: 5
 },
 {
   id: "batch23-famous-4",
@@ -107,13 +107,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "江苏"
   ],
   lat: 32.3932,
   lng: 119.4129,
-  popularity: 6
+  popularity: 5
 },
 {
   id: "batch23-famous-5",
@@ -147,7 +147,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   ],
   lat: 31.2989,
   lng: 120.5853,
-  popularity: 6
+  popularity: 8
 },
 {
   id: "batch23-famous-6",
@@ -179,13 +179,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "广东"
   ],
   lat: 23.1291,
   lng: 113.2644,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch23-famous-7",
@@ -223,7 +223,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   ],
   lat: 45.8038,
   lng: 126.535,
-  popularity: 4
+  popularity: 1
 },
 {
   id: "batch23-famous-8",
@@ -260,7 +260,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   ],
   lat: 36.6512,
   lng: 116.9972,
-  popularity: 6
+  popularity: 4
 },
 {
   id: "batch23-famous-9",
@@ -291,13 +291,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "河南"
   ],
   lat: 34.7973,
   lng: 114.3077,
-  popularity: 5
+  popularity: 3
 },
 {
   id: "batch23-famous-10",
@@ -328,13 +328,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "河南"
   ],
   lat: 34.7973,
   lng: 114.3077,
-  popularity: 5
+  popularity: 3
 },
 {
   id: "batch23-famous-11",
@@ -365,13 +365,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "河南"
   ],
   lat: 32.9991,
   lng: 112.5283,
-  popularity: 5
+  popularity: 3
 },
 {
   id: "batch23-famous-12",
@@ -408,7 +408,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   ],
   lat: 36.6512,
   lng: 116.9972,
-  popularity: 6
+  popularity: 4
 },
 {
   id: "batch23-famous-13",
@@ -445,7 +445,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   ],
   lat: 36.6512,
   lng: 116.9972,
-  popularity: 6
+  popularity: 4
 },
 {
   id: "batch23-famous-14",
@@ -483,7 +483,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   ],
   lat: 45.8038,
   lng: 126.535,
-  popularity: 3
+  popularity: 1
 },
 {
   id: "batch23-famous-15",
@@ -522,7 +522,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   ],
   lat: 34.3416,
   lng: 108.9398,
-  popularity: 6
+  popularity: 4
 },
 // 「钟祥蟠龙」已合并至「蟠龙菜」(foods-famous.ts)
 {
@@ -554,13 +554,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "湖北"
   ],
   lat: 30.5928,
   lng: 114.3055,
-  popularity: 4
+  popularity: 2
 },
 {
   id: "batch23-famous-18",
@@ -588,13 +588,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "湖北"
   ],
   lat: 30.6919,
   lng: 111.2864,
-  popularity: 5
+  popularity: 3
 },
 {
   id: "batch23-famous-19",
@@ -621,13 +621,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "湖北"
   ],
   lat: 30.6919,
   lng: 111.2864,
-  popularity: 4
+  popularity: 2
 },
 {
   id: "batch23-famous-20",
@@ -665,7 +665,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   ],
   lat: 36.6512,
   lng: 116.9972,
-  popularity: 6
+  popularity: 4
 },
 {
   id: "batch23-famous-21",
@@ -702,7 +702,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   ],
   lat: 36.6512,
   lng: 116.9972,
-  popularity: 6
+  popularity: 4
 },
 {
   id: "batch23-famous-22",
@@ -740,7 +740,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   ],
   lat: 36.6512,
   lng: 116.9972,
-  popularity: 6
+  popularity: 4
 },
 {
   id: "batch23-famous-23",
@@ -772,7 +772,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   ],
   lat: 39.1252,
   lng: 117.1904,
-  popularity: 5
+  popularity: 2
 },
 {
   id: "batch23-famous-24",
@@ -805,7 +805,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   ],
   lat: 39.9042,
   lng: 116.4074,
-  popularity: 6
+  popularity: 4
 },
 {
   id: "batch23-famous-25",
@@ -843,7 +843,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   ],
   lat: 36.6512,
   lng: 116.9972,
-  popularity: 6
+  popularity: 4
 },
 {
   id: "batch23-famous-26",
@@ -876,13 +876,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "传统名菜",
     "辣味"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "云南"
   ],
   lat: 24.8801,
   lng: 102.8329,
-  popularity: 5
+  popularity: 3
 },
 {
   id: "batch23-famous-27",
@@ -913,13 +913,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "河北"
   ],
   lat: 40.7686,
   lng: 114.8865,
-  popularity: 5
+  popularity: 6
 },
 {
   id: "batch23-famous-28",
@@ -950,13 +950,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "浙江"
   ],
   lat: 28.9359,
   lng: 118.8743,
-  popularity: 6
+  popularity: 5
 },
 {
   id: "batch23-famous-29",
@@ -994,7 +994,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   ],
   lat: 43.8171,
   lng: 125.3235,
-  popularity: 3
+  popularity: 1
 },
 {
   id: "batch23-famous-30",
@@ -1027,13 +1027,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "传统名菜",
     "甜味"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "安徽"
   ],
   lat: 31.8206,
   lng: 117.2272,
-  popularity: 3
+  popularity: 1
 },
 {
   id: "batch23-famous-31",
@@ -1067,7 +1067,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   ],
   lat: 37.735,
   lng: 115.6863,
-  popularity: 4
+  popularity: 1
 },
 {
   id: "batch23-famous-32",
@@ -1105,7 +1105,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   ],
   lat: 36.6093,
   lng: 114.4905,
-  popularity: 4
+  popularity: 1
 },
 
 {
@@ -1143,7 +1143,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   ],
   lat: 36.6512,
   lng: 116.9972,
-  popularity: 5
+  popularity: 2
 },
 {
   id: "batch23-famous-35",
@@ -1180,7 +1180,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   ],
   lat: 36.6512,
   lng: 116.9972,
-  popularity: 5
+  popularity: 2
 },
 {
   id: "batch23-famous-37",
@@ -1211,13 +1211,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "浙江"
   ],
   lat: 29.8683,
   lng: 121.544,
-  popularity: 6
+  popularity: 5
 },
 
   
@@ -1245,13 +1245,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "上海"
   ],
   lat: 31.2304,
   lng: 121.4737,
-  popularity: 6
+  popularity: 5
 },
 {
   id: "batch23-famous-40",
@@ -1277,13 +1277,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "上海"
   ],
   lat: 31.2304,
   lng: 121.4737,
-  popularity: 6
+  popularity: 5
 },
 {
   id: "batch23-famous-41",
@@ -1315,13 +1315,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "广东"
   ],
   lat: 23.1291,
   lng: 113.2644,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch23-famous-42",
@@ -1353,13 +1353,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "传统名菜",
     "甜味"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "浙江"
   ],
   lat: 29.8683,
   lng: 121.544,
-  popularity: 6
+  popularity: 5
 },
 {
   id: "batch23-famous-43",
@@ -1389,13 +1389,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "上海"
   ],
   lat: 31.2304,
   lng: 121.4737,
-  popularity: 6
+  popularity: 5
 },
 // 【已合并】炒秃肺已合并至「青鱼秃肺」(pop-add-1, foods-popular.ts) - 同地同物异名
 // 原条目 batch23-famous-44 (炒秃肺) 已删除合并
@@ -1435,7 +1435,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   ],
   lat: 23.1291,
   lng: 113.2644,
-  popularity: 4
+  popularity: 1
 },
 {
   id: "batch23-famous-46",
@@ -1461,13 +1461,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "上海"
   ],
   lat: 31.2304,
   lng: 121.4737,
-  popularity: 6
+  popularity: 5
 },
 {
   id: "batch23-famous-47",
@@ -1500,13 +1500,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "传统名菜",
     "甜味"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "上海"
   ],
   lat: 31.2304,
   lng: 121.4737,
-  popularity: 6
+  popularity: 5
 },
 {
   id: "batch23-famous-48",
@@ -1537,13 +1537,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "上海"
   ],
   lat: 31.2304,
   lng: 121.4737,
-  popularity: 4
+  popularity: 2
 },
 {
   id: "batch23-famous-49",
@@ -1575,13 +1575,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "传统名菜",
     "甜味"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "上海"
   ],
   lat: 31.2304,
   lng: 121.4737,
-  popularity: 3
+  popularity: 1
 },
 {
   id: "batch23-famous-50",
@@ -1613,13 +1613,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "传统名菜",
     "地方名吃"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "上海"
   ],
   lat: 31.2304,
   lng: 121.4737,
-  popularity: 5
+  popularity: 3
 },{
   id: "batch23-famous-52",
   name: "枫泾丁蹄",
@@ -1648,13 +1648,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "上海"
   ],
   lat: 31.2304,
   lng: 121.4737,
-  popularity: 6
+  popularity: 5
 },
 // 「虾子大参」已合并至「虾子大乌参」(foods-famous.ts famous-71) - 同地同物异名
 {
@@ -1686,13 +1686,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "上海"
   ],
   lat: 31.2304,
   lng: 121.4737,
-  popularity: 6
+  popularity: 5
 },
 {
   id: "batch23-famous-55",
@@ -1729,7 +1729,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   ],
   lat: 36.0671,
   lng: 120.3826,
-  popularity: 6
+  popularity: 4
 },
 {
   id: "batch23-famous-56",
@@ -1767,7 +1767,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   ],
   lat: 36.0671,
   lng: 120.3826,
-  popularity: 6
+  popularity: 4
 },
 {
   id: "batch23-famous-57",
@@ -1805,7 +1805,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   ],
   lat: 36.6512,
   lng: 116.9972,
-  popularity: 6
+  popularity: 4
 },
 {
   id: "batch23-famous-58",
@@ -1835,13 +1835,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "上海"
   ],
   lat: 31.2304,
   lng: 121.4737,
-  popularity: 6
+  popularity: 5
 },
 {
   id: "batch23-famous-59",
@@ -1879,7 +1879,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   ],
   lat: 36.6512,
   lng: 116.9972,
-  popularity: 6
+  popularity: 4
 },
 {
   id: "batch23-famous-60",
@@ -1917,7 +1917,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   ],
   lat: 36.6512,
   lng: 116.9972,
-  popularity: 4
+  popularity: 1
 },
 
   {
@@ -1955,7 +1955,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   ],
   lat: 30.5728,
   lng: 104.0668,
-  popularity: 6
+  popularity: 4
 },
 {
   id: "batch23-famous-64",
@@ -1987,13 +1987,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "广东"
   ],
   lat: 23.1291,
   lng: 113.2644,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch23-famous-65",
@@ -2020,13 +2020,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "广东"
   ],
   lat: 22.8369,
   lng: 113.2428,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch23-famous-66",
@@ -2064,7 +2064,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   ],
   lat: 36.6512,
   lng: 116.9972,
-  popularity: 4
+  popularity: 1
 },
 {
   id: "batch23-famous-67",
@@ -2096,13 +2096,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "福建"
   ],
   lat: 26.0745,
   lng: 119.2965,
-  popularity: 6
+  popularity: 5
 },
 
 {
@@ -2131,13 +2131,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "传统名菜",
     "地方名吃"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "福建"
   ],
   lat: 26.0745,
   lng: 119.2965,
-  popularity: 5
+  popularity: 3
 },
 // 「吉首酸肉」已合并至「湘西酸肉」(foods-cities-south.ts)
 {
@@ -2177,7 +2177,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   ],
   lat: 28.2278,
   lng: 112.9388,
-  popularity: 5
+  popularity: 2
 },
 
 {
@@ -2210,7 +2210,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   ],
   lat: 39.9042,
   lng: 116.4074,
-  popularity: 6
+  popularity: 4
 },
 {
   id: "batch23-famous-74",
@@ -2242,7 +2242,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   ],
   lat: 39.9042,
   lng: 116.4074,
-  popularity: 6
+  popularity: 4
 },
 {
   id: "batch23-famous-75",
@@ -2279,7 +2279,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   ],
   lat: 36.6512,
   lng: 116.9972,
-  popularity: 6
+  popularity: 4
 },
 {
   id: "batch23-famous-76",
@@ -2310,13 +2310,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "广东"
   ],
   lat: 23.1291,
   lng: 113.2644,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch23-famous-77",
@@ -2349,7 +2349,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   ],
   lat: 36.6512,
   lng: 116.9972,
-  popularity: 6
+  popularity: 4
 },
 // 「熘黄菜」已合并至「溜黄菜」(foods-batch3-shandong.ts) - 同省同物异名
 {
@@ -2377,13 +2377,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "广东"
   ],
   lat: 23.1291,
   lng: 113.2644,
-  popularity: 7
+  popularity: 6
 },
 {
   id: "batch23-famous-80",
@@ -2421,7 +2421,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   ],
   lat: 39.9042,
   lng: 116.4074,
-  popularity: 5
+  popularity: 2
 },
 {
   id: "batch23-famous-81",
@@ -2458,7 +2458,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   ],
   lat: 39.9042,
   lng: 116.4074,
-  popularity: 5
+  popularity: 2
 },
 {
   id: "batch23-famous-82",
@@ -2491,13 +2491,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "甜品",
     "甜味"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "陕西"
   ],
   lat: 34.4996,
   lng: 109.4826,
-  popularity: 3
+  popularity: 2
 },
 {
   id: "batch23-famous-83",
@@ -2530,7 +2530,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   ],
   lat: 36.6512,
   lng: 116.9972,
-  popularity: 6
+  popularity: 4
 },
 {
   id: "batch23-famous-85",
@@ -2566,7 +2566,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   ],
   lat: 36.6512,
   lng: 116.9972,
-  popularity: 6
+  popularity: 4
 },
 {
   id: "batch23-famous-86",
@@ -2604,7 +2604,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   ],
   lat: 36.6512,
   lng: 116.9972,
-  popularity: 6
+  popularity: 4
 },
 {
   id: "batch23-famous-87",
@@ -2641,7 +2641,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   ],
   lat: 36.6512,
   lng: 116.9972,
-  popularity: 6
+  popularity: 4
 },
 {
   id: "batch23-famous-88",
@@ -2678,7 +2678,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   ],
   lat: 36.6512,
   lng: 116.9972,
-  popularity: 6
+  popularity: 4
 },
 {
   id: "batch23-famous-89",
@@ -2709,13 +2709,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "江苏"
   ],
   lat: 31.2989,
   lng: 120.5853,
-  popularity: 6
+  popularity: 5
 },
 
 {
@@ -2748,13 +2748,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "江苏"
   ],
   lat: 32.0603,
   lng: 118.7969,
-  popularity: 6
+  popularity: 5
 },
 // 「炒软兜」已合并至「软兜长鱼」(foods-famous.ts) - 同省同物异名
 {
@@ -2786,13 +2786,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "江苏"
   ],
   lat: 32.3932,
   lng: 119.4129,
-  popularity: 6
+  popularity: 5
 },
 {
   id: "batch23-famous-96",
@@ -2819,13 +2819,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "江苏"
   ],
   lat: 31.2989,
   lng: 120.5853,
-  popularity: 4
+  popularity: 2
 },
 {
   id: "batch23-famous-97",
@@ -2862,7 +2862,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   ],
   lat: 32.0603,
   lng: 118.7969,
-  popularity: 4
+  popularity: 1
 },
 {
   id: "batch23-famous-98",
@@ -2894,13 +2894,13 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "传统名菜",
     "甜味"
   ],
-  fame: "名菜",
+  fame: "地方名吃",
   popularRegions: [
     "江苏"
   ],
   lat: 31.2989,
   lng: 120.5853,
-  popularity: 4
+  popularity: 2
 },
 {
   id: "batch23-famous-99",
@@ -2938,7 +2938,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   ],
   lat: 30.5728,
   lng: 104.0668,
-  popularity: 6
+  popularity: 4
 },
 {
   id: "batch23-famous-100",
@@ -2977,6 +2977,6 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   ],
   lat: 30.5728,
   lng: 104.0668,
-  popularity: 6
+  popularity: 4
 }
 ];

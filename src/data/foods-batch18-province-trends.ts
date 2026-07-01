@@ -24,7 +24,7 @@ export const FOODS_BATCH18_PROVINCE_TRENDS: Food[] = [
     popularRegions: ["珲春", "延边", "吉林"],
     lat: 42.8624,
     lng: 130.3616,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch18-jilin-2",
@@ -46,7 +46,7 @@ export const FOODS_BATCH18_PROVINCE_TRENDS: Food[] = [
     popularRegions: ["吉林", "长春"],
     lat: 43.8378,
     lng: 126.5496,
-    popularity: 4,
+    popularity: 1,
   },
 
   // ========== 西藏补充美食 ==========
@@ -69,11 +69,11 @@ export const FOODS_BATCH18_PROVINCE_TRENDS: Food[] = [
     ingredients: ["羊肉", "葱", "姜", "盐", "花椒"],
     cookingMethod: ["蒸"],
     tags: ["咸鲜", "主菜", "清真菜", "宁夏", "吴忠", "羊羔肉", "清真"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["吴忠", "银川", "宁夏"],
     lat: 37.9900,
     lng: 106.2000,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch18-ningxia-2",
@@ -91,11 +91,11 @@ export const FOODS_BATCH18_PROVINCE_TRENDS: Food[] = [
     ingredients: ["鱼肉", "蒜", "酱油", "姜", "料酒"],
     cookingMethod: ["红烧"],
     tags: ["咸鲜", "主菜", "西北菜", "宁夏", "中卫", "地标"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["中卫", "银川", "宁夏"],
     lat: 37.5100,
     lng: 105.1900,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 青海补充美食 ==========
@@ -119,7 +119,7 @@ export const FOODS_BATCH18_PROVINCE_TRENDS: Food[] = [
     popularRegions: ["西宁", "青海"],
     lat: 36.6171,
     lng: 101.7782,
-    popularity: 4,
+    popularity: 6,
   },
 
   // ========== 新疆补充美食 ==========
@@ -139,11 +139,11 @@ export const FOODS_BATCH18_PROVINCE_TRENDS: Food[] = [
     ingredients: ["羊肉", "洋葱", "盐"],
     cookingMethod: ["炖"],
     tags: ["咸鲜", "主菜", "新疆菜", "新疆", "伊犁", "手抓肉", "原味"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["伊犁", "北疆", "新疆"],
     lat: 43.9218,
     lng: 81.3240,
-    popularity: 6,
+    popularity: 5,
   },
   
   {
@@ -190,7 +190,7 @@ export const FOODS_BATCH18_PROVINCE_TRENDS: Food[] = [
     popularRegions: ["武威", "甘肃"],
     lat: 37.9282,
     lng: 102.6346,
-    popularity: 6,
+    popularity: 4,
   },
 
   // ========== 内蒙古补充美食 ==========
@@ -215,5 +215,5 @@ export const FOODS_BATCH18_PROVINCE_TRENDS: Food[] = [
     popularRegions: ["巴彦淖尔", "内蒙古"],
     lat: 40.7430,
     lng: 107.4169,
-    popularity: 3,
+    popularity: 2,
   }];

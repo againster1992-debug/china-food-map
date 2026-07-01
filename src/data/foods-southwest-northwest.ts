@@ -62,10 +62,11 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     ingredients: ["猪肉", "面粉", "花椒", "红油", "芽菜"],
     cookingMethod: ["煮", "拌"],
     tags: ["麻辣", "抄手", "红油", "花椒", "川菜", "小吃"],
+    fame: "名菜",
     popularRegions: ["全国"],
     lat: 29.563,
     lng: 106.5516,
-    popularity: 8,
+    popularity: 9,
   },
   {
     id: "cq-7",
@@ -83,10 +84,11 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     ingredients: ["黄豆", "大米", "辣椒", "花椒", "葱"],
     cookingMethod: ["点", "煮"],
     tags: ["咸鲜", "蘸水", "川菜", "家常", "素食"],
+    fame: "地方名吃",
     popularRegions: ["重庆"],
     lat: 29.563,
     lng: 106.5516,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "cq-8",
@@ -104,10 +106,11 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     ingredients: ["鸡肉", "花椒", "辣椒", "魔芋"],
     cookingMethod: ["烧", "炖"],
     tags: ["麻辣", "江湖菜", "土鸡", "南山", "川菜"],
+    fame: "地方名吃",
     popularRegions: ["重庆"],
     lat: 29.5232,
     lng: 106.6206,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "cq-9",
@@ -125,10 +128,11 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     ingredients: ["糯米", "芝麻", "猪肉", "糖"],
     cookingMethod: ["包", "煮"],
     tags: ["香甜", "汤圆", "黑芝麻", "川菜", "甜品", "元宵", "嫩滑", "焦香"],
+    fame: "地方名吃",
     popularRegions: ["重庆"],
     lat: 29.563,
     lng: 106.5516,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "cq-10",
@@ -146,10 +150,11 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     ingredients: ["面粉", "芝麻", "糖", "食用油"],
     cookingMethod: ["炸"],
     tags: ["香甜", "麻花", "磁器口", "川菜", "伴手礼", "零食"],
+    fame: "地方名吃",
     popularRegions: ["重庆"],
     lat: 29.5772,
     lng: 106.3956,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "cq-11",
@@ -167,10 +172,11 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     ingredients: ["羊肉", "排骨", "米粉", "花椒", "辣椒"],
     cookingMethod: ["蒸"],
     tags: ["咸鲜", "粉蒸", "万州", "川菜", "蒸笼", "早餐", "粘糯", "嫩滑"],
+    fame: "地方名吃",
     popularRegions: ["重庆"],
     lat: 30.8072,
     lng: 108.3432,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "cq-12",
@@ -188,10 +194,11 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     ingredients: ["鸭肉", "酸萝卜", "姜", "枸杞"],
     cookingMethod: ["炖"],
     tags: ["酸辣", "酸萝卜", "川菜", "汤羹", "滋补", "嫩滑"],
+    fame: "地方名吃",
     popularRegions: ["重庆"],
     lat: 29.563,
     lng: 106.5516,
-    popularity: 7,
+    popularity: 6,
   },
 
   // ========== 四川（川菜大本营）==========
@@ -232,6 +239,7 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     ingredients: ["面粉", "猪肉", "红油", "蒜", "酱油"],
     cookingMethod: ["包", "煮", "拌"],
     tags: ["麻辣", "水饺", "红油", "成都", "川菜", "小吃", "甜辣", "酥脆"],
+    fame: "名菜",
     popularRegions: ["全国"],
     lat: 30.5728,
     lng: 104.0668,
@@ -253,6 +261,7 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     ingredients: ["面粉", "红油", "酱油", "芝麻", "花椒"],
     cookingMethod: ["煮", "拌"],
     tags: ["香甜", "面条", "红油", "成都", "川菜", "小吃", "甜辣"],
+    fame: "名菜",
     popularRegions: ["全国"],
     lat: 30.5728,
     lng: 104.0668,
@@ -274,6 +283,7 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     ingredients: ["糯米", "芝麻", "花生", "糖", "猪肉"],
     cookingMethod: ["包", "煮"],
     tags: ["香甜", "汤圆", "黑芝麻", "成都", "川菜", "甜品", "老字号", "酥脆"],
+    fame: "名菜",
     popularRegions: ["全国"],
     lat: 30.5728,
     lng: 104.0668,
@@ -294,12 +304,13 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     ingredients: ["糯米", "黄豆粉", "糖", "芝麻"],
     cookingMethod: ["蒸", "摔", "浇"],
     tags: ["香甜", "糍粑", "红糖", "成都", "川菜", "甜品", "表演"],
+    fame: "名菜",
     popularRegions: ["全国"],
     lat: 30.5728,
     lng: 104.0668,
     popularity: 9,
   },
-  
+
   {
     id: "sc-10",
     name: "跷脚牛肉",
@@ -316,10 +327,11 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     ingredients: ["牛肉", "姜", "芹菜"],
     cookingMethod: ["炖", "煮"],
     tags: ["咸鲜", "牛肉", "牛杂", "乐山", "川菜", "汤羹", "药膳"],
+    fame: "名菜",
     popularRegions: ["全国"],
     lat: 29.5527,
     lng: 103.8364,
-    popularity: 8,
+    popularity: 9,
   },
   {
     id: "sc-11",
@@ -359,10 +371,11 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     ingredients: ["猪肉", "辣椒", "芹菜", "花椒", "葱"],
     cookingMethod: ["爆", "炒"],
     tags: ["麻辣", "腰花", "爆", "川菜", "下饭", "刀工", "粘糯"],
+    fame: "地方名吃",
     popularRegions: ["四川"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "sc-13",
@@ -453,7 +466,8 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["贵州"],
     lat: 26.647,
     lng: 106.6302,
-    popularity: 6,
+    fame: "地方名吃",
+    popularity: 4,
   },
   {
     id: "gz-9",
@@ -474,7 +488,8 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["贵州"],
     lat: 27.2825,
     lng: 105.2847,
-    popularity: 6,
+    fame: "地方名吃",
+    popularity: 4,
   },
   {
     id: "gz-10",
@@ -495,7 +510,8 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["贵州"],
     lat: 26.647,
     lng: 106.6302,
-    popularity: 6,
+    fame: "地方名吃",
+    popularity: 4,
   },
   {
     id: "gz-11",
@@ -516,7 +532,8 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["贵州"],
     lat: 26.5835,
     lng: 107.9829,
-    popularity: 5,
+    fame: "普通",
+    popularity: 2,
   },
   {
     id: "gz-12",
@@ -538,7 +555,7 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     lng: 104.8333,
     fame: "名菜",
     popularRegions: ["贵州"],
-    popularity: 8,
+    popularity: 9,
   },
   {
     id: "gz-dafang-1",
@@ -560,7 +577,7 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["贵州", "毕节"],
     lat: 27.0253,
     lng: 105.6092,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "southwest-guizhou-ditan-huoguo",
@@ -579,11 +596,11 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     ingredients: ["豆豉", "糍粑辣椒", "猪肉", "猪油", "蔬菜", "豆腐"],
     cookingMethod: ["炒", "煮"],
     tags: ["香辣", "火锅", "黔菜", "贵州", "黔西南", "贞丰", "豆豉", "糍粑辣椒", "地摊"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["贵州", "云南"],
     lat: 25.39,
     lng: 105.64,
-    popularity: 7,
+    popularity: 6,
   },
 
   // ========== 云南（多元民族风味，鲜花野菌入菜）==========
@@ -653,7 +670,8 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["云南"],
     lat: 25.02,
     lng: 98.5,
-    popularity: 6,
+    fame: "地方名吃",
+    popularity: 4,
   },
   {
     id: "yn-11",
@@ -674,7 +692,8 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["云南"],
     lat: 23.6267,
     lng: 102.8474,
-    popularity: 7,
+    fame: "地方名吃",
+    popularity: 6,
   },
   {
     id: "yn-12",
@@ -720,7 +739,8 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["全国"],
     lat: 29.6519,
     lng: 91.1721,
-    popularity: 6,
+    fame: "地方名吃",
+    popularity: 4,
   },
   {
     id: "xz-7",
@@ -741,7 +761,8 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["西藏"],
     lat: 29.6519,
     lng: 91.1721,
-    popularity: 5,
+    fame: "普通",
+    popularity: 2,
   },
   {
     id: "xz-8",
@@ -762,7 +783,8 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["西藏"],
     lat: 29.6519,
     lng: 91.1721,
-    popularity: 6,
+    fame: "地方名吃",
+    popularity: 4,
   },
   {
     id: "xz-9",
@@ -783,7 +805,8 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["西藏"],
     lat: 29.6519,
     lng: 91.1721,
-    popularity: 5,
+    fame: "普通",
+    popularity: 2,
   },
   {
     id: "xz-10",
@@ -804,7 +827,8 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["西藏"],
     lat: 29.6519,
     lng: 91.1721,
-    popularity: 4,
+    fame: "普通",
+    popularity: 1,
   },
   {
     id: "xz-11",
@@ -825,7 +849,8 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["西藏"],
     lat: 29.6519,
     lng: 91.1721,
-    popularity: 4,
+    fame: "普通",
+    popularity: 1,
   },
   {
     id: "xz-12",
@@ -846,7 +871,8 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["西藏"],
     lat: 29.6519,
     lng: 91.1721,
-    popularity: 5,
+    fame: "普通",
+    popularity: 2,
   },
 
   // ========== 陕西（关中面食王国，十三朝古都风味）==========
@@ -866,10 +892,11 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     ingredients: ["大米", "辣椒", "醋", "蒜"],
     cookingMethod: ["蒸", "切", "拌"],
     tags: ["酸辣", "凉皮", "秦镇", "西安", "小吃", "夏季", "粘糯"],
+    fame: "名菜",
     popularRegions: ["全国"],
     lat: 34.1089,
     lng: 108.6056,
-    popularity: 9,
+    popularity: 10,
   },
 
   {
@@ -892,7 +919,7 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     lng: 108.9398,
     fame: "名菜",
     popularRegions: ["陕西"],
-    popularity: 8,
+    popularity: 9,
   },
   {
     id: "snx-7",
@@ -914,7 +941,7 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     lng: 108.9398,
     fame: "名菜",
     popularRegions: ["陕西"],
-    popularity: 7,
+    popularity: 9,
   },
   {
     id: "snx-8",
@@ -936,7 +963,7 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     lng: 107.6197,
     fame: "名菜",
     popularRegions: ["全国"],
-    popularity: 8,
+    popularity: 9,
   },
   {
     id: "snx-9",
@@ -957,7 +984,8 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["陕西"],
     lat: 35.4742,
     lng: 110.4428,
-    popularity: 6,
+    fame: "地方名吃",
+    popularity: 4,
   },
   {
     id: "snx-10",
@@ -978,7 +1006,8 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["陕西"],
     lat: 34.3416,
     lng: 108.9398,
-    popularity: 6,
+    fame: "地方名吃",
+    popularity: 4,
   },
   {
     id: "snx-11",
@@ -999,7 +1028,8 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["陕西"],
     lat: 34.3416,
     lng: 108.9398,
-    popularity: 5,
+    fame: "普通",
+    popularity: 2,
   },
   {
     id: "snx-12",
@@ -1020,7 +1050,8 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["陕西"],
     lat: 34.3416,
     lng: 108.9398,
-    popularity: 6,
+    fame: "地方名吃",
+    popularity: 4,
   },
   {
     id: "snx-13",
@@ -1041,7 +1072,8 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["陕西"],
     lat: 34.1512,
     lng: 109.3236,
-    popularity: 5,
+    fame: "普通",
+    popularity: 2,
   },
   {
     id: "snx-14",
@@ -1063,7 +1095,7 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     lng: 108.9398,
     fame: "名菜",
     popularRegions: ["陕西"],
-    popularity: 8,
+    popularity: 9,
   },
 
   // ========== 甘肃（丝路美食，牛羊肉面食王国）==========
@@ -1083,10 +1115,11 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     ingredients: ["面粉", "浆水", "韭菜", "辣椒", "蒜"],
     cookingMethod: ["发酵", "擀", "煮"],
     tags: ["酸辣", "浆水", "面条", "兰州", "面食", "夏季"],
+    fame: "名菜",
     popularRegions: ["全国"],
     lat: 36.0611,
     lng: 103.8343,
-    popularity: 6,
+    popularity: 7,
   },
   {
     id: "gs-4",
@@ -1107,7 +1140,8 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["甘肃"],
     lat: 36.5652,
     lng: 104.6913,
-    popularity: 7,
+    fame: "地方名吃",
+    popularity: 6,
   },
   {
     id: "gs-5",
@@ -1128,7 +1162,8 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["甘肃"],
     lat: 39.7726,
     lng: 98.2894,
-    popularity: 7,
+    fame: "地方名吃",
+    popularity: 6,
   },
 
   {
@@ -1150,7 +1185,8 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["甘肃"],
     lat: 34.5823,
     lng: 105.7249,
-    popularity: 7,
+    fame: "地方名吃",
+    popularity: 6,
   },
   {
     id: "gs-8",
@@ -1171,7 +1207,8 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["甘肃"],
     lat: 35.5219,
     lng: 105.7326,
-    popularity: 7,
+    fame: "地方名吃",
+    popularity: 6,
   },
   {
     id: "gs-9",
@@ -1192,7 +1229,8 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["甘肃"],
     lat: 35.0059,
     lng: 104.6346,
-    popularity: 6,
+    fame: "地方名吃",
+    popularity: 4,
   },
   {
     id: "gs-10",
@@ -1210,10 +1248,11 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     ingredients: ["豌豆", "红枣", "糖"],
     cookingMethod: ["熬", "煮"],
     tags: ["香甜", "灰豆", "豌豆", "兰州", "甜品", "冬季", "劲道"],
+    fame: "名菜",
     popularRegions: ["甘肃"],
     lat: 36.0611,
     lng: 103.8343,
-    popularity: 6,
+    popularity: 7,
   },
   // 「gs-11」已合并至「batch25-hot-095」- 甜醅子与甜胚子为同物异名。WebSearch 验证：甜醅子（酉字旁）为官方/书面规范写法，甜胚子（月字旁）为民间口语写法
   //   {
@@ -1256,7 +1295,8 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["甘肃"],
     lat: 36.0611,
     lng: 103.8343,
-    popularity: 5,
+    fame: "普通",
+    popularity: 2,
   },
 
   // ========== 青海（高原多民族风味，回藏汉交融）==========
@@ -1279,6 +1319,7 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["青海"],
     lat: 36.6171,
     lng: 101.7782,
+    fame: "地方名吃",
     popularity: 6,
   },
   
@@ -1301,7 +1342,8 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["青海"],
     lat: 36.6171,
     lng: 101.7782,
-    popularity: 5,
+    fame: "普通",
+    popularity: 2,
   },
   {
     id: "qh-7",
@@ -1322,7 +1364,8 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["青海"],
     lat: 36.6171,
     lng: 101.7782,
-    popularity: 5,
+    fame: "普通",
+    popularity: 2,
   },
   {
     id: "qh-9",
@@ -1343,7 +1386,8 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["青海"],
     lat: 36.6171,
     lng: 101.7782,
-    popularity: 4,
+    fame: "普通",
+    popularity: 1,
   },
   {
     id: "qh-10",
@@ -1364,7 +1408,8 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["青海"],
     lat: 36.6171,
     lng: 101.7782,
-    popularity: 4,
+    fame: "普通",
+    popularity: 1,
   },
   {
     id: "qh-11",
@@ -1385,7 +1430,8 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["青海"],
     lat: 36.6171,
     lng: 101.7782,
-    popularity: 4,
+    fame: "普通",
+    popularity: 1,
   },
   {
     id: "qh-12",
@@ -1406,6 +1452,7 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["青海"],
     lat: 36.6171,
     lng: 101.7782,
+    fame: "地方名吃",
     popularity: 6,
   },
 
@@ -1430,7 +1477,8 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["宁夏"],
     lat: 38.4872,
     lng: 106.2309,
-    popularity: 5,
+    fame: "普通",
+    popularity: 2,
   },
   // 「八宝盖碗茶」已合并至「八宝茶」(foods-batch15-regional-trends.ts batch15-ningxia-3) - 同地同物异名
   {
@@ -1449,10 +1497,11 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     ingredients: ["羊肉", "土豆", "粉丝", "豆腐", "葱"],
     cookingMethod: ["烩", "炖"],
     tags: ["咸鲜", "羊肉", "主菜", "家常", "滩羊"],
+    fame: "名菜",
     popularRegions: ["宁夏"],
     lat: 38.4872,
     lng: 106.2309,
-    popularity: 7,
+    popularity: 9,
   },
   {
     id: "nx-8",
@@ -1470,10 +1519,11 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     ingredients: ["面粉", "羊肉", "土豆", "豆腐", "醋", "辣椒"],
     cookingMethod: ["炒", "擀", "煮", "浇"],
     tags: ["酸辣", "羊肉", "面食", "家常", "酸", "酥脆", "劲道"],
+    fame: "名菜",
     popularRegions: ["宁夏"],
     lat: 38.4872,
     lng: 106.2309,
-    popularity: 6,
+    popularity: 7,
   },
   {
     id: "nx-9",
@@ -1491,10 +1541,11 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     ingredients: ["面粉", "蒿籽粉", "羊肉", "葱"],
     cookingMethod: ["擀", "切", "煮"],
     tags: ["咸鲜", "蒿籽", "中卫", "面食", "名产", "酥脆"],
+    fame: "名菜",
     popularRegions: ["宁夏"],
     lat: 37.5149,
     lng: 105.1965,
-    popularity: 6,
+    popularity: 7,
   },
   {
     id: "nx-10",
@@ -1515,7 +1566,8 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["宁夏"],
     lat: 38.4872,
     lng: 106.2309,
-    popularity: 4,
+    fame: "普通",
+    popularity: 1,
   },
 
   
@@ -1535,10 +1587,11 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     ingredients: ["面粉", "羊肉", "番茄", "辣椒", "洋葱"],
     cookingMethod: ["拉", "煮", "炒", "拌"],
     tags: ["咸鲜", "拌面", "面食", "主食", "回族", "劲道"],
+    fame: "名菜",
     popularRegions: ["全国"],
     lat: 43.8256,
     lng: 87.6168,
-    popularity: 8,
+    popularity: 9,
   },
   {
     id: "xj-7",
@@ -1556,10 +1609,11 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     ingredients: ["羊肉", "孜然", "盐", "洋葱", "胡椒"],
     cookingMethod: ["腌", "烤"],
     tags: ["咸鲜", "馕坑", "烤肉", "羊肉", "维吾尔族", "主菜", "嫩滑", "劲道"],
+    fame: "名菜",
     popularRegions: ["全国"],
     lat: 43.8256,
     lng: 87.6168,
-    popularity: 8,
+    popularity: 9,
   },
   {
     id: "xj-8",
@@ -1580,7 +1634,8 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["新疆"],
     lat: 43.8256,
     lng: 87.6168,
-    popularity: 7,
+    fame: "地方名吃",
+    popularity: 6,
   },
   {
     id: "xj-9",
@@ -1601,7 +1656,8 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["新疆"],
     lat: 43.8256,
     lng: 87.6168,
-    popularity: 7,
+    fame: "地方名吃",
+    popularity: 6,
   },
   {
     id: "xj-10",
@@ -1619,6 +1675,7 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     ingredients: ["米粉", "鸡肉", "豆瓣酱", "辣椒", "芹菜"],
     cookingMethod: ["炒"],
     tags: ["麻辣", "面食", "网红", "辣", "流行", "嫩滑", "劲道"],
+    fame: "热门",
     popularRegions: ["新疆"],
     lat: 43.8256,
     lng: 87.6168,
@@ -1643,7 +1700,8 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     popularRegions: ["新疆"],
     lat: 43.8256,
     lng: 87.6168,
-    popularity: 7,
+    fame: "地方名吃",
+    popularity: 6,
   },
   
   {
@@ -1726,14 +1784,14 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     "ingredients": ["羊肉", "孜然", "辣椒", "盐", "洋葱"],
     "cookingMethod": ["烤"],
     "tags": ["羊肉", "烤", "新疆菜", "夜市", "孜然", "烧烤"],
-    "fame": "热门",
+    "fame": "名菜",
     "popularRegions": [
       "新疆",
       "全国"
     ],
     "lat": 43.8252,
     "lng": 87.6172,
-    "popularity": 9,
+    "popularity": 10,
     "image": "https://img2.baidu.com/it/u=435365427,26145380&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=667"
   },
 
@@ -1756,8 +1814,8 @@ export const FOODS_SOUTHWEST_NORTHWEST: Food[] = [
     ],
     "cookingMethod": ["煮"],
     "tags": ["主菜", "新疆菜", "羊肉", "游牧", "嫩滑"],
-    "fame": "地方名吃",
+    "fame": "名菜",
     "lat": 43.8256,
     "lng": 87.6168,
-    "popularity": 7
+    "popularity": 8
   }];

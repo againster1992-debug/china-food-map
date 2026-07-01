@@ -70,7 +70,7 @@ export const FOODS_BATCH9_YUNNAN: Food[] = [
     popularRegions: ["昆明", "全省"],
     lat: 25.0389,
     lng: 102.7183,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch9-yn-4",
@@ -93,7 +93,7 @@ export const FOODS_BATCH9_YUNNAN: Food[] = [
     popularRegions: ["西双版纳", "普洱"],
     lat: 22.0074,
     lng: 100.7972,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch9-yn-5",
@@ -162,7 +162,7 @@ export const FOODS_BATCH9_YUNNAN: Food[] = [
     popularRegions: ["昆明"],
     lat: 25.0389,
     lng: 102.7183,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch9-yn-8",
@@ -185,7 +185,7 @@ export const FOODS_BATCH9_YUNNAN: Food[] = [
     popularRegions: ["昆明"],
     lat: 25.0389,
     lng: 102.7183,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch9-yn-9",
@@ -208,7 +208,7 @@ export const FOODS_BATCH9_YUNNAN: Food[] = [
     popularRegions: ["钦州", "北海"],
     lat: 21.981,
     lng: 108.654,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch9-yn-10",
@@ -231,7 +231,7 @@ export const FOODS_BATCH9_YUNNAN: Food[] = [
     popularRegions: ["钦州", "北海", "防城港"],
     lat: 21.981,
     lng: 108.654,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch9-yn-11",
@@ -254,7 +254,7 @@ export const FOODS_BATCH9_YUNNAN: Food[] = [
     popularRegions: ["西双版纳", "德宏", "南宁"],
     lat: 22.0074,
     lng: 100.7972,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch9-yn-12",
@@ -277,7 +277,7 @@ export const FOODS_BATCH9_YUNNAN: Food[] = [
     popularRegions: ["南宁", "柳州"],
     lat: 22.817,
     lng: 108.3665,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch9-yn-13",
@@ -323,7 +323,7 @@ export const FOODS_BATCH9_YUNNAN: Food[] = [
     popularRegions: ["梧州", "玉林"],
     lat: 23.477,
     lng: 111.279,
-    popularity: 5,
+    popularity: 3,
   },
   // 注：啤酒鱼与已有 foods-central-south.ts 的"阳朔啤酒鱼"重复，荔芋扣肉与 foods-cities-south.ts 的"荔浦芋扣肉"重复，此处不重复收录
   ,
@@ -349,7 +349,7 @@ export const FOODS_BATCH9_YUNNAN: Food[] = [
     popularRegions: ["昆明", "全省"],
     lat: 25.0389,
     lng: 102.7183,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch9-yn-18",
@@ -372,7 +372,7 @@ export const FOODS_BATCH9_YUNNAN: Food[] = [
     popularRegions: ["梧州", "桂林"],
     lat: 23.477,
     lng: 111.279,
-    popularity: 6,
+    popularity: 4,
   },
   // 注：荔芋扣肉与已有 foods-cities-south.ts 的"荔浦芋扣肉"重复，此处不重复收录
   {
@@ -392,11 +392,11 @@ export const FOODS_BATCH9_YUNNAN: Food[] = [
     ingredients: ["鸡胗", "酸笋", "辣椒", "蒜"],
     cookingMethod: ["炒"],
     tags: ["酸辣", "主菜", "滇菜", "酸笋", "鸡胗", "下饭", "脆嫩"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["昆明", "南宁", "柳州"],
     lat: 25.0389,
     lng: 102.7183,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch9-yn-21",
@@ -419,7 +419,7 @@ export const FOODS_BATCH9_YUNNAN: Food[] = [
     popularRegions: ["柳州", "桂林"],
     lat: 24.326,
     lng: 109.4116,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch9-yn-22",
@@ -442,7 +442,7 @@ export const FOODS_BATCH9_YUNNAN: Food[] = [
     popularRegions: ["柳州", "南宁"],
     lat: 24.326,
     lng: 109.4116,
-    popularity: 5,
+    popularity: 2,
   },
   
   {
@@ -489,7 +489,7 @@ export const FOODS_BATCH9_YUNNAN: Food[] = [
     popularRegions: ["西双版纳", "德宏", "普洱"],
     lat: 22.0074,
     lng: 100.7972,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch9-yn-26",
@@ -581,7 +581,7 @@ export const FOODS_BATCH9_YUNNAN: Food[] = [
     popularRegions: ["曲靖", "全省"],
     lat: 25.49,
     lng: 103.8,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch9-yn-30",
@@ -604,7 +604,7 @@ export const FOODS_BATCH9_YUNNAN: Food[] = [
     popularRegions: ["昆明", "全省"],
     lat: 25.0389,
     lng: 102.7183,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch9-yn-31",
@@ -670,11 +670,11 @@ export const FOODS_BATCH9_YUNNAN: Food[] = [
     ingredients: ["羊肉", "萝卜", "薄荷", "辣椒", "姜"],
     cookingMethod: ["炖", "煮", "涮"],
     tags: ["咸鲜", "主菜", "滇菜", "羊肉", "火锅", "曲靖", "滋补", "冬季"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["曲靖", "昆明"],
     lat: 25.49,
     lng: 103.8,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch9-yn-35",
@@ -697,7 +697,7 @@ export const FOODS_BATCH9_YUNNAN: Food[] = [
     popularRegions: ["昆明", "全省"],
     lat: 25.0389,
     lng: 102.7183,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "batch9-yn-36",
@@ -743,7 +743,7 @@ export const FOODS_BATCH9_YUNNAN: Food[] = [
     popularRegions: ["昆明"],
     lat: 25.0389,
     lng: 102.7183,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch9-yn-38",
@@ -835,7 +835,7 @@ export const FOODS_BATCH9_YUNNAN: Food[] = [
     popularRegions: ["怒江", "昆明"],
     lat: 25.85,
     lng: 98.8543,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch9-yn-42",
@@ -858,7 +858,7 @@ export const FOODS_BATCH9_YUNNAN: Food[] = [
     popularRegions: ["保山", "怒江"],
     lat: 25.112,
     lng: 99.1671,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch9-yn-43",
@@ -900,11 +900,11 @@ export const FOODS_BATCH9_YUNNAN: Food[] = [
     ingredients: ["米线", "韭菜", "豆芽", "肉酱", "醋", "辣椒"],
     cookingMethod: ["烫", "拌"],
     tags: ["酸辣", "面食", "滇菜", "凉拌", "夏季", "街头", "开胃"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["昆明", "全省"],
     lat: 25.0389,
     lng: 102.7183,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch9-yn-46",
@@ -927,7 +927,7 @@ export const FOODS_BATCH9_YUNNAN: Food[] = [
     popularRegions: ["兰州", "全国"],
     lat: 36.0611,
     lng: 103.8343,
-    popularity: 5,
+    popularity: 3,
   },
   // 「靖远羊羔」已合并至「靖远羊羔肉」(foods-southwest-northwest.ts gs-4) - 同地同物异名
   // ========== 云南菌类 ==========
@@ -1021,6 +1021,6 @@ export const FOODS_BATCH9_YUNNAN: Food[] = [
     popularRegions: ["云南"],
     lat: 25.0389,
     lng: 102.7183,
-    popularity: 6,
+    popularity: 4,
   }
 ];

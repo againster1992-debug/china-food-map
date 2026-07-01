@@ -24,7 +24,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["浙江"],
     lat: 30.2741,
     lng: 120.1551,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-zj-3",
@@ -47,7 +47,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["浙江"],
     lat: 30.0028,
     lng: 120.5802,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-zj-4",
@@ -70,7 +70,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["浙江"],
     lat: 30.2741,
     lng: 120.1551,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-zj-5",
@@ -93,7 +93,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["浙江"],
     lat: 30.2741,
     lng: 120.1551,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-zj-6",
@@ -116,7 +116,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["浙江"],
     lat: 30.2741,
     lng: 120.1551,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-zj-7",
@@ -139,7 +139,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["浙江"],
     lat: 30.2741,
     lng: 120.1551,
-    popularity: 5,
+    popularity: 2,
   },
 
   {
@@ -163,7 +163,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["浙江"],
     lat: 29.8683,
     lng: 121.544,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-zj-11",
@@ -186,7 +186,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["浙江"],
     lat: 29.8683,
     lng: 121.544,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-zj-12",
@@ -209,7 +209,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["浙江"],
     lat: 30.2741,
     lng: 120.1551,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-zj-13",
@@ -232,7 +232,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["浙江"],
     lat: 29.8683,
     lng: 121.544,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-zj-14",
@@ -255,7 +255,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["浙江"],
     lat: 30.2741,
     lng: 120.1551,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-zj-15",
@@ -278,7 +278,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["浙江"],
     lat: 30.2741,
     lng: 120.1551,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-zj-16",
@@ -301,7 +301,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["浙江"],
     lat: 30.7522,
     lng: 120.7555,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-zj-17",
@@ -324,7 +324,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["浙江"],
     lat: 30.2741,
     lng: 120.1551,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-zj-18",
@@ -347,7 +347,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["浙江"],
     lat: 30.2741,
     lng: 120.1551,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-zj-19",
@@ -366,11 +366,11 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     ingredients: ["虾", "火腿", "鸡肉", "香菇", "淀粉"],
     cookingMethod: ["煮", "打"],
     tags: ["浙菜", "敲虾", "清汤", "传统", "嫩滑"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["浙江"],
     lat: 27.9938,
     lng: 120.6993,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "batch4-zj-21",
@@ -393,7 +393,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["浙江"],
     lat: 30.2741,
     lng: 120.1551,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-zj-22",
@@ -416,7 +416,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["浙江"],
     lat: 30.2741,
     lng: 120.1551,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-zj-48b",
@@ -434,11 +434,11 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     ingredients: ["春笋", "食用油", "酱油", "白糖"],
     cookingMethod: ["焖", "炒"],
     tags: ["浙菜", "春笋", "传统", "爽脆", "咸鲜", "时令", "名菜", "浙江"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["浙江", "江苏", "上海"],
     lat: 30.2741,
     lng: 120.1551,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch4-zj-23",
@@ -461,7 +461,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["浙江"],
     lat: 30.2741,
     lng: 120.1551,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-zj-24",
@@ -484,7 +484,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["浙江"],
     lat: 30.2741,
     lng: 120.1551,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-zj-25",
@@ -507,7 +507,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["浙江"],
     lat: 29.8683,
     lng: 121.544,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-zj-26",
@@ -530,7 +530,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["浙江"],
     lat: 30.2741,
     lng: 120.1551,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-zj-27",
@@ -553,7 +553,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["浙江"],
     lat: 29.8683,
     lng: 121.544,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-zj-28",
@@ -572,11 +572,11 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     ingredients: ["虾", "鳝鱼", "蒜", "料酒", "酱油"],
     cookingMethod: ["爆", "炒"],
     tags: ["浙菜", "虾仁", "鳝鱼", "爆炒", "咸鲜", "主菜", "浙江"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["浙江"],
     lat: 30.2741,
     lng: 120.1551,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "batch4-zj-29",
@@ -599,7 +599,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["浙江"],
     lat: 29.8683,
     lng: 121.544,
-    popularity: 5,
+    popularity: 2,
   },
   // 【去重合并】「蜜汁灌藕」(batch4-zj-30) 已合并至「桂花糯米藕」(michelin-32, foods-michelin.ts) - 同为杭州浙菜糯米藕甜品，同地同物异名
   //   {
@@ -642,11 +642,11 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     ingredients: ["千张", "猪肉", "笋", "鱼肉", "芝麻"],
     cookingMethod: ["煮", "包"],
     tags: ["千张包子", "浙菜", "小吃", "千张", "传统", "嫩滑"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["浙江"],
     lat: 30.8703,
     lng: 120.0933,
-    popularity: 5,
+    popularity: 3,
   },
 
 
@@ -670,11 +670,11 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     ingredients: ["豆腐", "食用油", "辣椒", "葱"],
     cookingMethod: ["煎", "发酵"],
     tags: ["徽州", "徽菜", "小吃", "发酵", "名吃", "酥脆", "爽脆"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["安徽"],
     lat: 29.8623,
     lng: 118.4362,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch4-ah-2",
@@ -697,7 +697,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["安徽"],
     lat: 29.8623,
     lng: 118.4362,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-ah-4",
@@ -716,11 +716,11 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     ingredients: ["鱼肉", "茶叶", "糖", "料酒", "姜"],
     cookingMethod: ["熏", "蒸"],
     tags: ["徽州", "徽菜", "鲥鱼", "茶叶熏", "名菜", "粘糯"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["安徽"],
     lat: 29.8623,
     lng: 118.4362,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch4-ah-5",
@@ -743,7 +743,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["安徽"],
     lat: 31.8206,
     lng: 117.2272,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-ah-6",
@@ -765,7 +765,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["安徽"],
     lat: 31.8206,
     lng: 117.2272,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-ah-7",
@@ -784,11 +784,11 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     ingredients: ["鱼肉", "莲藕", "酱油", "醋", "料酒"],
     cookingMethod: ["炖", "焖"],
     tags: ["徽菜", "鲫鱼", "红烧", "传统", "酥脆", "嫩滑"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["安徽"],
     lat: 31.8206,
     lng: 117.2272,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch4-ah-9",
@@ -811,7 +811,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["安徽"],
     lat: 31.8206,
     lng: 117.2272,
-    popularity: 5,
+    popularity: 2,
   },
   // 「王义兴烤鸭」(batch4-ah-10) 已合并至「庐州烤鸭」(batch6-pop-57) - 同地同物异名
   {
@@ -831,11 +831,11 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     ingredients: ["豆腐", "笋", "木耳", "鸡肉", "葱"],
     cookingMethod: ["炖", "烧"],
     tags: ["徽菜", "豆腐", "名菜", "传统", "清淡", "主菜", "安徽"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["安徽"],
     lat: 32.6264,
     lng: 116.9999,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch4-ah-12",
@@ -858,7 +858,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["安徽"],
     lat: 31.8206,
     lng: 117.2272,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-ah-13",
@@ -881,7 +881,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["安徽"],
     lat: 29.8623,
     lng: 118.4362,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-ah-14",
@@ -904,7 +904,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["安徽"],
     lat: 32.6264,
     lng: 116.9999,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-ah-15",
@@ -927,7 +927,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["安徽"],
     lat: 31.8206,
     lng: 117.2272,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-ah-16",
@@ -950,7 +950,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["安徽"],
     lat: 31.8206,
     lng: 117.2272,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-ah-17",
@@ -973,7 +973,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["安徽"],
     lat: 31.8206,
     lng: 117.2272,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-ah-18",
@@ -996,7 +996,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["安徽"],
     lat: 31.8206,
     lng: 117.2272,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-ah-19",
@@ -1019,7 +1019,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["安徽"],
     lat: 31.8206,
     lng: 117.2272,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-ah-20",
@@ -1042,7 +1042,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["安徽"],
     lat: 31.8206,
     lng: 117.2272,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-ah-21",
@@ -1065,7 +1065,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["安徽"],
     lat: 31.8206,
     lng: 117.2272,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-ah-22",
@@ -1088,7 +1088,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["安徽"],
     lat: 31.8206,
     lng: 117.2272,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-ah-23",
@@ -1111,7 +1111,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["安徽"],
     lat: 31.8206,
     lng: 117.2272,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-ah-24",
@@ -1134,7 +1134,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["安徽"],
     lat: 31.8206,
     lng: 117.2272,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch4-ah-25",
@@ -1157,7 +1157,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["安徽"],
     lat: 29.8623,
     lng: 118.4362,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-ah-26",
@@ -1180,7 +1180,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["安徽"],
     lat: 31.8206,
     lng: 117.2272,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-ah-27",
@@ -1203,7 +1203,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["安徽"],
     lat: 31.8206,
     lng: 117.2272,
-    popularity: 5,
+    popularity: 2,
   },
 
   // ========== 苏菜（八大菜系之一，发源江苏）==========
@@ -1225,11 +1225,11 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     ingredients: ["蟹", "料酒", "酱油", "糖", "花椒"],
     cookingMethod: ["腌", "醉"],
     tags: ["苏菜", "蟹", "醉", "名菜", "咸鲜", "主菜", "江苏"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["江苏"],
     lat: 31.2989,
     lng: 120.5853,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch4-js-5",
@@ -1252,7 +1252,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["江苏"],
     lat: 31.2989,
     lng: 120.5853,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-js-6",
@@ -1275,7 +1275,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["江苏"],
     lat: 32.3946,
     lng: 119.4127,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-js-7",
@@ -1298,7 +1298,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["江苏"],
     lat: 32.0603,
     lng: 118.7969,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-js-8",
@@ -1321,7 +1321,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["江苏"],
     lat: 31.2989,
     lng: 120.5853,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-js-9",
@@ -1340,11 +1340,11 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     ingredients: ["鸡肉", "荷叶", "火腿", "香菇"],
     cookingMethod: ["煨"],
     tags: ["苏菜", "鸡", "煨", "传统", "粘糯"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["江苏"],
     lat: 32.0603,
     lng: 118.7969,
-    popularity: 7,
+    popularity: 6,
   },
 
   {
@@ -1368,7 +1368,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["江苏"],
     lat: 32.0603,
     lng: 118.7969,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-js-14",
@@ -1387,11 +1387,11 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     ingredients: ["莼菜", "银鱼", "鸡肉", "盐", "香油"],
     cookingMethod: ["煮"],
     tags: ["苏菜", "莼菜", "银鱼", "汤", "绵软"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["江苏"],
     lat: 31.2989,
     lng: 120.5853,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch4-js-15",
@@ -1410,11 +1410,11 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     ingredients: ["猪肉", "酱油", "糖", "料酒", "八角"],
     cookingMethod: ["焖", "炖"],
     tags: ["周庄", "苏菜", "猪蹄", "红烧", "名吃", "粘糯", "嫩滑"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["江苏"],
     lat: 31.2989,
     lng: 120.5853,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch4-js-16",
@@ -1437,7 +1437,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["江苏"],
     lat: 31.2989,
     lng: 120.5853,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch4-js-17",
@@ -1460,7 +1460,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["江苏"],
     lat: 32.3946,
     lng: 119.4127,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-js-18",
@@ -1483,7 +1483,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["江苏"],
     lat: 31.4912,
     lng: 120.3119,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-js-22",
@@ -1506,7 +1506,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["江苏"],
     lat: 31.2989,
     lng: 120.5853,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-js-23",
@@ -1529,7 +1529,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["江苏"],
     lat: 31.2989,
     lng: 120.5853,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-js-25",
@@ -1552,7 +1552,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["江苏"],
     lat: 31.2989,
     lng: 120.5853,
-    popularity: 4,
+    popularity: 1,
   },
   // 【去重合并】「红烧蹄髈」(batch4-js-26) 已合并至「万三蹄」(batch4-js-15, 同文件) - 同为苏州苏菜红烧猪肘，同地同物异名，万三蹄为知名品牌名
   //   {
@@ -1595,11 +1595,11 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     ingredients: ["鱼肉", "火腿", "笋", "香菇", "料酒"],
     cookingMethod: ["蒸", "烧"],
     tags: ["苏菜", "鲈鱼", "名菜", "传统", "咸鲜", "主菜", "江苏"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["江苏"],
     lat: 31.2989,
     lng: 120.5853,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch4-js-28",
@@ -1618,11 +1618,11 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     ingredients: ["莼菜"],
     cookingMethod: ["煮"],
     tags: ["苏菜", "物产", "名产", "酥脆"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["江苏"],
     lat: 31.2989,
     lng: 120.5853,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch4-js-29",
@@ -1641,11 +1641,11 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     ingredients: ["蟹"],
     cookingMethod: ["蒸", "煮"],
     tags: ["苏菜", "大闸蟹", "物产", "名产", "粘糯"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["江苏"],
     lat: 31.2989,
     lng: 120.5853,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch4-js-30",
@@ -1668,7 +1668,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["江苏"],
     lat: 31.2989,
     lng: 120.5853,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-js-34",
@@ -1691,7 +1691,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["江苏"],
     lat: 31.4912,
     lng: 120.3119,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch4-js-35",
@@ -1714,7 +1714,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["江苏"],
     lat: 31.4912,
     lng: 120.3119,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-js-36",
@@ -1737,7 +1737,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["江苏"],
     lat: 31.4912,
     lng: 120.3119,
-    popularity: 6,
+    popularity: 4,
   },
 
   {
@@ -1757,11 +1757,11 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     ingredients: ["鱼肉", "莼菜", "鸡肉", "盐"],
     cookingMethod: ["煮", "氽"],
     tags: ["苏菜", "莼菜", "鱼片", "传统", "酥脆"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["江苏"],
     lat: 31.2989,
     lng: 120.5853,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch4-js-41",
@@ -1784,7 +1784,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["江苏"],
     lat: 31.2989,
     lng: 120.5853,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-js-42",
@@ -1807,7 +1807,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["江苏"],
     lat: 31.2989,
     lng: 120.5853,
-    popularity: 6,
+    popularity: 4,
   },
 
   {
@@ -1831,7 +1831,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["江苏"],
     lat: 31.7727,
     lng: 119.9469,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch4-js-49",
@@ -1854,7 +1854,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["江苏"],
     lat: 31.3854,
     lng: 120.9809,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "b4zj-add-1",
@@ -1877,7 +1877,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["江苏"],
     lat: 32.3947,
     lng: 119.4127,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "b4zj-add-2",
@@ -1900,7 +1900,7 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     popularRegions: ["江苏"],
     lat: 32.3947,
     lng: 119.4127,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "b4zj-add-3",
@@ -1919,11 +1919,11 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     ingredients: ["面条", "青鱼", "鸭", "酱油", "葱"],
     cookingMethod: ["煮", "卤"],
     tags: ["苏菜", "奥灶面", "昆山", "面食", "红汤", "爆鱼", "名面"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["江苏", "上海"],
     lat: 31.3854,
     lng: 120.9809,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "b4zj-add-4",
@@ -1942,11 +1942,11 @@ export const FOODS_BATCH4_ZHEJIANG_ANHUI_JIANGSU: Food[] = [
     ingredients: ["芋头", "糖", "桂花", "藕粉"],
     cookingMethod: ["煮", "熬"],
     tags: ["苏菜", "桂花糖芋苗", "南京", "甜品", "芋头", "桂花", "时令"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["江苏"],
     lat: 32.0603,
     lng: 118.7969,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "b4zj-add-5",

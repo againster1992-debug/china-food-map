@@ -22,7 +22,7 @@ export const FOODS_BATCH_CENTRAL: Food[] = [
     popularRegions: ["河南"],
     lat: 34.7466,
     lng: 113.6253,
-    popularity: 4,
+    popularity: 1,
   },
 
   // ========== 湖南（湘菜）==========
@@ -46,7 +46,7 @@ export const FOODS_BATCH_CENTRAL: Food[] = [
     popularRegions: ["湖南"],
     lat: 29.0316,
     lng: 111.6986,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch-central-4",
@@ -68,7 +68,7 @@ export const FOODS_BATCH_CENTRAL: Food[] = [
     popularRegions: ["湖南"],
     lat: 28.2282,
     lng: 112.9388,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch-central-5",
@@ -90,7 +90,7 @@ export const FOODS_BATCH_CENTRAL: Food[] = [
     popularRegions: ["湖南"],
     lat: 28.3119,
     lng: 109.7391,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch-central-6",
@@ -112,7 +112,7 @@ export const FOODS_BATCH_CENTRAL: Food[] = [
     popularRegions: ["湖南"],
     lat: 25.57,
     lng: 111.946,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch-central-7",
@@ -134,7 +134,7 @@ export const FOODS_BATCH_CENTRAL: Food[] = [
     popularRegions: ["湖南"],
     lat: 26.4345,
     lng: 111.608,
-    popularity: 5,
+    popularity: 2,
   },
 
   // ========== 重庆（川菜）==========
@@ -158,7 +158,7 @@ export const FOODS_BATCH_CENTRAL: Food[] = [
     popularRegions: ["重庆"],
     lat: 29.563,
     lng: 106.5516,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch-central-10",
@@ -180,7 +180,7 @@ export const FOODS_BATCH_CENTRAL: Food[] = [
     popularRegions: ["重庆"],
     lat: 29.563,
     lng: 106.5516,
-    popularity: 5,
+    popularity: 2,
   },
 
   // ========== 贵州（黔菜）==========
@@ -204,7 +204,7 @@ export const FOODS_BATCH_CENTRAL: Food[] = [
     popularRegions: ["贵州"],
     lat: 26.647,
     lng: 106.6302,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch-central-12",
@@ -226,7 +226,7 @@ export const FOODS_BATCH_CENTRAL: Food[] = [
     popularRegions: ["贵州"],
     lat: 26.2455,
     lng: 105.9462,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch-central-13",
@@ -248,7 +248,7 @@ export const FOODS_BATCH_CENTRAL: Food[] = [
     popularRegions: ["贵州"],
     lat: 26.647,
     lng: 106.6302,
-    popularity: 5,
+    popularity: 2,
   },
 
   // ========== 云南（滇菜）==========
@@ -272,5 +272,5 @@ export const FOODS_BATCH_CENTRAL: Food[] = [
     popularRegions: ["云南"],
     lat: 25.229,
     lng: 100.306,
-    popularity: 4,
+    popularity: 1,
   }];

@@ -23,7 +23,7 @@ export const FOODS_BATCH20_CUISINE_TRENDS: Food[] = [
     popularRegions: ["内蒙古", "呼和浩特"],
     lat: 40.8426,
     lng: 111.7510,
-    popularity: 6,
+    popularity: 4,
   },
 
   // ========== 赣菜补充美食 ==========
@@ -43,11 +43,11 @@ export const FOODS_BATCH20_CUISINE_TRENDS: Food[] = [
     ingredients: ["猪肉", "辣椒", "蔬菜", "豆制品"],
     cookingMethod: ["炒"],
     tags: ["鲜辣", "主菜", "赣菜", "江西", "南昌", "网红"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["江西", "浙江", "广东", "上海"],
     lat: 28.6820,
     lng: 115.8579,
-    popularity: 5,
+    popularity: 3,
   },
   /**/
   /**/
@@ -71,11 +71,11 @@ export const FOODS_BATCH20_CUISINE_TRENDS: Food[] = [
     ingredients: ["鸡肉", "辣椒", "花椒", "姜"],
     cookingMethod: ["炒", "炖"],
     tags: ["麻辣", "主菜", "黔菜", "贵州", "贵阳", "名菜"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["贵州", "全国"],
     lat: 26.6470,
     lng: 106.6302,
-    popularity: 7,
+    popularity: 6,
   },
   
 
@@ -96,11 +96,11 @@ export const FOODS_BATCH20_CUISINE_TRENDS: Food[] = [
     ingredients: ["鸭肉", "柠檬", "辣椒", "姜"],
     cookingMethod: ["焖", "炒"],
     tags: ["酸辣", "主菜", "桂菜", "广西", "南宁", "名菜"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["广西", "南宁"],
     lat: 22.8170,
     lng: 108.3665,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch20-gui-2",
@@ -122,7 +122,7 @@ export const FOODS_BATCH20_CUISINE_TRENDS: Food[] = [
     popularRegions: ["广西", "全国"],
     lat: 22.8170,
     lng: 108.3665,
-    popularity: 6,
+    popularity: 4,
   },{
     id: "batch20-gui-4",
     name: "螺蛳鸭脚煲",
@@ -143,7 +143,7 @@ export const FOODS_BATCH20_CUISINE_TRENDS: Food[] = [
     popularRegions: ["广西", "全国"],
     lat: 24.3264,
     lng: 109.4117,
-    popularity: 6,
+    popularity: 4,
   },
 
   // ========== 京菜补充美食 ==========
@@ -163,7 +163,7 @@ export const FOODS_BATCH20_CUISINE_TRENDS: Food[] = [
     ingredients: ["牛奶", "酸奶", "奶皮子", "糖"],
     cookingMethod: ["发酵"],
     tags: ["甜", "甜品", "京菜", "北京", "网红", "酸奶"],
-    fame: "普通",
+    fame: "地方名吃",
     popularRegions: ["北京", "全国"],
     lat: 39.9042,
     lng: 116.4074,

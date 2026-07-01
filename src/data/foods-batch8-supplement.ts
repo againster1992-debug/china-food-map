@@ -47,11 +47,11 @@ export const FOODS_BATCH8_SUPPLEMENT: Food[] = [
     ingredients: ["羊肉", "花椒", "姜", "椒盐"],
     cookingMethod: ["炖", "煮"],
     tags: ["手抓羊肉", "东乡", "清真", "羊肉", "西北", "名菜", "酥脆", "嫩滑", "焦香"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["甘肃", "青海", "宁夏"],
     lat: 35.5964,
     lng: 103.3914,
-    popularity: 6,
+    popularity: 5,
   }
   // ========== 宁夏 ==========
   ,
@@ -76,7 +76,7 @@ export const FOODS_BATCH8_SUPPLEMENT: Food[] = [
     popularRegions: ["宁夏", "内蒙古", "甘肃"],
     lat: 37.5149,
     lng: 105.1966,
-    popularity: 5,
+    popularity: 3,
   }
 
   // ========== 青海 ==========
@@ -102,7 +102,7 @@ export const FOODS_BATCH8_SUPPLEMENT: Food[] = [
     popularRegions: ["青海"],
     lat: 36.6171,
     lng: 101.7782,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch8-qh-3",
@@ -125,7 +125,7 @@ export const FOODS_BATCH8_SUPPLEMENT: Food[] = [
     popularRegions: ["青海"],
     lat: 36.6171,
     lng: 101.7782,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 山西 ==========
@@ -192,11 +192,11 @@ export const FOODS_BATCH8_SUPPLEMENT: Food[] = [
     ingredients: ["土豆", "面粉", "蒜", "醋"],
     cookingMethod: ["蒸", "炒"],
     tags: ["面食", "晋菜", "家常菜", "土豆", "特色"],
-    fame: "普通",
+    fame: "地方名吃",
     popularRegions: ["山西"],
     lat: 37.8706,
     lng: 112.5489,
-    popularity: 2,
+    popularity: 1,
   }
 
   // ========== 内蒙古 ==========
@@ -270,7 +270,7 @@ export const FOODS_BATCH8_SUPPLEMENT: Food[] = [
     popularRegions: ["辽宁", "东北"],
     lat: 41.8057,
     lng: 123.4315,
-    popularity: 8,
+    popularity: 9,
   },
 
   // ========== 河北（补充） ==========
@@ -291,11 +291,11 @@ export const FOODS_BATCH8_SUPPLEMENT: Food[] = [
     ingredients: ["鸡肉", "豆瓣酱", "辣椒", "花椒", "宽粉", "白菜"],
     cookingMethod: ["炖", "炒"],
     tags: ["麻辣", "主菜", "冀菜", "特色小吃", "街头小吃", "网红"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["河北", "京津冀"],
     lat: 38.3037,
     lng: 116.8386,
-    popularity: 6,
+    popularity: 5,
   },
   // ========== 辽宁（补充） ==========
   {
@@ -319,7 +319,7 @@ export const FOODS_BATCH8_SUPPLEMENT: Food[] = [
     popularRegions: ["辽宁", "大连"],
     lat: 38.914,
     lng: 121.6147,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 青海（补充） ==========// ========== 西藏（补充） ==========
@@ -369,7 +369,7 @@ export const FOODS_BATCH8_SUPPLEMENT: Food[] = [
     popularRegions: ["宁夏", "甘肃", "陕西"],
     lat: 36.0046,
     lng: 106.2855,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch8-nx-4",
@@ -392,7 +392,7 @@ export const FOODS_BATCH8_SUPPLEMENT: Food[] = [
     popularRegions: ["宁夏"],
     lat: 38.4872,
     lng: 106.2309,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch8-nx-5",
@@ -415,7 +415,7 @@ export const FOODS_BATCH8_SUPPLEMENT: Food[] = [
     popularRegions: ["宁夏"],
     lat: 38.4872,
     lng: 106.2309,
-    popularity: 4,
+    popularity: 1,
   },
 
   // ========== 青海（补充） ==========
@@ -440,7 +440,7 @@ export const FOODS_BATCH8_SUPPLEMENT: Food[] = [
     popularRegions: ["青海", "西藏", "四川"],
     lat: 36.6171,
     lng: 101.7782,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch8-qh-6",
@@ -463,7 +463,7 @@ export const FOODS_BATCH8_SUPPLEMENT: Food[] = [
     popularRegions: ["青海", "西藏"],
     lat: 36.6171,
     lng: 101.7782,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch8-qh-7",
@@ -486,7 +486,7 @@ export const FOODS_BATCH8_SUPPLEMENT: Food[] = [
     popularRegions: ["青海"],
     lat: 36.0848,
     lng: 100.9187,
-    popularity: 6,
+    popularity: 4,
   },
   
   {
@@ -510,7 +510,7 @@ export const FOODS_BATCH8_SUPPLEMENT: Food[] = [
     popularRegions: ["青海", "甘肃"],
     lat: 36.6171,
     lng: 101.7782,
-    popularity: 5,
+    popularity: 3,
   },
   /**/
 
@@ -536,7 +536,7 @@ export const FOODS_BATCH8_SUPPLEMENT: Food[] = [
     popularRegions: ["西藏"],
     lat: 29.65,
     lng: 91.13,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch8-xz-3",
@@ -559,7 +559,7 @@ export const FOODS_BATCH8_SUPPLEMENT: Food[] = [
     popularRegions: ["西藏"],
     lat: 29.65,
     lng: 91.13,
-    popularity: 5,
+    popularity: 3,
   },{
     id: "batch8-xz-5",
     name: "酸萝卜炒牦牛肉",
@@ -581,7 +581,7 @@ export const FOODS_BATCH8_SUPPLEMENT: Food[] = [
     popularRegions: ["西藏"],
     lat: 29.65,
     lng: 91.13,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch8-xz-6",
@@ -604,5 +604,5 @@ export const FOODS_BATCH8_SUPPLEMENT: Food[] = [
     popularRegions: ["西藏"],
     lat: 29.65,
     lng: 91.13,
-    popularity: 4,
+    popularity: 1,
   }];

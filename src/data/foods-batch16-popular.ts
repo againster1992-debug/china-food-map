@@ -1,4 +1,4 @@
-﻿import type { Food } from "@/types/food";
+import type { Food } from "@/types/food";
 
 // 2025-2026年全国最热门美食补充（基于淘宝、抖音、百度指数、微信指数搜索数据）
 export const FOODS_BATCH16_POPULAR: Food[] = [
@@ -85,7 +85,7 @@ export const FOODS_BATCH16_POPULAR: Food[] = [
     popularRegions: ["南昌", "江西"],
     lat: 28.6820,
     lng: 115.8579,
-    popularity: 8,
+    popularity: 9,
   },
   {
     id: "batch16-popular-19",
@@ -107,7 +107,7 @@ export const FOODS_BATCH16_POPULAR: Food[] = [
     popularRegions: ["厦门", "福建"],
     lat: 24.4795,
     lng: 118.0894,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "batch16-popular-20",
@@ -129,7 +129,7 @@ export const FOODS_BATCH16_POPULAR: Food[] = [
     popularRegions: ["南平", "福建"],
     lat: 26.6418,
     lng: 118.1777,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch16-popular-21",
@@ -151,7 +151,7 @@ export const FOODS_BATCH16_POPULAR: Food[] = [
     popularRegions: ["龙岩", "福建"],
     lat: 25.0769,
     lng: 117.0297,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch16-popular-22",
@@ -172,7 +172,7 @@ export const FOODS_BATCH16_POPULAR: Food[] = [
     popularRegions: ["三明", "福建"],
     lat: 26.2654,
     lng: 117.6389,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch16-popular-23",
@@ -189,11 +189,11 @@ export const FOODS_BATCH16_POPULAR: Food[] = [
     ingredients: ["猪肉", "淀粉", "葱", "姜"],
     cookingMethod: ["煮", "炸"],
     tags: ["咸鲜", "小吃", "闽菜", "宁德", "肉丸"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["宁德", "福建"],
     lat: 26.2069,
     lng: 119.5275,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch16-popular-24",
@@ -210,11 +210,11 @@ export const FOODS_BATCH16_POPULAR: Food[] = [
     ingredients: ["鱼肉", "淀粉", "葱", "姜"],
     cookingMethod: ["煮"],
     tags: ["鲜香", "小吃", "闽菜", "连江", "鱼丸"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["连江", "福建"],
     lat: 26.2069,
     lng: 119.5389,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch16-popular-25",
@@ -235,5 +235,5 @@ export const FOODS_BATCH16_POPULAR: Food[] = [
     popularRegions: ["武夷山", "福建"],
     lat: 27.7559,
     lng: 118.0359,
-    popularity: 7,
+    popularity: 6,
   }];

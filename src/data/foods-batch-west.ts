@@ -24,7 +24,7 @@ export const FOODS_BATCH_WEST: Food[] = [
     popularRegions: ["西安"],
     lat: 34.3416,
     lng: 108.9398,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch-west-3",
@@ -47,7 +47,7 @@ export const FOODS_BATCH_WEST: Food[] = [
     popularRegions: ["西安", "临潼"],
     lat: 34.3416,
     lng: 108.9398,
-    popularity: 6,
+    popularity: 4,
   },
 
   // ========== 宁夏（清真菜）==========
@@ -97,7 +97,7 @@ export const FOODS_BATCH_WEST: Food[] = [
     popularRegions: ["西宁", "海东"],
     lat: 36.6171,
     lng: 101.7782,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch-west-7",
@@ -120,7 +120,7 @@ export const FOODS_BATCH_WEST: Food[] = [
     popularRegions: ["西宁", "海西", "海南州"],
     lat: 36.6171,
     lng: 101.7782,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch-west-8",
@@ -139,11 +139,11 @@ export const FOODS_BATCH_WEST: Food[] = [
     ingredients: ["大麦", "羊肉", "萝卜", "盐", "花椒"],
     cookingMethod: ["熬", "煮"],
     tags: ["咸鲜", "麦仁", "粥", "主食", "冬季", "酥脆", "粘糯"],
-    fame: "普通",
+    fame: "地方名吃",
     popularRegions: ["西宁", "海东"],
     lat: 36.6171,
     lng: 101.7782,
-    popularity: 2,
+    popularity: 1,
   },
 
   // ========== 新疆（新疆菜）==========
@@ -168,7 +168,7 @@ export const FOODS_BATCH_WEST: Food[] = [
     popularRegions: ["伊犁", "阿勒泰", "塔城"],
     lat: 43.8256,
     lng: 87.6168,
-    popularity: 4,
+    popularity: 1,
   },
   // 「和田烤包子」(batch-west-11) 已合并至「烤包子」(batch26-famous-084) - 同地同物重复
   // {
@@ -218,7 +218,7 @@ export const FOODS_BATCH_WEST: Food[] = [
     popularRegions: ["拉萨", "日喀则", "山南"],
     lat: 29.65,
     lng: 91.1409,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch-west-14",
@@ -241,7 +241,7 @@ export const FOODS_BATCH_WEST: Food[] = [
     popularRegions: ["拉萨", "日喀则", "那曲"],
     lat: 29.65,
     lng: 91.1409,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch-west-tibet-suoyoucha",
@@ -289,7 +289,7 @@ export const FOODS_BATCH_WEST: Food[] = [
     popularRegions: ["梅州", "大埔", "龙岩"],
     lat: 24.2884,
     lng: 116.1228,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch-west-16",
@@ -308,11 +308,11 @@ export const FOODS_BATCH_WEST: Food[] = [
     ingredients: ["鱿鱼", "猪肉", "芹菜", "豆腐", "酱油", "料酒"],
     cookingMethod: ["炒"],
     tags: ["咸鲜", "小炒", "鱿鱼", "客家", "主菜", "家常", "粘糯"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["梅州", "惠州", "龙岩"],
     lat: 24.2884,
     lng: 116.1228,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch-west-17",
@@ -331,11 +331,11 @@ export const FOODS_BATCH_WEST: Food[] = [
     ingredients: ["猪肉", "姜", "醋", "辣椒", "酱油", "蒜"],
     cookingMethod: ["炒"],
     tags: ["酸辣", "姜丝", "大肠", "客家", "主菜", "下饭", "粘糯", "劲道"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["梅州", "新竹", "龙岩"],
     lat: 24.2884,
     lng: 116.1228,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch-west-18",
@@ -354,11 +354,11 @@ export const FOODS_BATCH_WEST: Food[] = [
     ingredients: ["大米", "猪肉", "豆芽", "韭菜", "酱油"],
     cookingMethod: ["蒸", "炒", "煮"],
     tags: ["咸鲜", "米制品", "客家", "主食", "街头", "粘糯", "劲道"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["梅州", "新竹", "苗栗"],
     lat: 24.2884,
     lng: 116.1228,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "batch-west-19",
@@ -377,11 +377,11 @@ export const FOODS_BATCH_WEST: Food[] = [
     ingredients: ["苦瓜", "猪肉", "香菇", "糯米", "酱油"],
     cookingMethod: ["酿", "煎", "炖"],
     tags: ["咸鲜", "苦瓜", "客家", "主菜", "夏季", "焦香", "爽脆"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["梅州", "惠州", "龙岩"],
     lat: 24.2884,
     lng: 116.1228,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch-west-20",
@@ -404,7 +404,7 @@ export const FOODS_BATCH_WEST: Food[] = [
     popularRegions: ["梅州", "河源", "龙岩"],
     lat: 24.2884,
     lng: 116.1228,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch-west-21",
@@ -427,7 +427,7 @@ export const FOODS_BATCH_WEST: Food[] = [
     popularRegions: ["梅州", "大埔", "龙岩"],
     lat: 24.2884,
     lng: 116.1228,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch-west-22",
@@ -450,7 +450,7 @@ export const FOODS_BATCH_WEST: Food[] = [
     popularRegions: ["梅州", "大埔", "龙岩"],
     lat: 24.2884,
     lng: 116.1228,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch-west-23",
@@ -496,7 +496,7 @@ export const FOODS_BATCH_WEST: Food[] = [
     popularRegions: ["梅州", "河源", "龙岩"],
     lat: 24.2884,
     lng: 116.1228,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch-west-25",
@@ -515,11 +515,11 @@ export const FOODS_BATCH_WEST: Food[] = [
     ingredients: ["鱼肉", "盐", "葱", "猪肉"],
     cookingMethod: ["煮"],
     tags: ["咸鲜", "鱼丸", "鲩鱼", "客家", "主菜", "宴席", "劲道"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["梅州", "河源"],
     lat: 24.2884,
     lng: 116.1228,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "batch-west-26",
@@ -542,7 +542,7 @@ export const FOODS_BATCH_WEST: Food[] = [
     popularRegions: ["梅州", "河源", "惠州"],
     lat: 24.2884,
     lng: 116.1228,
-    popularity: 5,
+    popularity: 2,
   },
 
   // ========== 潮州菜（广东潮州，cuisine用"潮菜"）==========
@@ -563,11 +563,11 @@ export const FOODS_BATCH_WEST: Food[] = [
     ingredients: ["蟹", "醋", "橘子"],
     cookingMethod: ["煮"],
     tags: ["咸鲜", "冻蟹", "冷盘", "潮菜", "主菜", "海鲜"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["潮州", "汕头", "揭阳"],
     lat: 23.6568,
     lng: 116.6226,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "batch-west-28",
@@ -590,7 +590,7 @@ export const FOODS_BATCH_WEST: Food[] = [
     popularRegions: ["潮州", "汕头"],
     lat: 23.6568,
     lng: 116.6226,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch-west-30",
@@ -613,7 +613,7 @@ export const FOODS_BATCH_WEST: Food[] = [
     popularRegions: ["潮州", "汕头", "揭阳"],
     lat: 23.6568,
     lng: 116.6226,
-    popularity: 6,
+    popularity: 4,
   },
   {
     id: "batch-west-31",
@@ -636,7 +636,7 @@ export const FOODS_BATCH_WEST: Food[] = [
     popularRegions: ["潮州", "汕头"],
     lat: 23.6568,
     lng: 116.6226,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch-west-32",
@@ -659,7 +659,7 @@ export const FOODS_BATCH_WEST: Food[] = [
     popularRegions: ["潮州", "汕头"],
     lat: 23.6568,
     lng: 116.6226,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch-west-33",
@@ -682,7 +682,7 @@ export const FOODS_BATCH_WEST: Food[] = [
     popularRegions: ["潮州", "汕头"],
     lat: 23.6568,
     lng: 116.6226,
-    popularity: 4,
+    popularity: 1,
   },
   {
     id: "batch-west-34",
@@ -705,7 +705,7 @@ export const FOODS_BATCH_WEST: Food[] = [
     popularRegions: ["潮州", "汕头"],
     lat: 23.6568,
     lng: 116.6226,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch-west-35",
@@ -728,7 +728,7 @@ export const FOODS_BATCH_WEST: Food[] = [
     popularRegions: ["潮州", "汕头", "揭阳"],
     lat: 23.6568,
     lng: 116.6226,
-    popularity: 5,
+    popularity: 2,
   },
   {
     id: "batch-west-36",
@@ -751,7 +751,7 @@ export const FOODS_BATCH_WEST: Food[] = [
     popularRegions: ["潮州", "汕头", "潮阳"],
     lat: 23.6568,
     lng: 116.6226,
-    popularity: 3,
+    popularity: 1,
   },
   {
     id: "batch-west-37",
@@ -770,9 +770,9 @@ export const FOODS_BATCH_WEST: Food[] = [
     ingredients: ["薄荷", "九层塔", "蒜", "辣椒", "酱油"],
     cookingMethod: ["炒"],
     tags: ["咸鲜", "薄壳", "九层塔", "潮菜", "主菜", "海鲜"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["潮州", "汕头", "揭阳"],
     lat: 23.6568,
     lng: 116.6226,
-    popularity: 6,
+    popularity: 5,
   }];

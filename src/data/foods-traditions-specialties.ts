@@ -27,7 +27,7 @@ export const FOODS_TRADITIONS_SPECIALTIES: Food[] = [
     popularRegions: ["广东", "广西"],
     lat: 20.0444,
     lng: 110.1989,
-    popularity: 6,
+    popularity: 5,
   },
   // 广式早茶
   // 广式凉茶
@@ -77,7 +77,7 @@ export const FOODS_TRADITIONS_SPECIALTIES: Food[] = [
     popularRegions: ["重庆"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 6,
+    popularity: 5,
   },
   // 潮汕工夫茶
 
@@ -104,7 +104,7 @@ export const FOODS_TRADITIONS_SPECIALTIES: Food[] = [
     popularRegions: ["河北"],
     lat: 38.1456,
     lng: 114.5713,
-    popularity: 4,
+    popularity: 2,
   },
   // 莎车鸽子（新疆喀什莎车）
   {
@@ -128,7 +128,7 @@ export const FOODS_TRADITIONS_SPECIALTIES: Food[] = [
     popularRegions: ["新疆"],
     lat: 38.4164,
     lng: 77.2463,
-    popularity: 5,
+    popularity: 3,
   },
   // 顺德双皮奶（广东顺德）
   // 柳州螺蛳粉（已在 popular 中，此处不重复）
@@ -165,7 +165,7 @@ export const FOODS_TRADITIONS_SPECIALTIES: Food[] = [
     popularRegions: ["江西"],
     lat: 29.2687,
     lng: 117.1784,
-    popularity: 4,
+    popularity: 2,
   },
   // 阳朔啤酒鱼（广西阳朔）
   // 和田烤蛋（新疆和田）
@@ -230,5 +230,5 @@ export const FOODS_TRADITIONS_SPECIALTIES: Food[] = [
     popularRegions: ["贵州", "云南"],
     lat: 25.0926,
     lng: 104.8949,
-    popularity: 6,
+    popularity: 5,
   }];

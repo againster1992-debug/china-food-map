@@ -22,7 +22,7 @@ export const FOODS_BATCH28_TRENDING_2026: Food[] = [
   popularRegions: ["全国"],
   lat: 35.8617,
   lng: 104.1954,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch28-002",
@@ -43,7 +43,7 @@ export const FOODS_BATCH28_TRENDING_2026: Food[] = [
   popularRegions: ["全国"],
   lat: 35.8617,
   lng: 104.1954,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch28-003",
@@ -64,7 +64,7 @@ export const FOODS_BATCH28_TRENDING_2026: Food[] = [
   popularRegions: ["全国"],
   lat: 35.8617,
   lng: 104.1954,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch28-004",
@@ -85,7 +85,7 @@ export const FOODS_BATCH28_TRENDING_2026: Food[] = [
   popularRegions: ["全国"],
   lat: 35.8617,
   lng: 104.1954,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch28-005",
@@ -106,7 +106,7 @@ export const FOODS_BATCH28_TRENDING_2026: Food[] = [
   popularRegions: ["全国"],
   lat: 35.8617,
   lng: 104.1954,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch28-006",
@@ -127,7 +127,7 @@ export const FOODS_BATCH28_TRENDING_2026: Food[] = [
   popularRegions: ["全国"],
   lat: 35.8617,
   lng: 104.1954,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch28-007",
@@ -148,7 +148,7 @@ export const FOODS_BATCH28_TRENDING_2026: Food[] = [
   popularRegions: ["全国"],
   lat: 35.8617,
   lng: 104.1954,
-  popularity: 8
+  popularity: 7
 },
   // 「batch28-008」已合并至「batch21-e-7」- 现卤现捞鸭脖与鸭脖为同地同物异名（现卤现捞为制作工艺，非独立品类），均为武汉鸭脖，合并至[batch21-e-7]鸭脖
   // {
@@ -193,7 +193,7 @@ export const FOODS_BATCH28_TRENDING_2026: Food[] = [
   popularRegions: ["贵州","全国"],
   lat: 26.647,
   lng: 106.6302,
-  popularity: 6
+  popularity: 4
 },
 {
   id: "batch28-011",
@@ -215,7 +215,7 @@ export const FOODS_BATCH28_TRENDING_2026: Food[] = [
   popularRegions: ["贵州","全国"],
   lat: 26.647,
   lng: 106.6302,
-  popularity: 6
+  popularity: 4
 },
 {
   id: "batch28-015",
@@ -237,7 +237,7 @@ export const FOODS_BATCH28_TRENDING_2026: Food[] = [
   popularRegions: ["宁夏","西北"],
   lat: 37.9862,
   lng: 106.199,
-  popularity: 5
+  popularity: 2
 },
 {
   id: "batch28-016",
@@ -259,7 +259,7 @@ export const FOODS_BATCH28_TRENDING_2026: Food[] = [
   popularRegions: ["青海","西北"],
   lat: 36.617,
   lng: 101.78,
-  popularity: 3
+  popularity: 4
 },
 {
   id: "batch28-017",
@@ -281,7 +281,7 @@ export const FOODS_BATCH28_TRENDING_2026: Food[] = [
   popularRegions: ["吉林","东北"],
   lat: 42.8913,
   lng: 129.5096,
-  popularity: 4
+  popularity: 1
 },
 {
   id: "batch28-018",
@@ -299,11 +299,11 @@ export const FOODS_BATCH28_TRENDING_2026: Food[] = [
   ingredients: ["大米","虾","蟹","猪肉","葱"],
   cookingMethod: ["熬","煮"],
   tags: ["鲜香","汤羹","砂锅","粥","潮汕","广东","海鲜","夜宵","地方名吃"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: ["广东","全国"],
   lat: 23.3691,
   lng: 116.6817,
-  popularity: 7
+  popularity: 6
 },
 
   {
@@ -326,5 +326,5 @@ export const FOODS_BATCH28_TRENDING_2026: Food[] = [
   popularRegions: ["浙江","杭州"],
   lat: 30.2741,
   lng: 120.1551,
-  popularity: 7
+  popularity: 8
 }];

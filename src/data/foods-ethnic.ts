@@ -28,7 +28,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["西藏"],
     lat: 29.6519,
     lng: 91.1721,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ethnic-5",
@@ -51,7 +51,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["西藏", "青海"],
     lat: 31.4762,
     lng: 92.0513,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "ethnic-6",
@@ -74,7 +74,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["西藏", "青海"],
     lat: 31.1369,
     lng: 97.1785,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "ethnic-7",
@@ -97,7 +97,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["西藏"],
     lat: 29.6519,
     lng: 91.1721,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "ethnic-8",
@@ -115,7 +115,7 @@ export const FOODS_ETHNIC: Food[] = [
       "古突是藏历除夕夜必食的九宝粥，以面疙瘩、人参果、葡萄干、桃仁、红枣等九种食材煮制。面疙瘩中包入石子、辣椒、羊毛等物，各有寓意：石子表心硬，辣椒表嘴辣，羊毛表心软。吃到者需当场展示，引得全家欢笑，是藏历新年的「占卜粥」。古突体现藏族「以食占吉」的独特年俗，是藏历新年最重要的仪式食物，承载藏族千年的节庆文化。",
     ingredients: ["面粉", "人参果", "葡萄", "红枣", "桃仁"],
     cookingMethod: ["煮"],
-    tags: ["少数民族", "藏族", "藏历新年", "节庆"],
+    tags: ["少数民族", "藏族", "藏历新年", "节庆", "汤", "粥"],
     fame: "名菜",
     popularRegions: ["西藏", "青海", "四川"],
     lat: 29.6519,
@@ -168,7 +168,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["新疆"],
     lat: 39.4677,
     lng: 75.9894,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ethnic-11",
@@ -191,7 +191,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["新疆"],
     lat: 42.9513,
     lng: 89.1895,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ethnic-12",
@@ -214,7 +214,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["新疆"],
     lat: 37.1122,
     lng: 79.9146,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ethnic-13",
@@ -237,7 +237,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["新疆"],
     lat: 43.8256,
     lng: 87.6168,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ethnic-14",
@@ -260,7 +260,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["新疆", "青海"],
     lat: 43.9191,
     lng: 81.3246,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 蒙古族美食 ==========
@@ -280,7 +280,7 @@ export const FOODS_ETHNIC: Food[] = [
       "蒙古血肠以羊血加羊肉丁、洋葱、盐灌入羊肠，煮熟切片。色泽暗红，口感绵密，血香浓郁。是蒙古族「杀羊」后必备，体现「物尽其用」的游牧智慧。与东北血肠不同，蒙古血肠以羊血为主，配羊肉丁，风味更醇厚。配手把肉、奶茶食用，是草原待客上菜。赤峰蒙古血肠最知名，体现蒙古族「全羊宴」的饮食文化，承载游牧民族的味觉记忆。",
     ingredients: ["羊肉", "洋葱", "盐"],
     cookingMethod: ["灌", "煮"],
-    tags: ["少数民族", "蒙古族", "血肠", "蒙餐", "焦香", "绵软"],
+    tags: ["少数民族", "蒙古族", "血肠", "蒙餐", "腌", "焦香", "绵软"],
     fame: "名菜",
     popularRegions: ["内蒙古"],
     lat: 42.2576,
@@ -303,7 +303,7 @@ export const FOODS_ETHNIC: Food[] = [
       "蒙古风干牛肉以草原黄牛肉切条，盐腌后自然风干。色泽暗红，嚼劲十足，肉香浓郁。是蒙古族远行、狩猎、征战的干粮，便于携带，耐储存。与西藏风干牦牛肉不同，蒙古风干牛肉以黄牛肉为主，工艺更注重「风干」而非「熏制」。锡林郭勒风干牛肉最知名，是蒙古族「行军粮」的传承，体现游牧民族「以肉为粮」的生存智慧。",
     ingredients: ["牛肉", "盐"],
     cookingMethod: ["腌", "干制"],
-    tags: ["少数民族", "蒙古族", "风干牛肉", "蒙餐", "干粮", "粘糯"],
+    tags: ["少数民族", "蒙古族", "风干牛肉", "蒙餐", "干粮", "腌", "劲道"],
     fame: "名菜",
     popularRegions: ["内蒙古", "新疆"],
     lat: 43.9333,
@@ -354,7 +354,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["内蒙古"],
     lat: 40.8426,
     lng: 111.7511,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ethnic-21",
@@ -377,7 +377,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["内蒙古", "新疆"],
     lat: 43.9333,
     lng: 116.05,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "ethnic-22",
@@ -399,7 +399,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["内蒙古"],
     lat: 43.93,
     lng: 116.05,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 朝鲜族美食 ==========
@@ -424,7 +424,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["吉林", "辽宁"],
     lat: 42.8947,
     lng: 129.4739,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "ethnic-25",
@@ -447,7 +447,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["吉林", "辽宁"],
     lat: 42.8947,
     lng: 129.4739,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ethnic-26",
@@ -470,7 +470,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["吉林", "辽宁"],
     lat: 42.8947,
     lng: 129.4739,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "ethnic-27",
@@ -493,7 +493,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["吉林", "辽宁"],
     lat: 42.8947,
     lng: 129.4739,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "ethnic-28",
@@ -516,7 +516,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["吉林", "辽宁"],
     lat: 42.8947,
     lng: 129.4739,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "ethnic-29",
@@ -535,11 +535,11 @@ export const FOODS_ETHNIC: Food[] = [
     ingredients: ["辣椒", "辣椒酱"],
     cookingMethod: ["炒"],
     tags: ["少数民族", "朝鲜族", "东北菜", "粘糯"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["吉林", "辽宁"],
     lat: 42.8947,
     lng: 129.4739,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 回族美食 ==========
@@ -564,7 +564,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["宁夏", "甘肃"],
     lat: 38.4872,
     lng: 106.2309,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ethnic-31",
@@ -587,7 +587,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["宁夏"],
     lat: 38.4872,
     lng: 106.2309,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ethnic-32",
@@ -610,7 +610,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["宁夏", "甘肃"],
     lat: 38.4872,
     lng: 106.2309,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "ethnic-33",
@@ -658,7 +658,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["贵州", "湖南"],
     lat: 26.5835,
     lng: 107.9829,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ethnic-35",
@@ -676,12 +676,12 @@ export const FOODS_ETHNIC: Food[] = [
       "苗家血豆腐以猪血加豆腐、猪肉丁、香料压制熏干。色泽暗红，口感紧实，血香与豆香交融。是苗族「杀年猪」后必备，与腊肉同挂火塘熏制。蒸熟切片食用，或炒蒜苗、炒辣椒，是苗族待客上菜。与湖南血豆腐不同，苗家血豆腐更注重「熏制」，烟熏味更浓。凯里苗家血豆腐最知名，体现苗族「物尽其用」的饮食智慧，是黔东南苗寨的味觉记忆。",
     ingredients: ["猪肉", "豆腐"],
     cookingMethod: ["熏", "蒸"],
-    tags: ["少数民族", "苗族", "血豆腐", "黔菜", "酥脆"],
+    tags: ["少数民族", "苗族", "血豆腐", "黔菜", "腌", "熏", "焦香"],
     fame: "地方名吃",
     popularRegions: ["贵州", "湖南"],
     lat: 26.5835,
     lng: 107.9829,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "ethnic-36",
@@ -699,12 +699,12 @@ export const FOODS_ETHNIC: Food[] = [
       "苗家酸辣菜以萝卜、白菜、豆角等蔬菜加米汤、辣椒发酵腌制。酸辣爽口，开胃下饭，是苗族日常小菜。苗族「三天不吃酸，走路打蹿蹿」，酸食是苗族饮食灵魂。与汉族泡菜不同，苗家酸辣菜以「米汤发酵」为特色，酸味更醇厚。配米饭、米粉食用，是苗族餐桌必备。凯里苗家酸辣菜最知名，体现苗族「以酸调味」的饮食智慧，是黔东南苗寨的味觉名片。",
     ingredients: ["萝卜", "白菜", "豆角", "米汤", "辣椒"],
     cookingMethod: ["发酵", "腌"],
-    tags: ["少数民族", "苗族", "酸辣菜", "黔菜", "嫩滑"],
+    tags: ["少数民族", "苗族", "酸辣菜", "黔菜", "腌", "发酵", "爽脆"],
     fame: "地方名吃",
     popularRegions: ["贵州"],
     lat: 26.5835,
     lng: 107.9829,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "ethnic-37",
@@ -727,7 +727,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["贵州"],
     lat: 26.5835,
     lng: 107.9829,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ethnic-38",
@@ -750,7 +750,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["贵州", "湖南"],
     lat: 26.5835,
     lng: 107.9829,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "ethnic-39",
@@ -773,7 +773,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["贵州", "湖南"],
     lat: 26.5835,
     lng: 107.9829,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 侗族美食 ==========
@@ -798,7 +798,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["贵州", "广西"],
     lat: 26.2308,
     lng: 109.1367,
-    popularity: 6,
+    popularity: 5,
   },
   // 「侗家牛瘪」已合并至「黔东南牛瘪」(city-south-qiandongnan-2) - 同地同物异名
   {
@@ -822,7 +822,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["贵州", "广西"],
     lat: 26.2308,
     lng: 109.1367,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ethnic-43",
@@ -845,7 +845,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["贵州", "广西"],
     lat: 26.2308,
     lng: 109.1367,
-    popularity: 5,
+    popularity: 3,
   },
 
   {
@@ -984,7 +984,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["云南"],
     lat: 22.0074,
     lng: 100.7971,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 彝族美食 ==========
@@ -1009,7 +1009,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["四川", "云南"],
     lat: 27.8868,
     lng: 102.2645,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "ethnic-53",
@@ -1032,7 +1032,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["四川", "云南"],
     lat: 27.8868,
     lng: 102.2645,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ethnic-54",
@@ -1055,7 +1055,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["四川", "云南"],
     lat: 27.8868,
     lng: 102.2645,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "ethnic-55",
@@ -1126,7 +1126,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["广西"],
     lat: 22.817,
     lng: 108.3669,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 满族美食 ==========
@@ -1146,12 +1146,12 @@ export const FOODS_ETHNIC: Food[] = [
       "满族酸汤子以玉米面发酵后挤成面条，配酸菜、肉末煮制。色泽金黄，酸香开胃，面条筋道。是满族传统主食，「酸汤子」是满语「酸面条」之意。与汉族面条不同，酸汤子以「玉米发酵」为特色，酸味独特。新宾满族酸汤子最知名，是满族「杀年猪」后必备。配酸菜、辣椒油食用，是满族待客上菜。体现满族「以酸调味」的饮食智慧，是东北满乡的味觉名片。",
     ingredients: ["玉米", "酸菜", "辣椒"],
     cookingMethod: ["发酵", "煮"],
-    tags: ["少数民族", "满族", "新宾", "东北菜"],
+    tags: ["少数民族", "满族", "新宾", "东北菜", "面"],
     fame: "地方名吃",
     popularRegions: ["辽宁", "吉林", "黑龙江"],
     lat: 41.8808,
     lng: 123.9572,
-    popularity: 4,
+    popularity: 2,
   },
   {
     id: "ethnic-60",
@@ -1174,7 +1174,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["辽宁", "北京"],
     lat: 41.8057,
     lng: 123.4315,
-    popularity: 4,
+    popularity: 2,
   },
 
   // ========== 白族美食 ==========
@@ -1222,7 +1222,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["云南"],
     lat: 25.6065,
     lng: 100.2679,
-    popularity: 5,
+    popularity: 3,
   },
 
   {
@@ -1241,12 +1241,12 @@ export const FOODS_ETHNIC: Food[] = [
       "纳西族米灌肠以糯米、猪血灌入猪肠蒸制。色泽暗红，口感软糯，血香与米香交融。是纳西族「杀年猪」后必备，与朝鲜族米肠不同，纳西族米灌肠以「糯米」为主，不加蔬菜。切片油煎食用，外焦内糯，是纳西族待客上菜。丽江米灌肠最知名，讲究「米糯血香，肠衣脆嫩」。体现纳西族「物尽其用」的饮食智慧，是丽江古城的味觉名片，承载纳西族千年饮食文化。",
     ingredients: ["糯米", "猪肉"],
     cookingMethod: ["灌", "蒸", "煎"],
-    tags: ["少数民族", "纳西族", "滇菜", "粘糯"],
+    tags: ["少数民族", "纳西族", "滇菜", "腌", "灌", "粘糯", "焦香"],
     fame: "地方名吃",
     popularRegions: ["云南"],
     lat: 26.8721,
     lng: 100.2279,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 哈尼族美食 ==========
@@ -1271,7 +1271,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["云南"],
     lat: 23.364,
     lng: 102.375,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ethnic-67",
@@ -1294,7 +1294,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["云南"],
     lat: 23.364,
     lng: 102.375,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 布依族美食 ==========
@@ -1319,7 +1319,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["贵州"],
     lat: 26.2582,
     lng: 107.517,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ethnic-69",
@@ -1342,7 +1342,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["贵州"],
     lat: 26.2582,
     lng: 107.517,
-    popularity: 5,
+    popularity: 3,
   },
 
   // ========== 土家族美食 ==========
@@ -1367,7 +1367,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["湖北", "湖南"],
     lat: 30.272,
     lng: 109.488,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "ethnic-71",
@@ -1390,7 +1390,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["湖北"],
     lat: 30.272,
     lng: 109.488,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 瑶族美食 ==========
@@ -1415,7 +1415,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["广西", "广东"],
     lat: 24.6926,
     lng: 108.0853,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ethnic-73",
@@ -1438,7 +1438,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["广西"],
     lat: 25.2736,
     lng: 110.2907,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 黎族美食 ==========
@@ -1463,7 +1463,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["海南"],
     lat: 18.7754,
     lng: 109.5169,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ethnic-75",
@@ -1486,7 +1486,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["海南"],
     lat: 18.7754,
     lng: 109.5169,
-    popularity: 6,
+    popularity: 5,
   },
 
   // ========== 节庆美食 ==========
@@ -1534,7 +1534,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["河南", "全国"],
     lat: 34.7971,
     lng: 114.3083,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ethnic-79",
@@ -1557,7 +1557,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["山西", "陕西", "河南"],
     lat: 37.8706,
     lng: 112.5489,
-    popularity: 6,
+    popularity: 5,
   },
   // 「冬至羊肉汤」已合并至「简阳羊肉汤」(city-south-ziyang-2) - 同地同物异名
   {
@@ -1607,7 +1607,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["湖南", "全国"],
     lat: 29.3573,
     lng: 113.1289,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "ethnic-91",
@@ -1630,7 +1630,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["江苏", "全国"],
     lat: 31.2989,
     lng: 120.5853,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ethnic-94",
@@ -1653,7 +1653,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["浙江", "全国"],
     lat: 27.9938,
     lng: 120.6993,
-    popularity: 5,
+    popularity: 3,
   },
   // 「端午咸鸭蛋」(ethnic-95) 已合并至「高邮咸鸭蛋」(heritage-35) - 同地同物异名
   {
@@ -1677,7 +1677,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["北京", "河北", "山东"],
     lat: 39.9042,
     lng: 116.4074,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "ethnic-98",
@@ -1700,7 +1700,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["浙江", "江苏", "上海"],
     lat: 30.2741,
     lng: 120.1551,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "ethnic-99",
@@ -1723,7 +1723,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["北京", "河北"],
     lat: 39.9042,
     lng: 116.4074,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "ethnic-100",
@@ -1765,12 +1765,12 @@ export const FOODS_ETHNIC: Food[] = [
       "苗族羊瘪以羊胃中未完全消化的草汁滤液为汤底，加羊肉、羊杂炖煮，色绿味苦，回甘悠长。是苗族待客最高礼遇，「无瘪不成席」。羊瘪又称「百草汤」，因羊食百草，胃中草汁含多种草药成分，苗族认为有清热解毒、健胃驱虫之效。与侗族牛瘪相似但以羊为主，风味更膻香。黔东南苗族羊瘪最知名，体现苗族「以瘪为珍」的独特饮食审美，是苗岭深山的味觉奇观，承载千年狩猎采集文化。",
     ingredients: ["羊肉", "辣椒"],
     cookingMethod: ["炖", "煮"],
-    tags: ["少数民族", "苗族", "羊瘪", "黔菜", "苦"],
+    tags: ["少数民族", "苗族", "羊瘪", "黔菜", "苦", "汤", "药膳"],
     fame: "地方名吃",
     popularRegions: ["贵州", "广西"],
     lat: 26.5835,
     lng: 107.9829,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "ethnic-102",
@@ -1816,7 +1816,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["湖南", "湖北"],
     lat: 28.3119,
     lng: 109.7391,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ethnic-107",
@@ -1885,7 +1885,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["新疆"],
     lat: 43.8386,
     lng: 81.1467,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "ethnic-118",
@@ -1908,7 +1908,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["新疆"],
     lat: 37.7725,
     lng: 75.2299,
-    popularity: 6,
+    popularity: 5,
   },
   // ========== 新增节庆美食 ==========
   // 「藏历新年卡塞」已合并至「藏式卡塞」(batch28-hot-094) - 同地同物异名
@@ -1933,7 +1933,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["云南"],
     lat: 22.0074,
     lng: 100.7971,
-    popularity: 6,
+    popularity: 5,
   },
   {
     id: "ethnic-122",
@@ -1979,7 +1979,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["浙江", "江苏", "福建"],
     lat: 30.2741,
     lng: 120.1551,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "ethnic-128",
@@ -2002,7 +2002,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["浙江", "江苏", "四川"],
     lat: 30.2741,
     lng: 120.1551,
-    popularity: 5,
+    popularity: 3,
   },
   {
     id: "ethnic-129",
@@ -2025,7 +2025,7 @@ export const FOODS_ETHNIC: Food[] = [
     popularRegions: ["浙江", "江苏", "安徽", "福建"],
     lat: 30.2741,
     lng: 120.1551,
-    popularity: 6,
+    popularity: 5,
   },
   // ========== 新增地方物产 ==========
   {
@@ -2042,7 +2042,7 @@ export const FOODS_ETHNIC: Food[] = [
     origin: "广西容县，地理标志产品",
     description:
       "广西沙田柚以容县为核心产区，果形梨状，果皮金黄，果肉爽脆，汁多化渣，味甜微酸，是「柚中之王」。容县沙田柚有二百年种植历史，清乾隆年间即为贡品，原名「羊额籽」，后因沙田村而改名。与福建文旦柚、广东蜜柚相比，沙田柚以「纯甜」著称，糖度高、酸度低，且耐储存，可放数月不坏。富含维生素C、柚皮苷，有润肺、化痰之效。是广西地理标志产品，中秋、春节馈赠佳品。体现「以柚致富」的农业文化，是容县的味觉名片，承载二百年沙田柚传承。",
-    ingredients: ["柚子", "糖", "梨"],
+    ingredients: ["柚子"],
     cookingMethod: ["鲜食"],
     tags: ["物产", "地理标志", "水果", "酸甜", "桂菜", "广西"],
     fame: "名菜",
