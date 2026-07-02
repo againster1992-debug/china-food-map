@@ -58,7 +58,7 @@ export const PROVINCE_FLAVORS: ProvinceFlavor[] = [
   { province: "宁夏", flavor: "咸", taste: "咸鲜", color: FLAVOR_COLORS["咸"], description: "宁夏菜以咸为主，清真风味，滩羊文化独特" },
   { province: "新疆", flavor: "咸", taste: "咸鲜", color: FLAVOR_COLORS["咸"], description: "新疆菜咸香为主，烤肉、抓饭为代表，浓郁豪迈" },
   { province: "香港", flavor: "清淡", taste: "清淡", color: FLAVOR_COLORS["清淡"], description: "港式粤菜清淡鲜美，融合中西，茶餐厅文化" },
-  { province: "澳门", flavor: "清淡", taste: "清淡", color: FLAVOR_COLORS["清淡"], description: "澳式粤菜清淡鲜美，葡式风味融合" },
+  { province: "澳门", flavor: "复合", taste: "复合", color: FLAVOR_COLORS["复合"], description: "澳门土生菜中西融合，葡式风味独特，2017年入选非遗" },
   { province: "台湾", flavor: "香甜", taste: "香甜", color: FLAVOR_COLORS["香甜"], description: "台菜香甜为主，融合闽粤、日式风味，小吃文化丰富" },
 ];
 
@@ -127,6 +127,7 @@ export const CUISINE_FLAVORS: CuisineFlavor[] = [
   { cuisine: "潮菜", flavor: "清淡", taste: "清淡", color: FLAVOR_COLORS["清淡"], description: "潮菜是粤菜三大流派之一（广府菜、潮州菜、东江菜），源于潮汕平原，已有千年历史。以「鲜」为核心，讲究本味与原汁原味。「夜糜」打冷文化独特，卤水技艺精湛，工夫茶佐餐，海鲜、粿品、小吃文化极其发达。潮菜烹饪技艺入选国家级非遗。", originProvinces: ["广东"] },
   { cuisine: "台湾菜", flavor: "香甜", taste: "香甜", color: FLAVOR_COLORS["香甜"], description: "台菜以闽菜为基础，融合粤菜、日式料理及1949年后外省眷村菜，形成独特风味。香甜为主，「清、淡、鲜、醇」为本。夜市文化兴盛，小吃种类冠绝华人世界。卤肉饭、牛肉面是台湾最具代表性的日常美食，珍珠奶茶风靡全球。", originProvinces: ["台湾"] },
   { cuisine: "其他", flavor: "复合", taste: "复合", color: FLAVOR_COLORS["复合"], description: "复合口味，兼容并蓄", originProvinces: [] },
+  { cuisine: "澳门土生菜", flavor: "复合", taste: "复合", color: FLAVOR_COLORS["复合"], description: "澳门土生菜是中葡文化四百年融合的结晶，2017年入选澳门非物质文化遗产名录。以葡萄牙烹饪技法为基础，融合广东、马来、非洲、印度等地食材与调味，形成独特的「中西合璧」风味。代表菜有葡式蛋挞、非洲鸡、马介休球、免治猪肉等，是中国最具代表性的融合菜系。", originProvinces: ["澳门"] },
 ];
 
 // 菜系口味查找映射
@@ -150,8 +151,8 @@ export function getCuisineFlavor(cuisine: Cuisine): CuisineFlavor | undefined {
 
 // 获取美食的口味颜色（优先使用菜系口味，因为菜系更精确）
 export function getFoodColor(province: Province, cuisine: Cuisine): string {
-  // 对于有明确省份的菜系（如客家菜、潮菜），使用菜系颜色
-  if (cuisine === "客家菜" || cuisine === "潮菜" || cuisine === "清真菜") {
+  // 对于有明确省份的菜系（如客家菜、潮菜、清真菜、澳门土生菜），使用菜系颜色
+  if (cuisine === "客家菜" || cuisine === "潮菜" || cuisine === "清真菜" || cuisine === "澳门土生菜") {
     return getCuisineColor(cuisine);
   }
   return getProvinceColor(province);

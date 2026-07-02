@@ -327,8 +327,36 @@ body {
   padding: 0 5px;
   border: 2px solid #fbf7ec;
   font-family: "Noto Sans SC", sans-serif;
+  font-variant-numeric: tabular-nums;
   box-shadow: 0 1px 4px rgba(200, 57, 46, 0.4);
   z-index: 10;
+  white-space: nowrap;
+}
+
+/* 三位数（100+）时缩小字号确保完整显示 */
+.marker-count-badge.badge-3digit {
+  font-size: 10px;
+  padding: 0 4px;
+}
+
+/* 美食关联图节点点击闪烁动画 */
+@keyframes ffg-node-flash {
+  0% {
+    box-shadow: 0 0 0 0 var(--flash-color, #c8392e),
+                0 0 4px 0 var(--flash-color, #c8392e);
+  }
+  50% {
+    box-shadow: 0 0 0 6px var(--flash-color, #c8392e),
+                0 0 16px 4px var(--flash-color, #c8392e);
+    transform: scale(1.08);
+  }
+  100% {
+    box-shadow: 0 0 0 3px var(--flash-color, #c8392e),
+                0 0 8px 2px var(--flash-color, #c8392e);
+  }
+}
+.ffg-flash {
+  animation: ffg-node-flash 0.65s ease-out;
 }
 
 /* 省份代表菜标记样式 */

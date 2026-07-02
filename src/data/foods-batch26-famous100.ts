@@ -1,4 +1,4 @@
-﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
+﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
 
 export const FOODS_BATCH26_FAMOUS100: Food[] = [
 {
@@ -21,7 +21,7 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
   popularRegions: ["江苏", "全国"],
   lat: 32.3942,
   lng: 119.4129,
-  popularity: 9
+  popularity: 8
 },
 {
   id: "batch26-famous-003",
@@ -43,7 +43,7 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
   popularRegions: ["江苏", "全国"],
   lat: 32.3942,
   lng: 119.4129,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch26-famous-004",
@@ -55,7 +55,7 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
   type: "traditional",
   cuisine: "苏菜",
   province: "江苏",
-  city: "苏州",
+  city: "镇江",
   origin: "淮扬冷盘之首，猪蹄加硝腌制卤煮成冻，晶莹剔透，配姜丝和镇江香醋风味最佳。",
   description: "镇江水晶肴蹄以猪蹄加硝腌制后卤煮成冻，切片晶莹剔透。肉红皮白、光滑晶莹，是淮扬冷盘之首，配姜丝和镇江香醋食用风味最佳。",
   ingredients: ["猪蹄", "硝", "姜", "花椒", "盐"],
@@ -65,30 +65,9 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
   popularRegions: ["江苏", "全国"],
   lat: 32.189,
   lng: 119.425,
-  popularity: 8
+  popularity: 7
 },
-{
-  id: "batch26-famous-008",
-  name: "广式莲蓉双黄月饼",
-  alias: [],
-  image: "https://img1.baidu.com/it/u=3680003436,3658625879&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=714",
-  category: "糕点",
-  taste: "甜",
-  type: "traditional",
-  cuisine: "粤菜",
-  province: "广东",
-  city: "广州",
-  origin: "中国传统月饼之首，薄皮包馅花纹清晰，皮薄馅多甜而不腻，中秋团圆必备。",
-  description: "广式莲蓉双黄月饼以莲蓉为馅包裹双咸蛋黄，薄皮包馅、花纹清晰。皮薄馅多、甜而不腻，是中国传统中秋月饼之首，家家户户中秋必备的团圆味道。",
-  ingredients: ["面粉", "莲蓉", "咸蛋黄", "糖", "油"],
-  cookingMethod: ["烤"],
-  tags: ["甜", "糕点", "粤菜", "广东", "广州", "中秋", "月饼", "传统", "团圆", "名菜"],
-  fame: "名菜",
-  popularRegions: ["广东", "全国"],
-  lat: 23.1291,
-  lng: 113.2644,
-  popularity: 9
-},
+// 「广式莲蓉双黄月饼」已合并至「广式月饼」(foods-heritage.ts heritage-29) - 品种前缀型重复
 
 {
   id: "batch26-famous-010",
@@ -132,7 +111,7 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
   popularRegions: ["山东", "全国"],
   lat: 34.794,
   lng: 116.085,
-  popularity: 9
+  popularity: 7
 },
 {
   id: "batch26-famous-013",
@@ -154,7 +133,7 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
   popularRegions: ["辽宁", "全国"],
   lat: 38.914,
   lng: 121.6147,
-  popularity: 8
+  popularity: 7
 },
 
 
@@ -178,7 +157,7 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
   popularRegions: ["宁夏", "西北", "全国"],
   lat: 38.4872,
   lng: 106.2309,
-  popularity: 9
+  popularity: 8
 },
 
 // 「哈尔滨蒜香红肠」已合并至「哈尔滨红肠」(foods-cities-north.ts city-north-harbin-1) - 同地同物异名
@@ -278,28 +257,7 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
   
 // 「七星包心鱼丸」已合并至「七星鱼丸」(foods-batch23-famous100.ts) - 同省同物异名
 // 「西湖莼菜羹」已合并至「西湖莼菜汤」(foods-famous.ts famous-37) - 同地同物异名
-{
-  id: "batch26-famous-048",
-  name: "金鼎清汤牛肉面",
-  alias: [],
-  image: "https://img1.baidu.com/it/u=723341519,1531219909&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=652",
-  category: "面食",
-  taste: "咸鲜",
-  type: "traditional",
-  cuisine: "西北菜",
-  province: "甘肃",
-  city: "兰州",
-  origin: "兰州牛肉面行业标杆，一清二白三红四绿五黄，手工拉面配清汤牛肉，百年传承的清汤拉面技艺。",
-  description: "兰州金鼎清汤牛肉面以手工拉面配清汤牛肉萝卜片，一清二白三红四绿五黄。面条筋道、汤清味鲜，是兰州牛肉面行业标杆，百年传承的清汤拉面技艺。",
-  ingredients: ["面粉", "牛肉", "萝卜", "红油", "蒜苗", "香菜"],
-  cookingMethod: ["拉", "煮"],
-  tags: ["咸鲜", "面食", "西北菜", "甘肃", "兰州", "拉面", "清汤", "百年", "筋道", "地方名吃"],
-  fame: "名菜",
-  popularRegions: ["甘肃", "全国"],
-  lat: 36.0611,
-  lng: 103.8343,
-  popularity: 9
-},
+// 「金鼎清汤牛肉面」已合并至「兰州牛肉面」(foods-heritage.ts heritage-39) - 品牌前缀型重复
 {
   id: "batch26-famous-050",
   name: "潮汕手打牛肉丸",
@@ -320,7 +278,7 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
   popularRegions: ["广东", "全国"],
   lat: 23.3533,
   lng: 116.682,
-  popularity: 9
+  popularity: 8
 },
 {
   id: "batch26-famous-053",
@@ -342,7 +300,7 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
   popularRegions: ["西藏", "全国"],
   lat: 29.65,
   lng: 91.1,
-  popularity: 8
+  popularity: 7
 },
   
 {
@@ -353,19 +311,19 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
   category: "主菜",
   taste: "原味",
   type: "traditional",
-  cuisine: "清真菜",
+  cuisine: "西北菜",
   province: "宁夏",
   city: "银川",
   origin: "塞上江南最家常的待客硬菜，宁夏滩羊加萝卜清炖，汤清肉烂无膻味，滩羊品质的最佳证明。",
   description: "银川清炖羊肉以宁夏滩羊加萝卜清炖，汤清肉烂无膻味。羊肉入口即化、萝卜清甜，是塞上江南最家常的待客硬菜，宁夏滩羊品质的最佳证明。",
   ingredients: ["羊肉", "萝卜", "葱", "姜", "盐", "花椒"],
   cookingMethod: ["炖"],
-  tags: ["原味", "主菜", "清真菜", "宁夏", "银川", "滩羊", "清炖", "家常", "待客", "地方名吃"],
+  tags: ["原味", "主菜", "西北菜", "宁夏", "银川", "滩羊", "清炖", "家常", "待客", "地方名吃"],
   fame: "名菜",
   popularRegions: ["宁夏", "全国"],
   lat: 38.4872,
   lng: 106.2309,
-  popularity: 9
+  popularity: 8
 },
 {
   id: "batch26-famous-061",
@@ -437,7 +395,7 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
   popularRegions: ["湖北", "全国"],
   lat: 30.5928,
   lng: 114.3055,
-  popularity: 9
+  popularity: 8
 },
 // 「老火锅」已合并至「重庆火锅」(foods-batch4-sichuan-hunan.ts batch4-cq-2) - 同地同物异名，老火锅即重庆传统火锅的别称
 // {
@@ -485,30 +443,9 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
   popularRegions: ["贵州", "全国"],
   lat: 26.647,
   lng: 106.6302,
-  popularity: 9
+  popularity: 8
 },
-{
-  id: "batch26-famous-081",
-  name: "马子禄牛肉面",
-  alias: [],
-  image: "https://img2.baidu.com/it/u=2498693197,3403203353&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=639",
-  category: "面食",
-  taste: "咸鲜",
-  type: "traditional",
-  cuisine: "西北菜",
-  province: "甘肃",
-  city: "兰州",
-  origin: "兰州牛肉面行业标杆，百年老店马子禄，手工拉面配清汤牛肉，一清二白三红四绿五黄。",
-  description: "兰州马子禄牛肉面以手工拉面配清汤牛肉萝卜片，一清二白三红四绿五黄。面条筋道汤清味鲜，是兰州牛肉面行业标杆，百年老店马子禄的拉面技艺。",
-  ingredients: ["面粉", "牛肉", "萝卜", "红油", "蒜苗", "香菜"],
-  cookingMethod: ["拉", "煮"],
-  tags: ["咸鲜", "面食", "西北菜", "甘肃", "兰州", "拉面", "清汤", "百年", "筋道", "地方名吃"],
-  fame: "名菜",
-  popularRegions: ["甘肃", "全国"],
-  lat: 36.0611,
-  lng: 103.8343,
-  popularity: 9
-},
+// 「马子禄牛肉面」已合并至「兰州牛肉面」(foods-heritage.ts heritage-39) - 品牌前缀型重复
   
 {
   id: "batch26-famous-084",
@@ -530,7 +467,7 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
   popularRegions: ["新疆", "全国"],
   lat: 43.7928,
   lng: 87.6271,
-  popularity: 9
+  popularity: 7
 },
 {
   id: "batch26-famous-088",
@@ -552,7 +489,7 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
   popularRegions: ["内蒙古", "全国"],
   lat: 40.6582,
   lng: 109.8404,
-  popularity: 9
+  popularity: 7
 },
 {
   id: "batch26-famous-089",
@@ -574,7 +511,7 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
   popularRegions: ["辽宁", "东北", "全国"],
   lat: 41.8057,
   lng: 123.4315,
-  popularity: 9
+  popularity: 7
 },
 {
   id: "batch26-famous-090",
@@ -604,7 +541,7 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
   alias: ["五香卷", "泉州五香卷", "五香条", "炸五香"],
   image: "https://img1.baidu.com/it/u=345602958,391707079&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=641",
   category: "小吃",
-  taste: "咸鲜",
+  taste: "复合",
   type: "traditional",
   cuisine: "闽菜",
   province: "福建",
@@ -684,7 +621,7 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
   popularRegions: ["云南", "全国"],
   lat: 25.606,
   lng: 100.267,
-  popularity: 9
+  popularity: 7
 },
 {
   id: "batch26-famous-096",
@@ -706,7 +643,7 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
   popularRegions: ["山东", "全国"],
   lat: 36.6512,
   lng: 117.12,
-  popularity: 9
+  popularity: 8
 },
   
 // 「桂林卤菜米粉」(batch26-famous-098) 已合并至「桂林米粉」(hot-119, foods-popular.ts) - 同地同物异名，桂林卤菜米粉为桂林米粉的经典吃法，合并至主条目
@@ -752,7 +689,7 @@ export const FOODS_BATCH26_FAMOUS100: Food[] = [
   popularRegions: ["贵州", "全国"],
   lat: 27.721,
   lng: 106.927,
-  popularity: 9
+  popularity: 8
 },
 {
   id: "batch26-famous-100",

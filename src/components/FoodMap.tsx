@@ -48,6 +48,7 @@ function createClusterIcon(count: number, foods: Food[]): L.DivIcon {
   const color = getFoodColor(foods[0].province, foods[0].cuisine);
   // 根据数量调整图标大小
   const size = count >= 20 ? 64 : count >= 10 ? 56 : 48;
+  const badgeClass = count >= 100 ? "marker-count-badge badge-3digit" : "marker-count-badge";
   return L.divIcon({
     className: "food-marker",
     html: `<div class="food-marker-inner">
@@ -56,7 +57,7 @@ function createClusterIcon(count: number, foods: Food[]): L.DivIcon {
           onload="this.parentElement.classList.add('img-loaded');"
           onerror="this.style.display='none';this.parentElement.classList.add('marker-thumb-fallback');" />
       </div>
-      <span class="marker-count-badge">${count}</span>
+      <span class="${badgeClass}">${count}</span>
     </div>`,
     iconSize: [size, size],
     iconAnchor: [size / 2, size / 2],
@@ -78,6 +79,7 @@ function isRestaurantDish(name: string): boolean {
 function createProvinceIcon(food: Food, count: number): L.DivIcon {
   const color = getFoodColor(food.province, food.cuisine);
   const size = 48;
+  const badgeClass = count >= 100 ? "marker-count-badge province-count-badge badge-3digit" : "marker-count-badge province-count-badge";
   return L.divIcon({
     className: "food-marker province-marker",
     html: `<div class="food-marker-inner">
@@ -87,7 +89,7 @@ function createProvinceIcon(food: Food, count: number): L.DivIcon {
           onerror="this.style.display='none';this.parentElement.classList.add('marker-thumb-fallback');" />
         <span class="marker-thumb-name">${food.name.charAt(0)}</span>
       </div>
-      <span class="marker-count-badge province-count-badge">${count}</span>
+      <span class="${badgeClass}">${count}</span>
     </div>`,
     iconSize: [size, size],
     iconAnchor: [size / 2, size / 2],
@@ -154,6 +156,7 @@ const CUISINE_CENTERS: Record<string, { lat: number; lng: number; radius: number
   藏餐: { lat: 29.65, lng: 91.1, radius: 400000, label: "拉萨" },         // 藏餐中心
   蒙餐: { lat: 43.8, lng: 87.6, radius: 0, label: "" },                   // 已由省份覆盖，跳过
   东北菜: { lat: 45.75, lng: 126.63, radius: 0, label: "" },              // 已由省份覆盖，跳过
+  澳门土生菜: { lat: 22.2, lng: 113.55, radius: 15000, label: "澳门" },   // 中葡融合菜系，2017年非遗
 };
 
 // 菜系口味色层：为没有独立省份覆盖的菜系添加色层

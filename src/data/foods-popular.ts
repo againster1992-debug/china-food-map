@@ -1,4 +1,4 @@
-﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
 
 export const FOODS_POPULAR: Food[] = [
   // ========== 网红美食（2020-2025年流行）==========
@@ -22,7 +22,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["上海", "广州", "成都", "深圳"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "hot-2",
@@ -45,7 +45,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["上海", "广州", "北京", "成都"],
     lat: 24.1477,
     lng: 120.6736,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "hot-3",
@@ -68,7 +68,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["全国", "北京", "上海", "广州", "深圳"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "hot-4",
@@ -90,7 +90,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["北京", "广州", "深圳", "杭州"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "hot-5",
@@ -112,7 +112,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["北京", "广州", "成都", "杭州"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "hot-6",
@@ -134,7 +134,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["北京", "广州", "成都", "杭州"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "hot-7",
@@ -156,7 +156,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["北京", "广州", "深圳", "成都"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "hot-8",
@@ -178,7 +178,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["北京", "广州", "深圳", "杭州"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "hot-9",
@@ -201,7 +201,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["广东", "上海", "北京", "香港"],
     lat: 22.1987,
     lng: 113.5439,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "hot-10",
@@ -223,7 +223,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["上海", "广州", "成都", "武汉"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "hot-11",
@@ -245,7 +245,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["辽宁", "吉林", "北京", "上海"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "hot-12",
@@ -267,7 +267,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["北京", "广州", "深圳", "杭州"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "hot-13",
@@ -289,7 +289,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["北京", "广州", "深圳", "成都"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "hot-14",
@@ -311,7 +311,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["北京", "广州", "成都", "武汉"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "hot-15",
@@ -333,7 +333,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["北京", "广州", "深圳", "杭州"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 8,
+    popularity: 7,
   },
 
   // ========== 新式茶饮 ==========
@@ -358,7 +358,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["上海", "北京", "成都", "深圳"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 9,
+    popularity: 7,
   },
   {
     id: "hot-17",
@@ -421,11 +421,11 @@ export const FOODS_POPULAR: Food[] = [
     ingredients: ["燕麦", "糖", "牛奶", "咖啡"],
     cookingMethod: ["萃取"],
     tags: ["燕麦奶", "咖啡", "拿铁", "网红", "植物奶", "环保", "国民美食", "酥脆", "焦香"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["上海", "广州", "深圳", "杭州"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 8,
+    popularity: 6,
   },
   {
     id: "hot-21",
@@ -469,7 +469,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["长沙", "武汉", "重庆", "南京"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "hot-23",
@@ -491,7 +491,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["上海", "北京", "深圳", "杭州"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "hot-24",
@@ -514,7 +514,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["上海", "广州", "北京", "成都"],
     lat: 24.1477,
     lng: 120.6736,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "hot-25",
@@ -537,7 +537,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["上海", "广州", "北京", "深圳"],
     lat: 24.1477,
     lng: 120.6736,
-    popularity: 8,
+    popularity: 7,
   },
 
   // ========== 街头热门小吃 ==========
@@ -584,7 +584,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["全国", "上海", "广州", "北京", "成都"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 8,
+    popularity: 10,
   },
   {
     id: "hot-29",
@@ -606,7 +606,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["全国", "北京", "上海", "广州", "成都"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "hot-30",
@@ -625,11 +625,11 @@ export const FOODS_POPULAR: Food[] = [
     ingredients: ["酸奶", "面包糠", "淀粉", "糖"],
     cookingMethod: ["炸", "冻"],
     tags: ["酸奶", "油炸", "冰火", "网红", "街头", "创意", "焦香", "劲道"],
-    fame: "地方名吃",
+    fame: "热门",
     popularRegions: ["重庆", "长沙", "武汉", "西安"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 5,
+    popularity: 7,
   },
   {
     id: "hot-31",
@@ -652,7 +652,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["重庆", "北京", "上海", "武汉"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 7,
+    popularity: 8,
   },
   {
     id: "hot-33",
@@ -675,7 +675,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["重庆", "长沙", "武汉", "西安"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 9,
+    popularity: 7,
   },
   {
     id: "hot-34",
@@ -707,7 +707,7 @@ export const FOODS_POPULAR: Food[] = [
     image: "https://img2.baidu.com/it/u=1929473621,1705146506&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1067",
     category: "甜品",
     taste: "香甜",
-    type: "popular",
+    type: "traditional",
     cuisine: "粤菜",
     province: "广东",
     city: "广州",
@@ -721,7 +721,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["香港", "澳门", "上海", "北京"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 9,
+    popularity: 7,
   },
   {
     id: "hot-36",
@@ -767,7 +767,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["香港", "上海", "北京", "深圳"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "hot-39",
@@ -801,19 +801,19 @@ export const FOODS_POPULAR: Food[] = [
     taste: "香甜",
     type: "popular",
     cuisine: "其他",
-    province: "上海",
-    city: "上海",
-    origin: "源自法国，日式改良后传入中国",
+    province: "全国",
+    city: "",
+    origin: "源自法国布列塔尼，日式改良后传入中国各大城市",
     description:
-      "可丽饼以薄饼皮裹奶油、水果、冰淇淋等。皮薄如纸，馅料丰富，颜值极高。从法国传入，经日式改良后在上海等城市流行。是「网红甜品」代表，深受年轻人喜爱。咸甜两种口味，是「下午茶」文化的标志。",
+      "可丽饼以薄饼皮裹奶油、水果、冰淇淋等。皮薄如纸，馅料丰富，颜值极高。从法国布列塔尼传入，经日式改良后在全国各大城市流行。是「网红甜品」代表，深受年轻人喜爱。咸甜两种口味，是「下午茶」文化的标志。",
     ingredients: ["面粉", "鸡蛋", "牛奶", "淡奶油"],
     cookingMethod: ["煎"],
     tags: ["薄饼", "奶油", "法式", "网红", "甜品"],
-    fame: "普通",
-    popularRegions: ["北京", "广州", "深圳", "杭州"],
-    lat: 31.2304,
-    lng: 121.4737,
-    popularity: 2,
+    fame: "热门",
+    popularRegions: ["北京", "上海", "广州", "深圳", "杭州"],
+    lat: 35,
+    lng: 105,
+    popularity: 7,
   },
   {
     id: "hot-41",
@@ -822,7 +822,7 @@ export const FOODS_POPULAR: Food[] = [
     image: "https://img2.baidu.com/it/u=1548116548,125162761&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=1044",
     category: "小吃",
     taste: "香甜",
-    type: "popular",
+    type: "traditional",
     cuisine: "其他",
     province: "山东",
     city: "济南",
@@ -845,7 +845,7 @@ export const FOODS_POPULAR: Food[] = [
     image: "https://img1.baidu.com/it/u=4089672308,1189888105&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1422",
     category: "小吃",
     taste: "香甜",
-    type: "popular",
+    type: "traditional",
     cuisine: "其他",
     province: "北京",
     city: "北京",
@@ -855,11 +855,11 @@ export const FOODS_POPULAR: Food[] = [
     ingredients: ["栗子", "糖"],
     cookingMethod: ["炒"],
     tags: ["栗子", "糖炒", "秋冬", "街头", "时令", "暖食", "酥脆"],
-    fame: "地方名吃",
+    fame: "热门",
     popularRegions: ["全国", "天津", "上海", "广州", "成都"],
     lat: 39.9042,
     lng: 116.4074,
-    popularity: 6,
+    popularity: 8,
   },
   {
     id: "hot-43",
@@ -882,7 +882,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["全国", "天津", "上海", "广州", "成都"],
     lat: 39.9042,
     lng: 116.4074,
-    popularity: 9,
+    popularity: 10,
   },
   {
     id: "hot-44",
@@ -905,7 +905,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["全国", "上海", "广州", "北京", "成都"],
     lat: 25.033,
     lng: 121.5654,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "hot-45",
@@ -927,7 +927,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["全国", "河南", "湖南", "四川", "广东"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 9,
+    popularity: 10,
   },
 
   // ========== 连锁餐饮热门菜 ==========
@@ -975,7 +975,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["全国", "北京", "上海", "广州", "成都"],
     lat: 28.2278,
     lng: 112.9388,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "hot-49",
@@ -998,7 +998,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["全国", "北京", "上海", "广州", "成都"],
     lat: 28.2278,
     lng: 112.9388,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "hot-51",
@@ -1090,7 +1090,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["全国", "北京", "上海", "广州", "成都"],
     lat: 28.2278,
     lng: 112.9388,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "hot-56",
@@ -1205,7 +1205,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["全国", "上海", "北京", "广州", "成都"],
     lat: 31.4912,
     lng: 120.3119,
-    popularity: 9,
+    popularity: 8,
   },
   {
     id: "hot-61",
@@ -1213,7 +1213,7 @@ export const FOODS_POPULAR: Food[] = [
     alias: ["红烧小排", "酱烧排骨"],
     image: "https://img1.baidu.com/it/u=2049542839,2851534437&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=1047",
     category: "主菜",
-    taste: "咸鲜",
+    taste: "咸甜",
     type: "popular",
     cuisine: "其他",
     province: "全国",
@@ -1227,7 +1227,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["全国", "上海", "北京", "广州", "成都"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 9,
+    popularity: 8,
   },  {
     id: "hot-63",
     name: "红烧豆腐",
@@ -1326,7 +1326,7 @@ export const FOODS_POPULAR: Food[] = [
     name: "棒棒鸡",
     alias: ["凉拌棒棒鸡", "麻辣鸡丝", "棒棒鸡丝", "嘉定棒棒鸡"],
     image: "https://img0.baidu.com/it/u=1608825736,2829347850&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1422",
-    category: "主菜",
+    category: "凉菜",
     taste: "麻辣",
     type: "traditional",
     cuisine: "川菜",
@@ -1411,7 +1411,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["全国", "重庆", "北京", "上海", "广州"],
     lat: 28.2278,
     lng: 112.9388,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "hot-72",
@@ -1504,7 +1504,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["全国", "北京", "上海", "广州", "深圳"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "hot-77",
@@ -1512,7 +1512,7 @@ export const FOODS_POPULAR: Food[] = [
     alias: ["日式牛肉饭", "吉野家牛肉饭"],
     image: "https://img0.baidu.com/it/u=2376423539,3037661241&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=651",
     category: "主食",
-    taste: "咸鲜",
+    taste: "咸甜",
     type: "popular",
     cuisine: "其他",
     province: "全国",
@@ -1548,7 +1548,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["全国", "北京", "广州", "深圳", "杭州"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "hot-80",
@@ -1570,7 +1570,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["全国", "北京", "广州", "深圳", "成都"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "hot-83",
@@ -1593,7 +1593,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["全国", "香港", "上海", "北京", "深圳"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "hot-84",
@@ -1616,7 +1616,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["全国", "香港", "上海", "北京", "深圳"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 8,
+    popularity: 7,
   },
   // 「卤味拼盘」(hot-85) 已合并至「潮州卤水拼盘」(batch4-cs-3) - 同地同物异名
 
@@ -1650,7 +1650,7 @@ export const FOODS_POPULAR: Food[] = [
     alias: ["潮式老公饼", "酥皮老公饼"],
     image: "https://img0.baidu.com/it/u=847034590,2100855776&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=667",
     category: "糕点",
-    taste: "咸鲜",
+    taste: "咸甜",
     type: "popular",
     cuisine: "粤菜",
     province: "广东",
@@ -1674,7 +1674,7 @@ export const FOODS_POPULAR: Food[] = [
     image: "https://img0.baidu.com/it/u=1508753655,904072954&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=659",
     category: "糕点",
     taste: "香甜",
-    type: "popular",
+    type: "traditional",
     cuisine: "其他",
     province: "全国",
         origin: "传统面点，全国流行",
@@ -1687,7 +1687,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["全国", "天津", "上海", "广州", "成都"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "hot-89",
@@ -1733,7 +1733,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["全国", "香港", "上海", "北京", "深圳"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "hot-91",
@@ -1743,19 +1743,19 @@ export const FOODS_POPULAR: Food[] = [
     category: "糕点",
     taste: "香甜",
     type: "popular",
-    cuisine: "本帮菜",
-    province: "上海",
-    city: "上海",
-    origin: "传统糕点复兴，2016年后再次流行",
+    cuisine: "台湾菜",
+    province: "台湾",
+    city: "台北",
+    origin: "台湾传统糕点，2010年后经大陆品牌推广火遍全国",
     description:
-      "蛋黄酥以酥皮裹豆沙、咸蛋黄烤制。层层酥脆，豆沙甜糯，蛋黄咸香。是「中式烘焙复兴」代表，从上海火遍全国。轩妈、知味观等品牌将其推广，成为网红爆款。配茶食用，深受各年龄层喜爱，是「国潮糕点」代表。",
+      "蛋黄酥以酥皮裹豆沙、咸蛋黄烤制。层层酥脆，豆沙甜糯，蛋黄咸香。是台湾传统糕点，经轩妈、知味观等品牌推广后火遍全国，成为「中式烘焙复兴」代表。配茶食用，深受各年龄层喜爱，是「国潮糕点」的标志性产品。",
     ingredients: ["酥皮", "豆沙", "鸡蛋", "芝麻"],
     cookingMethod: ["烤"],
-    tags: ["酥皮", "咸蛋黄", "网红", "国潮", "烘", "酥脆"],
+    tags: ["酥皮", "咸蛋黄", "网红", "国潮", "烘焙", "酥脆"],
     fame: "热门",
     popularRegions: ["全国", "北京", "广州", "深圳", "杭州"],
-    lat: 31.2304,
-    lng: 121.4737,
+    lat: 25.0330,
+    lng: 121.5654,
     popularity: 8,
   },
   {
@@ -1779,7 +1779,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["全国", "北京", "上海", "广州", "成都"],
     lat: 36.6512,
     lng: 117.12,
-    popularity: 9,
+    popularity: 8,
   },
   {
     id: "hot-94",
@@ -1823,7 +1823,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["全国", "重庆", "北京", "上海", "广州"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "hot-97",
@@ -1856,19 +1856,19 @@ export const FOODS_POPULAR: Food[] = [
     category: "主菜",
     taste: "清淡",
     type: "popular",
-    cuisine: "本帮菜",
-    province: "上海",
-    city: "上海",
-    origin: "沪式家常菜，全国流行",
+    cuisine: "国民美食",
+    province: "全国",
+    city: "",
+    origin: "国民家常素菜，全国各地均有，清淡养生代表",
     description:
-      "香菇青菜以香菇配青菜炒制。荤素搭配，清淡爽口，营养丰富。是沪式家常菜代表，从上海火遍全国。清淡养生，老少皆宜。连锁餐厅、外卖、家庭皆常见，是「素食下饭」代表，深受各年龄层喜爱，是「养生家常菜」首选。",
+      "香菇青菜以香菇配青菜炒制。荤素搭配，清淡爽口，营养丰富。是国民家常素菜代表，全国各地餐厅、家庭餐桌都常见。清淡养生，老少皆宜。连锁餐厅、外卖、家庭皆常见，是「素食下饭」代表，深受各年龄层喜爱，是「养生家常菜」首选。",
     ingredients: ["香菇", "青菜", "蒜", "蚝油"],
     cookingMethod: ["炒"],
-    tags: ["香菇", "青菜", "本帮菜", "清淡", "养生", "素食"],
+    tags: ["香菇", "青菜", "清淡", "养生", "素食", "家常"],
     fame: "普通",
-    popularRegions: ["全国", "北京", "广州", "深圳", "杭州"],
-    lat: 31.2304,
-    lng: 121.4737,
+    popularRegions: ["全国"],
+    lat: 35,
+    lng: 105,
     popularity: 2,
   },
   {
@@ -1912,9 +1912,9 @@ export const FOODS_POPULAR: Food[] = [
     tags: ["网红", "五花肉", "脆皮", "烧烤", "夜市", "咸鲜", "嫩滑"],
     fame: "热门",
     popularRegions: ["全国"],
-    lat: 31.2304,
-    lng: 121.4737,
-    popularity: 8,
+    lat: 34.3416,
+    lng: 108.9398,
+    popularity: 7,
   },
   {
     id: "hot-102",
@@ -1936,7 +1936,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["北京", "上海", "广州", "成都"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "hot-103",
@@ -1958,7 +1958,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 9,
+    popularity: 8,
   },
   {
     id: "hot-104",
@@ -1980,7 +1980,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "hot-106",
@@ -2003,7 +2003,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["全国"],
     lat: 30.2741,
     lng: 120.1551,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "hot-107",
@@ -2026,7 +2026,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["全国"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 9,
+    popularity: 10,
   },
   {
     id: "hot-109",
@@ -2034,7 +2034,7 @@ export const FOODS_POPULAR: Food[] = [
     alias: ["海苔肉松小贝", "肉松蛋糕", "肉松海苔麻薯贝", "肉松海苔巨贝", "海苔肉松贝", "巨贝蛋糕"],
     image: "https://img0.baidu.com/it/u=1353580716,2337431354&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1123",
     category: "糕点",
-    taste: "咸鲜",
+    taste: "咸甜",
     type: "popular",
     cuisine: "其他",
     province: "全国",
@@ -2048,7 +2048,7 @@ export const FOODS_POPULAR: Food[] = [
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 8,
+    popularity: 7,
   },
   {
     "id": "hot-110",
@@ -2068,7 +2068,7 @@ export const FOODS_POPULAR: Food[] = [
     "ingredients": ["牛奶", "料酒", "糖"],
     "cookingMethod": ["蒸", "发酵"],
     "tags": ["奶酪", "甜品", "网红", "宫廷", "奶香", "劲道", "绵软"],
-    "fame": "热门",
+    "fame": "地方名吃",
     "popularRegions": [
       "北京",
       "上海",
@@ -2080,28 +2080,27 @@ export const FOODS_POPULAR: Food[] = [
   },
   {
     "id": "hot-111",
-    "name": "阿大葱油饼",
+    "name": "上海葱油饼",
 "image": "http://n.sinaimg.cn/sinacn20115/40/w480h360/20200206/3e32-inzcrxs9939527.jpg",
     "category": "小吃",
     "taste": "咸鲜",
-    "type": "popular",
+    "type": "traditional",
     "cuisine": "本帮菜",
     "province": "上海",
     "city": "上海",
-    "origin": "上海永嘉路网红摊点，2010年代火爆网络",
-    "description": "阿大葱油饼以大量小葱夹入猪油面团，先煎后烤。外皮金黄酥脆，内里葱香浓郁，层次分明。因老板阿大坚持手工慢做、限量供应而成为现象级网红。排队数小时只为一口，是上海传统葱油饼在互联网时代的流量代表。",
+    "origin": "上海传统街头小吃，弄堂早点经典，葱油饼为沪上名点",
+    "description": "上海葱油饼是上海传统街头小吃，以大量小葱夹入猪油面团，先煎后烤至外皮金黄酥脆、内里葱香浓郁、层次分明。讲究「皮薄馅多、葱香四溢」，是弄堂早餐的灵魂之一。配豆浆或豆腐花食用，是老上海人最熟悉的早点味道。阿大葱油饼等名店曾因坚持手工慢做、限量供应而成为网红，排队数小时只为一口正宗的老上海味道。",
     "ingredients": ["面粉", "葱", "猪肉", "盐"],
     "cookingMethod": ["煎", "烤"],
-    "tags": ["葱油饼", "网红", "街头", "本帮菜", "排队"],
-    "fame": "地方名吃",
+    "tags": ["葱油饼", "咸鲜", "小吃", "本帮菜", "上海", "街头", "酥脆", "焦香"],
+    "fame": "名菜",
     "popularRegions": [
       "上海",
-      "北京",
-      "杭州"
+      "江浙沪"
     ],
     "lat": 31.2304,
     "lng": 121.4737,
-    "popularity": 6
+    "popularity": 7
   },
   {
     "id": "hot-112",
@@ -2133,9 +2132,10 @@ export const FOODS_POPULAR: Food[] = [
   },
   {
     "id": "hot-113",
-    "name": "南京鸭油酥烧饼",
+    "name": "鸭油酥烧饼",
     "alias": [
-      "鸭油烧饼"
+      "鸭油烧饼",
+      "草鞋底烧饼"
     ],
     "image": "https://i2.chuimg.com/40f504dcad5c4e9f9dce4367a8a412a0_1280w_1024h.jpg?imageView2/2/w/660/interlace/1/q/90",
     "category": "糕点",
@@ -2184,7 +2184,7 @@ export const FOODS_POPULAR: Food[] = [
     ],
     "cookingMethod": ["烤"],
     "tags": ["沙茶", "烤肉串", "夜市", "闽菜", "网红", "酥脆"],
-    "fame": "热门",
+    "fame": "地方名吃",
     "popularRegions": [
       "厦门",
       "上海",
@@ -2212,7 +2212,7 @@ export const FOODS_POPULAR: Food[] = [
     ingredients: ["鸡肉", "虾"],
     "cookingMethod": ["蒸", "煮"],
     "tags": [],
-    "fame": "名菜",
+    "fame": "热门",
     "popularRegions": [
       "广州",
       "深圳",
@@ -2231,14 +2231,14 @@ export const FOODS_POPULAR: Food[] = [
     "category": "饮品",
     "taste": "香甜",
     "type": "popular",
-    "cuisine": "西北菜",
+    "cuisine": "清真菜",
     "province": "甘肃",
     "city": "兰州",
     "origin": "兰州正宁路夜市，回族传统甜品",
     "description": "兰州牛奶鸡蛋醪糟以牛奶、鸡蛋、醪糟同煮，加葡萄干、枸杞、芝麻。奶香浓郁，蛋花滑嫩，甜而不腻，是兰州夜市最具人气的热饮甜品。",
     "ingredients": ["牛奶", "鸡蛋", "料酒", "葡萄", "枸杞"],
     "cookingMethod": ["煮"],
-    "tags": ["醪糟", "西北菜", "甜品", "夜市", "网红", "酥脆"],
+    "tags": ["醪糟", "清真菜", "甜品", "夜市", "网红", "酥脆"],
     "fame": "热门",
     "popularRegions": [
       "兰州",
@@ -2395,7 +2395,7 @@ export const FOODS_POPULAR: Food[] = [
   //     ],
   //     "lat": 30.5928,
   //     "lng": 114.3055,
-  //     "popularity": 8,
+  //     "popularity": 7,
   //     "image": "https://img2.baidu.com/it/u=2522022613,2940427896&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1067"
   //   },
   {
@@ -2509,7 +2509,7 @@ export const FOODS_POPULAR: Food[] = [
     "ingredients": ["炼乳", "红豆", "果酱"],
     "cookingMethod": ["切", "拌"],
     "tags": [],
-    "fame": "热门",
+    "fame": "地方名吃",
     "popularRegions": [
       "天津",
       "全国"
@@ -2726,7 +2726,7 @@ export const FOODS_POPULAR: Food[] = [
   // },
   {
     "id": "gen2-f-2025-132",
-    "name": "福建肉燕",
+    "name": "肉燕",
     "category": "面食",
     "taste": "咸鲜",
     "type": "popular",
@@ -2738,7 +2738,7 @@ export const FOODS_POPULAR: Food[] = [
     "ingredients": ["猪肉", "淀粉", "葱", "马蹄"],
     "cookingMethod": ["捶", "包", "煮"],
     "tags": ["肉燕", "闽菜", "燕皮", "小吃", "焦香"],
-    "fame": "地方名吃",
+    "fame": "热门",
     "popularRegions": [
       "福建",
       "全国"
@@ -2945,7 +2945,7 @@ export const FOODS_POPULAR: Food[] = [
     "id": "hot-butter-ricecake-2025",
     "name": "黄油年糕",
     "alias": ["烤年糕", "黄油烤年糕"],
-    "image": "https://img0.baidu.com/it/u=20,20&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=600",
+    "image": "https://aka.doubaocdn.com/s/X6I41whVko",
     "category": "糕点",
     "taste": "香甜",
     "type": "popular",
@@ -2967,7 +2967,7 @@ export const FOODS_POPULAR: Food[] = [
     "id": "hot-corn-tart-2025",
     "name": "玉米蛋挞",
     "alias": ["玉米挞", "脆皮玉米蛋挞"],
-    "image": "https://img0.baidu.com/it/u=21,21&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=600",
+    "image": "https://aka.doubaocdn.com/s/wkqZ1whUgg",
     "category": "糕点",
     "taste": "香甜",
     "type": "popular",
@@ -2989,22 +2989,21 @@ export const FOODS_POPULAR: Food[] = [
     "id": "hot-thai-tea-2025",
     "name": "泰式奶茶",
     "alias": ["手标泰奶", "泰式手标奶茶"],
-    "image": "https://img0.baidu.com/it/u=22,22&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=600",
+    "image": "https://aka.doubaocdn.com/s/UJwO1whVkp",
     "category": "饮品",
     "taste": "香甜",
     "type": "popular",
     "cuisine": "其他",
-    "province": "云南",
-    "city": "西双版纳",
-    "origin": "2025年夏季爆火的异域风情茶饮",
+    "province": "全国",
+    "origin": "源自泰国，2025年夏季在国内爆火的异域风情茶饮",
     "description": "泰式奶茶是2025年夏季的流量担当，以泰国手标红茶为基底，加入炼乳、淡奶，呈现独特的橘红色泽。口感丝滑香甜，茶香浓郁，冰镇后消暑解渴。北上广深相继涌现一批泰式奶茶专门店，成为年度茶饮赛道黑马。泰式奶茶的走红体现了异域风味饮品在国内市场的潜力。",
     "ingredients": ["茶叶", "炼乳", "牛奶", "糖"],
     "cookingMethod": ["煮"],
     "tags": ["网红", "泰式", "奶茶", "饮品", "2025", "异域"],
     "fame": "热门",
     "popularRegions": ["全国"],
-    "lat": 31.2304,
-    "lng": 121.4737,
+    "lat": 35,
+    "lng": 105,
     "popularity": 8
   },
   
@@ -3012,7 +3011,7 @@ export const FOODS_POPULAR: Food[] = [
     "id": "hot-mushu-2025",
     "name": "木薯糖水",
     "alias": ["木薯炖奶", "木薯糖羹"],
-    "image": "https://img0.baidu.com/it/u=24,24&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=600",
+    "image": "https://aka.doubaocdn.com/s/4isg1whUgu",
     "category": "甜品",
     "taste": "甜",
     "type": "popular",
@@ -3036,7 +3035,7 @@ export const FOODS_POPULAR: Food[] = [
     alias: ["秃肺", "炒秃肺"],
     image: "https://img2.baidu.com/it/u=2633356479,2972563767&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=644",
     category: "主菜",
-    taste: "咸鲜",
+    taste: "咸甜",
     type: "traditional",
     cuisine: "本帮菜",
     province: "上海",
@@ -3047,7 +3046,7 @@ export const FOODS_POPULAR: Food[] = [
     ingredients: ["青鱼肝", "笋", "黄酒", "酱油", "糖", "葱"],
     cookingMethod: ["烧", "炒"],
     tags: ["本帮菜", "青鱼秃肺", "鱼肝", "上海", "浓油赤酱", "名菜", "内脏"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["上海", "江苏", "浙江"],
     lat: 31.2304,
     lng: 121.4737,

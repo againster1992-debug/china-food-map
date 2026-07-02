@@ -8,10 +8,10 @@ export const FOODS_NATIONAL: Food[] = [    {
     name: "凉拌黄瓜",
     alias: ["拍黄瓜", "蒜泥黄瓜"],
     image: "https://img1.baidu.com/it/u=2317340066,3640516452&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=581",
-    category: "小吃",
+    category: "凉菜",
     taste: "酸辣",
     type: "popular",
-    cuisine: "其他",
+    cuisine: "国民美食",
     province: "全国",
     origin: "中国全国各地，夏季家常凉菜",
     description:
@@ -33,7 +33,7 @@ export const FOODS_NATIONAL: Food[] = [    {
     category: "主菜",
     taste: "香甜",
     type: "popular",
-    cuisine: "其他",
+    cuisine: "国民美食",
     province: "全国",
     origin: "中国各地，近代创新家常菜",
     description:
@@ -55,7 +55,7 @@ export const FOODS_NATIONAL: Food[] = [    {
     category: "主菜",
     taste: "酸甜",
     type: "traditional",
-    cuisine: "其他",
+    cuisine: "国民美食",
     province: "全国",
     origin: "中国北方，流行全国的家常菜",
     description:
@@ -67,7 +67,7 @@ export const FOODS_NATIONAL: Food[] = [    {
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "national-6",
@@ -77,7 +77,7 @@ export const FOODS_NATIONAL: Food[] = [    {
     category: "主食",
     taste: "酸甜",
     type: "traditional",
-    cuisine: "其他",
+    cuisine: "国民美食",
     province: "全国",
     origin: "中国全国各地，家常面食",
     description:
@@ -89,7 +89,7 @@ export const FOODS_NATIONAL: Food[] = [    {
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 8,
+    popularity: 9,
   },  {
     id: "national-8",
     name: "紫菜蛋花汤",
@@ -98,7 +98,7 @@ export const FOODS_NATIONAL: Food[] = [    {
     category: "汤羹",
     taste: "清淡",
     type: "traditional",
-    cuisine: "其他",
+    cuisine: "国民美食",
     province: "全国",
     origin: "中国全国各地，家常汤品",
     description:
@@ -120,7 +120,7 @@ export const FOODS_NATIONAL: Food[] = [    {
     category: "主菜",
     taste: "咸鲜",
     type: "popular",
-    cuisine: "其他",
+    cuisine: "国民美食",
     province: "全国",
     origin: "中国沿海地区，流行全国的家常菜",
     description:
@@ -132,7 +132,7 @@ export const FOODS_NATIONAL: Food[] = [    {
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "national-10",
@@ -140,9 +140,9 @@ export const FOODS_NATIONAL: Food[] = [    {
     alias: ["红烧猪肉", "东坡肉风味"],
     image: "https://img2.baidu.com/it/u=1062871433,3524642512&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1422",
     category: "主菜",
-    taste: "香甜",
+    taste: "咸甜",
     type: "traditional",
-    cuisine: "其他",
+    cuisine: "国民美食",
     province: "全国",
     origin: "中国全国各地，国民家常菜",
     description:
@@ -165,7 +165,7 @@ export const FOODS_NATIONAL: Food[] = [    {
     category: "主食",
     taste: "咸鲜",
     type: "popular",
-    cuisine: "其他",
+    cuisine: "国民美食",
     province: "全国",
     origin: "中国北方，春节必备，流行全国",
     description:
@@ -177,7 +177,7 @@ export const FOODS_NATIONAL: Food[] = [    {
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 8,
+    popularity: 10,
   },
   {
     id: "national-festival-2",
@@ -187,7 +187,7 @@ export const FOODS_NATIONAL: Food[] = [    {
     category: "糕点",
     taste: "香甜",
     type: "popular",
-    cuisine: "其他",
+    cuisine: "国民美食",
     province: "全国",
     origin: "中国全国各地，春节传统食品",
     description:
@@ -199,7 +199,7 @@ export const FOODS_NATIONAL: Food[] = [    {
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "national-festival-3",
@@ -209,7 +209,7 @@ export const FOODS_NATIONAL: Food[] = [    {
     category: "甜品",
     taste: "香甜",
     type: "popular",
-    cuisine: "其他",
+    cuisine: "国民美食",
     province: "全国",
     origin: "中国全国各地，元宵节必备",
     description:
@@ -221,7 +221,7 @@ export const FOODS_NATIONAL: Food[] = [    {
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 8,
+    popularity: 9,
   },
   {
     id: "national-festival-4",
@@ -231,7 +231,7 @@ export const FOODS_NATIONAL: Food[] = [    {
     category: "主食",
     taste: "复合",
     type: "popular",
-    cuisine: "其他",
+    cuisine: "国民美食",
     province: "全国",
     origin: "中国全国各地，端午节必备，纪念屈原",
     description:
@@ -243,7 +243,7 @@ export const FOODS_NATIONAL: Food[] = [    {
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 8,
+    popularity: 9,
   },  {
     id: "national-festival-6",
     name: "腊八粥",
@@ -252,7 +252,7 @@ export const FOODS_NATIONAL: Food[] = [    {
     category: "汤羹",
     taste: "香甜",
     type: "traditional",
-    cuisine: "其他",
+    cuisine: "国民美食",
     province: "全国",
     origin: "中国全国各地，腊八节传统食品",
     description:
@@ -260,11 +260,11 @@ export const FOODS_NATIONAL: Food[] = [    {
     ingredients: ["糯米", "红豆", "花生", "红枣", "莲子", "龙眼", "薏米", "核桃"],
     cookingMethod: ["熬", "煮"],
     tags: ["节庆美食", "腊八节", "全国流行", "养生", "粘糯", "汤"],
-    fame: "热门",
+    fame: "名菜",
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "national-festival-7",
@@ -274,7 +274,7 @@ export const FOODS_NATIONAL: Food[] = [    {
     category: "糕点",
     taste: "香甜",
     type: "popular",
-    cuisine: "其他",
+    cuisine: "国民美食",
     province: "全国",
     origin: "江南地区，清明节传统食品，流行全国",
     description:
@@ -296,7 +296,7 @@ export const FOODS_NATIONAL: Food[] = [    {
     category: "主食",
     taste: "咸鲜",
     type: "traditional",
-    cuisine: "其他",
+    cuisine: "国民美食",
     province: "全国",
     origin: "中国北方，冬至传统食品，流行全国",
     description:

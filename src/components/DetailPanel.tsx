@@ -2,11 +2,11 @@ import { useState } from "react";
 import { X, MapPin, Flame, BookOpen, Clock, Sparkles, Tag, Utensils, Pencil, Save, Plus } from "lucide-react";
 import { useStore } from "@/store/useStore";
 import { useUserDataStore } from "@/store/useUserDataStore";
-import { getSimilarFoodsByCategory } from "@/utils/similarity";
 import { getProvinceFlavor, getCuisineFlavor } from "@/data/provinceFlavors";
 import { inferFame, CATEGORIES, TASTES, CUISINES, type Food, type Taste, type FoodCategory, type Cuisine } from "@/types/food";
 import { FoodImage } from "./FoodImage";
 import FoodInteraction from "./FoodInteraction";
+import FoodForceGraph from "./FoodForceGraph";
 
 export default function DetailPanel() {
   const detailOpen = useStore((s) => s.detailOpen);
@@ -75,7 +75,7 @@ export default function DetailPanel() {
     };
 
     return (
-      <aside className="fixed right-0 top-16 z-[1100] flex h-[calc(100%-4rem)] w-full max-w-md flex-col animate-slide-in-right border-l border-ochre-500/20 bg-paper-50/95 shadow-panel backdrop-blur-md">
+      <aside className="fixed right-0 top-16 z-[1100] flex h-[calc(100%-4rem)] w-full max-w-sm flex-col animate-slide-in-right border-l border-ochre-500/20 bg-paper-50/95 shadow-panel backdrop-blur-md">
         {/* 编辑模式头部 */}
         <div className="flex items-center justify-between border-b border-ochre-500/15 px-5 py-3">
           <h2 className="flex items-center gap-2 font-serif text-sm font-bold text-cinnabar-600">
@@ -313,7 +313,6 @@ export default function DetailPanel() {
   // 展示模式
   const isTraditional = food.type === "traditional";
   const isTradition = food.type === "tradition" || (food.tags || []).includes("饮食传统");
-  const similarByCategory = isTradition ? null : getSimilarFoodsByCategory(food, foods, 8);
 
   const startEdit = () => {
     setEditData({ ...food });
@@ -321,7 +320,7 @@ export default function DetailPanel() {
   };
 
   return (
-    <aside className="fixed right-0 top-16 z-[1100] flex h-[calc(100%-4rem)] w-full max-w-md flex-col animate-slide-in-right border-l border-ochre-500/20 bg-paper-50/95 shadow-panel backdrop-blur-md">
+    <aside className="fixed right-0 top-16 z-[1100] flex h-[calc(100%-4rem)] w-full max-w-sm flex-col animate-slide-in-right border-l border-ochre-500/20 bg-paper-50/95 shadow-panel backdrop-blur-md">
       <div className="absolute right-3 top-3 z-10 flex items-center gap-1.5">
         <button
           onClick={startEdit}
@@ -574,48 +573,23 @@ export default function DetailPanel() {
             </section>
           )}
 
-          {/* 相似美食推荐 - 按维度分类（饮食传统不显示） */}
-          {similarByCategory && (() => {
-            const categories = [
-              { key: "comprehensive", label: "综合相似", items: similarByCategory.comprehensive, icon: "✨", color: "cinnabar" },
-              { key: "region", label: "地域相近", items: similarByCategory.region, icon: "📍", color: "cinnabar" },
-              { key: "ingredients", label: "食材相近", items: similarByCategory.ingredients, icon: "🥘", color: "indigo2" },
-              { key: "cookingMethod", label: "做法相近", items: similarByCategory.cookingMethod, icon: "🔥", color: "cinnabar" },
-            ].filter((c) => c.items.length > 0);
-
-            if (categories.length === 0) return null;
-
-            return (
-              <section className="mb-5">
-                <h3 className="mb-3 flex items-center gap-1.5 font-serif text-sm font-semibold text-ink-900">
-                  <Sparkles size={14} className="text-cinnabar-500" />
-                  相似美食
-                </h3>
-                <div className="space-y-3">
-                  {categories.map((cat) => (
-                    <div key={cat.key}>
-                      <p className="mb-1.5 font-serif text-[11px] font-medium text-ink-500">
-                        {cat.icon} {cat.label}
-                        <span className="ml-1 text-ink-300">({cat.items.length})</span>
-                      </p>
-                      <div className="flex gap-2 overflow-x-auto pb-1 scrollbar-thin">
-                        {cat.items.map((sf) => (
-                          <SimilarFoodCard
-                            key={sf.id}
-                            food={sf}
-                            onClick={() => {
-                              selectFood(sf);
-                              focusFood(sf);
-                            }}
-                          />
-                        ))}
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </section>
-            );
-          })()}
+          {/* 美食关联动力图（饮食传统不显示） */}
+          {!isTradition && (
+            <section className="mb-5">
+              <h3 className="mb-2 flex items-center gap-1.5 font-serif text-sm font-semibold text-ink-900">
+                <Sparkles size={14} className="text-indigo2-500" />
+                美食关联图
+              </h3>
+              <FoodForceGraph
+                centerFood={food}
+                foods={foods}
+                onSelectFood={(f) => {
+                  selectFood(f);
+                  focusFood(f);
+                }}
+              />
+            </section>
+          )}
 
           {/* 评分与互动（饮食传统不显示评分，但显示评论） */}
           <FoodInteraction food={food} />
@@ -665,39 +639,5 @@ function InfoTag({
       <span className="font-sans text-[10px] opacity-70">{label}</span>
       <span className="font-serif text-xs font-medium">{value}</span>
     </div>
-  );
-}
-
-function SimilarFoodCard({ food, onClick }: { food: Food; onClick: () => void }) {
-  return (
-    <button
-      onClick={onClick}
-      className="group flex w-20 flex-shrink-0 flex-col items-center overflow-hidden rounded-lg border border-ochre-500/15 bg-paper-100/40 transition-all hover:border-cinnabar-500/40 hover:shadow-sm"
-    >
-      <div className="relative h-16 w-full overflow-hidden bg-paper-200">
-        <FoodImage
-          src={food.image}
-          alt={food.name}
-          className="h-full w-full object-cover transition-transform group-hover:scale-110"
-        />
-        <div
-          className={`absolute left-1 top-1 h-1.5 w-1.5 rounded-full ${
-            food.type === "tradition" || (food.tags || []).includes("饮食传统")
-              ? "bg-emerald-500"
-              : food.type === "traditional"
-                ? "bg-cinnabar-500"
-                : "bg-indigo2-500"
-          }`}
-        />
-      </div>
-      <div className="w-full px-1.5 py-1.5">
-        <p className="truncate font-serif text-[11px] font-medium text-ink-900">
-          {food.name}
-        </p>
-        <p className="truncate font-sans text-[9px] text-ink-400">
-          {food.province} · {food.taste}
-        </p>
-      </div>
-    </button>
   );
 }

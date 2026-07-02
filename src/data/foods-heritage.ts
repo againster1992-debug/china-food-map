@@ -1,4 +1,4 @@
-﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
 
 // 中国非物质文化遗产饮食项目（国家级非物质文化遗产代表性项目）
 export const FOODS_HERITAGE: Food[] = [
@@ -43,11 +43,11 @@ export const FOODS_HERITAGE: Food[] = [
     ingredients: ["牛肉", "羊肉"],
     cookingMethod: ["酱", "卤"],
     tags: ["非遗", "酱肉", "月盛斋", "清真菜", "百年老字号", "酱", "腌", "嫩滑"],
-    fame: "普通",
+    fame: "地方名吃",
     popularRegions: ["北京", "华北"],
     lat: 39.8959,
     lng: 116.4068,
-    popularity: 1,
+    popularity: 5,
   },
   {
     id: "heritage-5",
@@ -140,7 +140,7 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["全国"],
     lat: 37.6066,
     lng: 112.3539,
-    popularity: 3,
+    popularity: 6,
   },
   {
     id: "heritage-11",
@@ -163,7 +163,7 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["全国"],
     lat: 37.3220,
     lng: 111.9219,
-    popularity: 8,
+    popularity: 7,
   },
   
   // ========== 辽宁 ==========
@@ -191,7 +191,7 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["全国"],
     lat: 29.0784,
     lng: 119.6473,
-    popularity: 9,
+    popularity: 8,
   },
   {
     id: "heritage-17",
@@ -214,7 +214,7 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["全国"],
     lat: 30.2419,
     lng: 120.1445,
-    popularity: 9,
+    popularity: 8,
   },
   // ========== 上海 ==========
   {
@@ -285,7 +285,7 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["全国"],
     lat: 28.8707,
     lng: 105.4425,
-    popularity: 7,
+    popularity: 8,
   },
   {
     id: "heritage-21",
@@ -308,7 +308,7 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["全国", "海外"],
     lat: 30.7990,
     lng: 103.8950,
-    popularity: 7,
+    popularity: 8,
   },
   {
     id: "heritage-22",
@@ -331,7 +331,7 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["西南", "全国"],
     lat: 31.5583,
     lng: 105.971,
-    popularity: 3,
+    popularity: 5,
   },
   // ========== 贵州 ==========
   // ========== 湖南 ==========
@@ -352,11 +352,11 @@ export const FOODS_HERITAGE: Food[] = [
     ingredients: ["黄豆", "辣椒", "蒜", "香菜"],
     cookingMethod: ["炸", "卤"],
     tags: ["非遗", "臭豆腐", "火宫殿", "湘菜", "小吃"],
-    fame: "热门",
+    fame: "名菜",
     popularRegions: ["全国"],
     lat: 28.1946,
     lng: 112.9750,
-    popularity: 9,
+    popularity: 10,
   },
   {
     id: "heritage-25",
@@ -446,11 +446,11 @@ export const FOODS_HERITAGE: Food[] = [
     ingredients: ["猪肉", "肠衣", "酱油", "糖", "料酒"],
     cookingMethod: ["腌", "晒", "烤"],
     tags: ["非遗", "腊味", "粤菜", "腌", "煲仔饭"],
-    fame: "地方名吃",
+    fame: "名菜",
     popularRegions: ["全国", "海外"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 5,
+    popularity: 7,
   },
   {
     id: "heritage-31",
@@ -485,7 +485,7 @@ export const FOODS_HERITAGE: Food[] = [
     category: "面食",
     taste: "咸鲜",
     type: "traditional",
-    cuisine: "西北菜",
+    cuisine: "清真菜",
     province: "陕西",
     city: "西安",
     origin: "陕西西安同盛祥，始创于1920年",
@@ -493,12 +493,12 @@ export const FOODS_HERITAGE: Food[] = [
       "同盛祥牛羊肉泡馍制作技艺为国家级非物质文化遗产代表性项目。同盛祥始创于1920年，牛羊肉泡馍以优质牛羊肉、羊骨熬汤，食客将「饦饦馍」手掰成黄豆大小碎块，交由厨师以原汤煮制。讲究「蚕食」、配糖蒜、辣酱。肉烂汤浓、馍筋光滑、肥而不腻、暖胃耐饥。牛羊肉泡馍是陕西饮食文化的代表，北宋苏轼曾赞「秦烹惟羊羹」，同盛祥技艺是其典范。",
     ingredients: ["牛肉", "羊肉", "面粉", "粉丝", "糖蒜"],
     cookingMethod: ["炖", "煮"],
-    tags: ["非遗", "泡馍", "同盛祥", "西北菜", "清真"],
+    tags: ["非遗", "泡馍", "同盛祥", "清真菜", "清真"],
     fame: "名菜",
     popularRegions: ["全国"],
     lat: 34.2638,
     lng: 108.9398,
-    popularity: 10,
+    popularity: 9,
   },
   {
     id: "heritage-35",
@@ -521,7 +521,7 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["全国"],
     lat: 32.7800,
     lng: 119.4500,
-    popularity: 2,
+    popularity: 6,
   },
   // ========== 云南 ==========
   {
@@ -541,11 +541,11 @@ export const FOODS_HERITAGE: Food[] = [
     ingredients: ["猪肉", "盐"],
     cookingMethod: ["腌", "干制", "发酵"],
     tags: ["非遗", "火腿", "滇菜", "腌", "三大名腿"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["全国"],
     lat: 26.2260,
     lng: 104.1040,
-    popularity: 7,
+    popularity: 6,
   },
   // ========== 新疆 ==========
   {
@@ -569,18 +569,18 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["全国"],
     lat: 43.8256,
     lng: 87.6168,
-    popularity: 8,
+    popularity: 7,
   },
   // ========== 甘肃 ==========
   {
     id: "heritage-39",
     name: "兰州牛肉面",
-    alias: ["兰州拉面", "牛肉面"],
+    alias: ["兰州拉面", "牛肉面", "金鼎清汤牛肉面", "马子禄牛肉面"],
     image: "https://img0.baidu.com/it/u=2527577314,2818260352&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=744",
     category: "面食",
     taste: "咸鲜",
     type: "traditional",
-    cuisine: "西北菜",
+    cuisine: "清真菜",
     province: "甘肃",
     city: "兰州",
     origin: "甘肃兰州，始创于清嘉庆年间",
@@ -588,7 +588,7 @@ export const FOODS_HERITAGE: Food[] = [
       "兰州牛肉面制作技艺为国家级非物质文化遗产代表性项目。兰州牛肉面始于清嘉庆年间，由回族马保子创制。以「一清（汤清）、二白（萝卜白）、三红（辣椒油红）、四绿（香菜蒜苗绿）、五黄（面条黄亮）」著称。面条手工拉制，分大宽、二柱子、三细、细、毛细、韭叶、荞麦棱等九种形状。汤以牛肉牛骨慢炖，配以草果、桂皮等香料。兰州牛肉面是西北面食的代表，门店遍布全国，被誉为「中华第一面」。",
     ingredients: ["面粉", "牛肉", "萝卜", "辣椒", "香菜"],
     cookingMethod: ["拉", "煮", "炖"],
-    tags: ["非遗", "西北菜", "面食", "清真", "中华第一面"],
+    tags: ["非遗", "清真菜", "面食", "清真", "中华第一面"],
     fame: "名菜",
     popularRegions: ["全国", "海外"],
     lat: 36.0611,
@@ -617,7 +617,7 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["贵州", "西南", "全国"],
     lat: 26.5835,
     lng: 107.9829,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "heritage-41",
@@ -626,8 +626,8 @@ export const FOODS_HERITAGE: Food[] = [
     image: "https://img0.baidu.com/it/u=4133046392,722851657&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=645",
     category: "主菜",
     taste: "复合",
-    type: "traditional",
-    cuisine: "其他",
+    type: "tradition",
+    cuisine: "澳门土生菜",
     province: "澳门",
     city: "澳门",
     origin: "澳门，葡人东来后形成的融合菜系",
@@ -709,7 +709,7 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["全国", "海外"],
     lat: 37.3646,
     lng: 120.4347,
-    popularity: 5,
+    popularity: 6,
   },
   {
     id: "heritage-46",
@@ -751,7 +751,7 @@ export const FOODS_HERITAGE: Food[] = [
     ingredients: ["茶叶"],
     cookingMethod: ["发酵"],
     tags: ["非遗", "金花", "丝绸之路", "爽脆"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["西北", "全国"],
     lat: 34.3333,
     lng: 108.7,
@@ -778,7 +778,7 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["全国", "海外"],
     lat: 39.9042,
     lng: 116.4074,
-    popularity: 7,
+    popularity: 8,
   },
   {
     id: "heritage-49",
@@ -797,11 +797,11 @@ export const FOODS_HERITAGE: Food[] = [
     ingredients: ["高粱", "黄米"],
     cookingMethod: ["酿", "熏", "腌"],
     tags: ["非遗", "津菜", "调料", "三大名醋", "酸", "天津"],
-    fame: "普通",
+    fame: "地方名吃",
     popularRegions: ["天津", "华北"],
     lat: 38.8733,
     lng: 116.9256,
-    popularity: 1,
+    popularity: 5,
   },
   {
     id: "heritage-50",
@@ -820,11 +820,11 @@ export const FOODS_HERITAGE: Food[] = [
     ingredients: ["高粱", "糖"],
     cookingMethod: ["发酵", "蒸馏"],
     tags: ["非遗", "白酒", "冀菜", "复合", "饮品", "河北"],
-    fame: "地方名吃",
+    fame: "名菜",
     popularRegions: ["全国"],
     lat: 37.7339,
     lng: 115.6705,
-    popularity: 3,
+    popularity: 7,
   },
   {
     id: "heritage-51",
@@ -847,12 +847,12 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["北京", "全国"],
     lat: 39.8939,
     lng: 116.3915,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "heritage-52",
     name: "六必居酱菜",
-    alias: ["六必居", "酱菜"],
+    alias: ["六必居"], // 已移除"酱菜"alias,与 foods-ingredients.ts 中"酱菜"(扬州食材条目)冲突
     image: "https://img2.baidu.com/it/u=939244398,3890868733&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=566",
     category: "腌腊",
     taste: "咸鲜",
@@ -889,11 +889,11 @@ export const FOODS_HERITAGE: Food[] = [
     ingredients: ["黄豆", "盐", "料酒", "红曲"],
     cookingMethod: ["发酵", "腌"],
     tags: ["非遗", "京菜", "调料", "百年老字号"],
-    fame: "普通",
+    fame: "地方名吃",
     popularRegions: ["全国"],
     lat: 39.8908,
     lng: 116.3974,
-    popularity: 2,
+    popularity: 6,
   },
   {
     id: "heritage-54",
@@ -939,7 +939,7 @@ export const FOODS_HERITAGE: Food[] = [
     popularRegions: ["全国", "海外"],
     lat: 27.7974,
     lng: 106.4104,
-    popularity: 8,
+    popularity: 9,
   },
   
   {

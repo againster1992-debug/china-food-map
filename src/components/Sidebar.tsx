@@ -66,7 +66,7 @@ export default function Sidebar() {
   if (!sidebarOpen) return null;
 
   return (
-    <aside className="relative z-[1000] flex h-full w-full flex-col border-r border-ochre-500/15 bg-paper-50/80 backdrop-blur-md md:w-80 lg:w-96">
+    <aside className="relative z-[1000] flex h-full w-full flex-col border-r border-ochre-500/15 bg-paper-50/80 backdrop-blur-md md:w-72 lg:w-80">
       {/* 头部 */}
       <div className="border-b border-ochre-500/15 px-4 py-3">
         <div className="mb-3 flex items-center justify-between">

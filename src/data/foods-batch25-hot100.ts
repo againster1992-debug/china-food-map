@@ -403,7 +403,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["广东", "全国"],
   lat: 23.3533,
   lng: 116.682,
-  popularity: 9
+  popularity: 7
 },
 // 「闽南沙虫冻」已合并至「闽南土笋冻」(foods-batch28-hot100.ts batch28-hot-002) - 同地同物异名
 {
@@ -559,7 +559,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["辽宁", "东北", "全国"],
   lat: 41.8808,
   lng: 123.9572,
-  popularity: 7
+  popularity: 8
 },
 {
   id: "batch25-hot-047",
@@ -736,7 +736,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["广东", "全国"],
   lat: 23.1291,
   lng: 113.2644,
-  popularity: 9
+  popularity: 7
 },
 
 {
@@ -801,9 +801,9 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   tags: ["咸鲜", "主菜", "其他", "抖音", "烤肉", "酥脆", "顶流", "肉食", "咔滋"],
   fame: "热门",
   popularRegions: ["全国"],
-  lat: 39.9042,
-  lng: 116.4074,
-  popularity: 9
+  lat: 35,
+  lng: 105,
+  popularity: 7
 },
 // 「脆皮炸鲜奶糕」已合并至「顺德炸鲜牛奶」(batch28-hot-060)
 {
@@ -962,28 +962,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   lng: 126.535,
   popularity: 6
 },
-{
-  id: "batch25-hot-075",
-  name: "油泼辣子面",
-  alias: [],
-  image: "https://img2.baidu.com/it/u=286292689,1793780598&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=889",
-  category: "面食",
-  taste: "酸辣",
-  type: "popular",
-  cuisine: "西北菜",
-  province: "陕西",
-  city: "西安",
-  origin: "陕西面食顶流，宽面条泼滚烫辣椒油，滋啦作响、焦香四溢，是陕西面食的灵魂。",
-  description: "油泼辣子面以宽面条煮熟后泼上滚烫的辣椒面和热油，滋啦作响。面条筋道、辣椒焦香，是陕西面食的顶流，滋啦一声香飘满街。",
-  ingredients: ["面粉", "辣椒", "葱", "蒜", "醋", "油"],
-  cookingMethod: ["煮", "泼"],
-  tags: ["酸辣", "面食", "西北菜", "陕西", "西安", "油泼", "筋道", "焦香", "顶流"],
-  fame: "热门",
-  popularRegions: ["陕西", "全国"],
-  lat: 34.3416,
-  lng: 108.9398,
-  popularity: 9
-},
+// 「油泼辣子面」已合并至「油泼面」(foods-southwest-northwest.ts snx-6) - 同物异名
 {
   id: "batch25-hot-077",
   name: "炒拨拉",
@@ -1014,14 +993,14 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   category: "汤羹",
   taste: "酸辣",
   type: "popular",
-  cuisine: "清真菜",
+  cuisine: "西北菜",
   province: "宁夏",
   city: "银川",
   origin: "西北早餐硬核代表，羊杂加粉条炖煮浇红油辣子，一碗下肚暖身醒神，配饼子吃最过瘾。",
   description: "宁夏羊杂碎汤以羊头、羊肚、羊肺等加粉条炖煮，浇红油辣子。汤浓料足、酸辣暖身，是西北早餐的硬核代表，一碗羊杂汤配饼子就是一天的能量。",
   ingredients: ["羊肉", "粉条", "辣椒", "醋", "蒜", "香菜"],
   cookingMethod: ["炖", "煮"],
-  tags: ["酸辣", "汤羹", "清真菜", "宁夏", "银川", "早餐", "硬核", "西北", "暖身"],
+  tags: ["酸辣", "汤羹", "西北菜", "宁夏", "银川", "早餐", "硬核", "西北", "暖身"],
   fame: "热门",
   popularRegions: ["宁夏", "西北", "全国"],
   lat: 38.4872,
@@ -1044,7 +1023,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   ingredients: ["面粉", "猪肉", "皮冻", "姜", "酱油"],
   cookingMethod: ["蒸"],
   tags: ["咸鲜", "小吃", "豫菜", "河南", "开封", "汤包", "北宋", "灯笼", "烫嘴", "经典"],
-  fame: "名菜",
+  fame: "热门",
   popularRegions: ["河南", "全国"],
   lat: 34.797,
   lng: 114.307,
@@ -1109,7 +1088,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   ingredients: ["鱿鱼", "辣椒", "孜然", "蒜", "酱油"],
   cookingMethod: ["煎", "烤"],
   tags: ["香辣", "小吃", "东北菜", "辽宁", "大连", "夜市", "铁板", "海鲜", "必点", "焦香"],
-  fame: "地方名吃",
+  fame: "普通",
   popularRegions: ["辽宁", "全国"],
   lat: 38.914,
   lng: 121.6147,
@@ -1227,7 +1206,7 @@ export const FOODS_BATCH25_HOT100: Food[] = [
   popularRegions: ["黑龙江", "东北", "全国"],
   lat: 45.8038,
   lng: 126.535,
-  popularity: 7
+  popularity: 8
 },
 {
   id: "batch25-hot-100",

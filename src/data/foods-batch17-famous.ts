@@ -71,7 +71,7 @@ export const FOODS_BATCH17_FAMOUS: Food[] = [
     popularRegions: ["广州", "广东"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 9,
+    popularity: 8,
   },
   // ========== 四川名菜补充 ==========
   // ========== 湖南名菜补充 ==========

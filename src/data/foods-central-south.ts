@@ -2,8 +2,6 @@
 
 export const FOODS_CENTRAL_SOUTH: Food[] = [
   // ========== 河南（豫菜）==========
-  ,
-
   {
     id: "hn-6",
     name: "洛阳牛肉汤",
@@ -41,7 +39,7 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     origin: "开封，清末「又一新」饭庄所创",
     description:
       "鲤鱼焙面以黄河鲤鱼糖醋熘制，上覆炸细如发丝的焙面。鱼肉酥嫩酸甜，焙面酥脆吸汁。相传慈禧赞曰「糖醋熘鱼带焙面」，是豫菜「鱼面合一」的代表名菜。",
-    ingredients: ["面粉", "糖", "醋", "淀粉"],
+    ingredients: ["鱼肉", "面粉", "糖", "醋", "淀粉"],
     cookingMethod: ["炸", "溜"],
     tags: ["鲤鱼", "焙面", "糖醋", "开封", "豫菜", "黄河鲤鱼", "名菜"],
     lat: 34.7971,
@@ -369,7 +367,7 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     category: "面食",
     taste: "香辣",
     type: "traditional",
-    cuisine: "湘菜",
+    cuisine: "清真菜",
     province: "湖南",
     city: "常德",
     origin: "常德津市，回族传统",
@@ -377,12 +375,12 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
       "常德牛肉米粉以圆米粉浇牛肉码子，分红汤、清汤。牛肉软烂，汤浓味厚，辣香浓郁。是湖南「三大米粉」之一，与长沙扁粉、邵阳粉齐名。津市牛肉粉最正宗，是湘北过早代表。",
     ingredients: ["米粉", "牛肉", "辣椒"],
     cookingMethod: ["炖", "煮"],
-    tags: ["米粉", "牛肉", "常德", "湘菜", "早餐", "津市", "回族"],
+    tags: ["米粉", "牛肉", "常德", "清真菜", "早餐", "津市", "回族"],
     lat: 29.0405,
     lng: 111.691,
-    fame: "热门",
+    fame: "名菜",
     popularRegions: ["湖南"],
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "hun-13",
@@ -476,7 +474,7 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     lng: 113.2644,
     fame: "名菜",
     popularRegions: ["广东"],
-    popularity: 9,
+    popularity: 8,
   },
   {
     id: "gd-7",
@@ -499,7 +497,7 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     lng: 113.238,
     fame: "名菜",
     popularRegions: ["全国"],
-    popularity: 9,
+    popularity: 7,
   },
   {
     id: "gd-8",
@@ -522,7 +520,7 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     lng: 116.6818,
     fame: "热门",
     popularRegions: ["广东"],
-    popularity: 9,
+    popularity: 8,
   },
   
   
@@ -593,7 +591,7 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     tags: ["酸辣", "南宁", "酸笋", "豆豉", "三大粉", "劲道"],
     lat: 22.817,
     lng: 108.3669,
-    fame: "热门",
+    fame: "名菜",
     popularRegions: ["广西"],
     popularity: 8,
   },
@@ -603,7 +601,7 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     alias: ["玉林牛肉巴", "南江牛巴", "牛巴"],
     image: "https://img1.baidu.com/it/u=1269163980,88171898&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=794",
     category: "腌腊",
-    taste: "咸鲜",
+    taste: "咸甜",
     type: "traditional",
     cuisine: "桂菜",
     province: "广西",
@@ -753,7 +751,7 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     origin: "万宁东山岭，据传宋代已有",
     description:
       "东山羊以万宁东山岭山羊为材，食鹧鸪茶、灌木长大，肉质鲜嫩无膻。白汁、红焖皆宜。是海南「四大名菜」之一，曾为贡品。东山岭「羊吃茶，人吃羊」的独特生态造就其美味。",
-    ingredients: ["姜", "料酒", "枸杞", "当归"],
+    ingredients: ["羊肉", "姜", "料酒", "枸杞", "当归"],
     cookingMethod: ["炖", "焖"],
     tags: ["万宁", "琼菜", "四大名菜", "羊肉", "贡品"],
     fame: "名菜",
@@ -851,7 +849,7 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     tags: ["甜品", "琼菜", "椰奶", "消暑", "夏夜"],
     lat: 20.0444,
     lng: 110.1989,
-    fame: "热门",
+    fame: "名菜",
     popularRegions: ["海南"],
     popularity: 8,
   },
@@ -863,7 +861,7 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     alias: ["临高烤乳猪", "南宝乳猪"],
     image: "https://img1.baidu.com/it/u=4084805538,1699527244&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1422",
     category: "主菜",
-    taste: "咸鲜",
+    taste: "咸甜",
     type: "traditional",
     cuisine: "琼菜",
     province: "海南",
@@ -915,9 +913,10 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     "type": "traditional",
     "cuisine": "豫菜",
     "province": "河南",
+    "city": "郑州",
     "origin": "河南传统宴席名菜",
     "description": "豫菜扒广肚以优质鱼肚发制后，加高汤、香菇、笋片扒制。软糯滑润，汤汁浓稠，是豫菜高端宴席代表，体现河南菜「重汤重味」的特色。",
-    "ingredients": ["鱼肉", "香菇", "笋", "火腿"],
+    "ingredients": ["鱼肚", "香菇", "笋", "火腿"],
     "cookingMethod": [
       "发",
       "扒"
@@ -930,7 +929,7 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
       "高档",
       "扒"
     ],
-    "fame": "名菜",
+    "fame": "地方名吃",
     "lat": 34.7466,
     "lng": 113.6253,
     "popularity": 5
@@ -945,16 +944,17 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     "type": "traditional",
     "cuisine": "豫菜",
     "province": "河南",
+    "city": "郑州",
     "origin": "河南黄河流域，以黄河鲤鱼入馔",
     "description": "豫菜鲤鱼三吃以一条黄河鲤鱼分别做成鱼头豆腐汤、糖醋鱼片、干炸鱼尾。一鱼三味，汤鲜肉嫩，体现豫菜对黄河鲤鱼的精细运用与宴席气派。",
-    "ingredients": ["豆腐", "醋", "糖", "淀粉", "山奈"],
+    "ingredients": ["鱼肉", "豆腐", "醋", "糖", "淀粉", "山奈"],
     "cookingMethod": [
       "炖",
       "炸",
       "溜"
     ],
     "tags": ["鲤鱼", "豫菜", "一鱼三吃", "宴席", "黄河鲤鱼", "咸鲜", "嫩滑"],
-    "fame": "名菜",
+    "fame": "地方名吃",
     "lat": 34.7466,
     "lng": 113.6253,
     "popularity": 5
@@ -973,6 +973,7 @@ export const FOODS_CENTRAL_SOUTH: Food[] = [
     "type": "traditional",
     "cuisine": "赣菜",
     "province": "江西",
+    "city": "南昌",
     "origin": "江西鄱阳湖一带，春季时令名菜",
     "description": "赣菜藜蒿炒腊肉以鄱阳湖野生藜蒿配腊肉快炒。藜蒿清香脆嫩，腊肉咸香醇厚，是江西人春天必吃的时令菜，有「鄱阳湖的草，南昌人的宝」之说。",
     "ingredients": ["藜蒿", "辣椒", "蒜"],

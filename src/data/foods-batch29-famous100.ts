@@ -1,11 +1,11 @@
-﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
 
 export const FOODS_BATCH29_FAMOUS100: Food[] = [
 // 「红肠」已合并至「哈尔滨红肠」(foods-cities-north.ts city-north-harbin-1) - 同地同物异名
 {
   id: "batch29-famous-010",
   name: "烧鹅",
-  alias: ["烧鹅","广州广东烧鹅"],
+  alias: ["广州广东烧鹅"],
   image: "https://img2.baidu.com/it/u=674532226,2543072581&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=1067",
   category: "主菜",
   taste: "咸鲜",
@@ -24,14 +24,6 @@ export const FOODS_BATCH29_FAMOUS100: Food[] = [
   lng: 113.2644,
   popularity: 9,
 },
-    
-,
-    
-,
-    
-,
-    
-,  
 
 {
   id: "batch29-famous-070",
@@ -53,7 +45,7 @@ export const FOODS_BATCH29_FAMOUS100: Food[] = [
   popularRegions: ["青海","西北"],
   lat: 36.6171,
   lng: 101.7782,
-  popularity: 8,
+  popularity: 7,
 },
 // 「椰汁冰清补凉」已合并至「清补凉」(foods-central-south.ts)
 {
@@ -104,9 +96,9 @@ export const FOODS_BATCH29_FAMOUS100: Food[] = [
 {
   id: "batch29-famous-080",
   name: "盐水鸭",
-  alias: ["盐水鸭","桂花鸭"],
+  alias: ["桂花鸭"],
   image: "https://img0.baidu.com/it/u=3754044633,2124895078&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=1066",
-  category: "主菜",
+  category: "凉菜",
   taste: "咸鲜",
   type: "traditional",
   cuisine: "苏菜",
@@ -121,7 +113,7 @@ export const FOODS_BATCH29_FAMOUS100: Food[] = [
   popularRegions: ["江苏","全国"],
   lat: 32.0603,
   lng: 118.7969,
-  popularity: 9,
+  popularity: 7,
 },
 {
   id: "batch29-famous-081",
@@ -201,17 +193,17 @@ export const FOODS_BATCH29_FAMOUS100: Food[] = [
   category: "小吃",
   taste: "咸鲜",
   type: "traditional",
-  cuisine: "粤菜",
+  cuisine: "澳门土生菜",
   province: "澳门",
   city: "澳门",
   origin: "澳门澳门街头符号",
   description: "澳门猪扒包以烤脆的猪仔包（椭圆形短法包）夹煎炸或香煎猪扒。外脆内嫩，肉汁丰盈，是澳门街头标志。大利来记最知名，每日限量。20 世纪 70 年代氹仔建桥时工人便餐演变而来，是中西融合的澳门美食名片。",
   ingredients: ["面粉","猪肉","盐","油"],
   cookingMethod: ["烤","煎"],
-  tags: ["咸鲜", "小吃", "其他", "澳门", "猪扒", "街头", "符号"],
+  tags: ["咸鲜", "小吃", "澳门土生菜", "澳门", "猪扒", "街头", "符号"],
   fame: "名菜",
   popularRegions: ["澳门","全国"],
   lat: 22.1987,
   lng: 113.5439,
-  popularity: 8,
+  popularity: 7,
 }];

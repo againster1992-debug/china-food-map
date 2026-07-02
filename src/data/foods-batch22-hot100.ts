@@ -516,7 +516,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 7
 },
 {
   id: "batch22-hot-23",
@@ -544,7 +544,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 7
 },
 {
   id: "batch22-hot-24",
@@ -575,7 +575,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 7
 },
 {
   id: "batch22-hot-25",
@@ -604,7 +604,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 7
 },
 {
   id: "batch22-hot-26",
@@ -660,7 +660,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 7
 },
 
 {
@@ -689,7 +689,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 7
 },
 {
   id: "batch22-hot-30",
@@ -718,7 +718,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 7
 },
 {
   id: "batch22-hot-31",
@@ -747,7 +747,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 7
 },
 // 「拇指煎包」已合并至「拇指生煎包」(batch28-hot-003)
 {
@@ -777,7 +777,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 8
 },
 {
   id: "batch22-hot-34",
@@ -808,7 +808,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 8
 },
 {
   id: "batch22-hot-35",
@@ -837,7 +837,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 7
 },
 {
   id: "batch22-hot-36",
@@ -866,7 +866,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 7
 },
 {
   id: "batch22-hot-37",
@@ -896,7 +896,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 7
 },
 {
   id: "batch22-hot-38",
@@ -957,7 +957,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 7
 },
 {
   id: "batch22-hot-40",
@@ -987,7 +987,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 8
 },
 {
   id: "batch22-hot-42",
@@ -1017,7 +1017,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 8
 },
 {
   id: "batch22-hot-44",
@@ -1073,7 +1073,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 7
 },
 {
   id: "batch22-hot-46",
@@ -1158,7 +1158,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 7
 },
 {
   id: "batch22-hot-49",
@@ -1181,13 +1181,13 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "烤"
   ],
   tags: ["香甜", "甜品", "其他", "热门", "网红", "甜味"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: [
     "全国"
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 6
 },
 {
   id: "batch22-hot-51",
@@ -1212,7 +1212,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 7
 },
 
 {
@@ -1237,7 +1237,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "调"
   ],
   tags: ["香甜", "饮品", "滇菜", "云南", "昆明", "热门", "网红", "甜味"],
-  fame: "地方名吃",
+  fame: "普通",
   popularRegions: [
     "全国"
   ],
@@ -1269,7 +1269,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 7
 },
 {
   id: "batch22-hot-55",
@@ -1299,7 +1299,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 7
 },
 {
   id: "batch22-hot-56",
@@ -1326,7 +1326,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 7
 },
 {
   id: "batch22-hot-57",
@@ -1351,7 +1351,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 7
 },
 {
   id: "batch22-hot-58",
@@ -1376,7 +1376,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 8
 },
 {
   id: "batch22-hot-59",
@@ -1401,7 +1401,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 7
 },
 {
   id: "batch22-hot-60",
@@ -1410,24 +1410,23 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   category: "饮品",
   taste: "香甜",
   type: "popular",
-  cuisine: "琼菜",
-  province: "海南",
-  origin: "生椰乳与茶或咖啡搭配，椰香浓郁。",
+  cuisine: "国民美食",
+  province: "全国",
+  origin: "喜茶2021年推出的爆款饮品，生椰乳与茶或咖啡搭配，椰香浓郁。",
   description: "生打椰椰以椰子、牛奶、糖、冰等为原料，摇、调而成，香甜适口，是近年饮品市场的人气选择。",
   ingredients: ["椰子", "牛奶", "糖", "冰块"],
   cookingMethod: [
     "摇",
     "调"
   ],
-  tags: ["香甜", "饮品", "琼菜", "海南", "海口", "热门", "网红", "甜味"],
+  tags: ["香甜", "饮品", "国民美食", "网红", "甜味", "生椰"],
   fame: "热门",
   popularRegions: [
     "全国"
   ],
-  lat: 20.0174,
-  lng: 110.3492,
-  popularity: 7,
-  city: "海口"
+  lat: 35,
+  lng: 105,
+  popularity: 7
 },
 {
   id: "batch22-hot-61",
@@ -1454,7 +1453,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 7
 },
 {
   id: "batch22-hot-62",
@@ -1481,7 +1480,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 7
 },
 {
   id: "batch22-hot-63",
@@ -1506,13 +1505,13 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "炖"
   ],
   tags: ["香甜", "汤羹", "京菜", "北京", "热门", "网红", "饮品", "甜味"],
-  fame: "地方名吃",
+  fame: "热门",
   popularRegions: [
     "全国"
   ],
   lat: 39.9042,
   lng: 116.4074,
-  popularity: 6
+  popularity: 7
 },
 {
   id: "batch22-hot-64",
@@ -1534,13 +1533,13 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "炖"
   ],
   tags: ["香甜", "汤羹", "其他", "热门", "网红", "饮品", "甜味"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: [
     "全国"
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 6
 },
 {
   id: "batch22-hot-65",
@@ -1570,7 +1569,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 7
 },
 {
   id: "batch22-hot-66",
@@ -1598,7 +1597,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 7
 },
 {
   id: "batch22-hot-67",
@@ -1620,13 +1619,13 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "煮"
   ],
   tags: ["香甜", "饮品", "其他", "热门", "网红", "甜味"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: [
     "全国"
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 6
 },
 {
   id: "batch22-hot-68",
@@ -1644,13 +1643,13 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "煮"
   ],
   tags: ["香甜", "饮品", "其他", "热门", "网红", "甜味"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: [
     "全国"
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 6
 },
 {
   id: "batch22-hot-69",
@@ -1672,13 +1671,13 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "泡"
   ],
   tags: ["清淡", "饮品", "其他", "热门", "网红"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: [
     "全国"
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 6
 },
 {
   id: "batch22-hot-70",
@@ -1697,13 +1696,13 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "泡"
   ],
   tags: ["清淡", "饮品", "其他", "热门", "网红"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: [
     "全国"
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 6
 },
 {
   id: "batch22-hot-71",
@@ -1760,13 +1759,13 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "拌"
   ],
   tags: ["香甜", "甜品", "其他", "热门", "网红", "甜味"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: [
     "全国"
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 6
 },
 {
   id: "batch22-hot-74",
@@ -1794,7 +1793,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 7
 },
 {
   id: "batch22-hot-75",
@@ -1823,7 +1822,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 7
 },
 {
   id: "batch22-hot-76",
@@ -1915,7 +1914,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 24.3265,
   lng: 109.4285,
-  popularity: 9
+  popularity: 8
 },
 // 「柠檬凤爪」已合并至「柠檬酸辣鸡爪杯」(batch25-hot-008)
 {
@@ -1973,7 +1972,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 8
 },
 {
   id: "batch22-hot-83",
@@ -1999,7 +1998,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 7
 },
 {
   id: "batch22-hot-84",
@@ -2024,7 +2023,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 7
 },
 {
   id: "batch22-hot-85",
@@ -2053,7 +2052,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 7
 },
 {
   id: "batch22-hot-86",
@@ -2083,7 +2082,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 7
 },
   // 「芋泥奶酪球」已合并至「芋泥奶油奶酪球」(foods-batch25-hot100.ts batch25-hot-003) - 同地同物异名
   // 「血糯米芋泥奶酪砖」已合并至「紫米芋泥奶酪砖」(foods-batch25-hot100.ts batch25-hot-053) - 同地同物异名（血糯米即紫米）
@@ -2115,7 +2114,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 7
 },
 {
   id: "batch22-hot-91",
@@ -2145,7 +2144,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 7
 },
 {
   id: "batch22-hot-92",
@@ -2173,7 +2172,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 7
 },
 {
   id: "batch22-hot-93",
@@ -2196,13 +2195,13 @@ export const FOODS_BATCH22_HOT100: Food[] = [
     "煎"
   ],
   tags: ["香甜", "甜品", "其他", "热门", "网红", "甜味"],
-  fame: "热门",
+  fame: "地方名吃",
   popularRegions: [
     "全国"
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 6
 },
 {
   id: "batch22-hot-94",
@@ -2231,7 +2230,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 7
 },
 {
   id: "batch22-hot-95",
@@ -2354,7 +2353,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 7
 },
 {
   id: "batch22-hot-99",
@@ -2378,7 +2377,7 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 7
 },
 {
   id: "batch22-hot-100",
@@ -2406,6 +2405,6 @@ export const FOODS_BATCH22_HOT100: Food[] = [
   ],
   lat: 35,
   lng: 105,
-  popularity: 9
+  popularity: 7
 }
 ];

@@ -158,7 +158,7 @@ export const FOODS_BATCH10_TRENDING: Food[] = [
     popularRegions: ["广州", "广东", "香港"],
     lat: 23.1291,
     lng: 113.2644,
-    popularity: 9,
+    popularity: 8,
   },
 
   // ==================== 六、其他高搜索热度缺失美食 ===================
@@ -206,8 +206,8 @@ export const FOODS_BATCH10_TRENDING: Food[] = [
     tags: ["麻辣", "小吃", "川菜", "街头小吃", "网红"],
     fame: "名菜",
     popularRegions: ["全国"],
-    lat: 30.5728,
-    lng: 104.0668,
+    lat: 29.5528,
+    lng: 103.7662,
     popularity: 10,
   },
 {
@@ -231,14 +231,14 @@ export const FOODS_BATCH10_TRENDING: Food[] = [
     popularRegions: ["南京", "全国"],
     lat: 32.06,
     lng: 118.8,
-    popularity: 9,
+    popularity: 7,
   },
 
   // ==================== 七、贵州十大名菜（2025年官方评选，原数据库缺失）====================
   {
     id: "batch10-qian-2",
     name: "水城羊汤锅",
-    alias: ["水城羊肉汤", "羊汤锅"],
+    alias: ["水城羊肉汤"], // 已移除"羊汤锅"alias,与 foods-batch2-yunnan.ts 中"羊汤锅"(云南昆明回民版)冲突
     image: "https://img2.baidu.com/it/u=1095380566,3343885679&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1422",
     category: "汤羹",
     taste: "咸鲜",
@@ -353,7 +353,7 @@ export const FOODS_BATCH10_TRENDING: Food[] = [
   {
     id: "batch10-qian-7",
     name: "松桃卤鸭",
-    alias: ["松桃鸭", "卤鸭"],
+    alias: ["松桃鸭"], // 已移除"卤鸭"alias,与 foods-batch5-zhe-min-xiang-hui.ts 中"卤鸭"(浙江杭州浙菜版)冲突
     image: "https://img2.baidu.com/it/u=2295192885,4193577578&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=875",
     category: "凉菜",
     taste: "咸鲜",
@@ -438,7 +438,7 @@ export const FOODS_BATCH10_TRENDING: Food[] = [
     ingredients: ["马肉", "盐"],
     cookingMethod: ["熏", "煮"],
     tags: ["咸鲜", "腌腊", "新疆菜", "哈萨克", "名菜"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["新疆"],
     lat: 43.7928,
     lng: 87.6272,
@@ -462,7 +462,7 @@ export const FOODS_BATCH10_TRENDING: Food[] = [
   //     ingredients: ["马肉", "马肠", "盐"],
   //     cookingMethod: ["灌", "熏", "煮"],
   //     tags: ["咸鲜", "腌腊", "新疆菜", "哈萨克", "名菜"],
-  //     fame: "名菜",
+  //     fame: "地方名吃",
   //     popularRegions: ["新疆"],
   //     lat: 43.7928,
   //     lng: 87.6272,

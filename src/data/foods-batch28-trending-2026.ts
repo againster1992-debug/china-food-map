@@ -20,8 +20,8 @@ export const FOODS_BATCH28_TRENDING_2026: Food[] = [
   tags: ["香甜","甜品","生巧","流心","网红","抖音爆款","冷藏","海盐焦糖","树莓抹茶"],
   fame: "热门",
   popularRegions: ["全国"],
-  lat: 35.8617,
-  lng: 104.1954,
+  lat: 35,
+  lng: 105,
   popularity: 7
 },
 {
@@ -41,8 +41,8 @@ export const FOODS_BATCH28_TRENDING_2026: Food[] = [
   tags: ["原味","糕点","烘焙","恰巴塔","低GI","网红","意式","欧包","健康"],
   fame: "热门",
   popularRegions: ["全国"],
-  lat: 35.8617,
-  lng: 104.1954,
+  lat: 35,
+  lng: 105,
   popularity: 7
 },
 {
@@ -62,8 +62,8 @@ export const FOODS_BATCH28_TRENDING_2026: Food[] = [
   tags: ["咸甜","甜品","法式","酪乳","海盐","网红","高增长","绵密"],
   fame: "热门",
   popularRegions: ["全国"],
-  lat: 35.8617,
-  lng: 104.1954,
+  lat: 35,
+  lng: 105,
   popularity: 7
 },
 {
@@ -83,8 +83,8 @@ export const FOODS_BATCH28_TRENDING_2026: Food[] = [
   tags: ["酸甜","甜品","草莓","脆层","芝士","网红","层次","春季"],
   fame: "热门",
   popularRegions: ["全国"],
-  lat: 35.8617,
-  lng: 104.1954,
+  lat: 35,
+  lng: 105,
   popularity: 7
 },
 {
@@ -104,8 +104,8 @@ export const FOODS_BATCH28_TRENDING_2026: Food[] = [
   tags: ["咸鲜","小吃","老面","小笼包","早餐","劲道","传统","汤汁"],
   fame: "热门",
   popularRegions: ["全国"],
-  lat: 35.8617,
-  lng: 104.1954,
+  lat: 35,
+  lng: 105,
   popularity: 7
 },
 {
@@ -125,8 +125,8 @@ export const FOODS_BATCH28_TRENDING_2026: Food[] = [
   tags: ["咸鲜","小吃","鸡蛋","汉堡","早餐","模具","金黄","料足"],
   fame: "热门",
   popularRegions: ["全国"],
-  lat: 35.8617,
-  lng: 104.1954,
+  lat: 35,
+  lng: 105,
   popularity: 7
 },
 {
@@ -146,8 +146,8 @@ export const FOODS_BATCH28_TRENDING_2026: Food[] = [
   tags: ["咸鲜","糕点","酱香","酥脆","芝麻","葱花","国民小吃","早餐"],
   fame: "热门",
   popularRegions: ["全国"],
-  lat: 35.8617,
-  lng: 104.1954,
+  lat: 35,
+  lng: 105,
   popularity: 7
 },
   // 「batch28-008」已合并至「batch21-e-7」- 现卤现捞鸭脖与鸭脖为同地同物异名（现卤现捞为制作工艺，非独立品类），均为武汉鸭脖，合并至[batch21-e-7]鸭脖
@@ -233,7 +233,7 @@ export const FOODS_BATCH28_TRENDING_2026: Food[] = [
   ingredients: ["鸡肉","姜","葱","盐"],
   cookingMethod: ["煮"],
   tags: ["原味", "主菜", "宁夏", "吴忠", "西北", "蘸料", "地方名吃"],
-  fame: "地方名吃",
+  fame: "普通",
   popularRegions: ["宁夏","西北"],
   lat: 37.9862,
   lng: 106.199,
@@ -277,7 +277,7 @@ export const FOODS_BATCH28_TRENDING_2026: Food[] = [
   ingredients: ["玉米面","牛肉","鸡蛋","葱","香菜"],
   cookingMethod: ["煮","炖"],
   tags: ["咸鲜","面食","温面","朝鲜族","延吉","吉林","牛骨汤","暖身","地方名吃"],
-  fame: "地方名吃",
+  fame: "普通",
   popularRegions: ["吉林","东北"],
   lat: 42.8913,
   lng: 129.5096,

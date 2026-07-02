@@ -152,7 +152,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "辽宁",
     "沈阳",
     "端午粽"],
-  fame: "地方名吃",
+  fame: "普通",
   popularRegions: [
     "辽宁",
     "吉林",
@@ -168,7 +168,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
   category: "糕点",
   taste: "香甜",
   type: "popular",
-  cuisine: "清真菜",
+  cuisine: "西北菜",
   province: "宁夏",
   city: "银川",
   origin: "银川回族群众在端午节用本地枸杞包的甜粽。",
@@ -183,7 +183,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
   tags: [
     "香甜",
     "糕点",
-    "清真菜",
+    "西北菜",
     "宁夏",
     "银川",
     "枸杞"],
@@ -226,7 +226,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "陕西"],
   lat: 34.3416,
   lng: 108.9398,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch24-pcs-0008",
@@ -281,7 +281,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "安徽",
     "黄山",
     "灰汁粽"],
-  fame: "地方名吃",
+  fame: "普通",
   popularRegions: [
     "安徽"],
   lat: 29.7147,
@@ -502,7 +502,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
   category: "面食",
   taste: "鲜香",
   type: "popular",
-  cuisine: "清真菜",
+  cuisine: "西北菜",
   province: "宁夏",
   city: "银川",
   origin: "宁夏回族地区将面片揪成小块与羊肉同炒的面食。",
@@ -630,7 +630,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
   name: "把子肉",
   image: "https://img0.baidu.com/it/u=2800199137,2213035266&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=1173",
   category: "主菜",
-  taste: "咸鲜",
+  taste: "咸甜",
   type: "popular",
   cuisine: "鲁菜",
   province: "山东",
@@ -657,7 +657,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "山东"],
   lat: 36.6512,
   lng: 117.1201,
-  popularity: 9
+  popularity: 7
 },
 // 【已合并】开洋葱油拌面已合并至「葱油拌面」(sh-8, foods-east.ts) - 同地同物异名
 // 原条目 batch24-pcs-0050 (开洋葱油拌面) 已删除合并
@@ -721,7 +721,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "秀山",
     "绿豆粉",
     "土家"],
-  fame: "地方名吃",
+  fame: "普通",
   popularRegions: [
     "重庆"],
   lat: 29.563,
@@ -732,7 +732,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
   id: "batch24-pcs-0058",
   name: "应县凉粉",
   image: "https://img1.baidu.com/it/u=974554046,3331938236&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=653",
-  category: "小吃",
+  category: "凉菜",
   taste: "酸辣",
   type: "traditional",
   cuisine: "晋菜",
@@ -767,7 +767,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
   id: "batch24-pcs-0059",
   name: "乌拉火锅",
   image: "https://img0.baidu.com/it/u=2444862233,1472976062&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=1063",
-  category: "主菜",
+  category: "火锅",
   taste: "咸鲜",
   type: "traditional",
   cuisine: "东北菜",
@@ -822,7 +822,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "哈尔滨",
     "黄米",
     "切糕"],
-  fame: "地方名吃",
+  fame: "普通",
   popularRegions: [
     "黑龙江",
     "吉林",
@@ -1117,7 +1117,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "黄流",
     "老鸭",
     "白切"],
-  fame: "地方名吃",
+  fame: "普通",
   popularRegions: [
     "海南"],
   lat: 18.7481,
@@ -1455,7 +1455,7 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "岫岩",
     "羊汤",
     "早餐"],
-  fame: "地方名吃",
+  fame: "普通",
   popularRegions: [
     "辽宁"],
   lat: 40.29,
@@ -1559,10 +1559,10 @@ export const FOODS_BATCH24_PROVINCE_CUISINE_SUPPLEMENT: Food[] = [
     "得莫利",
     "炖鱼",
     "公路美食"],
-  fame: "名菜",
+  fame: "热门",
   popularRegions: [
     "黑龙江"],
   lat: 45.8038,
   lng: 128.8292,
-  popularity: 8
+  popularity: 7
 }];

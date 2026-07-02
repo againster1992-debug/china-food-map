@@ -1,4 +1,4 @@
-﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿import type { Food } from "@/types/food";
 
 export const FOODS_BATCH23_FAMOUS100: Food[] = [
 {
@@ -88,9 +88,9 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   province: "江苏",
   city: "扬州",
   origin: "扬州",
-  description: "扒烧整猪头选用猪肉、葱、姜等为主料，经扒、烧烹制，咸鲜突出，是扬州地区的经典代表。",
+  description: "扒烧整猪头选用猪头、葱、姜等为主料，经扒、烧烹制，咸鲜突出，是扬州地区的经典代表。",
   ingredients: [
-    "猪肉",
+    "猪头",
     "葱",
     "姜"
   ],
@@ -147,7 +147,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   ],
   lat: 31.2989,
   lng: 120.5853,
-  popularity: 8
+  popularity: 7
 },
 {
   id: "batch23-famous-6",
@@ -217,7 +217,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "地方名吃",
+  fame: "普通",
   popularRegions: [
     "黑龙江"
   ],
@@ -291,7 +291,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "地方名吃",
+  fame: "普通",
   popularRegions: [
     "河南"
   ],
@@ -328,7 +328,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "地方名吃",
+  fame: "普通",
   popularRegions: [
     "河南"
   ],
@@ -365,7 +365,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "地方名吃",
+  fame: "普通",
   popularRegions: [
     "河南"
   ],
@@ -554,7 +554,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "地方名吃",
+  fame: "普通",
   popularRegions: [
     "湖北"
   ],
@@ -588,7 +588,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "地方名吃",
+  fame: "普通",
   popularRegions: [
     "湖北"
   ],
@@ -621,7 +621,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "地方名吃",
+  fame: "普通",
   popularRegions: [
     "湖北"
   ],
@@ -766,7 +766,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "地方名吃",
+  fame: "普通",
   popularRegions: [
     "天津"
   ],
@@ -786,7 +786,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   city: "北京",
   origin: "北京传统宫廷菜，以铁雀炸后熘汁，外酥里嫩。",
   description: "炸溜铁雀选用鸟肉、淀粉、料酒、盐等为主料，经炸、熘烹制，咸鲜突出，是北京地区的经典代表。",
-  ingredients: ["淀粉", "料酒", "盐"],
+  ingredients: ["鸟肉", "淀粉", "料酒", "盐"],
   cookingMethod: [
     "炸",
     "熘"
@@ -876,7 +876,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "传统名菜",
     "辣味"
   ],
-  fame: "地方名吃",
+  fame: "普通",
   popularRegions: [
     "云南"
   ],
@@ -1027,7 +1027,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "传统名菜",
     "甜味"
   ],
-  fame: "地方名吃",
+  fame: "普通",
   popularRegions: [
     "安徽"
   ],
@@ -1061,7 +1061,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "传统名菜",
     "地方名吃"
   ],
-  fame: "地方名吃",
+  fame: "普通",
   popularRegions: [
     "河北"
   ],
@@ -1099,7 +1099,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "传统名菜",
     "地方名吃"
   ],
-  fame: "地方名吃",
+  fame: "普通",
   popularRegions: [
     "河北"
   ],
@@ -1137,7 +1137,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "地方名吃",
+  fame: "普通",
   popularRegions: [
     "山东"
   ],
@@ -1174,7 +1174,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "地方名吃",
+  fame: "普通",
   popularRegions: [
     "山东"
   ],
@@ -1226,7 +1226,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   name: "红烧鮰鱼",
   image: "https://img1.baidu.com/it/u=3456140475,3926413671&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=889",
   category: "主菜",
-  taste: "咸鲜",
+  taste: "咸甜",
   type: "traditional",
   cuisine: "本帮菜",
   province: "上海",
@@ -1429,7 +1429,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "地方名吃",
+  fame: "普通",
   popularRegions: [
     "广东"
   ],
@@ -1537,7 +1537,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "地方名吃",
+  fame: "普通",
   popularRegions: [
     "上海"
   ],
@@ -1575,7 +1575,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "传统名菜",
     "甜味"
   ],
-  fame: "地方名吃",
+  fame: "普通",
   popularRegions: [
     "上海"
   ],
@@ -1613,7 +1613,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "传统名菜",
     "地方名吃"
   ],
-  fame: "地方名吃",
+  fame: "普通",
   popularRegions: [
     "上海"
   ],
@@ -1631,9 +1631,9 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   province: "上海",
   city: "上海",
   origin: "上海",
-  description: "枫泾丁蹄选用猪肉、酱油、糖等为主料，经卤烹制，咸鲜突出，是上海地区的经典代表。",
+  description: "枫泾丁蹄选用猪蹄、酱油、糖等为主料，经卤烹制，咸鲜突出，是上海地区的经典代表。",
   ingredients: [
-    "猪肉",
+    "猪蹄",
     "酱油",
     "糖"
   ],
@@ -1662,7 +1662,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   name: "红烧鳝段",
   image: "https://img2.baidu.com/it/u=789196793,720354075&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=875",
   category: "主菜",
-  taste: "咸鲜",
+  taste: "咸甜",
   type: "traditional",
   cuisine: "本帮菜",
   province: "上海",
@@ -1911,7 +1911,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "传统名菜",
     "甜味"
   ],
-  fame: "地方名吃",
+  fame: "普通",
   popularRegions: [
     "山东"
   ],
@@ -2058,7 +2058,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "传统名菜",
     "甜味"
   ],
-  fame: "地方名吃",
+  fame: "普通",
   popularRegions: [
     "山东"
   ],
@@ -2131,7 +2131,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "传统名菜",
     "地方名吃"
   ],
-  fame: "地方名吃",
+  fame: "普通",
   popularRegions: [
     "福建"
   ],
@@ -2145,7 +2145,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
   name: "牛中三杰",
   image: "https://img2.baidu.com/it/u=1433724039,2227980190&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=750",
   category: "主菜",
-  taste: "麻辣",
+  taste: "香辣",
   type: "traditional",
   cuisine: "湘菜",
   province: "湖南",
@@ -2171,7 +2171,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "传统名菜",
     "辣味"
   ],
-  fame: "地方名吃",
+  fame: "普通",
   popularRegions: [
     "湖南"
   ],
@@ -2415,7 +2415,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "传统名菜",
     "甜味"
   ],
-  fame: "地方名吃",
+  fame: "普通",
   popularRegions: [
     "北京"
   ],
@@ -2452,7 +2452,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "传统名菜",
     "地方名吃"
   ],
-  fame: "地方名吃",
+  fame: "普通",
   popularRegions: [
     "北京"
   ],
@@ -2491,7 +2491,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "甜品",
     "甜味"
   ],
-  fame: "地方名吃",
+  fame: "普通",
   popularRegions: [
     "陕西"
   ],
@@ -2819,7 +2819,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "地方名吃",
+  fame: "普通",
   popularRegions: [
     "江苏"
   ],
@@ -2856,7 +2856,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "名菜",
     "传统名菜"
   ],
-  fame: "地方名吃",
+  fame: "普通",
   popularRegions: [
     "江苏"
   ],
@@ -2894,7 +2894,7 @@ export const FOODS_BATCH23_FAMOUS100: Food[] = [
     "传统名菜",
     "甜味"
   ],
-  fame: "地方名吃",
+  fame: "普通",
   popularRegions: [
     "江苏"
   ],

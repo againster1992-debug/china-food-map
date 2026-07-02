@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Search, SlidersHorizontal, PanelLeft, X, Award } from "lucide-react";
 import { useStore } from "@/store/useStore";
-import { FOUR_CUISINES, EIGHT_CUISINES } from "@/types/food";
 import { TYPE_STATS } from "@/data/foods";
 import UserMenu from "./UserMenu";
 
@@ -12,8 +11,6 @@ export default function TopBar() {
   const filterPanelOpen = useStore((s) => s.filterPanelOpen);
   const toggleSidebar = useStore((s) => s.toggleSidebar);
   const sidebarOpen = useStore((s) => s.sidebarOpen);
-  const toggleCuisine = useStore((s) => s.toggleCuisine);
-  const filterCuisines = useStore((s) => s.filterCuisines);
   const foods = useStore((s) => s.foods);
   const openRestaurantPanel = useStore((s) => s.openRestaurantPanel);
 
@@ -48,29 +45,8 @@ export default function TopBar() {
         </div>
       </div>
 
-      {/* 中间：菜系快速跳转 */}
-      <div className="ml-2 hidden flex-1 items-center gap-1.5 overflow-x-auto lg:flex">
-        <span className="shrink-0 font-serif text-xs text-ink-400">菜系：</span>
-        {EIGHT_CUISINES.map((c) => {
-          const isActive = filterCuisines.includes(c);
-          const isFour = FOUR_CUISINES.includes(c);
-          return (
-            <button
-              key={c}
-              onClick={() => toggleCuisine(c)}
-              className={`shrink-0 rounded-full px-3 py-1 font-serif text-xs transition-all ${
-                isActive
-                  ? "bg-cinnabar-500 text-paper-50 shadow-seal"
-                  : isFour
-                    ? "border border-cinnabar-500/40 bg-cinnabar-50/50 text-cinnabar-600 hover:bg-cinnabar-50"
-                    : "border border-ochre-500/20 bg-paper-100/60 text-ink-700 hover:bg-paper-200"
-              }`}
-            >
-              {c}
-            </button>
-          );
-        })}
-      </div>
+      {/* 中间：留白（菜系筛选已移至筛选面板） */}
+      <div className="hidden flex-1 lg:block" />
 
       {/* 右侧：搜索 + 筛选 + 统计 */}
       <div className="ml-auto flex items-center gap-1.5 sm:gap-2">

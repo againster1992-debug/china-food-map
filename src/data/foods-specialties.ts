@@ -67,7 +67,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     ingredients: ["猪肉", "盐", "花椒"],
     cookingMethod: ["腌", "熏", "干制"],
     tags: ["特产", "腌", "安泽", "熏"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["山西", "全国"],
     lat: 36.15,
     lng: 112.25,
@@ -90,7 +90,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     ingredients: ["猪肉", "盐"],
     cookingMethod: ["腌", "发酵", "干制"],
     tags: ["特产", "腌", "火腿", "如皋"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["江苏", "上海"],
     lat: 32.23,
     lng: 120.56,
@@ -138,7 +138,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     ingredients: ["猪肉", "酱油", "糖"],
     cookingMethod: ["腌", "烤"],
     tags: ["特产", "腌", "肉脯", "靖江", "伴手礼"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["江苏", "上海", "全国"],
     lat: 32.04,
     lng: 120.27,
@@ -232,7 +232,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     ingredients: ["沙虫"],
     cookingMethod: ["煮", "煲", "炒", "晒"],
     tags: ["特产", "水产", "海鲜", "嫩滑"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["广西", "广东"],
     lat: 21.48,
     lng: 109.12,
@@ -370,11 +370,11 @@ export const FOODS_SPECIALTIES: Food[] = [
     ingredients: ["生蚝", "盐", "豆豉"],
     cookingMethod: ["烤", "蒸"],
     tags: ["特产", "水产", "生蚝", "海鲜", "嫩滑"],
-    fame: "热门",
+    fame: "名菜",
     popularRegions: ["广东", "广西"],
     lat: 21.27,
     lng: 110.36,
-    popularity: 8,
+    popularity: 7,
   },
 
   // ========== 地方特产果蔬 ==========
@@ -399,7 +399,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     popularRegions: ["新疆", "全国"],
     lat: 41.73,
     lng: 86.18,
-    popularity: 9,
+    popularity: 8,
   },
   {
     id: "specialty-24",
@@ -464,7 +464,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     ingredients: ["红枣", "盐", "糖"],
     cookingMethod: ["晒", "煮"],
     tags: ["特产", "果蔬", "金丝", "香甜", "其他", "冀菜", "河北"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["河北", "全国"],
     lat: 38.31,
     lng: 116.84,
@@ -510,7 +510,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     ingredients: ["梨"],
     cookingMethod: ["熬"],
     tags: ["特产", "果蔬", "砀山", "梨都"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["安徽", "全国"],
     lat: 34.44,
     lng: 116.36,
@@ -533,7 +533,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     ingredients: ["哈密瓜"],
     cookingMethod: ["鲜食"],
     tags: ["特产", "果蔬", "蜜瓜", "河套", "华莱士", "爽脆"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["内蒙古", "全国"],
     lat: 40.74,
     lng: 107.39,
@@ -579,7 +579,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     ingredients: ["柚子"],
     cookingMethod: ["鲜食"],
     tags: ["特产", "果蔬", "蜜柚", "平和", "柚都"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["福建", "全国"],
     lat: 24.37,
     lng: 117.3,
@@ -627,7 +627,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     ingredients: ["糯米", "米粉", "豆沙", "猪肉", "玫瑰"],
     cookingMethod: ["蒸", "煮"],
     tags: ["特产", "糕点", "苏式", "香甜", "苏菜", "江苏"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["江苏", "上海"],
     lat: 31.3,
     lng: 120.59,
@@ -696,11 +696,11 @@ export const FOODS_SPECIALTIES: Food[] = [
     ingredients: ["苹果", "梨", "杏", "海棠", "糖"],
     cookingMethod: ["腌", "煮", "晒"],
     tags: ["特产", "糕点", "伴手礼", "粘糯"],
-    fame: "普通",
+    fame: "地方名吃",
     popularRegions: ["北京", "全国"],
     lat: 39.9,
     lng: 116.41,
-    popularity: 1,
+    popularity: 4,
   },
   {
     id: "specialty-38",
@@ -719,7 +719,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     ingredients: ["蚕豆", "盐"],
     cookingMethod: ["烤"],
     tags: ["特产", "小吃", "蚕豆", "伴手礼", "酥脆"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["天津", "北京"],
     lat: 39.08,
     lng: 117.2,
@@ -742,7 +742,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     ingredients: ["面粉", "玫瑰", "豆沙", "糖"],
     cookingMethod: ["烤"],
     tags: ["特产", "糕点", "牡丹饼", "鲜花", "甜", "豫菜", "河南"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["河南"],
     lat: 34.62,
     lng: 112.45,
@@ -765,7 +765,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     ingredients: ["橄榄", "盐"],
     cookingMethod: ["腌"],
     tags: ["特产", "果蔬", "回甘", "粘糯", "劲道"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["福建"],
     lat: 26.07,
     lng: 119.3,
@@ -817,7 +817,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     popularRegions: ["湖南", "全国"],
     lat: 29.36,
     lng: 113.13,
-    popularity: 9,
+    popularity: 7,
   },
   {
     id: "specialty-47",
@@ -863,7 +863,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     popularRegions: ["广东", "全国"],
     lat: 23.66,
     lng: 116.62,
-    popularity: 9,
+    popularity: 7,
   },
   {
     id: "specialty-49",
@@ -928,7 +928,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     ingredients: ["茶叶"],
     cookingMethod: ["炒", "冲"],
     tags: ["特产", "茶饮", "绿茶", "径山", "禅茶"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["浙江", "全国"],
     lat: 30.42,
     lng: 119.99,
@@ -1026,7 +1026,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     popularRegions: ["山东", "全国"],
     lat: 36.07,
     lng: 120.38,
-    popularity: 9,
+    popularity: 8,
   },
   {
     id: "specialty-60",
@@ -1118,7 +1118,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     popularRegions: ["安徽", "全国"],
     lat: 33.85,
     lng: 115.78,
-    popularity: 9,
+    popularity: 8,
   },
 
   // ========== 其他特产 ==========
@@ -1185,7 +1185,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     ingredients: ["石斛"],
     cookingMethod: ["晒", "冲", "炖"],
     tags: ["特产", "滋补", "石斛", "霍山", "药食同源"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["安徽", "全国"],
     lat: 31.39,
     lng: 116.33,
@@ -1254,7 +1254,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     ingredients: ["杨梅"],
     cookingMethod: ["泡"],
     tags: ["特产", "果蔬", "杨梅", "余姚", "时令"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["浙江", "全国"],
     lat: 30.04,
     lng: 121.15,
@@ -1325,7 +1325,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     ingredients: ["黄豆", "豆腐"],
     cookingMethod: ["晒"],
     tags: ["特产", "豆制品", "干豆腐", "东北", "咸鲜", "其他", "东北菜", "辽宁"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["辽宁", "吉林", "黑龙江"],
     lat: 41.1,
     lng: 121.13,
@@ -1371,7 +1371,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     ingredients: ["绿豆", "猪肉", "糖"],
     cookingMethod: ["蒸"],
     tags: ["特产", "糕点", "绿豆糕", "苏式", "香甜", "苏菜", "江苏"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["江苏", "上海"],
     lat: 31.3,
     lng: 120.59,
@@ -1394,7 +1394,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     ingredients: ["枇杷"],
     cookingMethod: ["鲜食"],
     tags: ["特产", "果蔬", "枇杷", "塘栖", "时令"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["浙江", "江苏"],
     lat: 30.42,
     lng: 120.18,
@@ -1444,7 +1444,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     popularRegions: ["辽宁", "全国"],
     lat: 39.98,
     lng: 124.35,
-    popularity: 7,
+    popularity: 8,
   },
   {
     "id": "specialty-91",
@@ -1491,7 +1491,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     "ingredients": ["大米"],
     "cookingMethod": ["煮"],
     "tags": ["特产", "大米", "原阳", "地理标志", "粳米", "爽脆"],
-    "fame": "地方名吃",
+    "fame": "普通",
     "popularRegions": [
       "河南",
       "华北"
@@ -1530,7 +1530,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     "id": "specialty-95",
     "name": "遮放贡米",
     "alias": ["遮放米"],
-    "image": "https://img.phb123.com/uploads/221108/809-22110P94UD37.png",
+    "image": "https://bkimg.cdn.bcebos.com/pic/c995d143ad4bd1130d21e1f856afa40f4afb050f?x-bce-process=image/format,f_auto/resize,m_lfit,limit_1,h_293",
     "category": "物产",
     "taste": "清淡",
     "type": "traditional",
@@ -1647,7 +1647,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     "ingredients": ["茶叶"],
     "cookingMethod": ["炒"],
     tags: ["白茶", "绿茶", "安吉", "名茶", "清淡", "饮品", "浙菜", "浙江"],
-    "fame": "名菜",
+    "fame": "地方名吃",
     "popularRegions": [
       "浙江",
       "全国"
@@ -1671,7 +1671,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     "ingredients": ["茶叶"],
     "cookingMethod": ["发酵", "烤"],
     tags: ["红茶", "名茶", "粘糯", "清淡", "饮品", "闽菜", "福建"],
-    "fame": "地方名吃",
+    "fame": "普通",
     "popularRegions": [
       "福建",
       "全国"
@@ -1695,7 +1695,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     ingredients: ["茶叶", "龙眼"],
     "cookingMethod": ["熏"],
     tags: ["红茶", "名茶", "爽脆", "清淡", "饮品", "闽菜", "福建"],
-    "fame": "地方名吃",
+    "fame": "普通",
     "popularRegions": [
       "福建",
       "全国"
@@ -1743,7 +1743,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     "ingredients": ["茶叶"],
     "cookingMethod": ["发酵"],
     tags: ["黑茶", "陈茶", "清淡", "饮品", "桂菜", "广西"],
-    "fame": "名菜",
+    "fame": "地方名吃",
     "popularRegions": [
       "广西",
       "全国"
@@ -1751,7 +1751,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     "lat": 23.4766,
     "lng": 111.2799,
     "popularity": 6,
-    "image": "https://img0.baidu.com/it/u=676557641,2596796241&fm=253&app=138&f=JPEG?w=500&h=745"
+    "image": "https://n.sinaimg.cn/sinakd20230421s/201/w1080h721/20230421/cd7d-25737375ccdaa8dbcdb35353cbfbb377.jpg"
   },
   {
     "id": "gen-f-2025-99",
@@ -1791,7 +1791,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     "ingredients": ["茶叶"],
     "cookingMethod": ["炒"],
     tags: ["绿茶", "雨花茶", "名茶", "清淡", "饮品", "苏菜", "江苏"],
-    "fame": "地方名吃",
+    "fame": "普通",
     "popularRegions": [
       "江苏",
       "全国"
@@ -1815,7 +1815,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     "ingredients": ["茶叶"],
     "cookingMethod": ["蒸"],
     tags: ["绿茶", "玉露", "蒸青", "清淡", "饮品", "鄂菜", "湖北"],
-    "fame": "名菜",
+    "fame": "地方名吃",
     "popularRegions": [
       "湖北",
       "全国"
@@ -1863,7 +1863,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     ingredients: ["甜瓜", "糖", "哈密瓜"],
     "cookingMethod": ["鲜食"],
     tags: ["甜瓜", "水果", "香甜", "物产", "新疆菜", "新疆"],
-    "fame": "地方名吃",
+    "fame": "普通",
     "popularRegions": [
       "新疆",
       "全国"
@@ -1935,7 +1935,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     "ingredients": ["猪肉", "盐"],
     cookingMethod: ["腌", "干制"],
     tags: ["火腿", "徽州", "腌腊", "特产", "咸鲜", "徽菜", "安徽"],
-    "fame": "地方名吃",
+    "fame": "普通",
     "popularRegions": [
       "安徽",
       "全国"
@@ -2011,7 +2011,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     "ingredients": ["鱼肉", "辣椒", "啤酒"],
     "cookingMethod": ["炒"],
     tags: ["小龙虾", "麻辣", "夜宵", "物产", "苏菜", "江苏"],
-    "fame": "热门",
+    "fame": "名菜",
     "popularRegions": [
       "江苏",
       "全国"
@@ -2023,7 +2023,7 @@ export const FOODS_SPECIALTIES: Food[] = [
   },
   {
     "id": "gen-f-2025-114",
-    "name": "威海乳山牡蛎",
+    "name": "乳山牡蛎",
     "category": "物产",
     "taste": "咸鲜",
     "type": "traditional",
@@ -2031,8 +2031,8 @@ export const FOODS_SPECIALTIES: Food[] = [
     "province": "山东",
     "city": "威海",
     "origin": "山东威海乳山特产牡蛎",
-    "description": "威海乳山牡蛎生长于北纬37度清洁海域，个大肥美，肉质细嫩，味道鲜美，是中国北方牡蛎代表。",
-    ingredients: ["鱼肉", "生蚝"],
+    "description": "乳山牡蛎生长于北纬37度清洁海域，个大肥美，肉质细嫩，味道鲜美，是中国北方牡蛎代表。",
+    ingredients: ["生蚝"],
     "cookingMethod": ["蒸"],
     tags: ["牡蛎", "乳山", "海鲜", "特产", "咸鲜", "物产", "鲁菜", "山东"],
     "fame": "地方名吃",
@@ -2065,7 +2065,7 @@ export const FOODS_SPECIALTIES: Food[] = [
       "特产",
       "水果"
     ],
-    "fame": "地方名吃",
+    "fame": "普通",
     "popularRegions": [
       "河北",
       "全国"
@@ -2105,7 +2105,7 @@ export const FOODS_SPECIALTIES: Food[] = [
   
   {
     "id": "gen2-f-2025-112",
-    "name": "山东乐陵金丝小枣",
+    "name": "乐陵金丝小枣",
     "category": "物产",
     "taste": "香甜",
     "type": "popular",
@@ -2172,7 +2172,7 @@ export const FOODS_SPECIALTIES: Food[] = [
   //     "ingredients": [],
   //     "cookingMethod": ["蒸", "烧"],
   //     tags: ["武昌鱼", "鄂菜", "水产", "团头鲂", "咸鲜", "物产", "湖北"],
-  //     "fame": "地方名吃",
+  //     "fame": "名菜",
   //     "popularRegions": [
   //       "湖北",
   //       "全国"
@@ -2271,7 +2271,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     "ingredients": ["鸭肉", "盐", "花椒", "八角"],
     "cookingMethod": ["腌", "晾"],
     "tags": ["南安板鸭", "赣菜", "腊味", "板鸭", "年货"],
-    "fame": "地方名吃",
+    "fame": "普通",
     "popularRegions": [
       "江西",
       "广东"
@@ -2327,7 +2327,7 @@ export const FOODS_SPECIALTIES: Food[] = [
     ],
     cookingMethod: ["腌", "干制"],
     "tags": ["牦牛肉干", "西北菜", "高原", "风干", "特产"],
-    "fame": "地方名吃",
+    "fame": "普通",
     "popularRegions": [
       "青海",
       "西藏"

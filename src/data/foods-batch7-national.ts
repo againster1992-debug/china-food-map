@@ -8,7 +8,7 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     category: "主食",
     taste: "咸鲜",
     type: "traditional",
-    cuisine: "其他",
+    cuisine: "国民美食",
     province: "全国",
     origin: "中国全国各地，经典早餐组合",
     description:
@@ -20,7 +20,7 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 8,
+    popularity: 10,
   },
   
   {
@@ -31,7 +31,7 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     category: "面食",
     taste: "清淡",
     type: "traditional",
-    cuisine: "其他",
+    cuisine: "国民美食",
     province: "全国",
     origin: "中国全国各地，源于三国诸葛亮",
     description:
@@ -43,7 +43,7 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 8,
+    popularity: 9,
   },
     {
     id: "batch7-national-7",
@@ -53,7 +53,7 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     category: "面食",
     taste: "清淡",
     type: "traditional",
-    cuisine: "其他",
+    cuisine: "国民美食",
     province: "全国",
     origin: "中国北方及全国各地，传统粗粮主食",
     description:
@@ -61,11 +61,11 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     ingredients: ["玉米", "黄豆粉"],
     cookingMethod: ["蒸"],
     tags: ["国民美食", "主食", "粗粮", "玉米面", "全国流行", "酥脆"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 8,
+    popularity: 5,
   },
   {
     id: "batch7-national-8",
@@ -125,7 +125,7 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     category: "小吃",
     taste: "咸鲜",
     type: "popular",
-    cuisine: "其他",
+    cuisine: "国民美食",
     province: "全国",
     origin: "中国沿海及全国各地夜市",
     description:
@@ -137,7 +137,7 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 7,
+    popularity: 8,
   },
   // ========== 全国小吃零食 ==========
   {
@@ -148,7 +148,7 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     category: "小吃",
     taste: "咸鲜",
     type: "popular",
-    cuisine: "其他",
+    cuisine: "国民美食",
     province: "全国",
     origin: "中国全国各地，传统卤味",
     description:
@@ -171,7 +171,7 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     category: "小吃",
     taste: "香甜",
     type: "popular",
-    cuisine: "其他",
+    cuisine: "国民美食",
     province: "全国",
     origin: "中国全国各地，传统小吃",
     description:
@@ -193,7 +193,7 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     category: "小吃",
     taste: "香甜",
     type: "popular",
-    cuisine: "其他",
+    cuisine: "国民美食",
     province: "全国",
     origin: "中国全国各地，传统零食",
     description:
@@ -201,11 +201,11 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     ingredients: ["大米", "油", "盐"],
     cookingMethod: ["炸", "烤"],
     tags: ["国民美食", "小吃", "酥脆", "零食", "全国流行", "劲道"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch7-national-30",
@@ -215,7 +215,7 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     category: "小吃",
     taste: "香甜",
     type: "popular",
-    cuisine: "其他",
+    cuisine: "国民美食",
     province: "全国",
     origin: "中国全国各地，传统炒货",
     description:
@@ -227,7 +227,7 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 7,
+    popularity: 8,
   },
   {
     id: "batch7-national-31",
@@ -237,7 +237,7 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     category: "小吃",
     taste: "咸鲜",
     type: "popular",
-    cuisine: "其他",
+    cuisine: "国民美食",
     province: "全国",
     origin: "中国全国各地，传统炒货",
     description:
@@ -258,7 +258,7 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     category: "小吃",
     taste: "咸鲜",
     type: "popular",
-    cuisine: "其他",
+    cuisine: "国民美食",
     province: "全国",
     origin: "中国全国各地，传统卤味",
     description:
@@ -266,11 +266,11 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     ingredients: ["鹌鹑蛋", "酱油", "八角", "桂皮", "糖"],
     cookingMethod: ["卤", "煮"],
     tags: ["国民美食", "小吃", "卤味", "全国流行", "粘糯"],
-    fame: "热门",
+    fame: "地方名吃",
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 7,
+    popularity: 6,
   },
   {
     id: "batch7-national-34",
@@ -280,7 +280,7 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     category: "小吃",
     taste: "咸鲜",
     type: "popular",
-    cuisine: "其他",
+    cuisine: "国民美食",
     province: "全国",
     origin: "中国全国各地，传统豆制品",
     description:
@@ -303,7 +303,7 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     category: "汤羹",
     taste: "清淡",
     type: "traditional",
-    cuisine: "其他",
+    cuisine: "国民美食",
     province: "全国",
     origin: "中国北方及全国各地",
     description:
@@ -315,7 +315,7 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     popularRegions: ["全国"],
     lat: 35.0,
     lng: 105.0,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "batch7-national-40",
@@ -325,7 +325,7 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     category: "汤羹",
     taste: "清淡",
     type: "traditional",
-    cuisine: "其他",
+    cuisine: "国民美食",
     province: "全国",
     origin: "中国全国各地，传统主食",
     description:
@@ -359,7 +359,7 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     popularRegions: ["全国"],
     lat: 39.0842,
     lng: 117.2009,
-    popularity: 9,
+    popularity: 10,
   },
   {
     id: "batch7-national-43",
@@ -382,7 +382,7 @@ export const FOODS_BATCH7_NATIONAL: Food[] = [  {
     popularRegions: ["全国"],
     lat: 35.1045,
     lng: 118.3564,
-    popularity: 10,
+    popularity: 9,
   },
 
   {

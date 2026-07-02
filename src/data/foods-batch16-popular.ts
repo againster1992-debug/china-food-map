@@ -31,7 +31,7 @@ export const FOODS_BATCH16_POPULAR: Food[] = [
     popularRegions: ["淄博", "山东", "全国"],
     lat: 36.8131,
     lng: 118.0548,
-    popularity: 9,
+    popularity: 10,
   },
   
   // ========== 世界美食之都特色补充 ==========
@@ -85,7 +85,7 @@ export const FOODS_BATCH16_POPULAR: Food[] = [
     popularRegions: ["南昌", "江西"],
     lat: 28.6820,
     lng: 115.8579,
-    popularity: 9,
+    popularity: 8,
   },
   {
     id: "batch16-popular-19",
@@ -103,7 +103,7 @@ export const FOODS_BATCH16_POPULAR: Food[] = [
     ingredients: ["面条", "沙茶酱", "花生", "芝麻", "虾皮"],
     cookingMethod: ["煮"],
     tags: ["咸鲜", "面食", "闽菜", "厦门", "沙茶"],
-    fame: "热门",
+    fame: "名菜",
     popularRegions: ["厦门", "福建"],
     lat: 24.4795,
     lng: 118.0894,

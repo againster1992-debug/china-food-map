@@ -557,28 +557,7 @@ export const FOODS_BATCH28_HOT100: Food[] = [
   popularity: 7,
 },
 
-{
-  id: "batch28-hot-072",
-  name: "油泼扯面",
-  alias: ["扯面","关中扯面"],
-  image: "https://img0.baidu.com/it/u=3461148380,727548954&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=667",
-  category: "面食",
-  taste: "酸辣",
-  type: "popular",
-  cuisine: "西北菜",
-  province: "陕西",
-  city: "西安",
-  origin: "陕西西安陕西面食顶流",
-  description: "油泼扯面以手工扯成宽如裤带的面条煮熟，泼热油辣椒面醋。「面条像裤带」是关中八大怪之一，筋道爽滑酸辣过瘾，是陕西面食顶流。",
-  ingredients: ["面粉","辣椒","醋","葱","盐"],
-  cookingMethod: ["煮","泼"],
-  tags: ["酸辣", "面食", "西北菜", "陕西", "西安", "油泼", "裤带面", "顶流"],
-  fame: "热门",
-  popularRegions: ["陕西","全国"],
-  lat: 34.3416,
-  lng: 108.9398,
-  popularity: 7,
-},
+// 「油泼扯面」已合并至「油泼面」(foods-southwest-northwest.ts snx-6) - 同物异名
 {
   id: "batch28-hot-073",
   name: "保定牛肉罩饼",
@@ -626,7 +605,7 @@ export const FOODS_BATCH28_HOT100: Food[] = [
   {
   id: "batch28-hot-090",
   name: "阿勒泰奶疙瘩",
-  alias: ["阿勒泰奶疙瘩"],
+  alias: ["奶疙瘩"],
   image: "https://img2.baidu.com/it/u=2868845124,3648470856&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1067",
   category: "小吃",
   taste: "酸甜",

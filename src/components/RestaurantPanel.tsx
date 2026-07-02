@@ -168,7 +168,7 @@ export default function RestaurantPanel() {
       />
 
       {/* 面板 */}
-      <aside className="fixed right-0 top-16 z-[1201] flex h-[calc(100%-4rem)] w-full max-w-md flex-col animate-slide-in-right border-l border-ochre-500/20 bg-paper-50/95 shadow-panel backdrop-blur-md">
+      <aside className="fixed right-0 top-16 z-[1201] flex h-[calc(100%-4rem)] w-full max-w-sm flex-col animate-slide-in-right border-l border-ochre-500/20 bg-paper-50/95 shadow-panel backdrop-blur-md">
         {/* 头部 */}
         <div className="relative overflow-hidden border-b border-ochre-500/15 bg-gradient-to-br from-cinnabar-500/10 to-ochre-500/5 px-5 py-5">
           <div className="flex items-start justify-between">

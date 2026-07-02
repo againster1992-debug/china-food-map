@@ -96,7 +96,7 @@ export const FOODS_BATCH19_CUISINE_TRENDS: Food[] = [
     popularRegions: ["海南", "全国"],
     lat: 20.0444,
     lng: 110.1989,
-    popularity: 9,
+    popularity: 7,
   },
   {
     id: "batch19-hainan-3",
@@ -187,7 +187,7 @@ export const FOODS_BATCH19_CUISINE_TRENDS: Food[] = [
     popularRegions: ["河北", "京津冀"],
     lat: 38.874,
     lng: 115.4646,
-    popularity: 9,
+    popularity: 7,
   },
   {
     id: "batch19-hebei-2",

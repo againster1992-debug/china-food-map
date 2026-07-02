@@ -43,7 +43,6 @@ export default function FilterPanel() {
 
   const [ingredientSearch, setIngredientSearch] = useState("");
   const [methodSearch, setMethodSearch] = useState("");
-  const [showAllCuisines, setShowAllCuisines] = useState(false);
   const [showResults, setShowResults] = useState(true);
 
   if (!filterPanelOpen) return null;
@@ -73,14 +72,15 @@ export default function FilterPanel() {
     m.toLowerCase().includes(methodSearch.toLowerCase()),
   );
 
-  // 菜系分组
-  const eightCuisines = CUISINES.filter((c) => EIGHT_CUISINES.includes(c));
-  const otherCuisines = CUISINES.filter(
+  // 菜系分组：四大菜系、八大菜系（续）、其他菜系
+  const fourCuisinesList = CUISINES.filter((c) => FOUR_CUISINES.includes(c));
+  const eightRestList = CUISINES.filter(
+    (c) => EIGHT_CUISINES.includes(c) && !FOUR_CUISINES.includes(c),
+  );
+  const otherCuisinesList = CUISINES.filter(
     (c) => !EIGHT_CUISINES.includes(c) && c !== "其他",
   );
-  const visibleCuisines = showAllCuisines
-    ? CUISINES
-    : [...eightCuisines, ...otherCuisines.slice(0, 6)];
+  const otherSpecialList = CUISINES.filter((c) => c === "其他");
 
   return (
     <>
@@ -91,7 +91,7 @@ export default function FilterPanel() {
       />
 
       {/* 面板 */}
-      <aside className="fixed right-0 top-16 z-[1201] flex h-[calc(100%-4rem)] w-full max-w-md flex-col animate-slide-in-right border-l border-ochre-500/20 bg-paper-50/95 shadow-panel backdrop-blur-md">
+      <aside className="fixed right-0 top-16 z-[1201] flex h-[calc(100%-4rem)] w-full max-w-sm flex-col animate-slide-in-right border-l border-ochre-500/20 bg-paper-50/95 shadow-panel backdrop-blur-md">
         {/* 头部 */}
         <div className="flex items-center justify-between border-b border-ochre-500/15 px-5 py-4">
           <div>
@@ -190,15 +190,16 @@ export default function FilterPanel() {
             <h3 className="mb-3 flex items-center gap-2 font-serif text-sm font-semibold text-ink-900">
               <span className="h-3 w-1 rounded-full bg-cinnabar-500" />
               菜系
-              <span className="ml-1 font-sans text-[10px] font-normal text-ink-400">
-                （红色为四大菜系，加粗为八大菜系）
-              </span>
             </h3>
-            <div className="flex flex-wrap gap-2">
-              {visibleCuisines.map((c) => {
+
+            {/* 四大菜系 */}
+            <div className="mb-1.5 flex items-center gap-1.5">
+              <span className="h-2 w-2 rounded-full bg-cinnabar-500" />
+              <span className="font-serif text-xs font-semibold text-cinnabar-600">四大菜系</span>
+            </div>
+            <div className="mb-3 flex flex-wrap gap-2">
+              {fourCuisinesList.map((c) => {
                 const isActive = filterCuisines.includes(c);
-                const isFour = FOUR_CUISINES.includes(c);
-                const isEight = EIGHT_CUISINES.includes(c);
                 return (
                   <button
                     key={c}
@@ -206,11 +207,7 @@ export default function FilterPanel() {
                     className={`rounded-full px-3 py-1.5 font-serif text-xs transition-all ${
                       isActive
                         ? "bg-cinnabar-500 text-paper-50 shadow-seal"
-                        : isFour
-                          ? "border border-cinnabar-500/40 bg-cinnabar-50/40 font-medium text-cinnabar-600 hover:bg-cinnabar-50"
-                          : isEight
-                            ? "border border-ochre-500/30 bg-paper-100/60 font-medium text-ink-800 hover:bg-paper-200"
-                            : "border border-ochre-500/20 bg-paper-100/60 text-ink-700 hover:bg-paper-200"
+                        : "border border-cinnabar-500/40 bg-cinnabar-50/40 font-medium text-cinnabar-600 hover:bg-cinnabar-50"
                     }`}
                   >
                     {c}
@@ -218,24 +215,54 @@ export default function FilterPanel() {
                 );
               })}
             </div>
-            {!showAllCuisines && otherCuisines.length > 6 && (
-              <button
-                onClick={() => setShowAllCuisines(true)}
-                className="mt-2 flex items-center gap-1 font-sans text-[11px] text-indigo2-600 hover:text-indigo2-700"
-              >
-                <ChevronDown size={12} />
-                展开全部菜系（{CUISINES.length}种）
-              </button>
-            )}
-            {showAllCuisines && (
-              <button
-                onClick={() => setShowAllCuisines(false)}
-                className="mt-2 flex items-center gap-1 font-sans text-[11px] text-indigo2-600 hover:text-indigo2-700"
-              >
-                <ChevronDown size={12} className="rotate-180" />
-                收起
-              </button>
-            )}
+
+            {/* 八大菜系（续） */}
+            <div className="mb-1.5 flex items-center gap-1.5">
+              <span className="h-2 w-2 rounded-full bg-ochre-500" />
+              <span className="font-serif text-xs font-semibold text-ochre-600">八大菜系</span>
+            </div>
+            <div className="mb-3 flex flex-wrap gap-2">
+              {eightRestList.map((c) => {
+                const isActive = filterCuisines.includes(c);
+                return (
+                  <button
+                    key={c}
+                    onClick={() => toggleCuisine(c)}
+                    className={`rounded-full px-3 py-1.5 font-serif text-xs transition-all ${
+                      isActive
+                        ? "bg-cinnabar-500 text-paper-50 shadow-seal"
+                        : "border border-ochre-500/30 bg-ochre-50/30 font-medium text-ochre-700 hover:bg-ochre-50"
+                    }`}
+                  >
+                    {c}
+                  </button>
+                );
+              })}
+            </div>
+
+            {/* 其他菜系 */}
+            <div className="mb-1.5 flex items-center gap-1.5">
+              <span className="h-2 w-2 rounded-full bg-ink-400" />
+              <span className="font-serif text-xs font-semibold text-ink-500">其他菜系</span>
+            </div>
+            <div className="flex flex-wrap gap-2">
+              {[...otherCuisinesList, ...otherSpecialList].map((c) => {
+                const isActive = filterCuisines.includes(c);
+                return (
+                  <button
+                    key={c}
+                    onClick={() => toggleCuisine(c)}
+                    className={`rounded-full px-3 py-1.5 font-serif text-xs transition-all ${
+                      isActive
+                        ? "bg-cinnabar-500 text-paper-50 shadow-seal"
+                        : "border border-ochre-500/20 bg-paper-100/60 text-ink-700 hover:bg-paper-200"
+                    }`}
+                  >
+                    {c}
+                  </button>
+                );
+              })}
+            </div>
           </section>
 
           {/* 分类筛选 */}
@@ -401,11 +428,27 @@ export default function FilterPanel() {
             <ul className="space-y-1.5 font-sans text-[11px] leading-relaxed text-ink-400">
               <li>
                 <span className="font-semibold text-cinnabar-600">传统美食</span>
-                ：着重本土发源、历史传承的经典菜品
+                ：本地具有历史的传统美食和特产
               </li>
               <li>
                 <span className="font-semibold text-indigo2-600">流行美食</span>
-                ：当下在各地流行的美食，不限于本土
+                ：近期流行起来的非传统美食
+              </li>
+              <li>
+                <span className="font-semibold text-emerald-600">饮食传统</span>
+                ：藏族逛林卡、哈尼族长桌宴、清明吃青团等饮食传统和文化
+              </li>
+              <li>
+                <span className="font-semibold text-cinnabar-600">名菜</span>
+                ：具有一定历史并兼具热度的经典菜品
+              </li>
+              <li>
+                <span className="font-semibold text-orange-500">热门</span>
+                ：当下热度较高的美食
+              </li>
+              <li>
+                <span className="font-semibold text-indigo2-600">地方名吃</span>
+                ：本地传统，知名度相对较低
               </li>
               <li>菜系不限于八大菜系，按公认分类标注</li>
             </ul>

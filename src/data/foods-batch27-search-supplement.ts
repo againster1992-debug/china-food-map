@@ -31,7 +31,7 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   category: "面食",
   taste: "咸鲜",
   type: "traditional",
-  cuisine: "西北菜",
+  cuisine: "清真菜",
   province: "宁夏",
   city: "固原",
   origin: "宁夏固原回族传统面食",
@@ -65,7 +65,7 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   popularRegions: ["宁夏","西北"],
   lat: 38.9841,
   lng: 106.3841,
-  popularity: 8
+  popularity: 7
 },
 
 {
@@ -88,7 +88,7 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   popularRegions: ["宁夏","西北"],
   lat: 37.7833,
   lng: 107.4072,
-  popularity: 8
+  popularity: 7
 },
 
 {
@@ -111,7 +111,7 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   popularRegions: ["青海","西藏"],
   lat: 33.0052,
   lng: 97.0088,
-  popularity: 8
+  popularity: 7
 },
 
 {
@@ -289,7 +289,7 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   ingredients: ["豆腐","米粉","辣椒酱","葱","蒜"],
   cookingMethod: ["蒸"],
   tags: ["咸鲜","小吃","豆腐","蒸制","重庆","忠县","石宝寨","素食","嫩滑","地方名吃"],
-  fame: "地方名吃",
+  fame: "普通",
   popularRegions: ["重庆"],
   lat: 30.2995,
   lng: 108.0375,
@@ -370,7 +370,7 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   category: "主菜",
   taste: "复合",
   type: "traditional",
-  cuisine: "其他",
+  cuisine: "澳门土生菜",
   province: "澳门",
     city: "澳门",
   origin: "澳门特色咖喱，融合葡式与东南亚风味",
@@ -616,7 +616,7 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   type: "popular",
   cuisine: "蒙餐",
   province: "内蒙古",
-  city: "锡林郭勒",
+  city: "通辽",
   origin: "内蒙古通辽科尔沁草原肥牛火锅",
   description: "通辽科尔沁肥牛火锅以科尔沁草原出产的肥牛肉为主料，牛肉大理石花纹分明，涮煮几秒即熟，入口即化奶香浓郁，是内蒙古火锅的代表。",
   ingredients: ["牛肉","蔬菜","蘸料"],
@@ -800,7 +800,7 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   ingredients: ["玉米面","鸡蛋","韭菜","酱油","醋"],
   cookingMethod: ["炒"],
   tags: ["酸甜","小吃","玉米面","发酵","辽宁","丹东","满族","筋道","酸香","地方名吃"],
-  fame: "地方名吃",
+  fame: "普通",
   popularRegions: ["辽宁"],
   lat: 40.0008,
   lng: 124.3547,
@@ -889,7 +889,7 @@ export const FOODS_BATCH27_SEARCH_SUPPLEMENT: Food[] = [
   ingredients: ["大米","碱水","蔬菜","鸡蛋","酱油"],
   cookingMethod: ["蒸","炒"],
   tags: ["咸鲜","小吃","大米","碱水","江西","景德镇","Q弹","爽滑","传统","地方名吃"],
-  fame: "地方名吃",
+  fame: "普通",
   popularRegions: ["江西"],
   lat: 29.2942,
   lng: 117.1784,

@@ -65,7 +65,7 @@ export const FOODS_PASTRIES: Food[] = [
     ingredients: ["面粉", "红豆", "糖", "猪肉", "芝麻"],
     cookingMethod: ["烤"],
     tags: ["糕点", "街头小吃", "红豆沙", "传统", "粘糯", "绵软"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["上海"],
     lat: 31.2304,
     lng: 121.4737,
@@ -88,7 +88,7 @@ export const FOODS_PASTRIES: Food[] = [
     ingredients: ["面粉", "猪肉", "红豆"],
     cookingMethod: ["包", "炸"],
     tags: ["糕点", "酥点", "传统", "粘糯", "绵软"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["浙江"],
     lat: 30.2741,
     lng: 120.1551,
@@ -111,7 +111,7 @@ export const FOODS_PASTRIES: Food[] = [
     ingredients: ["芝麻", "面粉", "糖", "香油"],
     cookingMethod: ["包", "烤"],
     tags: ["糕点", "黑芝麻", "传统", "粘糯", "绵软"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["安徽"],
     lat: 30.5319,
     lng: 117.1151,
@@ -134,7 +134,7 @@ export const FOODS_PASTRIES: Food[] = [
     ingredients: ["糯米", "糖", "猪肉", "桂皮"],
     cookingMethod: ["蒸"],
     tags: ["糕点", "粘糯", "传统", "酥脆", "甜", "湘菜", "湖南"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["湖南"],
     lat: 27.8297,
     lng: 112.9447,
@@ -146,7 +146,7 @@ export const FOODS_PASTRIES: Food[] = [
     alias: ["广东鸡仔饼"],
     image: "https://img2.baidu.com/it/u=1425308840,3922011458&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=649",
     category: "糕点",
-    taste: "咸鲜",
+    taste: "咸甜",
     type: "traditional",
     cuisine: "粤菜",
     province: "广东",
@@ -180,11 +180,11 @@ export const FOODS_PASTRIES: Food[] = [
     ingredients: ["糯米", "糖", "猪肉", "芝麻"],
     cookingMethod: ["拌", "蒸"],
     tags: ["糕点", "贡品", "传统", "酥脆", "甜", "桂菜", "广西"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["广西"],
     lat: 24.3265,
     lng: 109.4286,
-    popularity: 7,
+    popularity: 5,
   },
   {
     id: "pastry-28",
@@ -226,7 +226,7 @@ export const FOODS_PASTRIES: Food[] = [
     ingredients: ["糯米", "芝麻", "花生", "糖"],
     cookingMethod: ["熬", "包", "切"],
     tags: ["糕点", "镇宁", "贡品", "传统", "粘糯"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["贵州"],
     lat: 26.2455,
     lng: 105.7683,
@@ -249,7 +249,7 @@ export const FOODS_PASTRIES: Food[] = [
     ingredients: ["面粉", "芝麻", "花生", "糖", "玫瑰"],
     cookingMethod: ["发酵", "包", "烤"],
     tags: ["主食", "古镇", "传统", "酥脆", "香甜", "滇菜", "云南"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["云南"],
     lat: 25.009,
     lng: 102.7612,
@@ -272,7 +272,7 @@ export const FOODS_PASTRIES: Food[] = [
     ingredients: ["酥油", "奶渣", "糖"],
     cookingMethod: ["炒", "揉"],
     tags: ["主食", "青稞", "藏族", "传统", "绵软"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["西藏"],
     lat: 29.65,
     lng: 91.1,
@@ -295,7 +295,7 @@ export const FOODS_PASTRIES: Food[] = [
     ingredients: ["面粉", "猪肉", "糖"],
     cookingMethod: ["包", "烤"],
     tags: ["糕点", "酥皮", "传统", "绵软", "香甜", "西北菜", "陕西"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["陕西"],
     lat: 34.3416,
     lng: 108.9398,
@@ -309,7 +309,7 @@ export const FOODS_PASTRIES: Food[] = [
     category: "糕点",
     taste: "甜",
     type: "traditional",
-    cuisine: "西北菜",
+    cuisine: "清真菜",
     province: "甘肃",
     city: "兰州",
     origin: "甘肃兰州传统年节油炸食品",
@@ -317,8 +317,8 @@ export const FOODS_PASTRIES: Food[] = [
       "油果子以面粉加鸡蛋、白糖、蜂蜜、油和成面团，搓成细条拧成各种花样，油炸至金黄酥脆。口感香甜酥脆，是兰州及西北地区春节、开斋节的传统食品。油果子种类繁多，有套环、麻花、馓子等，体现了西北面食的丰富与节庆气氛。",
     ingredients: ["面粉", "鸡蛋", "糖", "蜂蜜", "食用油"],
     cookingMethod: ["揉", "炸"],
-    tags: ["糕点", "油炸", "年节", "酥脆", "甜", "西北菜", "甘肃"],
-    fame: "地方名吃",
+    tags: ["糕点", "油炸", "年节", "酥脆", "甜", "清真菜", "甘肃"],
+    fame: "普通",
     popularRegions: ["甘肃"],
     lat: 36.0611,
     lng: 103.8343,
@@ -341,7 +341,7 @@ export const FOODS_PASTRIES: Food[] = [
     ingredients: ["杏仁", "糖", "蜂蜜"],
     cookingMethod: ["熬", "拌"],
     tags: ["糕点", "坚果", "传统", "焦香", "绵软"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["新疆"],
     lat: 39.4704,
     lng: 75.9896,
@@ -365,7 +365,7 @@ export const FOODS_PASTRIES: Food[] = [
     "ingredients": ["糯米", "茯苓", "糖"],
     "cookingMethod": ["筛粉", "蒸", "切"],
     tags: ["糕点", "闽菜", "药食同源", "茶点", "香甜", "福建"],
-    "fame": "地方名吃",
+    "fame": "普通",
     "popularRegions": [
       "福建"
     ],
@@ -418,7 +418,7 @@ export const FOODS_PASTRIES: Food[] = [
     "ingredients": ["面粉", "豆腐乳", "花生", "芝麻", "糖"],
     "cookingMethod": ["酿", "包", "烤"],
     "tags": ["糕点", "潮菜", "茶点", "咸甜", "酥脆"],
-    "fame": "地方名吃",
+    "fame": "普通",
     "popularRegions": [
       "广东",
       "福建"
@@ -445,7 +445,7 @@ export const FOODS_PASTRIES: Food[] = [
     "ingredients": ["糯米", "糖", "橘子"],
     "cookingMethod": ["蒸", "揉", "切"],
     "tags": ["糕点", "浙菜", "糯点", "茶点", "绵软"],
-    "fame": "地方名吃",
+    "fame": "普通",
     "popularRegions": [
       "浙江",
       "上海"
@@ -473,7 +473,7 @@ export const FOODS_PASTRIES: Food[] = [
     "ingredients": ["糯米", "芝麻", "黄豆粉", "糖"],
     "cookingMethod": ["包", "煮", "滚"],
     "tags": ["甜品", "本帮菜", "糯米", "豆粉", "劲道"],
-    "fame": "地方名吃",
+    "fame": "普通",
     "popularRegions": [
       "上海",
       "江苏"
@@ -500,7 +500,7 @@ export const FOODS_PASTRIES: Food[] = [
     "ingredients": ["糯米", "米粉", "薄荷", "糖"],
     "cookingMethod": ["调", "蒸"],
     "tags": ["糕点", "本帮菜", "夏令", "清凉", "酥脆"],
-    "fame": "地方名吃",
+    "fame": "普通",
     "popularRegions": [
       "上海",
       "江苏"
@@ -523,7 +523,7 @@ export const FOODS_PASTRIES: Food[] = [
     "ingredients": ["糯米", "奶油", "糖"],
     "cookingMethod": ["蒸", "包"],
     "tags": ["月饼", "冰皮", "中秋", "清爽", "粘糯", "劲道"],
-    "fame": "热门",
+    "fame": "普通",
     "popularRegions": [
       "香港",
       "全国"
@@ -547,7 +547,7 @@ export const FOODS_PASTRIES: Food[] = [
     "ingredients": ["核桃", "杏仁", "瓜子", "芝麻"],
     "cookingMethod": ["包", "烤"],
     "tags": ["月饼", "五仁", "广式", "中秋", "传统", "粘糯", "劲道"],
-    "fame": "地方名吃",
+    "fame": "普通",
     "popularRegions": [
       "广东",
       "全国"
@@ -571,7 +571,7 @@ export const FOODS_PASTRIES: Food[] = [
     "ingredients": ["莲子", "鸡蛋", "糖", "油"],
     "cookingMethod": ["包", "烤"],
     "tags": ["月饼", "莲蓉", "蛋黄", "广式", "中秋", "粘糯"],
-    "fame": "地方名吃",
+    "fame": "普通",
     "popularRegions": [
       "广东",
       "全国"
@@ -600,7 +600,7 @@ export const FOODS_PASTRIES: Food[] = [
     ],
     "cookingMethod": ["包", "烤"],
     "tags": ["月饼", "豆沙", "广式", "中秋", "甜品", "粘糯"],
-    "fame": "地方名吃",
+    "fame": "普通",
     "popularRegions": [
       "广东",
       "全国"
@@ -728,7 +728,7 @@ export const FOODS_PASTRIES: Food[] = [
     "ingredients": ["椰子", "吉利丁", "糖"],
     "cookingMethod": ["冻"],
     tags: ["椰香", "甜品", "热带", "甜", "琼菜", "海南"],
-    "fame": "热门",
+    "fame": "地方名吃",
     "popularRegions": [
       "海南",
       "全国"
@@ -757,7 +757,7 @@ export const FOODS_PASTRIES: Food[] = [
     ],
     "cookingMethod": ["煎", "包"],
     "tags": ["班戟", "芒果", "港式", "甜品", "奶油", "粘糯"],
-    "fame": "地方名吃",
+    "fame": "普通",
     "popularRegions": [
       "香港",
       "全国"
@@ -807,7 +807,7 @@ export const FOODS_PASTRIES: Food[] = [
     "ingredients": ["面粉", "猪肉", "豆沙", "芝麻"],
     "cookingMethod": ["烤"],
     "tags": ["朥饼", "潮菜", "糕点", "中秋", "粘糯"],
-    "fame": "热门",
+    "fame": "普通",
     "popularRegions": [
       "广东",
       "全国"
@@ -831,7 +831,7 @@ export const FOODS_PASTRIES: Food[] = [
     "ingredients": ["大米", "牛奶", "糖"],
     "cookingMethod": ["煮"],
     "tags": ["滇菜", "甜品", "米浆", "酥脆"],
-    "fame": "热门",
+    "fame": "普通",
     "popularRegions": [
       "云南",
       "全国"
@@ -879,7 +879,7 @@ export const FOODS_PASTRIES: Food[] = [
     "ingredients": ["面粉", "猪肉", "芝麻", "葱"],
     "cookingMethod": ["烤"],
     tags: ["苏菜", "同里", "酥饼", "咸鲜", "糕点", "江苏"],
-    "fame": "热门",
+    "fame": "普通",
     "popularRegions": [
       "江苏",
       "全国"
@@ -929,7 +929,7 @@ export const FOODS_PASTRIES: Food[] = [
     "ingredients": ["面粉", "绿豆", "食用油", "糖"],
     "cookingMethod": ["烤"],
     "tags": ["素饼", "闽菜", "南普陀", "素食", "劲道"],
-    "fame": "热门",
+    "fame": "普通",
     "popularRegions": [
       "福建",
       "全国"
@@ -977,7 +977,7 @@ export const FOODS_PASTRIES: Food[] = [
     "ingredients": ["面粉", "芝麻", "糖", "食用油"],
     "cookingMethod": ["烤"],
     "tags": ["麻片", "鲁菜", "即墨", "芝麻", "酥脆", "传统点心", "粘糯"],
-    "fame": "地方名吃",
+    "fame": "普通",
     "popularRegions": [
       "山东"
     ],
@@ -1001,7 +1001,7 @@ export const FOODS_PASTRIES: Food[] = [
     "ingredients": ["大米", "糖"],
     "cookingMethod": ["蒸"],
     "tags": ["闽菜", "民俗", "蒸糕", "吉祥", "酥脆"],
-    "fame": "地方名吃",
+    "fame": "普通",
     "popularRegions": [
       "福建"
     ],
@@ -1012,7 +1012,7 @@ export const FOODS_PASTRIES: Food[] = [
   },
   {
     "id": "gen3-f-2025-59",
-    "name": "宁波溪口千层饼",
+    "name": "溪口千层饼",
     "category": "糕点",
     "taste": "咸鲜",
     "type": "traditional",
@@ -1020,8 +1020,8 @@ export const FOODS_PASTRIES: Food[] = [
     "province": "浙江",
     "city": "宁波",
     "origin": "奉化溪口特产，清代贡品",
-    "description": "宁波溪口千层饼以面粉、苔菜、芝麻制成，一块饼含二十多层酥皮，薄如蝉翼。苔菜清香与芝麻香交融，咸甜交织，酥到掉渣。奉化溪口特产，清代曾为贡品，是浙江最具特色的传统糕点之一。",
-    "ingredients": ["面粉", "紫菜", "芝麻", "糖", "猪肉"],
+    "description": "溪口千层饼以面粉、苔菜、芝麻制成，一块饼含二十多层酥皮，薄如蝉翼。苔菜清香与芝麻香交融，咸甜交织，酥到掉渣。奉化溪口特产，清代曾为贡品，是浙江最具特色的传统糕点之一。",
+    "ingredients": ["面粉", "苔菜", "芝麻", "糖"],
     "cookingMethod": ["烤"],
     "tags": ["千层饼", "浙菜", "苔菜", "酥皮", "清代贡品", "酥脆"],
     "fame": "地方名吃",
@@ -1047,7 +1047,7 @@ export const FOODS_PASTRIES: Food[] = [
     "ingredients": ["面粉", "糖", "食用油", "鸡蛋", "核桃"],
     "cookingMethod": ["烤"],
     "tags": ["糕点", "酥脆", "赣菜", "传统", "伴手礼", "绵软"],
-    "fame": "热门",
+    "fame": "地方名吃",
     "popularRegions": [
       "江西",
       "全国"
@@ -1071,7 +1071,7 @@ export const FOODS_PASTRIES: Food[] = [
     "ingredients": ["糖", "花生", "芝麻", "椰子", "淀粉"],
     "cookingMethod": ["拉", "裹"],
     "tags": ["糖", "糕点", "传统", "宫廷", "手工", "粘糯", "劲道"],
-    "fame": "地方名吃",
+    "fame": "普通",
     "popularRegions": [
       "陕西",
       "四川",
@@ -1096,7 +1096,7 @@ export const FOODS_PASTRIES: Food[] = [
     "ingredients": ["猪肉", "面粉", "葱"],
     "cookingMethod": ["烤"],
     "tags": ["月饼", "鲜肉", "苏式", "中秋", "酥皮", "酥脆"],
-    "fame": "热门",
+    "fame": "地方名吃",
     "popularRegions": [
       "江苏",
       "全国"

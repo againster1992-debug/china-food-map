@@ -155,13 +155,21 @@ export interface FilterState {
 export const FAME_TYPES: Fame[] = ["名菜", "热门", "地方名吃", "普通"];
 
 // 根据 popularity 和 type 推断 fame（用于没有显式设置 fame 的旧数据）
+// 热门：当下热度较高的美食（流行美食 pop>=7）
+// 名菜：具有历史且兼具热度（传统/饮食传统 pop>=7）
+// 地方名吃：本地传统，知名度相对较低（pop 4-6）
+// 普通：知名度较低（pop<=3）
 export function inferFame(food: Food): Fame {
   if (food.fame) return food.fame;
   const pop = food.popularity || 5;
-  if (pop >= 9) return food.type === "popular" ? "热门" : "名菜";
-  if (pop >= 7 && food.type === "popular") return "热门";
+  if (food.type === "popular") {
+    if (pop >= 7) return "热门";
+    if (pop >= 4) return "地方名吃";
+    return "普通";
+  }
+  // traditional 或 tradition
   if (pop >= 7) return "名菜";
-  if (pop >= 5) return "地方名吃";
+  if (pop >= 4) return "地方名吃";
   return "普通";
 }
 

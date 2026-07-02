@@ -46,7 +46,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["全国"],
     lat: 36.6512,
     lng: 117.12,
-    popularity: 10,
+    popularity: 9,
   },
   {
     id: "famous-3",
@@ -116,7 +116,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["山东", "全国"],
     lat: 36.6512,
     lng: 117.12,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "famous-7",
@@ -139,7 +139,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["山东", "华北"],
     lat: 36.6512,
     lng: 117.12,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "famous-8",
@@ -233,7 +233,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["四川", "全国"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 9,
+    popularity: 8,
   },
   {
     id: "famous-12",
@@ -256,7 +256,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["四川", "全国"],
     lat: 31.209,
     lng: 107.468,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "famous-13",
@@ -302,7 +302,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["四川", "全国"],
     lat: 30.5728,
     lng: 104.0668,
-    popularity: 9,
+    popularity: 8,
   },
   {
     id: "famous-15",
@@ -355,7 +355,7 @@ export const FOODS_FAMOUS: Food[] = [
     name: "口水鸡",
     alias: ["红油口水鸡"],
     image: "https://img0.baidu.com/it/u=1565457354,1376345059&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=640",
-    category: "主菜",
+    category: "凉菜",
     taste: "麻辣",
     type: "traditional",
     cuisine: "川菜",
@@ -514,7 +514,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["江苏"],
     lat: 31.4912,
     lng: 120.3119,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "famous-25",
@@ -537,7 +537,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["江苏"],
     lat: 31.2989,
     lng: 120.5853,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "famous-26",
@@ -560,7 +560,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["江苏"],
     lat: 31.4912,
     lng: 120.3119,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "famous-27",
@@ -732,7 +732,7 @@ export const FOODS_FAMOUS: Food[] = [
     alias: ["梅干菜焖肉"],
     image: "https://img2.baidu.com/it/u=138352753,216106414&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=654",
     category: "主菜",
-    taste: "咸鲜",
+    taste: "咸甜",
     type: "traditional",
     cuisine: "浙菜",
     province: "浙江",
@@ -929,11 +929,11 @@ export const FOODS_FAMOUS: Food[] = [
     ingredients: ["鱼肉", "萝卜", "鸡肉", "火腿"],
     cookingMethod: ["蒸"],
     tags: ["干贝", "闽菜经典", "福州名菜", "造型菜", "宴席菜", "清鲜", "爽脆"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["福建"],
     lat: 26.0745,
     lng: 119.2965,
-    popularity: 8,
+    popularity: 6,
   },
 
   // ========== 湘菜 ==========
@@ -977,7 +977,7 @@ export const FOODS_FAMOUS: Food[] = [
     ingredients: ["鱼肉", "鸡肉", "猪肉", "火腿", "料酒"],
     cookingMethod: ["煨"],
     tags: ["鱼翅", "湘菜经典", "长沙名菜", "官府菜", "宴席菜", "煨"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["湖南"],
     lat: 28.2278,
     lng: 112.9388,
@@ -1023,7 +1023,7 @@ export const FOODS_FAMOUS: Food[] = [
     ingredients: ["鸡蛋", "蘑菇", "鸡肉", "火腿"],
     cookingMethod: ["蒸", "烧"],
     tags: ["鸡蛋", "湘菜经典", "长沙名菜", "功夫菜", "宴席菜", "清淡"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["湖南"],
     lat: 28.2278,
     lng: 112.9388,
@@ -1140,7 +1140,7 @@ export const FOODS_FAMOUS: Food[] = [
     ingredients: ["豆腐", "虾", "香菇", "笋", "鸡肉"],
     cookingMethod: ["煮"],
     tags: ["豆腐", "徽菜经典", "祁门名菜", "汤羹", "清淡", "宴席菜", "酥脆"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["安徽"],
     lat: 29.715,
     lng: 118.3386,
@@ -1163,7 +1163,7 @@ export const FOODS_FAMOUS: Food[] = [
     ingredients: ["鸡肉", "芥菜", "笋", "酱油", "料酒"],
     cookingMethod: ["烧"],
     tags: ["山鸡", "徽菜经典", "徽州名菜", "山珍", "时令菜", "红烧"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["安徽"],
     lat: 29.715,
     lng: 118.3386,
@@ -1179,7 +1179,7 @@ export const FOODS_FAMOUS: Food[] = [
     category: "主菜",
     taste: "香甜",
     type: "traditional",
-    cuisine: "京菜",
+    cuisine: "清真菜",
     province: "北京",
     city: "北京",
     origin: "清宫廷御膳，慈禧赐名「它似蜜」",
@@ -1187,7 +1187,7 @@ export const FOODS_FAMOUS: Food[] = [
       "它似蜜以羊后腿肉切片，上浆滑炒，浇甜酱。肉质软嫩，甜香如蜜，故名「它似蜜」。是清宫御膳名菜，据传慈禧食后大悦赐名。是京菜宫廷菜代表，将羊肉的鲜与蜜汁的甜巧妙结合，风味独特。",
     ingredients: ["羊肉", "甜面酱", "糖", "醋", "淀粉"],
     cookingMethod: ["炒"],
-    tags: ["羊肉", "京菜经典", "宫廷菜", "甜香", "慈禧", "宴席菜"],
+    tags: ["羊肉", "清真菜", "宫廷菜", "甜香", "慈禧", "宴席菜"],
     fame: "地方名吃",
     popularRegions: ["北京"],
     lat: 39.9042,
@@ -1280,7 +1280,7 @@ export const FOODS_FAMOUS: Food[] = [
     ingredients: ["虾", "鸡蛋", "火腿", "鸡肉"],
     cookingMethod: ["蒸", "烧"],
     tags: ["虾仁", "京菜经典", "宫廷菜", "造型菜", "慈禧", "宴席菜", "嫩滑"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["北京"],
     lat: 39.9042,
     lng: 116.4074,
@@ -1476,7 +1476,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["内蒙古"],
     lat: 40.8426,
     lng: 111.7511,
-    popularity: 7,
+    popularity: 8,
   },
 
   // ========== 东北菜 ==========
@@ -1557,7 +1557,7 @@ export const FOODS_FAMOUS: Food[] = [
     alias: ["虾籽海参", "虾子大参"],
     image: "https://img2.baidu.com/it/u=1603847024,3038340282&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=891",
     category: "主菜",
-    taste: "咸鲜",
+    taste: "咸甜",
     type: "traditional",
     cuisine: "本帮菜",
     province: "上海",
@@ -1605,7 +1605,7 @@ export const FOODS_FAMOUS: Food[] = [
     alias: ["血鸭"],
     image: "https://img0.baidu.com/it/u=492417539,2144428195&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=750",
     category: "主菜",
-    taste: "香辣",
+    taste: "鲜辣",
     type: "traditional",
     cuisine: "赣菜",
     province: "江西",
@@ -1639,7 +1639,7 @@ export const FOODS_FAMOUS: Food[] = [
     ingredients: ["豆腐", "猪肉", "香菇", "葱", "酱油"],
     cookingMethod: ["烧"],
     tags: ["豆腐", "赣菜经典", "吉安名菜", "家常菜", "嫩滑", "下饭", "酥脆"],
-    fame: "地方名吃",
+    fame: "普通",
     popularRegions: ["江西"],
     lat: 27.1133,
     lng: 114.9863,
@@ -1668,7 +1668,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["河南"],
     lat: 34.7971,
     lng: 114.3081,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "famous-76",
@@ -1687,11 +1687,11 @@ export const FOODS_FAMOUS: Food[] = [
     ingredients: ["鱼肉", "酱油", "糖", "料酒", "葱"],
     cookingMethod: ["煎", "扒"],
     tags: ["鲭鱼", "豫菜经典", "洛阳名菜", "煎扒", "宴席菜", "浓油赤酱", "酥脆"],
-    fame: "名菜",
+    fame: "地方名吃",
     popularRegions: ["河南"],
     lat: 34.6197,
     lng: 112.454,
-    popularity: 8,
+    popularity: 6,
   },
 
   // ========== 鄂菜 ==========
@@ -1932,7 +1932,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["陕西", "西北"],
     lat: 34.4998,
     lng: 109.5098,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "famous-89",
@@ -1955,7 +1955,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["陕西"],
     lat: 34.3416,
     lng: 108.9398,
-    popularity: 8,
+    popularity: 7,
   },
 
   // ========== 新疆菜 ==========
@@ -2005,7 +2005,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["北京", "华北"],
     lat: 39.9042,
     lng: 116.4074,
-    popularity: 8,
+    popularity: 7,
   },
 
   {
@@ -2018,7 +2018,7 @@ export const FOODS_FAMOUS: Food[] = [
     type: "traditional",
     cuisine: "客家菜",
     province: "广东",
-    city: "梅州",
+    city: "惠州",
     origin: "惠州客家传统，客家菜「扣」技代表",
     description:
       "梅菜扣肉以五花肉与惠州梅菜同蒸。肉烂菜酥，肥而不腻，梅菜吸油增香。是客家菜代表，惠州梅菜为「惠州三宝」之一。肉片扣梅菜倒扣上桌，故名「扣肉」。是客家宴席必备，体现客家「以腌菜配肉」的智慧。",
@@ -2053,7 +2053,7 @@ export const FOODS_FAMOUS: Food[] = [
     fame: "名菜",
     popularRegions: ["重庆"],
     lat: 29.53,
-    lng: 106.569,
+    lng: 108.7707,
     popularity: 8,
   },
 
@@ -2078,7 +2078,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["香港", "广东", "全国"],
     lat: 22.3193,
     lng: 114.1694,
-    popularity: 9,
+    popularity: 8,
   },
 
   // ========== 澳门 ==========
@@ -2154,7 +2154,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularRegions: ["江苏", "全国"],
     lat: 31.2989,
     lng: 120.5853,
-    popularity: 8,
+    popularity: 7,
   },
   {
     id: "famous-100",
@@ -2180,7 +2180,7 @@ export const FOODS_FAMOUS: Food[] = [
     popularity: 6,
   },
   {
-    "id": "famous-102",
+    "id": "famous-104",
     "name": "京酱肉丝",
     "alias": ["酱肉丝"],
     "image": "http://www.guangyuanol.cn/uploads/220122/13-220122153333213.png",
@@ -2538,7 +2538,7 @@ export const FOODS_FAMOUS: Food[] = [
       "烧"
     ],
     tags: ["鳝鱼", "湖鲜", "浙菜", "绵软", "咸鲜", "主菜", "浙江"],
-    "fame": "名菜",
+    "fame": "地方名吃",
     "popularRegions": [
       "浙江",
       "全国"
@@ -2568,7 +2568,7 @@ export const FOODS_FAMOUS: Food[] = [
       "蒸"
     ],
     "tags": ["海鱼", "红糟", "闽菜", "糟香", "嫩滑"],
-    "fame": "名菜",
+    "fame": "地方名吃",
     "popularRegions": [
       "福建",
       "全国"

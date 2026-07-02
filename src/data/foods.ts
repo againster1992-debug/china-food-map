@@ -78,7 +78,11 @@ import { FOODS_BATCH28_TRENDING_2026 } from "./foods-batch28-trending-2026";
 import { FOODS_BATCH28_HOT100 } from "./foods-batch28-hot100";
 import { FOODS_BATCH29_FAMOUS100 } from "./foods-batch29-famous100";
 import { FOODS_BATCH29_FOOD_TRADITIONS } from "./foods-batch29-food-traditions";
+import { FOODS_BATCH30_SUPPLEMENT } from "./foods-batch30-supplement";
+import { FOODS_BATCH31_JIANGXI_SUPPLEMENT } from "./foods-batch31-jiangxi-supplement";
+import { FOODS_BATCH32_SOUTHWEST_SUPPLEMENT } from "./foods-batch32-southwest-supplement";
 import { FOODS_NATIONAL } from "./foods-national";
+import { FOODS_BATCH33_NORTH_SUPPLEMENT } from "./foods-batch33-north-supplement";
 import { FOODS_RESTORED_COMPLIANCE } from "./foods-restored-compliance";
 
 /**
@@ -174,7 +178,11 @@ export const FOODS: Food[] = [
   ...FOODS_BATCH28_HOT100,
   ...FOODS_BATCH29_FAMOUS100,
   ...FOODS_BATCH29_FOOD_TRADITIONS,
+  ...FOODS_BATCH30_SUPPLEMENT,
+  ...FOODS_BATCH31_JIANGXI_SUPPLEMENT,
+  ...FOODS_BATCH32_SOUTHWEST_SUPPLEMENT,
   ...FOODS_NATIONAL,
+  ...FOODS_BATCH33_NORTH_SUPPLEMENT,
   ...FOODS_RESTORED_COMPLIANCE,
 ].filter((f): f is Food => !!f); // 过滤掉注释块导致的 undefined 元素
 

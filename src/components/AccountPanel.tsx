@@ -27,7 +27,7 @@ export default function AccountPanel() {
   ];
 
   return (
-    <aside className="fixed right-0 top-16 z-[1200] flex h-[calc(100%-4rem)] w-full max-w-md flex-col animate-slide-in-right border-l border-ochre-500/20 bg-paper-50/95 shadow-panel backdrop-blur-md">
+    <aside className="fixed right-0 top-16 z-[1200] flex h-[calc(100%-4rem)] w-full max-w-sm flex-col animate-slide-in-right border-l border-ochre-500/20 bg-paper-50/95 shadow-panel backdrop-blur-md">
       {/* 头部 */}
       <div className="flex items-center justify-between border-b border-ochre-500/15 px-5 py-3">
         <h2 className="flex items-center gap-2 font-serif text-sm font-bold text-ink-900">
