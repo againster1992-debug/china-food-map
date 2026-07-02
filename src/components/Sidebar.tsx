@@ -2,7 +2,7 @@ import { useMemo, useState } from "react";
 import { Search, X, ChevronDown, MapPin, Utensils, Trophy, Star, ChevronsDownUp, ChevronsUpDown } from "lucide-react";
 import { useStore } from "@/store/useStore";
 import type { Food, Cuisine, Province } from "@/types/food";
-import { EIGHT_CUISINES } from "@/types/food";
+import { FOUR_CUISINES, EIGHT_CUISINES, CUISINES } from "@/types/food";
 import { FoodImage } from "./FoodImage";
 
 export default function Sidebar() {
@@ -18,11 +18,24 @@ export default function Sidebar() {
   const openProvincePanel = useStore((s) => s.openProvincePanel);
   const filterProvinces = useStore((s) => s.filterProvinces);
   const toggleProvince = useStore((s) => s.toggleProvince);
+  const filterCuisines = useStore((s) => s.filterCuisines);
+  const toggleCuisine = useStore((s) => s.toggleCuisine);
   const clearFilters = useStore((s) => s.clearFilters);
 
   const [collapsedGroups, setCollapsedGroups] = useState<Set<string>>(new Set());
 
   const filteredFoods = getFilteredFoods();
+
+  // 菜系分组列表（静态，不需要 useMemo）
+  const fourCuisinesList = CUISINES.filter((c) => FOUR_CUISINES.includes(c));
+  const eightRestList = CUISINES.filter(
+    (c) => EIGHT_CUISINES.includes(c) && !FOUR_CUISINES.includes(c),
+  );
+  const otherCuisinesList = CUISINES.filter(
+    (c) => !EIGHT_CUISINES.includes(c) && c !== "其他",
+  );
+  const otherSpecialList = CUISINES.filter((c) => c === "其他");
+  const allCuisinesOrdered = [...fourCuisinesList, ...eightRestList, ...otherCuisinesList.sort((a, b) => a.localeCompare(b, "zh")), ...otherSpecialList];
 
   // 分组
   const grouped = useMemo(() => {
@@ -32,17 +45,16 @@ export default function Sidebar() {
       if (!map.has(key)) map.set(key, []);
       map.get(key)!.push(f);
     }
-    // 排序：菜系按八大菜系顺序，省份按字母
+    // 排序：菜系按四大→八大续→其他菜系顺序，省份按字母
     if (groupBy === "cuisine") {
       const sorted = new Map<string, Food[]>();
-      for (const c of EIGHT_CUISINES) {
+      for (const c of allCuisinesOrdered) {
         if (map.has(c)) sorted.set(c, map.get(c)!);
       }
-      if (map.has("其他")) sorted.set("其他", map.get("其他")!);
       return sorted;
     }
-    return new Map([...map.entries()].sort((a, b) => a[0].localeCompare(b[0], "zh")));
-  }, [filteredFoods, groupBy]);
+    return new Map([...map.entries()].sort((a, b) => String(a[0]).localeCompare(String(b[0]), "zh")));
+  }, [filteredFoods, groupBy, allCuisinesOrdered]);
 
   const toggleGroup = (key: string) => {
     setCollapsedGroups((prev) => {
@@ -159,6 +171,89 @@ export default function Sidebar() {
             按省份
           </button>
         </div>
+
+        {/* 菜系筛选（仅按菜系分组时显示） */}
+        {groupBy === "cuisine" && (
+          <div className="mt-3 space-y-2">
+            {/* 四大菜系 */}
+            <div>
+              <div className="mb-1 flex items-center gap-1.5">
+                <span className="h-2 w-2 rounded-full bg-cinnabar-500" />
+                <span className="font-serif text-xs font-semibold text-cinnabar-600">四大菜系</span>
+              </div>
+              <div className="flex flex-wrap gap-1.5">
+                {fourCuisinesList.map((c) => {
+                  const isActive = filterCuisines.includes(c);
+                  return (
+                    <button
+                      key={c}
+                      onClick={() => toggleCuisine(c)}
+                      className={`rounded-full px-2.5 py-1 font-serif text-[11px] transition-all ${
+                        isActive
+                          ? "bg-cinnabar-500 text-paper-50 shadow-seal"
+                          : "border border-cinnabar-500/40 bg-cinnabar-50/40 text-cinnabar-600 hover:bg-cinnabar-50"
+                      }`}
+                    >
+                      {c}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* 八大菜系（续） */}
+            <div>
+              <div className="mb-1 flex items-center gap-1.5">
+                <span className="h-2 w-2 rounded-full bg-ochre-500" />
+                <span className="font-serif text-xs font-semibold text-ochre-600">八大菜系</span>
+              </div>
+              <div className="flex flex-wrap gap-1.5">
+                {eightRestList.map((c) => {
+                  const isActive = filterCuisines.includes(c);
+                  return (
+                    <button
+                      key={c}
+                      onClick={() => toggleCuisine(c)}
+                      className={`rounded-full px-2.5 py-1 font-serif text-[11px] transition-all ${
+                        isActive
+                          ? "bg-cinnabar-500 text-paper-50 shadow-seal"
+                          : "border border-ochre-500/30 bg-ochre-50/30 text-ochre-700 hover:bg-ochre-50"
+                      }`}
+                    >
+                      {c}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* 其他菜系 */}
+            <div>
+              <div className="mb-1 flex items-center gap-1.5">
+                <span className="h-2 w-2 rounded-full bg-ink-400" />
+                <span className="font-serif text-xs font-semibold text-ink-500">其他菜系</span>
+              </div>
+              <div className="flex flex-wrap gap-1.5">
+                {[...otherCuisinesList, ...otherSpecialList].map((c) => {
+                  const isActive = filterCuisines.includes(c);
+                  return (
+                    <button
+                      key={c}
+                      onClick={() => toggleCuisine(c)}
+                      className={`rounded-full px-2.5 py-1 font-serif text-[11px] transition-all ${
+                        isActive
+                          ? "bg-cinnabar-500 text-paper-50 shadow-seal"
+                          : "border border-ink-300/30 bg-paper-100/60 text-ink-700 hover:bg-paper-200"
+                      }`}
+                    >
+                      {c}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+        )}
       </div>
 
       {/* 列表 */}
